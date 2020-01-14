@@ -1,0 +1,2310 @@
+{
+   "metal":{
+      "copper":{
+         "noun":"copper",
+         "plural":"copper",
+         "adjective":"copper",
+         "value":0.5,
+         "weight_multiplier":{
+            "iron":1.14,
+            "wood":12.42
+         }
+      },
+      "bronze":{
+         "noun":"bronze",
+         "plural":"bronze",
+         "adjective":"bronze",
+         "value":0.8,
+         "weight_multiplier":{
+            "iron":1.14,
+            "wood":12.42
+         }
+      },
+      "silver":{
+         "noun":"silver",
+         "plural":"silver",
+         "adjective":"silver",
+         "value":40,
+         "weight_multiplier":{
+            "iron":1.33,
+            "wood":14.56
+         }
+      },
+      "gold":{
+         "noun":"gold",
+         "plural":"gold",
+         "adjective":"golden",
+         "value":300,
+         "weight_multiplier":{
+            "iron":2.46,
+            "wood":26.8
+         }
+      },
+      "iron":{
+         "noun":"iron",
+         "plural":"iron",
+         "adjective":"iron",
+         "value":1,
+         "weight_multiplier":{
+            "iron":1,
+            "wood":10.91
+         }
+      },
+      "steel":{
+         "noun":"steel",
+         "plural":"steel",
+         "adjective":"steel",
+         "value":10,
+         "weight_multiplier":{
+            "iron":1,
+            "wood":10.91
+         }
+      },
+      "lead":{
+         "noun":"lead",
+         "plural":"lead",
+         "adjective":"lead",
+         "value":0.2,
+         "weight_multiplier":{
+            "iron":1.45,
+            "wood":15.76
+         }
+      },
+      "platinum":{
+         "noun":"platinum",
+         "plural":"platinum",
+         "adjective":"platinum",
+         "value":300,
+         "weight_multiplier":{
+            "iron":2.73,
+            "wood":15.76
+         }
+      },
+      "mithral":{
+         "noun":"mithral",
+         "plural":"mithral",
+         "adjective":"mithral",
+         "value":1000,
+         "weight_multiplier":{
+            "iron":0.25,
+            "wood":2.72
+         }
+      }
+   },
+   "cloth":{
+      "canvas":{
+         "noun":"canvas",
+         "value":0.1,
+         "weight_multiplier":{
+            "cloth":1,
+            "leather":1.75
+         }
+      },
+      "burlap":{
+         "noun":"burlap",
+         "value":0.2,
+         "weight_multiplier":{
+            "cloth":1,
+            "leather":1.75
+         }
+      },
+      "hemp":{
+         "noun":"hemp",
+         "value":0.2,
+         "weight_multiplier":{
+            "cloth":1,
+            "leather":1.75
+         }
+      },
+      "linen":{
+         "noun":"linen",
+         "weight_multiplier":{
+            "cloth":1,
+            "leather":1.75
+         },
+         "value":8
+      },
+      "cotton":{
+         "noun":"cotton",
+         "weight_multiplier":{
+            "cloth":1,
+            "leather":1.75
+         },
+         "value":4
+      },
+      "wool":{
+         "noun":"wool",
+         "weight_multiplier":{
+            "cloth":1,
+            "leather":1.75
+         },
+         "value":1
+      },
+      "lace":{
+         "noun":"lace",
+         "weight_multiplier":{
+            "cloth":1,
+            "leather":1.75
+         },
+         "value":5
+      },
+      "silk":{
+         "noun":"silk",
+         "weight_multiplier":{
+            "cloth":1,
+            "leather":1.75
+         },
+         "value":15
+      }
+   },
+   "leather":{
+      "bear":{
+         "noun":"bear leather",
+         "value":4,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "wolf":{
+         "noun":"wolf leather",
+         "value":3,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "fox":{
+         "noun":"fox leather",
+         "value":6,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "panther":{
+         "noun":"panther leather",
+         "value":12,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "lion":{
+         "noun":"lion leather",
+         "value":18,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "cougar":{
+         "noun":"cougar leather",
+         "value":10,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "tiger":{
+         "noun":"tiger leather",
+         "value":18,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "elk":{
+         "noun":"elk leather",
+         "value":3,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "moose":{
+         "noun":"moose leather",
+         "value":3,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "deer":{
+         "noun":"deer leather",
+         "value":1,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "cow":{
+         "noun":"cow leather",
+         "value":0.5,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "ox":{
+         "noun":"ox leather",
+         "value":0.5,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "horse":{
+         "noun":"horse leather",
+         "value":1,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "sheep":{
+         "noun":"sheep leather",
+         "value":0.5,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "goat":{
+         "noun":"goat leather",
+         "value":0.5,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "pig":{
+         "noun":"pig leather",
+         "value":0.5,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "mule":{
+         "noun":"mule leather",
+         "value":1,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "donkey":{
+         "noun":"donkey leather",
+         "value":1,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "squirrel":{
+         "noun":"squirrel leather",
+         "value":0.5,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "elephant":{
+         "noun":"elephant leather",
+         "value":12,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "walrus":{
+         "noun":"walrus leather",
+         "value":10,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "seal":{
+         "noun":"seal leather",
+         "value":8,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "hippo":{
+         "noun":"hippo leather",
+         "value":15,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "cobra":{
+         "noun":"cobra skin",
+         "value":6,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "adder":{
+         "noun":"adder skin",
+         "value":3,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      }
+   },
+   "fur":{
+      "bear":{
+         "noun":"bear fur",
+         "value":5,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "wolf":{
+         "noun":"wolf fur",
+         "value":3,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "panther":{
+         "noun":"panther fur",
+         "value":8,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "lion":{
+         "noun":"lion fur",
+         "value":10,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "cougar":{
+         "noun":"cougar fur",
+         "value":8,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "yeti":{
+         "noun":"yeti fur",
+         "value":15,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "tiger":{
+         "noun":"tiger fur",
+         "value":10,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "beaver":{
+         "noun":"beaver fur",
+         "value":2,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "badger":{
+         "noun":"badger fur",
+         "value":3,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "bobcat":{
+         "noun":"bobcat fur",
+         "value":3,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "coyote":{
+         "noun":"coyote fur",
+         "value":3,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "lynx":{
+         "noun":"lynx fur",
+         "value":5,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "opossum":{
+         "noun":"opossum fur",
+         "value":2,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "otter":{
+         "noun":"otter fur",
+         "value":5,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "rabbit":{
+         "noun":"rabbit fur",
+         "value":1,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "raccoon":{
+         "noun":"raccoon fur",
+         "value":1,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "skunk":{
+         "noun":"skunk fur",
+         "value":2,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "squirrel":{
+         "noun":"squirrel fur",
+         "value":1,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "weasel":{
+         "noun":"weasel fur",
+         "value":1,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      },
+      "wolverine":{
+         "noun":"wolverine fur",
+         "value":3,
+         "weight_multiplier":{
+            "iron":8.7,
+            "cloth":0.57,
+            "leather":1
+         }
+      }
+   },
+   "wood":{
+      "oak":{
+         "noun":"oak",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "pine":{
+         "noun":"pine",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "beech":{
+         "noun":"beech",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "spruce":{
+         "noun":"spruce",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "maple":{
+         "noun":"maple",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "elm":{
+         "noun":"elm",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "palm":{
+         "noun":"palm",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "apple":{
+         "noun":"apple",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "poplar":{
+         "noun":"poplar",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "hornbeam":{
+         "noun":"hornbeam",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "yew":{
+         "noun":"yew",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "chestnut":{
+         "noun":"chestnut",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "willow":{
+         "noun":"willow",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "ash":{
+         "noun":"ash",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "alder":{
+         "noun":"alder",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "cypress":{
+         "noun":"cypress",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "cherry":{
+         "noun":"cherry",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "cedar":{
+         "noun":"cedar",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "mahogany":{
+         "noun":"mahogany",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "holly":{
+         "noun":"holly",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "vine":{
+         "noun":"vine",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "blackthorn":{
+         "noun":"blackthorn",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "larch":{
+         "noun":"larch",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      },
+      "elder":{
+         "noun":"elder",
+         "value":0.15,
+         "weight_multiplier":{
+            "iron":0.09,
+            "wood":1
+         }
+      }
+   },
+   "flowers":{
+      "rose":{
+         "noun":"rose",
+         "value":0.01
+      },
+      "tulip":{
+         "noun":"tulip",
+         "value":0.01
+      },
+      "daffodil":{
+         "noun":"daffodil",
+         "value":0.01
+      },
+      "daisy":{
+         "noun":"daisy",
+         "value":0.01
+      },
+      "buttercup":{
+         "noun":"buttercup",
+         "value":0.01
+      },
+      "sunflower":{
+         "noun":"sunflower",
+         "value":0.01
+      },
+      "hibiscus":{
+         "noun":"hibiscus flower",
+         "value":0.01
+      },
+      "guzmania":{
+         "noun":"guzmania flower",
+         "value":0.01
+      },
+      "iris":{
+         "noun":"iris flower",
+         "value":0.01
+      },
+      "anthurium":{
+         "noun":"anthurium flower",
+         "value":0.01
+      },
+      "lavender":{
+         "noun":"lavender",
+         "value":0.01
+      },
+      "tiger lilly":{
+         "noun":"tiger lilly",
+         "value":0.01
+      }
+   },
+   "stone":{
+      "marble":{
+         "noun":"marble",
+         "value":1,
+         "weight_multiplier":{
+            "iron":0.35,
+            "wood":3.78
+         }
+      },
+      "chert":{
+         "noun":"chert",
+         "value":0.2,
+         "weight_multiplier":{
+            "iron":0.35,
+            "wood":3.78
+         }
+      },
+      "gneiss":{
+         "noun":"gneiss",
+         "value":0.3,
+         "weight_multiplier":{
+            "iron":0.35,
+            "wood":3.78
+         }
+      },
+      "granite":{
+         "noun":"granite",
+         "value":0.35,
+         "weight_multiplier":{
+            "iron":0.35,
+            "wood":3.78
+         }
+      },
+      "sandstone":{
+         "noun":"sandstone",
+         "value":0.3,
+         "weight_multiplier":{
+            "iron":0.35,
+            "wood":3.78
+         }
+      },
+      "gabbro":{
+         "noun":"gabbro",
+         "value":0.2,
+         "weight_multiplier":{
+            "iron":0.35,
+            "wood":3.78
+         }
+      },
+      "dolomite":{
+         "noun":"dolomite",
+         "value":0.2,
+         "weight_multiplier":{
+            "iron":0.35,
+            "wood":3.78
+         }
+      },
+      "basalt":{
+         "noun":"basalt",
+         "value":0.2,
+         "weight_multiplier":{
+            "iron":0.35,
+            "wood":3.78
+         }
+      },
+      "diorite":{
+         "noun":"diorite",
+         "value":0.3,
+         "weight_multiplier":{
+            "iron":0.35,
+            "wood":3.78
+         }
+      },
+      "limestone":{
+         "noun":"palm",
+         "value":0.5,
+         "weight_multiplier":{
+            "iron":0.35,
+            "wood":3.78
+         }
+      },
+      "schist":{
+         "noun":"schist",
+         "value":0.2,
+         "weight_multiplier":{
+            "iron":0.35,
+            "wood":3.78
+         }
+      },
+      "slate":{
+         "noun":"slate",
+         "value":0.3,
+         "weight_multiplier":{
+            "iron":0.35,
+            "wood":3.78
+         }
+      }
+   },
+   "gemstone":{
+      "diamond":{
+         "noun":"diamond",
+         "plural":"diamonds",
+         "value":5000
+      },
+      "star ruby":{
+         "noun":"star ruby",
+         "plural":"star rubies",
+         "value":1000
+      },
+      "topaz":{
+         "noun":"topaz",
+         "plural":"topaz",
+         "value":500
+      },
+      "emerald":{
+         "noun":"emerald",
+         "plural":"emeralds",
+         "value":1000
+      },
+      "sapphire":{
+         "noun":"sapphire",
+         "plural":"sapphires",
+         "value":1000
+      },
+      "amethyst":{
+         "noun":"amethyst",
+         "plural":"amethysts",
+         "value":100
+      },
+      "onyx":{
+         "noun":"onyx",
+         "plural":"onyx",
+         "value":50
+      },
+      "jade":{
+         "noun":"jade",
+         "plural":"jade",
+         "value":100
+      },
+      "fire opal":{
+         "noun":"fire opal",
+         "plural":"fire opals",
+         "value":1000
+      },
+      "citrine":{
+         "noun":"citrine",
+         "plural":"citrine",
+         "value":50
+      },
+      "jasper":{
+         "noun":"jasper",
+         "plural":"jasper",
+         "value":50
+      },
+      "moonstone":{
+         "noun":"moonstone",
+         "plural":"moonstones",
+         "value":50
+      },
+      "zircon":{
+         "noun":"zircon",
+         "plural":"zircons",
+         "value":50
+      },
+      "peridot":{
+         "noun":"peridot",
+         "plural":"peridot",
+         "value":50
+      },
+      "garnet":{
+         "noun":"garnet",
+         "plural":"garnet",
+         "value":100
+      },
+      "citrine":{
+         "noun":"citrine",
+         "plural":"citrines",
+         "value":50
+      },
+      "bloodstone":{
+         "noun":"bloodstone",
+         "plural":"bloodstones",
+         "value":50
+      },
+      "tiger eye turquoise":{
+         "noun":"tiger eye turquoise",
+         "plural":"tiger eye turquoise",
+         "value":10
+      },
+      "azurite":{
+         "noun":"azurite",
+         "plural":"azurite",
+         "value":10
+      },
+      "moss agate":{
+         "noun":"moss agate",
+         "plural":"moss agate",
+         "value":10
+      }
+   },
+   "glass":{
+      "green":{
+         "noun":"green glass",
+         "plural":"green glass",
+         "value":1
+      },
+      "clear":{
+         "noun":"clear glass",
+         "plural":"clear glass",
+         "value":10
+      },
+      "crystal":{
+         "noun":"crystal glass",
+         "plural":"crystal glass",
+         "value":5
+      }
+   },
+   "bone":{
+      "dragon":{
+         "noun":"dragon bone",
+         "plural":"dragon bones",
+         "magical":true,
+         "value":250
+      },
+      "unicorn":{
+         "noun":"unicorn bone",
+         "plural":"unicorn bones",
+         "magical":true,
+         "value":250
+      },
+      "troll":{
+         "noun":"troll bone",
+         "plural":"troll bones",
+         "magical":true,
+         "value":25
+      },
+      "chimera":{
+         "noun":"chimera bone",
+         "plural":"chimera bones",
+         "magical":true,
+         "value":100
+      },
+      "pegasus":{
+         "noun":"pegasus bone",
+         "plural":"pegasus bones",
+         "magical":true,
+         "value":100
+      },
+      "basilisk":{
+         "noun":"basilisk bone",
+         "plural":"basilisk bones",
+         "magical":true,
+         "value":50
+      },
+      "cockatrice":{
+         "noun":"cockatrice bone",
+         "plural":"cockatrice bones",
+         "magical":true,
+         "value":50
+      },
+      "hydra":{
+         "noun":"hydra bone",
+         "plural":"hydra bones",
+         "magical":true,
+         "value":100
+      },
+      "griffon":{
+         "noun":"griffon bone",
+         "plural":"griffon bones",
+         "magical":true,
+         "value":50
+      },
+      "manticore":{
+         "noun":"manticore bone",
+         "plural":"manticore bones",
+         "magical":true,
+         "value":100
+      },
+      "owlbear":{
+         "noun":"owlbear bone",
+         "plural":"owlbear bones",
+         "magical":true,
+         "value":50
+      },
+      "worg":{
+         "noun":"worg bone",
+         "plural":"worg bones",
+         "magical":true,
+         "value":10
+      },
+      "bear":{
+         "noun":"bear bone",
+         "plural":"bear bones",
+         "magical":false,
+         "value":1
+      },
+      "boar":{
+         "noun":"boar bone",
+         "plural":"boar bones",
+         "magical":false,
+         "value":1
+      },
+      "badger":{
+         "noun":"badger bone",
+         "plural":"badger bones",
+         "magical":false,
+         "value":1
+      },
+      "camel":{
+         "noun":"camel bone",
+         "plural":"camel bones",
+         "magical":false,
+         "value":1
+      },
+      "crocodile":{
+         "noun":"crocodile bone",
+         "plural":"crocodile bones",
+         "magical":false,
+         "value":1
+      },
+      "donkey":{
+         "noun":"donkey bone",
+         "plural":"donkey bones",
+         "magical":false,
+         "value":1
+      },
+      "dog":{
+         "noun":"boar bone",
+         "plural":"boar bones",
+         "magical":false,
+         "value":1
+      },
+      "eagle":{
+         "noun":"eagle bone",
+         "plural":"eagle bones",
+         "magical":false,
+         "value":1
+      },
+      "elephant":{
+         "noun":"elephant bone",
+         "plural":"elephant bones",
+         "magical":false,
+         "value":1
+      },
+      "hawk":{
+         "noun":"hawk bone",
+         "plural":"hawk bones",
+         "magical":false,
+         "value":1
+      },
+      "horse":{
+         "noun":"horse bone",
+         "plural":"horse bones",
+         "magical":false,
+         "value":1
+      },
+      "hyena":{
+         "noun":"hyena bone",
+         "plural":"hyena bones",
+         "magical":false,
+         "value":1
+      },
+      "leopard":{
+         "noun":"leopard bone",
+         "plural":"leopard bones",
+         "magical":false,
+         "value":1
+      },
+      "lion":{
+         "noun":"lion bone",
+         "plural":"lion bones",
+         "magical":false,
+         "value":1
+      },
+      "mule":{
+         "noun":"mule bone",
+         "plural":"mule bones",
+         "magical":false,
+         "value":1
+      },
+      "monkey":{
+         "noun":"monkey bone",
+         "plural":"monkey bones",
+         "magical":false,
+         "value":1
+      },
+      "mule":{
+         "noun":"mule bone",
+         "plural":"mule bones",
+         "magical":false,
+         "value":1
+      },
+      "owl":{
+         "noun":"owl bone",
+         "plural":"owl bones",
+         "magical":false,
+         "value":1
+      },
+      "raven":{
+         "noun":"raven bone",
+         "plural":"raven bones",
+         "magical":false,
+         "value":1
+      },
+      "tiger":{
+         "noun":"tiger bone",
+         "plural":"tiger bones",
+         "magical":false,
+         "value":1
+      },
+      "vulture":{
+         "noun":"vulture bone",
+         "plural":"vulture bones",
+         "magical":false,
+         "value":1
+      },
+      "wolf":{
+         "noun":"wolf bone",
+         "plural":"wolf bones",
+         "magical":false,
+         "value":1
+      },
+      "wolverine":{
+         "noun":"wolverine bone",
+         "plural":"wolverine bones",
+         "magical":false,
+         "value":1
+      },
+      "weasel":{
+         "noun":"weasel bone",
+         "plural":"weasel bones",
+         "magical":false,
+         "value":1
+      },
+      "snake":{
+         "noun":"snake bone",
+         "plural":"snake bones",
+         "magical":false,
+         "value":1
+      },
+      "orc":{
+         "noun":"orc bone",
+         "plural":"orc bones",
+         "magical":false,
+         "value":1
+      },
+      "human":{
+         "noun":"human bone",
+         "plural":"human bones",
+         "magical":false,
+         "value":1
+      },
+      "elf":{
+         "noun":"elf bone",
+         "plural":"elf bones",
+         "magical":false,
+         "value":1
+      },
+      "dwarf":{
+         "noun":"dwarf bone",
+         "plural":"dwarf bones",
+         "magical":false,
+         "value":1
+      },
+      "halfling":{
+         "noun":"halfling bone",
+         "plural":"halfling bones",
+         "magical":false,
+         "value":1
+      },
+      "gnome":{
+         "noun":"gnome bone",
+         "plural":"gnome bones",
+         "magical":false,
+         "value":1
+      },
+      "tiefling":{
+         "noun":"tiefling bone",
+         "plural":"tiefling bones",
+         "magical":false,
+         "value":1
+      },
+      "dragonborn":{
+         "noun":"dragonborn bone",
+         "plural":"dragonborn bones",
+         "magical":false,
+         "value":1
+      },
+      "demon":{
+         "noun":"demon bone",
+         "plural":"demon bones",
+         "magical":false,
+         "value":1
+      },
+      "goblin":{
+         "noun":"goblin bone",
+         "plural":"goblin bones",
+         "magical":false,
+         "value":1
+      },
+      "giant":{
+         "noun":"giant bone",
+         "plural":"giant bones",
+         "magical":false,
+         "value":1
+      },
+      "ogre":{
+         "noun":"ogre bone",
+         "plural":"ogre bones",
+         "magical":false,
+         "value":1
+      }
+   },
+   "magical":{
+      "phoenix feather":{
+         "noun":"phoenix feather",
+         "plural":"phoenix feathers",
+         "value":1000
+      },
+      "dragon heartstring":{
+         "noun":"dragon heartstring",
+         "plural":"dragon heartstrings",
+         "value":1000
+      },
+      "dragon eye":{
+         "noun":"dragon eye",
+         "plural":"dragon eyes",
+         "value":800
+      },
+      "dragon sinew":{
+         "noun":"dragon sinew",
+         "plural":"dragon sinews",
+         "value":300
+      },
+      "dragon scale":{
+         "noun":"dragon scale",
+         "plural":"dragon scales",
+         "value":250
+      },
+      "dragon tooth":{
+         "noun":"dragon tooth",
+         "plural":"dragon teeth",
+         "value":300
+      },
+      "dragon claw":{
+         "noun":"dragon claw",
+         "plural":"dragon claws",
+         "value":300
+      },
+      "unicorn horn":{
+         "noun":"unicorn horn",
+         "plural":"unicorn horns",
+         "value":2500
+      },
+      "unicorn hair":{
+         "noun":"unicorn hair",
+         "plural":"unicorn hairs",
+         "value":600
+      },
+      "basilisk eye":{
+         "noun":"basilisk eye",
+         "plural":"basilisk eyes",
+         "value":150
+      },
+      "basilisk horn":{
+         "noun":"basilisk horn",
+         "plural":"basilisk horns",
+         "value":150
+      },
+      "troll fang":{
+         "noun":"troll fang",
+         "plural":"troll fangs",
+         "value":50
+      },
+      "cockatrice eye":{
+         "noun":"cockatrice eye",
+         "plural":"cockatrice eyes",
+         "value":75
+      },
+      "cockatrice scale":{
+         "noun":"cockatrice scale",
+         "plural":"cockatrice scales",
+         "value":25
+      },
+      "chimera fang":{
+         "noun":"chimera fang",
+         "plural":"chimera fang",
+         "value":250
+      },
+      "chimera fang":{
+         "noun":"chimera scale",
+         "plural":"chimera scales",
+         "value":250
+      },
+      "pegasus feather":{
+         "noun":"pegasus feather",
+         "plural":"pegasus feathers",
+         "value":250
+      },
+      "griffon feather":{
+         "noun":"griffon feather",
+         "plural":"griffon feathers",
+         "value":150
+      },
+      "hydra eye":{
+         "noun":"hydra eye",
+         "plural":"hydra eyes",
+         "value":250
+      },
+      "hydra scale":{
+         "noun":"hydra scale",
+         "plural":"hydra scales",
+         "value":150
+      },
+      "hydra tongue":{
+         "noun":"hydra tongue",
+         "plural":"hydra tongues",
+         "value":275
+      }
+   },
+   "horn":{
+      "dragon horn":{
+         "noun":"dragon horn",
+         "plural":"dragon horns",
+         "value":1000
+      },
+      "drake horn":{
+         "noun":"drake horn",
+         "plural":"drake horns",
+         "value":100
+      },
+      "unicorn horn":{
+         "noun":"unicorn horn",
+         "plural":"unicorn horns",
+         "value":2500
+      },
+      "oni horn":{
+         "noun":"oni horn",
+         "plural":"oni horns",
+         "value":400
+      },
+      "satyr horn":{
+         "noun":"satyr horn",
+         "plural":"satyr horns",
+         "value":250
+      },
+      "minotaur horn":{
+         "noun":"minotaur horn",
+         "plural":"minotaur horns",
+         "value":100
+      },
+      "basilisk horn":{
+         "noun":"basilisk horn",
+         "plural":"basilisk horns",
+         "value":150
+      },
+      "yeti horn":{
+         "noun":"yeti horn",
+         "plural":"yeti horns",
+         "value":80
+      },
+      "devil horn":{
+         "noun":"devil horn",
+         "plural":"devil horns",
+         "value":200
+      },
+      "kobold horn":{
+         "noun":"kobold horn",
+         "plural":"kobold horns",
+         "value":1
+      },
+      "bull horn":{
+         "noun":"bull horn",
+         "plural":"bull horns",
+         "value":2
+      },
+      "goat horn":{
+         "noun":"goat horn",
+         "plural":"goat horns",
+         "value":2
+      },
+      "buffalo horn":{
+         "noun":"buffalo horn",
+         "plural":"buffalo horns",
+         "value":3
+      },
+      "ox horn":{
+         "noun":"ox horn",
+         "plural":"ox horns",
+         "value":3
+      },
+      "gazelle horn":{
+         "noun":"gazelle horn",
+         "plural":"gazelle horns",
+         "value":5
+      },
+      "antelope horn":{
+         "noun":"antelope horn",
+         "plural":"antelope horns",
+         "value":3
+      },
+      "ibex horn":{
+         "noun":"ibex horn",
+         "plural":"ibex horns",
+         "value":3
+      },
+      "wildebeest horn":{
+         "noun":"wildebeest horn",
+         "plural":"wildebeest horns",
+         "value":7
+      },
+      "kudu horn":{
+         "noun":"kudu horn",
+         "plural":"kudu horns",
+         "value":5
+      }
+   },
+   "feather":{
+      "phoenix feather":{
+         "noun":"phoenix feather",
+         "plural":"phoenix feathers",
+         "value":1000
+      },
+      "cockatrice feather":{
+         "noun":"cockatrice feather",
+         "plural":"cockatrice feathers",
+         "value":25
+      },
+      "pegasus feather":{
+         "noun":"pegasus feather",
+         "plural":"pegasus feathers",
+         "value":250
+      },
+      "griffon feather":{
+         "noun":"griffon feather",
+         "plural":"griffon feathers",
+         "value":150
+      },
+      "crow":{
+         "noun":"crow feather",
+         "plural":"crow feathers",
+         "value":2
+      },
+      "raven":{
+         "noun":"raven feather",
+         "plural":"raven feathers",
+         "value":2
+      },
+      "hawk":{
+         "noun":"hawk feather",
+         "plural":"hawk feathers",
+         "value":2
+      },
+      "eagle":{
+         "noun":"eagle feather",
+         "plural":"eagle feathers",
+         "value":2
+      },
+      "vulture":{
+         "noun":"vulture feather",
+         "plural":"vulture feathers",
+         "value":2
+      },
+      "goose":{
+         "noun":"goose feather",
+         "plural":"goose feathers",
+         "value":4
+      },
+      "swan":{
+         "noun":"swan feather",
+         "plural":"swan feathers",
+         "value":6
+      },
+      "turkey":{
+         "noun":"turkey feather",
+         "plural":"turkey feathers",
+         "value":2
+      },
+      "owl":{
+         "noun":"owl feather",
+         "plural":"owl feathers",
+         "value":2
+      },
+      "duck":{
+         "noun":"duck feather",
+         "plural":"duck feathers",
+         "value":2
+      },
+      "albatross":{
+         "noun":"albatross feather",
+         "plural":"albatross feathers",
+         "value":4
+      },
+      "gull":{
+         "noun":"gull feather",
+         "plural":"gull feathers",
+         "value":1
+      },
+      "ostrich":{
+         "noun":"ostrich feather",
+         "plural":"ostrich feathers",
+         "value":1
+      }
+   },
+   "clay":{
+      "earthenware":{
+         "noun":"earthenware",
+         "plural":"earthenwares",
+         "value":0.1
+      },
+      "stoneware":{
+         "noun":"stoneware",
+         "plural":"stonewares",
+         "value":0.1
+      },
+      "kaolin":{
+         "noun":"kaolin",
+         "plural":"kaolins",
+         "value":1
+      },
+      "ball clay":{
+         "noun":"ball clay",
+         "plural":"ball clays",
+         "value":0.1
+      },
+      "fire clay":{
+         "noun":"fire clay",
+         "plural":"fire clays",
+         "value":0.1
+      }
+   },
+   "magic":{
+      "magic":{
+         "noun":"magical enchantment",
+         "plural":"magical enchantments",
+         "value":0
+      }
+   },
+   "meat":{
+      "beef":{
+         "noun":"beef",
+         "plural":"beef",
+         "value":0.1
+      },
+      "pork shoulder":{
+         "noun":"pork shoulder",
+         "plural":"pork shoulders",
+         "value":0.05
+      },
+      "pork loin":{
+         "noun":"pork loin",
+         "plural":"pork loins",
+         "value":0.05
+      },
+      "mutton":{
+         "noun":"mutton",
+         "plural":"mutton",
+         "value":0.06
+      },
+      "chicken breast":{
+         "noun":"chicken breast",
+         "plural":"chicken breasts",
+         "value":0.03
+      },
+      "chicken thigh":{
+         "noun":"chicken thigh",
+         "plural":"chicken thighs",
+         "value":0.03
+      },
+      "turkey breast":{
+         "noun":"turkey breast",
+         "plural":"turkey breasts",
+         "value":0.03
+      },
+      "turkey leg":{
+         "noun":"turkey leg",
+         "plural":"turkey legs",
+         "value":0.03
+      },
+      "duck breast":{
+         "noun":"duck breast",
+         "plural":"duck breasts",
+         "value":0.04
+      },
+      "quail":{
+         "noun":"quail",
+         "plural":"quail",
+         "value":0.08
+      },
+      "pheasant":{
+         "noun":"pheasant",
+         "plural":"pheasant",
+         "value":0.08
+      },
+      "venison":{
+         "noun":"venison",
+         "plural":"venison",
+         "value":0.12
+      },
+      "bacon":{
+         "noun":"bacon",
+         "plural":"bacon",
+         "value":0.03
+      },
+      "sausage":{
+         "noun":"sausage",
+         "plural":"sausage",
+         "value":0.04
+      }
+   },
+   "fish":{
+      "salmon":{
+         "noun":"salmon",
+         "plural":"salmon",
+         "value":0.06
+      },
+      "trout":{
+         "noun":"trout",
+         "plural":"trout",
+         "value":0.05
+      },
+      "bass":{
+         "noun":"bass",
+         "plural":"bass",
+         "value":0.03
+      },
+      "catfish":{
+         "noun":"catfish",
+         "plural":"catfish",
+         "value":0.03
+      },
+      "pike":{
+         "noun":"pike",
+         "plural":"pike",
+         "value":0.04
+      },
+      "carp":{
+         "noun":"carp",
+         "plural":"carp",
+         "value":0.03
+      },
+      "sturgeon":{
+         "noun":"sturgeon",
+         "plural":"sturgeon",
+         "value":0.05
+      },
+      "perch":{
+         "noun":"perch",
+         "plural":"perch",
+         "value":0.03
+      },
+      "eel":{
+         "noun":"eel",
+         "plural":"eel",
+         "value":0.03
+      },
+      "bream":{
+         "noun":"bream",
+         "plural":"bream",
+         "value":0.04
+      },
+      "rudd":{
+         "noun":"rudd",
+         "plural":"rudd",
+         "value":0.03
+      },
+      "walleye":{
+         "noun":"walleye",
+         "plural":"walleye",
+         "value":0.03
+      }
+   },
+   "bread":{
+      "manchet":{
+         "noun":"manchet",
+         "plural":"manchet",
+         "value":0.02
+      },
+      "oatcake":{
+         "noun":"oatcake",
+         "plural":"oatcakes",
+         "value":0.02
+      },
+      "rye bread":{
+         "noun":"rye bread",
+         "plural":"rye bread",
+         "value":0.02
+      },
+      "wheat bread":{
+         "noun":"wheat bread",
+         "plural":"wheat bread",
+         "value":0.02
+      },
+      "oat bread":{
+         "noun":"oat bread",
+         "plural":"oat bread",
+         "value":0.02
+      },
+      "barley bread":{
+         "noun":"barley bread",
+         "plural":"barley bread",
+         "value":0.02
+      },
+      "oat biscuits":{
+         "noun":"oat biscuit",
+         "plural":"oat biscuits",
+         "value":0.02
+      },
+      "rye biscuits":{
+         "noun":"rye biscuit",
+         "plural":"rye biscuits",
+         "value":0.02
+      },
+      "wheat biscuits":{
+         "noun":"wheat biscuit",
+         "plural":"wheat biscuits",
+         "value":0.02
+      },
+      "barley biscuits":{
+         "noun":"barley biscuit",
+         "plural":"barley biscuits",
+         "value":0.02
+      }
+   },
+   "eggs":{
+      "chicken eggs":{
+         "noun":"chicken egg",
+         "plural":"chicken eggs",
+         "value":0.01
+      },
+      "turkey eggs":{
+         "noun":"turkey egg",
+         "plural":"turkey eggs",
+         "value":0.01
+      },
+      "duck eggs":{
+         "noun":"duck egg",
+         "plural":"duck eggs",
+         "value":0.01
+      },
+      "quail eggs":{
+         "noun":"quail egg",
+         "plural":"quail eggs",
+         "value":0.02
+      },
+      "pheasant eggs":{
+         "noun":"pheasant egg",
+         "plural":"pheasant eggs",
+         "value":0.02
+      }
+   },
+   "cheese":{
+      "soft cheese":{
+         "noun":"soft cheese",
+         "plural":"soft cheeses",
+         "value":0.03
+      },
+      "sharp cheese":{
+         "noun":"sharp cheese",
+         "plural":"sharp cheeses",
+         "value":0.03
+      },
+      "cheese curds":{
+         "noun":"cheese curd",
+         "plural":"cheese curds",
+         "value":0.03
+      },
+      "hard cheese":{
+         "noun":"hard cheese",
+         "plural":"hard cheeses",
+         "value":0.03
+      },
+      "blue cheese":{
+         "noun":"blue cheese",
+         "plural":"blue cheeses",
+         "value":0.03
+      },
+      "goat cheese":{
+         "noun":"goat cheese",
+         "plural":"goat cheeses",
+         "value":0.03
+      },
+      "buffalo cheese":{
+         "noun":"buffalo cheese",
+         "plural":"buffalo cheeses",
+         "value":0.03
+      }
+   },
+   "greens":{
+      "kale":{
+         "noun":"kale",
+         "plural":"kale",
+         "value":0.02
+      },
+      "chard":{
+         "noun":"chard",
+         "plural":"chard",
+         "value":0.02
+      },
+      "spinach":{
+         "noun":"spinach",
+         "plural":"spinach",
+         "value":0.02
+      },
+      "mixed greens":{
+         "noun":"mixed greens",
+         "plural":"mixed greens",
+         "value":0.02
+      },
+      "fennel":{
+         "noun":"fennel",
+         "plural":"fennel",
+         "value":0.02
+      },
+      "cress":{
+         "noun":"cress",
+         "plural":"cress",
+         "value":0.02
+      },
+      "chicory":{
+         "noun":"chicory",
+         "plural":"chicory",
+         "value":0.02
+      },
+      "leeks":{
+         "noun":"leeks",
+         "plural":"leeks",
+         "value":0.02
+      },
+      "sorrel":{
+         "noun":"sorrel",
+         "plural":"sorrel",
+         "value":0.02
+      },
+      "celery":{
+         "noun":"celery",
+         "plural":"celery",
+         "value":0.02
+      },
+      "cabbage":{
+         "noun":"cabbage",
+         "plural":"cabbage",
+         "value":0.02
+      },
+      "lettuce":{
+         "noun":"lettuce",
+         "plural":"lettuce",
+         "value":0.02
+      }
+   },
+   "fruit":{
+      "apple":{
+         "noun":"apple",
+         "plural":"apples",
+         "value":0.02
+      },
+      "pear":{
+         "noun":"pear",
+         "plural":"pears",
+         "value":0.02
+      },
+      "orange":{
+         "noun":"orange",
+         "plural":"oranges",
+         "value":0.02
+      },
+      "cherry":{
+         "noun":"cherry",
+         "plural":"cherries",
+         "value":0.02
+      },
+      "grape":{
+         "noun":"grape",
+         "plural":"grapes",
+         "value":0.02
+      },
+      "banana":{
+         "noun":"banana",
+         "plural":"bananas",
+         "value":0.02
+      },
+      "banana":{
+         "noun":"banana",
+         "plural":"bananas",
+         "value":0.02
+      },
+      "blueberry":{
+         "noun":"blueberry",
+         "plural":"blueberries",
+         "value":0.02
+      },
+      "strawberry":{
+         "noun":"strawberry",
+         "plural":"strawberries",
+         "value":0.02
+      },
+      "raspberry":{
+         "noun":"raspberry",
+         "plural":"raspberries",
+         "value":0.02
+      },
+      "blackberry":{
+         "noun":"blackberry",
+         "plural":"blackberries",
+         "value":0.02
+      },
+      "fig":{
+         "noun":"fig",
+         "plural":"figs",
+         "value":0.02
+      },
+      "melon":{
+         "noun":"melon",
+         "plural":"melons",
+         "value":0.02
+      },
+      "guava":{
+         "noun":"guava",
+         "plural":"guava",
+         "value":0.02
+      },
+      "lemon":{
+         "noun":"lemon",
+         "plural":"lemons",
+         "value":0.02
+      },
+      "lime":{
+         "noun":"lime",
+         "plural":"limes",
+         "value":0.02
+      },
+      "pomegranate":{
+         "noun":"pomegranate",
+         "plural":"pomegranates",
+         "value":0.02
+      },
+      "cranberry":{
+         "noun":"cranberry",
+         "plural":"cranberries",
+         "value":0.02
+      },
+      "date":{
+         "noun":"date",
+         "plural":"dates",
+         "value":0.02
+      }
+   },
+   "vegetable":{
+      "tomatoes":{
+         "noun":"tomato",
+         "plural":"tomatoes",
+         "value":0.02
+      },
+      "carrots":{
+         "noun":"carrot",
+         "plural":"carrots",
+         "value":0.02
+      },
+      "parsnips":{
+         "noun":"parsnip",
+         "plural":"parsnips",
+         "value":0.02
+      },
+      "beets":{
+         "noun":"beet",
+         "plural":"beets",
+         "value":0.02
+      },
+      "radishes":{
+         "noun":"radish",
+         "plural":"radishes",
+         "value":0.02
+      },
+      "peas":{
+         "noun":"pea",
+         "plural":"peas",
+         "value":0.02
+      },
+      "green beans":{
+         "noun":"green bean",
+         "plural":"green beans",
+         "value":0.02
+      },
+      "cucumbers":{
+         "noun":"cucumber",
+         "plural":"cucumbers",
+         "value":0.02
+      },
+      "onions":{
+         "noun":"onion",
+         "plural":"onions",
+         "value":0.02
+      },
+      "sweet peppers":{
+         "noun":"sweet pepper",
+         "plural":"sweet peppers",
+         "value":0.02
+      },
+      "hot peppers":{
+         "noun":"hot pepper",
+         "plural":"hot peppers",
+         "value":0.02
+      },
+      "eggplant":{
+         "noun":"eggplant",
+         "plural":"eggplant",
+         "value":0.02
+      },
+      "cauliflower":{
+         "noun":"cauliflower",
+         "plural":"cauliflower",
+         "value":0.02
+      },
+      "broccoli":{
+         "noun":"broccoli",
+         "plural":"broccoli",
+         "value":0.02
+      }
+   },
+   "grain":{
+      "rice":{
+         "noun":"rice",
+         "plural":"rice",
+         "value":0.02
+      },
+      "quinoa":{
+         "noun":"quinoa",
+         "plural":"quinoa",
+         "value":0.02
+      },
+      "millet":{
+         "noun":"millet",
+         "plural":"millet",
+         "value":0.02
+      },
+      "quinoa":{
+         "noun":"quinoa",
+         "plural":"quinoa",
+         "value":0.02
+      },
+      "chickpea":{
+         "noun":"chickpea",
+         "plural":"chickpeas",
+         "value":0.02
+      },
+      "black beans":{
+         "noun":"black bean",
+         "plural":"black beans",
+         "value":0.02
+      },
+      "soybeans":{
+         "noun":"soybean",
+         "plural":"soybeans",
+         "value":0.02
+      },
+      "maize":{
+         "noun":"maize",
+         "plural":"maize",
+         "value":0.02
+      }
+   },
+   "stock":{
+      "chicken stock":{
+         "noun":"chicken stock",
+         "plural":"chicken stock",
+         "value":0.02
+      },
+      "fish stock":{
+         "noun":"fish stock",
+         "plural":"fish stock",
+         "value":0.02
+      },
+      "lamb stock":{
+         "noun":"lamb stock",
+         "plural":"lamb stock",
+         "value":0.02
+      },
+      "vegetable stock":{
+         "noun":"vegetable stock",
+         "plural":"vegetable stock",
+         "value":0.02
+      }
+   },
+   "spice":{
+      "black pepper":{
+         "noun":"black pepper",
+         "plural":"black pepper",
+         "value":0.05
+      },
+      "mustard":{
+         "noun":"mustard",
+         "plural":"mustard",
+         "value":0.05
+      },
+      "nutmeg":{
+         "noun":"nutmeg",
+         "plural":"nutmeg",
+         "value":0.1
+      },
+      "cayenne":{
+         "noun":"cayenne",
+         "plural":"cayenne",
+         "value":0.1
+      },
+      "cloves":{
+         "noun":"clove",
+         "plural":"cloves",
+         "value":0.1
+      },
+      "ginger":{
+         "noun":"ginger",
+         "plural":"ginger",
+         "value":0.1
+      },
+      "cinnamon":{
+         "noun":"cinnamon",
+         "plural":"cinnamon",
+         "value":0.2
+      },
+      "tumeric":{
+         "noun":"tumeric",
+         "plural":"tumeric",
+         "value":0.2
+      },
+      "garlic":{
+         "noun":"garlic",
+         "plural":"garlic",
+         "value":0.02
+      },
+      "cumin":{
+         "noun":"cumin",
+         "plural":"cumin",
+         "value":0.05
+      },
+      "oregano":{
+         "noun":"oregano",
+         "plural":"oregano",
+         "value":0.05
+      },
+      "thyme":{
+         "noun":"thyme",
+         "plural":"thyme",
+         "value":0.05
+      },
+      "rosemary":{
+         "noun":"rosemary",
+         "plural":"rosemary",
+         "value":0.05
+      },
+      "mint":{
+         "noun":"mint",
+         "plural":"mint",
+         "value":0.05
+      },
+      "sage":{
+         "noun":"sage",
+         "plural":"sage",
+         "value":0.05
+      },
+      "basil":{
+         "noun":"basil",
+         "plural":"basil",
+         "value":0.05
+      },
+      "chives":{
+         "noun":"chives",
+         "plural":"chives",
+         "value":0.05
+      }
+   },
+   "dressing":{
+      "olive oil dressing":{
+         "noun":"olive oil dressing",
+         "plural":"olive oil dressings",
+         "value":0.02
+      },
+      "vinegar dressing":{
+         "noun":"vinegar dressing",
+         "plural":"vinegar dressings",
+         "value":0.02
+      },
+      "honey mustard dressing":{
+         "noun":"honey mustard dressing",
+         "plural":"honey mustard dressings",
+         "value":0.02
+      },
+      "citrus dressing":{
+         "noun":"citrus dressing",
+         "plural":"citrus dressings",
+         "value":0.02
+      },
+      "red wine dressing":{
+         "noun":"red wine dressing",
+         "plural":"red wine dressings",
+         "value":0.02
+      }
+   }
+}
