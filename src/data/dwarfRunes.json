@@ -2,6 +2,7 @@
    "Weapon Runes":{
       "masterRuneOfTheSkylord":{
          "name":"Master Rune of the Skylord",
+         "found": false,
          "repeatable":false,
          "svg":[
             22
@@ -13,6 +14,7 @@
       },
       "masterRuneOfSwiftness":{
          "name": "Master Rune of Swiftness",
+         "found": false,
          "repeatable":false,
          "svg":[
             76
@@ -24,6 +26,7 @@
       },
       "masterRuneofSundering":{
          "name":"Master Rune of Sundering",
+         "found": false,
          "repeatable":false,
          "svg":[
             25
@@ -35,6 +38,7 @@
       },
       "masterRuneofStorms":{
          "name":"Master Rune of Storms",
+         "found": false,
          "repeatable":false,
          "svg":[
             26
@@ -46,6 +50,7 @@
       },
       "masterRuneofGlory":{
          "name":"Master Rune of Glory",
+         "found": false,
          "repeatable":false,
          "svg":[
             27
@@ -57,6 +62,7 @@
       },
       "masterRuneofStrength":{
          "name":"Master Rune of Strength",
+         "found": false,
          "repeatable":false,
          "svg":[
             34
@@ -68,6 +74,7 @@
       },
       "runeOfFrost":{
          "name": "Rune of Frost",
+         "found": true,
          "repeatable":true,
          "svg":[
             6,
@@ -83,6 +90,7 @@
       },
       "runeOfStriking":{
          "name": "Rune of Striking",
+         "found": true,
          "repeatable":true,
          "svg":[
             7,
@@ -99,6 +107,7 @@
       },
       "runeOfWarning":{
          "name": "Rune of Warning",
+         "found": false,
          "repeatable":false,
          "svg":[
             16,
@@ -113,6 +122,7 @@
       },
       "runeOfTheAncestors":{
          "name": "Rune of the Ancestors",
+         "found": true,
          "repeatable":true,
          "svg":[
             50,
@@ -129,6 +139,7 @@
       },
       "runeOfTheWind":{
          "name": "Rune of the Wind",
+         "found": false,
          "repeatable":true,
          "svg":[
             1,
@@ -144,6 +155,7 @@
       },
       "runeOfBinding":{
          "name": "Rune of Binding",
+         "found": true,
          "repeatable":false,
          "svg":[
             4,
@@ -160,6 +172,7 @@
    "Armor Runes":{
       "masterRuneofDuty":{
          "name":"Master Rune of Duty",
+         "found": false,
          "repeatable":false,
          "svg":[
             31
@@ -171,6 +184,7 @@
       },
       "masterRuneofArdor":{
          "name":"Master Rune of Ardor",
+         "found": false,
          "repeatable":false,
          "svg":[
             37
@@ -182,17 +196,19 @@
       },
       "masterRuneofthePhantom":{
          "name":"Master Rune of the Phantom",
+         "found": true,
          "repeatable":false,
          "svg":[
             41
          ],
-         "baseCost":5000,
+         "baseCost":750,
          "effects":[
-            ""
+            "Armor forged with this rune becomes cloaked in mists and shadows. Any armor that would typically have disadvantage on Stealth checks loses that penalty. If the type of armor forged already did not have a penalty, the armor instead grants Advantage on Stealth checks."
          ]
       },
       "runeOfBarbs":{
          "name":"Rune of Barbs",
+         "found": false,
          "repeatable":false,
          "svg":[
             39
@@ -204,6 +220,7 @@
       },
       "runeOfResilience":{
          "name":"Rune of Resilience",
+         "found": false,
          "repeatable":false,
          "svg":[
             43
@@ -215,6 +232,7 @@
       },
       "runeOfWarding":{
          "name":"Rune of Warding",
+         "found": false,
          "repeatable":false,
          "svg":[
             45
@@ -228,18 +246,20 @@
    "Talisman Runes":{
       "Master Rune of Protection": {
          "name": "Master Rune of Protection",
+         "found": true,
          "repeatable":true,
          "svg":[
             51
          ],
-         "baseCost":1000,
-         "maxTiers":2,
+         "baseCost": 1000,
+         "maxTiers": 1,
          "effects":[
             "An amulet, ring or necklace forged with this rune grants +1 to the wearer's Armor Class."
          ]
       },
       "Master Rune of the Spellbreaker": {
          "name": "Master Rune of the Spellbreaker",
+         "found": true,
          "repeatable":true,
          "svg":[
             74
@@ -250,8 +270,22 @@
             "This ancient rune, possibly one of the oldest in Runeforging, holds the secrets of anti-magic. As a Reaction, the rune can be activated and is treated as if the wielder had cast Counterspell. A spell of level 3 or lower is automatically dispelled as usual. The bearer may use the rune to counter a spell of level 4 or higher, but if used in this way, the bearer suffers 1d10 Force damage per level of the spell the rune is used to counter, as the overwhelming power of the spell absorbed assaults the wielder. Once used, the rune cannot be used for a number of hours equal to 1d4 times the level of spell absorbed."
          ]
       },
+      "Rune of the Elements": {
+         "name": "Rune of the Elements",
+         "found": true,
+         "repeatable":true,
+         "svg":[
+            74
+         ],
+         "baseCost":500,
+         "maxTiers":2,
+         "effects":[
+            "An amulet, ring or necklace forged with this rune grants the wearer resistance to Fire, Cold, Lighting, Thunder, Acid, Poison, Necrotic, or Radiant damage. Each successive Rune of the Elements can grant resistance to a different elemental type."
+         ]
+      },
       "Rune of Dismay":{
          "name": "Rune of Dismay",
+         "found": false,
          "repeatable":true,
          "svg":[
             68,

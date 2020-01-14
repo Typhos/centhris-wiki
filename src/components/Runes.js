@@ -77,16 +77,18 @@ class Runes extends Component {
                   return <p key={e}>{i+1} Rune(s): {e}</p>
                 });
 
-                return(
-                  <li className="rune" key={key}>
-                    <img alt="" className="runeImg" src={images('./' + this.state.activeRuneList[key].svg[0] + '.svg')} />
-                    <h3 className="runeName">
-                      <span className="name">{this.state.activeRuneList[key].name}</span>
-                    </h3>
-                    <div className="runeEffect">{effects}</div>
-                    <div className="runeCost"><span className="num">{this.state.activeRuneList[key].baseCost}</span>gp</div>
-                  </li>
-                )
+                if ( this.state.activeRuneList[key].found ) {
+                  return(
+                    <li className="rune" key={key}>
+                      <img alt="" className="runeImg" src={images('./' + this.state.activeRuneList[key].svg[0] + '.svg')} />
+                      <h3 className="runeName">
+                        <span className="name">{this.state.activeRuneList[key].name}</span>
+                      </h3>
+                      <div className="runeEffect">{effects}</div>
+                      <div className="runeCost"><span className="num">{this.state.activeRuneList[key].baseCost}</span>gp</div>
+                    </li>
+                  )
+                }
               })
             }
           </ul>

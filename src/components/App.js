@@ -35,14 +35,14 @@ class App extends Component {
 
     if ( this.state.nav.runes === true) {
       section = <Runes />;
-    } else if ( this.state.nav.places === true) {
-      section = <Places />;
-    } else if ( this.state.nav.maps === true) {
-      section = <Maps />;
-    } else if ( this.state.nav.people === true) {
-      section = <People />;
-    } else if ( this.state.nav.lore === true) {
-      section = <Lore />;
+    // } else if ( this.state.nav.places === true) {
+    //   section = <Places />;
+    // } else if ( this.state.nav.maps === true) {
+    //   section = <Maps />;
+    // } else if ( this.state.nav.people === true) {
+    //   section = <People />;
+    // } else if ( this.state.nav.lore === true) {
+    //   section = <Lore />;
     }
 
     return (
