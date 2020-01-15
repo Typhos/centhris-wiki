@@ -34,7 +34,7 @@ class Runes extends Component {
             </li>
             <li>
               <h3>Rule of Three</h3>
-              <p>No item can have more than three runes. It is virtually impossible to forge items to forge items that can bare the strain of carrying so much power.</p>
+              <p>No item can have more than three runes. It is virtually impossible to forge items that can bare the strain of carrying so much power.</p>
             </li>
             <li>
               <h3>Rule of Form</h3>
