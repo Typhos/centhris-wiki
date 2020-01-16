@@ -1,7 +1,4 @@
-
-$blueLight: #d3edfd;
-$blue: #234d6d;
-$blueDark: #002d3d;
+@import "mixins";
 
 .dwarfRunes {
   text-align: left;
@@ -31,7 +28,7 @@ $blueDark: #002d3d;
   li.rune {
     display: grid;
     max-width: 90%;
-    grid-template-columns: 5em 1fr 5em;
+    grid-template-columns: 15vw 1fr 5em;
     list-style-type: none;
     margin-bottom: 2rem;
     font-size: 0.8em;
@@ -45,13 +42,21 @@ $blueDark: #002d3d;
       align-self: center;
     }
 
-    img.runeImg {
+    .images {
       display: inline-flex;
-      width: 3em;
-      height: 3em;
-      padding-top: 1em;
-      align-self: top;
+      justify-content: space-evenly;
       grid-row: 1 / span 2;
+      margin-right: 3em;
+
+      img.runeImg {
+        display: inline-flex;
+        width: auto;
+        height: 8vw;
+        max-height: 3em;
+        padding-top: 1em;
+        margin: 0 0.5em;  
+        align-self: top;
+      }
     }
 
     h3.runeName {
@@ -82,7 +87,11 @@ $blueDark: #002d3d;
   }
 
   #ruleSection {
+    display: flex;
+    justify-content: center;
+
     ul {
+      padding: 0;
       max-width: 90%;
       align-self: center;
 
@@ -91,6 +100,7 @@ $blueDark: #002d3d;
         list-style-type: none;
         margin-bottom: 2rem;
         line-height: 1.75em;
+        text-align: left;
 
         h3 {
           padding: 0 0 0.5em;
@@ -108,5 +118,37 @@ $blueDark: #002d3d;
       }
     }
   }
+}
 
+@media all and ( max-width: 750px ) {
+  .dwarfRunes {
+
+    #runeType {
+      margin-top: 0.5em;
+      flex-wrap: wrap;
+
+      label {
+        width: 33%;
+        margin: 0.5em 0;
+        font-size: 0.8rem;  
+      }
+    }
+
+    ul.runeList {
+      padding: 0;
+      justify-content: space-evenly;
+      align-items: center;
+
+      li.rune {
+        margin: 0 auto 2rem;
+        width: 96%;
+
+        .images {
+          flex-wrap: wrap;
+          width: 100%;
+        }
+      }
+    }
+
+  }
 }

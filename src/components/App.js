@@ -26,21 +26,17 @@ class App extends Component {
     this.navigate = this.navigate.bind(this);
   }
 
-  componentDidUpdate() {
-    console.log(this.state)
-  }
-
   render() {
     let section;
 
     if ( this.state.nav.runes === true) {
       section = <Runes />;
     // } else if ( this.state.nav.places === true) {
-    //   section = <Places />;
+      // section = <Places />;
     // } else if ( this.state.nav.maps === true) {
     //   section = <Maps />;
-    // } else if ( this.state.nav.people === true) {
-    //   section = <People />;
+    } else if ( this.state.nav.people === true) {
+      section = <People />;
     // } else if ( this.state.nav.lore === true) {
     //   section = <Lore />;
     }
@@ -53,11 +49,11 @@ class App extends Component {
 
         <nav>
           <ul id="navigationList">
-            <li className="navigationListItem" onClick={this.navigate} navid="runes">Runes</li>
-            <li className="navigationListItem" onClick={this.navigate}  navid="people">People</li>
-            <li className="navigationListItem" onClick={this.navigate}  navid="places">Places</li>
-            <li className="navigationListItem" onClick={this.navigate}  navid="maps">Maps</li>
-            <li className="navigationListItem" onClick={this.navigate}  navid="lore">Lore</li>
+            <li className={`navigationListItem ${ ( this.state.nav.runes === true ) ? "active": "" }`} onClick={this.navigate} navid="runes">Runes</li>
+            <li className={`navigationListItem ${ ( this.state.nav.people === true ) ? "active": "" }`} onClick={this.navigate}  navid="people">People</li>
+            <li className={`navigationListItem ${ ( this.state.nav.places === true ) ? "active": "" }`} onClick={this.navigate}  navid="places">Places</li>
+            <li className={`navigationListItem ${ ( this.state.nav.maps === true ) ? "active": "" }`} onClick={this.navigate}  navid="maps">Maps</li>
+            <li className={`navigationListItem ${ ( this.state.nav.lore === true ) ? "active": "" }`} onClick={this.navigate}  navid="lore">Lore</li>
           </ul>
         </nav>
 

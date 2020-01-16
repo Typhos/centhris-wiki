@@ -1,8 +1,12 @@
+@import 'mixins';
+
 html {
   font-size: 16px;
+  background-color: $offWhite;
 }
 
 .App {
+  font-family: "Century Gothic", Calibri, Arial, san-serif;
   text-align: center;
   font-size: 16px;
 }
@@ -14,6 +18,16 @@ html {
   justify-content: center;
   font-size: 2rem;
   min-height: 8vh;
+  color: #fff;
+  text-shadow: 1px 1px 3px #111;
+  font-family: 'IM Fell Great Primer SC', serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  word-spacing: 1em;
+
+  background-image: url('../img/header-map.png');
+  background-size: cover;
+  background-position: center bottom 15%;
 }
 
 .App-link {
@@ -32,8 +46,11 @@ html {
   margin: 0;
 
   .navigationListItem {
-    border-bottom: 1px solid tomato;
     padding-bottom: 0.25em;
     cursor: pointer;
+
+    &.active {
+      border-bottom: 1px solid tomato;
+    }
   }
 }

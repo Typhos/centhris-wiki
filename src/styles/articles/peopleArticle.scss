@@ -1,0 +1,115 @@
+@import "../mixins";
+
+article.person {
+  display: inline-block;
+  width: 45%;
+  vertical-align:top;
+  direction: ltr;
+  
+  margin: 0 5% 4em 0;
+  padding: 0;
+
+  span.tagLink {
+    text-decoration: underline;
+    color: $tagLink;
+    cursor: pointer;
+
+    &:hover {
+      color: $tagLinkHover;
+    }
+  }
+
+  h3.fullName {
+    margin: 0;
+    margin-bottom: 1em;
+    padding: 0;
+    font-size: 1.3em;
+    color: $blue;
+    border-bottom: 1px solid $blue;
+  }
+
+  aside.infoBox {
+    display: block;
+    float: right;
+    width: 18em;
+    font-size: 0.75em;
+    margin-left: 1em;
+    background-color: $charcoal;
+    color: $lightText;
+    border: 1px solid $charcoal;
+
+    h4.nickname {
+      font-size: 1.1em;
+      margin: 0;
+      padding: 0.5em 0.5em;
+    }
+
+    img.portrait {
+      display: inline-block;
+      height: auto;
+      width: 100%;
+      border-top: 1px solid $blueLight;
+      border-bottom: 1px solid $blueLight;
+    } 
+
+    div.info {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      border-bottom: 1px solid $blueLight;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      p.key,
+      p.values {
+        padding: 0.5em 0.5em;
+        margin: 0;
+        display: inline-block;
+      }
+
+      p.key {
+        font-weight: 700;
+        width: 40%;
+      }
+
+      p.values {
+        width: 60%;
+        text-align: right;
+      }
+    }
+  }
+
+  main.mainContent {
+    font-size: 0.85em;
+    width: auto;
+    word-break: break-word;
+
+    p, i.quote {
+      display: block;
+      line-height: 1.8em;
+      margin: 0 0 1em;
+      padding: 0;
+    }
+
+    i.quote {
+      padding-left: 1em;
+      line-height: 1.6em;
+      font-size: 0.9em;
+      margin-bottom: 2.5em;
+    }
+  }
+
+  div.clear {
+    clear:both; 
+    margin: 0; 
+    padding: 0;
+  }
+}
+
+@media all and (max-width: $breakpoint-mobile) {
+  article.person {
+    width: 100%;
+  }
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import dwarfRunes from '../data/dwarfRunes';
-import '../styles/runes.scss';
+import '../styles/Runes.scss';
 
 const images = require.context('../img/runes/', true);
 
@@ -77,10 +77,14 @@ class Runes extends Component {
                   return <p key={e}>{i+1} Rune(s): {e}</p>
                 });
 
+                const glyphs = this.state.activeRuneList[key].svg.map( (g, i) => {
+                  return <img key={g} alt="" className="runeImg" src={images('./' + g + '.svg')} />
+                });
+
                 if ( this.state.activeRuneList[key].found ) {
                   return(
                     <li className="rune" key={key}>
-                      <img alt="" className="runeImg" src={images('./' + this.state.activeRuneList[key].svg[0] + '.svg')} />
+                      <div className="images">{glyphs}</div>
                       <h3 className="runeName">
                         <span className="name">{this.state.activeRuneList[key].name}</span>
                       </h3>

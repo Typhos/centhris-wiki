@@ -78,7 +78,8 @@
          "repeatable":true,
          "svg":[
             6,
-            49
+            49,
+            40
          ],
          "baseCost":250,
          "maxTiers":3,
@@ -158,9 +159,7 @@
          "found": true,
          "repeatable":false,
          "svg":[
-            4,
-            61,
-            40
+            4
          ],
          "baseCost":250,
          "maxTiers":1,
@@ -275,7 +274,9 @@
          "found": true,
          "repeatable":true,
          "svg":[
-            74
+            74,
+            12,
+            68
          ],
          "baseCost":500,
          "maxTiers":2,
