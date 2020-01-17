@@ -1,0 +1,15 @@
+@import 'mixins';
+
+#search {
+
+	#searchBox {
+		width: 12em;
+    height: auto;
+    padding: 1em 3em 0.6em 0.6em;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    transition: width .5s;
+    font-size: 0.8em;
+	}
+
+}

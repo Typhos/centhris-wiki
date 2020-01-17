@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import dwarfRunes from '../data/dwarfRunes';
-import '../styles/runes.scss';
+import dwarfRunes from '../../data/dwarfRunes';
+// import '../styles/runes.scss';
 
-const images = require.context('../img/runes/', true);
+const images = require.context('./imgs/', true);
 
 class Runes extends Component {
 
@@ -154,4 +154,4 @@ class Runes extends Component {
 
 }
 
-export default Runes;
+export {Runes};

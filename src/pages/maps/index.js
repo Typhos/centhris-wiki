@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Places extends Component {
+class Maps extends Component {
 
   constructor (props) {
     super(props);
@@ -9,11 +9,11 @@ class Places extends Component {
     };
   }
 
-  render () {    
+  render () {
     return (
-      <p>places</p>
+      <p>maps</p>
     );
   }
 }
 
-export default Places;
+export {Maps};

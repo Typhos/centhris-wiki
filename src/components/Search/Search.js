@@ -1,37 +1,3 @@
-import React, { Component } from 'react';
-import PeopleArticle from './Articles/peopleArticle';
-import peopleData from '../data/people';
-
-import "../styles/people.scss";
-
-class People extends Component {
-
-  constructor (props) {
-    super(props);
-    this.state = {
-      searchTerm: ""
-    };
-
-    this.searchQuery = this.searchQuery.bind(this);
-    this.sortSearchResults = this.sortSearchResults.bind(this);
-  }
-
-  render () {
-    let results = this.sortSearchResults(peopleData);
-
-    return (
-      <section id="people">
-        <header>
-          <form id="search">
-            <input id="searchBox" type="text" placeholder="search" onChange={this.searchQuery}/>
-          </form>
-        </header>
-        
-        {results}
-
-      </section>
-    )
-  }
 
   sortSearchResults(data) {
     const searchTerm = this.state.searchTerm.toLowerCase();
@@ -70,6 +36,3 @@ class People extends Component {
 
     this.setState({searchTerm: searchTerm});
   }
-}
-
-export default People;

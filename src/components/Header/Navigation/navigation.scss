@@ -1,0 +1,23 @@
+@import '../../mixins';
+
+#navigationList {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 1.1rem;
+  color: #fff;
+  padding: 1rem 0;
+  background-color: #282c34;
+  margin: 0;
+  font-family: $sansText;
+
+  .navigationListItem {
+    padding-bottom: 0.25em;
+    cursor: pointer;
+
+    &.active {
+      border-bottom: 1px solid tomato;
+    }
+  }
+}
