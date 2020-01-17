@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import dwarfRunes from '../data/dwarfRunes';
-import '../styles/Runes.scss';
+import '../styles/runes.scss';
 
 const images = require.context('../img/runes/', true);
 

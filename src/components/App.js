@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Runes from './Runes';
-import Places from './Places';
-import Maps from './Maps';
-import People from './People';
-import Lore from './Lore';
+import Runes from './runes';
+import Places from './places';
+import Maps from './maps';
+import People from './people';
+import Lore from './lore';
 
-import '../styles/App.scss';
+import '../styles/app.scss';
 
 
 class App extends Component {

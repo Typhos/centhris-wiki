@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import "../../styles/articles/peopleArticle.scss";
+import "../../styles/Articles/peopleArticle.scss";
 
 const images = require.context('../../img/portraits/', true);
 

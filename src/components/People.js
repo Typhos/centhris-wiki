@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import PeopleArticle from './articles/PeopleArticle';
+import PeopleArticle from './Articles/peopleArticle';
 import peopleData from '../data/people';
 
-import "../styles/People.scss";
+import "../styles/people.scss";
 
 class People extends Component {
 
