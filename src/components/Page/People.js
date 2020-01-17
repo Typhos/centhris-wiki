@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import Header from "../Header";
-import Footer from "../Footer";
+import Header from "../header";
+import Footer from "../footer";
 
-import './People.scss';
+import './people.scss';
 
 class People extends Component {
 

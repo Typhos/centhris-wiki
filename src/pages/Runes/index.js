@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import dwarfRunes from '../../data/dwarfRunes';
 
-import Page from '../../components/Page';
+import Page from '../../components/page';
 
 const images = require.context('./imgs/', true);
 

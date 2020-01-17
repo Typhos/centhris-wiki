@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import data from '../../data/people';
 
-import Search from '../../components/Search';
-import Page from '../../components/Page';
-import PeopleArticle from '../../components/Articles/PeopleArticle';
+import Search from '../../components/search';
+import Page from '../../components/page';
+import PeopleArticle from '../../components/articles/peopleArticle';
 
 const images = require.context('./portraits/', true);
 
