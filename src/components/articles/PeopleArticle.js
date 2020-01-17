@@ -2,16 +2,7 @@ import React, { Component } from 'react';
 
 import "./peopleArticle.scss";
 
-// const images = require.context('../../img/portraits/', true);
-
-class PeopleArticle extends Component {
-
-  // constructor (props) {
-  //   super(props);
-  // }
-
-
-  
+export default class PeopleArticle extends Component {
 
   render () {
     const person = this.props.entry;
@@ -74,5 +65,3 @@ class PeopleArticle extends Component {
     )
   }
 }
-
-export default PeopleArticle;
