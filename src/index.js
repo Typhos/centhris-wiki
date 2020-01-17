@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 
-import App from './components/app';
+import App from './components/app.js';
 import {People} from './pages/people/index';
 import {Runes} from './pages/runes/index';
 
