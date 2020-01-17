@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 import Header from "../Header";
 import Footer from "../Footer";
 
-import './People.scss';
+import "./Runes.scss";
 
-class People extends Component {
+class Runes extends Component {
 
   render () {
     return (
@@ -21,5 +21,5 @@ class People extends Component {
 
 }
 
-export { People };
+export { Runes };
 

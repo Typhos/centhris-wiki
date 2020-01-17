@@ -5,8 +5,7 @@ article.person {
   width: 45%;
   vertical-align:top;
   direction: ltr;
-  
-  margin: 0 5% 4em 0;
+  margin-bottom: 4em;
   padding: 0;
 
   span.tagLink {
@@ -23,8 +22,10 @@ article.person {
     margin: 0;
     margin-bottom: 1em;
     padding: 0;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: $blue;
+    font-family: $serifText;
+    letter-spacing: 0.1em;
     border-bottom: 1px solid $blue;
   }
 
@@ -33,7 +34,8 @@ article.person {
     float: right;
     width: 18em;
     font-size: 0.75em;
-    margin-left: 1em;
+    margin-left: 2em;
+    margin-bottom: 1em;
     background-color: $charcoal;
     color: $lightText;
     border: 1px solid $charcoal;
@@ -81,7 +83,7 @@ article.person {
     }
   }
 
-  main.mainContent {
+  div.mainContent {
     font-size: 0.85em;
     width: auto;
     word-break: break-word;
@@ -110,6 +112,22 @@ article.person {
 
 @media all and (max-width: $breakpoint-mobile) {
   article.person {
-    width: 100%;
+    width: 92vw;
+    margin: 0 2vw 2em;
+
+    div.mainContent {
+      i.quote {
+        padding: 0;
+      }
+    }
+
+  }
+}
+
+@media all and (min-width: $breakpoint-mobile) {
+  article.person {
+    &:nth-child(2n) {
+      margin-left: 6vw;
+    }
   }
 }

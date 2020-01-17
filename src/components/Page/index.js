@@ -1,3 +1,4 @@
 import {People} from "./People";
+import {Runes} from "./Runes";
 
-export default { People };
+export default { People, Runes };

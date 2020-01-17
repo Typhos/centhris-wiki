@@ -1,8 +1,7 @@
-@import 'mixins';
+@import '../mixins';
 
-#search {
-
-	#searchBox {
+form#search {
+	input#searchBox {
 		width: 12em;
     height: auto;
     padding: 1em 3em 0.6em 0.6em;
@@ -11,5 +10,4 @@
     transition: width .5s;
     font-size: 0.8em;
 	}
-
 }

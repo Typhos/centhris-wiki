@@ -9,9 +9,13 @@
 		"gender": "Female",
 		"class": "Wizard",
 		"occupation": "Adventurer",
-		"affiliations": "<span class='tagLink' category='organization' dest='Ruby_Phoenix'>Ruby Phoenix</span>, The Tower of Stantorr",
+		"affiliations": "Ruby Phoenix, The Tower of Stantorr",
 		"quote": "\"One's ability to express themselves thru the arcane arts is as varied as any other art form. I find that the most effective type of magical techniques are those that resolve issues without the need for the cruder, baser forms of magical expression; evocation magic for example.\"",
-		"description": "<p>Shiavalae Amarathar is a young, elf adventurer and member of <span class='tagLink' category='organization' dest='Ruby_Phoenix'>Ruby Phoenix</span>, a well known adventuring guild operating out of <span class='tagLink' category='location' dest='Rakenburg'>Rakenburg</span>. Only a young adult by elven standards, Shia speaks with a relatively meek demeanor, though she can be excitable when in the presence of interesting mystical or arcane phenomena. She is of average height and build for an elf, with distinctive blue hair.</p><p>She is a Wizard specializing in Abjuration magic. While in a discussion with <strong>Erlinder</strong>, Shia revealed that she does not really know her parents, who aparently chose to leave her under the tutilage of the wizards of the Tower of Stantorr in <span class='tagLink' category='place' dest='Frecyra'>Frecyra</span>. She appeared to still be coming to terms with this sense of abandonment.</p><p>Shia met <strong>the Adventurers</strong> during a chance encounter at the gates of the <i>Palace of Akad</i>, the Efreet lord. While exploring the interior together, <span class='tagLink' category='person' dest='Khazar_Thul'>Khazar</span>, Shiavalae and the <strong>the Adventurers</strong> encountered the shade of <span class='tagLink' category='person' dest='Akad'>Akad</span> and were bound to his service.</p>"
+		"description": [
+			"Shiavalae Amarathar is a young, elf adventurer and member of Ruby Phoenix, a well known adventuring guild operating out of Rakenburg. Only a young adult by elven standards, Shia speaks with a relatively meek demeanor, though she can be excitable when in the presence of interesting mystical or arcane phenomena. She is of average height and build for an elf, with distinctive blue hair.",
+			"She is a Wizard specializing in Abjuration magic. While in a discussion with Erlinder, Shia revealed that she does not really know her parents, who aparently chose to leave her under the tutilage of the wizards of the Tower of Stantorr in Frecyra. She appeared to still be coming to terms with this sense of abandonment.",
+			"Shia met the Adventurers during a chance encounter at the gates of the Palace of Akad, the Efreet lord. While exploring the interior together, Khazar, Shiavalae and the the Adventurers encountered the shade of Akad and were bound to his service."
+		]
 	},
 	"Khazar_Thul": {
 		"player_known": true,
@@ -23,13 +27,19 @@
 		"gender": "Male",
 		"class": "Paladin",
 		"occupation": "Adventurer",
-		"affiliations": "<span class='tagLink' category='organization' dest='Ruby_Phoenix'>Ruby Phoenix</span>",
-		"quote": "\"I am humble servant of the Eternal Flame. It guides me in the darkest places where there is no hope, honor and virtue to be found. Not all pay homage to his glorious visage, but all are touched by his grace.\"",
-		"description": "<p>Khazar Thul is a seasoned human adventurer and a devout follower of <span class='tagLink' category='god' dest='Eternal'>the Eternal</span>. Exceptionally tall, standing roughly 6ft 8in (203cm), with a muscular physique, he prefers to enter the thick of the fighting in order to dispatch his foes with his two-handed sword.</p><p>Khazar has braved many dangerous locations during his time as a professional adventuerer. Over the course of his adventures, he has aquired a number of helpful tools that he employs when a situation calls for it, such as <i>Jozara's Claw of Acuity</i>.</p><p>He has gained a keen eye for character and is a stawart ally to those he feels are worthy of his friendship.</p><p>As part of his religious devotion, Khazar can be found praying towards the sunrise every morning.</p><p>Khazar met <strong>the Adventurers</strong> during a chance encounter at the gates of the <i>Palace of Akad</i>, the Efreet lord. While exploring the interior together, Khazar, <span class='tagLink' category='person' dest='Shiavale_Amarathar'>Shiavalae</span> and the <strong>the Adventurers</strong> encountered the shade of <span class='tagLink' category='person' dest='Akad'>Akad</span> and were bound to his service.</p>"
+		"affiliations": "Ruby Phoenix",
+		"quote": "\"I am humble servant of the Eternal Flame. He guides me in the darkest places where there is no hope, honor or virtue to be found. Not all pay homage to his glorious visage, but all are touched by his grace.\"",
+		"description": [
+			"Khazar Thul is a seasoned human adventurer and a devout follower of the Eternal. Exceptionally tall, standing roughly 6ft 8in (203cm), with a muscular physique, he prefers to enter the thick of the fighting in order to dispatch his foes with his two-handed sword.",
+			"Khazar has braved many dangerous locations during his time as a professional adventuerer. Over the course of his adventures, he has aquired a number of helpful tools that he employs when a situation calls for it, such as Jozara's Claw of Acuity.",
+			"He has gained a keen eye for character and is a stawart ally to those he feels are worthy of his friendship.",
+			"As part of his religious devotion, Khazar can be found praying towards the sunrise every morning.",
+			"Khazar met the Adventurers during a chance encounter at the gates of the Palace of Akad, the Efreet lord. While exploring the interior together, Khazar, Shiavalae and the the Adventurers encountered the shade of Akad and were bound to his service."
+		]
 	},
 	"Jeskin_Sebroski": {
 		"player_known": true,
-		"name": "Count Jeskin Sebroski",
+		"name": "Jeskin Sebroski",
 		"tags": ["noble","human","count","navolin","hussar","rythlon"],
 		"nickname": "Count Jeskin Sebroski",
 		"titles": "Count of Szary, Navolinian Hussar",
@@ -38,8 +48,13 @@
 		"gender": "Male",
 		"class": "Fighter",
 		"occupation": "Noble, Soldier",
-		"affiliations": "<span class='tagLink' category='place' dest='Navolin'>Kingdom of Navolin</span>, County of Szary",
-		"description": "<p>As the Count of Szary, Jeskin Sebroski is both the local lord, administrator, and commander of a feudal county bordering the state of <span class='tagLink' category='place' dest='Tovanis'>Tovanis</span>. The count takes his role as the ruler of a Navolinian border province very seriously, knowing that he is the first line of defense against incursions from foreign states, and monsterous creatures from beyond his borders.</p><p>A man of noble birth, Count Sebroski was tutored from a young age in the arts of riding, warfare, court life and hunting.</p><p>As a member of the nobility of Navolin, Jeskin was brought into the ranks of the <span class='tagLink' category='organization' dest='Navolinian_Hussars'>Navolinian Hussars</span> and exceled during the dangerous training regime that all initiates must undergo. He has since risen through the ranks to become one of the commanding officers of the order.</p><p>He is a common sight in the court of <span class='tagLink' category='person' dest='Kzesimir_Czak'>King Kzesimir</span> in <span class='tagLink' category='place' dest='Frecyra'>Frecyra</span> where he is called up on to provide military advice. He is also a close personal friend of <span class='tagLink' category='person' dest='Aronas_Czak'>Prince Aronas Czak</span> and returned from a provincial issue in the village of <span class='tagLink' category='place' dest='Rythlon'>Rythlon</span> upon learning the news of the prince's death.</p>"
+		"affiliations": "Kingdom of Navolin, County of Szary",
+		"description": [
+			"As the Count of Szary, Jeskin Sebroski is both the local lord, administrator, and commander of a feudal county bordering the state of Tovanis. The count takes his role as the ruler of a Navolinian border province very seriously, knowing that he is the first line of defense against incursions from foreign states, and monsterous creatures from beyond his borders.",
+			"A man of noble birth, Count Sebroski was tutored from a young age in the arts of riding, warfare, court life and hunting.",
+			"As a member of the nobility of Navolin, Jeskin was brought into the ranks of the Navolinian Hussars and exceled during the dangerous training regime that all initiates must undergo. He has since risen through the ranks to become one of the commanding officers of the order.",
+			"He is a common sight in the court of King Kzesimir in Frecyra where he is called up on to provide military advice. He is also a close personal friend of Prince Aronas Czak and returned from a provincial issue in the village of Rythlon upon learning the news of the prince's death."
+		]
 	},
 	"Akad": {
 		"player_known": true,
@@ -50,9 +65,13 @@
 		"race": "Efreet",
 		"age": "??",
 		"gender": "Male",
-		"affiliations": "<span class='tagLink' category='place' dest='Navolin'>Kingdom of Navolin</span>, County of Szary",
+		"affiliations": "City of Brass",
 		"quote": "\"Welcome, welcome! You have entered the Halls of Akad the Magnificent. Are they, am I, not glorious?\"",
-		"description": "<p>Akad the Magnificent was an Efreet who ruled a region south of the Jordonis Mountians thousands of years ago. His palace, a fabulous complex made of brass and black stone known as the Molten Halls, was the seat of his power when he dwelled on the Material Plane. While he ruled the area, Akad demanded tribute from all under his dominion and bound many beings to his service. He would store his treasures in a pool of super-heated mercury, in which he enslaved several Azer to guard and act as valets.</p><p>He was banished back to the City of Brass by a pair of wizards, <i>Menodora</i> & <i>Amabilis</i>.</p><p>While exploring the interior of the Molten Palace, <span class='tagLink' category='person' dest='Khazar_Thul'>Khazar</span>, <span class='tagLink' category='person' dest='Shiavale_Amarathar'>Shiavalae</span> and the <strong>the Adventurers</strong> encountered the shade of Akad and were bound to his service.</p>"
+		"description": [
+			"Akad the Magnificent was an Efreet who ruled a region south of the Jordonis Mountians thousands of years ago. His palace, a fabulous complex made of brass and black stone known as the Molten Halls, was the seat of his power when he dwelled on the Material Plane. While he ruled the area, Akad demanded tribute from all under his dominion and bound many beings to his service. He would store his treasures in a pool of super-heated mercury, in which he enslaved several Azer to guard and act as valets.",
+			"He was banished back to the City of Brass by a pair of wizards, Menodora & Amabilis.",
+			"While exploring the interior of the Molten Palace, Khazar, Shiavalae and the the Adventurers encountered the shade of Akad and were bound to his service."
+		]
 	},
 	"Lirr_Stonebreath": {
 		"player_known": true,
@@ -65,7 +84,12 @@
 		"class": "Cleric",
 		"occupation": "Forge Cleric, Blacksmith",
 		"affiliations": "the Adventurers, the Church of the Maker",
-		"description": "<p>A young dwarf cleric of <span class='tagLink' category='god' dest='Maker'>the Maker</span>, Lirr Stonebreath set out from the Dwarf Hold of <span class='tagLink' category='place' dest='Felrast'>Felrast</span> on her journey to find the masters of her craft. Disguising herself as a man in order to avoid others looking down upon her as a smith, Lirr hitched a ride on a merchant wagon heading east, which was being guarded by <span class='tagLink' category='person' dest='Roland_of_Zelmar'>Roland of Zelmar</span>.</p><p>While on the border of Tovanis and Navolin, Lirr and Roland encountered a young halfling named Filibert. After a series of events outside of Auburn Castle, the three traveled together to the village of Rythlon on the Sulas river.</p><p>While in Rythlon, Lirr and <strong>the Adventurers</strong> took on a job to help a local Butcher, <span class='tagLink' category='person' dest='Lorman_Blackmaw'>Lorman Blackmaw</span>, who was hoping to save his friend from a curse. After overcoming monsters and traps in a cave complex, the group succeeded in removing the curse.</p><p>This series of events left Lirr shaken and after some consideration she decided to continue her journey to <span class='tagLink' category='place' dest='Kazdan_Ord'>Kazdan Ord</span> by herself over staying in Rythlon to help resolve the local's issues."
+		"description": [
+			"A young dwarf cleric of the Maker, Lirr Stonebreath set out from the Dwarf Hold of Felrast on her journey to find the masters of her craft. Disguising herself as a man in order to avoid others looking down upon her as a smith, Lirr hitched a ride on a merchant wagon heading east, which was being guarded by Roland of Zelmar.",
+			"While on the border of Tovanis and Navolin, Lirr and Roland encountered a young halfling named Filibert. After a series of events outside of Auburn Castle, the three traveled together to the village of Rythlon on the Sulas river.",
+			"While in Rythlon, Lirr and the Adventurers took on a job to help a local Butcher, Lorman Blackmaw, who was hoping to save his friend from a curse. After overcoming monsters and traps in a cave complex, the group succeeded in removing the curse.",
+			"This series of events left Lirr shaken and after some consideration she decided to continue her journey to Kazdan Ord by herself over staying in Rythlon to help resolve the local's issues."
+		]
 	},
 	"Myrddraal": {
 		"player_known": false,
@@ -76,9 +100,11 @@
 		"age": "??",
 		"gender": "Female",
 		"class": "Monk",
-		"affiliations": "<span class='tagLink' category='organization' dest='Order_of_the_Endless_Sky'>Order of the Endless Sky</span>, Cult of Azoth'Xun, Kongir Temple",
+		"affiliations": "Order of the Endless Sky, Cult of Azoth'Xun, Kongir Temple",
 		"quote": "\"You have traveled far and seen much of the world. Now it is time for me to open your eyes to the truths of this universe.\"",
-		"description": "The Myrd'draal is an elder Eladrin female and the Grand Master of the <span class='tagLink' category='organization' dest='Order_of_the_Endless_Sky'>Order of the Endless Sky</span>. She resides at <span class='tagLink' category='place' dest='Kongir_Temple'>Kongir Temple</span> and currently is in possession of the <i>Belt of the Masters</i>."
+		"description": [
+			"The Myrd'draal is an elder Eladrin female and the Grand Master of the Order of the Endless Sky. She resides at Kongir Temple and currently is in possession of the Belt of the Masters."
+		]
 	},
 	"Roland_of_Zelmar": {
 		"player_known": true,
@@ -91,6 +117,77 @@
 		"class": "Fighter",
 		"occupation": "Monster Hunter",
 		"quote": "\"Greetings, lord baron. I believe this creature was terrorizing your woodlands. I presume there is a bounty for its head?\"",
-		"description": "A monster hunter by trade, Roland of Zelmar is a quiet, but insightful man. Tall, with broad shoulders, and a greying beard and hair, Roland wears black studded leather armor. His most distinctive trait is his orange eyes, which have pupils like that of a lizard or cat.</p><p>He traveled to <span class='tagLink' category='place' dest='Felrast'>Felrast</span>, a dwarf hold nestled in the Pillars of Amud in order to have <span class='tagLink' category='person' dest='Ithi_Ironjaw'>Ithi Ironjaw</span>, a legendary Master Runesmith, forge him a unique bastard sword etched with dwarven runes. After the work was completed, Roland left Felrast, taking a job as a guard for a merchant wagon. It was during this journey that he befriended <span class='tagLink' category='person' dest='Lirr_Stonebreath'>Lirr Stonebreath</span>.</p><p>While on the border of <span class='tagLink' category='place' dest='Tovanis'>Tovanis</span> and <span class='tagLink' category='place' dest='Navolin'>Navolin</span>, Lirr and Roland encountered a young halfling named <strong>Filibert</strong>. After a series of events outside of Auburn Castle, the three traveled together to the village of <span class='tagLink' category='place' dest='Rythlon'>Rythlon</span> on the Sulas river.</p><p>Roland traveled with Filibert to several local manors trying to help the young fighter find a new lord who might employ him, but to no avail. With Filibert returning to Rythlon to being a career as an adventurer, Roland continued his journey north towards the Navolinian city of <span class='tagLink' category='place' dest='Zelmar'>Zelmar</span>."
+		"description": [
+			"A monster hunter by trade, Roland of Zelmar is a quiet, but insightful man. Tall, with broad shoulders, and a greying beard and hair, Roland wears black studded leather armor. His most distinctive trait is his orange eyes, which have pupils like that of a lizard or cat.",
+			"He traveled to Felrast, a dwarf hold nestled in the Pillars of Amud in order to have Ithi Ironjaw, a legendary Master Runesmith, forge him a unique bastard sword etched with dwarven runes. After the work was completed, Roland left Felrast, taking a job as a guard for a merchant wagon. It was during this journey that he befriended Lirr Stonebreath.",
+			"While on the border of Tovanis and Navolin, Lirr and Roland encountered a young halfling named Filibert. After a series of events outside of Auburn Castle, the three traveled together to the village of Rythlon on the Sulas river.",
+			"Roland traveled with Filibert to several local manors trying to help the young fighter find a new lord who might employ him, but to no avail. With Filibert returning to Rythlon to being a career as an adventurer, Roland continued his journey north towards the Navolinian city of Zelmar."
+		]
+	},
+	"Mysterious_Monk": {
+		"player_known": true,
+		"name": "Mysterious Monk",
+		"tags": ["monk","human","kongir","enemy","azoth'xun"],
+		"nickname": "Mysterious Monk",
+		"race": "Human",
+		"age": "??",
+		"gender": "Male",
+		"class": "Monk",
+		"quote": "\"Come, boy who plays with sticks. We shall meet again at Kongir. I await your arrival.\"",
+		"description": [
+			"This strange human monk was first encountered by the Adventurers in the Navolinian town of Relysburg. He was seen following behind another man, Sharif Tehrani. His eyes had no pupils and his head was shaved to reveal a tattoo of an arcane eye in the center of forehead. The tattoo depicts the eye billowing smoke over his right ear and down the back of his neck.",
+			"When he passed the monk, Murat noticed that the Staff of the Summit pulled slightly toward the man. Murat decided to investigate and followed the monk and his companion into the town stable where they were purchasing horses. Murat set his staff down in front of the monk, attempting to discern the source of the strange magical attraction from the staff. Unfortunately, the monk then proceeded to snatch Murat's staff from the group with unexpected speed and fled the town.",
+			"The adventurers gave chase, but were unable to catch the mysterious monk, only managing to subdue Sharif. They then tracked the monk through a canyon east of Relysburg, but the monk was too fast and eventually escaped their pursuit by climbing the face of a waterfall. Before he left, the monk shouted out a challenge to Murat and declared he hoped they would meet again at Kongir Temple."
+		]
+	},
+	"Zorrakir": {
+		"player_known": true,
+		"name": "Zorrakir",
+		"tags": ["monk","tiefling","venbrin","friend","associate","master"],
+		"nickname": "Zorrakir",
+		"race": "Tiefling",
+		"age": "??",
+		"gender": "Male",
+		"class": "Monk",
+		"quote": "\"You say you are not a wizard, but you are doing a very bad job of convincing me otherwise.\"",
+		"description": [
+			"Zorrakir is an wandering tiefling monk. He has pale, mauve skin, with long, grey hair which is always tied in a bun behind his curved, ram-like horns. He keeps a long, unkempt beard, which he never bothers to tame or bind. He is rather tall and lean for a tiefling, though his constant drinking has resulted in a paunch. He has piercing red eyes that seem to almost glow.",
+			"Murat met Zorrakir in Zurast, the capital city of the Archduchy. A gang of thugs had decided to attempt to rob the old man, and much to their surprise, the drunk old tiefling beat them mercilessly without dropping his wineskin. After witnessing this, Murat followed the old monk around for days, demanding that he teach him how to fight as he had. After several days of attempting to avoid the half-orc, Zorrakir relented and offered to train Murat.",
+			"The last time Murat or Evan-Jakob saw Zorrakir was a mountain-side temple outside of Tarona, when a mysterious darkness overtook the temple and several strange, glowing suits of armor emerged. Zorrakir told the others to run as he went about combating the creatures, throwing Murat his staff in the process."
+		]
+	},
+	"Imizael_Clathara": {
+		"player_known": true,
+		"name": "Imizael Clathara",
+		"tags": ["ranger","elf","rythlon","friend","associate","Navolin"],
+		"nickname": "Imizael",
+		"race": "Elf",
+		"age": "190",
+		"gender": "Female",
+		"class": "Ranger",
+		"occupation": "Steward, Militia Commander",
+		"affiliations": "Village of Rythlon",
+		"quote": "\"I am a simle shepard. My favorite place is here, with my flock. However, someone in this village needs to teach the people to defend themselves, and it appears that I am the only one who can manage that right now.\"",
+		"description": [
+			"Imizael is the new steward of Rythlon and was previously the village's militia commander. She is of average height, with an athletic, graceful build. She has long, dark hair which she keeps braided on one side. In combat, she fights with two short swords, which she uses with the speed and skill of someone who has practiced swordplay for decades.",
+			"She was promoted to the position of steward after Ealderman Selif Koric was relieved of the role by Count Jeskin Sebroski, following the revelation that magistrate Teliril Wasanathi was a Hag terrorizing Rythlon for months. It was only after the Adventurers interviened into the situation, saving the town from Teliril's dark designs, that the Count recognized what Imizael had been doing for the village and decided she might serve the people better than the selfish and inept Ealderman.",
+			"When she is not training the militia or taking care of official duties in the village, she cares for a flock of sheep at her farm on the north side of the village inside the palisade. Some nights she can be found at the Moody Acrobat, drinking wine and playing cards with her friend Edmund the stablehand."
+		]
+	},
+	"Bordin": {
+		"player_known": true,
+		"name": "Bordin",
+		"tags": ["human","innkeeper","Rythlon","friend","Navolin"],
+		"nickname": "Bordin",
+		"race": "Human",
+		"age": "41",
+		"gender": "Male",
+		"occupation": "Innkeeper",
+		"affiliations": "Village of Rythlon",
+		"quote": "\"It's been a gloomy year, gentlemen. Ever since the new magistrate showed up, everyone has been on edge. I just keep to myself here and not to ask too many questions. I don't want to get on anyone's bad side. Anyway, what can I get you all to drink?\"",
+		"description": [
+			"Bordin is the large, bearded, portly owner and innkeeper of the Moody Acrobat, the only inn/tavern in the village of Rythlon. Generally jovial and good natured, Bordin has been running the inn for many years. The Moody Acrobat is frequented by locals, but rarely has guests who stay for any extended period.",
+			"His cousin, Davrik, ran Green Boat shipping, the largest business in Rythlon. With Davrik's arrest for smuggling illegal goods into Rythlon, Bordin has taken temporary ownership of the company."
+		]
 	}
 }

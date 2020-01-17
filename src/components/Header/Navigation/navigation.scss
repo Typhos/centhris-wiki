@@ -14,10 +14,30 @@
 
   .navigationListItem {
     padding-bottom: 0.25em;
-    cursor: pointer;
+    font-variant: small-caps;
 
     &.active {
       border-bottom: 1px solid tomato;
     }
   }
+
+  a {
+    color: $lightText;
+    letter-spacing: 0.075em;
+    text-decoration: none;
+
+    &:hover {
+      color: $tagLink;
+    }
+  }
+}
+
+@media all and (max-width: $breakpoint-mobile) {
+
+  #navigationList {
+    .navigationListItem {
+      font-size: 0.9em;
+    }
+  }
+
 }

@@ -60,14 +60,14 @@
             ""
          ]
       },
-      "masterRuneofStrength":{
-         "name":"Master Rune of Strength",
+      "runeofStrength":{
+         "name":"Rune of Strength",
          "found": false,
          "repeatable":false,
          "svg":[
             34
          ],
-         "baseCost":5000,
+         "baseCost":2500,
          "effects":[
             ""
          ]
@@ -115,7 +115,7 @@
             11,
             33
          ],
-         "baseCost":250,
+         "baseCost":500,
          "maxTiers":1,
          "effects":[
             "While a weapon engraved with this rune is on your person, you have advantage on initiative rolls."
@@ -228,18 +228,6 @@
          "effects":[
             ""
          ]
-      },
-      "runeOfWarding":{
-         "name":"Rune of Warding",
-         "found": false,
-         "repeatable":false,
-         "svg":[
-            45
-         ],
-         "baseCost":5000,
-         "effects":[
-            ""
-         ]
       }
    },
    "Talisman Runes":{
@@ -299,6 +287,18 @@
             "An instrument forged with this rune has 3 charges. You can use an action to play it and expend 1 charge to create a unnatural, eerie bellow. Each creature within 30 feet of you that hears it must succeed on a DC 13 Wisdom saving throw or become frightened of you for 1 minute. If you wish, all creatures in the area that aren't hostile toward you automatically succeed on the saving throw. A creature that fails the saving throw can repeat it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its saving throw is immune to the effect of these instrument for 24 hours. The rune regain 1d3 expended charges daily at dawn.",
             "An instrument forged with this rune has 3 charges. You can use an action to play it and expend 1 charge to create a unnatural, eerie bellow. Each creature within 60 feet of you that hears it must succeed on a DC 15 Wisdom saving throw or become frightened of you for 1 minute. If you wish, all creatures in the area that aren't hostile toward you automatically succeed on the saving throw. A creature that fails the saving throw can repeat it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its saving throw is immune to the effect of these instrument for 24 hours. The rune regain 1d3 expended charges daily at dawn.",
             "An instrument forged with this rune has 3 charges. You can use an action to play it and expend 1 charge to create a unnatural, eerie bellow. Each creature within 90 feet of you that hears it must succeed on a DC 18 Wisdom saving throw or become frightened of you for 1 minute. If you wish, all creatures in the area that aren't hostile toward you automatically succeed on the saving throw. A creature that fails the saving throw can repeat it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its saving throw is immune to the effect of these instrument for 24 hours. The rune regain 1d3 expended charges daily at dawn."
+         ]
+      },
+      "runeOfWarding":{
+         "name":"Rune of Warding",
+         "found": false,
+         "repeatable":false,
+         "svg":[
+            45
+         ],
+         "baseCost":500,
+         "effects":[
+            ""
          ]
       }
    }

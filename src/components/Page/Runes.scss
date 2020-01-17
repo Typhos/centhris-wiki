@@ -1,4 +1,4 @@
-@import "mixins";
+@import "../mixins";
 
 .dwarfRunes {
   text-align: left;
@@ -105,6 +105,11 @@
         h3 {
           padding: 0 0 0.5em;
           border-bottom: 1px solid $blue;
+          font-family: $styleText;
+          font-size: 1.2em;
+          font-variant: small-caps;
+          letter-spacing: 0.1em;
+          word-spacing: 0.25em;
         }
 
         p {
@@ -113,7 +118,9 @@
 
         small {
           display: block;
-          margin: 1em 0 1em 1em;
+          margin: 0 0 0 2em;
+          padding: 1em 0;
+          font-size: 0.85em;
         }
       }
     }

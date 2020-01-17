@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 
-import "../../styles/Articles/peopleArticle.scss";
+import "./peopleArticle.scss";
 
-const images = require.context('../../img/portraits/', true);
+// const images = require.context('../../img/portraits/', true);
 
 class PeopleArticle extends Component {
 
   // constructor (props) {
   //   super(props);
   // }
+
+
+  
 
   render () {
     const person = this.props.entry;
@@ -18,7 +21,7 @@ class PeopleArticle extends Component {
         <h3 className="fullName">{person.name}</h3>
         <aside className="infoBox">
           <h4 className="nickname">{person.nickname}</h4>
-          <img className="portrait" alt="" src={images('./' + person.name.replace(/\s/g,"_") + '.png')}/>
+          <img className="portrait" alt="" src={this.props.image}/>
           { (person.titles) ? 
             <div className="info">
               <p className="key">Title(s)</p>
@@ -51,15 +54,21 @@ class PeopleArticle extends Component {
           }
           <div className="info">
             <p className="key">Affiliation(s)</p>
-            <p className="values" dangerouslySetInnerHTML={{__html: person.affiliations}}></p>
+            <p className="values">{person.affiliations}</p>
           </div>
         </aside>
-        <main className="mainContent">
+        <div className="mainContent">
           { (person.quote) ? 
             <i className="quote">{person.quote}</i> : ""
           }
-          <p dangerouslySetInnerHTML={{__html: person.description}}></p>
-        </main>
+          {
+            person.description.map( para => {
+              return (
+                <p>{para}</p>
+              )
+            })
+          }
+        </div>
         <div className="clear"></div>
       </article>
     )
