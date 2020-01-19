@@ -25,7 +25,7 @@ class Location extends Component {
 
     return (
       <Page.Location>
-        <section id="people" >
+        <section id="location" >
           <LocationArticle key={location} data={{placeData}} entry={placeData[location]} image={ images('./' + placeData[location].name.replace(/\s/g,"-") + '.png') }/>
         </section>
       </Page.Location>
