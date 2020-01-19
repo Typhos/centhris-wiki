@@ -4,6 +4,7 @@ import { Route, BrowserRouter as Router } from 'react-router-dom'
 
 import App from './components/app';
 import {People} from './pages/people/index';
+import {Person} from './pages/person/index';
 import {Runes} from './pages/runes/index';
 
 // import * as serviceWorker from './components/serviceWorker';
@@ -14,6 +15,7 @@ const routing = (
     <div>
       <Route exact path="/" component={App} />
       <Route path="/runes" component={Runes} />
+      <Route path="/person" component={Person} />
       <Route path="/people" component={People} />
     </div>
   </Router>

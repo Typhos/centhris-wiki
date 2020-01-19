@@ -5,9 +5,8 @@ import Search from '../../components/search';
 import Page from '../../components/page';
 import PeopleArticle from '../../components/articles/peopleArticle';
 
-const images = require.context('./portraits/', true);
+const images = require.context('../person/portraits/', true);
 
-// 
 class People extends Component {
 
   constructor (props) {
@@ -17,7 +16,7 @@ class People extends Component {
     let filteredOutput = {};
 
     for (let [key, obj] of Object.entries(peopleData)) {
-      if ( obj.player_known ) {
+      if ( obj.playerKnown ) {
         filteredOutput[key] = obj;
       }
     }
@@ -32,15 +31,15 @@ class People extends Component {
 
   render () {
     const filteredOutput = this.state.people.map( person => {
-      return <PeopleArticle data={{peopleData}} entry={peopleData[person]} image={ images('./' + peopleData[person].name.replace(/\s/g,"_") + '.png') }/>
+      return <PeopleArticle key={person} data={{peopleData}} entry={peopleData[person]} image={ images('./' + peopleData[person].name.replace(/\s/g,"-") + '.png') }/>
     });
 
     return (
       <Page.People>
         <Search handleSearch={ this.handleSearch } />
-        <section id="people" >
+        <ul id="people" >
           {filteredOutput}
-        </section>
+        </ul>
       </Page.People>
     )
   }
@@ -68,7 +67,7 @@ class People extends Component {
       const key = ent[0];
       const entry = ent[1];
 
-      if ( entry.player_known && (entry.tags.some( tag => tag.toLowerCase().includes(searchTerm) ) || entry.name.toLowerCase().includes(searchTerm) || entry.nickname.toLowerCase().includes(searchTerm) ) ) {
+      if ( entry.playerKnown && (entry.tags.some( tag => tag.toLowerCase().includes(searchTerm) ) || entry.name.toLowerCase().includes(searchTerm) || entry.nickname.toLowerCase().includes(searchTerm) ) ) {
         results.push( key );
       }
       return true;
@@ -89,6 +88,7 @@ class People extends Component {
       }
     })
   }
+
 }
 
 export { People };

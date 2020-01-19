@@ -1,6 +1,6 @@
 {
-	"Shiavale_Amarathar": {
-		"player_known": true,
+	"Shiavalae-Amarathar": {
+		"playerKnown": true,
 		"tags": ["adventurer","elf","wizard","Ruby Phoenix","Rakenburg","bound","friend","associate"],
 		"name": "Shiavalae Amarathar",
 		"nickname": "Shia",
@@ -17,8 +17,8 @@
 			"Shia met the Adventurers during a chance encounter at the gates of the Palace of Akad the Magnificent, the Efreet lord. While exploring the interior together, Khazar Thul, Shiavalae and the the Adventurers encountered the shade of Akad and were bound to his service."
 		]
 	},
-	"Khazar_Thul": {
-		"player_known": true,
+	"Khazar-Thul": {
+		"playerKnown": true,
 		"name": "Khazar Thul",
 		"tags": ["adventurer","human","paladin","Ruby Phoenix","Rakenburg","bound","friend","associate"],
 		"nickname": "Khazar",
@@ -37,8 +37,8 @@
 			"Khazar met the Adventurers during a chance encounter at the gates of the Palace of Akad, the Efreet lord. While exploring the interior together, Khazar, Shia and the Adventurers encountered the shade of Akad and were bound to his service."
 		]
 	},
-	"Jeskin_Sebroski": {
-		"player_known": true,
+	"Jeskin-Sebroski": {
+		"playerKnown": true,
 		"name": "Jeskin Sebroski",
 		"tags": ["noble","human","count","navolin","hussar","rythlon"],
 		"nickname": "Count Jeskin Sebroski",
@@ -56,8 +56,8 @@
 			"He is a common sight in the court of King Kzesimir in Frecyra where he is called up on to provide military advice. He is also a close personal friend of Prince Aronas Czak and returned from a provincial issue in the village of Rythlon upon learning the news of the prince's death."
 		]
 	},
-	"Akad": {
-		"player_known": true,
+	"Akad-the-Magnificent": {
+		"playerKnown": true,
 		"name": "Akad the Magnificent",
 		"tags": ["elemental","efreet","efreeti","contract","shade","brass","mercury"],
 		"nickname": "Akad",
@@ -68,13 +68,13 @@
 		"affiliations": "City of Brass",
 		"quote": "\"Welcome, welcome! You have entered the Halls of Akad the Magnificent. Are they, am I, not glorious?\"",
 		"description": [
-			"Akad the Magnificent was an Efreet who ruled a region south of the Jordonis Mountians thousands of years ago. His palace, a fabulous complex made of brass and black stone known as the Molten Halls, was the seat of his power when he dwelled on the Material Plane. While he ruled the area, Akad demanded tribute from all under his dominion and bound many beings to his service. He would store his treasures in a pool of super-heated mercury, in which he enslaved several Azer to guard and act as valets.",
+			"Akad the Magnificent was an Efreet who ruled a region south of the Jordonis Mountians thousands of years ago. His palace, a fabulous complex made of brass and black stone known as the Molten Halls, was the seat of his power when he dwelled on the Material Plane. While he ruled the area, Akad demanded tribute from all under his dominion and bound many beings to his service. He would store his treasures in a pool of super-heated mercury, in which he enslaved several Azer, including Uster and Ocot, to guard and act as valets.",
 			"He was banished back to the City of Brass by a pair of wizards, Menodora & Amabilis.",
 			"While exploring the interior of the Molten Palace, Khazar, Shia and the the Adventurers encountered the shade of Akad and were bound to his service."
 		]
 	},
-	"Lirr_Stonebreath": {
-		"player_known": true,
+	"Lirr-Stonebreath": {
+		"playerKnown": true,
 		"name": "Lirr Stonebreath",
 		"tags": ["cleric","dwarf","smith","adventurer","adventurer","associate","friend"],
 		"nickname": "Lirr",
@@ -92,7 +92,7 @@
 		]
 	},
 	"Myrddraal": {
-		"player_known": false,
+		"playerKnown": false,
 		"name": "the Myrd'draal",
 		"tags": ["monk","master","villain","endless sky","azoth'xun","eladrin"],
 		"nickname": "the Myrd'draal",
@@ -106,8 +106,8 @@
 			"The Myrd'draal is an elder Eladrin female and the Grand Master of the Order of the Endless Sky. She resides at Kongir Temple and currently is in possession of the Belt of the Masters."
 		]
 	},
-	"Roland_of_Zelmar": {
-		"player_known": true,
+	"Roland-of-Zelmar": {
+		"playerKnown": true,
 		"name": "Roland of Zelmar",
 		"tags": ["adventurer","human","monster hunter","friend","associate"],
 		"nickname": "Roland",
@@ -124,8 +124,8 @@
 			"Roland traveled with Filibert to several local manors trying to help the young fighter find a new lord who might employ him, but to no avail. With Filibert returning to Rythlon to being a career as an adventurer, Roland continued his journey north towards the Navolinian city of Zelmar."
 		]
 	},
-	"Mysterious_Monk": {
-		"player_known": true,
+	"Mysterious-Monk": {
+		"playerKnown": true,
 		"name": "Mysterious Monk",
 		"tags": ["monk","human","kongir","enemy","azoth'xun"],
 		"nickname": "Mysterious Monk",
@@ -141,7 +141,7 @@
 		]
 	},
 	"Zorrakir": {
-		"player_known": true,
+		"playerKnown": true,
 		"name": "Zorrakir",
 		"tags": ["monk","tiefling","venbrin","friend","associate","master"],
 		"nickname": "Zorrakir",
@@ -156,8 +156,8 @@
 			"The last time Murat or Evan-Jakob saw Zorrakir was a mountain-side temple outside of Tarona, when a mysterious darkness overtook the temple and several strange, glowing suits of armor emerged. Zorrakir told the others to run as he went about combating the creatures, throwing Murat his staff in the process."
 		]
 	},
-	"Imizael_Clathara": {
-		"player_known": true,
+	"Imizael-Clathara": {
+		"playerKnown": true,
 		"name": "Imizael Clathara",
 		"tags": ["ranger","elf","rythlon","friend","associate","Navolin"],
 		"nickname": "Imizael",
@@ -175,7 +175,7 @@
 		]
 	},
 	"Bordin": {
-		"player_known": true,
+		"playerKnown": true,
 		"name": "Bordin",
 		"tags": ["human","innkeeper","Rythlon","friend","Navolin"],
 		"nickname": "Bordin",
@@ -190,8 +190,8 @@
 			"His cousin, Davrik, ran Green Boat shipping, the largest business in Rythlon. With Davrik's arrest for smuggling illegal goods into Rythlon, Bordin has taken temporary ownership of the company."
 		]
 	},
-	"Teliril_Wasanathi": {
-		"player_known": true,
+	"Teliril-Wasanathi": {
+		"playerKnown": true,
 		"tags": ["hag","elf","fey","rythlon","navolin","enemy","magistrate","noble"],
 		"name": "Teliril Wasanathi",
 		"nickname": "Teliril",
@@ -208,8 +208,8 @@
 			"When the Adventurers were put on trial in front of the count, Erlinder, sensing that Teliril's appearance was an illusion, grabbed hold of the Hag's invisible claw, leading to a battle in the courtroom. Upon revealing her true form, the Adventurers and Count Jeskin took up arms against her. She spent her last moments, before being cut down by Filibert, madly attempting to kill Erlinder for unveiling her true form and ruining her plans."
 		]
 	},
-	"Lormin_Blackmaw": {
-		"player_known": true,
+	"Lormin-Blackmaw": {
+		"playerKnown": true,
 		"tags": ["butcher","rogue","half-orc","rythlon","navolin","friend"],
 		"name": "Lormin Blackmaw",
 		"nickname": "Lormin",
@@ -224,8 +224,8 @@
 			"When the Adventurers first came to Rythlon, Lormin witnessed them fend off a small incursion of shadowy creatures at the Moody Acrobat. He quietly approached them, hoping that they might be interested in helping him remove a curse from Rakas. The two men had ventured into a cave system they heard held ruins and in the process Rakas had been afflicted with a mysterious ailment. The adventurers agreed and upon completing the task, Lormin paid them 100 gold pieces for their help."
 		]
 	},
-	"Rakas_of_Driskal": {
-		"player_known": true,
+	"Rakas-of-Driskal": {
+		"playerKnown": true,
 		"tags": ["priest","cleric","human","rythlon","navolin","guardian"],
 		"name": "Rakas of Driskal",
 		"nickname": "Rakas",
@@ -240,8 +240,8 @@
 			"The Adventurers encountered Rakas while investigating the curse he was afflicted with. He seemed unaware that he was cursed, instead assuming it was an illness of some sort. After the adventurers cleansed the cauldron belonging to the hags of the grotto, the curse was lifted. Rakas, however, was unaware of this and assumed he had instead been cured of his 'illness' by the Guardian. The Adventurers chose not to correct him, leaving him to his worship."
 		]
 	},
-	"Vythica_Floshin": {
-		"player_known": true,
+	"Vythica-Floshin": {
+		"playerKnown": true,
 		"tags": ["wizard","scholar","half-elf","rythlon","navolin","nost ezel'nar"],
 		"name": "Vythica Floshin",
 		"nickname": "Vythica",
@@ -255,8 +255,8 @@
 			"Vythica Floshin is a half-elf woman who resides by herself in a large stone house in Rythlon. A wizard of some manner, the Adventurers encountered her when Murat wished to have his master's staff identified. She offered to do so in exchange for him helping her clean up her library; a task Murat to do rather poorly. Though she attempted to engage Murat in further pleasantries, the monk was quick to leave her house after she identified the staff, leaving her dejected at the rare chance for company."
 		]
 	},
-	"Selif_Koric": {
-		"player_known": true,
+	"Selif-Koric": {
+		"playerKnown": true,
 		"tags": ["noble","human","rythlon","navolin"],
 		"name": "Selif Koric",
 		"nickname": "Ealderman Selif Koric",
@@ -272,8 +272,8 @@
 			"It is not clear what Koric would do with himself after his dismissal from the position of Ealderman."
 		]
 	},
-	"Nikodim_Tifafi_Zihan_Pilkozz": {
-		"player_known": true,
+	"Nikodim-Tifafi-Zihan-Pilkozz": {
+		"playerKnown": true,
 		"tags": ["sailor","captain","Volikgrad","barrier coast","smuggler","salty ferret"],
 		"name": "Nikodim Tifafi Zihan Pilkozz",
 		"nickname": "Captain Niko",
@@ -290,7 +290,7 @@
 		]
 	},
 	"Uster": {
-		"player_known": true,
+		"playerKnown": true,
 		"tags": ["azer","slave","the molten halls","elemental"],
 		"name": "Uster",
 		"nickname": "Uster",
@@ -304,8 +304,8 @@
 			"Uster is only able to speak in Ignan, a fact that makes it very difficult for him to communicate in any manner beyond grunts and gestures."
 		]
 	},
-	"Priceli_Nezella_Philyorin": {
-		"player_known": true,
+	"Priceli-Nezella-Philyorin": {
+		"playerKnown": true,
 		"tags": ["gnome","apothecary","rythlon","navolin","merchant"],
 		"name": "Priceli Nezella Philyorin",
 		"nickname": "Priceli",

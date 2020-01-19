@@ -1,13 +1,32 @@
 @import '../mixins';
 
 form#search {
-	input#searchBox {
-		width: 12em;
+  input#searchBox {
     height: auto;
     padding: 1em 3em 0.6em 0.6em;
     border: 0;
     border-bottom: 1px solid #ccc;
     transition: width .5s;
     font-size: 0.8em;
-	}
+    margin-left: 5vw;
+  }
+}
+
+
+// MOBILE
+@media all and (max-width: $breakpoint-mobile) {
+  form#search {
+    input#searchBox {
+      width: 40vw;
+    }
+  }
+}
+
+// DESKTOP
+@media all and (min-width: $breakpoint-mobile) {
+  form#search {
+    input#searchBox {
+      width: 12em;
+    }
+  }
 }

@@ -1,5 +1,48 @@
 @import "../mixins";
 
+a {
+  text-decoration: none;
+  color: $tagLink;
+
+  &:hover,
+  &:active {
+    color: $tagLinkHover;
+  }
+
+  &:visited {
+    color: $tagLink;
+  }
+}
+
+
+ul#people {
+  width: 90vw;
+  padding: 0;
+  margin: 2em auto 0;
+  list-style-type: none;
+
+  li.person {
+    display: inline-block;
+    width: 23%;
+    margin: 1em 0 2em;
+    padding: 0 1%;
+    vertical-align: bottom;
+    justify-content: center;
+    text-align: center;
+
+    img.portrait {
+      height: 8em;
+      width: auto;
+      left: 1em;
+      clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+    }
+
+    p.name {
+      width: 100%;
+    }
+  }
+}
+
 article.person {
   display: block;
   width: 85vw;
@@ -110,7 +153,8 @@ article.person {
     }
 
     i.quote {
-      padding-left: 1em;
+      font-family: $serifText;
+      padding-left: 2vw;
       line-height: 1.6em;
       font-size: 0.9em;
       margin-bottom: 2.5em;
@@ -124,6 +168,7 @@ article.person {
   }
 }
 
+// MOBILE
 @media all and (max-width: $breakpoint-mobile) {
   article.person {
     width: 92vw;
@@ -134,14 +179,25 @@ article.person {
         padding: 0;
       }
     }
+  }
 
+  ul#people {
+
+    li.person {
+      width: 48%;
+
+      img.portrait {
+
+      }
+
+      p.name {
+
+      }
+    }
   }
 }
 
+// DESKTOP
 @media all and (min-width: $breakpoint-mobile) {
-  article.person {
-    &:nth-child(2n) {
-      // margin-left: 6vw;
-    }
-  }
+
 }
