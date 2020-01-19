@@ -70,18 +70,44 @@ export default class PeopleArticle extends Component {
   linkContent(currentPerson, descriptionArray) {
     const {peopleData} = this.props.data;
 
-    function checkNestedArray(para, name) {
-      if ( Array.isArray(para[0]) ) {
-        return para.some( a => {
-          let bol = false;
-          a.forEach( x => {
-            if ( typeof x === 'string' && x.includes(name)) {
-              bol = true;
-            }
-          })
-          return bol;
-        })
+    function checkNestedArray(array, name) {
+      let test = false;
+
+      for (let i in array) {
+        if (Array.isArray(array[i])) {
+          test = checkNestedArray(array[i], name);
+        }
+
+        if (typeof array[i] === 'string') {
+          if (array[i].includes(name)) test = true;
+        }
       }
+
+      return test;
+    }
+
+    function replaceNestedValue(array, name, link) {
+
+      for (let i in array) {
+        if (Array.isArray(array[i])) {
+          replaceNestedValue(array[i], name, link);
+        }
+
+        if (typeof array[i] === 'string') {
+          if ( array[i].includes(name) ) {
+            let strReplace = array[i].replace(name, `|${name}|`);
+            strReplace = strReplace.split("|");
+
+            strReplace = strReplace.map( str => {
+              return ( str === name ) ? link : str;
+            });
+
+            array[i] = strReplace;
+          }
+        }
+      }
+
+      return array    
     }
 
     let mapped = descriptionArray.map( (para,i) => {
@@ -99,7 +125,7 @@ export default class PeopleArticle extends Component {
         for ( let [key, val] of Object.entries(namesObj) ) {
           const link = <Link key={`key-${i}-${currentPerson}`} to={`/person/${name.replace(/\s/g,"-")}`}>{val}</Link>;
 
-          if ( para.some( v => v.indexOf(val) >= 0) && val !== currentPerson[key] && currentPerson[key] === "Priceli Nezella Philyorin") {
+          if ( para.some( v => v.indexOf(val) >= 0) && val !== currentPerson[key] ) {
 
             para = para.map( e => e.replace(val, `|${val}|`));
             para = para.map( e => e.split("|"));
@@ -108,26 +134,10 @@ export default class PeopleArticle extends Component {
               return str.map( sub => ( sub === val ) ? link : sub);
             });
 
-          } else if ( checkNestedArray(para, val) && val !== currentPerson[key] && currentPerson[key] === "Priceli") {
+          } else if ( checkNestedArray(para[0], val) && val !== currentPerson[key] ) {
+            
+            para[0] = replaceNestedValue(para[0], val, link);
 
-            para.map( (outer, i) => {
-              outer.map( (inner,j) => {
-                if ( typeof inner === 'string' && inner.includes(val) ) {
-                  let rep = inner.replace(val, `|${val}|`);
-                  rep = rep.split("|");
-
-                  rep = rep.map( str => {
-                    return ( str === val ) ? link : str;
-                  });
-
-                  para[i][j] = rep;
-
-                }
-              })
-            });
-
-            para.flat(Infinity);
-            console.log(para);
           }
         }
       }

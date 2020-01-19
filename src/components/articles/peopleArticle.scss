@@ -8,6 +8,20 @@ article.person {
   margin: 0 auto 4em;
   padding: 0;
 
+  a {
+    // text-decoration: none;
+    color: $tagLink;
+
+    &:hover,
+    &:active {
+      color: $tagLinkHover;
+    }
+
+    &:visited {
+      color: $tagLink;
+    }
+  }
+
   span.tagLink {
     text-decoration: underline;
     color: $tagLink;
