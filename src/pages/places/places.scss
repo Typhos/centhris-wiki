@@ -1,0 +1,29 @@
+@import '../../components/mixins';
+
+ul#places {
+  width: 90vw;
+  padding: 0;
+  margin: 2em auto 0;
+  list-style-type: none;
+
+  li.location {
+    display: inline-block;
+    width: 23%;
+    margin: 1em 0 2em;
+    padding: 0 1%;
+    vertical-align: bottom;
+    justify-content: center;
+    text-align: center;
+
+    img.portrait {
+      height: 8em;
+      width: auto;
+      left: 1em;
+      clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+    }
+
+    p.name {
+      width: 100%;
+    }
+  }
+}

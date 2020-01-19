@@ -1,0 +1,112 @@
+{
+	"Rythlon": {
+		"playerKnown": true,
+		"tags": ["village","navolin","szary","ulfwyst"],
+		"name": "Rythlon",
+		"nickname": "Rythlon on Sulas",
+    "type": "Village",
+		"population": "~400",
+		"races": ["human","elf","halfling","gnome","half-elf","half-orc"],
+		"government": "Appointed Steward",
+    "leaders": ["Imizael Clathara","Selif Koric (former)"],
+		"nation": "Kingdom of Navolin",
+		"location": "Kelishan Highlands",
+		"description": [
+			"Rythlon, aka Rythlon on Sulas, is an ancient human village that sits on the banks of the Sulas river. Located in the Kelishan Highlands of Navolin, the village has roughly 400 inhabitants, most of which are farmers, hunters, craftsmen, and ranchers."
+		]
+	},
+  "Kingdom-of-Navolin": {
+    "playerKnown": true,
+    "tags": ["kingdom","navolin","ulfwyst"],
+    "name": "Kingdom of Navolin",
+    "nickname": "Navolin",
+    "type": "Kingdom",
+    "population": "~2.5 million",
+    "races": ["human","elf","gnome","half-elf","halfling"],
+    "government": "Hereditary Monarchy",
+    "leaders": ["King Kzesimir III"],
+    "regions": ["Kelishan Highlands","Galren Moor","Damali Steppe","Tiderack Coast"],
+    "description": [
+      "The Kingdom of Navolin is a large, feudal state located in Eastern Ulfwyst. "
+    ]    
+  },
+  "Kelishan-Highlands": {
+    "playerKnown": true,
+    "tags": ["region","highlands","plains","navolin","ulfwyst"],
+    "name": "Kelishan Highlands",
+    "nickname": "Kelishan",
+    "type": "Geographic region",
+    "races": ["human","elf","gnome","half-elf","half-orc","halfling"],
+    "nation": "Kingdom of Navolin",
+    "description": [
+      "Highlands"
+    ]    
+  },
+  "Volikgrad": {
+    "playerKnown": true,
+    "tags": ["city-state","barrier coast","ulfwyst","port"],
+    "name": "Volikgrad",
+    "nickname": "Free City of Volikgrad",
+    "type": "City-State",
+    "population": "~3,500",
+    "races": ["human","elf","gnome","half-elf","halfling","dwarf"],
+    "government": "Merchant Oligarchy",
+    "location": "Barrier Coast",
+    "description": [
+      "The Free City of Volikgrad is a city-state in the Barrier Coast region of Ulfwyst. It is the southern-most city on the barrier coast and a major trade hub for merchants and travelers heading towards the southern regions of the Kingdom of Navolin or the Archduchy of Zurast."
+    ]    
+  },
+  "Rakenburg": {
+    "playerKnown": true,
+    "tags": ["city-state","barrier coast","ulfwyst","port"],
+    "name": "Rakenburg",
+    "nickname": "Free City of Rakenburg",
+    "type": "City-State",
+    "population": "~8,000",
+    "races": ["human","elf","gnome","half-elf","halfling","dwarf"],
+    "government": "Guild Oligarchy",
+    "location": "Barrier Coast",
+    "description": [
+      "The Free City of Rakenburg is a city-state in the Barrier Coast region of Ulfwyst. It is the largest city on the barrier coast. The city is a common point for merchants, or travelers heading up or down the region to resupply, due to its central location."
+    ]    
+  },
+  "Korasov": {
+    "playerKnown": true,
+    "tags": ["city-state","barrier coast","ulfwyst","port"],
+    "name": "Korasov",
+    "nickname": "Free City of Korasov",
+    "type": "City-State",
+    "population": "~4,0000",
+    "races": ["human","tiefling","dwarf","dragonborn","tortle"],
+    "government": "Elective Monarchy",
+    "location": "Barrier Coast",
+    "description": [
+      "The Free City of Korasov is a city-state in the Barrier Coast region of Ulfwyst. It is the norther-most city on the barrier coast. At one time, the city was considered part of the Kingdom of Navolin. However, due to changing political climates and shrewd diplomacy, the Lord Mayor of Korasov was able to align himself with the Free Cities of the Barrier Coast. Thus, the city became independent from Navolin without a single casualty."
+    ]    
+  },
+  "Barrier-Coast": {
+    "playerKnown": true,
+    "tags": ["region","coast","mountains","ocean","ulfwyst"],
+    "name": "Barrier Coast",
+    "nickname": "Barrier Coast",
+    "type": "Geographic region",
+    "races": ["human","dwarf","gnome","half-orc","dragonborn","tiefling"],
+    "nation": "Barrier Coast City-States",
+    "description": [
+      "The Barrier Coast is a geographic region on the eastern coast of the continent of Ulfwyst. The region is a relatively dry, rocky coastline east of the Jordonis Mountains before ending at the Mare Concordis. Due to its length, the southern end of the region is temperate, while the northern end of the coast is sub-tropical.",
+      "The major political elements in the region are the Free City-States of the Barrier Coast. These loosely affiliated city-states maintain their independence from each other, but share a common culture and a defensive alliance against outside aggression from other regional powers. The major city-states that comprise this alliance are Braxinfurt, Korasov, Rakenburg, Venbrin and Volikgrad."
+    ]    
+  },
+  "Blighted-Mire": {
+    "playerKnown": true,
+    "tags": ["swamp","region","ulfwyst"],
+    "name": "Blighted Mire",
+    "nickname": "The Blighted Mire",
+    "type": "Geographic region",
+    "races": ["human","elf","gnome","half-elf","half-orc","tiefling"],
+    "nation": ["Tovanis","Zurast"],
+    "description": [
+      "The Blighted Mire is a large area of swampland in east-central Ulfwyst. The swamp, which acts as a natural divider between the state of Tovanis and the Archduchy of Zurast, is wild, stinking marshland full of wild creatures, dangerous monsters and forgotten ruins."
+    ]    
+  }
+}

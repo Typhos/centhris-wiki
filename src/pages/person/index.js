@@ -4,7 +4,7 @@ import peopleData from '../../data/people';
 import Page from '../../components/page';
 import PersonArticle from '../../components/articles/personArticle';
 
-const images = require.context('./portraits/', true);
+const images = require.context('../../img/portraits/', true);
 
 class Person extends Component {
 

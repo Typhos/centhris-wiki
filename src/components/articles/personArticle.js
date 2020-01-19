@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+
+import placeData from "../../data/places";
 
 import "./personArticle.scss";
 
@@ -9,13 +11,19 @@ export default class PeopleArticle extends Component {
     super(props);
 
     this.linkContent = this.linkContent.bind(this);
+    this.checkNestedArray = this.checkNestedArray.bind(this);
+    this.replaceNestedValue = this.replaceNestedValue.bind(this);
   }
 
   render () {
     const person = this.props.entry;
 
     return (
+
       <article className="person" id={person.name.replace(/\s/g,"-")}>
+
+        <Link className="backLink" to='/people'>&laquo; back to People</Link>
+
         <h3 className="fullName">{person.name}</h3>
         <aside className="infoBox">
           <h4 className="nickname">{person.nickname}</h4>
@@ -50,10 +58,12 @@ export default class PeopleArticle extends Component {
               <p className="values">{person.class}</p>
             </div> : "" 
           }
-          <div className="info">
-            <p className="key">Affiliation(s)</p>
-            <p className="values">{person.affiliations}</p>
-          </div>
+          { (person.affiliations) ? 
+            <div className="info affiliations">
+              <p className="key">Affiliation(s)</p>
+              <p className="values">{this.linkContent(person, person.affiliations)}</p>
+            </div> : "" 
+          }
         </aside>
         <div className="mainContent">
           { (person.quote) ? 
@@ -70,29 +80,74 @@ export default class PeopleArticle extends Component {
   linkContent(currentPerson, descriptionArray) {
     const {peopleData} = this.props.data;
 
-    function checkNestedArray(array, name) {
-      let test = false;
+    if ( !Array.isArray(descriptionArray) ) descriptionArray = [descriptionArray];
 
-      for (let i in array) {
-        if (Array.isArray(array[i])) {
-          test = checkNestedArray(array[i], name);
-        }
+    let mapped = descriptionArray.map( (paragraph,i) => {
+      paragraph = [paragraph];
 
-        if (typeof array[i] === 'string') {
-          if (array[i].includes(name)) {
-            test = true;
+      const dataGroupsObj = {
+        "person": peopleData,
+        "location": placeData
+      };
+
+      for ( let [path, dataSet] of Object.entries(dataGroupsObj) ) {
+
+        for ( let [key, obj] of Object.entries(dataSet) ) {
+
+          const name = obj.name;
+          const nickname = obj.nickname;
+          const show = dataSet[name.replace(/\s/g,"-")].playerKnown;
+
+          const namesObj = {
+            name: name, 
+            nickname: nickname
+          };
+
+          if ( show ) {
+            for ( let [key, nameValue] of Object.entries(namesObj) ) {
+
+              const link = <a key={`key-${i}-${currentPerson}`} href={`/${path}/${name.replace(/\s/g,"-")}`}>{nameValue}</a>;
+
+
+              if ( this.checkNestedArray(paragraph, nameValue) && nameValue !== currentPerson[key] ) {
+
+                paragraph = this.replaceNestedValue(paragraph, nameValue, link);
+
+              }
+            }
           }
         }
       }
 
-      return test;
+      return <p className="linkedContent" key={currentPerson+i}>{paragraph}</p>;
+    });
+
+    return mapped;
+  }
+
+  checkNestedArray(array, name) {
+    let test = false;
+
+    for (let i in array) {
+      if (Array.isArray(array[i])) {
+        test = this.checkNestedArray(array[i], name);
+      }
+
+      if (typeof array[i] === 'string') {
+        if (array[i].includes(name)) {
+          test = true;
+        }
+      }
     }
 
-    function replaceNestedValue(array, name, link) {
+    return test;
+  }
+
+  replaceNestedValue(array, name, link) {
       
       for (let i in array) {
         if (Array.isArray(array[i])) {
-          replaceNestedValue(array[i], name, link);
+          this.replaceNestedValue(array[i], name, link);
         }
 
         if (typeof array[i] === 'string') {
@@ -112,38 +167,4 @@ export default class PeopleArticle extends Component {
 
       return array    
     }
-
-    let mapped = descriptionArray.map( (paragraph,i) => {
-      paragraph = [paragraph];
-
-      for ( let [key, obj] of Object.entries(peopleData) ) {
-        const name = obj.name;
-        const nickname = obj.nickname;
-
-        const namesObj = {
-          name: name, 
-          nickname: nickname
-        };
-
-        for ( let [key, nameValue] of Object.entries(namesObj) ) {
-
-          if ( checkNestedArray(paragraph,  'Akad') && currentPerson.nickname !== "Akad" ) {
-            console.log(paragraph)
-          }
-
-          const link = <a key={`key-${i}-${currentPerson}`} href={`/person/${name.replace(/\s/g,"-")}`}>{nameValue}</a>;
-
-          if ( checkNestedArray(paragraph, nameValue) && nameValue !== currentPerson[key] ) {
-
-            paragraph = replaceNestedValue(paragraph, nameValue, link);
-
-          }
-        }
-      }
-
-      return <p key={currentPerson+i}>{paragraph}</p>;
-    });
-
-    return mapped;
-  }
 }

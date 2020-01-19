@@ -3,7 +3,7 @@ import dwarfRunes from '../../data/dwarfRunes';
 
 import Page from '../../components/page';
 
-const images = require.context('./imgs/', true);
+const images = require.context('../../img/runes/', true);
 
 class Runes extends Component {
 

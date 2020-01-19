@@ -5,7 +5,7 @@ import Search from '../../components/search';
 import Page from '../../components/page';
 import PeopleArticle from '../../components/articles/peopleArticle';
 
-const images = require.context('../person/portraits/', true);
+const images = require.context('../../img/portraits/', true);
 
 class People extends Component {
 

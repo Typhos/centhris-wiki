@@ -6,6 +6,8 @@ import App from './components/app';
 import {People} from './pages/people/index';
 import {Person} from './pages/person/index';
 import {Runes} from './pages/runes/index';
+import {Places} from './pages/places/index';
+import {Location} from './pages/location/index';
 
 // import * as serviceWorker from './components/serviceWorker';
 // serviceWorker.unregister();
@@ -17,6 +19,8 @@ const routing = (
       <Route path="/runes" component={Runes} />
       <Route path="/person" component={Person} />
       <Route path="/people" component={People} />
+      <Route path="/places" component={Places} />
+      <Route path="/location" component={Location} />
     </div>
   </Router>
 )
