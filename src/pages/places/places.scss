@@ -27,3 +27,24 @@ ul#places {
     }
   }
 }
+
+
+// MOBILE
+@media all and (max-width: $breakpoint-mobile) {
+  ul#places {
+
+    li.location {
+      width: 48%;
+
+      img.portrait {
+        width: 100%;
+      }
+    }
+  }
+
+}
+
+// DESKTOP
+@media all and (min-width: $breakpoint-mobile) {
+
+}

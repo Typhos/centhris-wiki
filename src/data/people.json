@@ -50,10 +50,24 @@
 		"occupation": "Noble, Soldier",
 		"affiliations": ["Kingdom of Navolin", "County of Szary"],
 		"description": [
-			"As the Count of Szary, Jeskin Sebroski is both the local lord, administrator, and commander of a feudal county bordering the state of Tovanis. The count takes his role as the ruler of a Navolinian border province very seriously, knowing that he is the first line of defense against incursions from foreign states, and monstrous creatures from beyond his borders.",
+			"As the Count of Szary, Jeskin Sebroski is both the local lord, administrator, and commander of a feudal county bordering the state of Tovanis. The count takes his role as the ruler of a border province very seriously, knowing that he is the first line of defense against incursions from foreign states, and monstrous creatures from beyond his borders.",
 			"A man of noble birth, Count Sebroski was tutored from a young age in the arts of riding, warfare, court life and hunting.",
-			"As a member of the nobility of Navolin, Jeskin was brought into the ranks of the Navolinian Hussars and excelled during the dangerous training regime that all initiates must undergo. He has since risen through the ranks to become one of the commanding officers of the order.",
-			"He is a common sight in the court of King Kzesimir in Frecyra where he is called up on to provide military advice. He is also a close personal friend of Prince Aronas Czak and returned from a provincial issue in the village of Rythlon upon learning the news of the prince's death."
+			"As a member of the nobility of the Kingdom of Navolin, Jeskin was brought into the ranks of the Hussars and excelled during the dangerous training regime that all initiates must undergo. He has since risen through the ranks to become one of the commanding officers of the order.",
+			"He is a common sight in the court of King Kzesimir III in Frecyra where he is called up on to provide military advice. He is also a close personal friend of Prince Aronas Czak and returned from a provincial issue in the village of Rythlon upon learning the news of the prince's death."
+		]
+	},
+	"Kzesimir-III-of-House-Czak": {
+		"playerKnown": false,
+		"tags": ["king","noble","Frecyra","Navolin"],
+		"name": "Kzesimir III of House Czak",
+		"nickname": "King Kzesimir III",
+		"race": "Human",
+		"age": "57",
+		"gender": "Male",
+		"occupation": "King",
+		"affiliations": ["Navolin","Frecyra","Palace of the Western Wind"],
+		"description": [
+			"King Kzesimir III is the monarch of Navolin and head of the noble Czak House. His court is held in Frecyra at the Palace of the Western Wind."
 		]
 	},
 	"Akad-the-Magnificent": {
@@ -121,7 +135,7 @@
 			"A monster hunter by trade, Roland of Zelmar is a quiet, but insightful man. Tall, with broad shoulders, and a graying beard and hair, Roland wears black studded leather armor. His most distinctive trait is his orange eyes, which have pupils like that of a lizard or cat.",
 			"He traveled to Felrast, a dwarf hold nestled in the Pillars of Amud in order to have Ithi Ironjaw, a legendary Master Runesmith, forge him a unique bastard sword etched with dwarven runes. After the work was completed, Roland left Felrast, taking a job as a guard for a merchant wagon. It was during this journey that he befriended Lirr Stonebreath.",
 			"While on the border of Tovanis and Navolin, Lirr and Roland encountered a young halfling named Filibert. After a series of events outside of Auburn Castle, the three traveled together to the village of Rythlon on the Sulas river.",
-			"Roland traveled with Filibert to several local manors trying to help the young fighter find a new lord who might employ him, but to no avail. With Filibert returning to Rythlon to being a career as an adventurer, Roland continued his journey north towards the Navolinian city of Zelmar."
+			"Roland traveled with Filibert to several local manors trying to help the young fighter find a new lord who might employ him, but to no avail. With Filibert returning to Rythlon to being a career as an adventurer, Roland continued his journey north towards the city of Zelmar in northern Navolin."
 		]
 	},
 	"Mysterious-Monk": {
@@ -346,20 +360,6 @@
 		"description": [
 			"Vagnur Mountainhall is one of the oldest Runesmiths in Ulfwyst. He manages an age-old workshop in the Dwarven Hold of Kazdan Ord, in the Jordonis Mountains. He rarely, if ever, leaves the hold. Speaking directly to the master is difficult, as his students and underlings will go to great lengths to keep prospective clients from speaking to their master unless they feel the request is worthy of Master Mountainhall's attention.",
 			"Temperamental and surly, the old runesmith spends most of his time passing on his craft to younger smiths he feels show promise in the art. He recently accepted Lirr Stonebreath as an apprentice, after she expressed interest in the art-form and passed a series of trials to prove she was worthy of the venerable dwarf's time."
-		]
-	},
-	"Kzesimir-III-of-House-Czak": {
-		"playerKnown": false,
-		"tags": ["king","noble","Frecyra","Navolin"],
-		"name": "Kzesimir III of House Czak",
-		"nickname": "King Kzesimir III",
-		"race": "Human",
-		"age": "57",
-		"gender": "Male",
-		"occupation": "King",
-		"affiliations": ["Navolin","Frecyra","Palace of the Western Wind"],
-		"description": [
-			"King Kzesimir III is the monarch of Navolin and head of the noble Czak House. His court is held in Frecyra at the Palace of the Western Wind."
 		]
 	}
 }

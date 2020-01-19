@@ -190,6 +190,17 @@ article.person {
         padding: 0;
       }
     }
+
+    h4.nickname {
+      display: none;
+    }
+
+    aside.infoBox {
+      width: 90%;
+      display: block;
+      margin: 0 auto 3em;
+      float: none;
+    }
   }
 
   ul#people {
@@ -198,7 +209,7 @@ article.person {
       width: 48%;
 
       img.portrait {
-
+        height: 10em;
       }
 
       p.name {
