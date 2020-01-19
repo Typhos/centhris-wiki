@@ -1,11 +1,11 @@
 @import "../mixins";
 
 article.person {
-  display: inline-block;
-  width: 45%;
+  display: block;
+  width: 85vw;
   vertical-align:top;
   direction: ltr;
-  margin-bottom: 4em;
+  margin: 0 auto 4em;
   padding: 0;
 
   span.tagLink {
@@ -127,7 +127,7 @@ article.person {
 @media all and (min-width: $breakpoint-mobile) {
   article.person {
     &:nth-child(2n) {
-      margin-left: 6vw;
+      // margin-left: 6vw;
     }
   }
 }

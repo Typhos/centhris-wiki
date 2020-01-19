@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import data from '../../data/people';
+import peopleData from '../../data/people';
 
 import Search from '../../components/search';
 import Page from '../../components/page';
@@ -13,9 +13,10 @@ class People extends Component {
   constructor (props) {
     super(props);
 
+    // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
     let filteredOutput = {};
 
-    for (let [key, obj] of Object.entries(data)) {
+    for (let [key, obj] of Object.entries(peopleData)) {
       if ( obj.player_known ) {
         filteredOutput[key] = obj;
       }
@@ -31,7 +32,7 @@ class People extends Component {
 
   render () {
     const filteredOutput = this.state.people.map( person => {
-      return <PeopleArticle entry={data[person]} image={ images('./' + data[person].name.replace(/\s/g,"_") + '.png') }/>
+      return <PeopleArticle data={{peopleData}} entry={peopleData[person]} image={ images('./' + peopleData[person].name.replace(/\s/g,"_") + '.png') }/>
     });
 
     return (
@@ -49,8 +50,8 @@ class People extends Component {
     let sortable = [];
     let results = [];
 
-    for (let key in data) {
-      sortable.push([key, data[key]]);
+    for (let key in peopleData) {
+      sortable.push([key, peopleData[key]]);
     }
 
     sortable.sort( (a,b) => {
@@ -67,9 +68,7 @@ class People extends Component {
       const key = ent[0];
       const entry = ent[1];
 
-      if ( !e ) {
-        console.log('tatsfasdfs');
-      } else if ( entry.player_known && (entry.tags.some( tag => tag.toLowerCase().includes(searchTerm) ) || entry.name.toLowerCase().includes(searchTerm) || entry.nickname.toLowerCase().includes(searchTerm) ) ) {
+      if ( entry.player_known && (entry.tags.some( tag => tag.toLowerCase().includes(searchTerm) ) || entry.name.toLowerCase().includes(searchTerm) || entry.nickname.toLowerCase().includes(searchTerm) ) ) {
         results.push( key );
       }
       return true;

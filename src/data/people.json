@@ -14,7 +14,7 @@
 		"description": [
 			"Shiavalae Amarathar is a young, elf adventurer and member of Ruby Phoenix, a well known adventuring guild operating out of Rakenburg. Only a young adult by elven standards, Shia speaks with a relatively meek demeanor, though she can be excitable when in the presence of interesting mystical or arcane phenomena. She is of average height and build for an elf, with distinctive blue hair.",
 			"She is a Wizard specializing in Abjuration magic. While in a discussion with Erlinder, Shia revealed that she does not really know her parents, who aparently chose to leave her under the tutilage of the wizards of the Tower of Stantorr in Frecyra. She appeared to still be coming to terms with this sense of abandonment.",
-			"Shia met the Adventurers during a chance encounter at the gates of the Palace of Akad, the Efreet lord. While exploring the interior together, Khazar, Shiavalae and the the Adventurers encountered the shade of Akad and were bound to his service."
+			"Shia met the Adventurers during a chance encounter at the gates of the Palace of Akad the Magnificent, the Efreet lord. While exploring the interior together, Khazar Thul, Shiavalae and the the Adventurers encountered the shade of Akad and were bound to his service."
 		]
 	},
 	"Khazar_Thul": {
@@ -30,11 +30,11 @@
 		"affiliations": "Ruby Phoenix",
 		"quote": "\"I am humble servant of the Eternal Flame. He guides me in the darkest places where there is no hope, honor or virtue to be found. Not all pay homage to his glorious visage, but all are touched by his grace.\"",
 		"description": [
-			"Khazar Thul is a seasoned human adventurer and a devout follower of the Eternal. Exceptionally tall, standing roughly 6ft 8in (203cm), with a muscular physique, he prefers to enter the thick of the fighting in order to dispatch his foes with his two-handed sword.",
+			"Khazar Thul is a seasoned human adventurer and a devout follower of the Eternal. Exceptionally tall, standing roughly 6ft 8in (2 meters), with a muscular physique, he prefers to enter the thick of the fighting in order to dispatch his foes with his two-handed sword.",
 			"Khazar has braved many dangerous locations during his time as a professional adventuerer. Over the course of his adventures, he has aquired a number of helpful tools that he employs when a situation calls for it, such as Jozara's Claw of Acuity.",
 			"He has gained a keen eye for character and is a stawart ally to those he feels are worthy of his friendship.",
 			"As part of his religious devotion, Khazar can be found praying towards the sunrise every morning.",
-			"Khazar met the Adventurers during a chance encounter at the gates of the Palace of Akad, the Efreet lord. While exploring the interior together, Khazar, Shiavalae and the the Adventurers encountered the shade of Akad and were bound to his service."
+			"Khazar met the Adventurers during a chance encounter at the gates of the Palace of Akad, the Efreet lord. While exploring the interior together, Khazar, Shia and the Adventurers encountered the shade of Akad and were bound to his service."
 		]
 	},
 	"Jeskin_Sebroski": {
@@ -70,7 +70,7 @@
 		"description": [
 			"Akad the Magnificent was an Efreet who ruled a region south of the Jordonis Mountians thousands of years ago. His palace, a fabulous complex made of brass and black stone known as the Molten Halls, was the seat of his power when he dwelled on the Material Plane. While he ruled the area, Akad demanded tribute from all under his dominion and bound many beings to his service. He would store his treasures in a pool of super-heated mercury, in which he enslaved several Azer to guard and act as valets.",
 			"He was banished back to the City of Brass by a pair of wizards, Menodora & Amabilis.",
-			"While exploring the interior of the Molten Palace, Khazar, Shiavalae and the the Adventurers encountered the shade of Akad and were bound to his service."
+			"While exploring the interior of the Molten Palace, Khazar, Shia and the the Adventurers encountered the shade of Akad and were bound to his service."
 		]
 	},
 	"Lirr_Stonebreath": {
@@ -87,7 +87,7 @@
 		"description": [
 			"A young dwarf cleric of the Maker, Lirr Stonebreath set out from the Dwarf Hold of Felrast on her journey to find the masters of her craft. Disguising herself as a man in order to avoid others looking down upon her as a smith, Lirr hitched a ride on a merchant wagon heading east, which was being guarded by Roland of Zelmar.",
 			"While on the border of Tovanis and Navolin, Lirr and Roland encountered a young halfling named Filibert. After a series of events outside of Auburn Castle, the three traveled together to the village of Rythlon on the Sulas river.",
-			"While in Rythlon, Lirr and the Adventurers took on a job to help a local Butcher, Lorman Blackmaw, who was hoping to save his friend from a curse. After overcoming monsters and traps in a cave complex, the group succeeded in removing the curse.",
+			"While in Rythlon, Lirr and the Adventurers took on a job to help a local butcher, Lormin Blackmaw, who was hoping to save his friend from a curse. After overcoming monsters and traps in a cave complex, the group succeeded in removing the curse.",
 			"This series of events left Lirr shaken and after some consideration she decided to continue her journey to Kazdan Ord by herself over staying in Rythlon to help resolve the local's issues."
 		]
 	},
@@ -166,7 +166,7 @@
 		"gender": "Female",
 		"class": "Ranger",
 		"occupation": "Steward, Militia Commander",
-		"affiliations": "Village of Rythlon",
+		"affiliations": "Rythlon",
 		"quote": "\"I am a simle shepard. My favorite place is here, with my flock. However, someone in this village needs to teach the people to defend themselves, and it appears that I am the only one who can manage that right now.\"",
 		"description": [
 			"Imizael is the new steward of Rythlon and was previously the village's militia commander. She is of average height, with an athletic, graceful build. She has long, dark hair which she keeps braided on one side. In combat, she fights with two short swords, which she uses with the speed and skill of someone who has practiced swordplay for decades.",
@@ -183,11 +183,139 @@
 		"age": "41",
 		"gender": "Male",
 		"occupation": "Innkeeper",
-		"affiliations": "Village of Rythlon",
+		"affiliations": "Rythlon",
 		"quote": "\"It's been a gloomy year, gentlemen. Ever since the new magistrate showed up, everyone has been on edge. I just keep to myself here and not to ask too many questions. I don't want to get on anyone's bad side. Anyway, what can I get you all to drink?\"",
 		"description": [
 			"Bordin is the large, bearded, portly owner and innkeeper of the Moody Acrobat, the only inn/tavern in the village of Rythlon. Generally jovial and good natured, Bordin has been running the inn for many years. The Moody Acrobat is frequented by locals, but rarely has guests who stay for any extended period.",
 			"His cousin, Davrik, ran Green Boat shipping, the largest business in Rythlon. With Davrik's arrest for smuggling illegal goods into Rythlon, Bordin has taken temporary ownership of the company."
+		]
+	},
+	"Teliril_Wasanathi": {
+		"player_known": true,
+		"tags": ["hag","elf","fey","rythlon","navolin","enemy","magistrate","noble"],
+		"name": "Teliril Wasanathi",
+		"nickname": "Teliril",
+		"race": "Elf/Hag",
+		"age": "??",
+		"gender": "Female",
+		"occupation": "Magistrate",
+		"affiliations": "Rythlon, Coven of the Withered Eye",
+		"description": [
+			"Teliril Wasanathi was a beautiful female elf magistrate who had been assigned to oversee the village of Rythlon in Navolin. She had pale skin, platinum blonde hair and golden eyes. Aloof, calculating and sadistic, the elf magistrate had arrived in the village less than a year before the Adventurers arrived, but in that time she had overseen at least twelve executions for crimes in the village.",
+			"After the Adventurers drove off a small incursion of shadowy creatures at the Moody Acrobat, word spread around the village of their deed and upon their return from grotto outside of town, Teliril came to size up the new arrivals. After several of the Adventurers failed at flirting with her, it became clear that she has not a friendly face in town.",
+			"Later, when the Adventurers returned from the banks of the Sulas with Davrik and Gregor, Teliril appeared at the manor of Ealderman Selif Koric only minutes after the group arrived to determine what to do with the smugglers. Teliril demanded that the two men face the harshest possible punishment for their crimes, causing the ealderman to leave the village to consult with Count Jeskin Sebroski.",
+			"When the Adventurers arrived back from the Thornroot Thicket with the corpse of the Lady in the Woods, Teliril cast Raise Dead on the body in order to cast even more doubt upon the group. However, the spell was ineffective due to the intervention of Reanold Duplechin.",
+			"When the Adventurers were put on trial in front of the count, Erlinder, sensing that Teliril's appearance was an illusion, grabbed hold of the Hag's invisible claw, leading to a battle in the courtroom. Upon revealing her true form, the Adventurers and Count Jeskin took up arms against her. She spent her last moments, before being cut down by Filibert, madly attempting to kill Erlinder for unveiling her true form and ruining her plans."
+		]
+	},
+	"Lormin_Blackmaw": {
+		"player_known": true,
+		"tags": ["butcher","rogue","half-orc","rythlon","navolin","friend"],
+		"name": "Lormin Blackmaw",
+		"nickname": "Lormin",
+		"race": "Half-Orc",
+		"age": "47",
+		"gender": "Male",
+		"class": "Rogue",
+		"occupation": "Butcher",
+		"affiliations": "Rythlon",
+		"description": [
+			"Lormin Blackmaw is the half-orc butcher of Rythlon. His shop, the Lazy Goat, is located near the center of the village, just outside the village square. Before settling down in the village, Lormin lived the life of an adventurer along with his friend Rakas of Driskal. Lormin is a sly, well-mannered man who still remembers his glory days of delving dungeons, fighting monsters and uncovering ancient treasures.",
+			"When the Adventurers first came to Rythlon, Lormin witnessed them fend off a small incursion of shadowy creatures at the Moody Acrobat. He quietly approached them, hoping that they might be interested in helping him remove a curse from Rakas. The two men had ventured into a cave system they heard held ruins and in the process Rakas had been afflicted with a mysterious ailment. The adventurers agreed and upon completing the task, Lormin paid them 100 gold pieces for their help."
+		]
+	},
+	"Rakas_of_Driskal": {
+		"player_known": true,
+		"tags": ["priest","cleric","human","rythlon","navolin","guardian"],
+		"name": "Rakas of Driskal",
+		"nickname": "Rakas",
+		"race": "Human",
+		"age": "56",
+		"gender": "Male",
+		"class": "Cleric",
+		"occupation": "Priest",
+		"affiliations": "Rythlon",
+		"description": [
+			"A friar who presides over the Temple of the Guardian in Rythlon, Rakas of Driskal is a devout follower of his chosen deity. Rakas is a large, bearded man in his mid-fifties who spends his days caring for the small temple and cemetery of the village. He can occassionally be found having a drink with his friend Lormin Blackmaw, the local butcher, at the Moody Acrobat.",
+			"The Adventurers encountered Rakas while investigating the curse he was afflicted with. He seemed unaware that he was cursed, instead assuming it was an illness of some sort. After the adventurers cleansed the cauldron belonging to the hags of the grotto, the curse was lifted. Rakas, however, was unaware of this and assumed he had instead been cured of his 'illness' by the Guardian. The Adventurers chose not to correct him, leaving him to his worship."
+		]
+	},
+	"Vythica_Floshin": {
+		"player_known": true,
+		"tags": ["wizard","scholar","half-elf","rythlon","navolin","nost ezel'nar"],
+		"name": "Vythica Floshin",
+		"nickname": "Vythica",
+		"race": "Half-Elf",
+		"age": "62",
+		"gender": "Female",
+		"class": "Wizard",
+		"affiliations": "Rythlon",
+		"quote": "\"It's been quite a while since I had a visitor. Please, come in. We can have some tea and chat.\"",
+		"description": [
+			"Vythica Floshin is a half-elf woman who resides by herself in a large stone house in Rythlon. A wizard of some manner, the Adventurers encountered her when Murat wished to have his master's staff identified. She offered to do so in exchange for him helping her clean up her library; a task Murat to do rather poorly. Though she attempted to engage Murat in further pleasantries, the monk was quick to leave her house after she identified the staff, leaving her dejected at the rare chance for company."
+		]
+	},
+	"Selif_Koric": {
+		"player_known": true,
+		"tags": ["noble","human","rythlon","navolin"],
+		"name": "Selif Koric",
+		"nickname": "Ealderman Selif Koric",
+		"race": "Human",
+		"age": "55",
+		"gender": "Male",
+		"occupation": "Ealderman",
+		"affiliations": "Rythlon, Navolin",
+		"description": [
+			"Previously the Ealderman of Rythlon, Selif Koric is an elderly man who lived in a house on the village square. He has long, grey hair, a well kept bear and a dull, passive demeanor. Seemingly either inept or corrupt, Koric appeared to be generally uninterested in the plight of the people in Rythlon under the watchful eye of Teliril Wasanathi.",
+			"He first encountered the Adventurers when they brought Davrik and Gregor to his house in the middle of the night, after the men had been captured smuggling goods on the Sulas river. Koric seemed uninterested in the issue until Teliril arrived at his house and demanded the men be punished to the fullest extent of the law. Unwilling to issue a capital sentence on the spot, the ealderman instead chose to travel to Castle Grinsted, the seat of Count Jeskin Sebroski, Koric's liege, in order to avoid having to make the judgement himself. This action allowed the adventurers time to investigate the issue further, as they suspected there were sinister forces at work in the village.",
+			"Koric would later return from Castle Grinsted with the count, who wished to deal with the issues in Rythlon personally. After the adventurers returned with evidence against Teliril, and a trial-turned-battle, the Count Jeskin decided to remove Koric from his position in favor of Imizael Clathara, who had showed herself to be a more suitable individual for the role of steward of Rythlon.",
+			"It is not clear what Koric would do with himself after his dismissal from the position of Ealderman."
+		]
+	},
+	"Nikodim_Tifafi_Zihan_Pilkozz": {
+		"player_known": true,
+		"tags": ["sailor","captain","Volikgrad","barrier coast","smuggler","salty ferret"],
+		"name": "Nikodim Tifafi Zihan Pilkozz",
+		"nickname": "Captain Niko",
+		"race": "Gnome",
+		"age": "140",
+		"gender": "Male",
+		"occupation": "Ship Captain",
+		"affiliations": "the Salty Ferret, Volikgrad",
+		"quote": "\"Nobody said anything about a flaming dwarf coming aboard. You're going to owe me for the scorch marks.\"",
+		"description": [
+			"The captain of the Salty Ferret, Nikodim Tifafi Zihan Pilkozz, better known as Captain Niko, is a flamboyant gnome who was hired by Shia to transport the Adventurers, herself and Khazar from Volikgrad to Rakenburg. Far easier to read than he believes, the Adventurers were quickly able to dissern that Niko was not on the level, but it was not clear exactly what the gnome was up to.",
+			"After a salvage mission gone awry, the captain and the Adventurers battled an Icebrine Serpent. Following the battle, the Adventurers grew even more suspicious, due to Erlinder's knowledge of the serpent's diet. Unknown to the captain, Erlinder transformed into a spider and searched the ship, discovering that the captain and his crew were smuggling 20 blue dragon eggs, and were using the transport of the Adventurers as cover.",
+			"Following their successful arrival in Rakenburg, the captain offered his interest in providing further tranporation services to the Adventurers if they required it."
+		]
+	},
+	"Uster": {
+		"player_known": true,
+		"tags": ["azer","slave","the molten halls","elemental"],
+		"name": "Uster",
+		"nickname": "Uster",
+		"race": "Azer",
+		"age": "??",
+		"gender": "??",
+		"affiliations": "the Adventurers, the Molten Halls",
+		"description": [
+			"Uster is one of two Azer slaves in the service of Akad the Magnificent in the Molten Halls. He was bound, along with Ocot, to serve as the Efreet's valets in the Mercury Vault. It was not clear exactly how long the two Azer had been left waiting in the Mercury Vault before the Adventurers, Shia and Khazar came upon them while exploring.",
+			"After the Adventurers struck a deal with Akad, Uster's service was transfered to Erlinder, to whom he is now bound through strange magics.",
+			"Uster is only able to speak in Ignan, a fact that makes it very difficult for him to communicate in any manner beyond grunts and gestures."
+		]
+	},
+	"Priceli_Nezella_Philyorin": {
+		"player_known": true,
+		"tags": ["gnome","apothecary","rythlon","navolin","merchant"],
+		"name": "Priceli Nezella Philyorin",
+		"nickname": "Priceli",
+		"race": "Gnome",
+		"age": "210",
+		"gender": "Female",
+		"affiliations": "Rythlon",
+		"description": [
+			"Priceli is a female gnome apothecary who runs the the Trusty Elixir, the local herbalist shop in Rythlon. She is of average height, with bright red hair. Her usual attire is bright clothing and various pieces of gold jewelry. She is an excitable woman, as gnomes tend to be, and is happy to engage other villagers or travelers in lively discussions, especially on the topics of plants, herbs and elixirs.",
+			"She is friends with Rakas and Lormin, whom she regularly has drinks with at the Moody Acrobat. She also provides Bordin, the innkeeper, with spices for the food at the inn."
 		]
 	}
 }
