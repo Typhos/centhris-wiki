@@ -30,7 +30,7 @@ ul#places {
 
 article.maps {
   width: 88vw;
-  margin: 1.5em auto 1em;
+  margin: 1em auto 0;
 
   a.mapLink {
 
@@ -64,6 +64,21 @@ article.maps {
         width: 100%;
       }
     }
+  }
+
+  article.maps {
+    margin: 0.25em auto 0;
+
+    a.mapLink {
+      width: 48%;
+      margin-bottom: 0;
+
+      img.map {
+        height: 10vh;
+      }
+
+    }
+
   }
 
 }
