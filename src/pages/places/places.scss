@@ -28,6 +28,30 @@ ul#places {
   }
 }
 
+article.maps {
+  width: 88vw;
+  margin: 1.5em auto 1em;
+
+  a.mapLink {
+
+    display: inline-block;
+    width: 23%;
+    margin: 1em 0 2em;
+    padding: 0 1%;
+    vertical-align: top;
+    justify-content: center;
+    text-align: center;
+
+    img.map {
+      height: 7em;
+      width: auto;
+      left: 1em;
+      // clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+    }
+  }
+
+}
+
 
 // MOBILE
 @media all and (max-width: $breakpoint-mobile) {

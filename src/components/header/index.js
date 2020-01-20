@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navigation from './navigation';
+import { Link } from 'react-router-dom';
 
 import './header.scss';
 
@@ -9,7 +10,9 @@ class Header extends Component {
     return (
       <header className="appHeader">
         <div className="headerBox">
-          <p>Centhris Wiki</p>
+          <h1>
+            <Link className="home" to="/">The World of Centhris</Link>
+          </h1>
         </div>
         <Navigation />
       </header>

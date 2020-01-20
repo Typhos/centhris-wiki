@@ -36,7 +36,11 @@ class People extends Component {
 
     return (
       <Page.People>
+        
         <Search handleSearch={ this.handleSearch } />
+
+        <h2 className="sectionTitle">Non-Player Characters</h2>
+        
         <ul id="people" >
           {filteredOutput}
         </ul>

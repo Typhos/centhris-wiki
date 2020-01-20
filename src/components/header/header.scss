@@ -9,14 +9,45 @@
     font-size: 2rem;
     min-height: 8vh;
     color: #fff;
-    text-shadow: 1px 1px 3px #111;
+    text-shadow: 1px 1px 3px #111, 2px 2px 3px #114;
     font-family: $styleText;
-    text-transform: uppercase;
+    font-variant: small-caps;
     letter-spacing: 0.1em;
-    word-spacing: 1em;
+    word-spacing: 0.2em;
 
     background-image: url('./header-map.png');
     background-size: cover;
     background-position: center bottom 15%;
+
+    h1 {
+        font-size: 1.1em;
+        font-weight: 400;
+        text-align: center;
+
+        a.home {
+            color: $offWhite;
+        }
+    }
   }
+}
+
+
+// MOBILE
+@media all and (max-width: $breakpoint-mobile) {
+  .appHeader {
+    .headerBox {
+      h1 {
+        font-size: 5vw;
+
+        a.home {
+
+        }
+      }
+    }
+  }
+}
+
+// DESKTOP
+@media all and (min-width: $breakpoint-mobile) {
+
 }

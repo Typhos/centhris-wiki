@@ -3,3 +3,26 @@
 body {
   font-family: $sansText;
 }
+
+
+h2.sectionTitle {
+  font-family: $serifText;
+  font-size: 1.1em;
+  letter-spacing: 0.15em;
+  font-variant: small-caps;
+  border-bottom: 1px solid $blueDark;
+  width: 88vw;
+  margin: 1.5em auto 1em;
+}
+
+article.description {
+  width: 88vw;
+  margin: 1.5em auto 1em;
+}
+
+img.worldMap {
+  display: block;
+  margin: 3em auto;
+  width: 88vw;
+  max-width: 1200px;
+}

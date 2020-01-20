@@ -34,6 +34,8 @@ class Characters extends Component {
 
     return (
       <Page.Characters>
+        <h2 className="sectionTitle">Player Characters</h2>
+
         <ul id="characters" >
           {characters}
         </ul>

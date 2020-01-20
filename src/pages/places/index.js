@@ -8,6 +8,7 @@ import PeopleArticle from '../../components/articles/peopleArticle';
 
 import './places.scss';
 
+const maps = require.context('../../img/maps/', true);
 const images = require.context('../../img/places/', true);
 
 class Places extends Component {
@@ -44,9 +45,38 @@ class Places extends Component {
       )
     });
 
+    console.log(maps);
+
     return (
       <Page.People>
-        <Search handleSearch={ this.handleSearch } />
+        {/*<Search handleSearch={ this.handleSearch } />*/}
+        
+        <h2 className="sectionTitle">Maps</h2>
+        <article className="maps">
+          
+          <a className="mapLink" href={ maps('./Ulfwyst-2C-2573.png') }>
+            <img className="map" src={ maps('./Ulfwyst-2C-2573.png') }/>
+            <p>Eastern Ulfwyst c. 2573</p>
+          </a>
+
+          <a className="mapLink" href={ maps('./Volikgrad.png') }>
+            <img className="map" src={ maps('./Volikgrad.png') }/>
+            <p>Volikgrad</p>
+          </a>
+          
+          <a className="mapLink" href={ maps('./Rakenburg.png') }>
+            <img className="map" src={ maps('./Rakenburg.png') }/>
+            <p>Rakenburg</p>
+          </a>
+          
+          <a className="mapLink" href={ maps('./cryptic-toridosa-map.png') }>
+            <img className="map" src={ maps('./cryptic-toridosa-map.png') }/>
+            <p>Toridosa Map</p>
+          </a>
+
+        </article>
+
+        <h2 className="sectionTitle">Locations</h2>
         <ul id="places" >
           {filteredOutput}
         </ul>

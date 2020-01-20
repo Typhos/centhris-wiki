@@ -1,22 +1,26 @@
 @import '../../components/mixins';
 
 ul#characters {
+  display: flex;
+  flex-wrap: wrap;
   width: 90vw;
   padding: 0;
   margin: 2em auto 0;
   list-style-type: none;
+  justify-content: space-evenly;
 
   li.character {
     display: inline-block;
-    width: 48%;
+    width: 20%;
     margin: 1em 0 2em;
     padding: 0 1%;
     vertical-align: top;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
 
     img.portrait {
       height: 25vw;
+      max-height: 18em;
       width: auto;
       left: 1em;
       clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
