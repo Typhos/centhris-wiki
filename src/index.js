@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 
 import App from './components/app';
+import {Characters} from './pages/characters/index';
+import {Player} from './pages/player/index';
 import {People} from './pages/people/index';
 import {Person} from './pages/person/index';
 import {Runes} from './pages/runes/index';
@@ -17,6 +19,8 @@ const routing = (
     <div>
       <Route exact path="/" component={App} />
       <Route path="/runes" component={Runes} />
+      <Route path="/characters" component={Characters} />
+      <Route path="/player-character" component={Player} />
       <Route path="/person" component={Person} />
       <Route path="/people" component={People} />
       <Route path="/places" component={Places} />

@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import placeData from "../../data/places";
-import characterData from '../../data/characters';
+import peopleData from "../../data/people";
 
 import "./personArticle.scss";
 
-export default class PeopleArticle extends Component {
+export default class PlayerCharacter extends Component {
 
   constructor (props) {
     super(props);
@@ -20,66 +20,78 @@ export default class PeopleArticle extends Component {
     const person = this.props.entry;
 
     return (
-
       <article className="person" id={person.name.replace(/\s/g,"-")}>
-
-        <Link className="backLink" to='/people'>&laquo; back to People</Link>
+        <Link className="backLink" to='/characters'>&laquo; back to Characters</Link>
 
         <h3 className="fullName">{person.name}</h3>
         <aside className="infoBox">
           <h4 className="nickname">{person.nickname}</h4>
           <img className="portrait" alt="" src={this.props.image}/>
-          { (person.titles) ? 
-            <div className="info">
-              <p className="key">Title(s)</p>
-              <p className="values">{person.titles}</p>
-            </div> : "" 
-          }
           <div className="info">
             <p className="key">Age</p>
             <p className="values">{person.age}</p>
           </div>
-          <div className="info">
-            <p className="key">Gender</p>
-            <p className="values">{person.gender}</p>
-          </div>
-          <div className="info">
-            <p className="key">Race</p>
-            <p className="values">{person.race}</p>
-          </div>
-          { (person.occupation) ? 
-            <div className="info">
-              <p className="key">Occupation</p>
-              <p className="values">{person.occupation}</p>
-            </div> : "" 
-          }
           { (person.class) ? 
             <div className="info">
               <p className="key">Character class</p>
               <p className="values">{person.class}</p>
             </div> : "" 
           }
+          { (person.subclass) ? 
+            <div className="info">
+              <p className="key">Subclass</p>
+              <p className="values">{person.subclass}</p>
+            </div> : "" 
+          }
+          { (person.race) ? 
+            <div className="info">
+              <p className="key">Race</p>
+              <p className="values">{person.race}</p>
+            </div> : "" 
+          }
+          { (person.hp) ? 
+            <div className="info">
+              <p className="key">Hit Points</p>
+              <p className="values">{person.hp}</p>
+            </div> : "" 
+          }
+          { (person.stats) ? 
+            <div className="statblock">
+              <p className="heading">Stats</p>
+              <div className="block">
+                <span className="stat">STR</span> <span className="num">{person.stats.STR}</span>
+                <span className="stat">DEX</span> <span className="num">{person.stats.DEX}</span>
+                <span className="stat">CON</span> <span className="num">{person.stats.CON}</span>
+                <span className="stat">INT</span> <span className="num">{person.stats.INT}</span>
+                <span className="stat">WIS</span> <span className="num">{person.stats.WIS}</span>
+                <span className="stat">CHA</span> <span className="num">{person.stats.CHA}</span>
+              </div>
+            </div> : "" 
+          }
+          { (person.gender) ? 
+            <div className="info">
+              <p className="key">Gender</p>
+              <p className="values">{person.gender}</p>
+            </div> : "" 
+          }
+          { (person.background) ? 
+            <div className="info">
+              <p className="key">Background</p>
+              <p className="values">{person.background}</p>
+            </div> : "" 
+          }
           { (person.affiliations) ? 
-            <div className="info affiliations">
-              <p className="key">Affiliation(s)</p>
+            <div className="info">
+              <p className="key">Affiliations</p>
               <p className="values">{this.linkContent(person, person.affiliations)}</p>
             </div> : "" 
           }
         </aside>
-        <div className="mainContent">
-          { (person.quote) ? 
-            <i className="quote">{person.quote}</i> : ""
-          }
-          {this.linkContent(person, person.description)}
-
-        </div>
-        <div className="clear"></div>
       </article>
     )
   }
 
   linkContent(currentPerson, descriptionArray) {
-    const {peopleData} = this.props.data;
 
     if ( !Array.isArray(descriptionArray) ) descriptionArray = [descriptionArray];
 
@@ -88,7 +100,6 @@ export default class PeopleArticle extends Component {
 
       const dataGroupsObj = {
         "person": peopleData,
-        "player-character": characterData,
         "location": placeData
       };
 
@@ -168,5 +179,5 @@ export default class PeopleArticle extends Component {
       }
 
       return array    
-    }
+  }
 }

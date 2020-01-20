@@ -35,8 +35,13 @@
 @media all and (max-width: $breakpoint-mobile) {
 
   #navigationList {
+    padding-bottom: 0;
+
     .navigationListItem {
       font-size: 0.9em;
+      text-align: center;
+      width: 27;
+      margin: 0 3% 1em;
     }
   }
 

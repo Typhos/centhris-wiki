@@ -106,6 +106,7 @@ article.person {
       font-size: 1.1em;
       margin: 0;
       padding: 0.5em 0.5em;
+      letter-spacing: 0.1em;
     }
 
     img.portrait {
@@ -126,8 +127,13 @@ article.person {
         border-bottom: none;
       }
 
+      p.linkedContent {
+        margin: 0;
+        line-height: 1.75em;
+      }
+
       p.key,
-      p.values {
+      .values {
         padding: 0.5em 0.5em;
         margin: 0;
         display: inline-block;
@@ -138,7 +144,7 @@ article.person {
         width: 40%;
       }
 
-      p.values {
+      .values {
         width: 60%;
         text-align: right;
       }
@@ -147,6 +153,47 @@ article.person {
         p {
           margin: 0 0 0.5em;
         }
+      }
+    }
+
+    .statblock {
+      display: block;
+      width: 100%;
+      padding: 0.5em 0.5em;
+      margin: 0;
+      border-bottom: 1px solid $blueLight;
+
+      p.heading {
+        font-weight: 700;
+        padding: 0;
+        margin: 0 0 0.5em;
+      }
+
+      .block {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        span.stat,
+        span.num {
+          display: inline-block;
+          
+          margin: 0.2em 0 0 0;
+          font-size: 1.1em;
+          
+        }
+
+        span.stat {
+          width: 20%;
+          letter-spacing: 0.1em;
+        }
+
+        span.num {
+          width: 28%;
+          text-align: center;
+        }
+
       }
     }
   }
@@ -200,6 +247,10 @@ article.person {
       display: block;
       margin: 0 auto 3em;
       float: none;
+
+      img.portrait {
+        border-top: 0;
+      }
     }
   }
 

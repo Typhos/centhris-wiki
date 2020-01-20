@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 
 import placeData from '../../data/places';
+import characterData from '../../data/characters';
 import peopleData from '../../data/people';
 
 import "./locationArticle.scss";
@@ -20,8 +21,6 @@ export default class LocationArticle extends Component {
     const location = this.props.entry;
 
     const races = location.races && location.races.map( race => <span className="race commaSeparated">{race}</span> );
-    // const leaders = location.leaders && location.leaders.map( leader => <span className="leader commaSeparated">{  }</span> );
-    // const regions = location.regions && location.regions.map( region => <span className="region commaSeparated">{  }</span> );
 
     return (
 
@@ -102,6 +101,7 @@ export default class LocationArticle extends Component {
 
       const dataGroupsObj = {
         "person": peopleData,
+        "player-character": characterData,
         "location": placeData
       };
 
