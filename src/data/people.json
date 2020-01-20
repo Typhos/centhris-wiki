@@ -197,11 +197,45 @@
 		"age": "41",
 		"gender": "Male",
 		"occupation": "Innkeeper",
-		"affiliations": ["Rythlon"],
+		"affiliations": ["Rythlon","Moody Acrobat","Green Boat Shipping"],
 		"quote": "\"It's been a gloomy year, gentlemen. Ever since the new magistrate showed up, everyone has been on edge. I just keep to myself here and not to ask too many questions. I don't want to get on anyone's bad side. Anyway, what can I get you all to drink?\"",
 		"description": [
 			"Bordin is the large, bearded, portly owner and innkeeper of the Moody Acrobat, the only inn/tavern in the village of Rythlon. Generally jovial and good natured, Bordin has been running the inn for many years. The Moody Acrobat is frequented by locals, but rarely has guests who stay for any extended period.",
 			"His cousin, Davrik, ran Green Boat shipping, the largest business in Rythlon. With Davrik's arrest for smuggling illegal goods into Rythlon, Bordin has taken temporary ownership of the company."
+		]
+	},
+	"Davrik": {
+		"playerKnown": true,
+		"name": "Davrik",
+		"tags": ["human","sailor","merchant","smuggler","Rythlon"],
+		"nickname": "Davrik",
+		"race": "Human",
+		"age": "37",
+		"gender": "Male",
+		"occupation": "Merchant",
+		"affiliations": ["Rythlon","Green Boat Shipping"],
+		"description": [
+			"Davrik is a the owner and operator of Green Boat Shipping, a merchant shipping company that operates out of Rythlon and transports goods up and down the Sulas river. A human man, Davrik is the cousin of Bordin, the innkeeper of the Moody Acrobat.",
+			"Green Boat Shipping is the largest business in the village, though Davrik had plans to expand its operations further abroad. In order to do so, he had borrowed money from Yora, a local moneylender, in order to expand the business. When his plans did not get the expected returns quickly enough, Davrik was forced to find other ways of making money in order pay off his debts.",
+			"The Adventurers first encountered Davrik and some of his employees one night on the banks of the Sulas while investigating strange noises that the villagers heard coming from the river at night. They soon realized that the noises were actually those of the men smuggling goods upriver at night and offloading them at a small dock downriver from Rythlon. After a quick scuffle, the Adventurers subdued the men and brought them back to the village for judgment from the alderman, Selif Koric.",
+			"Koric, who seemed unwilling to punish the men, was forced to seek the input of Count Jeskin Sebroski at Castle Grinsted after the surprise arrival of Teliril Wasanathi at his manor. This interlude provided the Adventurers time to further investigate the strange happenings in the village in an attempt to save Davrik and Gregor from possible execution.",
+			"After Teliril was revealed to be a hag who had been manipulating and terrorizing the village for her own gain, Count Jeskin chose to reduce the sentences of the smugglers to six months of hard labor instead of a capital punishment."
+		]
+	},
+	"Gregor": {
+		"playerKnown": true,
+		"name": "Gregor",
+		"tags": ["human","sailor","smuggler","Rythlon"],
+		"nickname": "Gregor",
+		"race": "Human",
+		"age": "43",
+		"gender": "Male",
+		"occupation": "Laborer",
+		"affiliations": ["Rythlon","Green Boat Shipping"],
+		"description": [
+			"Gregor is a human man who works for Davrik as an employee of Green Boat Shipping. He was one of several men that joined his boss in smuggling illicit cargo to Rythlon on the Sulas river. After being captured by the Adventurers while smuggling goods, he was brought before Alderman Selif Koric for judgment.",
+			"Koric, who seemed unwilling to punish the men, was forced to seek the input of Count Jeskin Sebroski at Castle Grinsted after the unexpected arrival of Teliril Wasanathi at his manor. This interlude provided the Adventurers time to further investigate the strange happenings in the village in an attempt to save Davrik and Gregor from possible execution.",
+			"After Teliril was revealed to be a hag who had been manipulating and terrorizing the village for her own gain, Count Jeskin chose to reduce the sentences of the smugglers to six months of hard labor instead of a capital punishment."
 		]
 	},
 	"Teliril-Wasanathi": {
@@ -238,6 +272,21 @@
 			"When the Adventurers first came to Rythlon, Lormin witnessed them fend off a small incursion of shadowy creatures at the Moody Acrobat. He quietly approached them, hoping that they might be interested in helping him remove a curse from Rakas. The two men had ventured into a cave system they heard held ruins and in the process Rakas had been afflicted with a mysterious ailment. The adventurers agreed and upon completing the task, Lormin paid them 100 gold pieces for their help."
 		]
 	},
+	"Edmund": {
+		"playerKnown": true,
+		"tags": ["butcher","rogue","half-orc","rythlon","navolin","friend"],
+		"name": "Edmund",
+		"nickname": "Edmund",
+		"race": "Halfling",
+		"age": "26",
+		"gender": "Male",
+		"occupation": "Stable hand",
+		"affiliations": ["Rythlon"],
+		"description": [
+			"Edmund is a young halfling man who makes a living as a stable hand for various stables and farms around the village of Rythlon. He is friends with Imizael Clathara and can be found most nights at the Moody Acrobat playing cards with Imizael and other gamblers. Erlinder took note that Lormin Blackmaw has a tendency to keep an eye on Edmund when he is at the Moody Acrobat.",
+			"The Adventurers purchased Muffin from Edmund before leaving Rythlon on their way to Volikgrad."
+		]
+	},
 	"Rakas-of-Driskal": {
 		"playerKnown": true,
 		"tags": ["priest","cleric","human","rythlon","navolin","guardian"],
@@ -250,8 +299,22 @@
 		"occupation": "Priest",
 		"affiliations": ["Rythlon"],
 		"description": [
-			"A friar who presides over the Temple of the Guardian in Rythlon, Rakas of Driskal is a devout follower of his chosen deity. Rakas is a large, bearded man in his mid-fifties who spends his days caring for the small temple and cemetery of the village. He can occassionally be found having a drink with his friends Lormin & Priceli, the local butcher, at the Moody Acrobat.",
+			"A friar who presides over the Temple of the Guardian in Rythlon, Rakas of Driskal is a devout follower of his chosen deity. Rakas is a large, bearded man in his mid-fifties who spends his days caring for the small temple and cemetery of the village. He can occasionally be found having a drink with his friends Lormin & Priceli, the local butcher, at the Moody Acrobat.",
 			"The Adventurers encountered Rakas while investigating the curse he was afflicted with. He seemed unaware that he was cursed, instead assuming it was an illness of some sort. After the adventurers cleansed the cauldron belonging to the hags of the grotto, the curse was lifted. Rakas, however, was unaware of this and assumed he had instead been cured of his 'illness' by the Guardian. The Adventurers chose not to correct him, leaving him to his worship."
+		]
+	},
+	"Muffin": {
+		"playerKnown": true,
+		"tags": ["mule"],
+		"name": "Muffin",
+		"nickname": "Muffin",
+		"race": "Mule",
+		"age": "7",
+		"gender": "Female",
+		"affiliations": ["the Adventurers"],
+		"description": [
+			"Muffin is a pack mule that the Adventurers purchased from Edmund the stable hand before leaving Rythlon on their way to Volikgrad. Erlinder will occasionally use Speak with Animals to converse with Muffin, who is generally rude and terse with the druid.",
+			"When the Adventurers ventured inside the Molten Halls, they left Muffin outside to graze. When they emerged from the halls, Muffin was loaded with thousands of copper coins that the group had found and was made to carry the coins to Volikgrad for exchange into more usable currency. She was then brought along on the Salty Ferret as the Adventurers traveled on to Rakenburg."
 		]
 	},
 	"Vythica-Floshin": {
@@ -294,6 +357,7 @@
 		"race": "Gnome",
 		"age": "140",
 		"gender": "Male",
+		"class": "Rogue",
 		"occupation": "Ship Captain",
 		"affiliations": ["the Salty Ferret", "Volikgrad"],
 		"quote": "\"Nobody said anything about a flaming dwarf coming aboard. You're going to owe me for the scorch marks.\"",
@@ -360,6 +424,52 @@
 		"description": [
 			"Vagnur Mountainhall is one of the oldest Runesmiths in Ulfwyst. He manages an age-old workshop in the Dwarven Hold of Kazdan Ord, in the Jordonis Mountains. He rarely, if ever, leaves the hold. Speaking directly to the master is difficult, as his students and underlings will go to great lengths to keep prospective clients from speaking to their master unless they feel the request is worthy of Master Mountainhall's attention.",
 			"Temperamental and surly, the old runesmith spends most of his time passing on his craft to younger smiths he feels show promise in the art. He recently accepted Lirr Stonebreath as an apprentice, after she expressed interest in the art-form and passed a series of trials to prove she was worthy of the venerable dwarf's time."
+		]
+	},
+	"Vyslos": {
+		"playerKnown": true,
+		"tags": ["druid","elf","Sylvan Conclave","grove"],
+		"name": "Vyslos",
+		"nickname": "Vyslos",
+		"race": "Elf",
+		"age": "??",
+		"gender": "Male",
+		"class": "Druid",
+		"affiliations": ["Sylvan Conclave"],
+		"description": [
+			"Erlinder first encountered Vyslos when the Adventuerers returned to the Thornroot Thicket after defeating Teliril Wasanathi in Rythlon. Wishing to use this opportunity to try to understand his newfound abilities and connect with a place of natural power, Erlinder and his allies returned to the mysterious grove of megaliths in the middle of the forest. It was here, upon visiting for the second time, that he first encountered Vyslos, along with Kahina and Tekas Woadsinger.",
+			"Of the three druids that communed with Erlinder that night, Vyslos appeared to be the elder sage and the druid most in tune with the spell-casting aspect of his order. After discussing the nature of his power, and possible avenues in which to harness it, Erlinder chose to speak with Vyslos at length in order to further his understanding of the nature of druidic magics.",
+			"Vyslos informed Erlinder that the grove he oversees is located in the shadow of the Jordanis Mountains, in a place called the Shambling Grove."
+		]
+	},
+	"Kahina": {
+		"playerKnown": true,
+		"tags": ["druid","human","Sylvan Conclave","grove"],
+		"name": "Kahina",
+		"nickname": "Kahina",
+		"race": "Human",
+		"age": "33",
+		"gender": "Female",
+		"class": "Druid",
+		"affiliations": ["Sylvan Conclave"],
+		"description": [
+			"",
+			"Kahina informed Erlinder that the grove she oversees is located in the state of Cebrin, in southern Ulfwyst."
+		]
+	},
+	"Tekas-Woadsinger": {
+		"playerKnown": true,
+		"tags": ["druid","Sylvan Conclave","grove"],
+		"name": "Tekas Woadsinger",
+		"nickname": "Tekas",
+		"race": "unknown",
+		"age": "??",
+		"gender": "Male",
+		"class": "Druid",
+		"affiliations": ["Sylvan Conclave"],
+		"description": [
+			"Tekas Woadsinger is a druid and member of the Sylvan Conclave. Having embraced the shape shifting aspect of his druidic powers, Tekas appears as a huge, hulking humanoid-bear hybrid. In this form, he stand roughly 8 feet (2.25m) tall, with the face of a bear, dark gray fur, and large, powerful claws.",
+			"Tekas informed Erlinder that the grove he oversees is located in the Desolate Wastes, in central Ulfwyst."
 		]
 	}
 }
