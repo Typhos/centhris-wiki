@@ -3,6 +3,7 @@
 a {
   text-decoration: none;
   color: $tagLink;
+  cursor: pointer;
 
   &:hover,
   &:active {
@@ -51,7 +52,7 @@ article.location {
     }
   }
 
-  h3.fullName {
+  h2.fullName {
     margin: 0;
     margin-bottom: 1em;
     padding: 0;
@@ -62,10 +63,20 @@ article.location {
     border-bottom: 1px solid $blue;
   }
 
+  h3.subheading {
+    font-family: $serifText;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-top: 2em;
+    line-height: 2em;
+    border-bottom: 1px solid $blueDark;
+    overflow: hidden;
+  }
+
   aside.infoBox {
     display: block;
     float: right;
-    width: 25vw;
+    width: 30vw;
     min-width: 14em;
     max-width: 40em;
     font-size: 0.75em;
@@ -89,6 +100,7 @@ article.location {
       border-bottom: 1px solid $blueLight;
     }
 
+    
     div.info {
       display: flex;
       width: 100%;
@@ -120,6 +132,16 @@ article.location {
         width: 60%;
         text-align: right;
       }
+
+      &.mapBox {
+        height: auto;
+
+        img.map {
+          width: 80%;
+          padding: 2em 10%;
+        }
+      }
+        
 
       span.commaSeparated {
         display: inline-block;
@@ -155,6 +177,10 @@ article.location {
       line-height: 1.6em;
       font-size: 0.9em;
       margin-bottom: 2.5em;
+    }
+
+    p {
+      text-indent: 1.5em;
     }
   }
 

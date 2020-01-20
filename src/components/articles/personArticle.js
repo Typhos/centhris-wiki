@@ -25,7 +25,7 @@ export default class PeopleArticle extends Component {
 
         <Link className="backLink" to='/people'>&laquo; back to People</Link>
 
-        <h3 className="fullName">{person.name}</h3>
+        <h2 className="fullName">{person.name}</h2>
         <aside className="infoBox">
           <h4 className="nickname">{person.nickname}</h4>
           <img className="portrait" alt="" src={this.props.image}/>

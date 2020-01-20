@@ -48,7 +48,7 @@
 		"gender": "Male",
 		"class": "Fighter",
 		"occupation": "Noble, Soldier",
-		"affiliations": ["Kingdom of Navolin", "County of Szary"],
+		"affiliations": ["Castle Grinsted","County of Szary","Kingdom of Navolin"],
 		"description": [
 			"As the Count of Szary, Jeskin Sebroski is both the local lord, administrator, and commander of a feudal county bordering the state of Tovanis. The count takes his role as the ruler of a border province very seriously, knowing that he is the first line of defense against incursions from foreign states, and monstrous creatures from beyond his borders.",
 			"A man of noble birth, Count Sebroski was tutored from a young age in the arts of riding, warfare, court life and hunting.",
@@ -167,7 +167,8 @@
 		"description": [
 			"Zorrakir is an wandering tiefling monk. He has pale, mauve skin, with long, gray hair which is always tied in a bun behind his curved, ram-like horns. He keeps a long, unkempt beard, which he never bothers to tame or bind. He is rather tall and lean for a tiefling, though his constant drinking has resulted in a paunch. He has piercing red eyes that seem to almost glow.",
 			"Murat met Zorrakir in Zurast, the capital city of the Archduchy. A gang of thugs had decided to attempt to rob the old man, and much to their surprise, the drunk old tiefling beat them mercilessly without dropping his wineskin. After witnessing this, Murat followed the old monk around for days, demanding that he teach him how to fight as he had. After several days of attempting to avoid the half-orc, Zorrakir relented and offered to train Murat.",
-			"The last time Murat or Evan-Jakob saw Zorrakir was a mountain-side temple outside of Tarona, when a mysterious darkness overtook the temple and several strange, glowing suits of armor emerged. Zorrakir told the others to run as he went about combating the creatures, throwing Murat his staff in the process."
+			"The last time Murat or Evan-Jakob saw Zorrakir was a mountain-side temple outside of Tarona, when a mysterious darkness overtook the temple and several strange, glowing suits of armor emerged. Zorrakir told the others to run as he went about combating the creatures, throwing Murat his staff in the process.",
+			"The old tiefling told the men to meet him at the city of Venbrin."
 		]
 	},
 	"Imizael-Clathara": {
@@ -332,6 +333,25 @@
 			"Vythica Floshin is a half-elf woman who resides by herself in a large stone house in Rythlon. A wizard of some manner, the Adventurers encountered her when Murat wished to have his master's staff identified. She offered to do so in exchange for him helping her clean up her library; a task Murat to do rather poorly. Though she attempted to engage Murat in further pleasantries, the monk was quick to leave her house after she identified the staff, leaving her dejected at the rare chance for company."
 		]
 	},
+	"Reanold-Duplechin": {
+		"playerKnown": true,
+		"tags": ["bard","halfling","trickster","sovereign","rythlon"],
+		"name": "Reanold Duplechin",
+		"nickname": "Reanold",
+		"race": "Halfling",
+		"age": "??",
+		"gender": "Male",
+		"class": "Bard",
+		"occupation": "Traveling Merchant and Fortuneteller",
+		"affiliations": ["Rythlon","Maison du Corbeau"],
+		"quote": "\"Les gar make yourselves at home! Sit yourself down at my table. Have a seat, kick up your feet. I'll tell your future if I am able...\"",
+		"description": [
+			"Reanold Duplechin is a wandering merchant who arrived in Rythlon during the Adventurers' altercations with Teliril Wasanathi.",
+			"He is of average height for a halfling, with a dark complexion and gaudy clothing. Around his neck is a silver chain with a bird skull looped through it. He drives an ostentatious wagon, on which he mounts various symbols of the occult, along with a staggering number of raven skulls. When asked where he is from, Reanold first responded that was 'not from around here', but after becoming more friendly with the Adventurers, he revealed he was from a place he referred to as 'Maison du Corbeau'.",
+			"At first, the halfling simply saw the group as a way to earn some coin, selling them several minor magical items in exchange for some coin and a favor. However, following the group's return to Rythlon after killing the Lady of the Wood, Reanold intervened when Teliril cast Raise Dead on the hag's corpse. Using his Bardic talents, Reanold severed the magical tethers that were animating the corpse, allowing the Adventurers a change to prove their innocence to Count Jeskin Sebroski.",
+			"After the completion of the trial and the death of Teliril, Reanold called upon Filibert to complete his bargain and sent the group off to look for his assistant, Leah, who had run off with a magical figurine that Reanold uses to summon the horses that pull his wagon. The woman had last been seen at a place called 'the Bone Mill' north of the village. The only sign of the woman was scraps of a red cloak and drag marks inside the mill. With Leah nowhere to be seen, the group returned with the figurine, completing Reanold's request."
+		]
+	},
 	"Selif-Koric": {
 		"playerKnown": true,
 		"tags": ["noble","human","rythlon","navolin"],
@@ -470,6 +490,21 @@
 		"description": [
 			"Tekas Woadsinger is a druid and member of the Sylvan Conclave. Having embraced the shape shifting aspect of his druidic powers, Tekas appears as a huge, hulking humanoid-bear hybrid. In this form, he stand roughly 8 feet (2.25m) tall, with the face of a bear, dark gray fur, and large, powerful claws.",
 			"Tekas informed Erlinder that the grove he oversees is located in the Desolate Wastes, in central Ulfwyst."
+		]
+	},
+	"Baqrin-Calosh": {
+		"playerKnown": false,
+		"tags": ["sailor","captain","Volikgrad","barrier coast","smuggler","salty ferret"],
+		"name": "Baqrin Calosh",
+		"nickname": "Lord Baqrin",
+		"race": "Human",
+		"age": "40",
+		"gender": "Male",
+		"occupation": "7th Lord of Venbrin",
+		"affiliations": ["Venbrin","The Argentate"],
+		"description": [
+			"Lord Baqrin Calosh is a noble lord and ruler of the city-state of Venbrin. He has a long list of titles, which include the 7th Lord of Venbrin, Master of the Argentate & Protector of the Commercia Concordis. A middle aged human man, he has mid-length silvery, platinum blond hair and a goatee comprised of a thin mustache and chin-beard. Lord Baqrin does not seem to take his titles too seriously, and can be found wandering the city of Venbrin without escort. He is good natured, with a broad smile and a welcoming presence. He tends to dress in fine clothing, but carries himself more like a swashbuckling duelist than the noble lord of a city-state.",
+			"Lord Baqrin keeps his home at the Argentate, a walled palace in the north east of the city. He frequently leaves Venbrin aboard his personal flagship, the Shining Dawn, to patrol the waters around Venbrin for threats to his city and the merchant trade in the region."
 		]
 	}
 }

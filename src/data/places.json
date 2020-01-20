@@ -52,8 +52,10 @@
     "races": ["human","elf","gnome","half-elf","halfling","dwarf"],
     "government": "Merchant Oligarchy",
     "location": "Barrier Coast",
+    "map": "Volikgrad",
     "description": [
-      "The Free City of Volikgrad is a city-state in the Barrier Coast region of Ulfwyst. It is the southern-most city on the barrier coast and a major trade hub for merchants and travelers heading towards the southern regions of the Kingdom of Navolin or the Archduchy of Zurast."
+      "The Free City of Volikgrad is a city-state in the Barrier Coast region of Ulfwyst. It is the southern-most city on the barrier coast and a major trade hub for merchants and travelers heading towards the southern regions of the Kingdom of Navolin or the Archduchy of Zurast.",
+      "The primary attractions of the city are the Twin Arches Market, the Eikras Auction House, and the Moongate, a grand temple to the Maiden."
     ]    
   },
   "Rakenburg": {
@@ -66,9 +68,61 @@
     "races": ["human","elf","gnome","half-elf","halfling","dwarf"],
     "government": "Guild Oligarchy",
     "location": "Barrier Coast",
+    "map": "Rakenburg",
     "description": [
-      "The Free City of Rakenburg is a city-state in the Barrier Coast region of Ulfwyst. It is the largest city on the barrier coast. The city is a common point for merchants and travelers heading up or down the region to resupply, due to its central location."
-    ]    
+      "The Free City of Rakenburg is a city-state in the Barrier Coast region of Ulfwyst. It is the largest city in the region and the defacto capital of the city-state alliance. The city is a common point for merchants and travelers moving through the region to resupply, due to its central location.",
+      "Rakenburg is a city built on top of several previous settlements, though the exact number of settlements that existed before is not widely known. Most of the city's current construction used existing building material and re-purposed it. It is not known exactly when the current incarnation of the city was founded, though scholars speculate that the upper city was resettled around 900 years ago.",
+      "The ruins below the city proper are collectively known as the Twisting Warrens, or simply 'the Warrens'. There are three known entrances to the labyrinthine under-city which are all guarded and monitored at all hours. Entrance to the Warrens is tightly controlled, due to the dangers that lurk around every corner. The primary entrance to the under-city is located in the Dawnstar Fairgrounds, with smaller entrances in the Ghost Orchard and the Murky Reach."
+    ],
+    "historyDescription": [
+      "In its early years, the city was ruled by a hereditary monarch, known as the Praeses. During the city's earliest years, when the guilds of Rakenburg were just coming into prominence, inter-guild conflicts were common as Legal Guilds fought over commercial rights, land and establishments. Eventually, these squabbles engulfed the entire city in widespread violence and civil revolt, now known as the First Guild War.",
+      "The First Guild war ended with the overthrow of Praeses Dukran Varyniks and the establishment of the Guild Council of Rakenburg.",
+      "For a time, the citizen of Rakenburg were able to return to their lives without regular outbursts of violence in the streets. This period of tense peace lasted for less than thirty years before tensions flared yet again, and the Second Guild War began. The second war between the various guilds of Rakenburg was far more brutal, not only effecting the city proper, but nearby cities as well, where guilds had spread to establish outposts. During the conflict, thousands of lives were lost and the number of operating guilds in the city dropped by nearly two thirds.",
+      "At the end of the Second Guild War, the Guild Council of Rakenburg passed the 'Interguild Dispute Interdiction Treaty' that forbids all acts of aggression against other guilds and offers methods of dispute resolution. The treaty also limits the number of Legal Guilds in the city to 16, with 8 acting as active council members, and the remaining 8 acting in advisory roles. If a guild with council membership does not meet its obligations, one of the minor guilds can be elected to replace it, ensuring that the guilds keep each other in check."
+    ],
+    "governmentDescription": [
+      "Rakenburg is ruled by the Guild Council of Rakenburg, a governing body with representatives from the 8 major guilds of the city. Each guild sends a representative to sit on the council (usually the guild master, but other members are sometimes selected in the guild master's stead). The council holds a public session every ten-day at the Reliquary of the Castidos which is open to public attendance. Guild business is addressed and then there is a time allotted for public comment.",
+      "The day-to-day peacekeeping of the city is left to the Specula Arcanum, one of the 8 Major Guilds, commonly referred to as `Specs`. This guild acts as the city watch, judiciary and militia as required. In order ensure peace is kept throughout the city, the guild deploys Gradiorus along with its regular patrols. These large, hulking, arcane golems are animated with arcane magic and follow a set of preprogrammed guidelines in order to maintain peace in the city."
+    ]
+  },
+  "Reliquary-of-the-Castidos":{
+    "playerKnown": true,
+    "tags": ["structure","barrier coast","ulfwyst","rakenburg"],
+    "name": "Reliquary of the Castidos",
+    "nickname": "the Castidos",
+    "type": "Building",
+    "location": "Rakenburg",
+    "description": [
+      "The town hall and meeting place of the Guild Council of Rakenburg. The Castidos is also a library and vault for information and items that come from the Twisting Warrens beneath Rakenburg."
+    ]
+  },
+  "Eikras-Auction-House":{
+    "playerKnown": true,
+    "tags": ["structure","barrier coast","ulfwyst","rakenburg"],
+    "name": "Eikras Auction House",
+    "nickname": "the Eikras",
+    "type": "Building",
+    "location": "Volikgrad",
+    "description": [
+      "The Eikras Auction House is an important fixture in the city of Volikgrad. Adventurers, nobles and merchants from all over eastern Ulfwyst will venture to Volikgrad in order to buy and sell items at the auction house. It is located in the Windpoint District in Volikgrad.",
+      "The auction house has 2 wings, each 3 stories tall, and a main hall.",
+      "The first floor of the northern wing is comprised of several rooms, each holding silent auctions for lesser items, categorized by type. This includes, housewares, arms & armor, potions & elixirs, antiques and vehicles. The second floor of the northern wing is comprised of storage and the third floor is for administrative offices.",
+      "The first floor of the southern wing is used for the auction of mundane livestock. The second and third floors of this wing are actually one large, vaulted room which is reserved for exotic livestock, including magical and dangerous beasts.",
+      "The main hall of the auction house holds infrequent auctions, based upon the volume and interest in the more valuable items for sale. The date of the next main hall auction, along with a list of items up for auction, is posted outside the hall. The main hall holds a traditional auction, with an auctioneer and standard bidding procedure. The hall itself is laid out in the manner of an amphitheater, allowing for all in the room to be seen and see the items up for auction."
+    ]
+  },
+  "the-Twisting-Warrens": {
+    "playerKnown": false,
+    "tags": ["ruins","labyrinth","ulfwyst","rakenburg","under-city","barrier coast"],
+    "name": "the Twisting Warrens",
+    "nickname": "The Twisting Warrens",
+    "type": "ruins / labyrinth",
+    "location": "Barrier Coast",
+    "description": [
+      "The Twisting Warrens is a massive underground labyrinth located under the city of Rakenburg.",
+      "There are three known entrances to the dungeon. All are guarded and monitored around the clock to prevent unwitting (and suicidal) explorers from entering. In order to enter, prospective adventurers must provide an official Writ of Passage, which can be purchased from the Guild Council of Rakenburg or provided by one of the guilds which make up the city governing body.",
+      "The primary entrance to the under-city is located in the Dawnstar Fairgrounds, with smaller entrances in the Ghost Orchard and the Murky Reach."
+    ]
   },
   "Korasov": {
     "playerKnown": true,
@@ -76,7 +130,7 @@
     "name": "Korasov",
     "nickname": "Free City of Korasov",
     "type": "City-State",
-    "population": "~4,0000",
+    "population": "~5000",
     "races": ["human","tiefling","dwarf","dragonborn","tortle"],
     "government": "Elective Monarchy",
     "location": "Barrier Coast",
@@ -108,6 +162,51 @@
     "description": [
       "The Blighted Mire is a large area of swampland in east-central Ulfwyst. The swamp, which acts as a natural divider between the state of Tovanis and the Archduchy of Zurast, is wild, stinking marshland full of wild creatures, dangerous monsters and forgotten ruins.",
       "It is here, while traveling north from the City of Zurast, that Murat and Zorrakir first met Evan-Jakob when he appeared out of thin air."
+    ]    
+  },
+  "Venbrin": {
+    "playerKnown": true,
+    "tags": ["city-state","barrier coast","ulfwyst","port"],
+    "name": "Venbrin",
+    "nickname": "Free City of Venbrin",
+    "type": "City-State",
+    "population": "~2,500",
+    "races": ["human","gnome","elf","dwarf","dragonborn"],
+    "government": "Hereditary Monarchy",
+    "location": "Barrier Coast",
+    "description": [
+      "The Free City of Venbrin is a city-state in the Barrier Coast region of Ulfwyst. Located on the isle of Sunheim off the eastern coast of Ulfwyst, the city is home to a large number of temples, including the High Temple of the Philosopher, the Eldergrove, the Shrine of St. Bastlen and Elfin Gate Monastery."
+    ]
+  },
+  "Isle-of-Sunheim": {
+    "playerKnown": true,
+    "tags": ["island","barrier coast","region","ulfwyst"],
+    "name": "Isle of Sunheim",
+    "nickname": "Sunheim",
+    "type": "Geographic region",
+    "description": [
+      "The Isle of Sunheim is located off the eastern coast of the continent of Ulfwyst. Is is a sub-tropical island. The largest settlement on the island is the city of Venbrin."
+    ]    
+  },
+  "Toridosa-Archipelago": {
+    "playerKnown": true,
+    "tags": ["island","archipelago","region","ulfwyst"],
+    "name": "Toridosa Archipelago",
+    "nickname": "Toridosa",
+    "type": "Geographic region",
+    "description": [
+      "The Toridosa Archipelago is series of islands in the center of the Mare Concordis. Little is known about the islands, though their existence has been known for centuries. It was only within the last few years that the island chain has been successfully mapped.",
+      "Explorers who have traveled to the archipelago speak of incredible, vast ruins and terrible dangers that await any who venture there."
+    ]    
+  },
+  "Castle-Grinsted": {
+    "playerKnown": true,
+    "tags": ["castle","navolin","rythlon","ulfwyst"],
+    "name": "Castle Grinsted",
+    "nickname": "Grinsted",
+    "type": "Castle",
+    "description": [
+      "Castle Grinsted is the personal hold of Count Jeskin Sebroksi. It is located along the Sulas river in southern Navolin and is the seat of the County of Szary. The castle is roughly two day's travel from the village of Rythlon."
     ]    
   }
 }

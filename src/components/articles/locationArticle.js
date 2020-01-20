@@ -7,6 +7,8 @@ import peopleData from '../../data/people';
 
 import "./locationArticle.scss";
 
+const maps = require.context('../../img/maps/', true);
+
 export default class LocationArticle extends Component {
 
   constructor (props) {
@@ -28,7 +30,7 @@ export default class LocationArticle extends Component {
 
         <Link className="backLink" to='/places'>&laquo; back to Places</Link>
 
-        <h3 className="fullName">{location.name}</h3>
+        <h2 className="fullName">{location.name}</h2>
         <aside className="infoBox">
           <h4 className="nickname">{location.nickname}</h4>
           <img className="portrait" alt="" src={this.props.image}/>
@@ -80,13 +82,33 @@ export default class LocationArticle extends Component {
               <div className="values">{this.linkContent(location, location.regions)}</div>
             </div> : "" 
           }
+          { (location.map) ? 
+            <div className="info mapBox">
+              <a href={ maps(`./${location.map}.png`) }>
+                <img alt="map" className="map" src={maps(`./${location.map}.png`)}/>
+              </a>
+            </div> : "" 
+          }
         </aside>
         <div className="mainContent">
           { (location.quote) ? 
             <i className="quote">{location.quote}</i> : ""
           }
           {this.linkContent(location, location.description)}
-
+          { (location.historyDescription) ? 
+            <div>
+              <h3 className="subheading">History</h3>
+              {this.linkContent(location, location.historyDescription)}
+            </div> 
+            : ""
+          }
+          { (location.governmentDescription) ? 
+            <div>
+              <h3 className="subheading">Government</h3>
+              {this.linkContent(location, location.governmentDescription)}
+            </div> 
+            : ""
+          }
         </div>
         <div className="clear"></div>
       </article>

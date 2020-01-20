@@ -85,7 +85,7 @@ article.person {
     }
   }
 
-  h3.fullName {
+  h2.fullName {
     margin: 0;
     margin-bottom: 1em;
     padding: 0;
@@ -99,7 +99,9 @@ article.person {
   aside.infoBox {
     display: block;
     float: right;
-    width: 18em;
+    width: 25vw;
+    min-width: 14em;
+    max-width: 33em;
     font-size: 0.75em;
     margin-left: 2em;
     margin-bottom: 1em;
@@ -221,6 +223,10 @@ article.person {
       line-height: 1.6em;
       font-size: 0.9em;
       margin-bottom: 2.5em;
+    }
+
+    p {
+      text-indent: 1.5em;
     }
   }
 
