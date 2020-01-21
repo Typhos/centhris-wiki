@@ -13,14 +13,16 @@ class App extends Component {
     return (
       <main className="App">
         <Header />
-          <h2 className="sectionTitle">A Wiki for the Fantasy World of Centhris</h2>
-          <article className="description">
-            <p>The world of Centhris is a homebrew world in the vast cosmos of planes that make up the Dungeons & Dragons multiverse. This wiki acts as a central point of information for the various people, places, and things that can be found upon it.</p>
-            
-            <a href={centhrisFull}>
-              <img alt="World Map of Centhris" className="worldMap" src={centhris}/>
-            </a>
-          </article>
+          <main className="content">
+            <h2 className="sectionTitle">A Wiki for the Fantasy World of Centhris</h2>
+            <article className="description">
+              <p>The world of Centhris is a homebrew world in the vast cosmos of planes that make up the Dungeons & Dragons multiverse. This wiki acts as a central point of information for the various people, places, and things that can be found upon it.</p>
+              
+              <a href={centhrisFull}>
+                <img alt="World Map of Centhris" className="worldMap" src={centhris}/>
+              </a>
+            </article>
+          </main>
         <Footer />
       </main>
     );
