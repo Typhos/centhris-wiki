@@ -223,5 +223,17 @@
       "Auburn Castle is a border keep along the border of Navolin and Tovanis in central Ulfwyst. Is the home castle and seat of Baron Janik Malmor.",
       "The castle manor is the home of numerous families of humans and halflings, including the Montajay family. Prior to the arrival of Roland of Zelmar and Lirr Stonebreath, and the events that transpired in the woodlands near the castle, it was also the home of Filibert Montajay."
     ]    
+  },
+  "Ruby-Phoenix-Guild-Hall": {
+    "playerKnown": true,
+    "tags": ["guild hall","building","rakenburg","ulfwyst","barrier coast","ruby phoenix"],
+    "name": "Ruby Phoenix Guild Hall",
+    "nickname": "Ruby Phoenix Guild Hall",
+    "type": "Building",
+    "location": "Rakenburg",
+    "leaders": ["Belthren Ogni","Rendis Moon","Khazar Thul"],
+    "description": [
+      "The guild hall of Ruby Phoenix is located in the Gullhollow District of Rakenburg. Located on the edge of the Dawnstar Fairgrounds, the hall is where the guilds meets prospective clients. In addition, the hall is a place for members to find lodging and training facilities."
+    ]    
   }
 }

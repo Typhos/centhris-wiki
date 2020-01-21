@@ -27,6 +27,7 @@
 		"gender": "Male",
 		"class": "Paladin",
 		"occupation": "Adventurer",
+		"titles": ["Master of Recruitment"],
 		"affiliations": ["Ruby Phoenix"],
 		"quote": "\"I am humble servant of the Eternal Flame. He guides me in the darkest places where there is no hope, honor or virtue to be found. Not all pay homage to his glorious visage, but all are touched by his grace.\"",
 		"description": [
@@ -82,7 +83,7 @@
 		"affiliations": ["City of Brass"],
 		"quote": "\"Welcome, welcome! You have entered the Halls of Akad the Magnificent. Are they, am I, not glorious?\"",
 		"description": [
-			"Akad the Magnificent was an Efreet who ruled a region south of the Jordonis Mountians thousands of years ago. His palace, a fabulous complex made of brass and black stone known as the Molten Halls, was the seat of his power when he resided on the Material Plane. While he ruled the area, Akad demanded tribute from all under his dominion and bound many beings to his service. He would store his treasures in a pool of super-heated mercury, in which he enslaved several Azer, including Uster and Ocot, to guard and act as valets.",
+			"Akad the Magnificent was an Efreet who ruled a region south of the Jordonis Mountians thousands of years ago. His palace, a fabulous complex made of brass and black stone known as the Molten Halls, was the seat of his power when he resided on the Material Plane. While he ruled the area, Akad demanded tribute from all under his dominion and bound many beings to his service. He would store his treasures in a pool of super-heated mercury, in which he enslaved several Azer, including Uster and Tyda, to guard and act as valets.",
 			"He was banished back to the City of Brass by a pair of wizards, Menodora & Amabilis.",
 			"While exploring the interior of the Molten Palace, Khazar, Shia and the the Adventurers encountered the shade of Akad and were bound to his service."
 		]
@@ -397,9 +398,9 @@
 		"gender": "??",
 		"affiliations": ["the Adventurers", "the Molten Halls"],
 		"description": [
-			"Uster is one of two Azer slaves in the service of Akad the Magnificent in the Molten Halls. He was bound, along with Ocot, to serve as the Efreet's valets in the Mercury Vault. It was not clear exactly how long the two Azer had been left waiting in the Mercury Vault before the Adventurers, Shia and Khazar came upon them while exploring.",
-			"After the Adventurers struck a deal with Akad, Uster's service was transfered to Erlinder, to whom he is now bound through strange magics.",
-			"Uster is only able to speak in Ignan, a fact that makes it very difficult for him to communicate in any manner beyond grunts and gestures."
+			"Uster is one of two Azer slaves in the service of Akad the Magnificent in the Molten Halls. He was bound, along with Tyda, to serve as the Efreet's valets in the Mercury Vault. It was not clear exactly how long the two Azer had been left waiting in the Mercury Vault before the Adventurers, Shia and Khazar came upon them while exploring.",
+			"After the Adventurers struck a deal with Akad, Uster's service was transfered to Erlinder, to whom he was bound until the druid dispelled the magic while the group was in Rakenburg.",
+			"Uster is only able to speak in Ignan, a fact that makes it very difficult for him to communicate in any manner beyond grunts and gestures with anyone not from his home."
 		]
 	},
 	"Priceli-Nezella-Philyorin": {
@@ -522,6 +523,22 @@
 		"description": [
 			"Baron Janik Malmor is the baron of Frenkel. The baron is a vassal of Count Jeskin Sebroski and is charged with protecting the western border of Navolin from external threats. The baron's personal manor is Auburn Castle.",
 			"Many families live and work in the barony of Frenkel, including the Montajays, a halfling family of which Filibert Montajay was a member. Filibert was a subject of the baron until he was forced to leave the fortress in Sirngor of 2C 2573."
+		]
+	},
+	"Belthren-Ogni": {
+		"playerKnown": true,
+		"name": "Belthren Ogni",
+		"tags": ["adventurer","human","rogue","Ruby Phoenix","Rakenburg","associate"],
+		"nickname": "Belthren",
+		"race": "Human",
+		"age": "57",
+		"gender": "Male",
+		"class": "Rogue",
+		"occupation": "Guild Master",
+		"affiliations": ["Ruby Phoenix","Guild Council of Rakenburg"],
+		"quote": "\"The biggest thing I killed? Do you know of Kaer Edsken on the border of Lemuria? It was just a ruin at the time, but back when I was an adventurer, I fought an adult red dragon there. We managed to kill the beast, but it cost me everything.\"",
+		"description": [
+			"Belthren Ogni is the guild master of Ruby Phoenix and a former adventurer with, and last surviving member of, the legendary adventuring company 'The Ruby Drifters'."
 		]
 	}
 }
