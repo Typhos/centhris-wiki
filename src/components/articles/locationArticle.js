@@ -32,7 +32,9 @@ export default class LocationArticle extends Component {
 
         <h2 className="fullName">{location.name}</h2>
         <aside className="infoBox">
-          <h4 className="nickname">{location.nickname}</h4>
+          { (location.nickname) ? 
+            <h4 className="nickname">{location.nickname}</h4>: "" 
+          }          
           <img className="portrait" alt="" src={this.props.image}/>
           { (location.type) ? 
             <div className="info">

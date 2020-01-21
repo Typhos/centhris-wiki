@@ -506,5 +506,22 @@
 			"Lord Baqrin Calosh is a noble lord and ruler of the city-state of Venbrin. He has a long list of titles, which include the 7th Lord of Venbrin, Master of the Argentate & Protector of the Commercia Concordis. A middle aged human man, he has mid-length silvery, platinum blond hair and a goatee comprised of a thin mustache and chin-beard. Lord Baqrin does not seem to take his titles too seriously, and can be found wandering the city of Venbrin without escort. He is good natured, with a broad smile and a welcoming presence. He tends to dress in fine clothing, but carries himself more like a swashbuckling duelist than the noble lord of a city-state.",
 			"Lord Baqrin keeps his home at the Argentate, a walled palace in the north east of the city. He frequently leaves Venbrin aboard his personal flagship, the Shining Dawn, to patrol the waters around Venbrin for threats to his city and the merchant trade in the region."
 		]
+	},
+	"Janik-Malmor": {
+		"playerKnown": true,
+		"tags": ["noble","human","count","navolin","Frenkel"],
+		"name": "Janik Malmor",
+		"nickname": "Baron Janik Malmor",
+		"race": "human",
+		"age": "46",
+		"gender": "Male",
+		"class": "Fighter",
+		"titles": "Baron of Frenkel",
+		"occupation": "Noble, Soldier",
+		"affiliations": ["Auburn Castle"],
+		"description": [
+			"Baron Janik Malmor is the baron of Frenkel. The baron is a vassal of Count Jeskin Sebroski and is charged with protecting the western border of Navolin from external threats. The baron's personal manor is Auburn Castle.",
+			"Many families live and work in the barony of Frenkel, including the Montajays, a halfling family of which Filibert Montajay was a member. Filibert was a subject of the baron until he was forced to leave the fortress in Sirngor of 2C 2573."
+		]
 	}
 }

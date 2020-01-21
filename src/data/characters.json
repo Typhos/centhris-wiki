@@ -19,10 +19,12 @@
       "CON": 14, 
       "INT": 8, 
       "WIS": 18, 
-      "CHA": 16
+      "CHA": 14
     },
     "description": [
-      "."
+      "A simple farmer from Lemuria.",
+      "Erlinder shows care to his appearance regardless of his simple cloths.  He wears a blue tunic that may have been a much darker color but is now faded from the sun.  His pack is almost over loaded with all manner of traveling gear and cookware.",  
+      "His blue Tunic is covered in leather armor that seems to have been made for a larger person, but modified to fit his much smaller frame.  The blue almost matches the paint on his wooden shield which is decorated with a intricate knotted pattern using geometric vines.  He keeps his beard as well trimmed as he can and peaking barley noticeable from his long dirty blond hair are his pointed ears.  His light blue eyes betray a kindness hidden in his determined expression."
     ]
   },
   "Evan-Jakob-Reinhold": {
@@ -31,7 +33,7 @@
     "name": "Evan-Jakob Reinhold",
     "nickname": "Evan-Jakob",
     "race": "Human",
-    "age": "28",
+    "age": "32",
     "gender": "Male",
     "class": "Warlock",
     "subclass": "Hexblade",
