@@ -1,4 +1,4 @@
-@import '../mixins';
+@import "./mixins";
 
 .appHeader {
   .headerBox {
@@ -15,7 +15,7 @@
     letter-spacing: 0.1em;
     word-spacing: 0.2em;
 
-    background-image: url('./header-map.png');
+    background-image: url('../img/header-map.png');
     background-size: cover;
     background-position: center bottom 15%;
 

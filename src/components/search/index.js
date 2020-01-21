@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './search.scss'
+import 'styles/search.scss'
 
 export default class Search extends Component {
 

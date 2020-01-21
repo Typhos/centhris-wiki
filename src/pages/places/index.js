@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import placeData from '../../data/places';
 
-import Search from '../../components/search';
+// import Search from '../../components/search';
 import Page from '../../components/page';
-import PeopleArticle from '../../components/articles/peopleArticle';
+import WikiUtils from "components/utils/wikiUtils";
 
-import './places.scss';
+import 'styles/places.scss';
 
 const maps = require.context('../../img/maps/', true);
 const images = require.context('../../img/places/', true);
@@ -25,63 +25,87 @@ class Places extends Component {
       }
     }
 
+    const places = WikiUtils.sortByName( Object.keys(filteredOutput) );
+
+    // Create a list of unique location categories. eg. Cities, regions, nations, continents
+    let categories = places.map( place => {
+      return placeData[place].type;
+    });
+    const uniqueSet = new Set(categories);
+    categories = [...uniqueSet];
+
     this.state = {
-      place: this.sortByName( Object.keys(filteredOutput) ),
+      places: places,
+      categories: WikiUtils.sortByName(categories),
     };
 
-    this.sortByName = this.sortByName.bind(this);
+    this.getEntriesByCategory = this.getEntriesByCategory.bind(this);
     this.handleSearch = this.handleSearch.bind(this);
   }
 
   render () {
-    const filteredOutput = this.state.place.map( place => {
+
+    const categories = this.state.categories.map( category => {
       return (
-        <li className="location">
-          <Link to={`/location/${place}`}>
-            <img className="portrait" alt="" src={ images('./' + placeData[place].name.replace(/\s/g,"-") + '.png') }/>
-            <p>{placeData[place].name}</p>
-          </Link>
-        </li>
+        <div class="category">
+          <h2 className="sectionTitle">{category}s</h2>
+          <ul className="sectionList">
+            {this.getEntriesByCategory(category)}
+          </ul>
+        </div>
       )
     });
 
-    console.log(maps);
-
     return (
       <Page.People>
-        {/*<Search handleSearch={ this.handleSearch } />*/}
+        {/*<Search handleSearch={ this.handleSearch } />
         
         <h2 className="sectionTitle">Maps</h2>
         <article className="maps">
           
           <a className="mapLink" href={ maps('./Ulfwyst-2C-2573.png') }>
-            <img className="map" src={ maps('./Ulfwyst-2C-2573.png') }/>
+            <img alt="Eastern Ulfwyst map"  className="map" src={ maps('./Ulfwyst-2C-2573.png') }/>
             <p>Eastern Ulfwyst c. 2573</p>
           </a>
 
           <a className="mapLink" href={ maps('./Volikgrad.png') }>
-            <img className="map" src={ maps('./Volikgrad.png') }/>
+            <img alt="Volikgrad map"  className="map" src={ maps('./Volikgrad.png') }/>
             <p>Volikgrad</p>
           </a>
           
           <a className="mapLink" href={ maps('./Rakenburg.png') }>
-            <img className="map" src={ maps('./Rakenburg.png') }/>
+            <img alt="Rakenburg map" className="map" src={ maps('./Rakenburg.png') }/>
             <p>Rakenburg</p>
           </a>
           
           <a className="mapLink" href={ maps('./cryptic-toridosa-map.png') }>
-            <img className="map" src={ maps('./cryptic-toridosa-map.png') }/>
+            <img alt="Toridosa map"  className="map" src={ maps('./cryptic-toridosa-map.png') }/>
             <p>Toridosa Map</p>
           </a>
-
         </article>
+        */}
 
-        <h2 className="sectionTitle">Locations</h2>
-        <ul id="places" >
-          {filteredOutput}
-        </ul>
+        <h2 className="sectionGroup">Places</h2>
+        <div id="places" >
+          {categories}
+        </div>
       </Page.People>
     )
+  }
+
+  getEntriesByCategory(category) {
+    return this.state.places.map( place => {
+      if ( placeData[place].type === category ) {
+        return (
+          <li className="location">
+            <Link to={`/location/${place}`}>
+              <img className="portrait" alt="" src={ images('./' + placeData[place].name.replace(/\s/g,"-") + '.png') }/>
+              <p>{placeData[place].name}</p>
+            </Link>
+          </li>
+        )
+      }
+    });
   }
 
   handleSearch(e) {
@@ -120,20 +144,8 @@ class Places extends Component {
       return true;
     });
 
-    results = this.sortByName(results);
+    results = WikiUtils.sortByName(results);
     this.setState({place: results})
-  }
-
-  sortByName(arr) {
-    return arr.sort( (a,b) => {
-      if (a > b) {
-        return 1;
-      } else if (a < b) {
-        return -1;
-      } else {
-        return 0;
-      }
-    })
   }
 
 }

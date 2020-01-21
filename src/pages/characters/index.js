@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import characterData from '../../data/characters';
+import characterData from 'data/characters';
 
-import Search from '../../components/search';
-import Page from '../../components/page';
-import CharactersArticle from '../../components/articles/charactersArticle';
+import Page from 'components/page';
+import CharactersArticle from 'components/articles/charactersArticle';
+import WikiUtils from "components/utils/wikiUtils";
 
-import './characters.scss';
+import 'styles/characters.scss';
 
 const images = require.context('../../img/characters/', true);
 
@@ -21,10 +21,8 @@ class Characters extends Component {
     }
 
     this.state = {
-      characters: this.sortByName( Object.keys(filteredOutput) ),
+      characters: WikiUtils.sortByName( Object.keys(filteredOutput) ),
     };
-
-    this.sortByName = this.sortByName.bind(this);
   }
 
   render () {
@@ -43,17 +41,7 @@ class Characters extends Component {
     )
   }
 
-  sortByName(arr) {
-    return arr.sort( (a,b) => {
-      if (a > b) {
-        return 1;
-      } else if (a < b) {
-        return -1;
-      } else {
-        return 0;
-      }
-    })
-  }
+  
 
 }
 

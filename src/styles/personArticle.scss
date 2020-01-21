@@ -1,9 +1,8 @@
-@import "../mixins";
+@import "./mixins";
 
 a {
   text-decoration: none;
   color: $tagLink;
-  cursor: pointer;
 
   &:hover,
   &:active {
@@ -15,7 +14,7 @@ a {
   }
 }
 
-article.location {
+article.person {
   display: block;
   width: 85vw;
   vertical-align:top;
@@ -63,22 +62,12 @@ article.location {
     border-bottom: 1px solid $blue;
   }
 
-  h3.subheading {
-    font-family: $serifText;
-    font-weight: 700;
-    font-size: 1.2em;
-    margin-top: 2em;
-    line-height: 2em;
-    border-bottom: 1px solid $blueDark;
-    overflow: hidden;
-  }
-
   aside.infoBox {
     display: block;
     float: right;
-    width: 30vw;
+    width: 25vw;
     min-width: 14em;
-    max-width: 40em;
+    max-width: 25em;
     font-size: 0.75em;
     margin-left: 2em;
     margin-bottom: 1em;
@@ -90,6 +79,7 @@ article.location {
       font-size: 1.1em;
       margin: 0;
       padding: 0.5em 0.5em;
+      letter-spacing: 0.1em;
     }
 
     img.portrait {
@@ -98,9 +88,8 @@ article.location {
       width: 100%;
       border-top: 1px solid $blueLight;
       border-bottom: 1px solid $blueLight;
-    }
+    } 
 
-    
     div.info {
       display: flex;
       width: 100%;
@@ -133,28 +122,51 @@ article.location {
         text-align: right;
       }
 
-      &.mapBox {
-        height: auto;
-
-        img.map {
-          width: 80%;
-          padding: 2em 10%;
+      &.affiliations {
+        p {
+          margin: 0 0 0.5em;
         }
       }
-        
+    }
 
-      span.commaSeparated {
-        display: inline-block;
-        margin: 0 0 0 0.33em;
-        line-height: 1.6em;
-        
-        &:after{
-          content: ",";
+    .statblock {
+      display: block;
+      width: 100%;
+      padding: 0.5em 0.5em;
+      margin: 0;
+      border-bottom: 1px solid $blueLight;
+
+      p.heading {
+        font-weight: 700;
+        padding: 0;
+        margin: 0 0 0.5em;
+      }
+
+      .block {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        span.stat,
+        span.num {
+          display: inline-block;
+          
+          margin: 0.2em 0 0 0;
+          font-size: 1.1em;
+          
         }
 
-        &:last-child:after {
-          content: "",
+        span.stat {
+          width: 20%;
+          letter-spacing: 0.1em;
         }
+
+        span.num {
+          width: 28%;
+          text-align: center;
+        }
+
       }
     }
   }
@@ -193,7 +205,7 @@ article.location {
 
 // MOBILE
 @media all and (max-width: $breakpoint-mobile) {
-  article.location {
+  article.person {
     width: 92vw;
     margin: 0 2vw 2em;
 
@@ -208,17 +220,24 @@ article.location {
     }
 
     aside.infoBox {
-      width: 100%;
+      width: 90%;
+      display: block;
+      margin: 0 auto 3em;
+      float: none;
+
+      img.portrait {
+        border-top: 0;
+      }
     }
   }
 
   ul#people {
 
-    li.location {
-      width: 48%;
+    li.person {
+      // width: 48%;
 
       img.portrait {
-
+        height: 10em;
       }
 
       p.name {

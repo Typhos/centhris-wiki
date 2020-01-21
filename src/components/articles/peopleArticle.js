@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import "./personArticle.scss";
+import "styles/personArticle.scss";
 
 export default class PeopleArticle extends Component {
 

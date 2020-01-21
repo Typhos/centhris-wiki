@@ -1,0 +1,234 @@
+@import "./mixins";
+
+a {
+  text-decoration: none;
+  color: $tagLink;
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    color: $tagLinkHover;
+  }
+
+  &:visited {
+    color: $tagLink;
+  }
+}
+
+article.location {
+  display: block;
+  width: 85vw;
+  vertical-align:top;
+  direction: ltr;
+  margin: 0 auto 4em;
+  padding: 0;
+
+  a.backLink {
+    display: inline-block;
+    margin-bottom: 2em;
+  }
+
+  a {
+    // text-decoration: none;
+    color: $tagLink;
+
+    &:hover,
+    &:active {
+      color: $tagLinkHover;
+    }
+
+    &:visited {
+      color: $tagLink;
+    }
+  }
+
+  span.tagLink {
+    text-decoration: underline;
+    color: $tagLink;
+    cursor: pointer;
+
+    &:hover {
+      color: $tagLinkHover;
+    }
+  }
+
+  h2.fullName {
+    margin: 0;
+    margin-bottom: 1em;
+    padding: 0;
+    font-size: 1.6em;
+    color: $blue;
+    font-family: $styleText;
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid $blue;
+  }
+
+  h3.subheading {
+    font-family: $serifText;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-top: 2em;
+    line-height: 2em;
+    border-bottom: 1px solid $blueDark;
+    overflow: hidden;
+  }
+
+  aside.infoBox {
+    display: block;
+    float: right;
+    width: 30vw;
+    min-width: 14em;
+    max-width: 40em;
+    font-size: 0.75em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    background-color: $charcoal;
+    color: $lightText;
+    border: 1px solid $charcoal;
+
+    h4.nickname {
+      font-size: 1.1em;
+      margin: 0;
+      padding: 0.5em 0.5em;
+    }
+
+    img.portrait {
+      display: inline-block;
+      height: auto;
+      width: 100%;
+      border-top: 1px solid $blueLight;
+      border-bottom: 1px solid $blueLight;
+    }
+
+    
+    div.info {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      border-bottom: 1px solid $blueLight;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      p.linkedContent {
+        margin: 0;
+        line-height: 1.75em;
+      }
+
+      p.key,
+      .values {
+        padding: 0.5em 0.5em;
+        margin: 0;
+        display: inline-block;
+      }
+
+      p.key {
+        font-weight: 700;
+        width: 40%;
+      }
+
+      .values {
+        width: 60%;
+        text-align: right;
+      }
+
+      &.mapBox {
+        height: auto;
+
+        img {
+          width: 80%;
+          padding: 2em 10%;
+        }
+      }
+        
+
+      span.commaSeparated {
+        display: inline-block;
+        margin: 0 0 0 0.33em;
+        line-height: 1.6em;
+        
+        &:after{
+          content: ",";
+        }
+
+        &:last-child:after {
+          content: "",
+        }
+      }
+    }
+  }
+
+  div.mainContent {
+    font-size: 0.85em;
+    width: auto;
+    word-break: break-word;
+
+    p, i.quote {
+      display: block;
+      line-height: 1.8em;
+      margin: 0 0 1em;
+      padding: 0;
+    }
+
+    i.quote {
+      font-family: $serifText;
+      padding-left: 2vw;
+      line-height: 1.6em;
+      font-size: 0.9em;
+      margin-bottom: 2.5em;
+    }
+
+    p {
+      text-indent: 1.5em;
+    }
+  }
+
+  div.clear {
+    clear:both; 
+    margin: 0; 
+    padding: 0;
+  }
+}
+
+// MOBILE
+@media all and (max-width: $breakpoint-mobile) {
+  article.location {
+    width: 92vw;
+    margin: 0 2vw 2em;
+
+    div.mainContent {
+      i.quote {
+        padding: 0;
+      }
+    }
+
+    h4.nickname {
+      display: none;
+    }
+
+    aside.infoBox {
+      width: 100%;
+    }
+  }
+
+  ul#people {
+
+    li.location {
+      width: 48%;
+
+      img.portrait {
+
+      }
+
+      p.name {
+
+      }
+    }
+  }
+}
+
+// DESKTOP
+@media all and (min-width: $breakpoint-mobile) {
+
+}

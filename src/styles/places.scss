@@ -1,15 +1,19 @@
-@import '../../components/mixins';
+@import "./mixins";
 
-ul#places {
+#places {
   width: 90vw;
   padding: 0;
   margin: 2em auto 0;
   list-style-type: none;
 
+  ul.sectionList {
+    padding: 0;
+  }
+
   li.location {
     display: inline-block;
     width: 23%;
-    margin: 1em 0 2em;
+    margin: 1em 0 0.5em;
     padding: 0 1%;
     vertical-align: top;
     justify-content: center;
@@ -56,7 +60,7 @@ article.maps {
 
 // MOBILE
 @media all and (max-width: $breakpoint-mobile) {
-  ul#places {
+  #places {
 
     li.location {
       width: 48%;

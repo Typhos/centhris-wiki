@@ -4,6 +4,8 @@ import placeData from '../../data/places';
 import Page from '../../components/page';
 import LocationArticle from '../../components/articles/locationArticle';
 
+import "styles/locationArticle.scss";
+
 const images = require.context('../../img/places/', true);
 
 class Location extends Component {
@@ -14,10 +16,6 @@ class Location extends Component {
     this.state = {
       location: window.location.pathname.split('/location/')[1]
     }
-  }
-
-  componentWillReceiveProps( nProp ) {
-    console.log(nProp);
   }
 
   render () {

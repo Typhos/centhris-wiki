@@ -74,7 +74,7 @@
 	"Akad-the-Magnificent": {
 		"playerKnown": true,
 		"name": "Akad the Magnificent",
-		"tags": ["elemental","efreet","efreeti","contract","shade","brass","mercury"],
+		"tags": ["elemental","efreet","efreeti","contract","shade","city of brass","mercury","molten halls"],
 		"nickname": "Akad",
 		"titles": "the Magnificent, Lord of the Molten Baths",
 		"race": "Efreet",
@@ -533,7 +533,7 @@
 		"race": "Human",
 		"age": "57",
 		"gender": "Male",
-		"class": "Rogue",
+		"class": "Ranger",
 		"occupation": "Guild Master",
 		"affiliations": ["Ruby Phoenix","Guild Council of Rakenburg"],
 		"quote": "\"The biggest thing I killed? Do you know of Kaer Edsken on the border of Lemuria? It was just a ruin at the time, but back when I was an adventurer, I fought an adult red dragon there. We managed to kill the beast, but it cost me everything.\"",

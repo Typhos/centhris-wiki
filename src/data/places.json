@@ -4,7 +4,7 @@
 		"tags": ["village","navolin","szary","ulfwyst"],
 		"name": "Rythlon",
 		"nickname": "Rythlon on Sulas",
-    "type": "Village",
+    "type": "Settlement",
 		"population": "~400",
 		"races": ["human","elf","halfling","gnome","half-elf","half-orc"],
 		"government": "Appointed Steward",
@@ -20,7 +20,7 @@
     "tags": ["kingdom","navolin","ulfwyst"],
     "name": "Kingdom of Navolin",
     "nickname": "Navolin",
-    "type": "Kingdom",
+    "type": "State",
     "population": "~2.5 million",
     "races": ["human","elf","gnome","half-elf","halfling"],
     "government": "Hereditary Monarchy",
@@ -35,7 +35,7 @@
     "tags": ["region","highlands","plains","navolin","ulfwyst"],
     "name": "Kelishan Highlands",
     "nickname": "Kelishan",
-    "type": "Geographic region",
+    "type": "Region",
     "races": ["human","elf","gnome","half-elf","half-orc","halfling"],
     "nation": "Kingdom of Navolin",
     "description": [
@@ -91,7 +91,7 @@
     "name": "Reliquary of the Castidos",
     "nickname": "the Castidos",
     "type": "Building",
-    "location": "Rakenburg",
+    "location": "Rakenburg, Barrier Coast",
     "description": [
       "The town hall and meeting place of the Guild Council of Rakenburg. The Castidos is also a library and vault for information and items that come from the Twisting Warrens beneath Rakenburg."
     ]
@@ -102,7 +102,7 @@
     "name": "Eikras Auction House",
     "nickname": "the Eikras",
     "type": "Building",
-    "location": "Volikgrad",
+    "location": "Volikgrad, Barrier Coast",
     "description": [
       "The Eikras Auction House is an important fixture in the city of Volikgrad. Adventurers, nobles and merchants from all over eastern Ulfwyst will venture to Volikgrad in order to buy and sell items at the auction house. It is located in the Windpoint District in Volikgrad.",
       "The auction house has 2 wings, each 3 stories tall, and a main hall.",
@@ -116,7 +116,7 @@
     "tags": ["ruins","labyrinth","ulfwyst","rakenburg","under-city","barrier coast"],
     "name": "the Twisting Warrens",
     "nickname": "The Twisting Warrens",
-    "type": "ruins / labyrinth",
+    "type": "Dungeon",
     "location": "Barrier Coast",
     "description": [
       "The Twisting Warrens is a massive underground labyrinth located under the city of Rakenburg.",
@@ -143,11 +143,11 @@
     "tags": ["region","coast","mountains","ocean","ulfwyst"],
     "name": "Barrier Coast",
     "nickname": "Barrier Coast",
-    "type": "Geographic region",
+    "type": "Region",
     "races": ["human","dwarf","gnome","half-orc","dragonborn","tiefling"],
     "nation": "Barrier Coast City-States",
     "description": [
-      "The Barrier Coast is a geographic region on the eastern coast of the continent of Ulfwyst. The region is a relatively dry, rocky coastline east of the Jordonis Mountains before ending at the Mare Concordis. Due to its length, the southern end of the region is temperate, while the northern end of the coast is sub-tropical.",
+      "The Barrier Coast is a Region on the eastern coast of the continent of Ulfwyst. The region is a relatively dry, rocky coastline east of the Jordonis Mountains before ending at the Mare Concordis. Due to its length, the southern end of the region is temperate, while the northern end of the coast is sub-tropical.",
       "The major political elements in the region are the Free City-States of the Barrier Coast. These loosely affiliated city-states maintain their independence from each other, but share a common culture and a defensive alliance against outside aggression from other regional powers. The major city-states that comprise this alliance are Braxinfurt, Korasov, Rakenburg, Venbrin and Volikgrad."
     ]    
   },
@@ -156,7 +156,7 @@
     "tags": ["swamp","region","ulfwyst"],
     "name": "Blighted Mire",
     "nickname": "The Blighted Mire",
-    "type": "Geographic region",
+    "type": "Region",
     "races": ["human","elf","gnome","half-elf","half-orc","tiefling"],
     "nation": ["Tovanis","Zurast"],
     "description": [
@@ -183,7 +183,7 @@
     "tags": ["island","barrier coast","region","ulfwyst"],
     "name": "Isle of Sunheim",
     "nickname": "Sunheim",
-    "type": "Geographic region",
+    "type": "Region",
     "description": [
       "The Isle of Sunheim is located off the eastern coast of the continent of Ulfwyst. Is is a sub-tropical island. The largest settlement on the island is the city of Venbrin."
     ]    
@@ -193,7 +193,7 @@
     "tags": ["island","archipelago","region","ulfwyst"],
     "name": "Toridosa Archipelago",
     "nickname": "Toridosa",
-    "type": "Geographic region",
+    "type": "Region",
     "description": [
       "The Toridosa Archipelago is series of islands in the center of the Mare Concordis. Little is known about the islands, though their existence has been known for centuries. It was only within the last few years that the island chain has been successfully mapped.",
       "Explorers who have traveled to the archipelago speak of incredible, vast ruins and terrible dangers that await any who venture there."
@@ -204,7 +204,7 @@
     "tags": ["castle","navolin","rythlon","ulfwyst"],
     "name": "Castle Grinsted",
     "nickname": "Grinsted",
-    "type": "Castle",
+    "type": "Fortification",
     "location": "Kelishan Highlands",
     "leaders": ["Count Jeskin Sebroksi"],
     "description": [
@@ -216,7 +216,7 @@
     "tags": ["castle","navolin","rythlon","ulfwyst"],
     "name": "Auburn Castle",
     "nickname": "Auburn Castle",
-    "type": "Castle",
+    "type": "Fortification",
     "location": "Kelishan Highlands",
     "leaders": ["Baron Janik Malmor"],
     "description": [
@@ -230,10 +230,38 @@
     "name": "Ruby Phoenix Guild Hall",
     "nickname": "Ruby Phoenix Guild Hall",
     "type": "Building",
-    "location": "Rakenburg",
+    "location": "Rakenburg, Barrier Coast",
     "leaders": ["Belthren Ogni","Rendis Moon","Khazar Thul"],
     "description": [
       "The guild hall of Ruby Phoenix is located in the Gullhollow District of Rakenburg. Located on the edge of the Dawnstar Fairgrounds, the hall is where the guilds meets prospective clients. In addition, the hall is a place for members to find lodging and training facilities."
+    ]    
+  },
+  "Sacellum-of-the-Guardian": {
+    "playerKnown": true,
+    "tags": ["temple","building","rakenburg","ulfwyst","barrier coast","church","the guardian"],
+    "name": "Sacellum of the Guardian",
+    "nickname": "the Sacellum",
+    "type": "Building",
+    "location": "Rakenburg, Barrier Coast",
+    "leaders": ["High Prelate Tryngwen Benno"],
+    "additionalImages": ["Sacellum-of-the-Guardian-exterior.png"],
+    "description": [
+      "The Sacellum of the Guardian is a massive, stone basilica in the heart of the main square of Rakenburg. Constructed 500 years ago, the building was designed in the Baroque style. The exterior of the Sacellum is comprised of gray stone and each of the four corner of the building rised into an imposing stone tower capped with a bronze spire.",
+      "The basilica is one of the largest churches to the Guardian on Centhris, with pilgrims from all over Ulfwyst traveling to the city to visit the temple, take part in holy services and pray at the shrines to the champions and saints who have served him.",
+      "The head of the temple is High Prelate Tryngwen Benno, who many view as the leader of the Church of the Guardian in Ulfwyst."
+    ]    
+  },
+  "Chram-of-the-Eternal": {
+    "playerKnown": false,
+    "tags": ["temple","building","rakenburg","ulfwyst","barrier coast","church","the eternal"],
+    "name": "Chram of the Eternal",
+    "nickname": "the Chram",
+    "type": "Building",
+    "location": "Khezrabad, Abbasyr",
+    "leaders": ["High Priestess Katayun Attar"],
+    "additionalImages": ["Chram-of-the-Eternal-exterior.png"],
+    "description": [
+      "The Chram of the Eternal is a the High Temple dedicated to the god of the sun. It is located in Khezbrabad, Abbasyr."
     ]    
   }
 }

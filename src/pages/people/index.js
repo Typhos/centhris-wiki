@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import peopleData from '../../data/people';
+import peopleData from 'data/people';
 
-import Search from '../../components/search';
-import Page from '../../components/page';
-import PeopleArticle from '../../components/articles/peopleArticle';
+import Search from 'components/search';
+import Page from 'components/page';
+import PeopleArticle from 'components/articles/peopleArticle';
+import WikiUtils from "components/utils/wikiUtils.js";
 
 const images = require.context('../../img/portraits/', true);
 
@@ -22,10 +23,9 @@ class People extends Component {
     }
 
     this.state = {
-      people: this.sortPeopleByName( Object.keys(filteredOutput) ),
+      people: WikiUtils.sortByName( Object.keys(filteredOutput) ),
     };
 
-    this.sortPeopleByName = this.sortPeopleByName.bind(this);
     this.handleSearch = this.handleSearch.bind(this);
   }
 
@@ -77,20 +77,8 @@ class People extends Component {
       return true;
     });
 
-    results = this.sortPeopleByName(results);
+    results = WikiUtils.sortByName(results);
     this.setState({people: results})
-  }
-
-  sortPeopleByName(arr) {
-    return arr.sort( (a,b) => {
-      if (a > b) {
-        return 1;
-      } else if (a < b) {
-        return -1;
-      } else {
-        return 0;
-      }
-    })
   }
 
 }

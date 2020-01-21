@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import placeData from "../../data/places";
 import peopleData from "../../data/people";
 
-import "./personArticle.scss";
+import "styles/personArticle.scss";
 
 export default class PlayerCharacter extends Component {
 

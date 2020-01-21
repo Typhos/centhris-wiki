@@ -5,8 +5,7 @@ import placeData from '../../data/places';
 import characterData from '../../data/characters';
 import peopleData from '../../data/people';
 
-import "./locationArticle.scss";
-
+const images = require.context('../../img/places/', true);
 const maps = require.context('../../img/maps/', true);
 
 export default class LocationArticle extends Component {
@@ -23,6 +22,14 @@ export default class LocationArticle extends Component {
     const location = this.props.entry;
 
     const races = location.races && location.races.map( race => <span className="race commaSeparated">{race}</span> );
+    const additionalImages = location.additionalImages && location.additionalImages.map( image => {
+
+      return (
+        <div className="info mapBox">
+            <img alt="" className="additional" src={images(`./${image}`)}/>
+        </div>
+      )
+    });
 
     return (
 
@@ -74,7 +81,7 @@ export default class LocationArticle extends Component {
           }
           { (location.location) ? 
             <div className="info">
-              <p className="key">Geographic Location</p>
+              <p className="key">Location</p>
               <div className="values">{this.linkContent(location, location.location)}</div>
             </div> : "" 
           }
@@ -84,6 +91,7 @@ export default class LocationArticle extends Component {
               <div className="values">{this.linkContent(location, location.regions)}</div>
             </div> : "" 
           }
+          { (location.additionalImages) ? additionalImages : ""}
           { (location.map) ? 
             <div className="info mapBox">
               <a href={ maps(`./${location.map}.png`) }>
