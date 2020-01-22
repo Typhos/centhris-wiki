@@ -350,7 +350,7 @@
 			"Reanold Duplechin is a wandering merchant who arrived in Rythlon during the Adventurers' altercations with Teliril Wasanathi.",
 			"He is of average height for a halfling, with a dark complexion and gaudy clothing. Around his neck is a silver chain with a bird skull looped through it. He drives an ostentatious wagon, on which he mounts various symbols of the occult, along with a staggering number of raven skulls. When asked where he is from, Reanold first responded that was 'not from around here', but after becoming more friendly with the Adventurers, he revealed he was from a place he referred to as 'Maison du Corbeau'.",
 			"At first, the halfling simply saw the group as a way to earn some coin, selling them several minor magical items in exchange for some coin and a favor. However, following the group's return to Rythlon after killing the Lady of the Wood, Reanold intervened when Teliril cast Raise Dead on the hag's corpse. Using his Bardic talents, Reanold severed the magical tethers that were animating the corpse, allowing the Adventurers a change to prove their innocence to Count Jeskin Sebroski.",
-			"After the completion of the trial and the death of Teliril, Reanold called upon Filibert to complete his bargain and sent the group off to look for his assistant, Leah, who had run off with a magical figurine that Reanold uses to summon the horses that pull his wagon. The woman had last been seen at a place called 'the Bone Mill' north of the village. The only sign of the woman was scraps of a red cloak and drag marks inside the mill. With Leah nowhere to be seen, the group returned with the figurine, completing Reanold's request."
+			"After the completion of the trial and the death of Teliril, Reanold called upon Filibert to complete his bargain and sent the group off to look for his assistant, Leiana, who had run off with a magical figurine that Reanold uses to summon the horses that pull his wagon. The woman had last been seen at a place called 'the Bone Mill' north of the village. The only sign of the woman was scraps of a red cloak and drag marks inside the mill. With Leiana nowhere to be seen, the group returned with the figurine, completing Reanold's request."
 		]
 	},
 	"Selif-Koric": {
@@ -523,6 +523,21 @@
 		"description": [
 			"Baron Janik Malmor is the baron of Frenkel. The baron is a vassal of Count Jeskin Sebroski and is charged with protecting the western border of Navolin from external threats. The baron's personal manor is Auburn Castle.",
 			"Many families live and work in the barony of Frenkel, including the Montajays, a halfling family of which Filibert Montajay was a member. Filibert was a subject of the baron until he was forced to leave the fortress in Sirngor of 2C 2573."
+		]
+	},
+	"Nicolai-Valken": {
+		"playerKnown": false,
+		"tags": ["noble","human","archduke","zurast"],
+		"name": "Nicolai Valken",
+		"nickname": "Archduke Nicolai Valken",
+		"race": "human",
+		"age": "72",
+		"gender": "Male",
+		"titles": "Archduke",
+		"occupation": "Monarch",
+		"affiliations": ["City of Zurast","the Sevenspire"],
+		"description": [
+			"Archduke Nicolai Valken is the current ruler of the Archduchy of Zurast."
 		]
 	},
 	"Belthren-Ogni": {

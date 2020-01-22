@@ -31,6 +31,79 @@
       "The Kingdom of Navolin is a large, feudal state located in Eastern Ulfwyst. "
     ]
   },
+  "City-of-Zurast": {
+    "playerKnown": true,
+    "tags": ["ulfwyst","capital","city"],
+    "name": "City of Zurast",
+    "nickname": "City of Zurast",
+    "type": "Settlement",
+    "population": "~9,700",
+    "races": ["human","elf","gnome","half-elf","half-orc","halfling"],
+    "government": "Hereditary Monarchy",
+    "leaders": ["Archduke Nicolai Valken"],
+    "location": "Archduchy of Zurast",
+    "description": [
+      "The capital city of the Archduchy of Zurast, the city was once a small city-state in eastern Ulfwyst. Over the last century and a half, through military conflict and political alliances, the archdukes of Zurast have successfully expanded and consolidated their holdings into a respected regional power."
+    ],
+    "historyDescription": [
+      ""
+    ],
+    "governmentDescription": [
+      ""
+    ]
+  },
+  "Archduchy-of-Zurast": {
+    "playerKnown": true,
+    "tags": ["archduchy","state","ulfwyst"],
+    "name": "Archduchy of Zurast",
+    "nickname": "Zurast",
+    "type": "State",
+    "population": "~320,000",
+    "races": ["human","elf","gnome","half-elf","halfling"],
+    "government": "Hereditary Monarchy",
+    "location": "Ulfwyst",
+    "leaders": ["Archduke Nicolai Valken"],
+    "regions": ["Blighted Mire","Drakenwald","Kazgrim Mountains"],
+    "description": [
+      "The Archduchy of Zurast is a growing regional power in eastern Ulfwyst. Several hundred years ago, the City of Zurast was an ordinary city-state located on the southern Sulas river near the Bay of Claws. Over the last 150 years, through military expansion and shrewd political maneuvering, the archdukes of Zurast successfully expanded and maintained their position as a respected regional power."
+    ]
+  },
+  "Kingdom-of-Lemuria": {
+    "playerKnown": true,
+    "tags": ["kingdom","state","ulfwyst"],
+    "name": "Kingdom of Lemuria",
+    "nickname": "Lemuria",
+    "type": "State",
+    "population": "~1.8 million",
+    "races": ["human","elf","gnome","half-elf","half-orc","half-giant","marus"],
+    "government": "Elective Clan Monarchy",
+    "location": "Ulfwyst",
+    "leaders": ["High Queen Inga Sudrheim"],
+    "regions": ["Korin Gulf","Strait of Krigere","Amber Grove","Torick Peaks","Mösöngol Tundra","Ursgal Islands","Venngar Sea","Mare Concordis"],
+    "description": [
+      "One of the largest states in eastern Ulfwyst, the clans of Lemuria control the frigid lands that surround the tempestuous Korin Gulf. Lemuria is a harsh and dangerous land, full of savage beasts, perilous terrain and volatile weather. The people who live here are large, willful, and daring. Over the millennia amongst the crags, glaciers, ice flows and howling woods, the people have developed an understanding with the land they inhabit."
+    ],
+    "articles":{
+      "People of the Land": [
+        "Due to the vast amount of natural wilderness that exists in this remote region of Ulfwyst, there is an innate connection in Lemuria with the Feywild. Many people claim to see fey spirits roaming the hills or dancing in the ancient forests.",
+        "With this fey connection comes a peculiar phenomena: Lemuria has the highest concentration of half-elves in all of Ulfwyst, possibly in all of Centhris. It is not uncommon for a man or woman to disappear for years at a time, only to return from some far off place with a child in tow, a reminder of fleeting tryst with a fey from beyond the mortal realms. Half-elves are viewed as normal, or in some eyes, blessed people who have been touched by the realms beyond."
+      ],
+      "Settlements":[
+        "Most of the people of Lemuria live in isolated, fortified villages and towns located at defendable positions in the landscape. Frotified hill-towns, sea-side ports located on the sides of cliffs and walled villages located deep in forests are typical fare for the people of Lemuria."
+      ],
+      "Masters of the Sea":[
+        "Many towns in Lemuria are located along a river or on the coast. The people of this land have a healthy respect and a deep bond with the sea. Any person worth their salt knows how to handle a boat and can sail on a river, at the very least. Due to this cultural expectation, Lemurians are generally considered the most skilled sailors in Ulfwyst and it is common to find a merchant vessel in cities such as Volikgrad or Braxinfurt being commanded by a Lemurian captain."
+      ],
+      "Religion":[
+        "Lemuria is an ancient and mystical land, full of haunted woods, deadly mires and frozen peaks. The people have mixed the traditional gods of Ulfwyst and their own, more ancient traditions.",
+        "Almost every village and town in the kingdom has a temple dedicated to the gods, and also a sacred grove dedicated to the spirits of the land. This animist practice honors the spirits of the forest, rocks, river, mountains and sea with which the people of this place share a sacred bond. The people of Lemuria believe that though the gods hold supreme power over the world, their day to day lives are more influenced by the natural spirits all around them.",
+        "To the people of Lemuria, it is as important to honor the local spirits as it is the Gods. Throughout the year, various rites, festivals and holidays mark the occasions important to the animist practices. When the spring crops are sown, a village will hold a festival to honor the spirits of the fields, the orchards and the streams. When a lamb is born or an old beast of burden dies, its spirit is honored in ancient rites at a family's ritual altar."
+      ],
+      "Sacred Monuments":[
+        "In these sacred groves, druids and priests erect great stone circles dedicated to the spirits of the land. It is also a common tradition amongst the great clans to mark the rite of adulthood by placing a great runestone in a sacred location near the clan's hold. The head of the clan generally commissions the stone and then the clan, lead by the soon-to-be adult carry the stone to the destined location, planting the stone to mark the auspicious occasion."
+      ]
+    }
+  },
   "Kelishan-Highlands": {
     "playerKnown": true,
     "tags": ["region","highlands","plains","navolin","ulfwyst"],
@@ -103,16 +176,18 @@
       "Rakenburg is a city built on top of several previous settlements, though the exact number of settlements that existed before is not widely known. Most of the city's current construction used existing building material and re-purposed it. It is not known exactly when the current incarnation of the city was founded, though scholars speculate that the upper city was resettled around 900 years ago.",
       "The ruins below the city proper are collectively known as the Twisting Warrens, or simply 'the Warrens'. There are three known entrances to the labyrinthine under-city which are all guarded and monitored at all hours. Entrance to the Warrens is tightly controlled, due to the dangers that lurk around every corner. The primary entrance to the under-city is located in the Dawnstar Fairgrounds, with smaller entrances in the Ghost Orchard and the Murky Reach."
     ],
-    "historyDescription": [
-      "In its early years, the city was ruled by a hereditary monarch, known as the Praeses. During the city's earliest years, when the guilds of Rakenburg were just coming into prominence, inter-guild conflicts were common as Legal Guilds fought over commercial rights, land and establishments. Eventually, these squabbles engulfed the entire city in widespread violence and civil revolt, now known as the First Guild War.",
-      "The First Guild war ended with the overthrow of Praeses Dukran Varyniks and the establishment of the Guild Council of Rakenburg.",
-      "For a time, the citizen of Rakenburg were able to return to their lives without regular outbursts of violence in the streets. This period of tense peace lasted for less than thirty years before tensions flared yet again, and the Second Guild War began. The second war between the various guilds of Rakenburg was far more brutal, not only effecting the city proper, but nearby cities as well, where guilds had spread to establish outposts. During the conflict, thousands of lives were lost and the number of operating guilds in the city dropped by nearly two thirds.",
-      "At the end of the Second Guild War, the Guild Council of Rakenburg passed the 'Interguild Dispute Interdiction Treaty' that forbids all acts of aggression against other guilds and offers methods of dispute resolution. The treaty also limits the number of Legal Guilds in the city to 16, with 8 acting as active council members, and the remaining 8 acting in advisory roles. If a guild with council membership does not meet its obligations, one of the minor guilds can be elected to replace it, ensuring that the guilds keep each other in check."
-    ],
-    "governmentDescription": [
-      "Rakenburg is ruled by the Guild Council of Rakenburg, a governing body with representatives from the 8 major guilds of the city. Each guild sends a representative to sit on the council (usually the guild master, but other members are sometimes selected in the guild master's stead). The council holds a public session every ten-day at the Reliquary of the Castidos which is open to public attendance. Guild business is addressed and then there is a time allotted for public comment.",
-      "The day-to-day peacekeeping of the city is left to the Specula Arcanum, one of the 8 Major Guilds, commonly referred to as `Specs`. This guild acts as the city watch, judiciary and militia as required. In order ensure peace is kept throughout the city, the guild deploys Gradiorus along with its regular patrols. These large, hulking, arcane golems are animated with arcane magic and follow a set of preprogrammed guidelines in order to maintain peace in the city."
-    ]
+    "articles":{
+      "History": [
+        "In its early years, the city was ruled by a hereditary monarch, known as the Praeses. During the city's earliest years, when the guilds of Rakenburg were just coming into prominence, inter-guild conflicts were common as Legal Guilds fought over commercial rights, land and establishments. Eventually, these squabbles engulfed the entire city in widespread violence and civil revolt, now known as the First Guild War.",
+        "The First Guild war ended with the overthrow of Praeses Dukran Varyniks and the establishment of the Guild Council of Rakenburg.",
+        "For a time, the citizen of Rakenburg were able to return to their lives without regular outbursts of violence in the streets. This period of tense peace lasted for less than thirty years before tensions flared yet again, and the Second Guild War began. The second war between the various guilds of Rakenburg was far more brutal, not only effecting the city proper, but nearby cities as well, where guilds had spread to establish outposts. During the conflict, thousands of lives were lost and the number of operating guilds in the city dropped by nearly two thirds.",
+        "At the end of the Second Guild War, the Guild Council of Rakenburg passed the 'Interguild Dispute Interdiction Treaty' that forbids all acts of aggression against other guilds and offers methods of dispute resolution. The treaty also limits the number of Legal Guilds in the city to 16, with 8 acting as active council members, and the remaining 8 acting in advisory roles. If a guild with council membership does not meet its obligations, one of the minor guilds can be elected to replace it, ensuring that the guilds keep each other in check."
+      ],
+      "Government": [
+        "Rakenburg is ruled by the Guild Council of Rakenburg, a governing body with representatives from the 8 major guilds of the city. Each guild sends a representative to sit on the council (usually the guild master, but other members are sometimes selected in the guild master's stead). The council holds a public session every ten-day at the Reliquary of the Castidos which is open to public attendance. Guild business is addressed and then there is a time allotted for public comment.",
+        "The day-to-day peacekeeping of the city is left to the Specula Arcanum, one of the 8 Major Guilds, commonly referred to as `Specs`. This guild acts as the city watch, judiciary and militia as required. In order ensure peace is kept throughout the city, the guild deploys Gradiorus along with its regular patrols. These large, hulking, arcane golems are animated with arcane magic and follow a set of preprogrammed guidelines in order to maintain peace in the city."
+      ]
+    }
   },
   "Frecyra": {
     "playerKnown": false,
@@ -127,12 +202,34 @@
     "map": "Frecyra",
     "description": [
       "The capital city of Navolin, Frecyra is one of the largest cities in Ulfwyst."
-    ],
-    "historyDescription": [
-      ""
-    ],
-    "governmentDescription": [
-      ""
+    ]
+  },
+  "Kilurus": {
+    "playerKnown": true,
+    "tags": ["lemuria","ulfwyst","capital","city"],
+    "name": "Kilurus",
+    "nickname": "Kilurus",
+    "type": "Settlement",
+    "population": "~13,000",
+    "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
+    "government": "Clan Council",
+    "location": "Lemuria",
+    "description": [
+      "The capital city of Lemuria, Kilurus is located on the eastern side of the Strait of Krigere."
+    ]
+  },
+  "Braxinfurt": {
+    "playerKnown": false,
+    "tags": ["city-state","barrier coast","ulfwyst","port"],
+    "name": "Braxinfurt",
+    "nickname": "Braxinfurt",
+    "type": "City-State",
+    "population": "~6,500",
+    "races": ["human","dwarf","tiefling","gnome","halfling"],
+    "government": "Oligarchic Republic",
+    "location": "Barrier Coast",
+    "description": [
+      "Braxinfurt is one of the five major, allied cities that comprise the alliance of Barrier Coast city-states. A true merchant republic, the city is a strange experiment in governance in the eyes of other political entities in the region. The city has a long-standing alliance with the dwarven hold of Ezhekal, located to the west in the Jordonis mountains. The two cities have traded goods, resources and elements of their cultures for hundreds of years, creating a unique blend of art, music and legal practices."
     ]
   },
   "Reliquary-of-the-Castidos":{
@@ -169,6 +266,17 @@
     "description": [
       "An ancient forest located in the Kelishan Highlands, Thornroot Thicket is a dark and twisted place, full of hostile creatures, both natural and monstrous.",
       "The Adventurers ventured into Thornroot twice. Once to find and kill the Lady of the Wood, a hag who lived in the forest and the group felt needed to be killed in order to save the town of Rythlon. The second time the group traveled into the dark woods, it was at the request of Erlinder Bluefield, who wished to return to the Shrine of the Agrestal Cycle in order commune with nature and find out more about his new abilities."
+    ]  
+  },
+  "Drakenwald": {
+    "playerKnown": true,
+    "tags": ["region","forest","zurast","ulfwyst"],
+    "name": "Drakenwald",
+    "nickname": "Drakenwald Forest",
+    "type": "Region",
+    "location": "Archduchy of Zurast",
+    "description": [
+      "A relatively young forest compared to the rest of those in Ulfwyst, the Drakenwald is a dark, foreboding sea of green in the shadow of the Kazgrim Mountains. The forest has expanded quickly due to the rich volcanic soil that makes up the earth beneath it."
     ]  
   },
   "Shrine-of-the-Agrestal-Cycle": {
@@ -210,8 +318,19 @@
       "The primary entrance to the under-city is located in the Dawnstar Fairgrounds, with smaller entrances in the Ghost Orchard and the Murky Reach."
     ]
   },
-  "Korasov": {
+  "the-Molten-Halls": {
     "playerKnown": true,
+    "tags": ["ruins","palace","ulfwyst","jordonis","efreet","barrier coast"],
+    "name": "the Molten Halls",
+    "nickname": "Molten Halls of Akad",
+    "type": "Dungeon",
+    "location": "Jordonis Mountains",
+    "description": [
+      "The Molten Halls were once the palace of Akad the Magnificent, an efreet who ruled an area of the southern Jordonis Mountains several thousand years ago."
+    ]
+  },
+  "Korasov": {
+    "playerKnown": false,
     "tags": ["city-state","barrier coast","ulfwyst","port"],
     "name": "Korasov",
     "nickname": "Free City of Korasov",
@@ -225,7 +344,7 @@
     ]    
   },
   "Hubrynk": {
-    "playerKnown": true,
+    "playerKnown": false,
     "tags": ["city-state","barrier coast","ulfwyst","port"],
     "name": "Hubrynk",
     "nickname": "Free Town of Hubrynk",
@@ -436,6 +555,44 @@
       "The Ur'shiid Desert is a vast, hot desert located in central Ulfwyst. It is the largest desert in Ulfwyst and one of the largest deserts on Centhris. The region is mostly considered part of the Kingdom of Abbasyr, though due to the hostile nature of the environment it is difficult exert direct control over those living in the deepest reaches of the wastes."
     ]
   },
+  "Korin-Gulf": {
+    "playerKnown": true,
+    "tags": ["sea","region","ulfwyst"],
+    "name": "Korin Gulf",
+    "nickname": "Korin Gulf",
+    "type": "Region",
+    "location": "Lemuria",
+    "description": [
+      "The Korin Gulf is a large inland sea that is south of the Bay of Claws and north of the Venngar Sea."
+    ]
+  },
+  "Bay-of-Claws": {
+    "playerKnown": true,
+    "tags": ["sea","region","ulfwyst"],
+    "name": "Bay-of-Claws",
+    "nickname": "Bay-of-Claws",
+    "type": "Region",
+    "location": "Lemuria",
+    "description": [
+      "The Bay of Claws is a small inland sea that connects to the Korin Gulf. The bay connects 3 states: Tovanis, the Archduchy of Zurast and Lemuria."
+    ],
+    "articles": {
+      "A Light on Dark Waters": [
+        "The bay owes its name to the colossal shards of stone that jut out from beneath its surface. The dark gray rocks are pitted with hundreds of grooves or indentations of unknown origin. In order to avoiding hitting the monoliths on particularly dark nights on the water, the peoples whose livelihood depends on the bay have taken to placing torches, enchanted to never run out of fuel, within the reliefs in the rock. Thus, the claws act as guide posts for sailors traversing the sea."
+      ]
+    }
+  },
+  "Strait-of-Krigere": {
+    "playerKnown": true,
+    "tags": ["desert","region","ulfwyst"],
+    "name": "Strait of Krigere",
+    "nickname": "Strait of Krigere",
+    "type": "Region",
+    "location": "Korin Gulf",
+    "description": [
+      "The Straight of Krigere is a natural waterway that divides the Korin Gulf. The strait is controlled by vessels belonging to the various Clans of Lemuria. On the eastern shore of the straight rests the great city of Kilurus."
+    ]
+  },
   "City-of-Brass": {
     "playerKnown": false,
     "tags": ["elemental","plane of fire","efreet","metal"],
@@ -446,20 +603,23 @@
     "government": "Absolute Monarchy",
     "location": "Plane of Fire",
     "leaders": ["Marrake al-Sidan al-Hariq ben Lazan"],
+    "quote": "\"It is a place of perpetual heat that reeks of burning flesh and ashen dreams. It is flame incarnate.\"",
     "description": [
       "Hovering in the hottest areas of the Plane of Fire, the City of Brass sits on an enormous disc of brass. A wall of ornate brass surrounds the entire city, giving the city its name. However, since the brass disc gives the city its ability to fly, (albeit slowly,) these impressive walls were typically unmanned. Throughout the cosmopolitan city, the increible heat of the Elemental Plane of Fire is suppressed by the will of the Grand Sultan in an effort to foster interplanar trade. Despite this, the city itself has a hindering effect on creatures cosmically aligned towards good, due partly to the nature of the efreet, but also to the numerous connecting portals with the Nine Hells.",
       "Surrounding the city itself are large mines where slaves mine tin, copper, and diamonds for their efreeti masters."
     ],
-    "historyDescription": [
-      "Aside from the gods, elementals are possibly the oldest beings in all of creation and the city is considered possibly the first city to ever exist. None can state exactly how old the city is, and the efreet who live here care not for such mundane matters.",
-      "The city has had several rulers over its existence. The first Grand Sultan being Ramiz al'Akbar Multahi Tawfiq, who presided over the city during its construction. Like many of the city's later Grand Sultans, he was eventually destroyed by other scheming members of the efreeti nobility."
-    ],
-    "governmentDescription": [
-      "The City of Brass is governed by the undisputed Sultan of the Efreet, who rules the city with a tyrannical hold over his subjects. On occasion, the Sultan will oversee important legal matters of noble efreet but mostly focuses on wider politics. Although the Sultan is the paramount authority in the City of Brass, he generally delegates the day-to-day affairs to his vizier. The title of Grand Sultan is held by Marrake al-Sidan al-Hariq ben Lazan.",
-      "Most efreet pledge their fealty to the Grand Sultan, whether they resided in the city or not. Even those residing in settlements outside of the city consider it their capital.",
-      "Although the streets of the city are bustling with trade and crammed with crowds during the day, by night a strict curfew is enforced by the Illuminated, the guards of the city. All shops are shut up and all citizens must return to their homes, else face arrest, the loss of a hand, enslavement, or even death.",
-      "Slaves are obligated to bear bracelets that display their servitude and who their master is at all times. It is common for visitors to the city to become slaves by defaulting on borrowed money. In addition, this servitude can be extended by additional offenses that can add days or even years to their thralldom."
-    ]
+    "articles": {
+      "History": [
+        "Aside from the gods, elementals are possibly the oldest beings in all of creation and the city is considered possibly the first city to ever exist. None can state exactly how old the city is, and the efreet who live here care not for such mundane matters.",
+        "The city has had several rulers over its existence. The first Grand Sultan being Ramiz al'Akbar Multahi Tawfiq, who presided over the city during its construction. Like many of the city's later Grand Sultans, he was eventually destroyed by other scheming members of the efreeti nobility."
+      ],
+      "Government": [
+        "The City of Brass is governed by the undisputed Sultan of the Efreet, who rules the city with a tyrannical hold over his subjects. On occasion, the Sultan will oversee important legal matters of noble efreet but mostly focuses on wider politics. Although the Sultan is the paramount authority in the City of Brass, he generally delegates the day-to-day affairs to his vizier. The title of Grand Sultan is held by Marrake al-Sidan al-Hariq ben Lazan.",
+        "Most efreet pledge their fealty to the Grand Sultan, whether they resided in the city or not. Even those residing in settlements outside of the city consider it their capital.",
+        "Although the streets of the city are bustling with trade and crammed with crowds during the day, by night a strict curfew is enforced by the Illuminated, the guards of the city. All shops are shut up and all citizens must return to their homes, else face arrest, the loss of a hand, enslavement, or even death.",
+        "Slaves are obligated to bear bracelets that display their servitude and who their master is at all times. It is common for visitors to the city to become slaves by defaulting on borrowed money. In addition, this servitude can be extended by additional offenses that can add days or even years to their thralldom."
+      ]
+    }
   },
   "Valley-of-Rud-Gilan": {
     "playerKnown": false,
@@ -484,5 +644,39 @@
     "description": [
       "The Crimson Mist Mountains is a mountain range in the south-west region of the continent of Western Koraxon. The region is renown for its verdant and lush, crimson forests. High spires dot the region and its coastal areas, and the flora is diverse, relative to the elevation. The mountain spires are capped with the crimson leaves of the huge trees that make up the Xiangmu Forest. At the base of the steep cliffs sits a lush bamboo forest teeming with wildlife."
     ] 
+  },  
+  "Jordonis-Mountains": {
+    "playerKnown": true,
+    "tags": ["mountains","region","ulfwyst"],
+    "name": "Jordonis Mountains",
+    "nickname": "Jordonis Mountains",
+    "type": "Region",
+    "location": "Ulfwyst",
+    "description": [
+      "The Jordonis Mountains are one of the most important geographic features in the climate, politics and culture of eastern Ulfwyst. Spanning a huge part of the eastern coast of the continent, the mountains act as the dividing line between the Kingdom of Navolin and the city-states of the Barrier Coast."
+    ]
+  },
+  "Kazgrim-Mountains": {
+    "playerKnown": true,
+    "tags": ["mountains","region","ulfwyst"],
+    "name": "Kazgrim Mountains",
+    "nickname": "Kazgrim Moutains",
+    "type": "Region",
+    "location": "Ulfwyst",
+    "description": [
+      "The Kazgrim Mountains are a small series of volcanic mountains situated in souther eastern Ulfwyst. The range has been dormant for centuries, but millennia-ago is responsible for connecting central Ulfwyst to the landmass that now makes up eastern Lemuria.",
+      "Centuries ago, dwarves from other parts of Ulfwyst set out, seeking new sites to establish outposts and forge new thanedoms. Most of these expiditions were doomed to failure. The harsh weather of the region, along with numerous threats that inhabit the mountains, such as chimeras, wyverns, giant, ogres, and trolls resulted in numerous camps and fledgling holds being sacked. However, eventually the persistence (and some would say suicidal stubbornness) of the dwarven people defied the odds, and the fortress of Rul Undrak was established under Mount Ulzanos on the northern end of the Kazgrim range."
+    ]
+  },
+  "Pillars-of-Amud": {
+    "playerKnown": true,
+    "tags": ["mountains","region","ulfwyst"],
+    "name": "Pillars of Amud",
+    "nickname": "Spires of Amud",
+    "type": "Region",
+    "location": "Ulfwyst",
+    "description": [
+      "The Pillars of Amud are a series of huge, jagged rocky spires that cut across the heart of central Ulfwyst. They are the tallest mountains in Ulfwyst, and the range is the second longest on the continent. The mountain range is home to the dwarven kingdom of Dol Obok, one of the largest and most well-established dwarf kingdoms on Centhris. Carved into the mountains are five great dwarf cities: Thellodur, Felrast, Nak Orodum, Lanok and Isidar Hreth."
+    ]
   }
 }

@@ -47,7 +47,7 @@ class Places extends Component {
 
     const categories = this.state.categories.map( category => {
       return (
-        <div class="category">
+        <div className="category">
           <h2 className="sectionTitle">{category}s</h2>
           <ul className="sectionList">
             {this.getEntriesByCategory(category)}

@@ -21,6 +21,7 @@ class Location extends Component {
     }
 
     this.linkContent = this.linkContent.bind(this);
+    this.getArticles = this.getArticles.bind(this);
   }
 
   render () {
@@ -35,16 +36,7 @@ class Location extends Component {
       )
     });
 
-    console.log(location.name)
-    console.log("======")
-    const notablePlaces = Object.keys(placeData).map((k) => placeData[k]).forEach( place => {
-      if ( place.location === location.name ) console.log(place.name)
-        console.log(place.name)
-        console.log(place.location)
-        
-    });
-
-    console.log(notablePlaces)
+    const descriptionEntries = this.getArticles(location.articles);
 
     return (
       <Page.Location>
@@ -118,30 +110,34 @@ class Location extends Component {
               }
             </aside>
             <div className="mainContent">
-              { (location.quote) ? 
-                <i className="quote">{location.quote}</i> : ""
-              }
-              {this.linkContent(location, location.description)}
-              { (location.historyDescription) ? 
-                <div>
-                  <h3 className="subheading">History</h3>
-                  {this.linkContent(location, location.historyDescription)}
-                </div> 
-                : ""
-              }
-              { (location.governmentDescription) ? 
-                <div>
-                  <h3 className="subheading">Government</h3>
-                  {this.linkContent(location, location.governmentDescription)}
-                </div> 
-                : ""
-              }
+              { (location.quote) ? <i className="quote">{location.quote}</i> : ""}
+
+              {descriptionEntries}
             </div>
 
           </article>
         </section>
       </Page.Location>
     )
+  }
+
+  getArticles(articles) {
+    const location = this.state.location;
+    let content = [this.linkContent(location, location.description)];
+
+    if (location.articles) {
+      for ( let [heading, array] of Object.entries(articles) ) {
+        console.log(array);
+        content.push(
+          <React.Fragment>
+            <h3 className="subheading">{heading}</h3>
+            {this.linkContent(location, array)}
+          </React.Fragment>
+        );
+      }
+    }
+
+    return content;
   }
 
   linkContent(target, descriptionArray) {

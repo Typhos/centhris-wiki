@@ -194,8 +194,8 @@ article.location {
 // MOBILE
 @media all and (max-width: $breakpoint-mobile) {
   article.location {
-    width: 92vw;
-    margin: 0 2vw 2em;
+    width: 96%;
+    margin: 0 2% 3em;
 
     div.mainContent {
       i.quote {
@@ -209,6 +209,8 @@ article.location {
 
     aside.infoBox {
       width: 100%;
+      max-width: 100%;
+      margin-bottom: 2em;
     }
   }
 
