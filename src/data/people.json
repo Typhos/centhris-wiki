@@ -271,7 +271,7 @@
 		"affiliations": ["Rythlon"],
 		"description": [
 			"Lormin Blackmaw is the half-orc butcher of Rythlon. His shop, the Lazy Goat, is located near the center of the village, just outside the village square. Before settling down in the village, Lormin lived the life of an adventurer along with his friend Rakas of Driskal. He is a sly, well-mannered man who still remembers his glory days of delving dungeons, fighting monsters and uncovering ancient treasures.",
-			"When the Adventurers first came to Rythlon, Lormin witnessed them fend off a small incursion of shadowy creatures at the Moody Acrobat. He quietly approached them, hoping that they might be interested in helping him remove a curse from Rakas. The two men had ventured into a cave system they heard held ruins and in the process Rakas had been afflicted with a mysterious ailment. The adventurers agreed and upon completing the task, Lormin paid them 100 gold pieces for their help."
+			"When the Adventurers first came to Rythlon, Lormin witnessed them fend off a small incursion of shadowy creatures at the Moody Acrobat. He quietly approached them, hoping that they might be interested in helping him remove a curse from Rakas. The two men had ventured into the Grotto of the Withered Eye, which they had learned held ruins. In the process of exploring, Rakas had been afflicted with a mysterious ailment. The adventurers agreed and upon completing the task, Lormin paid them 100 gold pieces for their help."
 		]
 	},
 	"Edmund": {
@@ -458,16 +458,16 @@
 		"class": "Druid",
 		"affiliations": ["Sylvan Conclave"],
 		"description": [
-			"Erlinder first encountered Vyslos when the Adventuerers returned to the Thornroot Thicket after defeating Teliril Wasanathi in Rythlon. Wishing to use this opportunity to try to understand his newfound abilities and connect with a place of natural power, Erlinder and his allies returned to the mysterious grove of megaliths, known as the Shrine of the Agrestal Cycle, in the middle of the forest. It was here, upon visiting for the second time, that he first encountered Vyslos, along with Kahina and Tekas Woadsinger.",
+			"Erlinder first encountered Vyslos when the Adventuerers returned to the Thornroot Thicket after defeating Teliril Wasanathi in Rythlon. Wishing to use this opportunity to try to understand his newfound abilities and connect with a place of natural power, Erlinder and his allies returned to the mysterious grove of megaliths, known as the Shrine of the Agrestal Cycle, in the middle of the forest. It was here, upon visiting for the second time, that he first encountered Vyslos, along with Cahina and Tekas Woadsinger.",
 			"Of the three druids that communed with Erlinder that night, Vyslos appeared to be the elder sage and the druid most in tune with the spell-casting aspect of his order. After discussing the nature of his power, and possible avenues in which to harness it, Erlinder chose to speak with Vyslos at length in order to further his understanding of the nature of druidic magics.",
 			"Vyslos informed Erlinder that the grove he oversees is located in the shadow of the Jordanis Mountains, in a place called the Shambling Grove."
 		]
 	},
-	"Kahina": {
+	"Cahina": {
 		"playerKnown": true,
 		"tags": ["druid","human","Sylvan Conclave","grove"],
-		"name": "Kahina",
-		"nickname": "Kahina",
+		"name": "Cahina",
+		"nickname": "Cahina",
 		"race": "Human",
 		"age": "33",
 		"gender": "Female",
@@ -475,7 +475,7 @@
 		"affiliations": ["Sylvan Conclave"],
 		"description": [
 			"",
-			"Kahina informed Erlinder that the grove she oversees is located in the state of Cebrin, in southern Ulfwyst."
+			"Cahina informed Erlinder that the grove she oversees is located in the state of Cebrin, in southern Ulfwyst."
 		]
 	},
 	"Tekas-Woadsinger": {
@@ -555,5 +555,84 @@
 		"description": [
 			"Belthren Ogni is the guild master of Ruby Phoenix and a former adventurer with, and last surviving member of, the legendary adventuring company 'The Ruby Drifters'."
 		]
+	},
+	"Lensa-Ogni": {
+		"playerKnown": true,
+		"name": "Lensa Ogni",
+		"tags": ["adventurer","human","sorceress","Ruby Phoenix","Rakenburg","associate"],
+		"nickname": "Lensa",
+		"race": "Human",
+		"age": "24",
+		"gender": "Female",
+		"class": "Sorceress",
+		"occupation": "Adventurer",
+		"affiliations": ["Ruby Phoenix"],
+		"description": [
+			"Lensa Ogni is the daughter of Belthren Ogni, the guild master of Ruby Phoenix. She is a full fledged adventurer and member of the guild in her own right, having passed the guild's Trial of Initiation by herself on her first attempt."
+		]
+	},
+	"Avelino": {
+		"playerKnown": true,
+		"name": "Avelino",
+		"tags": ["adventurer","aarakocra","barbarian","Ruby Phoenix","Rakenburg","associate"],
+		"nickname": "Avelino",
+		"race": "Aarakocra",
+		"age": "44",
+		"gender": "Male",
+		"class": "Bard",
+		"occupation": "Adventurer",
+		"affiliations": ["Ruby Phoenix"],
+		"description": [
+			"Avelino is a member of the adventuring guild Ruby Phoenix, based in Rakenburg. A talkative fellow by nature, he has had to learn to curtail his habits on official guild business."
+		]
+	},
+	"Yendra-Quenn": {
+		"playerKnown": true,
+		"name": "Yendra Quenn",
+		"tags": ["adventurer","halfling","barbarian","Ruby Phoenix","Rakenburg","associate"],
+		"nickname": "Yendra",
+		"race": "Halfling",
+		"age": "27",
+		"gender": "Female",
+		"class": "Barbarian",
+		"occupation": "Adventurer",
+		"affiliations": ["Ruby Phoenix"],
+		"description": [
+			"Yendra Quenn is a member of Ruby Phoenix. She is highly energetic, with a childlike personality. She has a quick temper and has been learning to channel her anger for use in battle through training with her mentor and guild teammate Korema zar Halkren."
+		]
+	},
+	"Korema-zar-Halkren": {
+		"playerKnown": true,
+		"name": "Korema zar Halkren",
+		"nickname": "Korema",
+		"tags": ["adventurer","half-orc","barbarian","Ruby Phoenix","Rakenburg","associate"],
+		"race": "Half-Orc",
+		"age": "31",
+		"gender": "Female",
+		"class": "Barbarian",
+		"occupation": "Adventurer",
+		"affiliations": ["Ruby Phoenix"],
+		"description": [
+			"Korema zar Halkren is a member of the Ruby Phoenix adventuring guild, based in Rakenburg. Born in Cibrin, she is the youngest daughter of the orc chief of Clan Halkren, Gnaeruk. Born to a human mother of the chief's harem, Korema spent her youth being trained as a seafaring raider. She would travel the Venngar Sea with her clan attacking villages in Cibrin and Lemuria."
+		],
+		"unrevealedInfo": [
+			"During a raid in the Korin Gulf, the Clan was attacked by dwarven mercenaries from Kaz Tronj'und. Scattered and in full retreat, Korema found herself separated and unable to return to her ship. She wandered the coast of the Gulf for months, heading north as winter approached.",
+			"Eventually she found work as a deckhand in the town of Ushma. She spent 2 years sailing the trade routes from Lemuria to the Barrier Coast until she grew tired of that life. Arriving in Rakenburg, she heard rumor of a 'mercenary' guild and sought out Ruby Phoenix hoping to make a name for herself.",
+			"She is current a mid-ranking member, preferring to work as a hired blade in other guild comrade's teams. She does not like to over complicate her job, generally choosing to simply charge into the fray with a berserker fury, instead of coming up with plans and organizing tasks."
+		]
+	},
+	"Kilorn-Zerem": {
+		"playerKnown": true,
+		"name": "Kilorn Zerem",
+		"nickname": "Kilorn",
+		"tags": ["merchant","aasimar","barbarian","Ruby Phoenix","Rakenburg","associate"],
+		"age": "40",
+		"gender": "Male",
+		"occupation": "Adventurer",
+		"affiliations": ["Ruby Phoenix"],
+		"description": [
+			"The owner and operator of Kilorn's Exotic Imports, Kilorn is a man of unknown race from the Toridosa Archipelago. He is highly knowledgeable about magical items, reagents and esoteric arcane pieces. He maintains a business agreement with the The Jasper Circle, from whom he purchases most of his magical reagents."
+		]
 	}
+
 }

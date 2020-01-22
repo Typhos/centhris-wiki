@@ -105,7 +105,7 @@ export default class PlayerCharacter extends Component {
 
       for ( let [path, dataSet] of Object.entries(dataGroupsObj) ) {
 
-        for ( let [key, obj] of Object.entries(dataSet) ) {
+        for ( let obj of Object.values(dataSet) ) {
 
           const name = obj.name;
           const nickname = obj.nickname;
@@ -122,10 +122,8 @@ export default class PlayerCharacter extends Component {
               const link = <a key={`key-${i}-${currentPerson}`} href={`/${path}/${name.replace(/\s/g,"-")}`}>{nameValue}</a>;
 
 
-              if ( this.checkNestedArray(paragraph, nameValue) && nameValue !== currentPerson[key] ) {
-
+              if ( nameValue !== currentPerson[key] ) {
                 paragraph = this.replaceNestedValue(paragraph, nameValue, link);
-
               }
             }
           }
@@ -137,47 +135,30 @@ export default class PlayerCharacter extends Component {
 
     return mapped;
   }
+  
+  replaceNestedValue( dataset, name, link) {
 
-  checkNestedArray(array, name) {
-    let test = false;
-
-    for (let i in array) {
-      if (Array.isArray(array[i])) {
-        test = this.checkNestedArray(array[i], name);
+    for ( let i in dataset ) {
+      if ( Array.isArray(dataset[i]) ) {
+        dataset[i].map( subArr => {
+          this.replaceNestedValue(subArr, name, link);
+        });  
       }
 
-      if (typeof array[i] === 'string') {
-        if (array[i].includes(name)) {
-          test = true;
+      if ( typeof dataset[i] === 'string' ) {
+        if ( dataset[i].includes(name) ) {
+          let strReplace = dataset[i].replace(name, `|${name}|`);
+          strReplace = strReplace.split("|");
+
+          strReplace = strReplace.map( str => {
+            return ( str === name ) ? link : str;
+          });
+
+          dataset[i] = strReplace;
         }
       }
     }
 
-    return test;
-  }
-
-  replaceNestedValue(array, name, link) {
-      
-      for (let i in array) {
-        if (Array.isArray(array[i])) {
-          this.replaceNestedValue(array[i], name, link);
-        }
-
-        if (typeof array[i] === 'string') {
-          if ( array[i].includes(name) ) {
-
-            let strReplace = array[i].replace(name, `|${name}|`);
-            strReplace = strReplace.split("|");
-
-            strReplace = strReplace.map( str => {
-              return ( str === name ) ? link : str;
-            });
-
-            array[i] = strReplace;
-          }
-        }
-      }
-
-      return array    
+    return dataset.flat(Infinity)
   }
 }

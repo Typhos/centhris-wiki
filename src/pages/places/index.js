@@ -8,7 +8,7 @@ import WikiUtils from "components/utils/wikiUtils";
 
 import 'styles/places.scss';
 
-const maps = require.context('../../img/maps/', true);
+// const maps = require.context('../../img/maps/', true);
 const images = require.context('../../img/places/', true);
 
 class Places extends Component {
@@ -105,6 +105,7 @@ class Places extends Component {
           </li>
         )
       }
+      return undefined;
     });
   }
 

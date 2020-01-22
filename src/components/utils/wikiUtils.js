@@ -1,10 +1,6 @@
 
 export default class WikiUtils {
 
-  constructor () {
-
-  }
-
   static sortByName (arr) {
     return arr.sort( (a,b) => {
       if (a > b) {

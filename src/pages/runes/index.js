@@ -105,6 +105,7 @@ class Runes extends Component {
                     </li>
                   )
                 }
+                return undefined;
               })
             }
           </ul>

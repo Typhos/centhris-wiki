@@ -127,9 +127,8 @@ class Location extends Component {
 
     if (location.articles) {
       for ( let [heading, array] of Object.entries(articles) ) {
-        console.log(array);
         content.push(
-          <React.Fragment>
+          <React.Fragment key={heading}>
             <h3 className="subheading">{heading}</h3>
             {this.linkContent(location, array)}
           </React.Fragment>
@@ -155,7 +154,7 @@ class Location extends Component {
 
       for ( let [path, dataSet] of Object.entries(dataGroupsObj) ) {
 
-        for ( let [key, obj] of Object.entries(dataSet) ) {
+        for ( let obj of Object.values(dataSet) ) {
 
           const name = obj.name;
           const nickname = obj.nickname;
@@ -171,11 +170,8 @@ class Location extends Component {
 
               const link = <a key={`key-${i}-${target}`} href={`/${path}/${name.replace(/\s/g,"-")}`}>{nameValue}</a>;
 
-
-              if ( this.checkNestedArray(paragraph, nameValue) && nameValue !== target[key] ) {
-
+              if ( nameValue !== target[key] ) {
                 paragraph = this.replaceNestedValue(paragraph, nameValue, link);
-
               }
             }
           }
@@ -187,48 +183,31 @@ class Location extends Component {
 
     return mapped;
   }
+  
+  replaceNestedValue( dataset, name, link) {
 
-  checkNestedArray(array, name) {
-    let test = false;
-
-    for (let i in array) {
-      if (Array.isArray(array[i])) {
-        test = this.checkNestedArray(array[i], name);
+    for ( let i in dataset ) {
+      if ( Array.isArray(dataset[i]) ) {
+        dataset[i].map( subArr => {
+          this.replaceNestedValue(subArr, name, link);
+        });  
       }
 
-      if (typeof array[i] === 'string') {
-        if (array[i].includes(name)) {
-          test = true;
-        }
-      }
-    }
-
-    return test;
-  }
-
-  replaceNestedValue(array, name, link) {
-      
-    for (let i in array) {
-      if (Array.isArray(array[i])) {
-        this.replaceNestedValue(array[i], name, link);
-      }
-
-      if (typeof array[i] === 'string') {
-        if ( array[i].includes(name) ) {
-
-          let strReplace = array[i].replace(name, `|${name}|`);
+      if ( typeof dataset[i] === 'string' ) {
+        if ( dataset[i].includes(name) ) {
+          let strReplace = dataset[i].replace(name, `|${name}|`);
           strReplace = strReplace.split("|");
 
           strReplace = strReplace.map( str => {
             return ( str === name ) ? link : str;
           });
 
-          array[i] = strReplace;
+          dataset[i] = strReplace;
         }
       }
     }
 
-    return array    
+    return dataset.flat(Infinity)
   }
 }
 

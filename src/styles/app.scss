@@ -22,6 +22,26 @@ h2.sectionTitle {
   border-bottom: 1px solid $blueDark;
 }
 
+
+a {
+  text-decoration: none;
+  color: $tagLink;
+
+  &:hover {
+    color: $tagLinkHover;
+  }
+
+  // &:hover,
+  // &:focus,
+  // &:active {
+  //   color: $tagLinkHover;
+  // }
+
+  // &:visited {
+  //   color: $tagLink;
+  // }
+}
+
 main.content {
 
   width: 88vw;

@@ -1,20 +1,5 @@
 @import "./mixins";
 
-a {
-  text-decoration: none;
-  color: $tagLink;
-  cursor: pointer;
-
-  &:hover,
-  &:active {
-    color: $tagLinkHover;
-  }
-
-  &:visited {
-    color: $tagLink;
-  }
-}
-
 article.location {
   display: block;
   width: 85vw;
@@ -26,30 +11,6 @@ article.location {
   a.backLink {
     display: inline-block;
     margin-bottom: 2em;
-  }
-
-  a {
-    // text-decoration: none;
-    color: $tagLink;
-
-    &:hover,
-    &:active {
-      color: $tagLinkHover;
-    }
-
-    &:visited {
-      color: $tagLink;
-    }
-  }
-
-  span.tagLink {
-    text-decoration: underline;
-    color: $tagLink;
-    cursor: pointer;
-
-    &:hover {
-      color: $tagLinkHover;
-    }
   }
 
   h2.fullName {
