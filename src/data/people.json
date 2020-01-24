@@ -636,7 +636,7 @@
 		]
 	},
 	"Prince-Ardashir": {
-		"playerKnown": true,
+		"playerKnown": false,
 		"name": "Prince Ardashir",
 		"nickname": "Ardashir bin Abbasyr",
 		"tags": ["merchant","aasimar","barbarian","Ruby Phoenix","Rakenburg","associate"],
