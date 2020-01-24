@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Header from "../header";
 import Footer from "../footer";
 
-class Characters extends Component {
+class Group extends Component {
 
   render () {
     return (
@@ -19,5 +19,5 @@ class Characters extends Component {
 
 }
 
-export { Characters };
+export { Group };
 

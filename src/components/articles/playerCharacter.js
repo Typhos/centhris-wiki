@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import WikiUtils from "components/utils/wikiUtils";
 
 import placeData from "../../data/places";
 import peopleData from "../../data/people";
@@ -8,13 +9,10 @@ import "styles/personArticle.scss";
 
 export default class PlayerCharacter extends Component {
 
-  constructor (props) {
-    super(props);
+  // constructor (props) {
+  //   super(props);
 
-    this.linkContent = this.linkContent.bind(this);
-    this.checkNestedArray = this.checkNestedArray.bind(this);
-    this.replaceNestedValue = this.replaceNestedValue.bind(this);
-  }
+  // }
 
   render () {
     const person = this.props.entry;
@@ -83,82 +81,11 @@ export default class PlayerCharacter extends Component {
           { (person.affiliations) ? 
             <div className="info">
               <p className="key">Affiliations</p>
-              <p className="values">{this.linkContent(person, person.affiliations)}</p>
+              <p className="values">{WikiUtils.linkContent(person, person.affiliations)}</p>
             </div> : "" 
           }
         </aside>
       </article>
     )
-  }
-
-  linkContent(currentPerson, descriptionArray) {
-
-    if ( !Array.isArray(descriptionArray) ) descriptionArray = [descriptionArray];
-
-    let mapped = descriptionArray.map( (paragraph,i) => {
-      paragraph = [paragraph];
-
-      const dataGroupsObj = {
-        "person": peopleData,
-        "location": placeData
-      };
-
-      for ( let [path, dataSet] of Object.entries(dataGroupsObj) ) {
-
-        for ( let obj of Object.values(dataSet) ) {
-
-          const name = obj.name;
-          const nickname = obj.nickname;
-          const show = dataSet[name.replace(/\s/g,"-")].playerKnown;
-
-          const namesObj = {
-            name: name, 
-            nickname: nickname
-          };
-
-          if ( show ) {
-            for ( let [key, nameValue] of Object.entries(namesObj) ) {
-
-              const link = <a key={`key-${i}-${currentPerson}`} href={`/${path}/${name.replace(/\s/g,"-")}`}>{nameValue}</a>;
-
-
-              if ( nameValue !== currentPerson[key] ) {
-                paragraph = this.replaceNestedValue(paragraph, nameValue, link);
-              }
-            }
-          }
-        }
-      }
-
-      return <p className="linkedContent" key={currentPerson+i}>{paragraph}</p>;
-    });
-
-    return mapped;
-  }
-  
-  replaceNestedValue( dataset, name, link) {
-
-    for ( let i in dataset ) {
-      if ( Array.isArray(dataset[i]) ) {
-        dataset[i].map( subArr => {
-          this.replaceNestedValue(subArr, name, link);
-        });  
-      }
-
-      if ( typeof dataset[i] === 'string' ) {
-        if ( dataset[i].includes(name) ) {
-          let strReplace = dataset[i].replace(name, `|${name}|`);
-          strReplace = strReplace.split("|");
-
-          strReplace = strReplace.map( str => {
-            return ( str === name ) ? link : str;
-          });
-
-          dataset[i] = strReplace;
-        }
-      }
-    }
-
-    return dataset.flat(Infinity)
   }
 }

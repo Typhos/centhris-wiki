@@ -15,15 +15,17 @@ class People extends Component {
 
     // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
     let filteredOutput = {};
+    let dmView = localStorage.getItem('dmView') === 'true';
 
     for (let [key, obj] of Object.entries(peopleData)) {
-      if ( obj.playerKnown ) {
+      if ( obj.playerKnown || dmView ) {
         filteredOutput[key] = obj;
       }
     }
 
     this.state = {
       people: WikiUtils.sortByName( Object.keys(filteredOutput) ),
+      dmMode: dmView,
     };
 
     this.handleSearch = this.handleSearch.bind(this);

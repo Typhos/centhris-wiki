@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import WikiUtils from "components/utils/wikiUtils";
 
 import placeData from 'data/places';
 import characterData from 'data/characters';
@@ -17,17 +18,17 @@ class Location extends Component {
     super(props);
 
     this.state = {
-      location: placeData[window.location.pathname.split('/location/')[1]]
+      location: placeData[window.location.pathname.split('/location/')[1]],
+      dmView: localStorage.getItem('dmView') === 'true'
     }
 
-    this.linkContent = this.linkContent.bind(this);
     this.getArticles = this.getArticles.bind(this);
   }
 
   render () {
     const location = this.state.location;
 
-    const races = location.races && location.races.map( race => <span className="race commaSeparated">{race}</span> );
+    const races = location.races && location.races.map( race => <span className="race commaSeparated">{ WikiUtils.linkContent(location, race) }</span> );
     const additionalImages = location.additionalImages && location.additionalImages.map( image => {
       return (
         <div className="info mapBox">
@@ -35,6 +36,15 @@ class Location extends Component {
         </div>
       )
     });
+
+    function nickname() {
+      if (location.nickname) {
+        if ( Array.isArray(location.nickname) ) {
+          return ( <h4 className="nickname">{location.nickname[0]}</h4> )
+        }
+        return ( <h4 className="nickname">{location.nickname}</h4> )
+      }
+    }
 
     const descriptionEntries = this.getArticles(location.articles);
 
@@ -48,9 +58,7 @@ class Location extends Component {
 
             <h2 className="fullName">{location.name}</h2>
             <aside className="infoBox">
-              { (location.nickname) ? 
-                <h4 className="nickname">{location.nickname}</h4>: "" 
-              }          
+              { nickname() }          
               <img className="portrait" alt="" src={ images('./' + location.name.replace(/\s/g,"-") + '.png') }/>
               { (location.type) ? 
                 <div className="info">
@@ -70,34 +78,46 @@ class Location extends Component {
                   <p className="values">{location.government}</p>
                 </div> : "" 
               }
+              { (location.currency) ? 
+                <div className="info">
+                  <p className="key">Currency</p>
+                  <p className="values">{location.currency}</p>
+                </div> : "" 
+              }
+              { (location.capital) ? 
+                <div className="info">
+                  <p className="key">Capital City</p>
+                  <p className="values">{WikiUtils.linkContent(location, location.capital)}</p>
+                </div> : "" 
+              }
               { (location.leaders) ? 
                 <div className="info">
                   <p className="key">Leader(s)</p>
-                  <div className="values">{this.linkContent(location, location.leaders)}</div>
+                  <div className="values">{WikiUtils.linkContent(location, location.leaders)}</div>
                 </div> : "" 
               }
               { (location.races) ? 
                 <div className="info">
                   <p className="key">Race(s)</p>
-                  <p className="values">{races}</p>
+                  <div className="races values">{WikiUtils.linkContent(location, location.races)}</div>
                 </div> : "" 
               }
               { (location.nation) ? 
                 <div className="info">
                   <p className="key">State</p>
-                  <div className="values">{this.linkContent(location, location.nation)}</div>
+                  <div className="values">{WikiUtils.linkContent(location, location.nation)}</div>
                 </div> : "" 
               }
               { (location.location) ? 
                 <div className="info">
                   <p className="key">Location</p>
-                  <div className="values">{this.linkContent(location, location.location)}</div>
+                  <div className="values">{WikiUtils.linkContent(location, location.location)}</div>
                 </div> : "" 
               }
               { (location.regions) ? 
                 <div className="info">
                   <p className="key">Regions</p>
-                  <div className="values">{this.linkContent(location, location.regions)}</div>
+                  <div className="values">{WikiUtils.linkContent(location, location.regions)}</div>
                 </div> : "" 
               }
               { (location.additionalImages) ? additionalImages : ""}
@@ -123,91 +143,32 @@ class Location extends Component {
 
   getArticles(articles) {
     const location = this.state.location;
-    let content = [this.linkContent(location, location.description)];
+    let content = [WikiUtils.linkContent(location, location.description)];
 
     if (location.articles) {
       for ( let [heading, array] of Object.entries(articles) ) {
         content.push(
           <React.Fragment key={heading}>
             <h3 className="subheading">{heading}</h3>
-            {this.linkContent(location, array)}
+            {WikiUtils.linkContent(location, array)}
+          </React.Fragment>
+        );
+      }
+    }
+
+    
+    if ( this.state.dmView && location.dmArticles ) {
+      for ( let [heading, array] of Object.entries(location.dmArticles) ) {
+        content.push(
+          <React.Fragment key={heading}>
+            <h3 className="subheading">{heading}</h3>
+            {WikiUtils.linkContent(location, array)}
           </React.Fragment>
         );
       }
     }
 
     return content;
-  }
-
-  linkContent(target, descriptionArray) {
-    if ( !Array.isArray(descriptionArray) ) descriptionArray = [descriptionArray];
-
-    let mapped = descriptionArray.map( (paragraph,i) => {
-      paragraph = [paragraph];
-
-      const dataGroupsObj = {
-        //"organization": organizationData,
-        "person": peopleData,
-        "player-character": characterData,
-        "location": placeData
-      };
-
-      for ( let [path, dataSet] of Object.entries(dataGroupsObj) ) {
-
-        for ( let obj of Object.values(dataSet) ) {
-
-          const name = obj.name;
-          const nickname = obj.nickname;
-          const show = dataSet[name.replace(/\s/g,"-")].playerKnown;
-
-          const namesObj = {
-            name: name, 
-            nickname: nickname
-          };
-
-          if ( show ) {
-            for ( let [key, nameValue] of Object.entries(namesObj) ) {
-
-              const link = <a key={`key-${i}-${target}`} href={`/${path}/${name.replace(/\s/g,"-")}`}>{nameValue}</a>;
-
-              if ( nameValue !== target[key] ) {
-                paragraph = this.replaceNestedValue(paragraph, nameValue, link);
-              }
-            }
-          }
-        }
-      }
-
-      return <p className="linkedContent" key={target+i}>{paragraph}</p>;
-    });
-
-    return mapped;
-  }
-  
-  replaceNestedValue( dataset, name, link) {
-
-    for ( let i in dataset ) {
-      if ( Array.isArray(dataset[i]) ) {
-        dataset[i].map( subArr => {
-          this.replaceNestedValue(subArr, name, link);
-        });  
-      }
-
-      if ( typeof dataset[i] === 'string' ) {
-        if ( dataset[i].includes(name) ) {
-          let strReplace = dataset[i].replace(name, `|${name}|`);
-          strReplace = strReplace.split("|");
-
-          strReplace = strReplace.map( str => {
-            return ( str === name ) ? link : str;
-          });
-
-          dataset[i] = strReplace;
-        }
-      }
-    }
-
-    return dataset.flat(Infinity)
   }
 }
 

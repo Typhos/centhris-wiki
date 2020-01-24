@@ -57,11 +57,12 @@
 			"He is a common sight in the court of King Kzesimir III in Frecyra where he is called up on to provide military advice. He is also a close personal friend of Prince Aronas Czak and returned from a provincial issue in the village of Rythlon upon learning the news of the prince's death."
 		]
 	},
-	"Kzesimir-III-of-House-Czak": {
+	"King-Kzesimir-III-of-House-Czak": {
 		"playerKnown": false,
+		"name": "King Kzesimir III of House Czak",
+		"nickname": "King Kzesimir III Czak",
+		"linkingWords": ["Kzesimir III of House Czak","King Kzesimir III","Kzesimir III","King Kzesimir Czak","King Kzesimir","Kzesimir Czak"],
 		"tags": ["king","noble","Frecyra","Navolin"],
-		"name": "Kzesimir III of House Czak",
-		"nickname": "King Kzesimir III",
 		"race": "Human",
 		"age": "57",
 		"gender": "Male",
@@ -525,13 +526,13 @@
 			"Many families live and work in the barony of Frenkel, including the Montajays, a halfling family of which Filibert Montajay was a member. Filibert was a subject of the baron until he was forced to leave the fortress in Sirngor of 2C 2573."
 		]
 	},
-	"Nicolai-Valken": {
+	"Archduke-Nicolai-Valken": {
 		"playerKnown": false,
 		"tags": ["noble","human","archduke","zurast"],
-		"name": "Nicolai Valken",
-		"nickname": "Archduke Nicolai Valken",
+		"name": "Archduke Nicolai Valken",
+		"nickname": "Nicolai Valken",
 		"race": "human",
-		"age": "72",
+		"age": "37",
 		"gender": "Male",
 		"titles": "Archduke",
 		"occupation": "Monarch",
@@ -553,7 +554,7 @@
 		"affiliations": ["Ruby Phoenix","Guild Council of Rakenburg"],
 		"quote": "\"The biggest thing I killed? Do you know of Kaer Edsken on the border of Lemuria? It was just a ruin at the time, but back when I was an adventurer, I fought an adult red dragon there. We managed to kill the beast, but it cost me everything.\"",
 		"description": [
-			"Belthren Ogni is the guild master of Ruby Phoenix and a former adventurer with, and last surviving member of, the legendary adventuring company 'The Ruby Drifters'."
+			"Belthren Ogni is the guild master of Ruby Phoenix and a former adventurer with, and last surviving member of, the legendary adventuring company the Ruby Drifters."
 		]
 	},
 	"Lensa-Ogni": {
@@ -633,6 +634,54 @@
 		"description": [
 			"The owner and operator of Kilorn's Exotic Imports, Kilorn is a man of unknown race from the Toridosa Archipelago. He is highly knowledgeable about magical items, reagents and esoteric arcane pieces. He maintains a business agreement with the The Jasper Circle, from whom he purchases most of his magical reagents."
 		]
+	},
+	"Prince-Ardashir": {
+		"playerKnown": true,
+		"name": "Prince Ardashir",
+		"nickname": "Ardashir bin Abbasyr",
+		"tags": ["merchant","aasimar","barbarian","Ruby Phoenix","Rakenburg","associate"],
+		"age": "deceased",
+		"gender": "Male",
+		"race": "Human",
+		"occupation": "Diplomat, Noble",
+		"affiliations": ["Kingdom of Abbasyr"],
+		"description": [
+			"Prince Ardashir bin Abbasyr was a human prince of the Kingdom of Abassyr. He spent his youth in the capital of Khezrabad before being set to Frecyra as an ambassador of his family and kingdom. While in Frecyra, his advisor and bodyguard was the elf wizard Telarion Calaedor."
+		]
+	},
+	"Telarion-Calaedor": {
+		"playerKnown": false,
+		"name": "Telarion Calaedor",
+		"nickname": "Tel-dog",
+		"tags": ["wizard","moon elf","wizard","Ruby Phoenix","associate"],
+		"age": "376",
+		"race": "Moon Elf",
+		"gender": "Male",
+		"occupation": "Lemurian Court Mage",
+		"affiliations": ["High Queen's Court","Lemuria","Ruby Phoenix"],
+		"description": [
+			"A highly regarded elven mage, Telarion Calaedor has been a fixture in the courts of Ulfwyst for well over 200 years. He is current employed as a court mage in the Kingdom of Lemuria, reporting directly to the High Queen, Inga Sudrheim. Though Telarion has an official residence in Kilurus, when he is not on official business or seeing to a task requested of him by the queen, he prefers to spend his time in the town of Zabrosk, on the western shore of the Korin Gulf."
+		],
+		"articles": {
+			"Calling in a Favor": [
+				"Telarion returned to Rakenburg in Dusvar of 2C 2573 at the request of Belthren Ogni. The guild master had learned that members of his guild and the Adventurers had been bound to the service of Akad the Magnificent and felt that Telarion was the only person he knew who might have the knowledge required to help resolve the issue before it became untenable."
+			]
+		},
+		"dmArticles": {
+			"Early Life": [
+				"Telarion was born in the Kingdom of Abbasyr to eladrin parents who were acting as ambassadors of the Court of the Archfey of Spring, one of the four eladring courts of Feywild. Though his family made regular visits to the Feywild, the young elf did not take to the Feywild, instead finding the prime Material Plane more to his preference. He would spend most of his youth (roughly 100 years for elves) in Khezrabad, studying at the famous mage college of Seloc Gehayan, frequenting the baths and practicing the art of diplomacy under the tutelage of his father.",
+				"Upon graduation from the Seloc Gehayan, the young elf had many paths available to him. His father Osmiran insisted that the young wizard take a post offered to him by the Sultan of Abbasyr as an advisor to the Sultan's son, Prince Ardashir. The prince had been chosen to act as an envoy for Abassyr to the distant Kingdom of Navolin."
+			],
+			"An Exotic Accessory": [
+				"The time Telarion spent in Navolin were some of the most miserable of his life. Officially appointed to advise Prince Ardashir, the young wizard soon learned that he was less of an advisor and more a mix of bodyguard and valet. With no consistent day-to-day tasks, the prince spent most of his time in Frecyra lounging about, attending galas and other high society functions. A charming socialite, the prince's presence was in high demand and Telarion, who had expected to put his years of arcane study to use, instead found himself the exotic accessory of a drunken playboy.",
+				"This is not to say that his time in Frecyra was worthless. During his stay in the Navolinian capital, Telarion honed a variety of skills he would find useful later in his life. The fine arts of carousing, idle small talk and the subtle exit became second nature as the elf spent months on end attending garden parties, dinner parties, tournaments and hunts.",
+				"When he had the rare chance, Talerion would make his way to the Stantorr in the Timberrun District of the city. The ornate complex of halls, classrooms, extensive libraries and tower laboratories offered the mage a welcome escape back to his arcane roots. Over the course of his stay, Telarion slowly earned the confidence of the mages of the Nost Ezel'nar and slowly gained access to tools and resources of a similar nature to those in Khezrabad."
+			],
+			"Time in Rakenburg": [],
+			"Early Days in Lemuria": [
+				"It is in Zabrosk that Telarion met Belthren Ogni, along with the other members of the fabled Ruby Drifters, in 2C 2541. At the time, Telarion attempting to gain employment from the former monarch of Lemuria, High King Wenndrak Arnbjorg. The wizard had taken up residence in Lemurian 3 years prior after leaving the city of Rakenburg due to a falling out with a former associate, Faelana Veluthil. Seeing potential in the Drifters, Telarion offered to assist the group in their work as a liaison and advisor. He hoped that in doing so, he would be able to gain the favor of the High King through association with any heroic deeds the Drifters performed."
+			]
+		}
 	}
 
 }

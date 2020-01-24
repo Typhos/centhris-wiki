@@ -18,9 +18,10 @@ class Places extends Component {
 
     // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
     let filteredOutput = {};
+    let dmView = localStorage.getItem('dmView') === 'true';
 
     for (let [key, obj] of Object.entries(placeData)) {
-      if ( obj.playerKnown ) {
+      if ( obj.playerKnown || dmView ) {
         filteredOutput[key] = obj;
       }
     }
@@ -58,33 +59,6 @@ class Places extends Component {
 
     return (
       <Page.People>
-        {/*<Search handleSearch={ this.handleSearch } />
-        
-        <h2 className="sectionTitle">Maps</h2>
-        <article className="maps">
-          
-          <a className="mapLink" href={ maps('./Ulfwyst-2C-2573.png') }>
-            <img alt="Eastern Ulfwyst map"  className="map" src={ maps('./Ulfwyst-2C-2573.png') }/>
-            <p>Eastern Ulfwyst c. 2573</p>
-          </a>
-
-          <a className="mapLink" href={ maps('./Volikgrad.png') }>
-            <img alt="Volikgrad map"  className="map" src={ maps('./Volikgrad.png') }/>
-            <p>Volikgrad</p>
-          </a>
-          
-          <a className="mapLink" href={ maps('./Rakenburg.png') }>
-            <img alt="Rakenburg map" className="map" src={ maps('./Rakenburg.png') }/>
-            <p>Rakenburg</p>
-          </a>
-          
-          <a className="mapLink" href={ maps('./cryptic-toridosa-map.png') }>
-            <img alt="Toridosa map"  className="map" src={ maps('./cryptic-toridosa-map.png') }/>
-            <p>Toridosa Map</p>
-          </a>
-        </article>
-        */}
-
         <h2 className="sectionGroup">Places</h2>
         <div id="places" >
           {categories}

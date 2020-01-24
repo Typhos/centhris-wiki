@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import WikiUtils from "components/utils/wikiUtils";
 
 import placeData from "../../data/places";
 import characterData from '../../data/characters';
@@ -11,12 +12,16 @@ export default class PeopleArticle extends Component {
   constructor (props) {
     super(props);
 
-    this.linkContent = this.linkContent.bind(this);
-    this.replaceNestedValue = this.replaceNestedValue.bind(this);
+    this.state = {
+      dmView: localStorage.getItem('dmView') === 'true'
+    }
+
+    this.getArticles = this.getArticles.bind(this);
   }
 
   render () {
     const person = this.props.entry;
+    const descriptionEntries = this.getArticles(person);
 
     return (
 
@@ -61,7 +66,7 @@ export default class PeopleArticle extends Component {
           { (person.affiliations) ? 
             <div className="info affiliations">
               <p className="key">Affiliation(s)</p>
-              <p className="values">{this.linkContent(person, person.affiliations)}</p>
+              <div className="values">{WikiUtils.linkContent(person, person.affiliations)}</div>
             </div> : "" 
           }
         </aside>
@@ -69,86 +74,39 @@ export default class PeopleArticle extends Component {
           { (person.quote) ? 
             <i className="quote">{person.quote}</i> : ""
           }
-          {this.linkContent(person, person.description)}
-
+          {descriptionEntries}
         </div>
         <div className="clear"></div>
       </article>
     )
   }
 
-  linkContent(currentPerson, descriptionArray) {
-    const {peopleData} = this.props.data;
+  getArticles(person) {
+    const personData = this.props.data;
+    let content = [WikiUtils.linkContent(person, person.description)];
 
-    if ( !Array.isArray(descriptionArray) ) descriptionArray = [descriptionArray];
-
-    let mapped = descriptionArray.map( (paragraph,i) => {
-      paragraph = [paragraph];
-
-      const dataGroupsObj = {
-        "person": peopleData,
-        "player-character": characterData,
-        "location": placeData
-      };
-
-      for ( let [path, dataSet] of Object.entries(dataGroupsObj) ) {
-
-        for ( let obj of Object.values(dataSet) ) {
-
-          const name = obj.name;
-          const nickname = obj.nickname;
-          const show = dataSet[name.replace(/\s/g,"-")].playerKnown;
-
-          const namesObj = {
-            name: name, 
-            nickname: nickname
-          };
-
-          if ( show ) {
-            for ( let [key, nameValue] of Object.entries(namesObj) ) {
-
-              const link = <a key={`key-${i}-${currentPerson}`} href={`/${path}/${name.replace(/\s/g,"-")}`}>{nameValue}</a>;
-
-
-              if ( nameValue !== currentPerson[key] ) {
-
-                paragraph = this.replaceNestedValue(paragraph, nameValue, link);
-
-              }
-            }
-          }
-        }
-      }
-
-      return <p className="linkedContent" key={currentPerson+i}>{paragraph}</p>;
-    });
-
-    return mapped;
-  }
-  
-  replaceNestedValue( dataset, name, link) {
-
-    for ( let i in dataset ) {
-      if ( Array.isArray(dataset[i]) ) {
-        dataset[i].map( subArr => {
-          this.replaceNestedValue(subArr, name, link);
-        });  
-      }
-
-      if ( typeof dataset[i] === 'string' ) {
-        if ( dataset[i].includes(name) ) {
-          let strReplace = dataset[i].replace(name, `|${name}|`);
-          strReplace = strReplace.split("|");
-
-          strReplace = strReplace.map( str => {
-            return ( str === name ) ? link : str;
-          });
-
-          dataset[i] = strReplace;
-        }
+    if (person.articles) {
+      for ( let [heading, array] of Object.entries(person.articles) ) {
+        content.push(
+          <React.Fragment key={heading}>
+            <h3 className="subheading">{heading}</h3>
+            {WikiUtils.linkContent(person, array)}
+          </React.Fragment>
+        );
       }
     }
 
-    return dataset.flat(Infinity)
+    if ( this.state.dmView && person.dmArticles ) {
+      for ( let [heading, array] of Object.entries(person.dmArticles) ) {
+        content.push(
+          <React.Fragment key={heading}>
+            <h3 className="subheading">{heading}</h3>
+            {WikiUtils.linkContent(person, array)}
+          </React.Fragment>
+        );
+      }
+    }
+
+    return content;
   }
 }

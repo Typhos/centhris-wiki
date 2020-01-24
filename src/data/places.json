@@ -17,10 +17,13 @@
 	},
   "Kingdom-of-Navolin": {
     "playerKnown": true,
-    "tags": ["kingdom","navolin","state","ulfwyst"],
     "name": "Kingdom of Navolin",
     "nickname": "Navolin",
+    "linkingWords": ["Navolinian"],
+    "tags": ["kingdom","navolin","state","ulfwyst"],
     "type": "State",
+    "currency": "Navolinian Talon",
+    "capital": "Frecyra",
     "population": "~2.5 million",
     "races": ["human","elf","gnome","half-elf","halfling"],
     "government": "Hereditary Monarchy",
@@ -28,7 +31,8 @@
     "leaders": ["King Kzesimir III"],
     "regions": ["Kelishan Highlands","Galren Moor","Damali Steppe","Tiderack Coast"],
     "description": [
-      "The Kingdom of Navolin is a large, feudal state located in Eastern Ulfwyst. "
+      "The Kingdom of Navolin is a large, feudal state located in Eastern Ulfwyst.",
+      "The Navolinian way of life is one of the horse."
     ]
   },
   "City-of-Zurast": {
@@ -61,6 +65,8 @@
     "population": "~320,000",
     "races": ["human","elf","gnome","half-elf","halfling"],
     "government": "Hereditary Monarchy",
+    "currency": "Zuriastian Helm",
+    "capital": "City of Zurast",
     "location": "Ulfwyst",
     "leaders": ["Archduke Nicolai Valken"],
     "regions": ["Blighted Mire","Drakenwald","Kazgrim Mountains"],
@@ -74,6 +80,8 @@
     "name": "Kingdom of Lemuria",
     "nickname": "Lemuria",
     "type": "State",
+    "currency": "Lemurian Pike",
+    "capital": "Kilurus",
     "population": "~1.8 million",
     "races": ["human","elf","gnome","half-elf","half-orc","half-giant","marus"],
     "government": "Elective Clan Monarchy",
@@ -101,6 +109,76 @@
       ],
       "Sacred Monuments":[
         "In these sacred groves, druids and priests erect great stone circles dedicated to the spirits of the land. It is also a common tradition amongst the great clans to mark the rite of adulthood by placing a great runestone in a sacred location near the clan's hold. The head of the clan generally commissions the stone and then the clan, lead by the soon-to-be adult carry the stone to the destined location, planting the stone to mark the auspicious occasion."
+      ]
+    }
+  },
+  "Cibrin": {
+    "playerKnown": false,
+    "tags": ["kingdom","state","ulfwyst"],
+    "name": "Cibrin",
+    "nickname": "Realm of Cibrin",
+    "linkingWords": ["Cibrinian"],
+    "type": "State",
+    "currency": "Cibrinian Vale",
+    "capital": "Enira",
+    "population": "~1.8 million",
+    "races": ["human","dwarf","uklang","half-orc","half-giant"],
+    "government": "Feudal Monarchy",
+    "location": "Ulfwyst",
+    "leaders": ["High Queen Inga Sudrheim"],
+    "regions": ["Ossin River","Torick-Vir Valley","Torick Peaks","Vir Mountains","Venngar Sea"],
+    "description": [
+      "A mid-sized state in southern Ulfwyst, the Realm of Cibrin is a harsh land sitting between the Torik Peaks and Vir Mountain ranges, south of the Theocracy of Tovanis. Most of the kingdom is comprised of dangerous, untamed forest and craggy hills.",
+      "Most of the inhabitants of Cibrin live in hillforts, subsisting as hunter-gatherers, or in coastal castle-towns from which they conduct maritime activities in the Venngar Sea. Due to it's geography and climate, the realm's population is comprised of hardier races, such as humans, dwarves, and Uklang, or yakfolk. It also has a high percentage of half-breeds, specifically half-orcs, and half-giants, as well as the very rare Marus, or walrus-people."
+    ],
+    "articles":{
+      "People of the Land": [
+        "Due to the vast amount of natural wilderness that exists in this remote region of Ulfwyst, there is an innate connection in Lemuria with the Feywild. Many people claim to see fey spirits roaming the hills or dancing in the ancient forests.",
+        "With this fey connection comes a peculiar phenomena: Lemuria has the highest concentration of half-elves in all of Ulfwyst, possibly in all of Centhris. It is not uncommon for a man or woman to disappear for years at a time, only to return from some far off place with a child in tow, a reminder of fleeting tryst with a fey from beyond the mortal realms. Half-elves are viewed as normal, or in some eyes, blessed people who have been touched by the realms beyond."
+      ],
+      "Settlements":[
+        "Most of the people of Lemuria live in isolated, fortified villages and towns located at defendable positions in the landscape. Frotified hill-towns, sea-side ports located on the sides of cliffs and walled villages located deep in forests are typical fare for the people of Lemuria."
+      ],
+      "Masters of the Sea":[
+        "Many towns in Lemuria are located along a river or on the coast. The people of this land have a healthy respect and a deep bond with the sea. Any person worth their salt knows how to handle a boat and can sail on a river, at the very least. Due to this cultural expectation, Lemurians are generally considered the most skilled sailors in Ulfwyst and it is common to find a merchant vessel in cities such as Volikgrad or Braxinfurt being commanded by a Lemurian captain."
+      ],
+      "Religion":[
+        "Lemuria is an ancient and mystical land, full of haunted woods, deadly mires and frozen peaks. The people have mixed the traditional gods of Ulfwyst and their own, more ancient traditions.",
+        "Almost every village and town in the kingdom has a temple dedicated to the gods, and also a sacred grove dedicated to the spirits of the land. This animist practice honors the spirits of the forest, rocks, river, mountains and sea with which the people of this place share a sacred bond. The people of Lemuria believe that though the gods hold supreme power over the world, their day to day lives are more influenced by the natural spirits all around them.",
+        "To the people of Lemuria, it is as important to honor the local spirits as it is the Gods. Throughout the year, various rites, festivals and holidays mark the occasions important to the animist practices. When the spring crops are sown, a village will hold a festival to honor the spirits of the fields, the orchards and the streams. When a lamb is born or an old beast of burden dies, its spirit is honored in ancient rites at a family's ritual altar."
+      ],
+      "Sacred Monuments":[
+        "In these sacred groves, druids and priests erect great stone circles dedicated to the spirits of the land. It is also a common tradition amongst the great clans to mark the rite of adulthood by placing a great runestone in a sacred location near the clan's hold. The head of the clan generally commissions the stone and then the clan, lead by the soon-to-be adult carry the stone to the destined location, planting the stone to mark the auspicious occasion."
+      ]
+    }
+  },
+  "Syrothian-Empire": {
+    "playerKnown": true,
+    "tags": ["empire","state","ulfwyst","hobgoblins"],
+    "name": "Syrothian Empire",
+    "nickname": "Syrothia",
+    "linkingWords": ["Syrothian Empire","Syrothian"],
+    "type": "State",
+    "currency": "Syrothian Claw",
+    "capital": "Lashkar",
+    "population": "~8.3 million",
+    "races": ["hobgoblin","goblin","bugbear","human","tiefling","half-orc","half-giant","uklang"],
+    "government": "Dictatorship",
+    "location": "Ulfwyst",
+    "leaders": ["Droknac the Immortal"],
+    "regions": ["Syrothian Plateau","Pillars of Amud","Rostamas","Wychwood Forest","Ur'shiid Desert","Lake Urisyr","Twilight Sea","Adorra Sound"],
+    "description": [
+      "The Syrothian Empire is a rising power in central Ulfwyst. Forged from disparate tribes of goblins and hobgoblins, they all now serve under the banner of Droknac the Immortal, a hobgoblin warlord who has forged his vast empire over the course of the last several hundred years. Under his command, hobgoblin armies march forth to claim new lands and capture slaves to serve their dark gods. The most fearsome of their number are the Winged Scourge, seasoned hobgoblin warriors mounted on Blackfire Drakes."
+    ],
+    "articles":{
+      "Immortal Legions": [
+        "Due to the strange nature of the goblinoid races, the armies of Syrothia are rarely, if ever, truly defeated. If a legion is defeated or completely annihilated, the hobgoblins that fell in battle may yet return. After a battle, any nearby goblins, either those kept in reserve by the empire, or natural inhabitants of an area, will swarms the battlefield, consuming the corpses of their fallen kin.",
+        "Though the arms and armor of the legion may be broken or lost, over following month, as the goblins grow and gain the memories of those they consumed, the fallen legion returns. It is for this reason that the armies of Syrothia terrify their enemies. Entire legions will, if tactics require, throw themselves at a stronghold or into a lost cause. For the goblinoids are fully aware that while any casualties they inflict upon the enemy is permanent, the damage suffered on their end is only temporary."
+      ]
+    },
+    "dmArticles": {
+      "Aggressive Expansion": [
+        "The Syrothians are in the process of aggressively expanding to their east. Less than 20 years ago the completely absorbed the former state of Hestia into the empire. Now, they have turned their eyes north to the Kaeldrin Sanctum, looking to expand their naval presence and gain the rich arcane knowledge located in the magocracy's libraries."
       ]
     }
   },
@@ -290,6 +368,28 @@
       "An ancient druid shrine deep in the heart of Thornroot Thicket."
     ]  
   },
+  "Tower-of-Stantorr": {
+    "playerKnown": false,
+    "tags": ["building","tower","wizard","frecyra","navolin","ulfwyst"],
+    "name": "Tower of Stantorr",
+    "nickname": "Stantorr",
+    "type": "Structure",
+    "location": "Frecyra",
+    "description": [
+      "The Tower of Stantorr is an enormous wizard's tower in the Timberrun District of Frecyra. The tower is the home of the Nost Ezel’nár. The tower dates back to the Utharian Empire, though the original purpose of the tower is not know outside the ranks of the magical order. The city of Frecyra was originally a small village built around the outskirts of the tower, however as a central state emerged in the region after the period of collapse that followed the Ascension of the Eternal King and the subsequent Ruination of Centhris."
+    ]  
+  },
+  "Seloc-Gehayan": {
+    "playerKnown": false,
+    "tags": ["building","school","wizard","Khezrabad","Abbasyr","ulfwyst"],
+    "name": "Seloc Gehayan",
+    "nickname": "Wizard College of Seloc Gehayan",
+    "type": "Structure",
+    "location": "Khezrabad",
+    "description": [
+      "It's a wizard school yo."
+    ]  
+  },
   "Eikras-Auction-House":{
     "playerKnown": true,
     "tags": ["structure","barrier coast","ulfwyst","rakenburg"],
@@ -316,7 +416,12 @@
       "The Twisting Warrens is a massive underground labyrinth located under the city of Rakenburg.",
       "There are three known entrances to the dungeon. All are guarded and monitored around the clock to prevent unwitting (and suicidal) explorers from entering. In order to enter, prospective adventurers must provide an official Writ of Passage, which can be purchased from the Guild Council of Rakenburg or provided by one of the guilds which make up the city governing body.",
       "The primary entrance to the under-city is located in the Dawnstar Fairgrounds, with smaller entrances in the Ghost Orchard and the Murky Reach."
-    ]
+    ],
+    "monsters": {
+      "Undercity Medusa": "https://5e.tools/bestiary/undercity-medusa-ggr.html",
+      "Fell Knight": "Chaos Knight - Fifth Edition Foes p.55",
+      "Skullbat": "Chaos Knight - Critter Compendium p.187"
+    }
   },
   "the-Molten-Halls": {
     "playerKnown": true,
@@ -371,7 +476,7 @@
     "tags": ["city-state","barrier coast","ulfwyst","port"],
     "name": "Hubrynk",
     "nickname": "Free Town of Hubrynk",
-    "type": "City-State",
+    "type": "Settlement",
     "population": "~1000",
     "races": ["human","tiefling","dwarf","dragonborn"],
     "government": "Oligarchy",
@@ -499,10 +604,13 @@
   },
   "Kingdom-of-Abbasyr": {
     "playerKnown": false,
-    "tags": ["kingdom","Abbasyr","state","ulfwyst"],
     "name": "Kingdom of Abbasyr",
     "nickname": "Abbasyr",
+    "linkingWords": ["Abbasyri"],
+    "tags": ["kingdom","Abbasyr","state","ulfwyst"],
     "type": "State",
+    "capital": "Khezrabad",
+    "currency": "Abbasyri Shinx",
     "population": "~4 million",
     "races": ["dragonborn","human","half-orc","elf","gnome","half-elf","tiefling"],
     "government": "Hereditary Monarchy",
@@ -518,6 +626,7 @@
     "tags": ["city","Abbasyr","capital","ulfwyst"],
     "name": "Khezrabad",
     "nickname": "Khezrabad",
+    "linkingWords": ["Khezrabadi"],
     "type": "Settlement",
     "population": "25,000",
     "races": ["dragonborn","human","half-orc","tiefling"],
@@ -592,8 +701,8 @@
   "Bay-of-Claws": {
     "playerKnown": true,
     "tags": ["sea","region","ulfwyst"],
-    "name": "Bay-of-Claws",
-    "nickname": "Bay-of-Claws",
+    "name": "Bay of Claws",
+    "nickname": "Bay of Claws",
     "type": "Region",
     "location": "Lemuria",
     "description": [
@@ -605,9 +714,25 @@
       ]
     }
   },
+  "Adorra-Sound": {
+    "playerKnown": true,
+    "tags": ["sea","region","ulfwyst"],
+    "name": "Adorra Sound",
+    "nickname": "Adorra Sea",
+    "type": "Region",
+    "location": "Mare Concordis",
+    "description": [
+      "The Adorra Sound is a large sea north of the continent of Ulfwyst, which is a sub-region of the Mare Concordis. The sound runs along most of the northern coast of Ulfwyst and connects the states of Abbasyr, the Syrothian Empire, the Kaeldrin Sanctum and Navolin."
+    ],
+    "articles": {
+      "": [
+        ""
+      ]
+    }
+  },
   "Strait-of-Krigere": {
     "playerKnown": true,
-    "tags": ["desert","region","ulfwyst"],
+    "tags": ["sea","region","ulfwyst"],
     "name": "Strait of Krigere",
     "nickname": "Strait of Krigere",
     "type": "Region",

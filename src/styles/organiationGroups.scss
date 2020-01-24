@@ -1,0 +1,97 @@
+@import "./mixins";
+
+#organizations {
+  width: 90vw;
+  padding: 0;
+  margin: 2em auto 0;
+  list-style-type: none;
+
+  ul.sectionList {
+    padding: 0;
+  }
+
+  li.group {
+    display: inline-block;
+    width: 14em;
+    max-width: 23%;
+    margin: 1em 0 0.5em;
+    padding: 0 1%;
+    vertical-align: top;
+    justify-content: center;
+    text-align: center;
+
+    img.portrait {
+      height: 8em;
+      max-width: 14em;
+      width: auto;
+      left: 1em;
+      clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+    }
+
+    p.name {
+      width: 100%;
+    }
+  }
+}
+
+article.maps {
+  width: 88vw;
+  margin: 1em auto 0;
+
+  a.mapLink {
+
+    display: inline-block;
+    width: 23%;
+    margin: 1em 0 2em;
+    padding: 0 1%;
+    vertical-align: top;
+    justify-content: center;
+    text-align: center;
+
+    img.map {
+      height: 7em;
+      width: auto;
+      left: 1em;
+      // clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+    }
+  }
+
+}
+
+
+// MOBILE
+@media all and (max-width: $breakpoint-mobile) {
+  #places {
+
+    li.location {
+      width: 45%;
+      max-width: none;
+      
+      img.portrait {
+        width: 100%;
+        clip-path: polygon(12% 0%, 100% 0%, 88% 100%, 0% 100%);
+      }
+    }
+  }
+
+  article.maps {
+    margin: 0.25em auto 0;
+
+    a.mapLink {
+      width: 48%;
+      margin-bottom: 0;
+
+      img.map {
+        height: 10vh;
+      }
+
+    }
+
+  }
+
+}
+
+// DESKTOP
+@media all and (min-width: $breakpoint-mobile) {
+
+}

@@ -1,4 +1,4 @@
-@import "./mixins";
+@import "./mixins", "./articlesCommon";
 
 article.location {
   display: block;
@@ -7,32 +7,6 @@ article.location {
   direction: ltr;
   margin: 0 auto 4em;
   padding: 0;
-
-  a.backLink {
-    display: inline-block;
-    margin-bottom: 2em;
-  }
-
-  h2.fullName {
-    margin: 0;
-    margin-bottom: 1em;
-    padding: 0;
-    font-size: 1.6em;
-    color: $blue;
-    font-family: $styleText;
-    letter-spacing: 0.1em;
-    border-bottom: 1px solid $blue;
-  }
-
-  h3.subheading {
-    font-family: $serifText;
-    font-weight: 700;
-    font-size: 1.2em;
-    margin-top: 2em;
-    line-height: 2em;
-    border-bottom: 1px solid $blueDark;
-    overflow: hidden;
-  }
 
   aside.infoBox {
     display: block;
@@ -92,6 +66,22 @@ article.location {
       .values {
         width: 60%;
         text-align: right;
+
+        &.races {
+          p {
+            display: inline-block;
+            margin: 0 0 0 0.33em;
+            line-height: 1.6em;
+            
+            &:after{
+              content: ",";
+            }
+
+            &:last-child:after {
+              content: "",
+            }
+          }
+        }
       }
 
       &.mapBox {

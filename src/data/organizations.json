@@ -1,0 +1,79 @@
+{
+  "Nost-Ezel'nar": {
+    "playerKnown": false,
+    "name": "Nost Ezel'nar",
+    "nickname": "Lodge of the Emerald Flame",
+    "tags": ["mages","frecyra","ulfwyst"],
+    "type": "Magic Order",
+    "location": "Navolin",
+    "memberNumber": "~60",
+    "leaders": [
+      "Jonas Andrysiak",
+      "Alzur of Zelmar",
+      "Kamil Starek",
+      "Bazyli Bogdan",
+      "Ernestas Dubanow",
+      "Izolda of Olesko",
+      "Vythica Floshin"
+    ],
+    "description": [
+      "An ancient order of mages, Nost Ezel’nár was established at the Tower of Stantorr around 2C 1350 by the Archmage Xarrut Vandilid."
+    ],
+    "articles": {
+    }
+  },
+  "Ruby-Drifters": {
+    "playerKnown": true,
+    "name": "Ruby Drifters",
+    "nickname": "Ruby Drifters Mercenary Company",
+    "tags": ["adventuring group","ulfwyst"],
+    "type": "Adventuring Group",
+    "location": "Ulfwyst",
+    "memberNumber": "7",
+    "members": [
+      "Belthren Ogni",
+      "Zecele of Belorus"
+    ],
+    "description": [
+      "The Ruby Drifters were a mercenary company and adventuring group that operated in eastern Ulfwyst between 2C 2535 and 2C 2542. The group earned widespread notoriety for their exploits, helped by the songs and stories of the group's bard, Zecele of Belorus."
+    ],
+    "articles": {
+    }
+  },
+  "Ruby-Phoenix": {
+    "playerKnown": false,
+    "name": "Ruby Phoenix",
+    "nickname": "Ruby Phoenix Adventuring Guild",
+    "tags": ["guild","rakenburg","ulfwyst","adventuring"],
+    "type": "Rakenburg Guild",
+    "location": "Rakenburg",
+    "memberNumber": "~20",
+    "leaders": [
+      "Belthren Ogni",
+      "Rendis Moon",
+      "Khazar Thul"
+    ],
+    "description": [
+      "The Ruby Phoenix adventuring guild is an organization created by Belthren Ogni following the dissolution of the legendary Ruby Drifters mercenary group."
+    ],
+    "articles": {
+    }
+  },
+  "Specula-Arcanum": {
+    "playerKnown": true,
+    "name": "Specula Arcanum",
+    "nickname": "Specs",
+    "tags": ["guild","rakenburg","ulfwyst","guards"],
+    "type": "Rakenburg Guild",
+    "location": "Rakenburg",
+    "memberNumber": "~200",
+    "leaders": [
+      "Adalyn Delia"
+    ],
+    "description": [
+      "Specular Arcanum is one of the 8 Major Legal Guilds of the city-state of Rakenburg. The guild's primary role in the city is to act as city watch, "
+    ],
+    "articles": {
+    }
+  }
+}

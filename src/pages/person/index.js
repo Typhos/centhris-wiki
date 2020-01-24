@@ -16,10 +16,6 @@ class Person extends Component {
     }
   }
 
-  componentWillReceiveProps( nProp ) {
-    console.log(nProp);
-  }
-
   render () {
     const person = this.state.person;
 

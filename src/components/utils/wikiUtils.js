@@ -1,3 +1,12 @@
+import React from 'react';
+
+import peopleData from "../../data/people";
+import placeData from "../../data/places";
+import characterData from '../../data/characters';
+import loreData from '../../data/lore';
+import orgData from '../../data/organizations';
+
+import dwarfRunes from '../../data/characters';
 
 export default class WikiUtils {
 
@@ -11,6 +20,104 @@ export default class WikiUtils {
         return 0;
       }
     })
+  }
+
+  static linkContent(target, descriptionArray) {
+    if ( !Array.isArray(descriptionArray) ) descriptionArray = [descriptionArray];
+
+    let mapped = descriptionArray.map( (paragraph, index) => {
+
+      // ensure that if the paragraph is a String or an Object, make it an Array.
+      // 
+
+      if ( !Array.isArray(paragraph) ) paragraph = [paragraph];
+
+      const dataGroupsObj = {
+        "person": peopleData,
+        "player-character": characterData,
+        "group": orgData,
+        "location": placeData
+        // "races": raceData,
+      };
+
+      for ( let [path, dataSet] of Object.entries(dataGroupsObj) ) {
+
+        for ( let obj of Object.values(dataSet) ) {
+
+          const namesObj = {
+            linkingWords: obj.linkingWords,
+            name: obj.name,
+            nickname: obj.nickname
+          };
+
+          const show = dataSet[ namesObj.name.replace(/\s/g,"-") ].playerKnown;
+
+          // Only show content that is current listed for viewing by players.
+          // If the DM view search para is enabled, show all content!
+
+          if ( show || localStorage.getItem('dmView') === 'true' ) {
+
+            for ( let [key, nameValue] of Object.entries(namesObj) ) {
+
+              // Links could be strings or an array of multiple linking strings, eg. Kingdom of Navolin, Navolin, Navolinian.
+              // The linkingWords property is always an array, or undefined.
+              // Loop through the any Arrays and link their individual strings
+              if (Array.isArray(nameValue)) {
+
+                nameValue.forEach( (string, j) => {
+                  const arrayCheck = target[key] && Array.isArray(target[key]) && target[key].some( words => words.includes(string) );
+                  const link = <a key={`key-${index}-${j}-${string}`} href={`/${path}/${namesObj.name.replace(/\s/g,"-")}`}>{string}</a>;                  
+
+                  // check to make sure the link does not link back to the same page:
+                  // IF the target has a linking obj, eg. linkingWords
+                  // AND the linking obj is an array 
+                  // AND the linking array has the string we are linking to don't link.
+                  if ( !arrayCheck ) {
+                    const nP = paragraph;
+                    paragraph = this.replaceNestedValue(nP, string, link);
+                  }
+                });
+
+              } else {
+
+                const link = <a key={`key-${index}-${nameValue}`} href={`/${path}/${namesObj.name.replace(/\s/g,"-")}`}>{nameValue}</a>;
+
+                if ( nameValue !== target[key] ) {
+                  const nP = paragraph;
+                  paragraph = this.replaceNestedValue(nP, nameValue, link);
+                }
+
+              }
+            }
+          }
+        }
+      }
+
+      return <p className="linkedContent" key={target+index}>{paragraph}</p>;
+    });
+
+    return mapped;
+  }
+
+  static replaceNestedValue( dataset, name, link) {
+
+    for ( let i in dataset ) {
+      if ( Array.isArray(dataset[i]) ) {
+        dataset[i].map( subArr => {
+          this.replaceNestedValue(subArr, name, link);
+        });  
+      }
+
+      if ( typeof dataset[i] === 'string' ) {
+        if ( dataset[i].includes(name) ) {
+          let strReplace = dataset[i].replace(name, `|${name}|`).split("|").map( str => ( str === name ) ? link : str);
+
+          dataset[i] = strReplace;
+        }
+      }
+    }
+
+    return dataset.flat(Infinity)
   }
   
 }
