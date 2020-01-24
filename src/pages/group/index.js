@@ -18,6 +18,7 @@ class Group extends Component {
     super(props);
 
     this.state = {
+      pathname: window.location.pathname,
       group: orgData[window.location.pathname.split('/group/')[1]],
       dmView: localStorage.getItem('dmView') === 'true'
     }
@@ -25,21 +26,19 @@ class Group extends Component {
     this.getArticles = this.getArticles.bind(this);
   }
 
+  UNSAFE_componentWillReceiveProps(nextProps){
+
+    if ( this.state.pathname !== nextProps.location.pathname) {
+      this.setState({
+        pathname: nextProps.location.pathname,
+        group: orgData[window.location.pathname.split('/group/')[1]]
+      });
+    }
+    
+  }
+
   render () {
     const group = this.state.group;
-    console.log(group)
-
-    // const races = location.races && location.races.map( race => <span className="race commaSeparated">{ WikiUtils.linkContent(location, race) }</span> );
-
-    function nickname() {
-      if (group.nickname) {
-        if ( Array.isArray(group.nickname) ) {
-          return ( <h4 className="nickname">{group.nickname[0]}</h4> )
-        }
-        return ( <h4 className="nickname">{group.nickname}</h4> )
-      }
-    }
-
     const descriptionEntries = this.getArticles(group.articles);
 
     return (
@@ -49,9 +48,9 @@ class Group extends Component {
             
             <Link className="backLink" to='/organizations'>&laquo; back to Organizations</Link>
 
-            <h2 className="fullName">{group.name}</h2>
+            <h2 className="fullName">{group.nickname}</h2>
             <aside className="infoBox">
-              { nickname() }          
+              <h4 className="nickname">{group.name}</h4>          
               <img className="portrait" alt="" src={ images('./' + group.name.replace(/\s/g,"-") + '.png') }/>
               { (group.type) ? 
                 <div className="info">

@@ -12,7 +12,17 @@ class Player extends Component {
     super(props);
 
     this.state = {
+      pathname: window.location.pathname,
       person: window.location.pathname.split('/player-character/')[1]
+    }
+  }
+
+  UNSAFE_componentWillReceiveProps(nextProps){
+    if ( this.state.pathname !== nextProps.location.pathname) {
+      this.setState({
+        pathname: nextProps.location.pathname,
+        person: nextProps.location.pathname.split('/player-character/')[1]
+      })
     }
   }
 

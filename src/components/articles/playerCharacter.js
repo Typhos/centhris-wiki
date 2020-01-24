@@ -29,6 +29,12 @@ export default class PlayerCharacter extends Component {
             <p className="key">Age</p>
             <p className="values">{person.age}</p>
           </div>
+          { (person.gender) ? 
+            <div className="info">
+              <p className="key">Gender</p>
+              <p className="values">{person.gender}</p>
+            </div> : "" 
+          }
           { (person.class) ? 
             <div className="info">
               <p className="key">Character class</p>
@@ -64,12 +70,6 @@ export default class PlayerCharacter extends Component {
                 <span className="stat">WIS</span> <span className="num">{person.stats.WIS}</span>
                 <span className="stat">CHA</span> <span className="num">{person.stats.CHA}</span>
               </div>
-            </div> : "" 
-          }
-          { (person.gender) ? 
-            <div className="info">
-              <p className="key">Gender</p>
-              <p className="values">{person.gender}</p>
             </div> : "" 
           }
           { (person.background) ? 

@@ -18,11 +18,22 @@ class Location extends Component {
     super(props);
 
     this.state = {
+      pathname: window.location.pathname,
       location: placeData[window.location.pathname.split('/location/')[1]],
       dmView: localStorage.getItem('dmView') === 'true'
     }
 
     this.getArticles = this.getArticles.bind(this);
+  }
+
+  UNSAFE_componentWillReceiveProps(nextProps){
+
+    if ( this.state.pathname !== nextProps.location.pathname) {
+      this.setState({
+        pathname: nextProps.location.pathname,
+        location: placeData[nextProps.location.pathname.split('/location/')[1]]
+      });
+    }
   }
 
   render () {
@@ -51,7 +62,7 @@ class Location extends Component {
     return (
       <Page.Location>
         <section id="location" >
-          {/*<LocationArticle key={location} data={{placeData}} entry={placeData[location]} image={ images('./' + placeData[location].name.replace(/\s/g,"-") + '.png') }/>*/}
+
           <article className="location" id={location.name.replace(/\s/g,"-")}>
             
             <Link className="backLink" to='/places'>&laquo; back to Places</Link>
@@ -87,7 +98,7 @@ class Location extends Component {
               { (location.capital) ? 
                 <div className="info">
                   <p className="key">Capital City</p>
-                  <p className="values">{WikiUtils.linkContent(location, location.capital)}</p>
+                  <div className="values">{WikiUtils.linkContent(location, location.capital)}</div>
                 </div> : "" 
               }
               { (location.leaders) ? 

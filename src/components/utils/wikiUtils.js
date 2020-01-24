@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import peopleData from "../../data/people";
 import placeData from "../../data/places";
@@ -50,7 +51,10 @@ export default class WikiUtils {
             nickname: obj.nickname
           };
 
-          const show = dataSet[ namesObj.name.replace(/\s/g,"-") ].playerKnown;
+          const linkingWords = this.createLinkingWordsArray(namesObj);
+          console.log(linkingWords)
+
+          const show = dataSet[ obj.name.replace(/\s/g,"-") ].playerKnown;
 
           // Only show content that is current listed for viewing by players.
           // If the DM view search para is enabled, show all content!
@@ -66,7 +70,7 @@ export default class WikiUtils {
 
                 nameValue.forEach( (string, j) => {
                   const arrayCheck = target[key] && Array.isArray(target[key]) && target[key].some( words => words.includes(string) );
-                  const link = <a key={`key-${index}-${j}-${string}`} href={`/${path}/${namesObj.name.replace(/\s/g,"-")}`}>{string}</a>;                  
+                  const link = <Link key={`key-${index}-${j}-${string}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}`, state: "update"}}>{string}</Link>;                  
 
                   // check to make sure the link does not link back to the same page:
                   // IF the target has a linking obj, eg. linkingWords
@@ -80,7 +84,7 @@ export default class WikiUtils {
 
               } else {
 
-                const link = <a key={`key-${index}-${nameValue}`} href={`/${path}/${namesObj.name.replace(/\s/g,"-")}`}>{nameValue}</a>;
+                const link = <Link key={`key-${index}-${nameValue}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}`, state: "update"}}>{nameValue}</Link>;
 
                 if ( nameValue !== target[key] ) {
                   const nP = paragraph;
@@ -118,6 +122,29 @@ export default class WikiUtils {
     }
 
     return dataset.flat(Infinity)
+  }
+
+  static createLinkingWordsArray(obj) {
+    if ( Array.isArray(obj.linkingWords) ) {
+      let resp = [obj.name, obj.nickname];
+      obj.linkingWords.forEach( x => resp.push(x) );
+
+      resp = resp
+        .flat()
+        .sort( (a,b) => {
+          if (a.length > b.length) {
+            return -1;
+          } else if (a.length < b.length) {
+            return 1;
+          } else {
+            return 0;
+          }
+        })
+
+      return resp;
+    }
+
+    return ( obj.name.length > obj.nickname.length ) ? [obj.name, obj.nickname] : [obj.nickname, obj.name];
   }
   
 }

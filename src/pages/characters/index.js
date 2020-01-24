@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import characterData from 'data/characters';
 
 import Page from 'components/page';
-import CharactersArticle from 'components/articles/charactersArticle';
+import CharactersList from 'components/articles/charactersList';
 import WikiUtils from "components/utils/wikiUtils";
 
 import 'styles/characters.scss';
@@ -27,7 +27,7 @@ class Characters extends Component {
 
   render () {
     const characters = this.state.characters.map( person => {
-      return <CharactersArticle key={person} data={{characterData}} entry={characterData[person]} image={ images('./' + characterData[person].name.replace(/\s/g,"-") + '.png') }/>
+      return <CharactersList key={person} data={{characterData}} entry={characterData[person]} image={ images('./' + characterData[person].name.replace(/\s/g,"-") + '.png') }/>
     });
 
     return (

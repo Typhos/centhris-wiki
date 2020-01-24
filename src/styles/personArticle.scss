@@ -23,10 +23,13 @@ article.person {
     border: 1px solid $charcoal;
 
     h4.nickname {
-      font-size: 1.1em;
+      font-size: 1.6em;
+      font-variant: small-caps;
+      letter-spacing: 0.15em;
       margin: 0;
-      padding: 0.5em 0.5em;
-      letter-spacing: 0.1em;
+      padding: 0 0.5em;
+      line-height: 2em;
+      font-family: $headingText;
     }
 
     img.portrait {
@@ -41,13 +44,14 @@ article.person {
       display: flex;
       width: 100%;
       justify-content: space-between;
+      align-items: center;
       border-bottom: 1px solid $blueLight;
 
       &:last-child {
         border-bottom: none;
       }
 
-      p.linkedContent {
+      .linkedContent {
         margin: 0;
         line-height: 1.75em;
       }
@@ -67,53 +71,114 @@ article.person {
       .values {
         width: 60%;
         text-align: right;
+
+        &.big {
+          font-size: 1.4em;
+          font-weight: 700;
+          font-family: $headingText;
+        }
       }
 
       &.affiliations {
+        align-items: flex-start;
+        
         p {
-          margin: 0 0 0.5em;
+          line-height: 1.8em;
         }
       }
     }
 
+    .attacks,
+    .attunedItems,
     .statblock {
-      display: block;
-      width: 100%;
-      padding: 0.5em 0.5em;
+      display: flex;
+      flex-wrap: wrap;
+      width: 96%;
+      padding: 0.5em 2%;
       margin: 0;
       border-bottom: 1px solid $blueLight;
 
       p.heading {
-        font-weight: 700;
         padding: 0;
-        margin: 0 0 0.5em;
-      }
+        line-height: 1.8em;
+      }      
+    }
+
+    p.heading {
+      font-family: $headingText;
+      width: 100%;
+      font-weight: 700;
+      font-size: 1.15em;
+      letter-spacing: 0.1em;
+      line-height: 2.5em;
+      padding-left: 0.5em;
+      margin: 0;
+    }
+
+    .statblock {
 
       .block {
-        width: 100%;
-        display: flex;
+        width: 50%;
+        display: inline-flex;
+        align-items: center;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        line-height: 1.5em;
+        // justify-content: space-evenly;
 
         span.stat,
         span.num {
           display: inline-block;
-          
           margin: 0.2em 0 0 0;
           font-size: 1.1em;
           
         }
 
-        span.stat {
-          width: 20%;
+        small.stat,
+        span.stat  {
+          line-height: 1.5em;
+          width: 60%;
+          padding-left: 10%;
           letter-spacing: 0.1em;
+          text-align: right;
+        }
+
+        small.stat {
+          font-size: 0.7rem;
         }
 
         span.num {
-          width: 28%;
-          text-align: center;
+          width: 20%;
+          padding-right: 5%;
+          text-align: right;
         }
+      }
 
+      &.skills,
+      &.saves {
+        span.num {
+          &:before {
+            content: "+ ";
+          }
+        }
+      }
+
+      &.attacks,
+      &.skills {
+        span.stat {
+          font-size: 0.95em;
+          padding-left: 5%;
+          word-wrap: break-word;
+        }
+      }
+    }
+
+    .attunedItems {
+      list-style-type: none;
+
+      li.item {
+        width: 100%;
+        padding-left: 1em;
+        line-height: 1.8em;
       }
     }
   }
@@ -163,7 +228,7 @@ article.person {
     }
 
     h4.nickname {
-      display: none;
+      // display: none;
     }
 
     aside.infoBox {

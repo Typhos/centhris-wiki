@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 
+import ScrollToTop from 'components/scrollToTop';
+
 import App from './components/app';
 import {Characters} from './pages/characters/index';
 import {Player} from './pages/player/index';
@@ -23,21 +25,54 @@ if ( localStorage.getItem('dmView') === true ) {
   );
 }
 
+const dmCode = ["ArrowUp","ArrowUp","ArrowDown","ArrowDown","ArrowLeft","ArrowRight","ArrowLeft","ArrowRight"];
+let trackCode = [];
+let failTest = {};
+
+document.addEventListener("keydown", event => {
+  trackCode.push(event.key);
+  console.log(trackCode)
+  checkKeyCode();
+});
+
+function checkKeyCode() {
+
+  try {
+    trackCode.forEach( (key,i) => {
+
+      if ( i >= dmCode.length - 1 ) {
+        let dmView = localStorage.getItem('dmView') === 'true';
+        localStorage.setItem('dmView', !dmView);
+        window.location.reload();
+      } else if ( dmCode[i] !== trackCode[i] ) {
+        throw failTest;
+      }
+
+    });
+  } catch (e) {
+    trackCode = [];
+    if (e !== failTest) throw e;
+  }
+
+}
+
 const routing = (
   <Router>
-    <div>
-      <Route exact path="/" component={App} />
-      <Route path="/runes" component={Runes} />
-      <Route path="/characters" component={Characters} />
-      <Route path="/player-character" component={Player} />
-      <Route path="/person" component={Person} />
-      <Route path="/people" component={People} />
-      <Route path="/places" component={Places} />
-      <Route path="/location" component={Location} />
-      <Route path="/organizations" component={OrganizationGroups} />
-      <Route path="/group" component={Group} />
-    </div>
+    <ScrollToTop>
+      <div>
+        <Route exact path="/" component={App} />
+        <Route path="/runes" component={Runes} />
+        <Route path="/characters" component={Characters} />
+        <Route path="/player-character" component={Player} />
+        <Route path="/person" component={Person} />
+        <Route path="/people" component={People} />
+        <Route path="/places" component={Places} />
+        <Route path="/location" component={Location} />
+        <Route path="/organizations" component={OrganizationGroups} />
+        <Route path="/group" component={Group} />
+      </div>
+    </ScrollToTop>
   </Router>
 )
 
-ReactDOM.hydrate(routing, document.getElementById('root'));
+ReactDOM.render(routing, document.getElementById('root'));

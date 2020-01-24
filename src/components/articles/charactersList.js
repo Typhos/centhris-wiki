@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import "styles/personArticle.scss";
 
-export default class CharactersArticle extends Component {
+export default class CharactersList extends Component {
 
 
   render () {
@@ -11,7 +11,7 @@ export default class CharactersArticle extends Component {
 
     return (
       <li className="character" id={person.name.replace(/\s/g,"-")}>
-      	<Link className="personLink" to={`/player-character/${person.name.replace(/\s/g,"-")}`}>
+      	<Link className="personLink" to={{pathname: `/player-character/${person.name.replace(/\s/g,"-")}`, state: "update"}}>
           <img className="portrait" alt="" src={this.props.image}/>
       		<p className="name">{person.name}</p>
       	</Link>

@@ -616,11 +616,13 @@
 		"description": [
 			"Korema zar Halkren is a member of the Ruby Phoenix adventuring guild, based in Rakenburg. Born in Cibrin, she is the youngest daughter of the orc chief of Clan Halkren, Gnaeruk. Born to a human mother of the chief's harem, Korema spent her youth being trained as a seafaring raider. She would travel the Venngar Sea with her clan attacking villages in Cibrin and Lemuria."
 		],
-		"unrevealedInfo": [
-			"During a raid in the Korin Gulf, the Clan was attacked by dwarven mercenaries from Kaz Tronj'und. Scattered and in full retreat, Korema found herself separated and unable to return to her ship. She wandered the coast of the Gulf for months, heading north as winter approached.",
-			"Eventually she found work as a deckhand in the town of Ushma. She spent 2 years sailing the trade routes from Lemuria to the Barrier Coast until she grew tired of that life. Arriving in Rakenburg, she heard rumor of a 'mercenary' guild and sought out Ruby Phoenix hoping to make a name for herself.",
-			"She is current a mid-ranking member, preferring to work as a hired blade in other guild comrade's teams. She does not like to over complicate her job, generally choosing to simply charge into the fray with a berserker fury, instead of coming up with plans and organizing tasks."
-		]
+		"dmArticles": {
+			"Backstory": [
+				"During a raid in the Korin Gulf, the Clan was attacked by dwarven mercenaries from Kaz Tronj'und. Scattered and in full retreat, Korema found herself separated and unable to return to her ship. She wandered the coast of the Gulf for months, heading north as winter approached.",
+				"Eventually she found work as a deckhand in the town of Ushma. She spent 2 years sailing the trade routes from Lemuria to the Barrier Coast until she grew tired of that life. Arriving in Rakenburg, she heard rumor of a 'mercenary' guild and sought out Ruby Phoenix hoping to make a name for herself.",
+				"She is current a mid-ranking member, preferring to work as a hired blade in other guild comrade's teams. She does not like to over complicate her job, generally choosing to simply charge into the fray with a berserker fury, instead of coming up with plans and organizing tasks."
+			]
+		}
 	},
 	"Kilorn-Zerem": {
 		"playerKnown": true,
@@ -638,7 +640,8 @@
 	"Prince-Ardashir": {
 		"playerKnown": false,
 		"name": "Prince Ardashir",
-		"nickname": "Ardashir bin Abbasyr",
+		"nickname": "Ardashir ab Shahreen",
+		"linkingWords": ["Prince Ardashir ab Shahreen"],
 		"tags": ["merchant","aasimar","barbarian","Ruby Phoenix","Rakenburg","associate"],
 		"age": "deceased",
 		"gender": "Male",
@@ -646,22 +649,61 @@
 		"occupation": "Diplomat, Noble",
 		"affiliations": ["Kingdom of Abbasyr"],
 		"description": [
-			"Prince Ardashir bin Abbasyr was a human prince of the Kingdom of Abassyr. He spent his youth in the capital of Khezrabad before being set to Frecyra as an ambassador of his family and kingdom. While in Frecyra, his advisor and bodyguard was the elf wizard Telarion Calaedor."
+			"Prince Ardashir men Shahreen was a human prince of the Kingdom of Abassyr. He spent his youth in the capital of Khezrabad before being set to Frecyra as an ambassador of his family and kingdom. While in Frecyra, his advisor and bodyguard was the elf wizard Telarion Elentiir."
 		]
 	},
-	"Telarion-Calaedor": {
+	"Telarion-Elentiir": {
 		"playerKnown": false,
-		"name": "Telarion Calaedor",
-		"nickname": "Tel-dog",
+		"name": "Telarion Elentiir",
+		"nickname": "Telarion",
 		"tags": ["wizard","moon elf","wizard","Ruby Phoenix","associate"],
 		"age": "376",
 		"race": "Moon Elf",
 		"gender": "Male",
+		"class": "Wizard",
+		"level": 12,
+		"subclass": "Bladesinger",
+		"background": "Noble",
+		"level": 12,
+    "hp": 62,
+    "stats": {
+			"STR": 16,
+			"DEX": 10,
+			"CON": 12,
+			"INT": 20,
+			"WIS": 12,
+			"CHA": 14
+		},
+		"skills": {
+			"Arcana": 9,
+			"History": 9,
+			"Insight": 5,
+			"Perception": 5,
+			"Persuasion": 10
+		},
+		"passiveWisdom": 15,
+		"saves": {
+			"INT": 9,
+			"WIS": 5
+		},
+		"ac": "13 / 18 (Bladesong)",
+		"attacks": {
+			"Longsword": "+8",
+			"Spell Attack": "+9",
+			"Save DC": 17
+		},
+		"attunedItems": [
+			"+2 Longsword: Uthgúr'nehar",
+			"Ring: Ring of Protection",
+			"Amulet: Shard of the Fallen God"
+		],
+		"Feats": ["Diplomat"],
 		"occupation": "Lemurian Court Mage",
 		"affiliations": ["High Queen's Court","Lemuria","Ruby Phoenix"],
 		"description": [
-			"A highly regarded elven mage, Telarion Calaedor has been a fixture in the courts of Ulfwyst for well over 200 years. He is current employed as a court mage in the Kingdom of Lemuria, reporting directly to the High Queen, Inga Sudrheim. Though Telarion has an official residence in Kilurus, when he is not on official business or seeing to a task requested of him by the queen, he prefers to spend his time in the town of Zabrosk, on the western shore of the Korin Gulf."
+			"A highly regarded elven mage, Telarion Elentiir has been a fixture in the courts of Ulfwyst for well over 200 years. He is current employed as a court mage in the Kingdom of Lemuria, reporting directly to the High Queen, Inga Sudrheim. Though Telarion has an official residence in Kilurus, when he is not on official business or seeing to a task requested of him by the queen, he prefers to spend his time in the town of Zabrosk, on the western shore of the Korin Gulf."
 		],
+		"languages": ["Common, Elvish, Sylvan"],
 		"articles": {
 			"Calling in a Favor": [
 				"Telarion returned to Rakenburg in Dusvar of 2C 2573 at the request of Belthren Ogni. The guild master had learned that members of his guild and the Adventurers had been bound to the service of Akad the Magnificent and felt that Telarion was the only person he knew who might have the knowledge required to help resolve the issue before it became untenable."
@@ -669,19 +711,39 @@
 		},
 		"dmArticles": {
 			"Early Life": [
-				"Telarion was born in the Kingdom of Abbasyr to eladrin parents who were acting as ambassadors of the Court of the Archfey of Spring, one of the four eladring courts of Feywild. Though his family made regular visits to the Feywild, the young elf did not take to the Feywild, instead finding the prime Material Plane more to his preference. He would spend most of his youth (roughly 100 years for elves) in Khezrabad, studying at the famous mage college of Seloc Gehayan, frequenting the baths and practicing the art of diplomacy under the tutelage of his father.",
-				"Upon graduation from the Seloc Gehayan, the young elf had many paths available to him. His father Osmiran insisted that the young wizard take a post offered to him by the Sultan of Abbasyr as an advisor to the Sultan's son, Prince Ardashir. The prince had been chosen to act as an envoy for Abassyr to the distant Kingdom of Navolin."
+				"Telarion was born in the Kingdom of Abbasyr to eladrin parents who were acting as ambassadors of the Court of the Archfey of Spring, one of the four eladring courts of Feywild. Though his family made regular visits to the Feywild, the young elf did not take to the Feywild, instead finding the prime Material Plane more to his preference. He would spend most of his youth (roughly 100 years for elves) in Khezrabad, studying at the famous mage college of Seloc Gelhyan, frequenting the baths and practicing the art of diplomacy under the tutelage of his father.",
+				"Upon graduation from the Seloc Gelhyan, the young elf had many paths available to him. His father Osmiran insisted that the young wizard take a post offered to him by the Sultan of Abbasyr as an advisor to the Sultan's son, Prince Ardashir ab Shahreen. The prince had been chosen to act as an envoy for Abassyr to the distant Kingdom of Navolin."
 			],
 			"An Exotic Accessory": [
 				"The time Telarion spent in Navolin were some of the most miserable of his life. Officially appointed to advise Prince Ardashir, the young wizard soon learned that he was less of an advisor and more a mix of bodyguard and valet. With no consistent day-to-day tasks, the prince spent most of his time in Frecyra lounging about, attending galas and other high society functions. A charming socialite, the prince's presence was in high demand and Telarion, who had expected to put his years of arcane study to use, instead found himself the exotic accessory of a drunken playboy.",
 				"This is not to say that his time in Frecyra was worthless. During his stay in the Navolinian capital, Telarion honed a variety of skills he would find useful later in his life. The fine arts of carousing, idle small talk and the subtle exit became second nature as the elf spent months on end attending garden parties, dinner parties, tournaments and hunts.",
 				"When he had the rare chance, Talerion would make his way to the Stantorr in the Timberrun District of the city. The ornate complex of halls, classrooms, extensive libraries and tower laboratories offered the mage a welcome escape back to his arcane roots. Over the course of his stay, Telarion slowly earned the confidence of the mages of the Nost Ezel'nar and slowly gained access to tools and resources of a similar nature to those in Khezrabad."
 			],
-			"Time in Rakenburg": [],
+			"A Gracious Exit": [
+				"After almost a decade in the Frecyra, Prince Ardashir received word Khezrabad that his father's health was failing. The prince was both concerned about his father and, in the even his father were to die, the possibility that he would lose his position or be appointed elsewhere in the government. Sensing an opportunity to gracefully escape his servitude to the prince, Telarion requested to stay in Frecyra to complete a research project he was involved with. The prince agreed to the request and the two men parted ways on good terms.",
+				"Free of his service to the royal, Telarion began to plan his next steps. After the completion of his project, he wished to depart Frecyra, as he had grown to loath the high society of the city and though he was no longer required to attend social events, he found himself receiving regular invitations that he felt he could not decline.",
+				"It was at just such an event that he found himself in a protracted discussion with a wealthy merchant from the Free City of Rakenburg named Ulian Ovidius. The merchant, taken by the elf's well honed wit and charm, requested that Telarion join his merchant enterprise, the Venngar Trade Company, as a liaison. Though Telarion was hesitant at first, Ulian insisted that it would be an excellent opportunity for the wizard to see new parts of Ulfwyst, learn new types of magical practice and make connections in realms throughout the Venngar Sea and Korin Gulf. Telarion eventually accepted the merchant's offer and in less than a month, found himself in a fine apartment in the Murky Reach."
+			],
+			"Time in Rakenburg": [
+				""
+			],
 			"Early Days in Lemuria": [
 				"It is in Zabrosk that Telarion met Belthren Ogni, along with the other members of the fabled Ruby Drifters, in 2C 2541. At the time, Telarion attempting to gain employment from the former monarch of Lemuria, High King Wenndrak Arnbjorg. The wizard had taken up residence in Lemurian 3 years prior after leaving the city of Rakenburg due to a falling out with a former associate, Faelana Veluthil. Seeing potential in the Drifters, Telarion offered to assist the group in their work as a liaison and advisor. He hoped that in doing so, he would be able to gain the favor of the High King through association with any heroic deeds the Drifters performed."
 			]
-		}
+		},
+		"link": "https://www.dndbeyond.com/profile/Typhos6/characters/22189989"
+	},
+	"Yabtaeid": {
+		"playerKnown": false,
+		"name": "Yabtaeid",
+		"nickname": "Yabtaeid the Daring",
+		"tags": ["djinn","genie","venbrin"],
+		"race": "Djinn",
+		"age": "??",
+		"gender": "??",
+		"affiliations": ["the Argentate"],
+		"description": [
+			"According to Akad the Magnificent during his brief interaction with the Adventurers in the Molten Halls, Yabtaeid is a djinn who, at one time, resided in the Free City of Venbrin."
+		]
 	}
-
 }

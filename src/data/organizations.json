@@ -17,15 +17,15 @@
       "Vythica Floshin"
     ],
     "description": [
-      "An ancient order of mages, Nost Ezel’nár was established at the Tower of Stantorr around 2C 1350 by the Archmage Xarrut Vandilid."
+      "An ancient order of mages, Nost Ezel’nár was established at the Tower of Stantorr around 2C 1350 by the Archmage Xarrut Vandilid. Ruby Drifters"
     ],
     "articles": {
     }
   },
-  "Ruby-Drifters": {
+  "Ruby-Drifters-Mercenary-Company": {
     "playerKnown": true,
-    "name": "Ruby Drifters",
-    "nickname": "Ruby Drifters Mercenary Company",
+    "name": "Ruby Drifters Mercenary Company",
+    "nickname": "Ruby Drifters",
     "tags": ["adventuring group","ulfwyst"],
     "type": "Adventuring Group",
     "location": "Ulfwyst",

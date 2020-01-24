@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import WikiUtils from "components/utils/wikiUtils";
 
-import placeData from "../../data/places";
-import characterData from '../../data/characters';
-
 import "styles/personArticle.scss";
 
 export default class PeopleArticle extends Component {
@@ -23,15 +20,65 @@ export default class PeopleArticle extends Component {
     const person = this.props.entry;
     const descriptionEntries = this.getArticles(person);
 
+    const stats = function() {
+      let array = [];
+      for ( let [key, val] of Object.entries(person.stats) ) { 
+        array.push(
+          <div className="block">
+            <span className="stat">{key}</span> <span className="num">{val}</span>
+          </div>
+        )
+      }
+      return array;
+    }
+
+    const saves = function() {
+      let array = [];
+      for ( let [key, val] of Object.entries(person.saves) ) { 
+        array.push(
+          <div key={key} className="block">
+            <span className="stat">{key}</span> <span className="num">{val}</span>
+          </div>
+        )
+      }
+      return array;
+    }
+
+    const skills = function() {
+      let array = [];
+      for ( let [key, val] of Object.entries(person.skills) ) { 
+        array.push(
+          <div key={val} className="block">
+            <small className="stat">{key}</small> <span className="num">{val}</span>
+          </div>
+        )
+      }
+      return array;
+    }
+
+    const attacks = function() {
+      let array = [];
+      for ( let [key, val] of Object.entries(person.attacks) ) { 
+        array.push(
+          <div key={val} className="block">
+            <small className="stat">{key}</small> <span className="num">{val}</span>
+          </div>
+        )
+      }
+      return array;
+    }
+
+    const attunedItems = person.attunedItems && person.attunedItems.map( item => <li className="item" key={item}>{item}</li>);
+
     return (
 
       <article className="person" id={person.name.replace(/\s/g,"-")}>
 
         <Link className="backLink" to='/people'>&laquo; back to People</Link>
 
-        <h2 className="fullName">{person.name}</h2>
-        <aside className="infoBox">
-          <h4 className="nickname">{person.nickname}</h4>
+        <h2 className="fullName">{person.nickname}</h2>
+        <aside className={`infoBox ${ this.state.dmView}`}>
+          <h4 className="nickname">{person.name}</h4>
           <img className="portrait" alt="" src={this.props.image}/>
           { (person.titles) ? 
             <div className="info">
@@ -51,29 +98,100 @@ export default class PeopleArticle extends Component {
             <p className="key">Race</p>
             <p className="values">{person.race}</p>
           </div>
-          { (person.occupation) ? 
+          { person.background && this.state.dmView && 
             <div className="info">
-              <p className="key">Occupation</p>
-              <p className="values">{person.occupation}</p>
-            </div> : "" 
+              <p className="key">Background</p>
+              <p className="values">{person.background}</p>
+            </div>
           }
-          { (person.class) ? 
+          { person.class && this.state.dmView && 
             <div className="info">
               <p className="key">Character class</p>
               <p className="values">{person.class}</p>
-            </div> : "" 
+            </div>
           }
-          { (person.affiliations) ? 
+          { person.subclass && this.state.dmView &&
+            <div className="info">
+              <p className="key">Subclass</p>
+              <p className="values">{person.subclass}</p>
+            </div>
+          }
+          { person.level && this.state.dmView && 
+            <div className="info">
+              <p className="key">Level</p>
+              <p className="values big">{person.level}</p>
+            </div>
+          }
+          { person.languages && this.state.dmView && 
+            <div className="info">
+              <p className="key">Languages</p>
+              <p className="values">{person.languages}</p>
+            </div>
+          }
+          { person.ac && this.state.dmView && 
+            <div className="info">
+              <p className="key">Armor Class</p>
+              <p className="values">{person.ac}</p>
+            </div>
+          }
+          { person.stats && this.state.dmView && 
+            <div className="statblock">
+              <p className="heading">Stats</p>
+              {stats()}
+            </div>
+          }
+          { person.saves && this.state.dmView &&
+            <div className="statblock saves">
+              <p className="heading">Saves</p>
+              {saves()}
+            </div>
+          }
+          { person.skills && this.state.dmView &&
+            <div className="statblock skills">
+              <p className="heading">Skills</p>
+              {skills()}
+            </div>
+          }
+          { person.passiveWisdom && this.state.dmView && 
+            <div className="info">
+              <p className="key">Passive Wisdom</p>
+              <p className="values">{person.passiveWisdom}</p>
+            </div>
+          }
+          { person.attacks && this.state.dmView &&
+            <div className="statblock attacks">
+              <p className="heading">Attacks</p>
+              {attacks()}
+            </div>
+          }
+          { person.attunedItems && this.state.dmView &&
+            <div className="attunedItems">
+              <p className="heading">Attuned Items</p>
+              {attunedItems}
+            </div>
+          }
+          { person.occupation && 
+            <div className="info">
+              <p className="key">Occupation</p>
+              <p className="values">{person.occupation}</p>
+            </div>
+          }
+          { person.affiliations &&
             <div className="info affiliations">
               <p className="key">Affiliation(s)</p>
               <div className="values">{WikiUtils.linkContent(person, person.affiliations)}</div>
-            </div> : "" 
+            </div>
+          }
+          { person.link && this.state.dmView &&
+            <div className="info link">
+              <a href={person.link} target="_blank" rel="noreferrer">
+                <p className="heading">D&D Beyond Profile</p>
+              </a>
+            </div>
           }
         </aside>
         <div className="mainContent">
-          { (person.quote) ? 
-            <i className="quote">{person.quote}</i> : ""
-          }
+          { person.quote && <i className="quote">{person.quote}</i> }
           {descriptionEntries}
         </div>
         <div className="clear"></div>
@@ -82,7 +200,6 @@ export default class PeopleArticle extends Component {
   }
 
   getArticles(person) {
-    const personData = this.props.data;
     let content = [WikiUtils.linkContent(person, person.description)];
 
     if (person.articles) {

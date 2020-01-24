@@ -4,7 +4,7 @@ import Header from "../header";
 import Footer from "../footer";
 
 class Group extends Component {
-
+  
   render () {
     return (
       <div className="App">

@@ -10,9 +10,19 @@ class Person extends Component {
 
   constructor(props) {
     super(props);
-
+    
     this.state = {
+      pathname: window.location.pathname,
       person: window.location.pathname.split('/person/')[1]
+    }
+  }
+
+  UNSAFE_componentWillReceiveProps(nextProps){
+    if ( this.state.pathname !== nextProps.location.pathname) {
+      this.setState({
+        pathname: nextProps.location.pathname,
+        person: nextProps.location.pathname.split('/person/')[1]
+      });
     }
   }
 

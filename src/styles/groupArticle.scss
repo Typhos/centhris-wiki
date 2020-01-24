@@ -22,9 +22,13 @@ article.group {
     border: 1px solid $charcoal;
 
     h4.nickname {
-      font-size: 1.1em;
+      font-size: 1.6em;
+      font-variant: small-caps;
+      letter-spacing: 0.15em;
       margin: 0;
-      padding: 0.5em 0.5em;
+      padding: 0 0.5em;
+      line-height: 2em;
+      font-family: $headingText;
     }
 
     img.portrait {
@@ -46,7 +50,7 @@ article.group {
         border-bottom: none;
       }
 
-      p.linkedContent {
+      .linkedContent {
         margin: 0;
         line-height: 1.75em;
       }
@@ -144,26 +148,6 @@ article.group {
 
 // MOBILE
 @media all and (max-width: $breakpoint-mobile) {
-  article.location {
-    width: 96%;
-    margin: 0 2% 3em;
-
-    div.mainContent {
-      i.quote {
-        padding: 0;
-      }
-    }
-
-    h4.nickname {
-      display: none;
-    }
-
-    aside.infoBox {
-      width: 100%;
-      max-width: 100%;
-      margin-bottom: 2em;
-    }
-  }
 
   ul#people {
 

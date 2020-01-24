@@ -10,7 +10,7 @@ export default class OrganizationGroupsArticle extends Component {
 
     return (
       <li className="person" id={person.name.replace(/\s/g,"-")}>
-      	<Link className="personLink" to={`/person/${person.name.replace(/\s/g,"-")}`}>
+      	<Link className="personLink" to={{pathname: `/person/${person.name.replace(/\s/g,"-")}`, state: "update"}}>
           <img className="portrait" alt="" src={this.props.image}/>
       		<p className="name">{person.name}</p>
       	</Link>
