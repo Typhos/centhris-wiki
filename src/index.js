@@ -40,4 +40,4 @@ const routing = (
   </Router>
 )
 
-ReactDOM.render(routing, document.getElementById('root'));
+ReactDOM.hydrate(routing, document.getElementById('root'));
