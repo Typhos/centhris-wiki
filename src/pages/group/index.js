@@ -2,15 +2,13 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import WikiUtils from "components/utils/wikiUtils";
 
-import placeData from 'data/places';
-import characterData from 'data/characters';
-import peopleData from 'data/people';
-import orgData from 'data/organizations';
-
 import Page from 'components/page';
 import "styles/groupArticle.scss";
 
+import orgData from 'data/organizations';
+
 const images = require.context('img/organizations/', true);
+
 
 class Group extends Component {
 

@@ -1,0 +1,249 @@
+{
+  "Kelishan-Highlands": {
+    "playerKnown": true,
+    "tags": ["region","highlands","plains","navolin","ulfwyst"],
+    "name": "Kelishan Highlands",
+    "nickname": "Kelishan",
+    "type": "Region",
+    "races": ["human","elf","gnome","half-elf","half-orc","halfling"],
+    "nation": "Kingdom of Navolin",
+    "location": "Ulfwyst",
+    "description": [
+      "The Kelishan Highlands is a region in eastern Ulfwyst located north of the Blighted Mire, west of the Jordonis Mountains and west of the Desolate Wastes.",
+      "A vast grassland of rolling hills dotted with the occasional forest, the highlands of Kelishan are considered an integral part of the Kingdom of Navolin. It is here that the kingdom produces most of its grain harvest. In addition, the highlands are excellent territory for herding a variety of livestock, including cattle, horses and sheep.",
+      "Though rain is not plentiful, there is generally enough in a year to ensure a decent crop. The region offers few sources of metal or stone, and most settlements consist of wooden structures with thatched roofs. If a settlement is walled, it is generally surrounded by a palisade or an earthen mound.",
+      "The largest river in the highlands is the Sulas, which collects water in the highlands and runs south to the Blighted Mire and on to the Bay of Claws."
+    ]    
+  },
+  "Damali-Steppe": {
+    "playerKnown": true,
+    "tags": ["region","plains","steppe","navolin","ulfwyst"],
+    "name": "Damali Steppe",
+    "nickname": "Damali Basin",
+    "type": "Region",
+    "races": ["human","elf","gnome","half-elf","half-orc","halfling"],
+    "nation": "Kingdom of Navolin",
+    "location": "Ulfwyst",
+    "description": [
+      "The Damali Steppe is a seemingly endless flat grassland that makes up a large area of east-central Ulfwyst. The steppe is considered the territorial barrier between the Kingdom of Navolin and the Kaeldrin Sanctum."
+    ]    
+  },
+  "Eye-of-Vel'dorin": {
+    "playerKnown": false,
+    "tags": ["region","volcano","moutain","ulfwyst"],
+    "name": "Eye of Vel'dorin",
+    "nickname": "Vel'dorin's Eye",
+    "type": "Region",
+    "location": "Ulfwyst",
+    "description": [
+      "An active volcano located east of the Desolate Wastes and west of the Kelishan Highlands, the Eye of Vel'dorin billows dark smoke endlessly into the sky. An old saying in the region portents that should the mountain ever cease to smolder, all of Ulfwyst should fear Vel'dorin's wrath."
+    ]    
+  },
+  "Thornroot-Thicket": {
+    "playerKnown": true,
+    "tags": ["region","forest","rythlon","kelishan highlands","ulfwyst","Sylvan Conclave"],
+    "name": "Thornroot Thicket",
+    "nickname": "Thornroot Forest",
+    "type": "Region",
+    "location": "Kelishan Highlands",
+    "description": [
+      "An ancient forest located in the Kelishan Highlands, Thornroot Thicket is a dark and twisted place, full of hostile creatures, both natural and monstrous.",
+      "The Adventurers ventured into Thornroot twice. Once to find and kill the Lady of the Wood, a hag who lived in the forest and the group felt needed to be killed in order to save the town of Rythlon. The second time the group traveled into the dark woods, it was at the request of Erlinder Bluefield, who wished to return to the Shrine of the Agrestal Cycle in order commune with nature and find out more about his new abilities."
+    ]  
+  },
+  "Drakenwald": {
+    "playerKnown": true,
+    "tags": ["region","forest","zurast","ulfwyst"],
+    "name": "Drakenwald",
+    "nickname": "Drakenwald Forest",
+    "type": "Region",
+    "location": "Archduchy of Zurast",
+    "description": [
+      "A relatively young forest compared to the rest of those in Ulfwyst, the Drakenwald is a dark, foreboding sea of green in the shadow of the Kazgrim Mountains. The forest has expanded quickly due to the rich volcanic soil that makes up the earth beneath it."
+    ]  
+  },
+  "Barrier-Coast": {
+    "playerKnown": true,
+    "tags": ["region","coast","mountains","ocean","ulfwyst"],
+    "name": "Barrier Coast",
+    "nickname": "Barrier Coast",
+    "type": "Region",
+    "races": ["human","dwarf","gnome","half-orc","dragonborn","tiefling"],
+    "nation": "Barrier Coast City-States",
+    "location": "Ulfwyst",
+    "description": [
+      "The Barrier Coast is a Region on the eastern coast of the continent of Ulfwyst. The region is a relatively dry, rocky coastline east of the Jordonis Mountains before ending at the Mare Concordis. Due to its length, the southern end of the region is temperate, while the northern end of the coast is sub-tropical.",
+      "The major political elements in the region are the Free City-States of the Barrier Coast. These loosely affiliated city-states maintain their independence from each other, but share a common culture and a defensive alliance against outside aggression from other regional powers. The major city-states that comprise this alliance are Braxinfurt, Korasov, Rakenburg, Venbrin and Volikgrad."
+    ]    
+  },
+  "Blighted-Mire": {
+    "playerKnown": true,
+    "tags": ["swamp","region","ulfwyst"],
+    "name": "Blighted Mire",
+    "nickname": "The Blighted Mire",
+    "type": "Region",
+    "races": ["human","elf","gnome","half-elf","half-orc","tiefling"],
+    "nation": ["Tovanis","Zurast"],
+    "location": "Ulfwyst",
+    "description": [
+      "The Blighted Mire is a large area of swampland in east-central Ulfwyst. The swamp, which acts as a natural divider between the state of Tovanis and the Archduchy of Zurast, is wild, stinking marshland full of wild creatures, dangerous monsters and forgotten ruins.",
+      "It is here, while traveling north from the City of Zurast, that Murat and Zorrakir first met Evan-Jakob when he appeared out of thin air."
+    ]    
+  },
+  "Isle-of-Sunheim": {
+    "playerKnown": true,
+    "tags": ["island","barrier coast","region","ulfwyst"],
+    "name": "Isle of Sunheim",
+    "nickname": "Sunheim",
+    "type": "Region",
+    "location": "Mare Concordis",
+    "description": [
+      "The Isle of Sunheim is located off the eastern coast of the continent of Ulfwyst. Is is a sub-tropical island. The largest settlement on the island is the city of Venbrin."
+    ]    
+  },
+  "Toridosa-Archipelago": {
+    "playerKnown": true,
+    "tags": ["island","archipelago","region","ulfwyst"],
+    "name": "Toridosa Archipelago",
+    "nickname": "Toridosa",
+    "type": "Region",
+    "description": [
+      "The Toridosa Archipelago is series of islands in the center of the Mare Concordis. Little is known about the islands, though their existence has been known for centuries. It was only within the last few years that the island chain has been successfully mapped.",
+      "Explorers who have traveled to the archipelago speak of incredible, vast ruins and terrible dangers that await any who venture there."
+    ]    
+  },
+  "the-Rostamas": {
+    "playerKnown": false,
+    "tags": ["mountains","region","ulfwyst"],
+    "name": "the Rostamas",
+    "nickname": "Rostamas",
+    "type": "Region",
+    "location": "Ulfwyst",
+    "description": [
+      "The Rostamas are a small mountain range in north-central Ulfwyst. The divide the Ur'shiid Desert from Syrothian Plateau."
+    ]
+  },
+  "Ur'shiid-Desert": {
+    "playerKnown": false,
+    "tags": ["desert","region","ulfwyst"],
+    "name": "Ur'shiid Desert",
+    "nickname": "Dunes of Ur'shiid",
+    "type": "Region",
+    "location": "Ulfwyst",
+    "description": [
+      "The Ur'shiid Desert is a vast, hot desert located in central Ulfwyst. It is the largest desert in Ulfwyst and one of the largest deserts on Centhris. The region is mostly considered part of the Kingdom of Abbasyr, though due to the hostile nature of the environment it is difficult exert direct control over those living in the deepest reaches of the wastes."
+    ]
+  },
+  "Korin-Gulf": {
+    "playerKnown": true,
+    "tags": ["sea","region","ulfwyst"],
+    "name": "Korin Gulf",
+    "nickname": "Korin Gulf",
+    "type": "Region",
+    "location": "Lemuria",
+    "description": [
+      "The Korin Gulf is a large inland sea that is south of the Bay of Claws and north of the Venngar Sea."
+    ]
+  },
+  "Bay-of-Claws": {
+    "playerKnown": true,
+    "tags": ["sea","region","ulfwyst"],
+    "name": "Bay of Claws",
+    "nickname": "Bay of Claws",
+    "type": "Region",
+    "location": "Lemuria",
+    "description": [
+      "The Bay of Claws is a small inland sea that connects to the Korin Gulf. The bay connects 3 states: Tovanis, the Archduchy of Zurast and Lemuria."
+    ],
+    "articles": {
+      "A Light on Dark Waters": [
+        "The bay owes its name to the colossal shards of stone that jut out from beneath its surface. The dark gray rocks are pitted with hundreds of grooves or indentations of unknown origin. In order to avoiding hitting the monoliths on particularly dark nights on the water, the peoples whose livelihood depends on the bay have taken to placing torches, enchanted to never run out of fuel, within the reliefs in the rock. Thus, the claws act as guide posts for sailors traversing the sea."
+      ]
+    }
+  },
+  "Adorra-Sound": {
+    "playerKnown": false,
+    "tags": ["sea","region","ulfwyst"],
+    "name": "Adorra Sound",
+    "nickname": "Adorra Sea",
+    "type": "Region",
+    "location": "Mare Concordis",
+    "description": [
+      "The Adorra Sound is a large sea north of the continent of Ulfwyst, which is a sub-region of the Mare Concordis. The sound runs along most of the northern coast of Ulfwyst and connects the states of Abbasyr, the Syrothian Empire, the Kaeldrin Sanctum and Navolin."
+    ],
+    "articles": {
+      "": [
+        ""
+      ]
+    }
+  },
+  "Strait-of-Krigere": {
+    "playerKnown": true,
+    "tags": ["sea","region","ulfwyst"],
+    "name": "Strait of Krigere",
+    "nickname": "Strait of Krigere",
+    "type": "Region",
+    "location": "Korin Gulf",
+    "description": [
+      "The Straight of Krigere is a natural waterway that divides the Korin Gulf. The strait is controlled by vessels belonging to the various Clans of Lemuria. On the eastern shore of the straight rests the great city of Kilurus."
+    ]
+  },
+  "Valley-of-Rud-Gilan": {
+    "playerKnown": false,
+    "tags": ["valley","Ur'shiid","region","ulfwyst","Abbasyr"],
+    "name": "Valley of Rud Gilan",
+    "nickname": "the Valley of No Return",
+    "type": "Region",
+    "location": "Ur'shiid Desert",
+    "description": [
+      "The Valley of Rud Gilan, also known as the Valley of No Return, is a dangerous sub-region of the Ur'shiid Desert. The valley is composed of rocky outcroppings and narrow, dry river beds. The area does receive occasional rainfall, during which the region floods for short periods of time before returning to its usual, arid state.",
+      "The creatures that live in this region have evolved to survive in such a hostile climate. Voracious carnivores stalk the shards of jagged rock and the few herbivores that live in the area are stout beasts with various ways of conserving water between the infrequent periods of rain.",
+      "Remnants of a long-dead civilization still dot the region. Many structures have long crumbled into ruin, though many great monuments, temples and public works can still be found throughout the area. Superstitious travelers steer well clear of the valley, and claim they have seen or hear tales of terrible, nightmarish creatures that wander the valley at night. Other claim they have seen huge, winged creatures circle the crags and ruins, openly displaying their power and ownership of the valley to anyone who might challenge their dominance."
+    ] 
+  },
+  "Crimson-Mist-Mountains": {
+    "playerKnown": false,
+    "tags": ["mountains","forest","region","Western Koraxon"],
+    "name": "Crimson Mist Mountains",
+    "nickname": "Crimson Mist Mountains",
+    "type": "Region",
+    "location": "Western Koraxon",
+    "description": [
+      "The Crimson Mist Mountains is a mountain range in the south-west region of the continent of Western Koraxon. The region is renown for its verdant and lush, crimson forests. High spires dot the region and its coastal areas, and the flora is diverse, relative to the elevation. The mountain spires are capped with the crimson leaves of the huge trees that make up the Xiangmu Forest. At the base of the steep cliffs sits a lush bamboo forest teeming with wildlife."
+    ] 
+  },  
+  "Jordonis-Mountains": {
+    "playerKnown": true,
+    "tags": ["mountains","region","ulfwyst"],
+    "name": "Jordonis Mountains",
+    "nickname": "Jordonis Mountains",
+    "type": "Region",
+    "location": "Ulfwyst",
+    "description": [
+      "The Jordonis Mountains are one of the most important geographic features in the climate, politics and culture of eastern Ulfwyst. Spanning a huge part of the eastern coast of the continent, the mountains act as the dividing line between the Kingdom of Navolin and the city-states of the Barrier Coast."
+    ]
+  },
+  "Kazgrim-Mountains": {
+    "playerKnown": true,
+    "tags": ["mountains","region","ulfwyst"],
+    "name": "Kazgrim Mountains",
+    "nickname": "Kazgrim Moutains",
+    "type": "Region",
+    "location": "Ulfwyst",
+    "description": [
+      "The Kazgrim Mountains are a small series of volcanic mountains situated in souther eastern Ulfwyst. The range has been dormant for centuries, but millennia-ago is responsible for connecting central Ulfwyst to the landmass that now makes up eastern Lemuria.",
+      "Centuries ago, dwarves from other parts of Ulfwyst set out, seeking new sites to establish outposts and forge new thanedoms. Most of these expiditions were doomed to failure. The harsh weather of the region, along with numerous threats that inhabit the mountains, such as chimeras, wyverns, giant, ogres, and trolls resulted in numerous camps and fledgling holds being sacked. However, eventually the persistence (and some would say suicidal stubbornness) of the dwarven people defied the odds, and the fortress of Rul Undrak was established under Mount Ulzanos on the northern end of the Kazgrim range."
+    ]
+  },
+  "Pillars-of-Amud": {
+    "playerKnown": true,
+    "tags": ["mountains","region","ulfwyst"],
+    "name": "Pillars of Amud",
+    "nickname": "Spires of Amud",
+    "type": "Region",
+    "location": "Ulfwyst",
+    "description": [
+      "The Pillars of Amud are a series of huge, jagged rocky spires that cut across the heart of central Ulfwyst. They are the tallest mountains in Ulfwyst, and the range is the second longest on the continent. The mountain range is home to the dwarven kingdom of Dol Obok, one of the largest and most well-established dwarf kingdoms on Centhris. Carved into the mountains are five great dwarf cities: Thellodur, Felrast, Nak Orodum, Lanok and Isidar Hreth."
+    ]
+  }
+}

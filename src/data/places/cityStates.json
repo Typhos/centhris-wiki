@@ -1,0 +1,89 @@
+{
+  "Volikgrad": {
+    "playerKnown": true,
+    "tags": ["city-state","barrier coast","ulfwyst","port"],
+    "name": "Volikgrad",
+    "nickname": "Free City of Volikgrad",
+    "type": "City-State",
+    "population": "~5,300",
+    "races": ["human","elf","gnome","half-elf","halfling","dwarf"],
+    "government": "Merchant Oligarchy",
+    "location": "Barrier Coast",
+    "map": "Volikgrad",
+    "description": [
+      "The Free City of Volikgrad is a city-state in the Barrier Coast region of Ulfwyst. It is the southern-most city on the barrier coast and a major trade hub for merchants and travelers heading towards the southern regions of the Kingdom of Navolin or the Archduchy of Zurast.",
+      "The primary attractions of the city are the Twin Arches Market, the Eikras Auction House, and the Moongate, a grand temple to the Maiden."
+    ]    
+  },
+  "Rakenburg": {
+    "playerKnown": true,
+    "tags": ["city-state","barrier coast","ulfwyst","port","capital"],
+    "name": "Rakenburg",
+    "nickname": "Free City of Rakenburg",
+    "type": "City-State",
+    "population": "~18,000",
+    "races": ["human","elf","gnome","half-elf","halfling","dwarf"],
+    "government": "Guild Oligarchy",
+    "location": "Barrier Coast",
+    "map": "Rakenburg",
+    "description": [
+      "The Free City of Rakenburg is a city-state in the Barrier Coast region of Ulfwyst. It is the largest city in the region and the defacto capital of the city-state alliance. The city is a common point for merchants and travelers moving through the region to resupply, due to its central location.",
+      "Rakenburg is a city built on top of several previous settlements, though the exact number of settlements that existed before is not widely known. Most of the city's current construction used existing building material and re-purposed it. It is not known exactly when the current incarnation of the city was founded, though scholars speculate that the upper city was resettled around 900 years ago.",
+      "The ruins below the city proper are collectively known as the Twisting Warrens, or simply 'the Warrens'. There are three known entrances to the labyrinthine under-city which are all guarded and monitored at all hours. Entrance to the Warrens is tightly controlled, due to the dangers that lurk around every corner. The primary entrance to the under-city is located in the Dawnstar Fairgrounds, with smaller entrances in the Ghost Orchard and the Murky Reach."
+    ],
+    "articles":{
+      "History": [
+        "In its early years, the city was ruled by a hereditary monarch, known as the Praeses. During the city's earliest years, when the guilds of Rakenburg were just coming into prominence, inter-guild conflicts were common as Legal Guilds fought over commercial rights, land and establishments. Eventually, these squabbles engulfed the entire city in widespread violence and civil revolt, now known as the First Guild War.",
+        "The First Guild war ended with the overthrow of Praeses Dukran Varyniks and the establishment of the Guild Council of Rakenburg.",
+        "For a time, the citizen of Rakenburg were able to return to their lives without regular outbursts of violence in the streets. This period of tense peace lasted for less than thirty years before tensions flared yet again, and the Second Guild War began. The second war between the various guilds of Rakenburg was far more brutal, not only effecting the city proper, but nearby cities as well, where guilds had spread to establish outposts. During the conflict, thousands of lives were lost and the number of operating guilds in the city dropped by nearly two thirds.",
+        "At the end of the Second Guild War, the Guild Council of Rakenburg passed the 'Interguild Dispute Interdiction Treaty' that forbids all acts of aggression against other guilds and offers methods of dispute resolution. The treaty also limits the number of Legal Guilds in the city to 16, with 8 acting as active council members, and the remaining 8 acting in advisory roles. If a guild with council membership does not meet its obligations, one of the minor guilds can be elected to replace it, ensuring that the guilds keep each other in check."
+      ],
+      "Government": [
+        "Rakenburg is ruled by the Guild Council of Rakenburg, a governing body with representatives from the 8 major guilds of the city. Each guild sends a representative to sit on the council (usually the guild master, but other members are sometimes selected in the guild master's stead). The council holds a public session every ten-day at the Reliquary of the Castidos which is open to public attendance. Guild business is addressed and then there is a time allotted for public comment.",
+        "The day-to-day peacekeeping of the city is left to the Specula Arcanum, one of the 8 Major Guilds, commonly referred to as `Specs`. This guild acts as the city watch, judiciary and militia as required. In order ensure peace is kept throughout the city, the guild deploys Gradiorus along with its regular patrols. These large, hulking, arcane golems are animated with arcane magic and follow a set of preprogrammed guidelines in order to maintain peace in the city."
+      ]
+    }
+  },
+  "Braxinfurt": {
+    "playerKnown": true,
+    "tags": ["city-state","barrier coast","ulfwyst","port"],
+    "name": "Braxinfurt",
+    "nickname": "Free City of Braxinfurt",
+    "type": "City-State",
+    "population": "~6,500",
+    "races": ["human","dwarf","tiefling","gnome","halfling"],
+    "government": "Oligarchic Republic",
+    "location": "Barrier Coast",
+    "description": [
+      "Braxinfurt is one of the five major, allied cities that comprise the alliance of Barrier Coast city-states. A true merchant republic, the city is a strange experiment in governance in the eyes of other political entities in the region. The city has a long-standing alliance with the dwarven hold of Ezhekal, located to the west in the Jordonis mountains. The two cities have traded goods, resources and elements of their cultures for hundreds of years, creating a unique blend of art, music and legal practices."
+    ]
+  },
+  "Korasov": {
+    "playerKnown": true,
+    "tags": ["city-state","barrier coast","ulfwyst","port"],
+    "name": "Korasov",
+    "nickname": "Free City of Korasov",
+    "type": "City-State",
+    "population": "~5000",
+    "races": ["human","tiefling","dwarf","dragonborn","tortle"],
+    "government": "Elective Monarchy",
+    "location": "Barrier Coast",
+    "description": [
+      "The Free City of Korasov is a city-state in the Barrier Coast region of Ulfwyst. It is the norther-most city on the barrier coast. At one time, the city was considered part of the Kingdom of Navolin. However, due to changing political climates and shrewd diplomacy, the Lord Mayor of Korasov was able to align himself with the Free Cities of the Barrier Coast. Thus, the city became independent from Navolin without a single casualty."
+    ]    
+  },
+  "Venbrin": {
+    "playerKnown": true,
+    "tags": ["city-state","barrier coast","ulfwyst","port"],
+    "name": "Venbrin",
+    "nickname": "Free City of Venbrin",
+    "type": "City-State",
+    "population": "~2,500",
+    "races": ["human","gnome","elf","dwarf","dragonborn"],
+    "government": "Hereditary Monarchy",
+    "location": "Barrier Coast",
+    "description": [
+      "The Free City of Venbrin is a city-state in the Barrier Coast region of Ulfwyst. Located on the isle of Sunheim off the eastern coast of Ulfwyst, the city is home to a large number of temples, including the High Temple of the Philosopher, the Eldergrove, the Shrine of St. Bastlen and Elfin Gate Monastery."
+    ]
+  }
+}

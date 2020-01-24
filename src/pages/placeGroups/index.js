@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import placeData from '../../data/places';
 
 // import Search from '../../components/search';
 import Page from '../../components/page';
 import WikiUtils from "components/utils/wikiUtils";
-
 import 'styles/places.scss';
 
-// const maps = require.context('../../img/maps/', true);
+// ==== ALL DATA IMPORTS FOR LOCATIONS
+import structures from 'data/places/structures';
+import worldRegions from 'data/places/worldRegions';
+import politicalStates from 'data/places/politicalStates';
+import cityDistricts from 'data/places/cityDistricts';
+import cityStates from 'data/places/cityStates';
+import settlements from 'data/places/settlements';
+import dungeons from 'data/places/dungeons';
+import fortifications from 'data/places/fortifications';
+
+const combinedPlaces = Object.assign(structures, worldRegions, politicalStates, cityDistricts, cityStates, settlements, dungeons, fortifications);
 const images = require.context('../../img/places/', true);
 
 class Places extends Component {
@@ -20,7 +28,7 @@ class Places extends Component {
     let filteredOutput = {};
     let dmView = localStorage.getItem('dmView') === 'true';
 
-    for (let [key, obj] of Object.entries(placeData)) {
+    for (let [key, obj] of Object.entries(combinedPlaces)) {
       if ( obj.playerKnown || dmView ) {
         filteredOutput[key] = obj;
       }
@@ -30,7 +38,7 @@ class Places extends Component {
 
     // Create a list of unique location categories. eg. Cities, regions, nations, continents
     let categories = places.map( place => {
-      return placeData[place].type;
+      return combinedPlaces[place].type;
     });
     const uniqueSet = new Set(categories);
     categories = [...uniqueSet];
@@ -69,12 +77,12 @@ class Places extends Component {
 
   getEntriesByCategory(category) {
     return this.state.places.map( place => {
-      if ( placeData[place].type === category ) {
+      if ( combinedPlaces[place].type === category ) {
         return (
           <li className="location">
             <Link to={`/location/${place}`}>
-              <img className="portrait" alt="" src={ images('./' + placeData[place].name.replace(/\s/g,"-") + '.png') }/>
-              <p>{placeData[place].name}</p>
+              <img className="portrait" alt="" src={ images('./' + combinedPlaces[place].name.replace(/\s/g,"-") + '.png') }/>
+              <p>{combinedPlaces[place].name}</p>
             </Link>
           </li>
         )
@@ -88,8 +96,8 @@ class Places extends Component {
     let sortable = [];
     let results = [];
 
-    for (let key in placeData) {
-      sortable.push([key, placeData[key]]);
+    for (let key in combinedPlaces) {
+      sortable.push([key, combinedPlaces[key]]);
     }
 
     sortable.sort( (a,b) => {

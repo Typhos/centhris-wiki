@@ -59,18 +59,17 @@ function checkKeyCode() {
 const routing = (
   <Router>
     <ScrollToTop>
-      <div>
-        <Route exact path="/" component={App} />
-        <Route path="/runes" component={Runes} />
-        <Route path="/characters" component={Characters} />
-        <Route path="/player-character" component={Player} />
-        <Route path="/person" component={Person} />
-        <Route path="/people" component={People} />
-        <Route path="/places" component={Places} />
-        <Route path="/location" component={Location} />
-        <Route path="/organizations" component={OrganizationGroups} />
-        <Route path="/group" component={Group} />
-      </div>
+      { localStorage.getItem('dmView') === 'true' && <div id="dmFlag">DM MODE</div>}
+      <Route exact path="/" component={App} />
+      <Route path="/runes" component={Runes} />
+      <Route path="/characters" component={Characters} />
+      <Route path="/player-character" component={Player} />
+      <Route path="/person" component={Person} />
+      <Route path="/people" component={People} />
+      <Route path="/places" component={Places} />
+      <Route path="/location" component={Location} />
+      <Route path="/organizations" component={OrganizationGroups} />
+      <Route path="/group" component={Group} />
     </ScrollToTop>
   </Router>
 )

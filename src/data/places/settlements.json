@@ -1,0 +1,142 @@
+{
+  "Rythlon": {
+    "playerKnown": true,
+    "tags": ["village","navolin","szary","ulfwyst"],
+    "name": "Rythlon",
+    "nickname": "Rythlon on Sulas",
+    "type": "Settlement",
+    "population": "~400",
+    "races": ["human","elf","halfling","gnome","half-elf","half-orc"],
+    "government": "Appointed Steward",
+    "leaders": ["Imizael Clathara","Selif Koric (former)"],
+    "nation": "Kingdom of Navolin",
+    "location": "Kelishan Highlands",
+    "description": [
+      "Rythlon, aka Rythlon on Sulas, is an ancient human village that sits on the banks of the Sulas river. Located in the Kelishan Highlands of Navolin, the village has roughly 400 inhabitants, most of which are farmers, hunters, craftsmen, and ranchers."
+    ]
+  },
+  "City-of-Zurast": {
+    "playerKnown": true,
+    "tags": ["ulfwyst","capital","city"],
+    "name": "City of Zurast",
+    "nickname": "City of Zurast",
+    "type": "Settlement",
+    "population": "~9,700",
+    "races": ["human","elf","gnome","half-elf","half-orc","halfling"],
+    "government": "Hereditary Monarchy",
+    "leaders": ["Archduke Nicolai Valken"],
+    "location": "Archduchy of Zurast",
+    "description": [
+      "The capital city of the Archduchy of Zurast, the city was once a small city-state in eastern Ulfwyst. Over the last century and a half, through military conflict and political alliances, the archdukes of Zurast have successfully expanded and consolidated their holdings into a respected regional power."
+    ],
+    "historyDescription": [
+      ""
+    ],
+    "governmentDescription": [
+      ""
+    ]
+  },
+  "Frecyra": {
+    "playerKnown": true,
+    "tags": ["navolin","ulfwyst","capital","city"],
+    "name": "Frecyra",
+    "nickname": "Frecyra",
+    "type": "Settlement",
+    "population": "~30,000",
+    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "government": "Hereditary Monarchy",
+    "location": "Navolin",
+    "map": "Frecyra",
+    "description": [
+      "The capital city of Navolin, Frecyra is one of the largest cities in Ulfwyst."
+    ]
+  },
+  "Kilurus": {
+    "playerKnown": true,
+    "tags": ["lemuria","ulfwyst","capital","city"],
+    "name": "Kilurus",
+    "nickname": "Kilurus",
+    "type": "Settlement",
+    "population": "~13,000",
+    "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
+    "government": "Clan Council",
+    "location": "Lemuria",
+    "description": [
+      "The capital city of Lemuria, Kilurus is located on the eastern side of the Strait of Krigere."
+    ]
+  },
+  "Hubrynk": {
+    "playerKnown": false,
+    "tags": ["city-state","barrier coast","ulfwyst","port"],
+    "name": "Hubrynk",
+    "nickname": "Free Town of Hubrynk",
+    "type": "Settlement",
+    "population": "~1000",
+    "races": ["human","tiefling","dwarf","dragonborn"],
+    "government": "Oligarchy",
+    "location": "Barrier Coast",
+    "description": [
+      "Free Town of Hubrynk is a city-state in the Barrier Coast region of Ulfwyst. It is located between the larger city-states of Korasov and Braxinfurt.",
+      "Hubrynk was resettled centuries ago in the shadow of a huge castle ruin. The structure, referred to locally as the 'Titan', has no visible entrances. Townsfolk claim that when the town was founded some of the settlers attempted to scale the walls to explore the ruins. None of the initial explorers who ventured over the walls ever returned, and the settlers banned all attempts to do so in the future for fear of what might lurk within."
+    ]    
+  },
+  "Khezrabad": {
+    "playerKnown": false,
+    "tags": ["city","Abbasyr","capital","ulfwyst"],
+    "name": "Khezrabad",
+    "nickname": "Khezrabad",
+    "linkingWords": ["Khezrabadi"],
+    "type": "Settlement",
+    "population": "25,000",
+    "races": ["dragonborn","human","half-orc","tiefling"],
+    "government": "Hereditary Monarchy",
+    "location": "Abbasyr",
+    "leaders": ["Sultana Safa Abbasyr"],
+    "description": [
+      "Khezrabad is the capital city of the Kingdom of Abbasyr."
+    ]
+  },
+  "Qabakh": {
+    "playerKnown": false,
+    "tags": ["city","Abbasyr","port","ulfwyst","adorra sound"],
+    "name": "Qabakh",
+    "nickname": "Qabakh",
+    "type": "Settlement",
+    "population": "8,500",
+    "races": ["dragonborn","human","half-orc","tiefling"],
+    "government": "Viceroyalty",
+    "location": "Abbasyr",
+    "leaders": ["Emira Ghaliya Najjar"],
+    "description": [
+      "Qabakh is a major port city of the Kingdom of Abbasyr and is nicknamed 'the Jewel of the Adorra Coast'."
+    ]
+  },
+  "City-of-Brass": {
+    "playerKnown": false,
+    "tags": ["elemental","plane of fire","efreet","metal"],
+    "name": "City of Brass",
+    "nickname": "the City of Brass",
+    "type": "Settlement",
+    "races": ["efreet","salamander","azer"],
+    "government": "Absolute Monarchy",
+    "location": "Plane of Fire",
+    "leaders": ["Marrake al-Sidan al-Hariq ben Lazan"],
+    "quote": "\"It is a place of perpetual heat that reeks of burning flesh and ashen dreams. It is flame incarnate.\"",
+    "description": [
+      "Hovering in the hottest areas of the Plane of Fire, the City of Brass sits on an enormous disc of brass. A wall of ornate brass surrounds the entire city, giving the city its name. However, since the brass disc gives the city its ability to fly, (albeit slowly,) these impressive walls were typically unmanned. Throughout the cosmopolitan city, the increible heat of the Elemental Plane of Fire is suppressed by the will of the Grand Sultan in an effort to foster interplanar trade. Despite this, the city itself has a hindering effect on creatures cosmically aligned towards good, due partly to the nature of the efreet, but also to the numerous connecting portals with the Nine Hells.",
+      "Surrounding the city itself are large mines where slaves mine tin, copper, and diamonds for their efreeti masters."
+    ],
+    "articles": {
+      "History": [
+        "Aside from the gods, elementals are possibly the oldest beings in all of creation and the city is considered possibly the first city to ever exist. None can state exactly how old the city is, and the efreet who live here care not for such mundane matters.",
+        "The city has had several rulers over its existence. The first Grand Sultan being Ramiz al'Akbar Multahi Tawfiq, who presided over the city during its construction. Like many of the city's later Grand Sultans, he was eventually destroyed by other scheming members of the efreeti nobility."
+      ],
+      "Government": [
+        "The City of Brass is governed by the undisputed Sultan of the Efreet, who rules the city with a tyrannical hold over his subjects. On occasion, the Sultan will oversee important legal matters of noble efreet but mostly focuses on wider politics. Although the Sultan is the paramount authority in the City of Brass, he generally delegates the day-to-day affairs to his vizier. The title of Grand Sultan is held by Marrake al-Sidan al-Hariq ben Lazan.",
+        "Most efreet pledge their fealty to the Grand Sultan, whether they resided in the city or not. Even those residing in settlements outside of the city consider it their capital.",
+        "Although the streets of the city are bustling with trade and crammed with crowds during the day, by night a strict curfew is enforced by the Illuminated, the guards of the city. All shops are shut up and all citizens must return to their homes, else face arrest, the loss of a hand, enslavement, or even death.",
+        "Slaves are obligated to bear bracelets that display their servitude and who their master is at all times. It is common for visitors to the city to become slaves by defaulting on borrowed money. In addition, this servitude can be extended by additional offenses that can add days or even years to their thralldom."
+      ]
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "Gullhollow": {
+    "playerKnown": true,
+    "tags": ["district","rakenburg","barrier coast","ulfwyst"],
+    "name": "Gullhollow",
+    "nickname": "Gullhollow District",
+    "type": "City District",
+    "location": "Rakenburg",
+    "description": [
+      "Gullhollow is a mostly residential district in the city-state of Rakenburg. A mostly middle-class neighborhood, Gullhollow has a wide variety of shops, cafes and small green spaces. The district earned its name due to the variety of birds that live here. Generations of city folk have made a tradition out of placing and maintaining ornate bird boxes throughout the streets and alleyways.",
+      "Gullhollow is situated between the Murky Reach and Ghost Orchard."
+    ],
+    "articles": {
+      "Nightlife & Fairs": [
+        "Gullhollow is the cultural heart of Rakenburg. Home to the Dawnstar Fairgrounds, the district has numerous places for the residents to enjoy themselves. During holidays and festivals, the district becomes a dazzling display of lights, banners, bards and street performers. The fairgrounds, which sit on the northern end of the district, against the city wall is used extensively throughout the year. When not being used for fairs or festivals, the grounds also serve as a training ground for the Specula Arcanum."
+      ],
+      "Dangers Below": [
+        "Gullhollow, specifically the Dawnstar Fairgrounds, is the home to the Black Descent, which is the primary entrance into the Twisting Warrens. This ancient, ornate staircase is one of three known entrances into the under-city, the other two smaller entrances being located in the Murky Reach and Ghost Orchard. The Black Descent is guarded at all hours by at least 10 members of the Specula Arcanum and 4 Gradiori. These watchmen are stationed to keep anything that might attempt to escape the under-city below and also to keep unauthorized explorers out."
+      ],
+      "Places of Interet": [
+        "Places of particular note in this district include Kilorn's Exotic Imports and the Dawnstar Fairgrounds."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Ghost-Orchard": {
+    "playerKnown": true,
+    "tags": ["district","rakenburg","barrier coast","ulfwyst"],
+    "name": "Ghost Orchard",
+    "nickname": "Ghost Orchard District",
+    "type": "City District",
+    "location": "Rakenburg",
+    "description": [
+      "Ghost Orchard is a district in the city of Rakenburg. It is the furthest district from the dockyards, making it the furthest from the smog that is produced in Embersky. The wealthiest merchants, guilds and foreign nobles own property here. The streets in Ghost Orchard are wide, cobblestone roads that see both foot traffic and regular carriages. The district also has the highest presence of Specula Arcanum.",
+      "Ghost Orchard is located across the Kamsby river from the Greenwood Quarter and next to Gullhollow."
+    ],
+    "articles": {
+      "Places of Interet": [
+        "Located in this district are the Evening Lantern Inn, the Emerald Elephant Inn, Dawnkeeper Smithy, which specializes in high end arms and armor. The gates of Dawnguard Keep mark the western end of the district."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Murky-Reach": {
+    "playerKnown": true,
+    "tags": ["district","rakenburg","barrier coast","ulfwyst"],
+    "name": "Murky Reach",
+    "nickname": "Murky Reach District",
+    "type": "City District",
+    "location": "Rakenburg",
+    "description": [
+      "The Murky Reach is a district in the city-state of Rakenburg. It is located on the north side of the Kamsby river, sitting between Gullhollow and the coast of the Mare Concordis."
+    ],
+    "articles": {
+      "Dockyards, Warehouses and Tenements": [
+        "Murky Reach is a tightly packed district, full of small alleys, multi-story warehouses and quayside workshops. Most travelers coming into Rakenburg from the Mare Concordis step off the docks and find themselves here before quickly moving on to less crowded, and safer, places in the city. The Murky Reach has the highest crime rate in the city and is home to numerous gangs of cutthroats and brigands. People claim that if Rakenburg had anything like a Thieves' Guild, it would be in here.",
+        "Most houses in the Murk Reach are large, multi-family tenements that offer little in the way of space or accommodations. Many people who have moved to Rakenburg seeking a fresh start find themselves renting a space here, only to quickly move to Gullhollow or the Greenwood Quarter as soon as they can afford to do so."
+      ],
+      "Places of Interet": [
+        "Located along the water, the district is home to the northern dockyards, as well as the Shattered Anchor Pub, which is frequented by rowdy sailors and unscrupulous drifters. Rakenburg central square is also technically located in Murky Reach and contains the Reliquary of the Castidos, the Sacellum of the Guardian and the Temple of the Wanderer."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Greenwood-Quarter": {
+    "playerKnown": true,
+    "tags": ["district","rakenburg","barrier coast","ulfwyst"],
+    "name": "Greenwood Quarter",
+    "nickname": "Greenwood Quarter",
+    "type": "City District",
+    "location": "Rakenburg",
+    "description": [
+      "The Greenwood Quarter, previously known as Oldtown, is one of the oldest districts in Rakenburg, but is the newest in terms of construction.",
+      "The district is located west of Embersky and across the Kamsby river from Ghost Orchard."
+    ],
+    "articles": {
+      "The Birthplace of the City": [
+        "City scholars speculate that it was in the Greenwood Quarter that people first resettled Rakenburg hundreds of years ago. Safely across the river from the Twisting Warrens, it was a safe place to settle while still having access to the old city's ruins for building materials. As the city expanded, the tight alleys and cramped streets of district left much to be desired and most immigrants preferred the city planning of the other districts."
+      ],
+      "the Great Fire of Oldtown": [
+        "The Greenwood District remained a tightly packed array of old buildings until 2C 2533, when the Great Fire of Oldtown scorched almost every building in the district to the ground. Tightly packed and full of old, dry, wooden buildings, the district was ripe for a devastating fire. It was only through the intervention of the guilds of Rakenburg and several private adventuring companies that more of the city was not caught up in the blaze.",
+        "After the fire, the Guild Council of Rakenburg set about re-planning and rebuilding the district, as it was still inside the city walls and it was only a matter of time before the displaced populace of Oldtown became restless. Using funds set aside for other projects, the Guild Council began rebuilding the district at a blazing pace. Within 15 years, the entire district was completely transformed."
+      ],
+      "Places of Interest": [
+        "Due to being mostly new construction, the only well known establishment in the district is the Stumbling Pelican Tavern, located near the south-west gate of the city."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Embersky": {
+    "playerKnown": true,
+    "tags": ["district","rakenburg","barrier coast","ulfwyst"],
+    "name": "Embersky",
+    "nickname": "Embersky District",
+    "type": "City District",
+    "location": "Rakenburg",
+    "description": [
+      "The Embersky District in Rakenburg is the industrial heart of the city. Numerous factories, workshops and the southern dockyards are located here. It is located next to the Greenwood Quarter and across the Kamsby River from the Murky Reach District."
+    ],
+    "articles": {
+      "Places of Interest": [
+        "Located in this district are the Stormrender Steelworks, the Rakenburg Naval Academy, the Wildhart Circus and the Stag & Goblet Tavern."
+      ]
+    },
+    "dmArticles": {
+    }
+  }
+}

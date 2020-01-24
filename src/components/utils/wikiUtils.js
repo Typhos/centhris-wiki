@@ -1,13 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import peopleData from "../../data/people";
-import placeData from "../../data/places";
-import characterData from '../../data/characters';
-import loreData from '../../data/lore';
-import orgData from '../../data/organizations';
-
+import peopleData from "data/people";
+import characterData from 'data/characters';
+import loreData from 'data/lore';
+import orgData from 'data/organizations';
 import dwarfRunes from '../../data/characters';
+
+// ==== ALL DATA IMPORTS FOR LOCATIONS
+import structures       from 'data/places/structures';
+import worldRegions     from 'data/places/worldRegions';
+import politicalStates  from 'data/places/politicalStates';
+import cityDistricts    from 'data/places/cityDistricts';
+import cityStates       from 'data/places/cityStates';
+import settlements      from 'data/places/settlements';
+import dungeons         from 'data/places/dungeons';
+import fortifications   from 'data/places/fortifications';
+
+const combinedPlaces = Object.assign(structures, worldRegions, politicalStates, cityDistricts, cityStates, settlements, dungeons, fortifications);
+
 
 export default class WikiUtils {
 
@@ -37,7 +48,7 @@ export default class WikiUtils {
         "person": peopleData,
         "player-character": characterData,
         "group": orgData,
-        "location": placeData
+        "location": combinedPlaces
         // "races": raceData,
       };
 
@@ -52,47 +63,21 @@ export default class WikiUtils {
           };
 
           const linkingWords = this.createLinkingWordsArray(namesObj);
-          console.log(linkingWords)
-
           const show = dataSet[ obj.name.replace(/\s/g,"-") ].playerKnown;
 
           // Only show content that is current listed for viewing by players.
           // If the DM view search para is enabled, show all content!
-
           if ( show || localStorage.getItem('dmView') === 'true' ) {
 
-            for ( let [key, nameValue] of Object.entries(namesObj) ) {
+            linkingWords.forEach( (string, j) => {
+              const arrayCheck = this.arrayCheck(target, Object.keys(namesObj), linkingWords );
+              const link = <Link key={`key-${string}-${j}-${string}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}`, state: "update"}}>{string}</Link>;    
 
-              // Links could be strings or an array of multiple linking strings, eg. Kingdom of Navolin, Navolin, Navolinian.
-              // The linkingWords property is always an array, or undefined.
-              // Loop through the any Arrays and link their individual strings
-              if (Array.isArray(nameValue)) {
-
-                nameValue.forEach( (string, j) => {
-                  const arrayCheck = target[key] && Array.isArray(target[key]) && target[key].some( words => words.includes(string) );
-                  const link = <Link key={`key-${index}-${j}-${string}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}`, state: "update"}}>{string}</Link>;                  
-
-                  // check to make sure the link does not link back to the same page:
-                  // IF the target has a linking obj, eg. linkingWords
-                  // AND the linking obj is an array 
-                  // AND the linking array has the string we are linking to don't link.
-                  if ( !arrayCheck ) {
-                    const nP = paragraph;
-                    paragraph = this.replaceNestedValue(nP, string, link);
-                  }
-                });
-
-              } else {
-
-                const link = <Link key={`key-${index}-${nameValue}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}`, state: "update"}}>{nameValue}</Link>;
-
-                if ( nameValue !== target[key] ) {
-                  const nP = paragraph;
-                  paragraph = this.replaceNestedValue(nP, nameValue, link);
-                }
-
+              if ( !arrayCheck ) {
+                const nP = paragraph;
+                paragraph = this.replaceNestedValue(nP, string, link);
               }
-            }
+            });
           }
         }
       }
@@ -145,6 +130,21 @@ export default class WikiUtils {
     }
 
     return ( obj.name.length > obj.nickname.length ) ? [obj.name, obj.nickname] : [obj.nickname, obj.name];
+  }
+
+  static arrayCheck(activePerson, keys, namesArray) {
+
+    return keys.some( key => {
+      if ( activePerson[key] ) {
+        let forceArray = ( Array.isArray(activePerson[key]) ) ? activePerson[key] : [activePerson[key]];
+
+        return namesArray.some( words => words.includes(activePerson[key]) );
+      }
+
+      return false;
+
+    });
+
   }
   
 }

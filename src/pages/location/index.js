@@ -2,12 +2,20 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import WikiUtils from "components/utils/wikiUtils";
 
-import placeData from 'data/places';
-import characterData from 'data/characters';
-import peopleData from 'data/people';
-
 import Page from '../../components/page';
 import "styles/locationArticle.scss";
+
+// ==== ALL DATA IMPORTS FOR LOCATIONS
+import structures from 'data/places/structures';
+import worldRegions from 'data/places/worldRegions';
+import politicalStates from 'data/places/politicalStates';
+import cityDistricts from 'data/places/cityDistricts';
+import cityStates from 'data/places/cityStates';
+import settlements from 'data/places/settlements';
+import dungeons from 'data/places/dungeons';
+import fortifications from 'data/places/fortifications';
+
+const combinedPlaces = Object.assign(structures, worldRegions, politicalStates, cityDistricts, cityStates, settlements, dungeons, fortifications);
 
 const images = require.context('img/places/', true);
 const maps = require.context('img/maps/', true);
@@ -19,7 +27,7 @@ class Location extends Component {
 
     this.state = {
       pathname: window.location.pathname,
-      location: placeData[window.location.pathname.split('/location/')[1]],
+      location: combinedPlaces[window.location.pathname.split('/location/')[1]],
       dmView: localStorage.getItem('dmView') === 'true'
     }
 
@@ -31,7 +39,7 @@ class Location extends Component {
     if ( this.state.pathname !== nextProps.location.pathname) {
       this.setState({
         pathname: nextProps.location.pathname,
-        location: placeData[nextProps.location.pathname.split('/location/')[1]]
+        location: combinedPlaces[nextProps.location.pathname.split('/location/')[1]]
       });
     }
   }

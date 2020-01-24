@@ -4,6 +4,19 @@ body {
   font-family: $sansText;
 }
 
+#dmFlag {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  line-height: 1.2em;
+  font-family: $headingText;
+  font-size: 1.2em;
+  padding: 0;
+  margin: 0;
+  background-color: $charcoal;
+  color: $moodGreen;
+}
+
 h2.sectionGroup {
   font-size: 1.5em;
   margin: 2em auto 0;

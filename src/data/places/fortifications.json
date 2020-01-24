@@ -1,0 +1,27 @@
+{  
+  "Castle-Grinsted": {
+    "playerKnown": true,
+    "tags": ["castle","navolin","rythlon","ulfwyst"],
+    "name": "Castle Grinsted",
+    "nickname": "Grinsted",
+    "type": "Fortification",
+    "location": "Kelishan Highlands",
+    "leaders": ["Count Jeskin Sebroksi"],
+    "description": [
+      "Castle Grinsted is the home castle and seat of Count Jeskin Sebroksi. It is located along the Sulas river in southern Navolin and is the capital of the County of Szary. The castle is roughly two day's travel from the village of Rythlon."
+    ]    
+  },
+  "Auburn-Castle": {
+    "playerKnown": true,
+    "tags": ["castle","navolin","rythlon","ulfwyst"],
+    "name": "Auburn Castle",
+    "nickname": "Auburn Castle",
+    "type": "Fortification",
+    "location": "Kelishan Highlands",
+    "leaders": ["Baron Janik Malmor"],
+    "description": [
+      "Auburn Castle is a border keep along the border of Navolin and Tovanis in central Ulfwyst. Is the home castle and seat of Baron Janik Malmor.",
+      "The castle manor is the home of numerous families of humans and halflings, including the Montajay family. Prior to the arrival of Roland of Zelmar and Lirr Stonebreath, and the events that transpired in the woodlands near the castle, it was also the home of Filibert Montajay."
+    ]    
+  }
+}

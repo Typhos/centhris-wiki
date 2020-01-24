@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import WikiUtils from "components/utils/wikiUtils";
 
+// My Components
+import WikiUtils from "components/utils/wikiUtils";
 import Search from 'components/search';
 import Page from 'components/page';
 import OrganizationGroupsArticle from 'components/articles/organizationGroupsArticle';
 
-import placeData from 'data/places';
-import characterData from 'data/characters';
-import peopleData from 'data/people';
-import orgData from 'data/organizations';
-
+// STYLES
 import 'styles/organiationGroups.scss';
+
+// DATA
+import peopleData from "data/people";
+import orgData from 'data/organizations';
 
 const images = require.context('img/organizations/', true);
 
