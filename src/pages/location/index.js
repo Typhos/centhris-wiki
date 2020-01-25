@@ -15,7 +15,7 @@ import settlements from 'data/places/settlements';
 import dungeons from 'data/places/dungeons';
 import fortifications from 'data/places/fortifications';
 
-const combinedPlaces = Object.assign(structures, worldRegions, politicalStates, cityDistricts, cityStates, settlements, dungeons, fortifications);
+console.log(structures)
 
 const images = require.context('img/places/', true);
 const maps = require.context('img/maps/', true);
@@ -25,7 +25,10 @@ class Location extends Component {
   constructor(props) {
     super(props);
 
+    const combinedPlaces = {...dungeons, ...structures, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications};
+
     this.state = {
+      combinedPlaces: combinedPlaces,
       pathname: window.location.pathname,
       location: combinedPlaces[window.location.pathname.split('/location/')[1]],
       dmView: localStorage.getItem('dmView') === 'true'
@@ -35,6 +38,7 @@ class Location extends Component {
   }
 
   UNSAFE_componentWillReceiveProps(nextProps){
+    const combinedPlaces = {...structures,...dungeons, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications};
 
     if ( this.state.pathname !== nextProps.location.pathname) {
       this.setState({

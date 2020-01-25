@@ -17,10 +17,10 @@ import settlements      from 'data/places/settlements';
 import dungeons         from 'data/places/dungeons';
 import fortifications   from 'data/places/fortifications';
 
-const combinedPlaces = Object.assign(structures, worldRegions, politicalStates, cityDistricts, cityStates, settlements, dungeons, fortifications);
-
 
 export default class WikiUtils {
+
+  static combinedPlaces = {...structures, ...worldRegions, ...politicalStates, ...cityDistricts, ...cityStates, ...settlements, ...dungeons, ...fortifications};
 
   static sortByName (arr) {
     return arr.sort( (a,b) => {
@@ -48,7 +48,7 @@ export default class WikiUtils {
         "person": peopleData,
         "player-character": characterData,
         "group": orgData,
-        "location": combinedPlaces
+        "location": this.combinedPlaces
         // "races": raceData,
       };
 

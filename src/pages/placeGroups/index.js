@@ -10,19 +10,20 @@ import 'styles/places.scss';
 import structures from 'data/places/structures';
 import worldRegions from 'data/places/worldRegions';
 import politicalStates from 'data/places/politicalStates';
-import cityDistricts from 'data/places/cityDistricts';
+// import cityDistricts from 'data/places/cityDistricts';
 import cityStates from 'data/places/cityStates';
 import settlements from 'data/places/settlements';
 import dungeons from 'data/places/dungeons';
 import fortifications from 'data/places/fortifications';
 
-const combinedPlaces = Object.assign(structures, worldRegions, politicalStates, cityDistricts, cityStates, settlements, dungeons, fortifications);
 const images = require.context('../../img/places/', true);
 
 class Places extends Component {
 
   constructor (props) {
     super(props);
+
+    const combinedPlaces = {...structures,...dungeons, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications};
 
     // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
     let filteredOutput = {};
@@ -44,6 +45,7 @@ class Places extends Component {
     categories = [...uniqueSet];
 
     this.state = {
+      combinedPlaces: combinedPlaces,
       places: places,
       categories: WikiUtils.sortByName(categories),
     };
@@ -77,12 +79,12 @@ class Places extends Component {
 
   getEntriesByCategory(category) {
     return this.state.places.map( place => {
-      if ( combinedPlaces[place].type === category ) {
+      if ( this.state.combinedPlaces[place].type === category ) {
         return (
           <li className="location">
             <Link to={`/location/${place}`}>
-              <img className="portrait" alt="" src={ images('./' + combinedPlaces[place].name.replace(/\s/g,"-") + '.png') }/>
-              <p>{combinedPlaces[place].name}</p>
+              <img className="portrait" alt="" src={ images('./' + this.state.combinedPlaces[place].name.replace(/\s/g,"-") + '.png') }/>
+              <p>{this.state.combinedPlaces[place].name}</p>
             </Link>
           </li>
         )
@@ -96,8 +98,8 @@ class Places extends Component {
     let sortable = [];
     let results = [];
 
-    for (let key in combinedPlaces) {
-      sortable.push([key, combinedPlaces[key]]);
+    for (let key in this.state.combinedPlaces) {
+      sortable.push([key, this.state.combinedPlaces[key]]);
     }
 
     sortable.sort( (a,b) => {

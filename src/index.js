@@ -31,7 +31,6 @@ let failTest = {};
 
 document.addEventListener("keydown", event => {
   trackCode.push(event.key);
-  console.log(trackCode)
   checkKeyCode();
 });
 
