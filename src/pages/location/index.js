@@ -25,7 +25,7 @@ class Location extends Component {
   constructor(props) {
     super(props);
 
-    const combinedPlaces = {...dungeons, ...structures, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications};
+    const combinedPlaces = {...cityDistricts, ...dungeons, ...structures, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications};
 
     this.state = {
       combinedPlaces: combinedPlaces,
@@ -38,7 +38,7 @@ class Location extends Component {
   }
 
   UNSAFE_componentWillReceiveProps(nextProps){
-    const combinedPlaces = {...structures,...dungeons, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications};
+    const combinedPlaces = {...cityDistricts, ...structures,...dungeons, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications};
 
     if ( this.state.pathname !== nextProps.location.pathname) {
       this.setState({
@@ -117,6 +117,12 @@ class Location extends Component {
                 <div className="info">
                   <p className="key">Leader(s)</p>
                   <div className="values">{WikiUtils.linkContent(location, location.leaders)}</div>
+                </div> : "" 
+              }
+              { (location.districts) ? 
+                <div className="info">
+                  <p className="key">Districts</p>
+                  <div className="values">{WikiUtils.linkContent(location, location.districts)}</div>
                 </div> : "" 
               }
               { (location.races) ? 

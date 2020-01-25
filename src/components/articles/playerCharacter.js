@@ -6,19 +6,6 @@ import "styles/personArticle.scss";
 
 import peopleData from "data/people";
 
-// ==== ALL DATA IMPORTS FOR LOCATIONS
-import structures from 'data/places/structures';
-import worldRegions from 'data/places/worldRegions';
-import politicalStates from 'data/places/politicalStates';
-import cityDistricts from 'data/places/cityDistricts';
-import cityStates from 'data/places/cityStates';
-import settlements from 'data/places/settlements';
-import dungeons from 'data/places/dungeons';
-import fortifications from 'data/places/fortifications';
-
-const combinedPlaces = Object.assign(structures, worldRegions, politicalStates, cityDistricts, cityStates, settlements, dungeons, fortifications);
-
-
 export default class PlayerCharacter extends Component {
 
   render () {

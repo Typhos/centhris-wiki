@@ -22,6 +22,18 @@
     "description": [
       "Auburn Castle is a border keep along the border of Navolin and Tovanis in central Ulfwyst. Is the home castle and seat of Baron Janik Malmor.",
       "The castle manor is the home of numerous families of humans and halflings, including the Montajay family. Prior to the arrival of Roland of Zelmar and Lirr Stonebreath, and the events that transpired in the woodlands near the castle, it was also the home of Filibert Montajay."
-    ]    
+    ]
+  },
+  "Fesgart-Citadel": {
+    "playerKnown": false,
+    "tags": ["castle","navolin","rythlon","ulfwyst"],
+    "name": "Fesgart Citadel",
+    "nickname": "Fesgart Citadel ",
+    "type": "Fortification",
+    "location": "Frecyra",
+    "leaders": ["Marshal Stanislaw Kaczka"],
+    "description": [
+      "Fesgart Citadel is the city fortress of Frecyra. Located in the middle of the city, on the Mivan hill, it provides an overlook of most of the city, and south into the Galren Moor."
+    ]
   }
 }

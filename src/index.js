@@ -13,7 +13,7 @@ import {Runes} from './pages/runes/index';
 import {Places} from './pages/placeGroups/index';
 import {Location} from './pages/location/index';
 import {OrganizationGroups} from './pages/organizationGroups/index';
-import {Group} from './pages/group/index';
+import {Group} from './pages/organization/index';
 
 // import * as serviceWorker from './components/serviceWorker';
 // serviceWorker.unregister();

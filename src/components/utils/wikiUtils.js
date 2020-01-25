@@ -138,7 +138,13 @@ export default class WikiUtils {
       if ( activePerson[key] ) {
         let forceArray = ( Array.isArray(activePerson[key]) ) ? activePerson[key] : [activePerson[key]];
 
-        return namesArray.some( words => words.includes(activePerson[key]) );
+        return namesArray.some( words => {
+          if ( words.includes(activePerson[key]) ) {
+            if ( [words].some( word => word === activePerson[key] ) ) {
+              return true;
+            }
+          }
+        });
       }
 
       return false;

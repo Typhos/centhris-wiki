@@ -98,10 +98,10 @@ class Group extends Component {
                   <div className="races values">{WikiUtils.linkContent(group, group.races)}</div>
                 </div> : "" 
               }
-              { (group.nation) ? 
+              { (group.location) ? 
                 <div className="info">
-                  <p className="key">State</p>
-                  <div className="values">{WikiUtils.linkContent(group, group.nation)}</div>
+                  <p className="key">Location</p>
+                  <div className="values">{WikiUtils.linkContent(group, group.location)}</div>
                 </div> : "" 
               }
               { (group.group) ? 

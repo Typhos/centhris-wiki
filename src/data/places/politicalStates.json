@@ -15,9 +15,12 @@
     "leaders": ["King Kzesimir III"],
     "regions": ["Kelishan Highlands","Galren Moor","Damali Steppe","Tiderack Coast"],
     "description": [
-      "The Kingdom of Navolin is a large, feudal state located in Eastern Ulfwyst.",
-      "The Navolinian way of life is one of the horse."
-    ]
+    ],
+    "dmArticles": {
+      "History": [
+        "The Kingdom of Navolin is a large, feudal state located in Eastern Ulfwyst."
+      ]
+    }
   },
   "Archduchy-of-Zurast": {
     "playerKnown": true,
@@ -91,11 +94,49 @@
     "leaders": ["Han Darga Vaburk of Clan Godak"],
     "regions": ["Ossin River","Torick-Vir Valley","Torick Peaks","Vir Mountains","Venngar Sea"],
     "description": [
-      "A mid-sized state in southern Ulfwyst, the Realm of Cibrin is a harsh land sitting between the Torik Peaks and Vir Mountain ranges, south of the Theocracy of Tovanis. Most of the kingdom is comprised of dangerous, untamed forest and craggy hills.",
-      "Most of the inhabitants of Cibrin live in hillforts, subsisting as hunter-gatherers, or in coastal castle-towns from which they conduct maritime activities in the Venngar Sea. Due to it's geography and climate, the realm's population is comprised of hardier races, such as humans, dwarves, and Uklang, or yakfolk. It also has a high percentage of half-breeds, specifically half-orcs, and half-giants, as well as the very rare Marus, or walrus-people."
+      "A mid-sized state in southern Ulfwyst, the Realm of Cibrin is a harsh land sitting between the Torik Peaks and Vir Mountain ranges, south of the Theocracy of Tovanis. Most of the kingdom is comprised of dangerous, untamed forest and craggy hills."
     ],
     "dmArticles":{
-      
+      "Only the Strong": [
+        "Most of the inhabitants of Cibrin live in hillforts, subsisting as hunter-gatherers, or in coastal castle-towns from which they conduct maritime activities in the Venngar Sea. Due to it's geography and climate, the realm's population is comprised of hardier races, such as humans, dwarves, and Uklang, or yakfolk. It also has a high percentage of half-breeds, specifically half-orcs, and half-giants, as well as the very rare Marus, or walrus-people."
+      ]
+    }
+  },
+  "Tovanis": {
+    "playerKnown": true,
+    "tags": ["kingdom","state","ulfwyst"],
+    "name": "Tovanis",
+    "nickname": "Realm of Tovanis",
+    "linkingWords": ["Tovanian"],
+    "type": "State",
+    "currency": "Tovanian orodumi",
+    "capital": "Axuros",
+    "population": "~1.4 million",
+    "races": ["human","aasimar","dwarf","halfling","half-orc","tiefling"],
+    "government": "Elective Theocracy",
+    "location": "Ulfwyst",
+    "leaders": ["Tsongar Barath","Gergely Vastagh","Mozes Kovacs","Karola Piroska Szilágyi","Tomi Dobos","Ignac Lazar","Viola Pasztor"],
+    "regions": ["Bay of Claws","Blighted Mire","Desolate Wastes","Lake Droknog","Pillars of Amud","Semogan Hills","Torick Peaks"],
+    "description": [
+      "The Realm of Tovanis is a young state, having come into existence roughly 200 years ago. It is a centralized state ruled by the Church of the Eternal from the capital of Axuros. The rulers of Tovanis are notoriously hostile to practitioners of the arcane arts, having expelled all mages from the country on its founding. Any arcane magic user wishing to travel through, or live in Tovanis does so at great risk."
+    ],
+    "dmArticles":{
+      "Dark Times": [
+        "200 years ago, Tovanis did not exist as a state. Instead, it was a realm ruled by the lich known as Shulxaa the Withered King. Shulxaa had achieved lichdom several hundred years prior, but rose to power around 2C 1900. Over roughly a hundred years, the prior kingdom located in the region, known as Istagen, had been twisted into a puppet state by the lich.",
+        "The Realm of Shulxaa was a nightmarish state of enslaved peoples, thralls and undead monstrosities. The lich, having only contempt for the 'lesser beings' in owner his dominion would regularly purge entire villages if the inhabitants committed even the slightest infractions. In this way, through fear and sheer force, the lich suppressed all but the bravest from rising against him."
+      ],
+      "A New Dawn": [
+        "In 2C 2039 Shulxaa had become the defacto ruler of the country and deemed acting from the shadows an unnecessary formality. He assumed the throne of Istagen and for 344 years he ruled the country as its undying lord. In order to ensure he was not challenge, the lich begin removing all reference to the history and culture of the country before his existence, becoming a god-king in the eyes of his mostly human subjects. At first, the Dwarf Clans of the Amud attempted to squash this extremely dangerous threat to their south, however neither side was able to claim victory and a cold war remained up until the death of Shulxaa in 2C 2381, when he was defeated by an order of holy knights, known as the Knights of the Sacred Dawn, under the banner of the Eternal, the dawnbringer.",
+        "With the defeat of Shulxaa, the knights, under the leadership of their Lord Marshall Temil Messard, established the new country of Tovanis."
+      ],
+      "Religious Governance": [
+        "Though Shulxaa was defeated and his phylactery destroyed, the legacy of the Withered King remained. The knights, in order to restore a sense of stability to the people, established the Atrium Fidelium, a council of the faithful to the Eternal, whom they installed as the principal god of Tovanis. The council was to be an elected position amongst the members of the order, with each lieutenant given a fiefdom to oversee and revitalize after centuries of neglect under the lich. Thus, the new noble families of Tovanis were established, with each being given a seat at the council.",
+        "The council itself is an elective body. A Provost Supremina is selected by the electors on the council following the death of the prior Provost. There are always 8 electors on the council, along with the Provost, who acts as the head and has final say in all affairs of state."
+      ],
+      "Suffer Not the Mage": [
+        "Along with the ruling body, the order felt it prudent to deal with the dangers of renegade magic users. It was deemed that practitioners of the arcane, though useful, could not be controlled or trusted to avoid following their base desires for forbidden knowledge and power. Thus, all magicians, diviners, soothsayers, alchemists and sorcerers were expelled from the country, never to return on pain of death.",
+        "The council then created the Order of the Custodial Mind. This clandestine order of mage-hunters was tasked with training elite assassins that, if needs be, could be sent out to track down and kill renegade mages that would reside in the newly formed Tovanis. These highly trained mage hunters now serve the Atrium Fidelium as their secretive arm, keeping the magical peace in Tovanis and potentially having reach to hunt down rogue mages throughout all of eastern Ulfwyst."
+      ]
     }
   },
   "Syrothian-Empire": {
@@ -143,7 +184,11 @@
     "leaders": ["Sultana Safa Abbasyr"],
     "regions": ["Ur'shiid Desert","Adorra Sound","Tashvir Mountains","the Rostamas"],
     "description": [
-      "The Kingdom of Abbasyr is a large, feudal state located in Western Ulfwyst. "
-    ]
+    ],
+    "dmArticles": {
+      "History": [
+        "The Kingdom of Abbasyr is a large, feudal state located in Western Ulfwyst. "
+      ]
+    }
   }  
 }

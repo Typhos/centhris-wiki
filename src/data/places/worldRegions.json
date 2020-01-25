@@ -245,5 +245,16 @@
     "description": [
       "The Pillars of Amud are a series of huge, jagged rocky spires that cut across the heart of central Ulfwyst. They are the tallest mountains in Ulfwyst, and the range is the second longest on the continent. The mountain range is home to the dwarven kingdom of Dol Obok, one of the largest and most well-established dwarf kingdoms on Centhris. Carved into the mountains are five great dwarf cities: Thellodur, Felrast, Nak Orodum, Lanok and Isidar Hreth."
     ]
+  },
+  "Torick-Peaks": {
+    "playerKnown": true,
+    "tags": ["mountains","region","ulfwyst"],
+    "name": "Torick Peaks",
+    "nickname": "Torick Peaks",
+    "type": "Region",
+    "location": "Ulfwyst",
+    "description": [
+      "The Torick Peaks are a small mountain range which provides a natural barrier between the Realm of Cibrin and Kingdom of Lemuria. The mountians are south of the Realm of Tovanis. The dwarven hold of Tronj'und is located under Mount Certunsk, which is located in the middle of the range."
+    ]
   }
 }

@@ -5,7 +5,8 @@
     "name": "Volikgrad",
     "nickname": "Free City of Volikgrad",
     "type": "City-State",
-    "population": "~5,300",
+    "population": "~9,500",
+    "districts": ["the Planks","Windpoint","Stewards Row","the Foreign Quarter","the Oakyard"],
     "races": ["human","elf","gnome","half-elf","halfling","dwarf"],
     "government": "Merchant Oligarchy",
     "location": "Barrier Coast",
@@ -25,7 +26,7 @@
     "races": ["human","elf","gnome","half-elf","halfling","dwarf"],
     "government": "Guild Oligarchy",
     "location": "Barrier Coast",
-    "districts": "Embersky, Ghost Orchard, the Greenwood Quarter, Gullhollow, Murky Reach",
+    "districts": ["Embersky", "Ghost Orchard", "the Greenwood Quarter", "Gullhollow","Murky Reach"],
     "map": "Rakenburg",
     "description": [
       "The Free City of Rakenburg is a city-state in the Barrier Coast region of Ulfwyst. It is the largest city in the region and the defacto capital of the city-state alliance. The city is a common point for merchants and travelers moving through the region to resupply, due to its central location.",

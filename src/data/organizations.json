@@ -92,5 +92,22 @@
     ],
     "articles": {
     }
+  },
+  "Knights-of-the-Sacred-Dawn": {
+    "playerKnown": false,
+    "name": "Knights of the Sacred Dawn",
+    "nickname": "Holy Order of the Sacred Dawn",
+    "tags": ["holy order","knights","Tovanis","ulfwyst"],
+    "type": "Holy Order",
+    "location": "Tovanis",
+    "memberNumber": "~300",
+    "leaders": [
+      "Gergely Vastagh"
+    ],
+    "description": [
+      "Holy Order of the Eternal"
+    ],
+    "articles": {
+    }
   }
 }

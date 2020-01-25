@@ -70,6 +70,7 @@
     "tags": ["district","rakenburg","barrier coast","ulfwyst"],
     "name": "Greenwood Quarter",
     "nickname": "Greenwood Quarter",
+    "linkingWords": ["the Greenwood Quarter"],
     "type": "City District",
     "location": "Rakenburg",
     "description": [
@@ -104,6 +105,261 @@
     "articles": {
       "Places of Interest": [
         "Located in this district are the Stormrender Steelworks, the Rakenburg Naval Academy, the Wildhart Circus and the Stag & Goblet Tavern."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "The-Planks": {
+    "playerKnown": true,
+    "tags": ["district","volikgrad","barrier coast","ulfwyst"],
+    "name": "The Planks",
+    "nickname": "the Planks",
+    "type": "City District",
+    "location": "Volikgrad",
+    "description": [
+      "The Planks is a ward of the city-state of Volikgrad. A muddy, dangerous slum on the west side of the city, the Planks is home to the monster strange and dangerous denizens of Volikgrad. Cut purses who operate in the Twin Arches Market almost always flee into the labyrinth which is infested with back alley gangs, beggars and drunks."
+    ],
+    "articles": {
+      "What's in a Name?": [
+        "The streets of the district are not paved and due to the proximity to the docks, as well as coastal rains, the alleys of the Planks are often nearly impossible to use. The citizens of the district, instead of waiting in hope that the merchant-nobles of the city would pay to pave the streets, constructed a ramshackle system of causeways and catwalks as a means of getting around the ward when the streets become impassible. These overhead walkways, usually constructed from whatever wood was left over from the ships being constructed in the Oakyard, are where the district earned its name."
+      ],
+      "Dangerous Liaisons": [
+        "The Planks is not a welcoming part of Volikgrad and few visitors willingly wander into it by mistake. The ward does have seedy bars, fences and swindlers in abundance. Anyone looking to unload stole goods, find someone looking for hired muscle or hoping to hear about their next heist opportunity is bound to wind up in the Planks.",
+        "Some of the most dangerous assassins, daring thieves and infamous crime lords in all of the Barrier Coast got their start here."
+      ],
+      "Places of Interest": [
+        "The only establishments of note in the Planks end to be rough, rundown taverns that can be found on many street corners in the ward. The Brass Horse, the Glowing Wolf, Thorar's Pub, the Firbolg and Gambler, the One-eyed Monkey, and Spireforge's Tavern are a places to check out for anyone brave enough to risk their neck."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Windpoint": {
+    "playerKnown": true,
+    "tags": ["district","volikgrad","barrier coast","ulfwyst"],
+    "name": "Windpoint",
+    "nickname": "Windpoint District",
+    "type": "City District",
+    "location": "Volikgrad",
+    "description": [
+      "Windpoint sits at the crest of the hill on which Volikgrad is located. The district is seemingly ironically named, as the windiest points in the city tend to be along shore, in the Planks or the Foreign Quarter. The district itself is a working class neighborhood. Most of the residents are either craftsmen, day laborers or Oakyard dockworkers. The buildings in Windpoint are generally made of clay with shingled roofs. The clay used in the districts construction comes from a quarry outside the city that employs numerous neighborhood residents."
+    ],
+    "articles": {    
+      "Places of Interest": [
+        "Windpoint is generally the district that travelers first see when coming to Volikgrad by land. Two of the four gates to the city run through the ward. As such, there are several small inns and taverns that operate under the patronage of traveling merchants, mercenaries and pilgrims on their way to Rakenburg. Some of the most well-known taverns in the district include the Sapphire Pig, the Lumpy Sailor and Deror's Alehouse. Two modest inns that operate near the city gates are the Lonely Satyr Inn and the Honest Minstrel Lodge."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Stewards-Row": {
+    "playerKnown": true,
+    "tags": ["district","volikgrad","barrier coast","ulfwyst"],
+    "name": "Stewards Row",
+    "nickname": "Stewards Row",
+    "type": "City District",
+    "location": "Volikgrad",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Foreign-Quarter": {
+    "playerKnown": true,
+    "tags": ["district","volikgrad","barrier coast","ulfwyst"],
+    "name": "Foreign Quarter",
+    "nickname": "the Foreign Quarter",
+    "type": "City District",
+    "location": "Volikgrad",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "The-Oakyard": {
+    "playerKnown": true,
+    "tags": ["district","volikgrad","barrier coast","ulfwyst"],
+    "name": "The Oakyard",
+    "nickname": "the Oakyard",
+    "type": "City District",
+    "location": "Volikgrad",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Coldwall": {
+    "playerKnown": false,
+    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "name": "Coldwall",
+    "nickname": "Coldwall Ward",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Edgewater": {
+    "playerKnown": false,
+    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "name": "Edgewater",
+    "nickname": "Edgewater Ward",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Hartwood-Row": {
+    "playerKnown": false,
+    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "name": "Hartwood Row",
+    "nickname": "Hartwood Row",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Timberrun": {
+    "playerKnown": false,
+    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "name": "Timberrun",
+    "nickname": "Timberrun Ward",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Belloton": {
+    "playerKnown": false,
+    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "name": "Belloton",
+    "nickname": "Belloton Ward",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Drakeperch": {
+    "playerKnown": false,
+    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "name": "Drakeperch",
+    "nickname": "Drakeperch Heights",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+      "Write something."
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "The-Crowns": {
+    "playerKnown": false,
+    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "name": "The Crowns",
+    "nickname": "Crowns Arcade",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+      "Write something."
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Cwyrnburne": {
+    "playerKnown": false,
+    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "name": "Cwyrnburne",
+    "nickname": "Cwyrnburne Ward",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+      "Write something."
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Potter's-Reach": {
+    "playerKnown": false,
+    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "name": "Potter's Reach",
+    "nickname": "Potter's Reach",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+        "An bunch of places"
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Holford": {
+    "playerKnown": false,
+    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "name": "Holford",
+    "nickname": "Holford Ward",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
       ]
     },
     "dmArticles": {

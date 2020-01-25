@@ -53,8 +53,12 @@
     "type": "Structure",
     "location": "Khezrabad",
     "description": [
-      "The Seloc Gelhyan is a library and mage college located in the Abbasyri capital of Khezrabad. The college is well over 1,500 years old, having been founded during the Utharian Empire. Sadly, it fell into a state of ruin for hundreds of years after the Ruination of Centhris and most of the knowledge within was lost. The college returned to prominence through the patronage of the ab Shahreen royal family."
-    ]  
+    ],
+    "dmArticles": {
+      "History": [
+        "The Seloc Gelhyan is a library and mage college located in the Abbasyri capital of Khezrabad. The college is well over 1,500 years old, having been founded during the Utharian Empire. Sadly, it fell into a state of ruin for hundreds of years after the Ruination of Centhris and most of the knowledge within was lost. The college returned to prominence through the patronage of the ab Shahreen royal family."
+      ]
+    }
   },
   "Eikras-Auction-House":{
     "playerKnown": true,
@@ -108,7 +112,22 @@
     "leaders": ["High Priestess Katayun Attar"],
     "additionalImages": ["Chram-of-the-Eternal-exterior.png"],
     "description": [
-      "The Chram of the Eternal is a the High Temple dedicated to the god of the sun. It is located in Khezbrabad, Abbasyr."
+    ],
+    "dmArticles": {
+      "History": [
+        "The Chram of the Eternal is a the High Temple dedicated to the god of the sun. It is located in Khezbrabad, Abbasyr."
+      ]
+    }
+  },
+  "Hessirwynd-Palace": {
+    "playerKnown": false,
+    "tags": ["palace","building","navolin","frecyra","ulfwyst","king"],
+    "name": "Hessirwynd Palace",
+    "nickname": "Hessirwynd Royal Palace",
+    "type": "Structure",
+    "location": "Frecyra",
+    "leaders": ["King Kzesimir III Czak"],
+    "description": [
     ]    
   }
 }
