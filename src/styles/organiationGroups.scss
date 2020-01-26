@@ -61,10 +61,11 @@ article.maps {
 
 // MOBILE
 @media all and (max-width: $breakpoint-mobile) {
-  #places {
+  #organizations {
 
-    li.location {
+    li.group {
       width: 45%;
+      height: auto;
       max-width: none;
       
       img.portrait {
@@ -72,21 +73,6 @@ article.maps {
         clip-path: polygon(12% 0%, 100% 0%, 88% 100%, 0% 100%);
       }
     }
-  }
-
-  article.maps {
-    margin: 0.25em auto 0;
-
-    a.mapLink {
-      width: 48%;
-      margin-bottom: 0;
-
-      img.map {
-        height: 10vh;
-      }
-
-    }
-
   }
 
 }
