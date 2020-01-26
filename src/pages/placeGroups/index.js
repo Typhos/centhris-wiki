@@ -84,12 +84,19 @@ class Places extends Component {
   }
 
   getEntriesByCategory(category) {
+    const crests = require.context('img/crests/', true);
+
     return this.state.places.map( place => {
       if ( this.state.combinedPlaces[place].type === category ) {
+        const imageType = (category === "State") ?
+          crests('./' + this.state.combinedPlaces[place].name.replace(/\s/g,"-") + '.png') :
+          images('./' + this.state.combinedPlaces[place].name.replace(/\s/g,"-") + '.png');
+
         return (
           <li className="location">
             <Link to={`/location/${place}`}>
               <img className={`portrait ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) }`} alt="" src={ images('./' + this.state.combinedPlaces[place].name.replace(/\s/g,"-") + '.png') }/>
+              {/*<img className={`portrait ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) } ${ ( category === 'State' ) ? 'noTilt' : '' }`} alt="" src={ imageType }/>*/}
               <p>{this.state.combinedPlaces[place].name}</p>
             </Link>
           </li>

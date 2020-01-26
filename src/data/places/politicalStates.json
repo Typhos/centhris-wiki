@@ -45,6 +45,7 @@
     "tags": ["kingdom","state","ulfwyst","monarchy"],
     "name": "Kingdom of Lemuria",
     "nickname": "Lemuria",
+    "linkingWords": ["Lemurian"],
     "type": "State",
     "currency": "Lemurian Pike",
     "capital": "Kilurus",
@@ -230,12 +231,15 @@
     "leaders": ["High King Bramdur Thundershod"],
     "cities": ["Thellodur","Felrast","Isidar Hreth","Lanok","Nak Orodum"],
     "description": [
-      "The Dwarf Kingdom of Dol Obok is the largest dwarven civilization in Ulfwyst. Controlling the span of the Pillars of Amud, the dwarves of the kingdom are known for their neutrality. Instead of worrying about the politics, infighting and squabbles of outsiders, the Saràm'ezar focus on the exploration of the under-mountains, the crafting of great works and the edification of the art of Runeforging."
+      "The Dwarf Kingdom of Dol Obok is the largest dwarven civilization in Ulfwyst. Controlling the span of the Pillars of Amud, the dwarves of the kingdom are known for their neutrality. Instead of worrying about the politics, infighting and squabbles of outsiders, the Saràm'ezar focus on the exploration of the under-mountains, the crafting of great works and the edification of the art of Runeforging.",
+      "The symbol of Dol Obok is a pyramid-cut emerald in a bronze setting. Many of important places in a dwarven settlement, such as at the great hall, grand market and throne room will have prominently placed gemstones to dedicate the location. Sometimes, instead of a true emerald, green glass is used if the settlement lacks the wealth for the true gemstone or if, due to the size of the heraldry, the use of a true gemstone is not possible."
     ],
-    "dmArticles": {
-      "History": [
-        "The Dwarven Kingdom of Dol Obok is comprised of numerous holds throughout the Pillars of Amud. Other dwarven holds in the central Ulfwyst have close ties or are direct offshoots of the kingdom."
+    "articles": {
+      "Clan Connections": [
+        "The dwarven kingdom of Dol Obok is comprised of numerous cities, fortresses and towns throughout the Pillars of Amud. Other dwarven holds in Ulfwyst have close ties or are direct offshoots of the kingdom, as many dwarven clans set out from their ancestral homeland to seek new places to enrich their kin. Most of these new fortresses and cities choose to remain independent, not bowing to the High King, however they still acknowledge a common ancestry and kinship."
       ]
+    },
+    "dmArticles": {
     }
   }
 }

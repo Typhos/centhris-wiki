@@ -27,8 +27,12 @@
       left: 1em;
       clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
 
+      &.noTilt {
+        clip-path: none;
+      }
+
       &.empty {
-        border: 10px solid tomato;
+        // border: 10px solid tomato;
       }
     }
 

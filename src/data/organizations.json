@@ -93,6 +93,97 @@
     "articles": {
     }
   },
+  "Garrick's-Delvers": {
+    "playerKnown": true,
+    "name": "Garrick's Delvers",
+    "nickname": "Garrick's Delvers",
+    "tags": ["guild","rakenburg","ulfwyst","adventures","dwarf"],
+    "type": "Rakenburg Guild",
+    "location": "Rakenburg",
+    "memberNumber": "~430",
+    "leaders": [
+      "Serd Garricksen",
+      "Beris Krakhammer"
+    ],
+    "description": [
+      "Garrick's Delvers is one of the 8 Major Guilds of the city-state of Rakenburg. Composed primarily of dwarves, the guild is well known for its expertise in underground exploration and rescue operations. The guild also is known to operate as mercenaries if the coin is right.",
+      "The successful survival of the dwarf hold of Zul Undrak in the Kazgrim Mountains can partly be put down to the influence of Garrick's Delvers. The leader of the expedition, when beset by a clan of Fire Giants several years into the establishment of the fortress, called upon the guild for aid and a share of the fortress' profits for several years if it survived the siege. The delvers intervened and the siege was broken."
+    ],
+    "articles": {
+    }
+  },
+  "The-Freeman's-League": {
+    "playerKnown": true,
+    "name": "The Freeman's League",
+    "nickname": "Freeman's League",
+    "tags": ["guild","rakenburg","ulfwyst","adventures","naval"],
+    "type": "Rakenburg Guild",
+    "location": "Rakenburg",
+    "memberNumber": "~750",
+    "leaders": [
+      "Dineo Meljok"
+    ],
+    "description": [
+      "The Freeman's League is one of the 8 Major Guilds of the city-state of Rakenburg. The guild primarily operates in the real of guarding trade vessels and shipping valuable cargo. The guild operates as a federated order of ship captains, with each captain being given license to operate generally as he pleases, as long as it falls within guild protocols. This can result in less morally strict captains of the guild taking work as privateers, or blockading ports when hired to do so as part of trade wars."
+    ],
+    "articles": {
+    }
+  },
+  "Twilight-Elysium": {
+    "playerKnown": true,
+    "name": "Twilight Elysium",
+    "nickname": "Twilight Elysium Guild",
+    "tags": ["guild","rakenburg","ulfwyst","adventures","mages"],
+    "type": "Rakenburg Guild",
+    "location": "Rakenburg",
+    "memberNumber": "~130",
+    "leaders": [
+      "Malthor of Draca"
+    ],
+    "description": [
+      "Twilight Elysium is one of the 8 Major Guilds of the city-state of Rakenburg. The guild is comprised primarily of mages or arcane scholars. The guild provides magical services and protection to those who can afford the rather high cost of services. Though the guild follows the Interguild Dispute Interdiction Treaty while inside Rakenburg, it has been known to violate the terms of the treaty if a job requires such an action. This morally gray approach extends to other areas of their operations, as the guild leaders turn a blind eye to dangerous magical practices, such as necromancy, the summoning and interaction with extra-dimensional beings and forbidden spells."
+    ],
+    "articles": {
+    }
+  },
+  "Venngar-Trade-Company": {
+    "playerKnown": true,
+    "name": "Venngar Trade Company",
+    "nickname": "Venngar Trade Company",
+    "tags": ["guild","rakenburg","ulfwyst","adventures","naval","trade"],
+    "type": "Rakenburg Guild",
+    "location": "Rakenburg",
+    "memberNumber": "~500",
+    "leaders": [
+      "Sven Brokkisson",
+      "Ylnga of Dundag"
+    ],
+    "description": [
+      "The Venngar Trade Company is one of the 8 Major Guilds of the city-state of Rakenburg. The guild's primary line of business is the transportation of goods and people through the waters of the Venngar Sea. The guild employs many sailors of all backgrounds, but the majority of the members of the guild are Lemurian.",
+      "During the winter months, the guild not only transports goods, but also operates in the Korin Gulf as icebreakers, helping break up and navigate the floating chunks of ice that drift around the inland sea."
+    ],
+    "articles": {
+    }
+  },
+  "Red-Moon-Order": {
+    "playerKnown": true,
+    "name": "Red Moon Order",
+    "nickname": "Order of the Red Moon",
+    "tags": ["guild","rakenburg","ulfwyst","adventures","assassins","thieves"],
+    "type": "Rakenburg Guild",
+    "location": "Rakenburg",
+    "memberNumber": "~150",
+    "leaders": [
+      "Calder Gray",
+      "Victor Quivias",
+      "Nadia Vernon"
+    ],
+    "description": [
+      "The Red Moon Order is one of the 8 Major Guilds of the city-state of Rakenburg. The Order is the most clandestine of the guilds of Rakenburg and only through the regular oversight of the 7 other Major Guilds does the order provide insight into its operations. Specializing in espionage, theft and even assassination, the guild's status is often under debate by the minor guilds, hoping that the guild's expulsion would open up a seat on the Guild Council of Rakenburg. The calls have fallen on deaf ears up to this point, as the Red Moon Order has never violated the Interguild Dispute Interdiction Treaty upon which grounds for dismissal from the council could be levied."
+    ],
+    "articles": {
+    }
+  },
   "Knights-of-the-Sacred-Dawn": {
     "playerKnown": false,
     "name": "Knights of the Sacred Dawn",

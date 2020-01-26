@@ -745,5 +745,33 @@
 		"description": [
 			"According to Akad the Magnificent during his brief interaction with the Adventurers in the Molten Halls, Yabtaeid is a djinn who, at one time, resided in the Free City of Venbrin."
 		]
+	},
+	"Beris-Krakhammer": {
+		"playerKnown": false,
+		"name": "Beris Krakhammer",
+		"nickname": "Beris Krakhammer",
+		"tags": ["mercenary","dwarf","fighter","Gerrick's Delvers","Rakenburg"],
+		"age": "205",
+		"gender": "Male",
+		"race": "Dwarf",
+		"occupation": "Mercenary",
+		"affiliations": ["Gerrick's Delvers"],
+		"description": [
+			"Beris Krakhammer is one of the mercenary captains of Gerrick's Delvers, one of the 8 Major Guilds operating in the city of Rakenburg on the Barrier Coast."
+		]
+	},
+	"Nadia-Vernon": {
+		"playerKnown": false,
+		"name": "Nadia Vernon",
+		"nickname": "Nadia Vernon",
+		"tags": ["assassin","half-elf","rogue","Red Moon Order","Rakenburg"],
+		"age": "58",
+		"gender": "Female",
+		"race": "Half-Elf",
+		"occupation": "Red Moon Guild Member",
+		"affiliations": ["Red Moon Order"],
+		"description": [
+			"Nadia Vernon is a leader of the Red Moon Order, one of the 8 Major Guilds operating in the city of Rakenburg on the Barrier Coast. When she appears in public, which is a rare sight, she dresses in black, with two rapiers on her hip."
+		]
 	}
 }

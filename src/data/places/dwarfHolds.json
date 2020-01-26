@@ -147,15 +147,84 @@
     "population": "~3,900",
     "races": ["dwarf","human","halfling"],
     "government": "Hereditary Monarchy",
-    "location": "Pillars of Amud",
-    "nation": "Dol Obok",
-    "leaders": ["Thane Soksy Thundershod"],
+    "location": "Jordonis Mountains",
+    "nation": "Independent",
+    "leaders": ["Lord Tarmis Doomsong"],
     "districts": [""],
     "description": [
     ],
     "dmArticles": {
       "History": [
-        "The city of Isidar Hreth is a dwarf hold under Mount XYZZ in the Pillars of Amud."
+        "The city of Kazdan Ord is a dwarf hold under Mount XYZZ in the Jordonis Mountains."
+      ]
+    }
+  },
+  "Izor-Kheluz": {
+    "playerKnown": false,
+    "name": "Izor Kheluz",
+    "nickname": "Dwarf Hold of Izor Kheluz",
+    "linkingWords": ["Kheluzian"],
+    "tags": ["dwarf hold","jordonis mountains","ulfwyst"],
+    "type": "Dwarf Hold",
+    "currency": "Barrier Coast Leo",
+    "population": "~850",
+    "races": ["dwarf","human","halfling"],
+    "government": "Hereditary Monarchy",
+    "location": "Jordonis Mountains",
+    "nation": "Independent",
+    "leaders": ["Lady Lalliss Stormrock"],
+    "districts": [""],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The town of Izor Kheluz is a dwarf hold at the foot of Mount XYZZ in the Jordonis Mountains."
+      ]
+    }
+  },
+  "Ezhekal": {
+    "playerKnown": false,
+    "name": "Ezhekal",
+    "nickname": "Dwarf Hold of Izor Kheluz",
+    "linkingWords": ["Ezhekaler"],
+    "tags": ["dwarf hold","jordonis mountains","ulfwyst"],
+    "type": "Dwarf Hold",
+    "currency": "Barrier Coast Leo",
+    "population": "~1,600",
+    "races": ["dwarf","human","halfling"],
+    "government": "Hereditary Monarchy",
+    "location": "Jordonis Mountains",
+    "nation": "Independent",
+    "leaders": ["Lord Ugreth Starkheart"],
+    "districts": [""],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The town of Ezhekal is a dwarf hold at the foot of Mount XYZZ in the Jordonis Mountains."
+      ]
+    }
+  },
+  "Rul-Undrak": {
+    "playerKnown": false,
+    "name": "Rul Undrak",
+    "nickname": "Dwarf Hold of Rul Undrak",
+    "linkingWords": ["Undrakon"],
+    "tags": ["dwarf hold","kazgrim mountains","ulfwyst"],
+    "type": "Dwarf Hold",
+    "currency": "Zurastian Helm",
+    "population": "~560",
+    "races": ["dwarf","human","halfling","gnome"],
+    "government": "Hereditary Monarchy",
+    "location": "Kazgrim Mountains",
+    "nation": "Independent",
+    "leaders": ["Lord Doran Ashenforge"],
+    "districts": [""],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The dwarven fortress of Rul Undrak is a hard-fought foothold of the dwarven people in the Kazgri Mountains. The dwarves of Rul Undrak have been slowly shaping the fortress out of the foot of Mount Ulzanos."
       ]
     }
   }
