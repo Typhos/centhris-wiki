@@ -31,12 +31,23 @@ article.location {
       font-family: $headingText;
     }
 
-    img.portrait {
-      display: inline-block;
-      height: auto;
-      width: 100%;
-      border-top: 1px solid $blueLight;
-      border-bottom: 1px solid $blueLight;
+    .container {
+      position: relative;
+
+      img.portrait {
+        display: inline-block;
+        height: auto;
+        width: 100%;
+        border-top: 1px solid $blueLight;
+        border-bottom: 1px solid $blueLight;
+      }
+
+      img.crest {
+        position: absolute;
+        width: 33%;
+        right: 5%;
+        top: 5%;
+      }
     }
 
     

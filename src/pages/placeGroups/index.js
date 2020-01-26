@@ -15,6 +15,7 @@ import cityStates from 'data/places/cityStates';
 import settlements from 'data/places/settlements';
 import dungeons from 'data/places/dungeons';
 import fortifications from 'data/places/fortifications';
+import dwarfHolds from 'data/places/dwarfHolds';
 
 const images = require.context('../../img/places/', true);
 
@@ -23,7 +24,7 @@ class Places extends Component {
   constructor (props) {
     super(props);
 
-    const combinedPlaces = {...cityDistricts, ...structures,...dungeons, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications};
+    const combinedPlaces = {...cityDistricts, ...structures,...dungeons, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications, ...dwarfHolds};
 
     // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
     let filteredOutput = {};

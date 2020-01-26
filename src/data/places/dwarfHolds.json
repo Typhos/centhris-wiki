@@ -1,0 +1,162 @@
+{
+  "Tronj'und": {
+    "playerKnown": false,
+    "name": "Tronj'und",
+    "nickname": "Dwarf Hold of Tronj'und",
+    "linkingWords": ["Troj'undian"],
+    "tags": ["dwarf hold","torick peaks","ulfwyst"],
+    "type": "Dwarf Hold",
+    "currency": "Amuddurin",
+    "population": "~8,200",
+    "races": ["dwarf","human","uklang","half-orc"],
+    "government": "Hereditary Monarchy",
+    "location": "Torick Peaks",
+    "leaders": ["Thane Vigdis Elderbeard"],
+    "districts": ["Anriz Adil","Deepfalls","Ziril Okun"],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The city of Tronj'und is a dwarf hold under Mount Certunsk in the Torick Peaks."
+      ]
+    }
+  },
+  "Thellodur": {
+    "playerKnown": false,
+    "name": "Thellodur",
+    "nickname": "Dwarf Hold of Thellodur",
+    "linkingWords": ["Thellodurian"],
+    "tags": ["dwarf hold","pillars of amud","ulfwyst","capital"],
+    "type": "Dwarf Hold",
+    "currency": "Amuddurin",
+    "population": "~22,400",
+    "races": ["dwarf","human","halfling"],
+    "government": "Hereditary Monarchy",
+    "location": "Pillars of Amud",
+    "nation": "Dol Obok",
+    "leaders": ["High King Bramdur Thundershod"],
+    "districts": [""],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The city of Thellodur is the capital of Dol Obok. The city is centrally located in the Pillars of Amud and is connected to the other great dwarven holds of the mountain range through a series of underground passageways that were carved millenia ago by the giants that used to rule the peaks. The dwarves of Thellodur have yet to discover or map all of the great tunnels and many delvers spend their entire careers exploring these roads."
+      ]
+    }
+  },
+  "Felrast": {
+    "playerKnown": false,
+    "name": "Felrast",
+    "nickname": "Dwarf Hold of Felrast",
+    "linkingWords": ["Felrastian"],
+    "tags": ["dwarf hold","pillars of amud","ulfwyst"],
+    "type": "Dwarf Hold",
+    "currency": "Amuddurin",
+    "population": "~7,800",
+    "races": ["dwarf","human","halfling"],
+    "government": "Hereditary Monarchy",
+    "location": "Pillars of Amud",
+    "nation": "Dol Obok",
+    "leaders": ["Thane Gimmyl Wyrmbreaker"],
+    "districts": [""],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The city of Felrast is a dwarf hold under Mount XYZZ in the Pillars of Amud."
+      ]
+    }
+  },
+  "Nak-Orodum": {
+    "playerKnown": false,
+    "name": "Nak Orodum",
+    "nickname": "Dwarf Hold of Nak Orodum",
+    "linkingWords": ["Orodumin"],
+    "tags": ["dwarf hold","pillars of amud","ulfwyst"],
+    "type": "Dwarf Hold",
+    "currency": "Amuddurin",
+    "population": "~1,900",
+    "races": ["dwarf","human","halfling"],
+    "government": "Hereditary Monarchy",
+    "location": "Pillars of Amud",
+    "nation": "Dol Obok",
+    "leaders": ["Thane Jarvari Frostbeard"],
+    "districts": [""],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The city of Nak Orodum is a dwarf hold under Mount XYZZ in the Pillars of Amud."
+      ]
+    }
+  },
+  "Lanok": {
+    "playerKnown": false,
+    "name": "Lanok",
+    "nickname": "Dwarf Hold of Lanok",
+    "linkingWords": ["Lanokian"],
+    "tags": ["dwarf hold","pillars of amud","ulfwyst"],
+    "type": "Dwarf Hold",
+    "currency": "Amuddurin",
+    "population": "~2,300",
+    "races": ["dwarf","human","halfling"],
+    "government": "Hereditary Monarchy",
+    "location": "Pillars of Amud",
+    "nation": "Dol Obok",
+    "leaders": ["Thane Recha Yewhammer"],
+    "districts": [""],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The city of Tronj'und is a dwarf hold under Mount XYZZ in the Pillars of Amud."
+      ]
+    }
+  },
+  "Isidar-Hreth": {
+    "playerKnown": false,
+    "name": "Isidar Hreth",
+    "nickname": "Dwarf Hold of Isidar Hreth",
+    "linkingWords": ["Hrethen"],
+    "tags": ["dwarf hold","pillars of amud","ulfwyst"],
+    "type": "Dwarf Hold",
+    "currency": "Amuddurin",
+    "population": "~3,900",
+    "races": ["dwarf","human","halfling"],
+    "government": "Hereditary Monarchy",
+    "location": "Pillars of Amud",
+    "nation": "Dol Obok",
+    "leaders": ["Thane Soksy Thundershod"],
+    "districts": [""],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The city of Isidar Hreth is a dwarf hold under Mount XYZZ in the Pillars of Amud."
+      ]
+    }
+  },
+  "Kazdan-Ord": {
+    "playerKnown": false,
+    "name": "Kazdan Ord",
+    "nickname": "Dwarf Hold of Kazdan Ord",
+    "linkingWords": ["Ordian"],
+    "tags": ["dwarf hold","jordonis mountains","ulfwyst"],
+    "type": "Dwarf Hold",
+    "currency": "Barrier Coast Leo",
+    "population": "~3,900",
+    "races": ["dwarf","human","halfling"],
+    "government": "Hereditary Monarchy",
+    "location": "Pillars of Amud",
+    "nation": "Dol Obok",
+    "leaders": ["Thane Soksy Thundershod"],
+    "districts": [""],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The city of Isidar Hreth is a dwarf hold under Mount XYZZ in the Pillars of Amud."
+      ]
+    }
+  }
+}

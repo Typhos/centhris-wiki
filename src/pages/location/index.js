@@ -14,9 +14,11 @@ import cityStates from 'data/places/cityStates';
 import settlements from 'data/places/settlements';
 import dungeons from 'data/places/dungeons';
 import fortifications from 'data/places/fortifications';
+import dwarfHolds from 'data/places/dwarfHolds';
 
 console.log(structures)
 
+const crests = require.context('img/crests/', true);
 const images = require.context('img/places/', true);
 const maps = require.context('img/maps/', true);
 
@@ -25,7 +27,7 @@ class Location extends Component {
   constructor(props) {
     super(props);
 
-    const combinedPlaces = {...cityDistricts, ...dungeons, ...structures, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications};
+    const combinedPlaces = {...cityDistricts, ...dungeons, ...structures, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications, ...dwarfHolds};
 
     this.state = {
       combinedPlaces: combinedPlaces,
@@ -38,7 +40,7 @@ class Location extends Component {
   }
 
   UNSAFE_componentWillReceiveProps(nextProps){
-    const combinedPlaces = {...cityDistricts, ...structures,...dungeons, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications};
+    const combinedPlaces = {...cityDistricts, ...structures,...dungeons, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications, ...dwarfHolds};
 
     if ( this.state.pathname !== nextProps.location.pathname) {
       this.setState({
@@ -82,80 +84,91 @@ class Location extends Component {
             <h2 className="fullName">{location.name}</h2>
             <aside className="infoBox">
               { nickname() }          
-              <img className="portrait" alt="" src={ images('./' + location.name.replace(/\s/g,"-") + '.png') }/>
-              { (location.type) ? 
+              <div className="container">
+                <img className="portrait" alt="" src={ images('./' + location.name.replace(/\s/g,"-") + '.png') }/>
+                { location.type === 'State' &&
+                  <img className="crest" alt="" src={ crests('./' + location.name.replace(/\s/g,"-") + '.png') }/>
+                }
+              </div>
+              { location.type &&  
                 <div className="info">
                   <p className="key">Type</p>
                   <p className="values">{location.type}</p>
-                </div> : "" 
+                </div>
               }
-              { (location.population) ? 
+              { location.population && 
                 <div className="info">
                   <p className="key">Population</p>
                   <p className="values">{location.population}</p>
-                </div> : "" 
+                </div> 
               }
-              { (location.government) ? 
+              { location.government &&
                 <div className="info">
                   <p className="key">Government</p>
                   <p className="values">{location.government}</p>
-                </div> : "" 
+                </div>
               }
-              { (location.currency) ? 
+              { location.currency && 
                 <div className="info">
                   <p className="key">Currency</p>
                   <p className="values">{location.currency}</p>
-                </div> : "" 
+                </div>
               }
-              { (location.capital) ? 
+              { location.capital && 
                 <div className="info">
                   <p className="key">Capital City</p>
                   <div className="values">{WikiUtils.linkContent(location, location.capital)}</div>
-                </div> : "" 
+                </div>
               }
-              { (location.leaders) ? 
+              { location.leaders && 
                 <div className="info">
                   <p className="key">Leader(s)</p>
                   <div className="values">{WikiUtils.linkContent(location, location.leaders)}</div>
-                </div> : "" 
+                </div>
               }
-              { (location.districts) ? 
+              { location.districts && 
                 <div className="info">
                   <p className="key">Districts</p>
                   <div className="values">{WikiUtils.linkContent(location, location.districts)}</div>
-                </div> : "" 
+                </div>
               }
-              { (location.races) ? 
+              { location.cities && 
+                <div className="info">
+                  <p className="key">Districts</p>
+                  <div className="values">{WikiUtils.linkContent(location, location.cities)}</div>
+                </div>
+              }
+              { location.races && 
                 <div className="info">
                   <p className="key">Race(s)</p>
                   <div className="races values">{WikiUtils.linkContent(location, location.races)}</div>
-                </div> : "" 
+                </div>
               }
-              { (location.nation) ? 
+              { location.nation &&  
                 <div className="info">
                   <p className="key">State</p>
                   <div className="values">{WikiUtils.linkContent(location, location.nation)}</div>
-                </div> : "" 
+                </div>
               }
-              { (location.location) ? 
+              { location.location && 
                 <div className="info">
                   <p className="key">Location</p>
                   <div className="values">{WikiUtils.linkContent(location, location.location)}</div>
-                </div> : "" 
+                </div>
               }
-              { (location.regions) ? 
+              { location.regions && 
                 <div className="info">
                   <p className="key">Regions</p>
                   <div className="values">{WikiUtils.linkContent(location, location.regions)}</div>
-                </div> : "" 
+                </div>
               }
-              { (location.additionalImages) ? additionalImages : ""}
-              { (location.map) ? 
+              { location.additionalImages && additionalImages }
+              { location.map && 
                 <div className="info mapBox">
                   <a href={ maps(`./${location.map}.png`) }>
                     <img alt="map" className="map" src={maps(`./${location.map}.png`)}/>
                   </a>
-                </div> : "" 
+                </div>
               }
             </aside>
             <div className="mainContent">

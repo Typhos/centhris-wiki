@@ -4,7 +4,7 @@
     "name": "Kingdom of Navolin",
     "nickname": "Navolin",
     "linkingWords": ["Navolinian"],
-    "tags": ["kingdom","navolin","state","ulfwyst"],
+    "tags": ["kingdom","navolin","state","ulfwyst","monarchy"],
     "type": "State",
     "currency": "Navolinian Talon",
     "capital": "Frecyra",
@@ -24,7 +24,7 @@
   },
   "Archduchy-of-Zurast": {
     "playerKnown": true,
-    "tags": ["archduchy","state","ulfwyst"],
+    "tags": ["archduchy","state","ulfwyst","monarchy"],
     "name": "Archduchy of Zurast",
     "nickname": "Zurast",
     "type": "State",
@@ -42,7 +42,7 @@
   },
   "Kingdom-of-Lemuria": {
     "playerKnown": true,
-    "tags": ["kingdom","state","ulfwyst"],
+    "tags": ["kingdom","state","ulfwyst","monarchy"],
     "name": "Kingdom of Lemuria",
     "nickname": "Lemuria",
     "type": "State",
@@ -104,7 +104,7 @@
   },
   "Tovanis": {
     "playerKnown": true,
-    "tags": ["kingdom","state","ulfwyst"],
+    "tags": ["state","ulfwyst","theocracy"],
     "name": "Tovanis",
     "nickname": "Realm of Tovanis",
     "linkingWords": ["Tovanian"],
@@ -141,7 +141,7 @@
   },
   "Syrothian-Empire": {
     "playerKnown": true,
-    "tags": ["empire","state","ulfwyst","hobgoblins"],
+    "tags": ["empire","state","ulfwyst","hobgoblins","monarchy"],
     "name": "Syrothian Empire",
     "nickname": "Syrothia",
     "linkingWords": ["Syrothian Empire","Syrothian"],
@@ -173,7 +173,7 @@
     "name": "Kingdom of Abbasyr",
     "nickname": "Abbasyr",
     "linkingWords": ["Abbasyri"],
-    "tags": ["kingdom","Abbasyr","state","ulfwyst"],
+    "tags": ["kingdom","Abbasyr","state","ulfwyst","monarchy"],
     "type": "State",
     "capital": "Khezrabad",
     "currency": "Abbasyri Shinx",
@@ -190,5 +190,52 @@
         "The Kingdom of Abbasyr is a large, feudal state located in Western Ulfwyst. "
       ]
     }
-  }  
+  },
+  "Kaeldrin-Sanctum": {
+    "playerKnown": false,
+    "name": "Kaeldrin Sanctum",
+    "nickname": "Kaeldrin",
+    "linkingWords": ["the Sanctum","the Mage Sanctum"],
+    "tags": ["state","ulfwyst","magocracy"],
+    "type": "State",
+    "capital": "Irulek",
+    "currency": "Kaeldrin Eye",
+    "population": "~5.6 million",
+    "races": ["elf","human","tiefling","half-elf","gnome","halfling","dragonborn","half-orc","serbonji"],
+    "government": "Oligarchic Magocracy",
+    "location": "Ulfwyst",
+    "leaders": ["Archmage Nakiasha Cathdeiryn"],
+    "regions": ["Zavalev Mountains","Sullen Fen","Jayanti Isles","Adorra Sound","Zorebrak Peninsula"],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The Kaeldrin Sanctum is a large state located in north-central Ulfwyst. The state is famous for being ruled by a class of mages who act as a council and do not select a single permanent leader."
+      ]
+    }
+  },
+  "Dol-Obok": {
+    "playerKnown": true,
+    "name": "Dol Obok",
+    "nickname": "Dwarf Kingdom of Dol Obok",
+    "linkingWords": ["Amudian"],
+    "tags": ["kingdom","dwarf","state","ulfwyst","monarchy"],
+    "type": "State",
+    "capital": "Thellodur",
+    "currency": "Amuddurin",
+    "population": "~540,000",
+    "races": ["dwaf","human","halfling","gnome","half-elf","uklang"],
+    "government": "Hereditary Monarchy",
+    "location": "Pillars of Amud",
+    "leaders": ["High King Bramdur Thundershod"],
+    "cities": ["Thellodur","Felrast","Isidar Hreth","Lanok","Nak Orodum"],
+    "description": [
+      "The Dwarf Kingdom of Dol Obok is the largest dwarven civilization in Ulfwyst. Controlling the span of the Pillars of Amud, the dwarves of the kingdom are known for their neutrality. Instead of worrying about the politics, infighting and squabbles of outsiders, the Saràm'ezar focus on the exploration of the under-mountains, the crafting of great works and the edification of the art of Runeforging."
+    ],
+    "dmArticles": {
+      "History": [
+        "The Dwarven Kingdom of Dol Obok is comprised of numerous holds throughout the Pillars of Amud. Other dwarven holds in the central Ulfwyst have close ties or are direct offshoots of the kingdom."
+      ]
+    }
+  }
 }

@@ -1,7 +1,7 @@
 {
   "Volikgrad": {
     "playerKnown": true,
-    "tags": ["city-state","barrier coast","ulfwyst","port"],
+    "tags": ["city-state","barrier coast","ulfwyst","port","monarchy"],
     "name": "Volikgrad",
     "nickname": "Free City of Volikgrad",
     "type": "City-State",
@@ -9,6 +9,7 @@
     "districts": ["the Planks","Windpoint","Stewards Row","the Foreign Quarter","the Oakyard"],
     "races": ["human","elf","gnome","half-elf","halfling","dwarf"],
     "government": "Merchant Oligarchy",
+    "currency": "Barrier Coast Leo",
     "location": "Barrier Coast",
     "map": "Volikgrad",
     "description": [
@@ -18,13 +19,14 @@
   },
   "Rakenburg": {
     "playerKnown": true,
-    "tags": ["city-state","barrier coast","ulfwyst","port","capital"],
+    "tags": ["city-state","barrier coast","ulfwyst","port","capital","oligarchy"],
     "name": "Rakenburg",
     "nickname": "Free City of Rakenburg",
     "type": "City-State",
     "population": "~18,000",
     "races": ["human","elf","gnome","half-elf","halfling","dwarf"],
     "government": "Guild Oligarchy",
+    "currency": "Barrier Coast Leo",
     "location": "Barrier Coast",
     "districts": ["Embersky", "Ghost Orchard", "the Greenwood Quarter", "Gullhollow","Murky Reach"],
     "map": "Rakenburg",
@@ -48,13 +50,14 @@
   },
   "Braxinfurt": {
     "playerKnown": true,
-    "tags": ["city-state","barrier coast","ulfwyst","port"],
+    "tags": ["city-state","barrier coast","ulfwyst","port","republic"],
     "name": "Braxinfurt",
     "nickname": "Free City of Braxinfurt",
     "type": "City-State",
     "population": "~6,500",
     "races": ["human","dwarf","tiefling","gnome","halfling"],
     "government": "Oligarchic Republic",
+    "currency": "Barrier Coast Leo",
     "location": "Barrier Coast",
     "description": [
       "Braxinfurt is one of the five major, allied cities that comprise the alliance of Barrier Coast city-states. A true merchant republic, the city is a strange experiment in governance in the eyes of other political entities in the region. The city has a long-standing alliance with the dwarven hold of Ezhekal, located to the west in the Jordonis mountains. The two cities have traded goods, resources and elements of their cultures for hundreds of years, creating a unique blend of art, music and legal practices."
@@ -62,13 +65,14 @@
   },
   "Korasov": {
     "playerKnown": true,
-    "tags": ["city-state","barrier coast","ulfwyst","port"],
+    "tags": ["city-state","barrier coast","ulfwyst","port","monarchy"],
     "name": "Korasov",
     "nickname": "Free City of Korasov",
     "type": "City-State",
     "population": "~5000",
     "races": ["human","tiefling","dwarf","dragonborn","tortle"],
     "government": "Elective Monarchy",
+    "currency": "Barrier Coast Leo",
     "location": "Barrier Coast",
     "description": [
       "The Free City of Korasov is a city-state in the Barrier Coast region of Ulfwyst. It is the norther-most city on the barrier coast. At one time, the city was considered part of the Kingdom of Navolin. However, due to changing political climates and shrewd diplomacy, the Lord Mayor of Korasov was able to align himself with the Free Cities of the Barrier Coast. Thus, the city became independent from Navolin without a single casualty."
@@ -76,13 +80,14 @@
   },
   "Venbrin": {
     "playerKnown": true,
-    "tags": ["city-state","barrier coast","ulfwyst","port"],
+    "tags": ["city-state","barrier coast","ulfwyst","port","monarchy"],
     "name": "Venbrin",
     "nickname": "Free City of Venbrin",
     "type": "City-State",
     "population": "~2,500",
     "races": ["human","gnome","elf","dwarf","dragonborn"],
     "government": "Hereditary Monarchy",
+    "currency": "Barrier Coast Leo",
     "location": "Barrier Coast",
     "description": [
       "The Free City of Venbrin is a city-state in the Barrier Coast region of Ulfwyst. Located on the isle of Sunheim off the eastern coast of Ulfwyst, the city is home to a large number of temples, including the High Temple of the Philosopher, the Eldergrove, the Shrine of St. Bastlen and Elfin Gate Monastery."

@@ -129,5 +129,15 @@
     "leaders": ["King Kzesimir III Czak"],
     "description": [
     ]    
+  },
+  "Hall-of-the-Eternal-Saints": {
+    "playerKnown": false,
+    "tags": ["temple","building","axuros","tovanis","ulfwyst"],
+    "name": "Hall of the Eternal Saints",
+    "nickname": "Shrine to the Eternal Saints",
+    "type": "Structure",
+    "location": "Axuros",
+    "description": [
+    ]    
   }
 }

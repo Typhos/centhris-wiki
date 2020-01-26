@@ -16,11 +16,12 @@ import cityStates       from 'data/places/cityStates';
 import settlements      from 'data/places/settlements';
 import dungeons         from 'data/places/dungeons';
 import fortifications   from 'data/places/fortifications';
+import dwarfHolds       from 'data/places/dwarfHolds';
 
 
 export default class WikiUtils {
 
-  static combinedPlaces = {...structures, ...worldRegions, ...politicalStates, ...cityDistricts, ...cityStates, ...settlements, ...dungeons, ...fortifications};
+  static combinedPlaces = {...structures, ...worldRegions, ...politicalStates, ...cityDistricts, ...cityStates, ...settlements, ...dungeons, ...fortifications, ...dwarfHolds};
 
   static sortByName (arr) {
     return arr.sort( (a,b) => {

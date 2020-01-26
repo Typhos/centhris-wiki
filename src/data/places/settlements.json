@@ -66,6 +66,20 @@
       "The capital city of Lemuria, Kilurus is located on the eastern side of the Strait of Krigere."
     ]
   },
+  "Irulek": {
+    "playerKnown": true,
+    "tags": ["kaeldrin sanctum","ulfwyst","capital","city"],
+    "name": "Irulek",
+    "nickname": "Irulek",
+    "type": "Settlement",
+    "population": "~43,000",
+    "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
+    "government": "Mage Council",
+    "location": "Kaeldrin Sanctum",
+    "description": [
+      "The capital city of the Kaeldrin Sanctum, Irulek is located in north-central Ulfwyst on the Ponerno river, just a few miles away from the beginning of the Sullen Fen."
+    ]
+  },
   "Hubrynk": {
     "playerKnown": false,
     "tags": ["city-state","barrier coast","ulfwyst","port"],

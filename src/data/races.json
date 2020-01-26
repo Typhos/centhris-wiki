@@ -19,6 +19,11 @@
     "nickname": "Drow",
     "heritage": "Winter Eladrin"
   },
+  "Crag Dwarves": {
+    "name": "Saràm'ezar",
+    "nickname": "Mountain Dwarves",
+    "locations": ["Pillars of Amud","Torick Peaks","Vir Mountains","Zavalev Mountains","Jordonis Mountains"]
+  },
   "Marus": {
     "name": "Marus",
     "nickname": "Walrusfolk",

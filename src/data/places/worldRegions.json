@@ -256,5 +256,18 @@
     "description": [
       "The Torick Peaks are a small mountain range which provides a natural barrier between the Realm of Cibrin and Kingdom of Lemuria. The mountians are south of the Realm of Tovanis. The dwarven hold of Tronj'und is located under Mount Certunsk, which is located in the middle of the range."
     ]
+  },
+  "Sullen-Fen": {
+    "playerKnown": false,
+    "tags": ["swamp","region","ulfwyst","marsh","mangroves"],
+    "name": "Sullen Fen",
+    "nickname": "The Sullen Fen",
+    "linkingWords": ["Sullen Mangrove"],
+    "type": "Region",
+    "nation": ["Kaeldrin Sanctum"],
+    "location": "Ulfwyst",
+    "description": [
+      
+    ]    
   }
 }
