@@ -208,7 +208,7 @@
     "type": "Sea",
     "location": "Mare Concorids",
     "description": [
-      "The Jade Depths are a large sea that is south of the continent of Koraxon. It is a sub-region of the Mare Concorids."
+      "The Jade Depths are a large sea that is south of the continent of Koraxon. It is a sub-region of the Mare Concordis."
     ]
   },
   "Venngar-Sea": {
@@ -219,7 +219,7 @@
     "type": "Sea",
     "location": "Lemuria",
     "description": [
-      "The Venngar Sea is a large sea that is south of the Korin Gulf. It is a sub-region of the Mare Concorids"
+      "The Venngar Sea is a large sea that is south of the Korin Gulf. It is a sub-region of the Mare Concordis."
     ]
   },
   "Korin-Gulf": {
