@@ -15,7 +15,7 @@
     "name": "Glan'avar",
     "nickname": "Glân'avar",
     "commonName": "Bright Elves",
-    "type": "Elf Subrace",
+    "type": "Avar Subrace",
     "tags": ["subrace"],
     "heritage": "Summer Eladrin",
     "description": [
@@ -27,7 +27,7 @@
     "name": "Curon'avar",
     "nickname": "Cúron'avar",
     "commonName": "Silver Elves",
-    "type": "Elf Subrace",
+    "type": "Avar Subrace",
     "tags": ["subrace"],
     "heritage": "Spring Eladrin",
     "description": [
@@ -39,7 +39,7 @@
     "name": "Galenas'avar",
     "nickname": "Galenâs'avar",
     "commonName": "Wild Elves",
-    "type": "Elf Subrace",
+    "type": "Avar Subrace",
     "tags": ["subrace"],
     "heritage": "Autumn Eladrin",
     "description": [
@@ -51,7 +51,7 @@
     "name": "Aeglos'avar",
     "nickname": "Aeglôs'avar",
     "commonName": "Drow",
-    "type": "Elf Subrace",
+    "type": "Avar Subrace",
     "tags": ["subrace"],
     "heritage": "Winter Eladrin",
     "description": [
@@ -77,7 +77,7 @@
     "name": "Arol'zust",
     "nickname": "Arôl'zust",
     "commonName": "Crag Dwarves",
-    "type": "Dwarf Subrace",
+    "type": "Ziril'udor Subrace",
     "tags": ["subrace"],
     "description": [
       "Mountain, or Crag, Dwarves."
@@ -88,7 +88,7 @@
     "name": "Kulin'dak",
     "nickname": "Kulin'dák",
     "commonName": "Island Dwarves",
-    "type": "Dwarf Subrace",
+    "type": "Ziril'udor Subrace",
     "tags": ["subrace"],
     "description": [
       "Isand Dwarves."
@@ -99,7 +99,7 @@
     "name": "Omir'thunen",
     "nickname": "Omir'thunen",
     "commonName": "Hill Dwarves",
-    "type": "Dwarf Subrace",
+    "type": "Ziril'udor Subrace",
     "tags": ["subrace"],
     "description": [
       "Hill Dwarves."
