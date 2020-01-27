@@ -1,0 +1,24 @@
+{
+  "Gradiorus-Golems": {
+    "playerKnown": true,
+    "name": "Gradiorus Golems",
+    "nickname": "Gradiorus",
+    "type": "Construct",
+    "tags": ["construct","golem","arcane","magical"],
+    "imgFolder": "creatures",
+    "description": [
+      "Gradiorus Golems are arcane constructs that safeguard the city of Rakenburg. The golems stand roughly 9 feet tall and weight upwards of 400 kg (900 lbs). The golems outer hull is made of a magically-infused iron, while the inside contains numerous magical seals, mechanisms and foci to help power and control the construct.",
+      "When activated, the golems give off a faint violet glow from the inside as the magical energy that tethers their limbs to the core dances and sparks."
+    ],
+    "articles": {
+      "Sentinels of the Specula Arcanum": [
+        "The golems serve the city of Rakenburg as arcane sentinels as part of the Specula Arcanum, the Rakenburg guild responsible for the protection of the city. The Specs operate in small patrol teams and it is common for a single iron golem to accompany each team. Each team's golem is controlled by the patrol leader, who is given a magical device that lets them command the golem vocally. Should the squad become incapacitated, the Gradiorus can be controlled by the guild remotely in order to prevent hostile actors from taking control of one of the city's most powerful defensive tools."
+      ]
+    },
+    "dmArticles": {
+      "Relics of a Forgotten Age": [
+        "The Gradiorus Golems are reclaimed arcane technology of the Utharian Empire, first discovered in the Twisting Warrens by the settlers who reclaimed Rakenburg hundreds of years ago. Eskra Gradiorus, the tiefling artificer, was the first to take an interest in the constructs and through extensive research and reverse-engineering, she was able to activate and reprogram the golems to serve the city."
+      ]
+    }
+  }
+}

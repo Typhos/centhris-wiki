@@ -26,7 +26,7 @@
   },
   "Fesgart-Citadel": {
     "playerKnown": false,
-    "tags": ["castle","navolin","rythlon","ulfwyst"],
+    "tags": ["castle","navolin","frecyra","ulfwyst"],
     "name": "Fesgart Citadel",
     "nickname": "Fesgart Citadel ",
     "type": "Fortification",
@@ -34,6 +34,18 @@
     "leaders": ["Marshal Stanislaw Kaczka"],
     "description": [
       "Fesgart Citadel is the city fortress of Frecyra. Located in the middle of the city, on the Mivan hill, it provides an overlook of most of the city, and south into the Galren Moor."
+    ]
+  },
+  "Dawnguard-Keep": {
+    "playerKnown": false,
+    "tags": ["castle","rakenburg","barrier coast","ulfwyst"],
+    "name": "Dawnguard Keep",
+    "nickname": "Dawnguard Keep",
+    "type": "Fortification",
+    "location": "Rakenburg",
+    "leaders": ["Constable Gren Norusk"],
+    "description": [
+      "Dawnguard Keep is the city fortress of Rakenburg. The castle is located on the western end of the city and has defends the western approach to the city. The southern half of the city has no permanent citadel. Instead, the walls are slightly taller, with more imposing battlements which makes the approach to Dawnguard a more appealing option to any army intent on attacking the city by land."
     ]
   }
 }

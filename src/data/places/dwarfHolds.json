@@ -45,7 +45,7 @@
     }
   },
   "Felrast": {
-    "playerKnown": false,
+    "playerKnown": true,
     "name": "Felrast",
     "nickname": "Dwarf Hold of Felrast",
     "linkingWords": ["Felrastian"],
@@ -60,10 +60,17 @@
     "leaders": ["Thane Gimmyl Wyrmbreaker"],
     "districts": [""],
     "description": [
+        "The city of Felrast is a dwarf hold under Mount Delovun in the Pillars of Amud. The city overlooks the vast Iron Hills that mark the southern edge of the Pillars of Amud."
     ],
+    "articles": {
+        "City of the Smiths": [
+            "Felrast is the ancestral home of runesmithing in Dol Obok. The city has far more runesmiths per capita than any other city in Ulfwyst, and many dwarf artisans from across the continent are either natives of the city or apprenticed there in their youth. Such is the reputation of the city that nobles, knights and adventurers from across Ulfwyst will journey to Felrast to have one of the city's famous smiths forge them items inscribed with magic runes of power.",
+            "Some of the most well known smiths in Felrast include Ithi Ironjaw, Jum Flamescar and Strikmund Blackhelm."
+        ]
+    },
     "dmArticles": {
       "History": [
-        "The city of Felrast is a dwarf hold under Mount XYZZ in the Pillars of Amud."
+        
       ]
     }
   },
@@ -137,13 +144,13 @@
     }
   },
   "Kazdan-Ord": {
-    "playerKnown": false,
+    "playerKnown": true,
     "name": "Kazdan Ord",
     "nickname": "Dwarf Hold of Kazdan Ord",
     "linkingWords": ["Ordian"],
     "tags": ["dwarf hold","jordonis mountains","ulfwyst"],
     "type": "Dwarf Hold",
-    "currency": "Barrier Coast Leo",
+    "currency": "Barrier Coast Hull",
     "population": "~3,900",
     "races": ["dwarf","human","halfling"],
     "government": "Hereditary Monarchy",
@@ -166,7 +173,7 @@
     "linkingWords": ["Kheluzian"],
     "tags": ["dwarf hold","jordonis mountains","ulfwyst"],
     "type": "Dwarf Hold",
-    "currency": "Barrier Coast Leo",
+    "currency": "Barrier Coast Hull",
     "population": "~850",
     "races": ["dwarf","human","halfling"],
     "government": "Hereditary Monarchy",
@@ -189,7 +196,7 @@
     "linkingWords": ["Ezhekaler"],
     "tags": ["dwarf hold","jordonis mountains","ulfwyst"],
     "type": "Dwarf Hold",
-    "currency": "Barrier Coast Leo",
+    "currency": "Barrier Coast Hull",
     "population": "~1,600",
     "races": ["dwarf","human","halfling"],
     "government": "Hereditary Monarchy",
@@ -206,7 +213,7 @@
     }
   },
   "Rul-Undrak": {
-    "playerKnown": false,
+    "playerKnown": true,
     "name": "Rul Undrak",
     "nickname": "Dwarf Hold of Rul Undrak",
     "linkingWords": ["Undrakon"],
@@ -221,10 +228,117 @@
     "leaders": ["Lord Doran Ashenforge"],
     "districts": [""],
     "description": [
+      "The dwarven fortress of Rul Undrak is a hard-fought foothold of the dwarven people in the Kazgri Mountains. The dwarves of Rul Undrak have been slowly shaping the fortress out of the foot of Mount Ulzanos. "
+    ],
+    "articles": {
+      "The Persistence of the Ziril'udór":[
+        "For the last several centuries, dwarves across Ulfwyst have been setting out, seeking new sites to establish outposts and forge new thanedoms. Most of these expeditions were doomed to failure, as the harsh weather and deadly creatures that inhabit Ulfwyst make carving out new settlements in the wild places of the world extremely dangerous. However, eventually the persistence of the dwarven people defied the odds, and the fortress of Rul Undrak was established in the volcanic mountain of Ulzanos on the northern end of the Kazgrim range."
+      ],
+      "The Heart of the Volcano": [
+        "Mount Ulzanos, or 'Fire River' in the Ziril'udórian dialect, is currently dormant, but during the age of the First Convergence, it was one of the most active volcanoes on the continent. The various forests that sit at the foot of the Kazgrim range, the Drakenwald, Drowned Weald and Amber Grove all grew out of the fertile volcanic soil deposited by the volcanic activity.",
+        "Though the mountain is current dormant, the dwarves of Rul Undrak gone to great lengths to take advantage of their home's unique properties. A 40 year project, headed up by the master engineer Tira Stormriver, lead to the creation of huge stone shafts that channel magma from the heart of the mountain into enormous furnaces in the heart of the city. The project was commissioned by the city's lord, Doran Ashenforge, as a way to gain renown for the city, as well as to attract young, talented craftsdwarfs to the fledgling fortress. The Grand Magma Forges of Rul Undrak are widely regarded as one of the most ambitious dwarven engineering projects in the last two centuries and are available for any smith living in the city to use at no cost."
+      ],
+      "Diplomatic Relations": [
+        "Rul Undrak sit in the mountains above the Archduchy of Zurast. The mountain range has long been a no man's land due to its various deadly natural inhabitants. When the dwarven expedition that would go on to found the fortress first arrived in the city of Zurast roughly 130 years ago, the lord of Zurast, Quintis Valken, did not put any stock in the expedition. Numerous other dwarven clans had attempted to gain a foothold in the Kazgrims and there was no reason this expedition would turn out any different. The dwarves were given permission to found a settlement and if successful, they would owe nothing to the city. The nobles of Zurast simply hoped that the dwarves would provide a temporary buffer from the frequent incursions of giants, trolls and other beasts that would occasionally descend from the mountains to raid the countryside.",
+        "When the settlement proved successful, Lord Quintis Valken kept his word, asking nothing of the dwarves and offered them favorable trade agreements in hopes of fostering good will and a potential ally. The newly ascended lord of the fortress, Doran Ashenforge, graciously accepted. It is on this early, keen diplomacy that a long and mutually beneficial relationship between the two states was built.",
+        "In 2C 2573, Rul Undrak and Zurast have a formal defensive alliance. Should either the archduchy or the dwarven hold come under attack, the other has agreed to come to its aid."
+      ]
+    },
+    "dmArticles": {
+      "History": [
+        
+      ]
+    }
+  },
+  "Thuryn-Zul": {
+    "playerKnown": false,
+    "name": "Thuryn Zul",
+    "nickname": "Dwarf Hold of Thuryn Zul",
+    "linkingWords": ["Thurynian"],
+    "tags": ["dwarf hold","zavalev mountains","ulfwyst"],
+    "type": "Dwarf Hold",
+    "currency": "Kaeldrin Eye",
+    "population": "~900",
+    "races": ["dwarf","human","elf","gnome"],
+    "government": "Hereditary Monarchy",
+    "location": "Zavalev Mountains",
+    "nation": "Independent",
+    "leaders": ["Lord Brokki Snowspire"],
+    "districts": [""],
+    "description": [
     ],
     "dmArticles": {
       "History": [
-        "The dwarven fortress of Rul Undrak is a hard-fought foothold of the dwarven people in the Kazgri Mountains. The dwarves of Rul Undrak have been slowly shaping the fortress out of the foot of Mount Ulzanos."
+        "The town of Thuryn Zul is a dwarf hold under Mount XYZ in the Zavalev Mountains."
+      ]
+    }
+  },
+  "Futhmer": {
+    "playerKnown": false,
+    "name": "Futhmer",
+    "nickname": "Dwarf Hold of Fûthmér",
+    "linkingWords": ["Futhmeran"],
+    "tags": ["dwarf hold","zavalev mountains","ulfwyst"],
+    "type": "Dwarf Hold",
+    "currency": "Kaeldrin Eye",
+    "population": "~4,300",
+    "races": ["dwarf","human","elf","gnome"],
+    "government": "Hereditary Monarchy",
+    "location": "Zavalev Mountains",
+    "nation": "Independent",
+    "leaders": ["Lady Ynga Nightiron"],
+    "districts": [""],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The town of Fûthmér is a dwarf hold under Mount XYZ in the Zavalev Mountains."
+      ]
+    }
+  },
+  "Vol-Volund": {
+    "playerKnown": false,
+    "name": "Vol Volund",
+    "nickname": "Dwarf Hold of Vol Volund",
+    "linkingWords": ["Futhmeran"],
+    "tags": ["dwarf hold","vir mountains","ulfwyst"],
+    "type": "Dwarf Hold",
+    "currency": "Cibrinian Vale",
+    "population": "~900",
+    "races": ["dwarf","human","elf","gnome"],
+    "government": "Hereditary Monarchy",
+    "location": "Vir Mountains",
+    "nation": "Dol Obok",
+    "leaders": ["Lord Nezul Graybeard"],
+    "districts": [""],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The town of Fûthmér is a dwarf hold under Mount XYZ in the Zavalev Mountains."
+      ]
+    }
+  },
+  "Kadren-Zul": {
+    "playerKnown": false,
+    "name": "Kadren Zul",
+    "nickname": "Dwarf Hold of Kadren Zul",
+    "linkingWords": ["Kadrenin"],
+    "tags": ["dwarf hold","vir mountains","ulfwyst"],
+    "type": "Dwarf Hold",
+    "currency": "Cibrinian Vale",
+    "population": "~2,300",
+    "races": ["dwarf","human","elf","gnome"],
+    "government": "Hereditary Monarchy",
+    "location": "Vir Mountains",
+    "nation": "Dol Obok",
+    "leaders": ["Lord Erikoc Opalcloak"],
+    "districts": [""],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The town of Fûthmér is a dwarf hold under Mount XYZ in the Zavalev Mountains."
       ]
     }
   }

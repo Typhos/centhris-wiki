@@ -74,6 +74,9 @@
       "Specular Arcanum is one of the 8 Major Guilds of the city-state of Rakenburg. The guild's primary role in the city is to act as city watch, militia and judiciary."
     ],
     "articles": {
+      "Arcane Sentinels": [
+        "The Specula Arcanum operate in small patrol teams, ranging from three to six members, depending on the time of day, district of operation and level of possible threats to the city and the citizens therein. Assigned to most teams is an iron golem, common referred to as a Gradiorus. These large, lumbering constructs are controlled by the patrol leader, who is given a magical device that lets them command the golem vocally. Should the squad become incapacitated, the Gradiorus Golems can be controlled by the guild remotely in order to prevent hostile actors from taking control of one of the city's most powerful defensive tools."
+      ]
     }
   },
   "Jasper-Circle": {
@@ -97,7 +100,7 @@
     "playerKnown": true,
     "name": "Garrick's Delvers",
     "nickname": "Garrick's Delvers",
-    "tags": ["guild","rakenburg","ulfwyst","adventures","dwarf"],
+    "tags": ["guild","rakenburg","ulfwyst","adventures","dwarf","mercenaries"],
     "type": "Rakenburg Guild",
     "location": "Rakenburg",
     "memberNumber": "~430",
@@ -116,7 +119,7 @@
     "playerKnown": true,
     "name": "The Freeman's League",
     "nickname": "Freeman's League",
-    "tags": ["guild","rakenburg","ulfwyst","adventures","naval"],
+    "tags": ["guild","rakenburg","ulfwyst","naval","mercenaries"],
     "type": "Rakenburg Guild",
     "location": "Rakenburg",
     "memberNumber": "~750",
@@ -150,7 +153,7 @@
     "playerKnown": true,
     "name": "Venngar Trade Company",
     "nickname": "Venngar Trade Company",
-    "tags": ["guild","rakenburg","ulfwyst","adventures","naval","trade"],
+    "tags": ["guild","rakenburg","ulfwyst","naval","trade"],
     "type": "Rakenburg Guild",
     "location": "Rakenburg",
     "memberNumber": "~500",
@@ -169,7 +172,7 @@
     "playerKnown": true,
     "name": "Red Moon Order",
     "nickname": "Order of the Red Moon",
-    "tags": ["guild","rakenburg","ulfwyst","adventures","assassins","thieves"],
+    "tags": ["guild","rakenburg","ulfwyst","assassins","thieves","mercenaries"],
     "type": "Rakenburg Guild",
     "location": "Rakenburg",
     "memberNumber": "~150",

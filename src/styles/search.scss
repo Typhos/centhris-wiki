@@ -10,6 +10,14 @@ form#search {
     transition: width .5s;
     font-size: 0.8em;
   }
+
+  #clearSearch {
+    right: 1em;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+    z-index: 10;
+  }
 }
 
 

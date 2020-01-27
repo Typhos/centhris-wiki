@@ -1,33 +1,5 @@
 {
-  "the-Twisting-Warrens": {
-    "playerKnown": true,
-    "tags": ["ruins","labyrinth","ulfwyst","rakenburg","under-city","barrier coast"],
-    "name": "the Twisting Warrens",
-    "nickname": "The Twisting Warrens",
-    "type": "Dungeon",
-    "location": "Rakenburg",
-    "description": [
-      "The Twisting Warrens is a massive underground labyrinth located under the city of Rakenburg.",
-      "There are three known entrances to the dungeon. All are guarded and monitored around the clock to prevent unwitting (and suicidal) explorers from entering. In order to enter, prospective adventurers must provide an official Writ of Passage, which can be purchased from the Guild Council of Rakenburg or provided by one of the guilds which make up the city governing body.",
-      "The primary entrance to the under-city is located in the Dawnstar Fairgrounds, with smaller entrances in the Ghost Orchard and the Murky Reach."
-    ],
-    "monsters": {
-      "Undercity Medusa": "https://5e.tools/bestiary/undercity-medusa-ggr.html",
-      "Fell Knight": "Chaos Knight - Fifth Edition Foes p.55",
-      "Skullbat": "Chaos Knight - Critter Compendium p.187"
-    }
-  },
-  "the-Molten-Halls": {
-    "playerKnown": true,
-    "tags": ["ruins","palace","ulfwyst","jordonis","efreet","barrier coast"],
-    "name": "the Molten Halls",
-    "nickname": "Molten Halls of Akad",
-    "type": "Dungeon",
-    "location": "Jordonis Mountains",
-    "description": [
-      "The Molten Halls were once the palace of Akad the Magnificent, an efreet who ruled an area of the southern Jordonis Mountains several thousand years ago."
-    ]
-  },
+  
   "Grotto-of-the-Withered-Eye": {
     "playerKnown": true,
     "tags": ["ruins","cave","ulfwyst","rythlon","navolin"],
@@ -49,6 +21,65 @@
         "The group spoke at length with the fiend, though they were not able to physically see him, attempting to understand why he was there. After a frustrating series of riddles, half-answers and temptations, the band decided to leave. Mortified of being left to rot in his prison once again, the devil offered to bind himself to the group with a favor if they broke one of the two seals that trapped him in the room.",
         "Though most of the Adventurers felt this was too dangerous, Evan-Jakob agreed and destroyed one of the magic circles with his sword. The devil, bound to keep his end of the bargain, requested an item through which he could be contacted when the group wished to call in their favor. The warlock produced a deck of cards and produced the King of Hearts from the deck. The devil then slashed its hand and allowed a few droplets of blood to land on the playing card. The Bloody King of Hearts, now so named, then vanished from sight once again, now free to roam the Material Plane once again."
       ]
+    }
+  },
+  "the-Molten-Halls": {
+    "playerKnown": true,
+    "tags": ["ruins","palace","ulfwyst","jordonis","efreet","barrier coast"],
+    "name": "the Molten Halls",
+    "nickname": "Molten Halls of Akad",
+    "type": "Dungeon",
+    "location": "Jordonis Mountains",
+    "description": [
+      "The Molten Halls were once the palace of Akad the Magnificent, an efreet who ruled an area of the southern Jordonis Mountains several thousand years ago. In their original state the Molten Halls were a huge, regal complex of basalt rock inlaid with dazzling bronze motifs. After Akad was banished from the material plane by the wizards Amabilis & Menodora, the palace was quickly forgotten. Before leaving the palace, the wizards damaged the palace's inter-dimensional waygate, ensuring that no creatures from the City of Brass or the Elemental Plane of Fire could return to the Palace."
+    ],
+    "articles": {
+      "Design & Layout": [
+        "The Molten Halls were formed at the base of the Jordonis Mountains. Not truly constructed, instead the halls were shaped by the elemental powers of its master and his servants. Mamga from deep underground was brought up from the lower places of the word to flow freely through the palace. The result is a strangely beautiful sight, but one that is difficult to withstand physically. The interior of the palace is insufferably hot and most mortals can only spend a limit amount of time within before suffering the ill effects.",
+        "The palace itself consists of a variety of opulent corridors, audience chambers and lounges. The functional rooms of the palace were limited to only a few important spaces. These include the Waygate Bridge, the Blazing Forge, the Rookery, the Magma Baths, the Mercury Vault and the Molten Throne Room."
+      ],
+      "The Mercury Vault": [
+        "If there is one room in the entire palace that has intrigued would-be explorers for centuries, it is the Mercury Vault of the Molten Halls. Fabled to be an enormous pool of super-heated mercury somewhere in the halls, the vault is where the efreet lord stored his most valuable magical artifacts, which were unaffected by the corrosive vapors or extreme heat of the pool. Scholars disagree on how deep the pool must be, but it is assumed to be between ten and twenty feet deep. The pool is not enough to melt most living beings on contact with the surface and the vault room itself is filled with a lingering noxious vapor. Exposure for more than a few minutes is enough to cause the neurological and behavior changes associated with mercury poisoning.",
+        "Though unaffected by the heat or hazardous nature of the vault, Akad the Magnificent was far too proud to store and retrieve things from his vault in his own palace. As such, he conscripted two Azer, Uster and Tyda, which were bonded to his service to serve as valets in the Vault. These beings were magically bound to the room and have remained in the halls even after Akad's banishment.",
+        "It is unknown exactly what kind or how much treasure is still under the surface of the super-heated mercury, but few have determined an effective means of retrieving anything that might still remain within."
+      ]
+    }
+  },
+  "the-Twisting-Warrens": {
+    "playerKnown": true,
+    "tags": ["ruins","labyrinth","ulfwyst","rakenburg","under-city","barrier coast"],
+    "name": "the Twisting Warrens",
+    "nickname": "The Twisting Warrens",
+    "type": "Dungeon",
+    "location": "Rakenburg",
+    "description": [
+      "The Twisting Warrens is a massive underground labyrinth located under the city of Rakenburg.",
+      "There are three known entrances to the dungeon. All are guarded and monitored around the clock to prevent unwitting (and suicidal) explorers from entering. In order to enter, prospective adventurers must provide an official Writ of Passage, which can be purchased from the Guild Council of Rakenburg or provided by one of the guilds which make up the city governing body.",
+      "The primary entrance to the under-city is located in the Dawnstar Fairgrounds, with smaller entrances in the Ghost Orchard and the Murky Reach."
+    ],
+    "dmArticles": {
+      "Remnants of the Utharian Empire": [
+        "The Twisting Warrens was once a city belonging to the legendary Utharian Empire which spanned across all of Centhris. The city, known as Vesunna, numbered around 18,000 residents and was considered small by Utharian standards. The city was ruled by the mage-lord Castra Diolanum, a powerful tiefling sorcerer."
+      ],
+      "Twisted Experiments": [
+        "Diolanum and his associates were all powerful mages obsessed with creating more perfect hosts for themselves. Knowing the risks of beginning their experiments on relative weak mortals, the mages instead experimented on a variety of creatures which they deemed worth 'upgrading'. They experiments were met with both intriguing successes and horrifying failures.",
+        "Eventually, once they were satisfied with more mundane creatures, the mages moved on to attempting to improve creatures that were already considered to be at the apex of creation. Creatures that garnered interest included the sphinx, roc, remorhaz and dragon. Diolanum's experiments led to a variety of variant sub-species, includeing the Storm Roc, the Sand Remorhaz, and the Dracolisk.",
+        "As the researchers grew bolder, their experiments turned to humanoids. Successful experiments with humanoid races led to the creation of a variety of unusual hybrid species, including the Anubari, the Sêrbonji, and the Uklang. Failures were discarded remorselessly into the bowels of the city, and while some perished, other thrived as a twisted mutants. The worst failures of experiments gone wrong were treated even more harshly. If a subject was deemed too violet, deadly, or aberrant, the mages would exile it into the Shadowfell, forever to wander in the a dark, twisted nightmare realm. Though cruel, the cabal deemed this the most efficient way to ensure that these failures could not escape and harm the people of Vesunna."
+      ],
+      "Utharian Golems": [
+        "Far more magically and technologically advanced than today, the mages of the Utharian Empire managed incredible displays of arcane power. Among some of the most impressive was the efficient mass creation of iron golems for use around the empire. These golems, known to the Utharian as Ferrum Virorum Fortium (Valiant Iron Soldiers), became a stable of Utharian life during the height of the Imperium. Every major city in the empire, as well as most noble estates and arcane centers of learning were provided with golems to patrol and defend from outside threats.",
+        "After the Ruination of Centhris and the fall of the empire, the golems became dormant. Many were simply harvested by the surviving peoples in the decades that followed, as they were an excellent source of high quality metals and the knowledge of the magic that powered the creatures had been effectively lost.",
+        "Not all of the Ferrum Virorum Fortium were destroyed. In places that were completely abandoned or devastated by the Ruination, the golems were simply forgotten. Magical in nature, they did not deteriorate or rust. In these forgotten places, they waited for a new master."
+      ],
+      "The Gradiori": [
+        "When Rakenburg was resettled, the old city ruins were well over 1,000 years old. The first settlers assumed that the iron hulks scattered about the ruins were still active and avoided them extensively. It was with the arrival of the tiefling Artificer Eskra Gradiorus in 2C 2215 that this changed. Gradiorus, an inquisitive inventor, was immediately taken by the golems and paid several men 30 hulls each to carry one across the Kamsby to her workshop. Over the next several years, the tiefling worked tirelessly to reverse engineer the techniques used in the golem's creation and activation. In 2C 2227, 12 years after the golem was first hauled to her workshop, Eskra was able to reactivate a Ferrum Virorum Fortium for the first time in a millenia.",
+        "After numerous years of working in relative isolation, Artificer Gradiorus became a founding member of the Specular Arcanum. Bringing her expertise to her new job, she began the mass re-purposing of the ancient golems of Vesunna to serve the contemporary residents of the city. Linking all of the golems to a central control system, the artificer reprogrammed the constructs, now dubbed Gradiorus Golems or Gradiori after her, to contain the complete city code of Rakenburg, follow the commands of Spec officers, and operate as autonomous units if required."
+      ]
+    },
+    "monsters": {
+      "Undercity Medusa": "https://5e.tools/bestiary/undercity-medusa-ggr.html",
+      "Fell Knight": "Chaos Knight - Fifth Edition Foes p.55",
+      "Skullbat": "Chaos Knight - Critter Compendium p.187"
     }
   }
 }

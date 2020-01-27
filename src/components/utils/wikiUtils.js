@@ -1,11 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import peopleData from "data/people";
-import characterData from 'data/characters';
-import loreData from 'data/lore';
-import orgData from 'data/organizations';
-import dwarfRunes from '../../data/characters';
+import peopleData       from "data/people";
+import characterData    from 'data/characters';
+
+import loreData         from 'data/lore/events';
+import godsData         from 'data/lore/gods';
+import racesData        from 'data/lore/races';
+import eventsData       from 'data/organizations';
+import creaturesData from 'data/lore/creatures';
+
+import orgData          from 'data/organizations';
+// import dwarfRunes from '../../data/characters';
 
 // ==== ALL DATA IMPORTS FOR LOCATIONS
 import structures       from 'data/places/structures';
@@ -21,7 +27,8 @@ import dwarfHolds       from 'data/places/dwarfHolds';
 
 export default class WikiUtils {
 
-  static combinedPlaces = {...structures, ...worldRegions, ...politicalStates, ...cityDistricts, ...cityStates, ...settlements, ...dungeons, ...fortifications, ...dwarfHolds};
+  static combinedPlaces = {...structures, ...worldRegions, ...cityDistricts, ...cityStates, ...settlements, ...dungeons, ...fortifications, ...dwarfHolds, ...politicalStates};
+  static combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData};
 
   static sortByName (arr) {
     return arr.sort( (a,b) => {
@@ -49,6 +56,7 @@ export default class WikiUtils {
         "person": peopleData,
         "player-character": characterData,
         "group": orgData,
+        "lore": this.combinedLore,
         "location": this.combinedPlaces
         // "races": raceData,
       };

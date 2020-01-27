@@ -44,8 +44,8 @@ article.location {
 
       img.crest {
         position: absolute;
-        width: 33%;
-        max-width: 7.5em;
+        width: 45%;
+        max-width: 10em;
         right: 5%;
         top: 5%;
       }
@@ -67,20 +67,32 @@ article.location {
         line-height: 1.75em;
       }
 
+      &.currency {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+
+        .coinImage {
+          width: 33%;
+          max-width: 6.5em;
+          margin-right: 3.5%;
+        }
+      }
+
       p.key,
       .values {
-        padding: 0.5em 0.5em;
+        line-height: 1.75em; 
+        padding: 0.15em 2%;
         margin: 0;
         display: inline-block;
       }
 
       p.key {
         font-weight: 700;
-        width: 40%;
+        width: 36%;
       }
 
       .values {
-        width: 60%;
+        width: 56%;
         text-align: right;
 
         &.races {

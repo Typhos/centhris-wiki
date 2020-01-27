@@ -56,7 +56,9 @@ class OrganizationGroups extends Component {
     const categories = this.state.categories.map( category => {
       return (
         <div className="category">
-          <h2 className="sectionTitle">{category}s</h2>
+          { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 &&
+            <h2 className="sectionTitle">{category}s</h2>
+          }
           <ul className="sectionList">
             {this.getEntriesByCategory(category)}
           </ul>
@@ -67,7 +69,7 @@ class OrganizationGroups extends Component {
     return (
       <Page.People>
         
-        {/*<Search handleSearch={ this.handleSearch } />*/}
+        <Search handleSearch={ this.handleSearch }  data={orgData}/>
 
         <h2 className="sectionGroup">Organizations & Groups</h2>
         <div id="organizations" >
@@ -93,37 +95,8 @@ class OrganizationGroups extends Component {
     });
   }
 
-  handleSearch(e) {
-    const searchTerm = e.target.value.toLowerCase();
-    let sortable = [];
-    let results = [];
-
-    for (let key in peopleData) {
-      sortable.push([key, peopleData[key]]);
-    }
-
-    sortable.sort( (a,b) => {
-      if (a[1].name > b[1].name) {
-        return 1;
-      } else if (a[1].name < b[1].name) {
-        return -1;
-      } else {
-        return 0;
-      }
-    });
-
-    sortable.map( ent => {
-      const key = ent[0];
-      const entry = ent[1];
-
-      if ( entry.playerKnown && (entry.tags.some( tag => tag.toLowerCase().includes(searchTerm) ) || entry.name.toLowerCase().includes(searchTerm) || entry.nickname.toLowerCase().includes(searchTerm) ) ) {
-        results.push( key );
-      }
-      return true;
-    });
-
-    results = WikiUtils.sortByName(results);
-    this.setState({people: results})
+  handleSearch(results) {
+    this.setState({orgs: results});
   }
 
 }

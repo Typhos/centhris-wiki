@@ -76,6 +76,50 @@
       "The major political elements in the region are the Free City-States of the Barrier Coast. These loosely affiliated city-states maintain their independence from each other, but share a common culture and a defensive alliance against outside aggression from other regional powers. The major city-states that comprise this alliance are Braxinfurt, Korasov, Rakenburg, Venbrin and Volikgrad."
     ]    
   },
+  "Mare-Concordis": {
+    "playerKnown": true,
+    "tags": ["region","ocean","Centhris"],
+    "name": "Mare Concordis",
+    "nickname": "Mare Concordis",
+    "type": "Ocean",
+    "location": "Centhris",
+    "description": [
+      "The Mare Concordis is the largest ocean on Centhris, spanning from the eastern coast of Ulfwyst to the western coast of Cuncascus and the southern coast of Eastern Koraxon."
+    ]    
+  },
+  "Mare-Umbra": {
+    "playerKnown": false,
+    "tags": ["region","ocean","Centhris"],
+    "name": "Mare Umbra",
+    "nickname": "Mare Umbra",
+    "type": "Ocean",
+    "location": "Centhris",
+    "description": [
+      "The Mare Umbra is an ocean on Centhris, spanning from the eastern coast of Koraxon to the western coasts of Cuncascus and Entos."
+    ]    
+  },
+  "Mare-Dyskira": {
+    "playerKnown": false,
+    "tags": ["region","ocean","Centhris"],
+    "name": "Mare Dyskira",
+    "nickname": "Mare Dyskira",
+    "type": "Ocean",
+    "location": "Centhris",
+    "description": [
+      "The Mare Dyskira is an ocean on Centhris, spanning from the wester coasts of Ulfwyst to the southern coast of Cuncascus."
+    ]    
+  },
+  "Mare-Damnatis": {
+    "playerKnown": false,
+    "tags": ["region","ocean","Centhris"],
+    "name": "Mare Damnatis",
+    "nickname": "Sea of Lost Souls",
+    "type": "Ocean",
+    "location": "Centhris",
+    "description": [
+      "The Mare Damnatis, better known by its common name, the Sea of Lost Souls, is an ocean on Centhris, spanning from the wester coasts of Ulfwyst and Koraxon to the eastern coasts of Cuncascus."
+    ]    
+  },
   "Blighted-Mire": {
     "playerKnown": true,
     "tags": ["swamp","region","ulfwyst"],
@@ -134,12 +178,56 @@
       "The Ur'shiid Desert is a vast, hot desert located in central Ulfwyst. It is the largest desert in Ulfwyst and one of the largest deserts on Centhris. The region is mostly considered part of the Kingdom of Abbasyr, though due to the hostile nature of the environment it is difficult exert direct control over those living in the deepest reaches of the wastes."
     ]
   },
+  "Makorian-Sea": {
+    "playerKnown": false,
+    "tags": ["sea","region","ulfwyst"],
+    "name": "Makorian Sea",
+    "nickname": "Makorian Sea",
+    "type": "Sea",
+    "location": "Koraxon",
+    "description": [
+      "The Makorian Sea is a small, inland sea in the continent of Koraxon."
+    ]
+  },
+  "North-Lesdys-Sea": {
+    "playerKnown": false,
+    "tags": ["sea","region","ulfwyst"],
+    "name": "North Lesdys Sea",
+    "nickname": "North Lesdys Sea",
+    "type": "Sea",
+    "location": "Mare Dyskira",
+    "description": [
+      "The North Lesdys Sea is a large sea west of the continent of Koraxon. It is a sub-region of the Mare Dyskira."
+    ]
+  },
+  "Jade-Depths": {
+    "playerKnown": false,
+    "tags": ["sea","region","ulfwyst"],
+    "name": "Jade Depths",
+    "nickname": "Jade Depths",
+    "type": "Sea",
+    "location": "Mare Concorids",
+    "description": [
+      "The Jade Depths are a large sea that is south of the continent of Koraxon. It is a sub-region of the Mare Concorids."
+    ]
+  },
+  "Venngar-Sea": {
+    "playerKnown": true,
+    "tags": ["sea","region","ulfwyst"],
+    "name": "Venngar Sea",
+    "nickname": "Venngar Sea",
+    "type": "Sea",
+    "location": "Lemuria",
+    "description": [
+      "The Venngar Sea is a large sea that is south of the Korin Gulf. It is a sub-region of the Mare Concorids"
+    ]
+  },
   "Korin-Gulf": {
     "playerKnown": true,
     "tags": ["sea","region","ulfwyst"],
     "name": "Korin Gulf",
     "nickname": "Korin Gulf",
-    "type": "Region",
+    "type": "Sea",
     "location": "Lemuria",
     "description": [
       "The Korin Gulf is a large inland sea that is south of the Bay of Claws and north of the Venngar Sea."
@@ -150,7 +238,7 @@
     "tags": ["sea","region","ulfwyst"],
     "name": "Bay of Claws",
     "nickname": "Bay of Claws",
-    "type": "Region",
+    "type": "Sea",
     "location": "Lemuria",
     "description": [
       "The Bay of Claws is a small inland sea that connects to the Korin Gulf. The bay connects 3 states: Tovanis, the Archduchy of Zurast and Lemuria."
@@ -166,7 +254,7 @@
     "tags": ["sea","region","ulfwyst"],
     "name": "Adorra Sound",
     "nickname": "Adorra Sea",
-    "type": "Region",
+    "type": "Sea",
     "location": "Mare Concordis",
     "description": [
       "The Adorra Sound is a large sea north of the continent of Ulfwyst, which is a sub-region of the Mare Concordis. The sound runs along most of the northern coast of Ulfwyst and connects the states of Abbasyr, the Syrothian Empire, the Kaeldrin Sanctum and Navolin."
@@ -182,7 +270,7 @@
     "tags": ["sea","region","ulfwyst"],
     "name": "Strait of Krigere",
     "nickname": "Strait of Krigere",
-    "type": "Region",
+    "type": "Sea",
     "location": "Korin Gulf",
     "description": [
       "The Straight of Krigere is a natural waterway that divides the Korin Gulf. The strait is controlled by vessels belonging to the various Clans of Lemuria. On the eastern shore of the straight rests the great city of Kilurus."
@@ -228,11 +316,12 @@
     "tags": ["mountains","region","ulfwyst"],
     "name": "Kazgrim Mountains",
     "nickname": "Kazgrim Moutains",
+    "linkingWords": ["Kazgrims"],
     "type": "Region",
     "location": "Ulfwyst",
     "description": [
       "The Kazgrim Mountains are a small series of volcanic mountains situated in souther eastern Ulfwyst. The range has been dormant for centuries, but millennia-ago is responsible for connecting central Ulfwyst to the landmass that now makes up eastern Lemuria.",
-      "Centuries ago, dwarves from other parts of Ulfwyst set out, seeking new sites to establish outposts and forge new thanedoms. Most of these expiditions were doomed to failure. The harsh weather of the region, along with numerous threats that inhabit the mountains, such as chimeras, wyverns, giant, ogres, and trolls resulted in numerous camps and fledgling holds being sacked. However, eventually the persistence (and some would say suicidal stubbornness) of the dwarven people defied the odds, and the fortress of Rul Undrak was established under Mount Ulzanos on the northern end of the Kazgrim range."
+      "Centuries ago, dwarves from other parts of Ulfwyst set out, seeking new sites to establish outposts and forge new thanedoms. Most of these expeditions were doomed to failure. The harsh weather of the region, along with numerous threats that inhabit the mountains, such as chimeras, wyverns, giant, ogres, and trolls resulted in numerous camps and fledgling holds being sacked. However, eventually the persistence (and some would say suicidal stubbornness) of the dwarven people defied the odds, and the fortress of Rul Undrak was established under Mount Ulzanos on the northern end of the Kazgrim range."
     ]
   },
   "Pillars-of-Amud": {
@@ -267,7 +356,17 @@
     "nation": ["Kaeldrin Sanctum"],
     "location": "Ulfwyst",
     "description": [
-      
+    ]    
+  },
+  "Iron-Hills": {
+    "playerKnown": false,
+    "tags": ["hills","region","ulfwyst","forest","pillars of amud"],
+    "name": "Iron Hills",
+    "nickname": "The Iron Hills",
+    "type": "Region",
+    "nation": ["Dol Obok"],
+    "location": "Ulfwyst",
+    "description": [
     ]    
   }
 }

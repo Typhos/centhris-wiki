@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import WikiUtils from "components/utils/wikiUtils";
 
 import Page from '../../components/page';
@@ -15,12 +14,6 @@ import settlements from 'data/places/settlements';
 import dungeons from 'data/places/dungeons';
 import fortifications from 'data/places/fortifications';
 import dwarfHolds from 'data/places/dwarfHolds';
-
-console.log(structures)
-
-const crests = require.context('img/crests/', true);
-const images = require.context('img/places/', true);
-const maps = require.context('img/maps/', true);
 
 class Location extends Component {
 
@@ -51,9 +44,14 @@ class Location extends Component {
   }
 
   render () {
+    const crests = require.context('img/crests/', true);
+    const images = require.context('img/places/', false);
+    const maps = require.context('img/maps/', true);
+    const currency = require.context('img/currency/', false);
+
     const location = this.state.location;
 
-    const races = location.races && location.races.map( race => <span className="race commaSeparated">{ WikiUtils.linkContent(location, race) }</span> );
+    // const races = location.races && location.races.map( race => <span className="race commaSeparated">{ WikiUtils.linkContent(location, race) }</span> );
     const additionalImages = location.additionalImages && location.additionalImages.map( image => {
       return (
         <div className="info mapBox">
@@ -79,17 +77,19 @@ class Location extends Component {
 
           <article className="location" id={location.name.replace(/\s/g,"-")}>
             
-            <Link className="backLink" to='/places'>&laquo; back to Places</Link>
+            {/*<Link className="backLink" to='/places'>&laquo; back to Places</Link>*/}
 
             <h2 className="fullName">{location.name}</h2>
             <aside className="infoBox">
               { nickname() }          
-              <div className="container">
-                <img className="portrait" alt="" src={ images('./' + location.name.replace(/\s/g,"-") + '.png') }/>
-                { location.type === 'State' &&
-                  <img className="crest" alt="" src={ crests('./' + location.name.replace(/\s/g,"-") + '.png') }/>
-                }
-              </div>
+              { images.keys().some(x => x.includes( location.name.replace(/\s/g,"-") )) &&
+                <div className="container">
+                  <img className="portrait" alt="" src={ images('./' + location.name.replace(/\s/g,"-") + '.png') }/>
+                  { crests.keys().some(x => x.includes( location.name.replace(/\s/g,"-") )) &&
+                    <img className="crest" alt="" src={ crests('./' + location.name.replace(/\s/g,"-") + '.png') }/>
+                  }
+                </div>
+              }
               { location.type &&  
                 <div className="info">
                   <p className="key">Type</p>
@@ -109,9 +109,12 @@ class Location extends Component {
                 </div>
               }
               { location.currency && 
-                <div className="info">
+                <div className="info currency">
                   <p className="key">Currency</p>
                   <p className="values">{location.currency}</p>
+                  { currency.keys().some(x => x.includes( location.currency.replace(/\s/g,"-") )) &&
+                      <img className="coinImage" alt="" src={ currency('./' + location.currency.replace(/\s/g,"-") + '.png') }/>    
+                  }
                 </div>
               }
               { location.capital && 
@@ -126,6 +129,18 @@ class Location extends Component {
                   <div className="values">{WikiUtils.linkContent(location, location.leaders)}</div>
                 </div>
               }
+              { location.river && 
+                <div className="info">
+                  <p className="key">River</p>
+                  <div className="values">{WikiUtils.linkContent(location, location.river)}</div>
+                </div>
+              }
+              { location.lake && 
+                <div className="info">
+                  <p className="key">Lake</p>
+                  <div className="values">{WikiUtils.linkContent(location, location.lake)}</div>
+                </div>
+              }
               { location.districts && 
                 <div className="info">
                   <p className="key">Districts</p>
@@ -134,7 +149,7 @@ class Location extends Component {
               }
               { location.cities && 
                 <div className="info">
-                  <p className="key">Districts</p>
+                  <p className="key">Major Cities</p>
                   <div className="values">{WikiUtils.linkContent(location, location.cities)}</div>
                 </div>
               }

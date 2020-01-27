@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import WikiUtils from "components/utils/wikiUtils";
 
 import Page from 'components/page';
@@ -44,7 +43,7 @@ class Group extends Component {
         <section id="group" >
           <article className="group" id={group.name.replace(/\s/g,"-")}>
             
-            <Link className="backLink" to='/organizations'>&laquo; back to Organizations</Link>
+            {/*<Link className="backLink" to='/organizations'>&laquo; back to Organizations</Link>*/}
 
             <h2 className="fullName">{group.nickname}</h2>
             <aside className="infoBox">

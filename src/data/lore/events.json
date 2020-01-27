@@ -1,0 +1,62 @@
+{
+  "The-Ruination-of-Centhris": {
+    "playerKnown": false,
+    "name": "The Ruination of Centhris",
+    "nickname": "the Ruination",
+    "linkingWords": ["the Ruination of Centhris"],
+    "type": "Historical Event",
+    "tags": ["event","cataclysm","utharian empire"],
+    "description": [
+      "The Ruination of Centhris was a major world event which marked the end of the Utharian Empire and the descent of Centhris into a great, dark age."
+    ],
+    "dmArticles": {
+      "The End of a Golden Age": [
+      ]
+    }
+  },
+  "Descent-of-the-Shattered-God": {
+    "playerKnown": false,
+    "name": "Descent of the Shattered God",
+    "nickname": "the Descent of the Shattered God",
+    "linkingWords": [],
+    "type": "Historical Event",
+    "tags": ["event","zurast","starfall"],
+    "description": [
+      "The Descent of the Shattered God was a historical event that took place in Zalany Marsh, now known as the Blighted Mire, 83 years ago."
+    ],
+    "dmArticles": {
+      "": [
+      ]
+    }
+  },
+  "Ascension-of-the-Eternal-King": {
+    "playerKnown": false,
+    "name": "Ascension of the Eternal King",
+    "nickname": "Ascension of the Eternal King",
+    "type": "Historical Event",
+    "tags": ["event","eternal king","utharian empire","god"],
+    "description": [
+      "The Ascension of the Eternal King was ascendancy of Aeldronvos Thashendar to godhood as the Eternal King, Erèdin. The ascension was the inciting event in the Ruination of Centhris."
+    ]
+  },
+  "The-First-Convergence": {
+    "playerKnown": false,
+    "name": "The First Convergence",
+    "nickname": "The First Convergence",
+    "type": "Era",
+    "tags": ["era","elementals","planes","planar"],
+    "description": [
+      "The First Convergence was a historical era in the history of the world of Centhris."
+    ]
+  },
+  "The-Second-Convergence": {
+    "playerKnown": false,
+    "name": "The Second Convergence",
+    "nickname": "The Second Convergence",
+    "type": "Era",
+    "tags": ["era","feywild","planes","planar"],
+    "description": [
+      "The Second Convergence was a historical era in the history of the world of Centhris."
+    ]
+  }
+}

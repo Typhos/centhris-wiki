@@ -20,6 +20,7 @@
     "tags": ["ulfwyst","capital","city"],
     "name": "City of Zurast",
     "nickname": "City of Zurast",
+    "linkingWords": ["city of Zurast"],
     "type": "Settlement",
     "population": "~22,000",
     "races": ["human","elf","gnome","half-elf","half-orc","halfling"],
@@ -67,7 +68,7 @@
     ]
   },
   "Irulek": {
-    "playerKnown": true,
+    "playerKnown": false,
     "tags": ["kaeldrin sanctum","ulfwyst","capital","city"],
     "name": "Irulek",
     "nickname": "Irulek",
@@ -124,6 +125,21 @@
     "leaders": ["Emira Ghaliya Najjar"],
     "description": [
       "Qabakh is a major port city of the Kingdom of Abbasyr and is nicknamed 'the Jewel of the Adorra Coast'."
+    ]
+  },
+  "Lyrannore": {
+    "playerKnown": false,
+    "tags": ["city","Ildroun Vale","capital","ulfwyst"],
+    "name": "Lyrannore",
+    "nickname": "Lyrannore",
+    "type": "Settlement",
+    "population": "6,500",
+    "races": ["elf","gnome","human","half-elf"],
+    "government": "Hereditary Monarchy",
+    "location": "Ildroun Vale",
+    "leaders": ["Prince Zaleath"],
+    "description": [
+      "Lyrannore is the capital city of the Ildroun Vale."
     ]
   },
   "City-of-Brass": {

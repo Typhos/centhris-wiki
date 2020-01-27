@@ -203,7 +203,7 @@
   },
   "Coldwall": {
     "playerKnown": false,
-    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Coldwall",
     "nickname": "Coldwall Ward",
     "type": "City District",
@@ -219,7 +219,7 @@
   },
   "Edgewater": {
     "playerKnown": false,
-    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Edgewater",
     "nickname": "Edgewater Ward",
     "type": "City District",
@@ -235,7 +235,7 @@
   },
   "Hartwood-Row": {
     "playerKnown": false,
-    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Hartwood Row",
     "nickname": "Hartwood Row",
     "type": "City District",
@@ -251,7 +251,7 @@
   },
   "Timberrun": {
     "playerKnown": false,
-    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Timberrun",
     "nickname": "Timberrun Ward",
     "type": "City District",
@@ -267,7 +267,7 @@
   },
   "Belloton": {
     "playerKnown": false,
-    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Belloton",
     "nickname": "Belloton Ward",
     "type": "City District",
@@ -283,7 +283,7 @@
   },
   "Drakeperch": {
     "playerKnown": false,
-    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Drakeperch",
     "nickname": "Drakeperch Heights",
     "type": "City District",
@@ -300,7 +300,7 @@
   },
   "The-Crowns": {
     "playerKnown": false,
-    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "The Crowns",
     "nickname": "Crowns Arcade",
     "type": "City District",
@@ -317,7 +317,7 @@
   },
   "Cwyrnburne": {
     "playerKnown": false,
-    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Cwyrnburne",
     "nickname": "Cwyrnburne Ward",
     "type": "City District",
@@ -334,7 +334,7 @@
   },
   "Potter's-Reach": {
     "playerKnown": false,
-    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Potter's Reach",
     "nickname": "Potter's Reach",
     "type": "City District",
@@ -351,7 +351,7 @@
   },
   "Holford": {
     "playerKnown": false,
-    "tags": ["district","navolin","capital","ulfwyst","frecyra"],
+    "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Holford",
     "nickname": "Holford Ward",
     "type": "City District",

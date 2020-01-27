@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import WikiUtils from "components/utils/wikiUtils";
 
 import "styles/personArticle.scss";
@@ -13,7 +12,7 @@ export default class PlayerCharacter extends Component {
 
     return (
       <article className="person" id={person.name.replace(/\s/g,"-")}>
-        <Link className="backLink" to='/characters'>&laquo; back to Characters</Link>
+        {/*<Link className="backLink" to='/characters'>&laquo; back to Characters</Link>*/}
 
         <h3 className="fullName">{person.name}</h3>
         <aside className="infoBox">

@@ -17,8 +17,6 @@ import dungeons from 'data/places/dungeons';
 import fortifications from 'data/places/fortifications';
 import dwarfHolds from 'data/places/dwarfHolds';
 
-const images = require.context('../../img/places/', true);
-
 class Places extends Component {
 
   constructor (props) {
@@ -85,18 +83,24 @@ class Places extends Component {
 
   getEntriesByCategory(category) {
     const crests = require.context('img/crests/', true);
+    const images = require.context('../../img/places/', true);
 
     return this.state.places.map( place => {
       if ( this.state.combinedPlaces[place].type === category ) {
-        const imageType = (category === "State") ?
-          crests('./' + this.state.combinedPlaces[place].name.replace(/\s/g,"-") + '.png') :
-          images('./' + this.state.combinedPlaces[place].name.replace(/\s/g,"-") + '.png');
 
         return (
-          <li className="location">
+          <li key={place+category} className="location">
             <Link to={`/location/${place}`}>
-              <img className={`portrait ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) }`} alt="" src={ images('./' + this.state.combinedPlaces[place].name.replace(/\s/g,"-") + '.png') }/>
-              {/*<img className={`portrait ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) } ${ ( category === 'State' ) ? 'noTilt' : '' }`} alt="" src={ imageType }/>*/}
+              { images.keys().some(x => x.includes( place )) && 
+                <img className={`portrait ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) }`} alt="" src={ images('./' + place + '.png') }/>
+              }
+              { crests.keys().some(x => x.includes( place )) &&  
+                <img className={`crest ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) }`} alt="" src={ crests('./' + place + '.png')  }/>
+              }
+              {
+                !images.keys().some(x => x.includes( place )) && 
+                <div class="imgPlaceholder"></div>
+              }
               <p>{this.state.combinedPlaces[place].name}</p>
             </Link>
           </li>
@@ -107,6 +111,7 @@ class Places extends Component {
   }
 
   checkEmptyEntry(entry) {
+    // check if the entry is empty to mark it for future writing
     if ( entry.description.length <= 0 && this.state.dmView ) {
       return "empty";
     }
@@ -115,7 +120,7 @@ class Places extends Component {
   }
 
   handleSearch(results) {
-    this.setState({places: results})
+    this.setState({places: results});
   }
 
 }

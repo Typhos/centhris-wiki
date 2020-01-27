@@ -427,11 +427,17 @@
 		"age": "306",
 		"gender": "Female",
 		"occupation": "Runesmith",
-		"affiliations": ["Felrast", "Halls of Amud"],
+		"affiliations": ["Felrast", "Dol Obok"],
 		"description": [
 			"Ithi Ironjaw is a master runesmith. She is famous throughout Ulfwyst for her mastery of the art of Runesmithing. Most runesmiths are considered a master of their craft after learning to forge ten runes, at least one of which needs to be a Master Rune. Master Ironjaw is said to know at least 16 runes, including 5 Master Runes.",
-			"While traveling from Auburn Castle, Filibert and Lirr spoke at length with Roland of Zelmar about this new bastard sword which he had forged in Felrast. Roland shared the story of his journey with the adventurers and explained why he sought out Master Ironjaw to forge him this new blade."
-		]
+			"Ironjaw's reputation is well earned. Among her patrons include High King Bramdur Thundershod and Thane Gimmyl Wyrmbreaker, the lord of Felrast, for whom she has forged multiple runic items."
+		],
+		"articles": {
+			"A Grand Reputation": [
+				"While traveling from Auburn Castle, Filibert and Lirr spoke at length with Roland of Zelmar about this new bastard sword which he had forged in Felrast. Roland shared the story of his journey with the adventurers and explained why he sought out Master Ironjaw to forge him this new blade.",
+				"Roland spoke highly of the smith and her skills, stating to Filibert that if he wished to have a blade forged worthy of his ambitions, he could do no better than to seek out Master Ironjaw."
+			]
+		}
 	},
 	"Vagnur-Mountainhall": {
 		"playerKnown": false,
@@ -627,12 +633,13 @@
 	"Kilorn-Zerem": {
 		"playerKnown": true,
 		"name": "Kilorn Zerem",
-		"nickname": "Kilorn",
+		"nickname": "Kilorn Zerem",
+		"linkingWords": ["Kilorn","Kilorn of Rakenburg"],
 		"tags": ["merchant","aasimar","barbarian","Ruby Phoenix","Rakenburg","associate"],
 		"age": "40",
 		"gender": "Male",
-		"occupation": "Adventurer",
-		"affiliations": ["Ruby Phoenix"],
+		"occupation": "Merchant",
+		"affiliations": ["Khazar Thul","Jasper Circle"],
 		"description": [
 			"The owner and operator of Kilorn's Exotic Imports, Kilorn is a man of unknown race from the Toridosa Archipelago. He is highly knowledgeable about magical items, reagents and esoteric arcane pieces. He maintains a business agreement with the The Jasper Circle, from whom he purchases most of his magical reagents."
 		]
@@ -772,6 +779,22 @@
 		"affiliations": ["Red Moon Order"],
 		"description": [
 			"Nadia Vernon is a leader of the Red Moon Order, one of the 8 Major Guilds operating in the city of Rakenburg on the Barrier Coast. When she appears in public, which is a rare sight, she dresses in black, with two rapiers on her hip."
+		]
+	},
+	"Eskra-Gradiorus": {
+		"playerKnown": false,
+		"name": "Eskra Gradiorus",
+		"nickname": "Eskra Gradiorus",
+		"linkingWords": ["Artificer Gradiorus"],
+		"tags": ["artificer","tiefling","Rakenburg","Specula Arcanum"],
+		"birthYear": "2C 2191",
+		"deathYear": "2C 2318",
+		"gender": "Female",
+		"race": "Tiefling",
+		"occupation": "Artificer & Inventor",
+		"affiliations": ["Specula Arcanum"],
+		"description": [
+			"A legendary artificer who lived in Rakenburg from 2C 2215 until her death in 2C 2318. The mastermind behind, and namesake of, the Gradiorus Golems that now operate as part of the Specula Arcanum."
 		]
 	}
 }

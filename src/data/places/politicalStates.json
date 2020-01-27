@@ -31,7 +31,7 @@
     "population": "~320,000",
     "races": ["human","elf","gnome","half-elf","halfling"],
     "government": "Hereditary Monarchy",
-    "currency": "Zuriastian Helm",
+    "currency": "Zurastian Helm",
     "capital": "City of Zurast",
     "location": "Ulfwyst",
     "leaders": ["Archduke Nicolai Valken"],
@@ -88,7 +88,7 @@
     "type": "State",
     "currency": "Cibrinian Vale",
     "capital": "Enira",
-    "population": "~0.7 million",
+    "population": "~750,000",
     "races": ["human","dwarf","uklang","half-orc","half-giant"],
     "government": "Feudal Monarchy",
     "location": "Ulfwyst",
@@ -108,9 +108,9 @@
     "tags": ["state","ulfwyst","theocracy"],
     "name": "Tovanis",
     "nickname": "Realm of Tovanis",
-    "linkingWords": ["Tovanian"],
+    "linkingWords": ["Tovani"],
     "type": "State",
-    "currency": "Tovanian orodumi",
+    "currency": "Tovani Blade",
     "capital": "Axuros",
     "population": "~1.4 million",
     "races": ["human","aasimar","dwarf","halfling","half-orc","tiefling"],
@@ -147,7 +147,7 @@
     "nickname": "Syrothia",
     "linkingWords": ["Syrothian Empire","Syrothian"],
     "type": "State",
-    "currency": "Syrothian Claw",
+    "currency": "Syrothian Drake",
     "capital": "Lashkar",
     "population": "~8.3 million",
     "races": ["hobgoblin","goblin","bugbear","human","tiefling","half-orc","half-giant","uklang"],
@@ -177,7 +177,7 @@
     "tags": ["kingdom","Abbasyr","state","ulfwyst","monarchy"],
     "type": "State",
     "capital": "Khezrabad",
-    "currency": "Abbasyri Shinx",
+    "currency": "Abbasyri Sphinx",
     "population": "~4 million",
     "races": ["dragonborn","human","half-orc","elf","gnome","half-elf","tiefling"],
     "government": "Hereditary Monarchy",
@@ -215,6 +215,29 @@
       ]
     }
   },
+  "Ildroun-Vale": {
+    "playerKnown": false,
+    "name": "Ildroun Vale",
+    "nickname": "Ildroun",
+    "linkingWords": ["the Vale","the Elfin Vale"],
+    "tags": ["state","ulfwyst","hereditary monarchy","kingdom"],
+    "type": "State",
+    "capital": "Irulek",
+    "currency": "Ildroun Beetle",
+    "population": "~250,000",
+    "races": ["elf","human","tiefling","half-elf","gnome","halfling","dragonborn","half-orc","serbonji"],
+    "government": "Hereditary Monarchy",
+    "location": "Ulfwyst",
+    "leaders": ["Lord "],
+    "regions": ["Zavalev Mountains","Crimson Loch","Tormented Forest","Veldrin Wood","Malthor Forest"],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The Ildroun Vale is a small state located in north-central Ulfwyst. The kingdom sits in the shadow of the Zavalev mountains, north of the Crimson Loch. The kingdom is the only elven state in Ulfwyst."
+      ]
+    }
+  },
   "Dol-Obok": {
     "playerKnown": true,
     "name": "Dol Obok",
@@ -229,9 +252,9 @@
     "government": "Hereditary Monarchy",
     "location": "Pillars of Amud",
     "leaders": ["High King Bramdur Thundershod"],
-    "cities": ["Thellodur","Felrast","Isidar Hreth","Lanok","Nak Orodum"],
+    "cities": ["Thellodur","Felrast","Isidar Hreth","Lanok","Nak Orodum","Vol Volund","Kadren Zul"],
     "description": [
-      "The Dwarf Kingdom of Dol Obok is the largest dwarven civilization in Ulfwyst. Controlling the span of the Pillars of Amud, the dwarves of the kingdom are known for their neutrality. Instead of worrying about the politics, infighting and squabbles of outsiders, the Saràm'ezar focus on the exploration of the under-mountains, the crafting of great works and the edification of the art of Runeforging.",
+      "The Dwarf Kingdom of Dol Obok is the largest dwarven civilization in Ulfwyst. Controlling the span of the Pillars of Amud, the dwarves of the kingdom are known for their neutrality. Instead of worrying about the politics, infighting and squabbles of outsiders, the Ziril'udór focus on the exploration of the under-mountains, the crafting of great works and the edification of the art of Runeforging.",
       "The symbol of Dol Obok is a pyramid-cut emerald in a bronze setting. Many of important places in a dwarven settlement, such as at the great hall, grand market and throne room will have prominently placed gemstones to dedicate the location. Sometimes, instead of a true emerald, green glass is used if the settlement lacks the wealth for the true gemstone or if, due to the size of the heraldry, the use of a true gemstone is not possible."
     ],
     "articles": {

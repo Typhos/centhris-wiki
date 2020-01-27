@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import WikiUtils from "components/utils/wikiUtils";
 
 import "styles/personArticle.scss";
@@ -74,7 +73,7 @@ export default class PeopleArticle extends Component {
 
       <article className="person" id={person.name.replace(/\s/g,"-")}>
 
-        <Link className="backLink" to='/people'>&laquo; back to People</Link>
+        {/*<Link className="backLink" to='/people'>&laquo; back to People</Link>*/}
 
         <h2 className="fullName">{person.nickname}</h2>
         <aside className={`infoBox ${ this.state.dmView}`}>
@@ -86,18 +85,36 @@ export default class PeopleArticle extends Component {
               <p className="values">{person.titles}</p>
             </div> : "" 
           }
-          <div className="info">
-            <p className="key">Age</p>
-            <p className="values">{person.age}</p>
-          </div>
-          <div className="info">
-            <p className="key">Gender</p>
-            <p className="values">{person.gender}</p>
-          </div>
-          <div className="info">
-            <p className="key">Race</p>
-            <p className="values">{person.race}</p>
-          </div>
+          { person.race && 
+            <div className="info">
+              <p className="key">Race</p>
+              <p className="values">{person.race}</p>
+            </div>
+          }
+          { person.gender && 
+            <div className="info">
+              <p className="key">Gender</p>
+              <p className="values">{person.gender}</p>
+            </div>
+          }
+          { person.age &&
+            <div className="info">
+              <p className="key">Age</p>
+              <p className="values">{person.age}</p>
+            </div>
+          }
+          { person.birthYear && 
+            <div className="info">
+              <p className="key">Born</p>
+              <p className="values monoSpace">{person.birthYear}</p>
+            </div>
+          }
+          { person.deathYear && 
+            <div className="info">
+              <p className="key">Died</p>
+              <p className="values monoSpace">{person.deathYear}</p>
+            </div>
+          }
           { person.background && this.state.dmView && 
             <div className="info">
               <p className="key">Background</p>
@@ -184,7 +201,7 @@ export default class PeopleArticle extends Component {
           }
           { person.link && this.state.dmView &&
             <div className="info link">
-              <a href={person.link} target="_blank" rel="noreferrer">
+              <a href={person.link} target="_blank" rel="noopener noreferrer">
                 <p className="heading">D&D Beyond Profile</p>
               </a>
             </div>

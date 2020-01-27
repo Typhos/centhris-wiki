@@ -9,7 +9,7 @@
     "districts": ["the Planks","Windpoint","Stewards Row","the Foreign Quarter","the Oakyard"],
     "races": ["human","elf","gnome","half-elf","halfling","dwarf"],
     "government": "Merchant Oligarchy",
-    "currency": "Barrier Coast Leo",
+    "currency": "Barrier Coast Hull",
     "location": "Barrier Coast",
     "map": "Volikgrad",
     "description": [
@@ -24,14 +24,15 @@
     "nickname": "Free City of Rakenburg",
     "type": "City-State",
     "population": "~26,000",
+    "river": "Kamsby River",
     "races": ["human","elf","gnome","half-elf","halfling","dwarf"],
     "government": "Guild Oligarchy",
-    "currency": "Barrier Coast Leo",
+    "currency": "Barrier Coast Hull",
     "location": "Barrier Coast",
     "districts": ["Embersky", "Ghost Orchard", "the Greenwood Quarter", "Gullhollow","Murky Reach"],
     "map": "Rakenburg",
     "description": [
-      "The Free City of Rakenburg is a city-state in the Barrier Coast region of Ulfwyst. It is the largest city in the region and the defacto capital of the city-state alliance. The city is a common point for merchants and travelers moving through the region to resupply, due to its central location.",
+      "The Free City of Rakenburg is a city-state in the Barrier Coast region of Ulfwyst. It is the largest city in the region and the defacto capital of the city-state alliance. The city is a common point for merchants and travelers moving through the region to resupply, due to its central location. The city is surrounded on all sides by a large, stone wall which is 12 meters tall on the north side of the Kamsby river and 15 meters high south of the river. The citadel, Dawnguard Keep, is located on the western end of the city, just beyond the Ghost Orchard District.",
       "Rakenburg is a city built on top of several previous settlements, though the exact number of settlements that existed before is not widely known. Most of the city's current construction used existing building material and re-purposed it. It is not known exactly when the current incarnation of the city was founded, though scholars speculate that the upper city was resettled around 900 years ago.",
       "The ruins below the city proper are collectively known as the Twisting Warrens, or simply 'the Warrens'. There are three known entrances to the labyrinthine under-city which are all guarded and monitored at all hours. Entrance to the Warrens is tightly controlled, due to the dangers that lurk around every corner. The primary entrance to the under-city is located in the Dawnstar Fairgrounds, with smaller entrances in the Ghost Orchard and the Murky Reach."
     ],
@@ -57,7 +58,7 @@
     "population": "~11,500",
     "races": ["human","dwarf","tiefling","gnome","halfling"],
     "government": "Oligarchic Republic",
-    "currency": "Barrier Coast Leo",
+    "currency": "Barrier Coast Hull",
     "location": "Barrier Coast",
     "description": [
       "Braxinfurt is one of the five major, allied cities that comprise the alliance of Barrier Coast city-states. A true merchant republic, the city is a strange experiment in governance in the eyes of other political entities in the region. The city has a long-standing alliance with the dwarven hold of Ezhekal, located to the west in the Jordonis mountains. The two cities have traded goods, resources and elements of their cultures for hundreds of years, creating a unique blend of art, music and legal practices."
@@ -72,7 +73,7 @@
     "population": "~5000",
     "races": ["human","tiefling","dwarf","dragonborn","tortle"],
     "government": "Elective Monarchy",
-    "currency": "Barrier Coast Leo",
+    "currency": "Barrier Coast Hull",
     "location": "Barrier Coast",
     "description": [
       "The Free City of Korasov is a city-state in the Barrier Coast region of Ulfwyst. It is the norther-most city on the barrier coast. At one time, the city was considered part of the Kingdom of Navolin. However, due to changing political climates and shrewd diplomacy, the Lord Mayor of Korasov was able to align himself with the Free Cities of the Barrier Coast. Thus, the city became independent from Navolin without a single casualty."
@@ -87,7 +88,7 @@
     "population": "~4,500",
     "races": ["human","gnome","elf","dwarf","dragonborn"],
     "government": "Hereditary Monarchy",
-    "currency": "Barrier Coast Leo",
+    "currency": "Barrier Coast Hull",
     "location": "Barrier Coast",
     "description": [
       "The Free City of Venbrin is a city-state in the Barrier Coast region of Ulfwyst. Located on the isle of Sunheim off the eastern coast of Ulfwyst, the city is home to a large number of temples, including the High Temple of the Philosopher, the Eldergrove, the Shrine of St. Bastlen and Elfin Gate Monastery."

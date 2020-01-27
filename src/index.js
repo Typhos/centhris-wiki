@@ -14,6 +14,8 @@ import {Places} from './pages/placeGroups/index';
 import {Location} from './pages/location/index';
 import {OrganizationGroups} from './pages/organizationGroups/index';
 import {Group} from './pages/organization/index';
+import {LoreCategories} from './pages/loreCategories/index';
+import {Lore} from './pages/loreArticle/index';
 
 // import * as serviceWorker from './components/serviceWorker';
 // serviceWorker.unregister();
@@ -69,6 +71,8 @@ const routing = (
       <Route path="/location" component={Location} />
       <Route path="/organizations" component={OrganizationGroups} />
       <Route path="/group" component={Group} />
+      <Route path="/loreCategories" component={LoreCategories} />
+      <Route path="/lore/" component={Lore} />
     </ScrollToTop>
   </Router>
 )

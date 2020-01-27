@@ -1,0 +1,152 @@
+{
+  "Avar": {
+    "playerKnown": true,
+    "name": "Avar",
+    "nickname": "Avar",
+    "commonName": "Elves",
+    "type": "Race",
+    "tags": ["race"],
+    "description": [
+      "The Avar, better known as Elves, of Centhris are the descendants of the original fey race of the Feywild, the Eladrin. There are four sub-races of the Avar, each claiming a different Eladrin heritage from which they descend. The subraces are the Aeglôs'avar, the Cúron'avar, the Galenâs'avar and the Glân'avar."
+    ]
+  },
+  "Glan'avar": {
+    "playerKnown": true,
+    "name": "Glan'avar",
+    "nickname": "Glân'avar",
+    "commonName": "Bright Elves",
+    "type": "Elf Subrace",
+    "tags": ["subrace"],
+    "heritage": "Summer Eladrin",
+    "description": [
+      "The Glân'avar, or Bright Elves, are descendants of the the Eladrin of the Summer Court."
+    ]
+  },
+  "Curon'avar": {
+    "playerKnown": true,
+    "name": "Curon'avar",
+    "nickname": "Cúron'avar",
+    "commonName": "Silver Elves",
+    "type": "Elf Subrace",
+    "tags": ["subrace"],
+    "heritage": "Spring Eladrin",
+    "description": [
+      "The Cúron'avar, or Silver Elves, are descendants of the the Eladrin of the Spring Court."
+    ]
+  },
+  "Galenas'avar": {
+    "playerKnown": true,
+    "name": "Galenas'avar",
+    "nickname": "Galenâs'avar",
+    "commonName": "Wild Elves",
+    "type": "Elf Subrace",
+    "tags": ["subrace"],
+    "heritage": "Autumn Eladrin",
+    "description": [
+      "The Galenâs'avar, or Wild Elves, are descendants of the the Eladrin of the Autumn Court."
+    ]
+  },
+  "Aeglos'avar": {
+    "playerKnown": true,
+    "name": "Aeglos'avar",
+    "nickname": "Aeglôs'avar",
+    "commonName": "Drow",
+    "type": "Elf Subrace",
+    "tags": ["subrace"],
+    "heritage": "Winter Eladrin",
+    "description": [
+      "The Aeglôs'avar, or Drow, are descendants of the the Eladrin of the Court of Winter."
+    ]
+  },
+  "Ziril'udor": {
+    "playerKnown": true,
+    "name": "Ziril'udor",
+    "nickname": "Ziril'udór",
+    "commonNames": ["Dwarves"],
+    "linkingWords": ["Ziril'udórian"],
+    "type": "Race",
+    "tags": ["race"],
+    "locations": ["Pillars of Amud","Torick Peaks","Vir Mountains","Zavalev Mountains","Jordonis Mountains"],
+    "description": [
+      "The Ziril'udor, better known simple as Dwarves, of Centhris are one of the planet's native races. All Ziril'udor claim to have been created by the Forgelord, imbued with life by the Stonemother and led into battle by the Bannerlord. If this is true, or simply the origin myth the dwarves tell is a matter of faith.",
+      "There are three primary sub-races of dwarves: the Arol'zust, the Kulin'dak and the Omir'thunen. "
+    ]
+  },
+  "Arol'zust": {
+    "playerKnown": true,
+    "name": "Arol'zust",
+    "nickname": "Arôl'zust",
+    "commonName": "Crag Dwarves",
+    "type": "Dwarf Subrace",
+    "tags": ["subrace"],
+    "description": [
+      "Mountain, or Crag, Dwarves."
+    ]
+  },
+  "Kulin'dak": {
+    "playerKnown": true,
+    "name": "Kulin'dak",
+    "nickname": "Kulin'dák",
+    "commonName": "Island Dwarves",
+    "type": "Dwarf Subrace",
+    "tags": ["subrace"],
+    "description": [
+      "Isand Dwarves."
+    ]
+  },
+  "Omir'thunen": {
+    "playerKnown": true,
+    "name": "Omir'thunen",
+    "nickname": "Omir'thunen",
+    "commonName": "Hill Dwarves",
+    "type": "Dwarf Subrace",
+    "tags": ["subrace"],
+    "description": [
+      "Hill Dwarves."
+    ]
+  },
+  "Serbonji": {
+    "playerKnown": false,
+    "name": "Serbonji",
+    "nickname": "Lionfolk",
+    "linkingWords": ["Sêrbonji"],
+    "locations": ["Abbasyr"],
+    "type": "Race",
+    "tags": ["race"],
+    "description": [
+    ]
+  },
+  "Marus": {
+    "playerKnown": false,
+    "name": "Marus",
+    "nickname": "Marus",
+    "commonName": "Walrusfolk",
+    "locations": ["Lemuria","Cibrin","Olgarrod Wilds"],
+    "type": "Race",
+    "tags": ["race"],
+    "description": [
+    ]
+  },
+  "Anubari": {
+    "playerKnown": false,
+    "name": "Anubari",
+    "nickname": "Anubari",
+    "commonName": "Jackalfolk",
+    "location": ["Cunascus","Ulfwyst"],
+    "type": "Race",
+    "tags": ["race"],
+    "description": [
+    ]
+  },
+  "Uklang": {
+    "playerKnown": false,
+    "name": "Uklang",
+    "nickname": "Uklang",
+    "commonName": "Yakfolk",
+    "locations": ["Lemuria","Cibrin","Hestia","Syrothia"],
+    "type": "Race",
+    "tags": ["race"],
+    "description": [
+    ]
+  }
+}
