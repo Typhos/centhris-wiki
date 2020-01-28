@@ -715,7 +715,7 @@
 			"Save DC": 17
 		},
 		"attunedItems": [
-			"+2 Longsword: Uthgúr'nehar",
+			"+2 Longsword: Istyandil ",
 			"Ring: Ring of Protection",
 			"Amulet: Shard of the Fallen God"
 		],
@@ -726,6 +726,7 @@
 			"A highly regarded elven mage, Telarion Elentiir has been a fixture in the courts of Ulfwyst for well over 200 years. He is current employed as a court mage in the Kingdom of Lemuria, reporting directly to the High Queen, Inga Sudrheim. Though Telarion has an official residence in Kilurus, when he is not on official business or seeing to a task requested of him by the queen, he prefers to spend his time in the town of Zabrosk, on the northern shore of the Korin Gulf."
 		],
 		"languages": ["Common, Elvish, Sylvan"],
+		"quote": "Let me see this disc you've been carrying... My Ignan is very rusty, but from what I can make out, I count no less than seven Sigils of Immolation. What were you going to do with this, again?",
 		"articles": {
 			"Calling in a Favor": [
 				"Telarion returned to Rakenburg in Dusvar of 2C 2573 at the request of Belthren Ogni. The guild master had learned that members of his guild and the Adventurers had been bound to the service of Akad the Magnificent and felt that Telarion was the only person he knew who might have the knowledge required to help resolve the issue before it became untenable.",
@@ -762,9 +763,6 @@
 		"nickname": "Yabtaeid the Daring",
 		"tags": ["djinn","genie","venbrin"],
 		"race": "Djinn",
-		"age": "??",
-		"gender": "??",
-		"affiliations": ["the Argentate"],
 		"description": [
 			"According to Akad the Magnificent during his brief interaction with the Adventurers in the Molten Halls, Yabtaeid is a djinn who, at one time, resided in the Free City of Venbrin."
 		]

@@ -10,6 +10,18 @@ export default class PlayerCharacter extends Component {
   render () {
     const person = this.props.entry;
 
+    const stats = function() {
+      let array = [];
+      for ( let [key, val] of Object.entries(person.stats) ) { 
+        array.push(
+          <div className="block">
+            <span className="stat">{key}</span> <span className="num">{val}</span>
+          </div>
+        )
+      }
+      return array;
+    }
+
     return (
       <article className="person" id={person.name.replace(/\s/g,"-")}>
         {/*<Link className="backLink" to='/characters'>&laquo; back to Characters</Link>*/}
@@ -52,18 +64,11 @@ export default class PlayerCharacter extends Component {
               <p className="values">{person.hp}</p>
             </div> : "" 
           }
-          { (person.stats) ? 
+          { person.stats && 
             <div className="statblock">
               <p className="heading">Stats</p>
-              <div className="block">
-                <span className="stat">STR</span> <span className="num">{person.stats.STR}</span>
-                <span className="stat">DEX</span> <span className="num">{person.stats.DEX}</span>
-                <span className="stat">CON</span> <span className="num">{person.stats.CON}</span>
-                <span className="stat">INT</span> <span className="num">{person.stats.INT}</span>
-                <span className="stat">WIS</span> <span className="num">{person.stats.WIS}</span>
-                <span className="stat">CHA</span> <span className="num">{person.stats.CHA}</span>
-              </div>
-            </div> : "" 
+              {stats()}
+            </div>
           }
           { (person.background) ? 
             <div className="info">

@@ -129,8 +129,8 @@ article.person {
         span.num {
           display: inline-block;
           margin: 0.2em 0 0 0;
-          font-size: 1.1em;
-          
+          font-size: 0.95rem;
+          font-family: $monoSpace;
         }
 
         small.stat,
@@ -150,6 +150,7 @@ article.person {
           width: 20%;
           padding-right: 5%;
           text-align: right;
+          color: $moodGreen;
         }
       }
 
