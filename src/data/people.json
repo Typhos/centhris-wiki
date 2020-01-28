@@ -4,6 +4,7 @@
 		"tags": ["adventurer","elf","wizard","Ruby Phoenix","Rakenburg","bound","friend","associate"],
 		"name": "Shiavalae Amarathar",
 		"nickname": "Shia",
+		"linkingWords": ["Shiavalae"],
 		"race": "Elf",
 		"age": "133",
 		"gender": "Female",
@@ -608,6 +609,20 @@
 			"Yendra Quenn is a member of Ruby Phoenix. She is highly energetic, with a childlike personality. She has a quick temper and has been learning to channel her anger for use in battle through training with her mentor and guild teammate Korema zar Halkren."
 		]
 	},
+	"Rendis-Moon": {
+		"playerKnown": true,
+		"name": "Rendis Moon",
+		"tags": ["steward","human","Ruby Phoenix","Rakenburg"],
+		"nickname": "Rendis",
+		"race": "Human",
+		"age": "49",
+		"gender": "Male",
+		"occupation": "Steward",
+		"affiliations": ["Ruby Phoenix"],
+		"description": [
+			"Rendis Moon is the guild artisan, steward and resident monster scholar of Ruby Phoenix. He one of the few members non-active members of the guild, operating in an advisory and support position at the Ruby Phoenix Guild Hall in Rakenburg."
+		]
+	},
 	"Korema-zar-Halkren": {
 		"playerKnown": true,
 		"name": "Korema zar Halkren",
@@ -660,12 +675,12 @@
 		]
 	},
 	"Telarion-Elentiir": {
-		"playerKnown": false,
+		"playerKnown": true,
 		"name": "Telarion Elentiir",
 		"nickname": "Telarion",
 		"tags": ["wizard","moon elf","wizard","Ruby Phoenix","associate"],
 		"age": "376",
-		"race": "Moon Elf",
+		"race": "Cúron'avar",
 		"gender": "Male",
 		"class": "Wizard",
 		"level": 12,
@@ -708,12 +723,13 @@
 		"occupation": "Lemurian Court Mage",
 		"affiliations": ["High Queen's Court","Lemuria","Ruby Phoenix"],
 		"description": [
-			"A highly regarded elven mage, Telarion Elentiir has been a fixture in the courts of Ulfwyst for well over 200 years. He is current employed as a court mage in the Kingdom of Lemuria, reporting directly to the High Queen, Inga Sudrheim. Though Telarion has an official residence in Kilurus, when he is not on official business or seeing to a task requested of him by the queen, he prefers to spend his time in the town of Zabrosk, on the western shore of the Korin Gulf."
+			"A highly regarded elven mage, Telarion Elentiir has been a fixture in the courts of Ulfwyst for well over 200 years. He is current employed as a court mage in the Kingdom of Lemuria, reporting directly to the High Queen, Inga Sudrheim. Though Telarion has an official residence in Kilurus, when he is not on official business or seeing to a task requested of him by the queen, he prefers to spend his time in the town of Zabrosk, on the northern shore of the Korin Gulf."
 		],
 		"languages": ["Common, Elvish, Sylvan"],
 		"articles": {
 			"Calling in a Favor": [
-				"Telarion returned to Rakenburg in Dusvar of 2C 2573 at the request of Belthren Ogni. The guild master had learned that members of his guild and the Adventurers had been bound to the service of Akad the Magnificent and felt that Telarion was the only person he knew who might have the knowledge required to help resolve the issue before it became untenable."
+				"Telarion returned to Rakenburg in Dusvar of 2C 2573 at the request of Belthren Ogni. The guild master had learned that members of his guild and the Adventurers had been bound to the service of Akad the Magnificent and felt that Telarion was the only person he knew who might have the knowledge required to help resolve the issue before it became untenable.",
+				"Telarion met the Adventurers, along with Shiavalae, on the steps of the Reliquary of the Castidos and talked at length with the players regarding their current situation. While treating the party to coffee and lunch at a local cafe, the Golem & Hound, the mage explained the nature of Efreet dealings in depth, along with the power contained in the disc given to them by Akad the Magnificent. Telarion also took some time to question Murat on the bracelet he was wearing, which carries a jagged purple stone. Telarion revealed he wears a similar necklace, both of which seem to have magical properties capable of altering time in some manner. The mage offered try to teach Murat how to use his bracelet, if he wished, to at a later date."
 			]
 		},
 		"dmArticles": {

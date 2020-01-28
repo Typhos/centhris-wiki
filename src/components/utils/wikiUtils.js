@@ -54,10 +54,10 @@ export default class WikiUtils {
 
       const dataGroupsObj = {
         "person": peopleData,
-        "player-character": characterData,
-        "group": orgData,
+        "player-character": characterData,        
         "lore": this.combinedLore,
-        "location": this.combinedPlaces
+        "location": this.combinedPlaces,
+        "group": orgData
         // "races": raceData,
       };
 

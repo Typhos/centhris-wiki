@@ -57,10 +57,16 @@
       "There are three known entrances to the dungeon. All are guarded and monitored around the clock to prevent unwitting (and suicidal) explorers from entering. In order to enter, prospective adventurers must provide an official Writ of Passage, which can be purchased from the Guild Council of Rakenburg or provided by one of the guilds which make up the city governing body.",
       "The primary entrance to the under-city is located in the Dawnstar Fairgrounds, with smaller entrances in the Ghost Orchard and the Murky Reach."
     ],
-    "dmArticles": {
+    "articles": {
       "Remnants of the Utharian Empire": [
-        "The Twisting Warrens was once a city belonging to the legendary Utharian Empire which spanned across all of Centhris. The city, known as Vesunna, numbered around 18,000 residents and was considered small by Utharian standards. The city was ruled by the mage-lord Castra Diolanum, a powerful tiefling sorcerer."
+        "The Twisting Warrens was once a city belonging to the legendary Utharian Empire which spanned across all of Centhris. The city, known as Vesunna, numbered around 18,000 residents and was considered small by Utharian standards. The city was ruled by the mage-lord Castra Diolanum, a powerful tiefling mage."
       ],
+      "Echoes in Reality": [
+        "As the Ruination spread across the globe,  vast shockwaves of arcane power decimated the great centers of Utharian power. Populations centers near the epicenter were completely destroyed as reality buckled and quaked. Places that were not annihilated by this altering of the fabric of reality were instead subject to acute planar shifts and alterations. Vesunna, not close enough to the epicenter to be completely destroyed, was instead sent shifting through planar subspaces. Parts of the city simply collapsed and fell into ruin, while others managed to remain preserved, though lost beyond the material plane.",
+        "The Twisting Warrens is one such place, both right below the bustling city of Rakenburg, and at the same time, completely beyond it; ever shifting between planar spaces and the prime materium."
+      ]
+    },
+    "dmArticles": {
       "Twisted Experiments": [
         "Diolanum and his associates were all powerful mages obsessed with creating more perfect hosts for themselves. Knowing the risks of beginning their experiments on relative weak mortals, the mages instead experimented on a variety of creatures which they deemed worth 'upgrading'. They experiments were met with both intriguing successes and horrifying failures.",
         "Eventually, once they were satisfied with more mundane creatures, the mages moved on to attempting to improve creatures that were already considered to be at the apex of creation. Creatures that garnered interest included the sphinx, roc, remorhaz and dragon. Diolanum's experiments led to a variety of variant sub-species, includeing the Storm Roc, the Sand Remorhaz, and the Dracolisk.",
