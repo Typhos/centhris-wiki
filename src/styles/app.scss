@@ -53,14 +53,15 @@ main.content {
 }
 
 article.description {
-  width: 88vw;
+  width: 100%;
   margin: 1.5em auto 1em;
+  line-height: 1.5em;
 }
 
 img.worldMap {
   display: block;
   margin: 3em auto;
-  width: 88vw;
+  width: 66%;
   max-width: 1200px;
 }
 
