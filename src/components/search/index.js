@@ -39,13 +39,14 @@ class Search extends Component {
 
   handleSearch (e) {
     const searchTerm = (e.target) ? e.target.value.toLowerCase() : e.toLowerCase();
+    const urlParamString = ( !e || e === "" ) ? "" : "?search=" + searchTerm ;
     let sortable = [];
     let results = [];
 
     if (this.state.searchString !== e) this.setState({searchString: searchTerm});
 
     this.props.history.push({
-      search: '?search=' + searchTerm
+      search: urlParamString
     });
 
     for (let key in this.state.data) {
@@ -66,7 +67,7 @@ class Search extends Component {
       const key = ent[0];
       const entry = ent[1];
 
-      if ( (entry.playerKnown || this.state.dmView ) && 
+      if ( !entry.hideOnCat && (entry.playerKnown || this.state.dmView ) && 
         (entry.tags.some( tag => tag.toLowerCase().includes(searchTerm) ) || entry.name.toLowerCase().includes(searchTerm) || entry.nickname.toLowerCase().includes(searchTerm) || ( entry.races && entry.races.includes(searchTerm) ) ) 
       ) {
         results.push( key );

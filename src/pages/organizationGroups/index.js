@@ -55,7 +55,7 @@ class OrganizationGroups extends Component {
 
     const categories = this.state.categories.map( category => {
       return (
-        <div className="category">
+        <div key={category} className="category">
           { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 &&
             <h2 className="sectionTitle">{category}s</h2>
           }
@@ -83,7 +83,7 @@ class OrganizationGroups extends Component {
     return this.state.orgs.map( org => {
       if ( orgData[org].type === category ) {
         return (
-          <li className="group">
+          <li key={org} className="group">
             <Link to={`/group/${org}`}>
               <img className="portrait" alt="" src={ images('./' + orgData[org].name.replace(/\s/g,"-") + '.png') }/>
               <p>{orgData[org].name}</p>

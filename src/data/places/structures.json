@@ -97,10 +97,17 @@
     "leaders": ["High Prelate Tryngwen Benno"],
     "additionalImages": ["Sacellum-of-the-Guardian-exterior.png"],
     "description": [
-      "The Sacellum of the Guardian is a massive, stone basilica in the heart of the main square of Rakenburg. Constructed 500 years ago, the building was designed in the Baroque style. The exterior of the Sacellum is comprised of gray stone and each of the four corners of the building rise into an imposing stone tower capped with a bronze spire.",
+      "The Sacellum of the Guardian is a massive, stone basilica in the heart of the main square of Rakenburg. Completed 375 years ago, the building was designed in the Baroque style. The exterior of the Sacellum is comprised of gray stone and each of the four corners of the building rise into an imposing stone tower capped with a bronze spire.",
       "The basilica is one of the largest churches to the Guardian on Centhris, with pilgrims from all over Ulfwyst traveling to the city to visit the temple, take part in holy services and pray at the shrines to the champions and saints who have served him.",
       "The head of the temple is High Prelate Tryngwen Benno, who many view as the leader of the Church of the Guardian in Ulfwyst."
-    ]    
+    ],
+    "articles": {
+      "History": [
+        "The sacellum existed long before the current, massive structure was erected. When the city was first being resettled, and Oldtown, now the Greenwood Quarter, was established, the first shrine to the Guardian was erected in the Oldtown square. As the city expanded across the Kamsby river, the people of Rakenburg constructed other shrines around the city to the various gods of the pantheon. As the main square was planned, the original design included space for 7 small temples near the river; a single sacellum, or shrine, for the Guardian, the Arbiter, the Eternal, the Maiden, the Philosopher, the Wanderer and the Leviathan. These shrines existed on the current grounds of the Sacellum of the Guardian for roughly 130 years.",
+        "In 2C 2181, a great earthquake of unknown origin rocked the Barrier Coast. There was major damage to much of the city and all seven of the small shrines to the gods in Rakenburg Square were damaged. Many of the churches had, in the years after the construction of the main square, erected their own larger, dedicated churches in other parts of the city and were not concerned with immediate reconstruction of these small shrines.",
+        "In the aftermath of the earthquake, the Church of the Guardian had sent numerous Valiants to the cities of the Barrier Coast to aid the people and with this influx of the faithful, the church leaders deemed it necessary to look for a location to build a new temple capable of holding its worshipers. In 2184, the famous adventuring paladin of Bahamut, Bazyli of Camunburg, tithed an immense fortune of roughly 70,000 gold Hulls to the church in Rakenburg to build a new temple on the site of the old Sacellum. "
+      ]
+    }
   },
   "Chram-of-the-Eternal": {
     "playerKnown": false,

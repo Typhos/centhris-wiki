@@ -18,8 +18,10 @@ class People extends Component {
     let dmView = localStorage.getItem('dmView') === 'true';
 
     for (let [key, obj] of Object.entries(peopleData)) {
-      if ( obj.playerKnown || dmView ) {
-        filteredOutput[key] = obj;
+      if ( !obj.hideOnCat ) {
+        if (obj.playerKnown || dmView) {
+          filteredOutput[key] = obj;
+        }
       }
     }
 
@@ -32,8 +34,11 @@ class People extends Component {
   }
 
   render () {
+    console.log(1)
     const filteredOutput = this.state.people.map( person => {
-      return <PeopleArticle key={person} data={{peopleData}} entry={peopleData[person]} image={ images('./' + peopleData[person].name.replace(/\s/g,"-") + '.png') }/>
+      const imgPath = images.keys().some( x => x.includes( person )) &&  images('./' + peopleData[person].name.replace(/\s/g,"-") + '.png');
+
+      return <PeopleArticle key={person} data={{peopleData}} entry={peopleData[person]} image={ imgPath || "" }/>
     });
 
     return (

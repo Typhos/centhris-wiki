@@ -88,7 +88,7 @@ export default class PeopleArticle extends Component {
           { person.race && 
             <div className="info">
               <p className="key">Race</p>
-              <p className="values">{WikiUtils.linkContent(person, person.race)}</p>
+              <div className="values">{WikiUtils.linkContent(person, person.race)}</div>
             </div>
           }
           { person.gender && 
@@ -190,7 +190,7 @@ export default class PeopleArticle extends Component {
           { person.occupation && 
             <div className="info">
               <p className="key">Occupation</p>
-              <p className="values">{WikiUtils.linkContent(person, person.occupation)}</p>
+              <div className="values">{WikiUtils.linkContent(person, person.occupation)}</div>
             </div>
           }
           { person.affiliations &&

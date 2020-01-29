@@ -85,6 +85,9 @@ main.content {
 @media all and (max-width: $breakpoint-mobile) {
   
   main.content {
+    h2.sectionGroup {
+      margin-top: 0;
+    }
   
     nav.subNav {
       display: flex;
@@ -94,7 +97,13 @@ main.content {
         margin-top: 1em;
 
         .navElement {
-
+          width: auto;
+          text-align: center;
+          // padding: 0 7.5%;
+          padding: 0;
+          width: 25%;
+          margin-bottom: 1.5em;
+          padding-bottom: 0.5em;
         }
       }
     }

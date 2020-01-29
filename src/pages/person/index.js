@@ -28,11 +28,12 @@ class Person extends Component {
 
   render () {
     const person = this.state.person;
+    const imgPath = images.keys().some( x => x.includes( person )) &&  images('./' + peopleData[person].name.replace(/\s/g,"-") + '.png');
 
     return (
       <Page.People>
         <section id="people" className="article" >
-          <PersonArticle key={person} data={{peopleData}} entry={peopleData[person]} image={ images('./' + peopleData[person].name.replace(/\s/g,"-") + '.png') } />
+          <PersonArticle key={person} data={{peopleData}} entry={peopleData[person]} image={ imgPath || "" } />
         </section>
       </Page.People>
     )

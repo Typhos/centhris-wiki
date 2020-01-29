@@ -1,6 +1,7 @@
 {
 	"Shiavalae-Amarathar": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["adventurer","elf","wizard","Ruby Phoenix","Rakenburg","bound","friend","associate"],
 		"name": "Shiavalae Amarathar",
 		"nickname": "Shia",
@@ -20,6 +21,7 @@
 	},
 	"Khazar-Thul": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Khazar Thul",
 		"tags": ["adventurer","human","paladin","Ruby Phoenix","Rakenburg","bound","friend","associate"],
 		"nickname": "Khazar",
@@ -41,6 +43,7 @@
 	},
 	"Jeskin-Sebroski": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Jeskin Sebroski",
 		"tags": ["noble","human","count","navolin","hussar","rythlon"],
 		"nickname": "Count Jeskin Sebroski",
@@ -60,6 +63,7 @@
 	},
 	"King-Kzesimir-III-of-House-Czak": {
 		"playerKnown": false,
+		"hideOnCat": false,
 		"name": "King Kzesimir III of House Czak",
 		"nickname": "King Kzesimir III Czak",
 		"linkingWords": ["Kzesimir III of House Czak","King Kzesimir III","Kzesimir III","King Kzesimir Czak","King Kzesimir","Kzesimir Czak"],
@@ -75,6 +79,7 @@
 	},
 	"Akad-the-Magnificent": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Akad the Magnificent",
 		"tags": ["elemental","efreet","efreeti","contract","shade","city of brass","mercury","molten halls"],
 		"nickname": "Akad",
@@ -92,6 +97,7 @@
 	},
 	"Lirr-Stonebreath": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Lirr Stonebreath",
 		"tags": ["cleric","dwarf","smith","adventurer","adventurer","associate","friend"],
 		"nickname": "Lirr",
@@ -110,6 +116,7 @@
 	},
 	"the-Myrd'draal": {
 		"playerKnown": false,
+		"hideOnCat": false,
 		"name": "the Myrd'draal",
 		"tags": ["monk","master","villain","endless sky","azoth'xun","eladrin"],
 		"nickname": "the Myrd'draal",
@@ -125,6 +132,7 @@
 	},
 	"Roland-of-Zelmar": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Roland of Zelmar",
 		"tags": ["adventurer","human","monster hunter","friend","associate"],
 		"nickname": "Roland",
@@ -143,6 +151,7 @@
 	},
 	"Mysterious-Monk": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Mysterious Monk",
 		"tags": ["monk","human","kongir","enemy","azoth'xun"],
 		"nickname": "Mysterious Monk",
@@ -159,6 +168,7 @@
 	},
 	"Zorrakir": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Zorrakir",
 		"tags": ["monk","tiefling","venbrin","friend","associate","master"],
 		"nickname": "Zorrakir",
@@ -176,6 +186,7 @@
 	},
 	"Imizael-Clathara": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Imizael Clathara",
 		"tags": ["ranger","elf","rythlon","friend","associate","Navolin"],
 		"nickname": "Imizael",
@@ -194,6 +205,7 @@
 	},
 	"Bordin": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Bordin",
 		"tags": ["human","innkeeper","Rythlon","friend","Navolin"],
 		"nickname": "Bordin",
@@ -210,6 +222,7 @@
 	},
 	"Davrik": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Davrik",
 		"tags": ["human","sailor","merchant","smuggler","Rythlon"],
 		"nickname": "Davrik",
@@ -228,6 +241,7 @@
 	},
 	"Gregor": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Gregor",
 		"tags": ["human","sailor","smuggler","Rythlon"],
 		"nickname": "Gregor",
@@ -244,6 +258,7 @@
 	},
 	"Teliril-Wasanathi": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["hag","elf","fey","rythlon","navolin","enemy","magistrate","noble"],
 		"name": "Teliril Wasanathi",
 		"nickname": "Teliril",
@@ -262,6 +277,7 @@
 	},
 	"Lormin-Blackmaw": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["butcher","rogue","half-orc","rythlon","navolin","friend"],
 		"name": "Lormin Blackmaw",
 		"nickname": "Lormin",
@@ -278,6 +294,7 @@
 	},
 	"Edmund": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["butcher","rogue","half-orc","rythlon","navolin","friend"],
 		"name": "Edmund",
 		"nickname": "Edmund",
@@ -293,6 +310,7 @@
 	},
 	"Rakas-of-Driskal": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["priest","cleric","human","rythlon","navolin","guardian"],
 		"name": "Rakas of Driskal",
 		"nickname": "Rakas",
@@ -309,6 +327,7 @@
 	},
 	"Muffin": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["mule"],
 		"name": "Muffin",
 		"nickname": "Muffin",
@@ -323,6 +342,7 @@
 	},
 	"Vythica-Floshin": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["wizard","scholar","half-elf","rythlon","navolin","nost ezel'nar"],
 		"name": "Vythica Floshin",
 		"nickname": "Vythica",
@@ -338,6 +358,7 @@
 	},
 	"Reanold-Duplechin": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["bard","halfling","trickster","sovereign","rythlon"],
 		"name": "Reanold Duplechin",
 		"nickname": "Reanold",
@@ -357,6 +378,7 @@
 	},
 	"Selif-Koric": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["noble","human","rythlon","navolin"],
 		"name": "Selif Koric",
 		"nickname": "Alderman Selif Koric",
@@ -374,6 +396,7 @@
 	},
 	"Nikodim-Tifafi-Zihan-Pilkozz": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["sailor","captain","Volikgrad","barrier coast","smuggler","salty ferret"],
 		"name": "Nikodim Tifafi Zihan Pilkozz",
 		"nickname": "Captain Niko",
@@ -392,6 +415,7 @@
 	},
 	"Uster": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["azer","slave","the molten halls","elemental"],
 		"name": "Uster",
 		"nickname": "Uster",
@@ -407,6 +431,7 @@
 	},
 	"Priceli-Nezella-Philyorin": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["gnome","apothecary","rythlon","navolin","merchant"],
 		"name": "Priceli Nezella Philyorin",
 		"nickname": "Priceli",
@@ -421,6 +446,7 @@
 	},
 	"Ithi-Ironjaw": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["smith","dwarf","Felrast","runesmith"],
 		"name": "Ithi Ironjaw",
 		"nickname": "Master Ironjaw",
@@ -442,6 +468,7 @@
 	},
 	"Vagnur-Mountainhall": {
 		"playerKnown": false,
+		"hideOnCat": false,
 		"tags": ["smith","dwarf","Kazdan Ord","runesmith"],
 		"name": "Vagnur Mountainhall",
 		"nickname": "Master Mountainhall",
@@ -457,6 +484,7 @@
 	},
 	"Vyslos": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["druid","elf","Sylvan Conclave","grove"],
 		"name": "Vyslos",
 		"nickname": "Vyslos",
@@ -473,6 +501,7 @@
 	},
 	"Cahina": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["druid","human","Sylvan Conclave","grove"],
 		"name": "Cahina",
 		"nickname": "Cahina",
@@ -488,6 +517,7 @@
 	},
 	"Tekas-Woadsinger": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["druid","Sylvan Conclave","grove"],
 		"name": "Tekas Woadsinger",
 		"nickname": "Tekas",
@@ -503,6 +533,7 @@
 	},
 	"Baqrin-Calosh": {
 		"playerKnown": false,
+		"hideOnCat": false,
 		"tags": ["sailor","captain","Volikgrad","barrier coast","smuggler","salty ferret"],
 		"name": "Baqrin Calosh",
 		"nickname": "Lord Baqrin",
@@ -518,6 +549,7 @@
 	},
 	"Janik-Malmor": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"tags": ["noble","human","count","navolin","Frenkel"],
 		"name": "Janik Malmor",
 		"nickname": "Baron Janik Malmor",
@@ -535,6 +567,7 @@
 	},
 	"Archduke-Nicolai-Valken": {
 		"playerKnown": false,
+		"hideOnCat": false,
 		"tags": ["noble","human","archduke","zurast"],
 		"name": "Archduke Nicolai Valken",
 		"nickname": "Nicolai Valken",
@@ -550,6 +583,7 @@
 	},
 	"Belthren-Ogni": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Belthren Ogni",
 		"tags": ["adventurer","human","rogue","Ruby Phoenix","Rakenburg","associate"],
 		"nickname": "Belthren",
@@ -566,6 +600,7 @@
 	},
 	"Lensa-Ogni": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Lensa Ogni",
 		"tags": ["adventurer","human","sorceress","Ruby Phoenix","Rakenburg","associate"],
 		"nickname": "Lensa",
@@ -581,6 +616,7 @@
 	},
 	"Avelino": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Avelino",
 		"tags": ["adventurer","aarakocra","barbarian","Ruby Phoenix","Rakenburg","associate"],
 		"nickname": "Avelino",
@@ -596,6 +632,7 @@
 	},
 	"Yendra-Quenn": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Yendra Quenn",
 		"tags": ["adventurer","halfling","barbarian","Ruby Phoenix","Rakenburg","associate"],
 		"nickname": "Yendra",
@@ -611,6 +648,7 @@
 	},
 	"Rendis-Moon": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Rendis Moon",
 		"tags": ["steward","human","Ruby Phoenix","Rakenburg"],
 		"nickname": "Rendis",
@@ -625,6 +663,7 @@
 	},
 	"Korema-zar-Halkren": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Korema zar Halkren",
 		"nickname": "Korema",
 		"tags": ["adventurer","half-orc","barbarian","Ruby Phoenix","Rakenburg","associate"],
@@ -647,6 +686,7 @@
 	},
 	"Kilorn-Zerem": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Kilorn Zerem",
 		"nickname": "Kilorn Zerem",
 		"linkingWords": ["Kilorn","Kilorn of Rakenburg"],
@@ -661,6 +701,7 @@
 	},
 	"Prince-Ardashir": {
 		"playerKnown": false,
+		"hideOnCat": false,
 		"name": "Prince Ardashir",
 		"nickname": "Ardashir ab Shahreen",
 		"linkingWords": ["Prince Ardashir ab Shahreen"],
@@ -676,6 +717,7 @@
 	},
 	"Telarion-Elentiir": {
 		"playerKnown": true,
+		"hideOnCat": false,
 		"name": "Telarion Elentiir",
 		"nickname": "Telarion",
 		"tags": ["wizard","moon elf","wizard","Ruby Phoenix","associate"],
@@ -759,6 +801,7 @@
 	},
 	"Yabtaeid": {
 		"playerKnown": false,
+		"hideOnCat": false,
 		"name": "Yabtaeid",
 		"nickname": "Yabtaeid the Daring",
 		"tags": ["djinn","genie","venbrin"],
@@ -769,6 +812,7 @@
 	},
 	"Beris-Krakhammer": {
 		"playerKnown": false,
+		"hideOnCat": false,
 		"name": "Beris Krakhammer",
 		"nickname": "Beris Krakhammer",
 		"tags": ["mercenary","dwarf","fighter","Gerrick's Delvers","Rakenburg"],
@@ -783,6 +827,7 @@
 	},
 	"Nadia-Vernon": {
 		"playerKnown": false,
+		"hideOnCat": false,
 		"name": "Nadia Vernon",
 		"nickname": "Nadia Vernon",
 		"tags": ["assassin","half-elf","rogue","Red Moon Order","Rakenburg"],
@@ -796,7 +841,8 @@
 		]
 	},
 	"Eskra-Gradiorus": {
-		"playerKnown": false,
+		"playerKnown": true,
+		"hideOnCat": true,
 		"name": "Eskra Gradiorus",
 		"nickname": "Eskra Gradiorus",
 		"linkingWords": ["Artificer Gradiorus"],
@@ -809,6 +855,40 @@
 		"affiliations": ["Specula Arcanum"],
 		"description": [
 			"A legendary artificer who lived in Rakenburg from 2C 2215 until her death in 2C 2318. The mastermind behind, and namesake of, the Gradiorus Golems that now operate as part of the Specula Arcanum."
+		]
+	},
+	"Bazyli-of-Camunburg": {
+		"playerKnown": true,
+		"hideOnCat": true,
+		"name": "Bazyli of Camunburg",
+		"nickname": "Bazyli of Camunburg",
+		"linkingWords": ["Bazyli the Valiant"],
+		"tags": ["paladin","human","Rakenburg","Valiant","Church of the Guardian"],
+		"birthYear": "2C 2133",
+		"deathYear": "2C 2212",
+		"gender": "Male",
+		"race": "Human",
+		"occupation": "Adventurer",
+		"affiliations": ["Church of the Guardian","Sacellum of the Guardian"],
+		"description": [
+			"A legendary adventurer who is responsible for the construction of the Sacellum of the Guardian in Rakenburg. Bazyli gifted the church a sum of roughly 70,000 gold Hulls in 2C 2184 for the construction of the temple."
+		]
+	},
+	"Khorohr-of-Thellodur": {
+		"playerKnown": true,
+		"hideOnCat": true,
+		"name": "Khorohr of Thellodur",
+		"nickname": "Khorohr of Thellodur",
+		"linkingWords": [],
+		"tags": ["fighter","dwarf","Thellodur","Champion","Cult of the Champion"],
+		"birthYear": "2C 662",
+		"deathYear": "2C 1140",
+		"gender": "Male",
+		"race": "Dwarf",
+		"occupation": "General, Soldier",
+		"affiliations": ["Army of the High King","Cult of the Champion"],
+		"description": [
+			"Khorohr of Thellodur was one of the greatest generals of Dol Obok who served the High King during the Great Expansion of the dwarves into the Pillars of Amud. He is best known in the modern era for his writing of the Codex of Vigilence, a treatise on the arts of valor, warfare, battle tactics and campaign strategy. The Codex is considered one of the greatest works of dwarven poetry ever written and in its original Dwarven can be sung as a battle hymn. Sadly, it loses this quality when translated."
 		]
 	}
 }

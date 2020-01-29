@@ -59,7 +59,7 @@ class Places extends Component {
 
     const categories = this.state.categories.map( category => {
       return (
-        <div className="category">
+        <div key={category} className="category">
           { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 &&
             <h2 className="sectionTitle">{category}s</h2>
           }

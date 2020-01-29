@@ -67,7 +67,7 @@ class LoreCategories extends Component {
 
     const categories = this.state.categories.map( category => {
       return (
-        <div className={`category ${category.replace(/\s/g,"-")}`}>
+        <div key={category} className={`category ${category.replace(/\s/g,"-")}`}>
           { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 &&
             plural(category)
           }
@@ -83,11 +83,12 @@ class LoreCategories extends Component {
         <Search handleSearch={ this.handleSearch }  data={this.state.combinedLore}/>
         <nav className="subNav">
           <ul className="navList">
-            <li className={`navElement ${ (this.state.active === "All") ? "active" : "" }`}  onClick={this.limitCategories}>All</li>
+            <li className={`navElement ${ (this.state.active === "All") ? "active" : "" }`} onClick={this.limitCategories}>All</li>
             <li className={`navElement ${ (this.state.active === "Gods") ? "active" : "" }`} onClick={this.limitCategories}>Gods</li>
             <li className={`navElement ${ (this.state.active === "Races") ? "active" : "" }`} onClick={this.limitCategories}>Races</li>
-            <li className={`navElement ${ (this.state.active === "Events") ? "active" : "" }`} onClick={this.limitCategories}>Events</li>
+            <li className={`navElement ${ (this.state.active === "History") ? "active" : "" }`} onClick={this.limitCategories}>History</li>
             <li className={`navElement ${ (this.state.active === "Monsters") ? "active" : "" }`} onClick={this.limitCategories}>Monsters</li>
+            <li className={`navElement ${ (this.state.active === "World") ? "active" : "" }`} onClick={this.limitCategories}>World</li>
           </ul>
         </nav>
 
@@ -100,9 +101,37 @@ class LoreCategories extends Component {
   }
 
   limitCategories(e) {
-    const category = e.target.innerText;
+    const dmView = localStorage.getItem('dmView') === 'true';
+    let category = e.target.innerText;
+    let newData;
 
-    this.setState({active: category});
+    switch (category) {
+      case "Gods":
+        newData = godsData;
+        break;
+      case "Races":
+        newData = racesData;
+        break;
+      case "History":
+        newData = eventsData;
+        break;
+      case "Monsters":
+        newData = creaturesData;
+        break;
+      case "World":
+        newData = loreData;
+        break;
+      default:
+        newData = this.state.combinedLore;
+        break;
+    }
+
+    const lore = WikiUtils.sortByName( Object.keys(newData) );
+
+    this.setState({
+      active: category,
+      lore: lore
+    });
   }
 
   getEntriesByCategory(category) {

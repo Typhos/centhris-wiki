@@ -148,17 +148,29 @@ article.lore {
 // MOBILE
 @media all and (max-width: $breakpoint-mobile) {
 
-  ul#people {
+  #lore {
+    article.lore {
 
-    li.location {
-      width: 48%;
-
-      img.portrait {
-
+      h2 {
+        display: none;
       }
 
-      p.name {
+      aside.infoBox {
+        width: 100%;
+        max-width: none;
+        margin-bottom: 3em;
 
+        li.location {
+          width: 48%;
+
+          img.portrait {
+
+          }
+
+          p.name {
+
+          }
+        }
       }
     }
   }

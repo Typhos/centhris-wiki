@@ -54,9 +54,9 @@ export default class WikiUtils {
 
       const dataGroupsObj = {
         "person": peopleData,
-        "player-character": characterData,        
+        "player-character": characterData,  
+        "location": this.combinedPlaces,      
         "lore": this.combinedLore,
-        "location": this.combinedPlaces,
         "group": orgData
         // "races": raceData,
       };
@@ -79,12 +79,14 @@ export default class WikiUtils {
           if ( show || localStorage.getItem('dmView') === 'true' ) {
 
             linkingWords.forEach( (string, j) => {
-              const arrayCheck = this.arrayCheck(target, Object.keys(namesObj), linkingWords );
-              const link = <Link key={`key-${string}-${j}-${string}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}`, state: "update"}}>{string}</Link>;    
+              if (string !== undefined && string !== "") {
+                const arrayCheck = this.arrayCheck(target, Object.keys(namesObj), linkingWords );
+                const link = <Link key={`key-${j}-${string}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}`, state: "update"}}>{string}</Link>;    
 
-              if ( !arrayCheck ) {
-                const nP = paragraph;
-                paragraph = this.replaceNestedValue(nP, string, link);
+                if ( !arrayCheck ) {
+                  const nP = paragraph;
+                  paragraph = this.replaceNestedValue(nP, string, link);
+                }
               }
             });
           }

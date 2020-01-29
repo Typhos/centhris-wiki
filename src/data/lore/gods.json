@@ -128,6 +128,7 @@
     "alignment": "Neutral Good",
     "gender": "Feminine",
     "titles": [
+        "Goddess of Valor",
         "White Lady",
         "Hope Bringer",
         "Hand of Righteousness"
@@ -143,10 +144,24 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","neutral good","Courage","War","Life","knight","paladin"],
     "description": [
-
+        "The Champion, Isilena, is generally depicted as a powerful woman with long, flowing, white hair, who is clad in heavy armor and wielding a longsword. She is the patron of the soldiers, knights and questing paladins. Many soldiers who were overcome with a battle frenzy claim to have seen her in the midst of battle, fighting on the side of victors of the conflict. Many soldiers pray to her before battle for protection, inspiration and courage. So common is her worship in camp that clerics of the Champion often march behind an army's column, carrying mobile shrines and relics of the goddess.",
+        "She is also the hero and patron to the downtrodden. Many suffering people pray to the Champion for aid and when help arrives, it is the Champion that most often receives credit for ushering the would-be hero along their path.",
+        "The Champion's ancient for is the Fiend, Aegertoh, the Demon Lord of War, whom she has fought in numerous battles against throughout the aeons."
     ],
     "articles": {
-
+        "Disorganized Faithful": [
+            "The Champion does not have many true temples dedicated to her. Her followers are soldiers, mercenaries and other peoples of conflict who invoker her rights and appeal for her blessing as part of daily training or in preparation for a battle. Most barracks, forts and encampments have shrines or idols dedicated to Isilena in a central location, along with an offering bowl generally placed at the base of the shrine. Though there is no set tithe to the Champion, most soldiers who follower to dogma leave two copper pieces as an offering, in hopes that the coins will be enough to invoke the goddess' protection and avoid having the same coins placed over their eyes, should fall in battle.",
+            "The Champion is generally only worshiped by civilized races who follow tactics, planning and restraint. The Lady of Valor does not approve of those who would needlessly slaughter a defeated foe, or inflict cruel punishments upon the vanquished. Those who delight in slaughter and cruel violence tend to favor the Fiend, for the revel in his strength, brutality and lust for bloodshed."
+        ],
+        "Holy Champions": [
+            "Clerics and Paladins of Isilena favor heavy armor, shields and disciplined fighting, usually in formation. Followers of the Goddess of Valor believe that a failure to plan will undoubtedly result in a journey into Neshaya's Garden. Most members of the Cult of Isilena carry with them the Codex of Vigilence, a treatise on the arts of valor, warfare, battle tactics and campaign strategy written by the legendary dwarf general Khorohr of Thellodur. The Codex is considered one of the greatest works of dwarven poetry ever written and in its original Dwarven can be sung as a battle hymn. Sadly, it loses this quality when translated."
+        ],
+        "Relations with other Faiths": [
+        ],
+        "Dogma": [
+        ],
+        "Divine Realm": [
+        ]
     }
   },
   "The-Arbiter": {
@@ -188,7 +203,7 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
-    "linkingWords": [""],
+    "linkingWords": ["the Maiden"],
     "type": "Greater Deity",
     "tags": ["Greater Deity",""],
     "description": [
@@ -209,7 +224,7 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
-    "linkingWords": [],
+    "linkingWords": ["the Wanderer"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","true neutral"],
     "description": [
@@ -272,7 +287,7 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
-    "linkingWords": [],
+    "linkingWords": ["the Philosopher"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful neutral"],
     "description": [
@@ -293,7 +308,28 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
-    "linkingWords": [],
+    "linkingWords": ["the Sage"],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","true neutral"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Gravekeeper": {
+    "playerKnown": true,
+    "name": "The Gravekeeper",
+    "nickname": "The Gravekeeper",
+    "trueName": "Neshaya",
+    "portfolio": ["Grave","the Dead"],
+    "alignment": "True Neutral",
+    "gender": "Feminine",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": ["the Gravekeeper","Neshaya","Neshaya's Garden"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","true neutral"],
     "description": [
@@ -377,7 +413,7 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
-    "linkingWords": [],
+    "linkingWords": ["the Leviathan"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","neutral evil"],
     "description": [
@@ -715,7 +751,7 @@
     }
   },
   "The-Shattered-Mind": {
-    "playerKnown": true,
+    "playerKnown": false,
     "name": "The Shattered Mind",
     "nickname": "The Shattered Mind",
     "trueName": "",
@@ -778,7 +814,7 @@
     }
   },
   "The-Dark-Queen": {
-    "playerKnown": true,
+    "playerKnown": false,
     "name": "The Dark Queen",
     "nickname": "The Dark Queen",
     "trueName": "",
@@ -820,7 +856,7 @@
     }
   },
   "The-Temptress": {
-    "playerKnown": true,
+    "playerKnown": false,
     "name": "The Temptress",
     "nickname": "The Temptress",
     "trueName": "",
@@ -841,7 +877,7 @@
     }
   },
   "The-Unending-Hunger": {
-    "playerKnown": true,
+    "playerKnown": false,
     "name": "The Unending Hunger",
     "nickname": "The Unending Hunger",
     "trueName": "",
@@ -862,7 +898,7 @@
     }
   },
   "The-Masked-Lady": {
-    "playerKnown": true,
+    "playerKnown": false,
     "name": "The Masked Lady",
     "nickname": "The Masked Lady",
     "trueName": "",
