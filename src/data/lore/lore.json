@@ -1,3 +1,17 @@
 {
-  
+  "The-Three-Moons-of-Centhris": {
+    "playerKnown": true,
+    "name": "The Three Moons of Centhris",
+    "nickname": "The Three Moons of Centhris",
+    "linkingWords": [""],
+    "type": "World Lore",
+    "tags": ["world lore","cosmos","night sky","moon"],
+    "description": [
+      ""
+    ],
+    "dmArticles": {
+      "The Lunar World of XYZ": [
+      ]
+    }
+  }
 }

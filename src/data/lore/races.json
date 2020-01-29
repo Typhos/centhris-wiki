@@ -5,7 +5,7 @@
     "nickname": "Avar",
     "commonName": "Elves",
     "type": "Race",
-    "tags": ["race"],
+    "tags": ["race","elves","elf"],
     "description": [
       "The Avar, better known as Elves, of Centhris are the descendants of the original fey race of the Feywild, the Eladrin. There are four sub-races of the Avar, each claiming a different Eladrin heritage from which they descend. The subraces are the Aeglôs'avar, the Cúron'avar, the Galenâs'avar and the Glân'avar."
     ]
@@ -16,7 +16,7 @@
     "nickname": "Glân'avar",
     "commonName": "Bright Elves",
     "type": "Avar Subrace",
-    "tags": ["subrace"],
+    "tags": ["subrace","elves","elf"],
     "heritage": "Summer Eladrin",
     "description": [
       "The Glân'avar, or Bright Elves, are descendants of the the Eladrin of the Summer Court."
@@ -28,7 +28,7 @@
     "nickname": "Cúron'avar",
     "commonName": "Silver Elves",
     "type": "Avar Subrace",
-    "tags": ["subrace"],
+    "tags": ["subrace","elves","elf"],
     "heritage": "Spring Eladrin",
     "description": [
       "The Cúron'avar, or Silver Elves, are descendants of the the Eladrin of the Spring Court."
@@ -40,7 +40,7 @@
     "nickname": "Galenâs'avar",
     "commonName": "Wild Elves",
     "type": "Avar Subrace",
-    "tags": ["subrace"],
+    "tags": ["subrace","elves","elf"],
     "heritage": "Autumn Eladrin",
     "description": [
       "The Galenâs'avar, or Wild Elves, are descendants of the the Eladrin of the Autumn Court."
@@ -52,7 +52,7 @@
     "nickname": "Aeglôs'avar",
     "commonName": "Drow",
     "type": "Avar Subrace",
-    "tags": ["subrace"],
+    "tags": ["subrace","elves","elf"],
     "heritage": "Winter Eladrin",
     "description": [
       "The Aeglôs'avar, or Drow, are descendants of the the Eladrin of the Court of Winter."
@@ -65,7 +65,7 @@
     "commonNames": ["Dwarves"],
     "linkingWords": ["Ziril'udórian"],
     "type": "Race",
-    "tags": ["race"],
+    "tags": ["race","dwarves","dwarf"],
     "locations": ["Pillars of Amud","Torick Peaks","Vir Mountains","Zavalev Mountains","Jordonis Mountains"],
     "description": [
       "The Ziril'udor, better known simple as Dwarves, of Centhris are one of the planet's native races. All Ziril'udor claim to have been created by the Forgelord, imbued with life by the Stonemother and led into battle by the Bannerlord. If this is true, or simply the origin myth the dwarves tell is a matter of faith.",
@@ -78,7 +78,7 @@
     "nickname": "Arôl'zust",
     "commonName": "Crag Dwarves",
     "type": "Ziril'udor Subrace",
-    "tags": ["subrace"],
+    "tags": ["subrace","dwarves","dwarf"],
     "description": [
       "Mountain, or Crag, Dwarves."
     ]
@@ -89,7 +89,7 @@
     "nickname": "Kulin'dák",
     "commonName": "Island Dwarves",
     "type": "Ziril'udor Subrace",
-    "tags": ["subrace"],
+    "tags": ["subrace","dwarves","dwarf"],
     "description": [
       "Isand Dwarves."
     ]
@@ -100,7 +100,7 @@
     "nickname": "Omir'thunen",
     "commonName": "Hill Dwarves",
     "type": "Ziril'udor Subrace",
-    "tags": ["subrace"],
+    "tags": ["subrace","dwarves","dwarf"],
     "description": [
       "Hill Dwarves."
     ]

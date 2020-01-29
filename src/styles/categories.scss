@@ -1,7 +1,7 @@
 @import "./mixins";
 
-#places {
-  width: 90vw;
+#categories {
+  width: 95%;
   padding: 0;
   margin: 2em auto 0;
   list-style-type: none;
@@ -10,7 +10,14 @@
     padding: 0;
   }
 
-  li.location {
+  .category.Major-Deity,
+  .category.Minor-Deity {
+    li.entry {
+      max-width: 18%;
+    }
+  }
+
+  li.entry {
     display: inline-block;
     position: relative;
     width: 14em;
@@ -63,37 +70,25 @@
   }
 }
 
-article.maps {
-  width: 88vw;
-  margin: 1em auto 0;
-
-  a.mapLink {
-
-    display: inline-block;
-    width: 23%;
-    margin: 1em 0 2em;
-    padding: 0 1%;
-    vertical-align: top;
-    justify-content: center;
-    text-align: center;
-
-    img.map {
-      height: 7em;
-      width: auto;
-      left: 1em;
-      // clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
-    }
-  }
-
-}
-
 
 // MOBILE
 @media all and (max-width: $breakpoint-mobile) {
-  #places {
+  #categories {
 
-    li.location {
+    .category.Major-Deity,
+    .category.Minor-Deity {
+      li.entry {
+        width: 45%;
+        max-width: none;
+        height: auto;
+        
+      }
+
+    }
+
+    li.entry {
       width: 45%;
+      height: auto;
       max-width: none;
       
       img.portrait {
@@ -101,21 +96,6 @@ article.maps {
         clip-path: polygon(12% 0%, 100% 0%, 88% 100%, 0% 100%);
       }
     }
-  }
-
-  article.maps {
-    margin: 0.25em auto 0;
-
-    a.mapLink {
-      width: 48%;
-      margin-bottom: 0;
-
-      img.map {
-        height: 10vh;
-      }
-
-    }
-
   }
 
 }

@@ -4,19 +4,20 @@ import { Link } from 'react-router-dom';
 import Search from '../../components/search';
 import Page from '../../components/page';
 import WikiUtils from "components/utils/wikiUtils";
-// import 'styles/lore.scss';
+import 'styles/categories.scss';
 
 import eventsData from 'data/lore/events';
 import godsData from 'data/lore/gods';
 import racesData from 'data/lore/races';
 import creaturesData from 'data/lore/creatures';
+import loreData from 'data/lore/lore';
 
 class LoreCategories extends Component {
 
   constructor (props) {
     super(props);
 
-    const combinedLore = {...eventsData, ...racesData, ...godsData, ...creaturesData};
+    const combinedLore = {...eventsData, ...racesData, ...godsData, ...creaturesData, ...loreData};
 
     // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
     let filteredOutput = {};
@@ -38,6 +39,7 @@ class LoreCategories extends Component {
     categories = [...uniqueSet];
 
     this.state = {
+      active: "All",
       dmView: dmView,
       combinedLore: combinedLore,
       lore: lore,
@@ -47,15 +49,27 @@ class LoreCategories extends Component {
     this.getEntriesByCategory = this.getEntriesByCategory.bind(this);
     this.checkEmptyEntry = this.checkEmptyEntry.bind(this);
     this.handleSearch = this.handleSearch.bind(this);
+    this.limitCategories = this.limitCategories.bind(this);
   }
 
   render () {
+    const noSCategories = [];
+
+    const plural = function( category ) {
+      if ( category === "World Lore" ) {
+         return <h2 className="sectionTitle">{category}</h2>
+      } else if ( category.toLowerCase().includes("deity") ) {
+        return <h2 className="sectionTitle">{category.split(/\s/g)[0]} Deities</h2>
+      }
+      
+      return <h2 className="sectionTitle">{category}s</h2>
+    }
 
     const categories = this.state.categories.map( category => {
       return (
-        <div className="category">
+        <div className={`category ${category.replace(/\s/g,"-")}`}>
           { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 &&
-            <h2 className="sectionTitle">{category}s</h2>
+            plural(category)
           }
           <ul className="sectionList">
             {this.getEntriesByCategory(category)}
@@ -67,12 +81,28 @@ class LoreCategories extends Component {
     return (
       <Page.LoreCategories>
         <Search handleSearch={ this.handleSearch }  data={this.state.combinedLore}/>
+        <nav className="subNav">
+          <ul className="navList">
+            <li className={`navElement ${ (this.state.active === "All") ? "active" : "" }`}  onClick={this.limitCategories}>All</li>
+            <li className={`navElement ${ (this.state.active === "Gods") ? "active" : "" }`} onClick={this.limitCategories}>Gods</li>
+            <li className={`navElement ${ (this.state.active === "Races") ? "active" : "" }`} onClick={this.limitCategories}>Races</li>
+            <li className={`navElement ${ (this.state.active === "Events") ? "active" : "" }`} onClick={this.limitCategories}>Events</li>
+            <li className={`navElement ${ (this.state.active === "Monsters") ? "active" : "" }`} onClick={this.limitCategories}>Monsters</li>
+          </ul>
+        </nav>
+
         <h2 className="sectionGroup">The Lore of Centhris</h2>
-        <div id="places" >
+        <div id="categories" >
           {categories}
         </div>
       </Page.LoreCategories>
     )
+  }
+
+  limitCategories(e) {
+    const category = e.target.innerText;
+
+    this.setState({active: category});
   }
 
   getEntriesByCategory(category) {
@@ -84,7 +114,7 @@ class LoreCategories extends Component {
       if ( this.state.combinedLore[lore].type === category ) {
 
         return (
-          <li key={lore+category} className="location">
+          <li key={lore+category} className="entry">
             <Link to={`/lore/${lore}`}>
               { loreImg.keys().some(x => x.includes( lore )) && 
                 <img className={`portrait ${ this.checkEmptyEntry(this.state.combinedLore[lore]) }`} alt="" src={ loreImg('./' + lore + '.png') }/>
@@ -123,7 +153,7 @@ class LoreCategories extends Component {
   }
 
   handleSearch(results) {
-    this.setState({places: results});
+    this.setState({lore: results});
   }
 
 }

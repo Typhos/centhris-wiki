@@ -73,7 +73,7 @@ class Location extends Component {
 
     return (
       <Page.Location>
-        <section id="location" >
+        <section id="location" className="article" >
 
           <article className="location" id={location.name.replace(/\s/g,"-")}>
             

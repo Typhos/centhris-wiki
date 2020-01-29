@@ -40,7 +40,7 @@ class Group extends Component {
 
     return (
       <Page.Group>
-        <section id="group" >
+        <section id="group" className="article" >
           <article className="group" id={group.name.replace(/\s/g,"-")}>
             
             {/*<Link className="backLink" to='/organizations'>&laquo; back to Organizations</Link>*/}

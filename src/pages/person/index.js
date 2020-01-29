@@ -31,7 +31,7 @@ class Person extends Component {
 
     return (
       <Page.People>
-        <section id="people" >
+        <section id="people" className="article" >
           <PersonArticle key={person} data={{peopleData}} entry={peopleData[person]} image={ images('./' + peopleData[person].name.replace(/\s/g,"-") + '.png') } />
         </section>
       </Page.People>

@@ -6,6 +6,7 @@ import godsData from 'data/lore/gods';
 import racesData from 'data/lore/races';
 import eventsData from 'data/lore/events';
 import creaturesData from 'data/lore/creatures';
+import loreData from 'data/lore/lore';
 
 import "styles/loreArticle.scss";
 
@@ -14,7 +15,7 @@ class Lore extends Component {
   constructor(props) {
     super(props);
 
-    const combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData};
+    const combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData, ...loreData};
 
     this.state = {
       pathname: window.location.pathname,
@@ -46,9 +47,13 @@ class Lore extends Component {
     const creatures = require.context('img/lore/creatures/', false);
     const gods = require.context('img/lore/gods/', false);
 
+    const arrayToLi = function(value) {
+      return value.map( val => <li className="value" key={val} >{val}</li>);
+    }
+
     return (
       <Page.Lore>
-        <section id="lore" >
+        <section id="lore" className="article" >
           <article className="lore" id={lore.name.replace(/\s/g,"-")}>
 
             <h2 className="fullName">{lore.nickname}</h2>
@@ -63,71 +68,66 @@ class Lore extends Component {
               { gods.keys().some(x => x.includes( lore.name.replace(/\s/g,"-") )) && 
                 <img className="portrait" alt="" src={ gods('./' + lore.name.replace(/\s/g,"-") + '.png') }/>
               }
-              { (lore.type) ? 
+              { lore.type && 
                 <div className="info">
                   <p className="key">Type</p>
                   <p className="values">{lore.type}</p>
-                </div> : "" 
+                </div>
               }
-              { (lore.population) ? 
-                <div className="info">
-                  <p className="key">Population</p>
-                  <p className="values">{lore.population}</p>
-                </div> : "" 
+              { lore.alignment && 
+                  <div className="info">
+                    <p className="key">Alignment</p>
+                    <p className="values big">{lore.alignment}</p>
+                  </div>
               }
-              { (lore.government) ? 
-                <div className="info">
-                  <p className="key">Government</p>
-                  <p className="values">{lore.government}</p>
-                </div> : "" 
+              { lore.trueName && 
+                  <div className="info">
+                    <p className="key">True Name</p>
+                    <p className="values big">{lore.trueName}</p>
+                  </div>
               }
-              { (lore.currency) ? 
-                <div className="info">
-                  <p className="key">Currency</p>
-                  <p className="values">{lore.currency}</p>
-                </div> : "" 
+              { lore.gender && 
+                  <div className="info">
+                    <p className="key">Gender</p>
+                    <p className="values big">{lore.gender}</p>
+                  </div>
               }
-              { (lore.capital) ? 
-                <div className="info">
-                  <p className="key">Capital City</p>
-                  <p className="values">{WikiUtils.linkContent(lore, lore.capital)}</p>
-                </div> : "" 
+              { lore.symbol && 
+                  <div className="info">
+                    <p className="key">Symbol</p>
+                    <p className="values big">{lore.symbol}</p>
+                  </div>
               }
-              { (lore.leaders) ? 
-                <div className="info">
-                  <p className="key">Leader(s)</p>
-                  <div className="values">{WikiUtils.linkContent(lore, lore.leaders)}</div>
-                </div> : "" 
+              { lore.portfolio && 
+                  <div className="Portfolio info">
+                    <p className="key">Portfolio</p>
+                    <ul className="values">
+                      { arrayToLi(lore.portfolio) }
+                    </ul>
+                  </div>
               }
-              { (lore.members) ? 
-                <div className="info">
-                  <p className="key">Members(s)</p>
-                  <div className="values">{WikiUtils.linkContent(lore, lore.members)}</div>
-                </div> : "" 
+              { lore.majorTemples && 
+                <div className="Titles info">
+                  <p className="key">Major Temple(s)</p>
+                  <div className="values">{WikiUtils.linkContent(lore, lore.majorTemples)}</div>
+                </div>
               }
-              { (lore.races) ? 
-                <div className="info">
-                  <p className="key">Race(s)</p>
-                  <div className="races values">{WikiUtils.linkContent(lore, lore.races)}</div>
-                </div> : "" 
+              { lore.titles && 
+                <div className="Titles info">
+                  <p className="key">Title(s)</p>
+                  <ul className="values">
+                    { arrayToLi(lore.titles) }
+                  </ul>
+                </div>
               }
-              { (lore.location) ? 
-                <div className="info">
-                  <p className="key">Location</p>
-                  <div className="values">{WikiUtils.linkContent(lore, lore.location)}</div>
-                </div> : "" 
-              }
-              { (lore.lore) ? 
-                <div className="info">
-                  <p className="key">lore</p>
-                  <div className="values">{WikiUtils.linkContent(lore, lore.lore)}</div>
-                </div> : "" 
-              }
-              { (lore.regions) ? 
-                <div className="info">
-                  <p className="key">Regions</p>
-                  <div className="values">{WikiUtils.linkContent(lore, lore.regions)}</div>
-                </div> : "" 
+              {
+                lore.worshipers && 
+                <div className="Worshipers info">
+                  <p className="key">Worshipers</p>
+                  <ul className="values">
+                    { arrayToLi(lore.worshipers) }
+                  </ul>
+                </div>
               }
             </aside>
             <div className="mainContent">

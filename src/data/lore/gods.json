@@ -1,3 +1,887 @@
 {
+  "The-Guardian": {
+    "playerKnown": true,
+    "name": "The Guardian",
+    "nickname": "The Guardian",
+    "trueName": "Bahamut",
+    "portfolio": ["Life","Justice","Protection"],
+    "linkingWords": ["Platinum Dragon", "the Guardian","Bahamut"],
+    "alignment": "Lawful Good",
+    "gender": "Masculine",
+    "titles": [
+        "Celestial Dragon",
+        "Platinum Knight",
+        "Dragon King",
+        "God of Dragons",
+        "The Valiant"
+    ],
+    "worshipers": [
+        "Metallic Dragons",
+        "Knights",
+        "Judges"
+    ],
+    "symbol": "Shield with three vertical lines",
+    "type": "Greater Deity",
+    "majorTemples": [
+        "Sacellum of the Guardian"
+    ],
+    "tags": ["Greater Deity","good","lawful","life","justice","protection","knight","paladin"],
+    "description": [
+        "The Guardian, Bahamut, is the God-King of all good dragons and the protector of mortals. Bahamut is one of the the most renowned gods among mortal races of Centhris, and is said to command a deep respect within the Pantheon, even from those who would view him as an enemy. The Guardian and his worshipers value life, and do not harm other creatures needlessly. In battle, his servants follow a strict code of martial conduct, and generally are unwilling to harm an opponent that is unable to defend itself.",
+        "The Guardian is said to be proud beyond reproach. His canon states that pride is necessary for any creature to be magnanimous; one has to believe in standards for themselves, and strive to surpass them, before standards can be applied to others. Many followers adhere to this ideal, often resulting other viewing his church as haughty and aloof."
+    ],
+    "articles": {
+        "Righteous Dignity": [
+          "The canon law of the Guardian expressly disapproves of zealotry. The Church of the Guardian holds itself to the ideals of its patron, but does not seek to actively spread or force its beliefs upon others. Instead, the church seeks to hold itself up as an ideal that others might strive to meet.",
+          "While the followers of the Guardian do not overtly proselytize or attempt to convert followers, many have been swayed to the Celestial Dragon's church through his followers' selfless acts and example."
+        ],
+        "Valiant Knights": [
+          "The Church of the Guardian teaches its followers that the truest communion with their god is through active expressions of bravery, heroism and self sacrifice. Young men and women called to his service often travel Centhris seeking to do good in his name. These Paladins and Clerics are collectively known as Valiant Knights or Valiants. Many of these followers actively seek to root out evil and defend those who cannot defend themselves, and many are willing to make the ultimate sacrifice in the name of their patron.",
+          "The Valiant Knights are generally revered by the common folk of Centhris. They are seen as protectors, champions and paragons of good. Questing knights and clerics of the Guardian are regularly welcomed into peasant homes, and provided with food and a place to rest. Occasionally, charlatans will masquerade as Valiants, duping a desperate or ignorant populace. Such acts are regarded as an affront to the the Platinum Dragon and his true servants are charged with seeking out and dispensing justice to any who would sully their gods name.",
+          "The Valiants also have earned a reputation for being dragon slayers, or dragon knights. The church actively opposes the activities of chromatic dragons on Centhris and his followers are keenly aware that if they do not remain vigilant, the powerful servants of the Wyrm could bring ruin upon the Prime Materium."
+        ],
+        "Relations with other Faiths": [
+          "While the Church of the Guardian and its followers are revered by the common folk, followers of other gods and those of station tend to find the church cumbersome. The ideals of the Celestial Dragon are lofty, they do not match the reality of the world around them. The followers of the Guardian tend to view the world in black and white, while most others understand that the world is, in fact, a wide spectrum of morally gray choices.",
+          "The followers and churches of some other deities maintain good relations with the Church of the Guardian. The churches of the Maker, the Champion, the Arbiter and the Tempest have varying degrees of interaction with the followers of the Guardian. Though none of these followers see completely eye to eye, they all understand that they stand as a common bloc against others that might threaten the safety, order and dignity of the societies their patrons guard.",
+          "The Church of the Guardian canon demands the seeking and directly opposition of the acts of, though not the existence of, the churches of the Wyrm, the Stygian and the Fiend. Other evil gods and their cults are viewed with suspicion, but their aims only occasionally require direct intervention from the Valiants, and the champions of the Guardian do not actively seek out their members."
+        ],
+        "Dogma": [
+          "The Guardian's dogma was based on justice, nobility, protection, and honor. His church teaches its followers to always uphold the highest ideals of honor and justice; to be constantly vigilant against evil and to oppose it from all fronts; and to protect the weak, liberate the oppressed, and defend just order. The Guardian is said to advocate a 'greater justice' that includes fighting against evil and toppling oppressive regimes. The church also is keen to reward strength of purpose and character in his followers.",
+          "The Church of the Guardian holds a strong central structure and canon which includes the Leges Aequitatis. Each church of the Celestial Dragon contains a central pillar, shrine or statue of the Dragon King which displays the church's code. Every follower of the church of the Guardian, and most people with a passing knowledge of religious rites are able to recite it. The major tenants of the Leges Aequitatis are:",
+          "Justice, virtue and good above all.",
+          "Honor and fealty to just lords.",
+          "Honor and protect the righteous innocence.",
+          "Seek out and correct the enemies of justice and good.",
+          "Honor and forbearance for oneself."
+        ],
+        "Divine Realm": [
+          "The Guardian's Hall is said to be a sight to behold. High atop the heavens, it stands as a massive palace, the exterior plated with platinum, reflecting the light of heaven like a impossibly bright lighthouse. Inside of the marble halls of dragon god's home, many exotic materials can be found: precious metals, astral ivory and gemstones of incredible size decorate windows and mithral walls. This is not just for vanity: the Celestial Dragon's gigantic palace is said to serve as remind the other gods of the Guardian's might, and on a more basic level, it also serves as his hoard. It is here, atop the Divine Lighthouse that he holds court, deals with other deities and beings of near similar power, and passes judgment on the wicked."
+        ]
+    }
+  },
+  "The-Eternal": {
+    "playerKnown": true,
+    "name": "The Eternal",
+    "nickname": "The Eternal",
+    "trueName": "Anethos",
+    "portfolio": ["Life","Light","Birth","Glory"],
+    "alignment": "Neutral Good",
+    "gender": "Masculine",
+    "titles": [
+        "Dawnfather",
+        "Sky Rider",
+        "Summer Sun",
+        "Lord of Inspiration"
+    ],
+    "worshipers": [
+        "Artists",
+        "Athletes",
+        "Nobility",
+        "Peasants"
+    ],
+    "symbol": "Sunrise over a hill",
+    "linkingWords": ["the Eternal","Sun God","Anethos"],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","good","neutral","Life","Light","Rebirth","Glory"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Maker": {
+    "playerKnown": true,
+    "name": "The Maker",
+    "nickname": "The Maker",
+    "trueName": "Usterral",
+    "portfolio": ["Forge","Valor","War","Knowledge"],
+    "alignment": "Lawful Good",
+    "gender": "Masculine",
+    "titles": [
+        "World Smith",
+        "Hammer Lord",
+        "Mountain King"
+    ],
+    "worshipers": [
+        "Dwarves",
+        "Smiths",
+        "Miners"
+    ],
+    "symbol": "Crown over an anvil ",
+    "linkingWords": ["the Maker","World Smith","Usterral"],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","good","lawful","Forge","Valor","War","Knowledge","dwarves","dwarf"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Champion": {
+    "playerKnown": true,
+    "name": "The Champion",
+    "nickname": "The Champion",
+    "trueName": "Isilena",
+    "portfolio": ["Courage","War","Life"],
+    "alignment": "Neutral Good",
+    "gender": "Feminine",
+    "titles": [
+        "White Lady",
+        "Hope Bringer",
+        "Hand of Righteousness"
+    ],
+    "worshipers": [
+        "Paladins",
+        "Heroes",
+        "Knights",
+        "the downtrodden"
+    ],
+    "symbol": "White longsword",
+    "linkingWords": ["Isilena","the Champion"],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","neutral good","Courage","War","Life","knight","paladin"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Arbiter": {
+    "playerKnown": true,
+    "name": "The Arbiter",
+    "nickname": "The Arbiter",
+    "trueName": "Thosmera",
+    "portfolio": ["Knowledge","Civilization","Law"],
+    "alignment": "Lawful Neutral",
+    "gender": "Agender",
+    "titles": [
+        "Law Bringer",
+        "City Builder",
+        "the Inventor",
+        "Lord of Order"
+    ],
+    "worshipers": [
+        "Engineers"
+    ],
+    "symbol": "Black or white cog on a purple field",
+    "linkingWords": ["the Arbiter","Law Giver","Thosmera"],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","lawful neutral","Knowledge","Civilization","Law"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Maiden": {
+    "playerKnown": true,
+    "name": "The Maiden",
+    "nickname": "The Maiden",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity",""],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Wanderer": {
+    "playerKnown": true,
+    "name": "The Wanderer",
+    "nickname": "The Wanderer",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","true neutral"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Jester": {
+    "playerKnown": true,
+    "name": "The Jester",
+    "nickname": "The Jester",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","chaotic neutral"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Tempest": {
+    "playerKnown": true,
+    "name": "The Tempest",
+    "nickname": "The Tempest",
+    "trueName": "Heimyr",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": ["the Tempest","Heimyr"],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","chaotic good","chaos","tempest","storms","lightning","thunder"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Philosopher": {
+    "playerKnown": true,
+    "name": "The Philosopher",
+    "nickname": "The Philosopher",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","lawful neutral"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Sage": {
+    "playerKnown": true,
+    "name": "The Sage",
+    "nickname": "The Sage",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","true neutral"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Shadow": {
+    "playerKnown": true,
+    "name": "The Shadow",
+    "nickname": "The Shadow",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","chaotic neutral","chaos"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Conqueror": {
+    "playerKnown": true,
+    "name": "The Conqueror",
+    "nickname": "The Conqueror",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","lawful evil"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Wyrm": {
+    "playerKnown": true,
+    "name": "The Wyrm",
+    "nickname": "The Wyrm",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": ["the Wyrm"],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","chaotic evil","chaos","dragon"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Leviathan": {
+    "playerKnown": true,
+    "name": "The Leviathan",
+    "nickname": "The Leviathan",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","neutral evil"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Fiend": {
+    "playerKnown": true,
+    "name": "The Fiend",
+    "nickname": "The Fiend",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": ["the Fiend","the Lord of All Chaos"],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","chaotic evil","chaos","demons"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Master": {
+    "playerKnown": true,
+    "name": "The Master",
+    "nickname": "The Master",
+    "trueName": "Mephistopheles",
+    "portfolio": [],
+    "alignment": "Lawful Evil",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": ["mephistopheles","devil","overlord","hell"],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","lawful evil","devils","contracts","ruler"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Stygian": {
+    "playerKnown": true,
+    "name": "The Stygian",
+    "nickname": "The Stygian",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [
+      "The Eternal King"
+    ],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": ["the Stygian","the Stygian King"],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","neutral evil","magic","wizards","mages","lich"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Reveler": {
+    "playerKnown": true,
+    "name": "The Reveler",
+    "nickname": "The Reveler",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Smiling-Lady": {
+    "playerKnown": true,
+    "name": "The Smiling Lady",
+    "nickname": "The Smiling Lady",
+    "trueName": "",
+    "portfolio": ["Beauty","Luck","Love"],
+    "alignment": "Chaotic Good",
+    "gender": "Feminine",
+    "titles": [
+        "",
+        "Lady Luck"
+    ],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Ember-Soul": {
+    "playerKnown": true,
+    "name": "The Ember Soul",
+    "nickname": "The Ember Soul",
+    "trueName": "Glist",
+    "portfolio": [],
+    "alignment": "Lawful Good",
+    "gender": "Feminine",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": ["the Ember Soul","Dragon Consort"],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity","dragon","Dragon Consort"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Stag": {
+    "playerKnown": true,
+    "name": "The Stag",
+    "nickname": "The Stag",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Emerald-Mist": {
+    "playerKnown": true,
+    "name": "The Emerald Mist",
+    "nickname": "The Emerald Mist",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Shimmering-Sky": {
+    "playerKnown": true,
+    "name": "The Shimmering Sky",
+    "nickname": "The Shimmering Sky",
+    "trueName": "Auroros",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Stellar-Wolf": {
+    "playerKnown": true,
+    "name": "The Stellar Wolf",
+    "nickname": "The Stellar Wolf",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Grove-Keeper": {
+    "playerKnown": true,
+    "name": "The Grove Keeper",
+    "nickname": "The Grove Keeper",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Stonemother": {
+    "playerKnown": true,
+    "name": "The Stonemother",
+    "nickname": "The Stonemother",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Banner-Lord": {
+    "playerKnown": true,
+    "name": "The Banner Lord",
+    "nickname": "The Banner Lord",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Brewmaster": {
+    "playerKnown": true,
+    "name": "The Brewmaster",
+    "nickname": "The Brewmaster",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Biting-Frost": {
+    "playerKnown": true,
+    "name": "The Biting Frost",
+    "nickname": "The Biting Frost",
+    "trueName": "Jotnoral",
+    "portfolio": ["Winter","War"],
+    "alignment": "Neutral Evil",
+    "gender": "Masculine",
+    "titles": [
+        "The Giant King",
+        "Winter's Chill"
+    ],
+    "worshipers": [
+        "Giants",
+        "Bheurs",
+        "Druids",
+        "Inhabitants of cold climates"
+    ],
+    "symbol": "Six-pointed snowflake",
+    "linkingWords": ["the Biting Frost","the Giant King","Winter's Chill"],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Shattered-Mind": {
+    "playerKnown": true,
+    "name": "The Shattered Mind",
+    "nickname": "The Shattered Mind",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Soul-Thief": {
+    "playerKnown": true,
+    "name": "The Soul Thief",
+    "nickname": "The Soul Thief",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Hidden-Blade": {
+    "playerKnown": true,
+    "name": "The Hidden Blade",
+    "nickname": "The Hidden Blade",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Dark-Queen": {
+    "playerKnown": true,
+    "name": "The Dark Queen",
+    "nickname": "The Dark Queen",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Gold-Prince": {
+    "playerKnown": true,
+    "name": "The Gold Prince",
+    "nickname": "The Gold Prince",
+    "trueName": "Radagio",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Temptress": {
+    "playerKnown": true,
+    "name": "The Temptress",
+    "nickname": "The Temptress",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Unending-Hunger": {
+    "playerKnown": true,
+    "name": "The Unending Hunger",
+    "nickname": "The Unending Hunger",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Masked-Lady": {
+    "playerKnown": true,
+    "name": "The Masked Lady",
+    "nickname": "The Masked Lady",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  }
   
+    
 }

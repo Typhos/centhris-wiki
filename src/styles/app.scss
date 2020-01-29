@@ -19,7 +19,7 @@ body {
 
 h2.sectionGroup {
   font-size: 1.5em;
-  margin: 2em auto 0;
+  margin: 1em auto 0;
   font-family: $serifText;
   font-variant: small-caps;
   letter-spacing: 0.2em;
@@ -48,6 +48,7 @@ a {
 main.content {
 
   width: 88vw;
+  max-width: 1000px;
   margin: 0 auto;
 }
 

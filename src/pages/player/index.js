@@ -31,7 +31,7 @@ class Player extends Component {
 
     return (
       <Page.People>
-        <section id="people" >
+        <section id="people" className="article" >
           <PlayerCharacter entry={characterData[person]} data={characterData} image={ images('./' + characterData[person].name.replace(/\s/g,"-") + '.png') }/>
         </section>
       </Page.People>

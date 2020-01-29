@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Search from '../../components/search';
 import Page from '../../components/page';
 import WikiUtils from "components/utils/wikiUtils";
-import 'styles/places.scss';
+import 'styles/categories.scss';
 
 // ==== ALL DATA IMPORTS FOR LOCATIONS
 import structures from 'data/places/structures';
@@ -74,7 +74,7 @@ class Places extends Component {
       <Page.People>
         <Search handleSearch={ this.handleSearch }  data={this.state.combinedPlaces}/>
         <h2 className="sectionGroup">Places</h2>
-        <div id="places" >
+        <div id="categories" >
           {categories}
         </div>
       </Page.People>
@@ -89,7 +89,7 @@ class Places extends Component {
       if ( this.state.combinedPlaces[place].type === category ) {
 
         return (
-          <li key={place+category} className="location">
+          <li key={place+category} className="entry">
             <Link to={`/location/${place}`}>
               { images.keys().some(x => x.includes( place )) && 
                 <img className={`portrait ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) }`} alt="" src={ images('./' + place + '.png') }/>
