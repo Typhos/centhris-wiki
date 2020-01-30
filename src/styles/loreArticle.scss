@@ -89,6 +89,7 @@ article.lore {
 
       &.mapBox {
         height: auto;
+        flex-wrap: wrap;
 
         img {
           width: 80%;

@@ -14,13 +14,14 @@ import settlements from 'data/places/settlements';
 import dungeons from 'data/places/dungeons';
 import fortifications from 'data/places/fortifications';
 import dwarfHolds from 'data/places/dwarfHolds';
+import mythic from 'data/places/mythic';
 
 class Location extends Component {
 
   constructor(props) {
     super(props);
 
-    const combinedPlaces = {...cityDistricts, ...dungeons, ...structures, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications, ...dwarfHolds};
+    const combinedPlaces = {...cityDistricts, ...dungeons, ...structures, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications, ...dwarfHolds, ...mythic};
 
     this.state = {
       combinedPlaces: combinedPlaces,

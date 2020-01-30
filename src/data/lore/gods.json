@@ -25,6 +25,7 @@
     "majorTemples": [
         "Sacellum of the Guardian"
     ],
+    "shrineImg": ["shrine-guardian.png"],
     "tags": ["Greater Deity","good","lawful","life","justice","protection","knight","paladin"],
     "description": [
         "The Guardian, Bahamut, is the God-King of all good dragons and the protector of mortals. Bahamut is one of the the most renowned gods among mortal races of Centhris, and is said to command a deep respect within the Pantheon, even from those who would view him as an enemy. The Guardian and his worshipers value life, and do not harm other creatures needlessly. In battle, his servants follow a strict code of martial conduct, and generally are unwilling to harm an opponent that is unable to defend itself.",
@@ -80,6 +81,7 @@
         "Peasants"
     ],
     "symbol": "Sunrise over a hill",
+    "shrineImg": ["shrine-eternal.png"],
     "linkingWords": ["the Eternal","Sun God","Anethos"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","good","neutral","Life","Light","Rebirth","Glory"],
@@ -109,6 +111,7 @@
         "Miners"
     ],
     "symbol": "Crown over an anvil ",
+    "shrineImg": ["shrine-maker.png"],
     "linkingWords": ["the Maker","World Smith","Usterral"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","good","lawful","Forge","Valor","War","Knowledge","dwarves","dwarf"],
@@ -140,13 +143,14 @@
         "the downtrodden"
     ],
     "symbol": "White longsword",
+    "shrineImg": ["shrine-champion.png"],
     "linkingWords": ["Isilena","the Champion"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","neutral good","Courage","War","Life","knight","paladin"],
     "description": [
         "The Champion, Isilena, is generally depicted as a powerful woman with long, flowing, white hair, who is clad in heavy armor and wielding a longsword. She is the patron of the soldiers, knights and questing paladins. Many soldiers who were overcome with a battle frenzy claim to have seen her in the midst of battle, fighting on the side of victors of the conflict. Many soldiers pray to her before battle for protection, inspiration and courage. So common is her worship in camp that clerics of the Champion often march behind an army's column, carrying mobile shrines and relics of the goddess.",
         "She is also the hero and patron to the downtrodden. Many suffering people pray to the Champion for aid and when help arrives, it is the Champion that most often receives credit for ushering the would-be hero along their path.",
-        "The Champion's ancient foe is the Fiend, Aegertoh, the Demon Lord of War, whom she has fought in numerous battles against throughout the aeons."
+        "The Champion's ancient foe is the Conqueror, Aegertoh, the Lord of War, whom she has fought in numerous battles against throughout the aeons."
     ],
     "articles": {
         "Disorganized Faithful": [
@@ -182,6 +186,7 @@
         "Engineers"
     ],
     "symbol": "Black or white cog on a purple field",
+    "shrineImg": ["shrine-arbiter.png"],
     "linkingWords": ["the Arbiter","Law Giver","Thosmera"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful neutral","Knowledge","Civilization","Law"],
@@ -203,6 +208,7 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
+    "shrineImg": ["shrine-maiden.png"],
     "linkingWords": ["the Maiden"],
     "type": "Greater Deity",
     "tags": ["Greater Deity",""],
@@ -224,6 +230,7 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
+    "shrineImg": ["shrine-wanderer.png"],
     "linkingWords": ["the Wanderer"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","true neutral"],
@@ -234,25 +241,62 @@
 
     }
   },
-  "The-Jester": {
+  "The-Harlequin": {
     "playerKnown": true,
-    "name": "The Jester",
-    "nickname": "The Jester",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": [],
+    "name": "The Harlequin",
+    "nickname": "The Harlequin",
+    "trueName": "Jandivar",
+    "portfolio": ["Trickery","Knowledge"],
+    "alignment": "Chaotic Neutral",
+    "gender": "Agender",
+    "titles": [
+        "the Masquerade",
+        "God of Many Faces",
+        "the Jester",
+        "the Masked God"
+    ],
+    "worshipers": [
+        "artists",
+        "bards",
+        "entertainers",
+        "diplomats",
+        "charlatans"
+    ],
+    "symbol": "Masquerade mask",
+    "shrineImg": ["shrine-harlequin.png"],
+    "linkingWords": ["God of Many Faces","the Harlequin"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic neutral"],
     "description": [
-
+      "The Harlequin, Jandivar, is the trickster god and the patron god of bards, entertainers, diplomats and spies. The Harlequin has many aspects, and at times what they represent can be synonymous or contradictory. The Harlequin is a consummate performer above all else, with a playful, debonair personality. They are said to possess an impeccable memory about any piece of lore, person or place they encounter. It is said that so perfect is the Harlequin's mimicry of even their fellow gods that on numerous occasions the Harlequin has impersonated other divines without their fellow deities being aware.",
+      "The Harlequin is said to be egotistical, and adores being the center of attention. They cannot stand the idea of not receiving adoration for their clever pranks and would grow easily bored if they were not showered with accolades. The Harlequin is said to be an irreverent philanderer, and has been said to flirt with both mortals and gods alike."
     ],
     "articles": {
-
+      "Many Faces of the Harlequin": [
+        "It is said that the Harlequin has as many masks as there are roles to be played. Each of the aspects of the god are said to have their own mask and the mercurial god switches between mask as it suits them. The masquerade mask for subtle deception, the theater masks of comedy and tragedy, the expressionless, stoic mask for keeping secrets and the grim skull mask for ill tidings are but a few of the numerous expressions the Harlequin wears."
+      ],
+      "Icons, Shrines and Temples": [
+        "Holy shrines of the Harlequin can be found in locales of import to the followers of the God of Many Faces. The most common place someone seeking the blessing of the Harlequin can go is the nearest theater or music hall where a shrine can be found. In grander structures, such as operas and royal theaters, the entryway of the building is often decorated with grand motifs of cultural scenes, landscapes and statues, all interspersed with subtle mask iconography. The Royal Opera House in Frecyra, Navolin, the Königlichen Staatoper in Merenheim, Sennhoff and the Masrah Alhul in Khezrabad, Abbasyr all contain opulent designs dedicated to the deity.",
+        "Smaller shrines to the Harlequin can also be found in some taverns frequented by traveling bards. Many worshipers are known to carry their own masks, either full size or as icons worn as pendants, earrings or rings. It is not uncommon to see an entertainer say a prayer to their patron shortly before a performance or a diplomat kiss a symbol of the Harlequin before entering an audience with a ruler in hopes of channeling some element of the god's power."
+      ],
+      "Dogma": [
+        "\"The world is but a stage on which the actors of the gods emote. Play the role you wish for and reap the adoration of a weary world. Destroy no poem, story, music or instrument, nor stop a performer before their piece is done. Observe the world around in addition to filling it with your own displays. The victor of a battle may win the day, but he is not immortal without the bard that sings of the deed. Understand the power your wield in your art, for word and song can topple kings.\"",
+        "-Nordbert Boulderhill, Renowned Bard and First Fellow of the Court of the Masquerade"
+      ],
+      "The Cults of the Harlequin": [
+        "The Cult of Jandivar is divided into smaller sects, based mostly on what aspect of the Trickster that the sect requires. Most sects take their name from the mask of the Harlequin they revere. Each sect worships the god in their own manner, with different rituals, prays and rites. Some of the known cults of the Harlequin include:",
+        "Cult of the Jester",
+        "The Brotherhood of Masks",
+        "Children of Mirth",
+        "The Court of the Masquerade",
+        "Cult of the Troubadour",
+        "Order of the Red Mask"
+      ],
+      "Relations with other Faiths": [
+        "Among the cults of other gods, the followers of the Harlequin is viewed with neither disdain nor admiration. The most commonly recognized followers, actors and bards, generally give followers of the God of Many Faces a good name, but the worshipers of the Harlequin generally do not take sides in the conflicts of cosmic morality. At most, a specific cult of the Harlequin may take sides in local issues, as artists often do, but this comes from the individuals of the group choosing a side personally and not due to their faith.",
+        "More structured faiths find the capricious nature of the cults of the Harlequin difficult to handle, as the cults members are transient. Many clerics of lawful gods complain that they must always track down and corner a follower of the Harlequin when they need them, as the Masked God's followers quickly lose interest in maintaining interfaith ties.",
+        "The only overt conflict between the cults of the Masked God and another deity is with followers of the Conqueror. A common myth in the tales of both faiths is of the merciless mockery that the Harlequin visits upon the Conqueror in ballads and songs. It is claimed that the first time the Eye of Vel'dorin erupted, it was due to the Conqueror's rage at a particularly skewering poem Jandivar read aloud in the Halls of Tanrilar disparaging the Lord of War's lust for battle as a cover for his inadequacy in ...other areas."
+      ]
     }
   },
   "The-Tempest": {
@@ -266,6 +310,7 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
+    "shrineImg": ["shrine-tempest.png"],
     "linkingWords": ["the Tempest","Heimyr"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic good","chaos","tempest","storms","lightning","thunder"],
@@ -287,6 +332,7 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
+    "shrineImg": ["shrine-philosopher.png"],
     "linkingWords": ["the Philosopher"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful neutral"],
@@ -308,6 +354,7 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
+    "shrineImg": ["shrine-sage.png"],
     "linkingWords": ["the Sage"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","true neutral"],
@@ -329,7 +376,8 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
-    "linkingWords": ["the Gravekeeper","Neshaya","Neshaya's Garden"],
+    "shrineImg": ["shrine-gravekeeper.png"],
+    "linkingWords": ["the Gravekeeper","Neshaya"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","true neutral"],
     "description": [
@@ -351,6 +399,7 @@
     "worshipers": [],
     "symbol": "",
     "linkingWords": [],
+    "shrineImg": ["shrine-shadow.png"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic neutral","chaos"],
     "description": [
@@ -371,7 +420,8 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
-    "linkingWords": [],
+    "shrineImg": ["shrine-conqueror.png"],
+    "linkingWords": ["the Conqueror","the Lord of War"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful evil"],
     "description": [
@@ -392,6 +442,7 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
+    "shrineImg": ["shrine-wyrm.png"],
     "linkingWords": ["the Wyrm"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic evil","chaos","dragon"],
@@ -413,6 +464,7 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
+    "shrineImg": ["shrine-leviathan.png"],
     "linkingWords": ["the Leviathan"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","neutral evil"],
@@ -433,6 +485,7 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
+    "shrineImg": ["shrine-fiend.png"],
     "linkingWords": ["the Fiend","the Lord of All Chaos"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic evil","chaos","demons"],
@@ -454,6 +507,7 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
+    "shrineImg": ["shrine-master.png"],
     "linkingWords": ["mephistopheles","devil","overlord","hell"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful evil","devils","contracts","ruler"],
@@ -477,6 +531,7 @@
     ],
     "worshipers": [],
     "symbol": "",
+    "shrineImg": ["shrine-stygian.png"],
     "linkingWords": ["the Stygian","the Stygian King"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","neutral evil","magic","wizards","mages","lich"],

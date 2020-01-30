@@ -23,11 +23,12 @@ import settlements      from 'data/places/settlements';
 import dungeons         from 'data/places/dungeons';
 import fortifications   from 'data/places/fortifications';
 import dwarfHolds       from 'data/places/dwarfHolds';
+import mythic           from 'data/places/mythic';
 
 
 export default class WikiUtils {
 
-  static combinedPlaces = {...structures, ...worldRegions, ...cityDistricts, ...cityStates, ...settlements, ...dungeons, ...fortifications, ...dwarfHolds, ...politicalStates};
+  static combinedPlaces = {...structures, ...worldRegions, ...cityDistricts, ...cityStates, ...settlements, ...dungeons, ...fortifications, ...dwarfHolds, ...politicalStates, ...mythic};
   static combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData};
 
   static sortByName (arr) {

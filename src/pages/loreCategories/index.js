@@ -84,10 +84,10 @@ class LoreCategories extends Component {
         <nav className="subNav">
           <ul className="navList">
             <li className={`navElement ${ (this.state.active === "All") ? "active" : "" }`} onClick={this.limitCategories}>All</li>
+            <li className={`navElement ${ (this.state.active === "Creatures") ? "active" : "" }`} onClick={this.limitCategories}>Creatures</li>
             <li className={`navElement ${ (this.state.active === "Gods") ? "active" : "" }`} onClick={this.limitCategories}>Gods</li>
-            <li className={`navElement ${ (this.state.active === "Races") ? "active" : "" }`} onClick={this.limitCategories}>Races</li>
             <li className={`navElement ${ (this.state.active === "History") ? "active" : "" }`} onClick={this.limitCategories}>History</li>
-            <li className={`navElement ${ (this.state.active === "Monsters") ? "active" : "" }`} onClick={this.limitCategories}>Monsters</li>
+            <li className={`navElement ${ (this.state.active === "Races") ? "active" : "" }`} onClick={this.limitCategories}>Races</li>
             <li className={`navElement ${ (this.state.active === "World") ? "active" : "" }`} onClick={this.limitCategories}>World</li>
           </ul>
         </nav>
@@ -115,7 +115,7 @@ class LoreCategories extends Component {
       case "History":
         newData = eventsData;
         break;
-      case "Monsters":
+      case "Creatures":
         newData = creaturesData;
         break;
       case "World":
@@ -126,7 +126,12 @@ class LoreCategories extends Component {
         break;
     }
 
-    const lore = WikiUtils.sortByName( Object.keys(newData) );
+    let lore = WikiUtils.sortByName( Object.keys(newData) );
+    lore = lore.map( el => {
+      if( this.state.combinedLore[el].playerKnown ) {
+        return el;
+      }
+    }).filter( el => el !== undefined );
 
     this.setState({
       active: category,

@@ -51,6 +51,15 @@ class Lore extends Component {
       return value.map( val => <li className="value" key={val} >{val}</li>);
     }
 
+    const shrineImg = lore.shrineImg && lore.shrineImg.map( image => {
+      return (
+        <div className="info mapBox">
+          <p className="key">Shrine</p>
+          <img alt="" className="additional" src={gods(`./${image}`)}/>
+        </div>
+      )
+    });
+
     return (
       <Page.Lore>
         <section id="lore" className="article" >
@@ -128,6 +137,9 @@ class Lore extends Component {
                     { arrayToLi(lore.worshipers) }
                   </ul>
                 </div>
+              }
+              { 
+                shrineImg 
               }
             </aside>
             <div className="mainContent">
