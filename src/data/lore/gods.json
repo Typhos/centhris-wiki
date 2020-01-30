@@ -312,9 +312,9 @@
     "gender": "Masculine",
     "titles": [
         "Skyfather",
-        "The Brawler",
-    "shrineImg": ["shrine-tempest.png"],
+        "The Brawler"
     ],
+    "shrineImg": ["shrine-tempest.png"],
     "worshipers": [
         "sailors",
         "adventurers",
