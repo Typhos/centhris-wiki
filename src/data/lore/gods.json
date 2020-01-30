@@ -42,7 +42,8 @@
         ],
         "Relations with other Faiths": [
           "While the Church of the Guardian and its followers are revered by the common folk, followers of other gods and those of station tend to find the church cumbersome. The ideals of the Celestial Dragon are lofty, they do not match the reality of the world around them. The followers of the Guardian tend to view the world in black and white, while most others understand that the world is, in fact, a wide spectrum of morally gray choices.",
-          "The followers and churches of some other deities maintain good relations with the Church of the Guardian. The churches of the Maker, the Champion, the Arbiter and the Tempest have varying degrees of interaction with the followers of the Guardian. Though none of these followers see completely eye to eye, they all understand that they stand as a common bloc against others that might threaten the safety, order and dignity of the societies their patrons guard.",
+          "The followers and churches of some other deities maintain good relations with the Church of the Guardian. The churches of the Maker, the Arbiter and the Tempest have varying degrees of interaction with the followers of the Guardian. Though none of these followers see completely eye to eye, they all understand that they stand as a common bloc against others that might threaten the safety, order and dignity of the societies their patrons guard. The church and the Cult of the Champion often overlap in times of war, as soldiers venerate the Champion while also embracing the protection of the Guardian. Faithful of the Guardian find those who follow Isilena to be keen allies, but often differ on what motivates their actions, as the followers of Bahamut wish to instill order, while heroes of the Champion focus on doing good regardless of its effect on the order of the world.",
+
           "The Church of the Guardian canon demands the seeking and directly opposition of the acts of, though not the existence of, the churches of the Wyrm, the Stygian and the Fiend. Other evil gods and their cults are viewed with suspicion, but their aims only occasionally require direct intervention from the Valiants, and the champions of the Guardian do not actively seek out their members."
         ],
         "Dogma": [
@@ -135,8 +136,8 @@
     ],
     "worshipers": [
         "Paladins",
-        "Heroes",
         "Knights",
+        "Heroes",
         "the downtrodden"
     ],
     "symbol": "White longsword",
@@ -157,10 +158,12 @@
             "Clerics and Paladins of Isilena favor heavy armor, shields and disciplined fighting, usually in formation. Followers of the Goddess of Valor believe that a failure to plan will undoubtedly result in a journey into Neshaya's Garden. Most members of the Cult of Isilena carry with them the Codex of Vigilence, a treatise on the arts of valor, warfare, battle tactics and campaign strategy written by the legendary dwarf general Khorohr of Thellodur. The Codex is considered one of the greatest works of dwarven poetry ever written and in its original Dwarven can be sung as a battle hymn. Sadly, it loses this quality when translated."
         ],
         "Relations with other Faiths": [
+            "The Cult of the Champion lacks any kind of formal organized structure, making any kind of formal relationship difficult to establish with other cults. Followers of the Champion can find an open welcome almost any place they go, given their reputation for self sacrifice, heroism and valor.",
+            "The Church of the Eternal and the Seers of the Tempest are welcome of allies of the cult of the Champion. Both cults find the ideals of the White Lady regularly align with their altruistic world views. Seers and wardens of the Tempest can occasionally stray into glory hunting, which followers of the Champion find difficult to understand.",
+            "The churches of the Arbiter and the Maker generally views followers of the Champion as welcome idealists, though their unwillingness to adhere to laws that they find unfair often cause them to clash. Likewise, the "
         ],
         "Dogma": [
-        ],
-        "Divine Realm": [
+            "Without a formal church, there is almost no formal dogma for the Champion. Though her cult lacks tenets, her followers tend to adhere to the same general ideals which are generally shared through stories and ballads. The Goddess of Valor is seen a selfless servant of others. Her followers trust their intuition, often to the dismay of allies who adhere to a more strict code, be it order or chaos."
         ]
     }
   },
@@ -260,13 +263,22 @@
     "name": "The Tempest",
     "nickname": "The Tempest",
     "trueName": "Heimyr",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": ["the Tempest","Heimyr"],
+    "portfolio": ["Tempest","Sea","Glory","Strength"],
+    "alignment": "Chaotic Good",
+    "gender": "Masculine",
+    "titles": [
+        "Skyfather",
+        "The Brawler",
+        "The Lord of Thunder"
+    ],
+    "worshipers": [
+        "sailors",
+        "adventurers",
+        "barbarians",
+        "glory hunters"
+    ],
+    "symbol": "Lightning bolt over a wave",
+    "linkingWords": ["the Tempest","Heimyr","Skyfather","The Lord of Thunder"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic good","chaos","tempest","storms","lightning","thunder"],
     "description": [
@@ -447,16 +459,16 @@
     "playerKnown": true,
     "name": "The Master",
     "nickname": "The Master",
-    "trueName": "Mephistopheles",
+    "trueName": "Asmodeus",
     "portfolio": [],
     "alignment": "Lawful Evil",
     "gender": "",
     "titles": [],
     "worshipers": [],
     "symbol": "",
-    "linkingWords": ["mephistopheles","devil","overlord","hell"],
+    "linkingWords": ["Asmodeus","the Master"],
     "type": "Greater Deity",
-    "tags": ["Greater Deity","lawful evil","devils","contracts","ruler"],
+    "tags": ["Greater Deity","lawful evil","devils","contracts","ruler","overlord","hell"],
     "description": [
 
     ],
