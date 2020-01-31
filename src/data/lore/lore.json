@@ -4,13 +4,10 @@
     "hideOnCat": false,
     "name": "The Three Moons of Centhris",
     "nickname": "The Three Moons of Centhris",
-    "linkingWords": [""],
-    "type": "World Lore",
-    "tags": [
-      "world lore",
-      "cosmos",
-      "night sky",
-      "moons",
+    "linkingWords": [
+      "the three moons",
+      "the moons of Centhris",
+      "the Three Sisters",
       "Idrothea",
       "the Amber Moon of Idrothea",
       "Idrothea, the Amber Moon",
@@ -24,9 +21,10 @@
       "the Red Moon", 
       "the red moon", 
       "Tinereth",
-      "the Red Moon of Tinereth",
-      "Blood Moon"
+      "the Red Moon of Tinereth"
     ],
+    "type": "World Lore",
+    "tags": ["world lore","cosmos","night sky","moons"],
     "description": [
       "The Planet of Centhris has three celestial satellites, collectively referred to as \"The Three Sisters\" which orbit it in a regular cycle. The most prominent in the night sky is Idrothea, the Amber Moon. The other two moons, Tinereth and Rydora shift in stature throughout their cycles. The second moon of Centhris is Rydora, the Green Jewel and the third is Tinereth, the Red Moon."
     ],

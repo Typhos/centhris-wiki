@@ -53,7 +53,7 @@ class Lore extends Component {
 
     const shrineImg = lore.shrineImg && lore.shrineImg.map( image => {
       return (
-        <div className="info mapBox">
+        <div key={lore.name} className="info mapBox">
           <p className="key">Shrine</p>
           <img alt="" className="additional" src={gods(`./${image}`)}/>
         </div>
