@@ -28,7 +28,7 @@ class Lore extends Component {
 
   UNSAFE_componentWillReceiveProps(nextProps){
 
-    const combinedLore = {...godsData, ...racesData, ...eventsData};
+    const combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData, ...loreData};
 
     if ( this.state.pathname !== nextProps.location.pathname) {
       this.setState({
