@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 import peopleData       from "data/people";
 import characterData    from 'data/characters';
 
-import loreData         from 'data/lore/events';
+import loreData         from 'data/lore/lore';
+import eventsData       from 'data/lore/events';
 import godsData         from 'data/lore/gods';
 import racesData        from 'data/lore/races';
-import eventsData       from 'data/organizations';
-import creaturesData from 'data/lore/creatures';
+import creaturesData    from 'data/lore/creatures';
 
 import orgData          from 'data/organizations';
 // import dwarfRunes from '../../data/characters';
@@ -29,7 +29,7 @@ import mythic           from 'data/places/mythic';
 export default class WikiUtils {
 
   static combinedPlaces = {...structures, ...worldRegions, ...cityDistricts, ...cityStates, ...settlements, ...dungeons, ...fortifications, ...dwarfHolds, ...politicalStates, ...mythic};
-  static combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData};
+  static combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData, ...loreData};
 
   static sortByName (arr) {
     return arr.sort( (a,b) => {
@@ -59,7 +59,6 @@ export default class WikiUtils {
         "location": this.combinedPlaces,      
         "lore": this.combinedLore,
         "group": orgData
-        // "races": raceData,
       };
 
       for ( let [path, dataSet] of Object.entries(dataGroupsObj) ) {

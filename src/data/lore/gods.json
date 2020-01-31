@@ -4,7 +4,11 @@
     "name": "The Guardian",
     "nickname": "The Guardian",
     "trueName": "Bahamut",
-    "portfolio": ["Life","Justice","Protection"],
+    "portfolio": [
+      "Life",
+      "Order",
+      "Protection"
+    ],
     "linkingWords": ["Platinum Dragon", "the Guardian","Bahamut"],
     "alignment": "Lawful Good",
     "gender": "Masculine",
@@ -66,7 +70,11 @@
     "name": "The Eternal",
     "nickname": "The Eternal",
     "trueName": "Anethos",
-    "portfolio": ["Life","Light","Birth","Glory"],
+    "portfolio": [
+      "Life",
+      "Light",
+      "Zeal"
+    ],
     "alignment": "Neutral Good",
     "gender": "Masculine",
     "titles": [
@@ -98,7 +106,11 @@
     "name": "The Maker",
     "nickname": "The Maker",
     "trueName": "Usterral",
-    "portfolio": ["Forge","Valor","War","Knowledge"],
+    "portfolio": [
+      "Forge",
+      "Order",
+      "Knowledge"
+    ],
     "alignment": "Lawful Good",
     "gender": "Masculine",
     "titles": [
@@ -128,7 +140,11 @@
     "name": "The Champion",
     "nickname": "The Champion",
     "trueName": "Isilena",
-    "portfolio": ["Courage","War","Life"],
+    "portfolio": [
+      "Strength",
+      "War",
+      "Life"
+    ],
     "alignment": "Neutral Good",
     "gender": "Feminine",
     "titles": [
@@ -176,7 +192,11 @@
     "name": "The Arbiter",
     "nickname": "The Arbiter",
     "trueName": "Thosmera",
-    "portfolio": ["Knowledge","Civilization","Law"],
+    "portfolio": [
+      "Order",
+      "Knowledge",
+      "Solidarity"
+    ],
     "alignment": "Lawful Neutral",
     "gender": "Agender",
     "titles": [
@@ -204,15 +224,27 @@
     "playerKnown": true,
     "name": "The Maiden",
     "nickname": "The Maiden",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
+    "trueName": "Yelensa",
+    "portfolio": [
+      "Light",
+      "Nature"
+    ],
+    "alignment": "Chaotic Good",
+    "gender": "Feminine",
+    "titles": [
+      "The Dreamweaver",
+      "Mother of the Three",
+      "The Night Maiden"
+    ],
+    "worshipers": [
+      "female spellcasters",
+      "non-evil lycanthropes",
+      "mariners",
+      "night watchmen"
+    ],
     "symbol": "",
     "shrineImg": ["shrine-maiden.png"],
-    "linkingWords": ["the Maiden"],
+    "linkingWords": ["the Maiden","the Maiden's Oculus"],
     "type": "Greater Deity",
     "tags": ["Greater Deity",""],
     "description": [
@@ -227,11 +259,23 @@
     "name": "The Wanderer",
     "nickname": "The Wanderer",
     "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
+    "portfolio": [
+      "Trickery",
+      "Ambition"
+    ],
+    "alignment": "True Neutral",
+    "gender": "Masculine",
+    "titles": [
+      "Cloaked Companion",
+      "Merchant's Friend",
+      "the Cloaked Rider"
+    ],
+    "worshipers": [
+      "merchants",
+      "shopkeepers",
+      "pilgrims",
+      "smugglers"
+    ],
     "symbol": "",
     "shrineImg": ["shrine-wanderer.png"],
     "linkingWords": ["the Wanderer"],
@@ -249,7 +293,10 @@
     "name": "The Harlequin",
     "nickname": "The Harlequin",
     "trueName": "Jandivar",
-    "portfolio": ["Trickery","Knowledge"],
+    "portfolio": [
+      "Trickery",
+      "Knowledge"
+    ],
     "alignment": "Chaotic Neutral",
     "gender": "Agender",
     "titles": [
@@ -271,7 +318,7 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic neutral"],
     "description": [
-      "The Harlequin, Jandivar, is the trickster god and the patron god of bards, entertainers, diplomats and spies. The Harlequin has many aspects, and at times what they represent can be synonymous or contradictory. The Harlequin is a consummate performer above all else, with a playful, debonair personality. They are said to possess an impeccable memory about any piece of lore, person or place they encounter. It is said that so perfect is the Harlequin's mimicry of even their fellow gods that on numerous occasions the Harlequin has impersonated other divines without their fellow deities being aware.",
+      "The Harlequin, Jandivar, is the trickster god and the patron god of artists, bards, entertainers, and diplomats. The Harlequin has many aspects, and at times what they represent can be synonymous or contradictory. The Harlequin is a consummate performer above all else, with a playful, debonair personality. They are said to possess an impeccable memory about any piece of lore, person or place they encounter. It is said that so perfect is the Harlequin's mimicry of even their fellow gods that on numerous occasions the Harlequin has impersonated other divines without their fellow deities being aware.",
       "The Harlequin is said to be egotistical, and adores being the center of attention. They cannot stand the idea of not receiving adoration for their clever pranks and would grow easily bored if they were not showered with accolades. The Harlequin is said to be an irreverent philanderer, and has been said to flirt with both mortals and gods alike."
     ],
     "articles": {
@@ -307,7 +354,11 @@
     "name": "The Tempest",
     "nickname": "The Tempest",
     "trueName": "Heimyr",
-    "portfolio": ["Tempest","Sea","Glory","Strength"],
+    "portfolio": [
+      "Tempest",
+      "Strength",
+      "War"
+    ],
     "alignment": "Chaotic Good",
     "gender": "Masculine",
     "titles": [
@@ -336,13 +387,21 @@
     "playerKnown": true,
     "name": "The Philosopher",
     "nickname": "The Philosopher",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
+    "trueName": "Nevondria",
+    "portfolio": [
+      "Knowledge",
+      "Arcana"
+    ],
+    "alignment": "Lawful Neutral",
+    "gender": "Feminine",
     "titles": [],
-    "worshipers": [],
-    "symbol": "",
+    "worshipers": [
+      "wizards",
+      "mystics",
+      "scholars",
+      "students"
+    ],
+    "symbol": "Outline of a face with three eyes",
     "shrineImg": ["shrine-philosopher.png"],
     "linkingWords": ["the Philosopher"],
     "type": "Greater Deity",
@@ -359,12 +418,23 @@
     "name": "The Sage",
     "nickname": "The Sage",
     "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
+    "portfolio": [
+      "Nature",
+      "Life"
+    ],
+    "alignment": "True Neutral",
+    "gender": "Feminine",
+    "titles": [
+      "",
+      ""
+    ],
+    "worshipers": [
+      "druids",
+      "rangers",
+      "nomads",
+      "sylvan"
+    ],
+    "symbol": "Green wreath with red berries",
     "shrineImg": ["shrine-sage.png"],
     "linkingWords": ["the Sage"],
     "type": "Greater Deity",
@@ -381,7 +451,10 @@
     "name": "The Gravekeeper",
     "nickname": "The Gravekeeper",
     "trueName": "Neshaya",
-    "portfolio": ["Grave","the Dead"],
+    "portfolio": [
+      "Grave",
+      "Death"
+    ],
     "alignment": "True Neutral",
     "gender": "Feminine",
     "titles": [],
@@ -403,11 +476,21 @@
     "name": "The Shadow",
     "nickname": "The Shadow",
     "trueName": "",
-    "portfolio": [],
+    "portfolio": [
+      "Trickery",
+      "Ambition"
+    ],
     "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
+    "gender": "Masculine",
+    "titles": [
+      "The Night Stalker",
+      "Shadefingers",
+      "King of Thieves"
+    ],
+    "worshipers": [
+      "thieves",
+      "spies"
+    ],
     "symbol": "",
     "linkingWords": [],
     "shrineImg": ["shrine-shadow.png"],
@@ -425,7 +508,11 @@
     "name": "The Conqueror",
     "nickname": "The Conqueror",
     "trueName": "",
-    "portfolio": [],
+    "portfolio": [
+      "War",
+      "Strength",
+      "Death"
+    ],
     "alignment": "",
     "gender": "",
     "titles": [],
@@ -446,12 +533,20 @@
     "playerKnown": true,
     "name": "The Wyrm",
     "nickname": "The Wyrm",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
+    "trueName": "Tiamat",
+    "portfolio": [
+      "Death",
+      "Blood",
+      "Zeal"
+    ],
+    "alignment": "Neutral Evil",
+    "gender": "Feminine",
+    "titles": [
+
+    ],
+    "worshipers": [
+
+    ],
     "symbol": "",
     "shrineImg": ["shrine-wyrm.png"],
     "linkingWords": ["the Wyrm"],
@@ -469,9 +564,12 @@
     "name": "The Leviathan",
     "nickname": "The Leviathan",
     "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
+    "portfolio": [
+      "Tempest",
+      "Nature"
+    ],
+    "alignment": "Chaotic Evil",
+    "gender": "Feminine",
     "titles": [],
     "worshipers": [],
     "symbol": "",
@@ -490,12 +588,24 @@
     "playerKnown": true,
     "name": "The Fiend",
     "nickname": "The Fiend",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
+    "portfolio": [
+      "Blood",
+      "War"
+    ],
+    "alignment": "Neutral Evil",
+    "gender": "Masculine",
+    "titles": [
+      "Lord of Rage",
+      "Red Fury",
+      "Great Destroyer",
+      "World Breaker"
+    ],
+    "worshipers": [
+      "orcs",
+      "gnolls",
+      "savage barbarians"
+    ],
+    "symbol": "Tusked Skull dripping blood from its mouth",
     "shrineImg": ["shrine-fiend.png"],
     "linkingWords": ["the Fiend","the Lord of All Chaos"],
     "type": "Greater Deity",
@@ -512,7 +622,10 @@
     "name": "The Master",
     "nickname": "The Master",
     "trueName": "Asmodeus",
-    "portfolio": [],
+    "portfolio": [
+      "Knowledge",
+      "Ambition"
+    ],
     "alignment": "Lawful Evil",
     "gender": "",
     "titles": [],
@@ -534,7 +647,11 @@
     "name": "The Stygian",
     "nickname": "The Stygian",
     "trueName": "",
-    "portfolio": [],
+    "portfolio": [
+      "Grave",
+      "Death",
+      "Arcana"
+    ],
     "alignment": "",
     "gender": "",
     "titles": [
@@ -561,9 +678,15 @@
     "portfolio": [],
     "alignment": "",
     "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
+    "titles": [
+
+    ],
+    "worshipers": [
+      "tavern keepers",
+      "hedonists",
+      "revelers"
+    ],
+    "symbol": "Grape vine on a tray",
     "linkingWords": [],
     "type": "Lesser Deity",
     "tags": ["Lesser Deity"],
@@ -583,10 +706,16 @@
     "alignment": "Chaotic Good",
     "gender": "Feminine",
     "titles": [
-        "",
-        "Lady Luck"
+      "The Mistress of Love",
+      "Lady Passion",
+      "Lady Luck"
     ],
-    "worshipers": [],
+    "worshipers": [
+      "romantics",
+      "gamblers",
+      "hedonists",
+      "adventurers"
+    ],
     "symbol": "",
     "linkingWords": [""],
     "type": "Lesser Deity",
@@ -931,7 +1060,7 @@
     "gender": "",
     "titles": [],
     "worshipers": [],
-    "symbol": "",
+    "symbol": "A goblet pouring wine",
     "linkingWords": [""],
     "type": "Lesser Deity",
     "tags": ["Lesser Deity"],

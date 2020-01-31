@@ -24,8 +24,10 @@ class LoreCategories extends Component {
     const dmView = localStorage.getItem('dmView') === 'true';
 
     for (let [key, obj] of Object.entries(combinedLore)) {
-      if ( obj.playerKnown || dmView ) {
-        filteredOutput[key] = obj;
+      if ( !obj.hideOnCat ) {
+        if ( obj.playerKnown || dmView ) {
+          filteredOutput[key] = obj;
+        }
       }
     }
 
@@ -128,7 +130,7 @@ class LoreCategories extends Component {
 
     let lore = WikiUtils.sortByName( Object.keys(newData) );
     lore = lore.map( el => {
-      if( this.state.combinedLore[el].playerKnown ) {
+      if( this.state.combinedLore[el].playerKnown && !this.state.combinedLore[el].hideOnCat  ) {
         return el;
       }
     }).filter( el => el !== undefined );

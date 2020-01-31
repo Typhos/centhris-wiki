@@ -1,17 +1,67 @@
 {
   "The-Three-Moons-of-Centhris": {
     "playerKnown": true,
+    "hideOnCat": false,
     "name": "The Three Moons of Centhris",
     "nickname": "The Three Moons of Centhris",
     "linkingWords": [""],
     "type": "World Lore",
-    "tags": ["world lore","cosmos","night sky","moon"],
-    "description": [
-      ""
+    "tags": [
+      "world lore",
+      "cosmos",
+      "night sky",
+      "moons",
+      "Idrothea",
+      "the Amber Moon of Idrothea",
+      "Idrothea, the Amber Moon",
+      "the amber moon","the Amber Moon",
+      "Rydora the Green Jewel",
+      "the Green Jewel",
+      "the green moon",
+      "Rydora",
+      "the Green Jewel, Rydora",
+      "Tinereth, the Red Moon",
+      "the Red Moon", 
+      "the red moon", 
+      "Tinereth",
+      "the Red Moon of Tinereth",
+      "Blood Moon"
     ],
-    "dmArticles": {
-      "The Lunar World of XYZ": [
+    "description": [
+      "The Planet of Centhris has three celestial satellites, collectively referred to as \"The Three Sisters\" which orbit it in a regular cycle. The most prominent in the night sky is Idrothea, the Amber Moon. The other two moons, Tinereth and Rydora shift in stature throughout their cycles. The second moon of Centhris is Rydora, the Green Jewel and the third is Tinereth, the Red Moon."
+    ],
+    "articles": {
+      "Idrothea, the Amber Moon": [
+        "Idrothea, is usually the largest of the three moons in the night sky of Centhris. The \"prime\" moon is a pale yellow and has a standard stationary orbit around the planet. It is Idrothea that is responsible for the tidal forces of the oceans of Centhris and it is occasionally referred to as the Maiden's Oculus."
+      ],
+      "Rydora, the Green Jewel":[
+        "Rydora, the smallest of the three sisters, has a slightly elliptical orbit and shifts in radiance over the course of its cycle. Many scholars speculate about the material composition of Rydora, as unlike the other sisters, it is not a color that would indicate a standard, rocky sphere. There are many superstitions about the Green Jewel, but scholarly research into the moon is limited."
+      ],
+      "Tinereth, the Red Moon": [
+        "Tinereth is the third moon of Centhris is technically the largest of the three bodies, but its wide elliptical orbit results in the moon varying greatly in size during its cycle, ranging from smaller than Rydora to almost as large as Idrothea. It is most notable for its deep red hue. When the red moon is at its closest, it rivals Idrothea in size. On a night when Tinereth simultaneously reach its periapsis and is in its full state, it is referred to as a \"Night of the Bloody Moon\"."
       ]
+    },
+    "dmArticles": {
+      "The Lunar World of Idrothea": [
+        "Idrothea, the Amber Moon, is actually a habitable celestial body. It is a dry, harsh world covered in sandy dunes. The inhabitants of the moon eek out a harsh living with minimal water, no metal and few other natural resources besides stone."
+      ]
+    }
+  },
+  "Night-of-the-Bloody-Moon": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "name": "Night of the Bloody Moon",
+    "nickname": "Night of the Bloody Moon",
+    "linkingWords": [],
+    "type": "World Lore",
+    "tags": ["night of the bloody moon","bloody night","red moon","blood moon","night of the red moon","Night of the Red Moon"],
+    "description": [
+      "A the Bloody Moon is a rare celestial phenomena when the third moon of Centhris, Tinereth, is at its closest to the planet and is in a full lunar state. Common superstition dictates that only the foolish or suicidal venture out into the wild parts of the world, as monstrous creatures grow far more aggressive and vicious during this phase of the lunar cycle.",
+      "Various dark rituals call for their practice on a Night of the Blood Moon and many clerics of the Dark Powers see it as a sign from their god to take bold actions."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
     }
   }
 }
