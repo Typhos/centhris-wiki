@@ -46,9 +46,8 @@ a {
 }
 
 main.content {
-
   width: 88vw;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -68,6 +67,8 @@ img.worldMap {
 @media all and (max-width: $breakpoint-mobile) {
 
   main.content {
+    width: 94vw;
+
     article.person,
     article.location,
     article.group {

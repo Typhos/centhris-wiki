@@ -12,6 +12,7 @@
   },
   "Glan'avar": {
     "playerKnown": true,
+    "hideOnCat": true,
     "name": "Glan'avar",
     "nickname": "Glân'avar",
     "commonName": "Bright Elves",
@@ -24,6 +25,7 @@
   },
   "Curon'avar": {
     "playerKnown": true,
+    "hideOnCat": true,
     "name": "Curon'avar",
     "nickname": "Cúron'avar",
     "commonName": "Silver Elves",
@@ -36,6 +38,7 @@
   },
   "Galenas'avar": {
     "playerKnown": true,
+    "hideOnCat": true,
     "name": "Galenas'avar",
     "nickname": "Galenâs'avar",
     "commonName": "Wild Elves",
@@ -48,6 +51,7 @@
   },
   "Aeglos'avar": {
     "playerKnown": true,
+    "hideOnCat": true,
     "name": "Aeglos'avar",
     "nickname": "Aeglôs'avar",
     "commonName": "Drow",
@@ -74,6 +78,7 @@
   },
   "Arol'zust": {
     "playerKnown": true,
+    "hideOnCat": true,
     "name": "Arol'zust",
     "nickname": "Arôl'zust",
     "commonName": "Crag Dwarves",
@@ -85,6 +90,7 @@
   },
   "Kulin'dak": {
     "playerKnown": true,
+    "hideOnCat": true,
     "name": "Kulin'dak",
     "nickname": "Kulin'dák",
     "commonName": "Island Dwarves",
@@ -96,6 +102,7 @@
   },
   "Omir'thunen": {
     "playerKnown": true,
+    "hideOnCat": true,
     "name": "Omir'thunen",
     "nickname": "Omir'thunen",
     "commonName": "Hill Dwarves",

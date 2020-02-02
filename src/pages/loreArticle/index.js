@@ -7,6 +7,7 @@ import racesData from 'data/lore/races';
 import eventsData from 'data/lore/events';
 import creaturesData from 'data/lore/creatures';
 import loreData from 'data/lore/lore';
+import calendarData    from 'data/lore/calendar';
 
 import "styles/loreArticle.scss";
 
@@ -15,7 +16,7 @@ class Lore extends Component {
   constructor(props) {
     super(props);
 
-    const combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData, ...loreData};
+    const combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData, ...loreData,...calendarData};
 
     this.state = {
       pathname: window.location.pathname,
@@ -29,7 +30,7 @@ class Lore extends Component {
 
   UNSAFE_componentWillReceiveProps(nextProps){
 
-    const combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData, ...loreData};
+    const combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData, ...loreData,...calendarData};
 
     if ( this.state.pathname !== nextProps.location.pathname) {
       this.setState({
@@ -71,6 +72,13 @@ class Lore extends Component {
               <h4 className="nickname">{lore.name}</h4>
               { loreImg.keys().some(x => x.includes( lore.name.replace(/\s/g,"-") )) && 
                 <img className="portrait" alt="" src={ loreImg('./' + lore.name.replace(/\s/g,"-") + '.png') }/>
+              }
+              { lore.name === "The Vesdarian Calendar" && 
+                <div className="info">
+                  <p className="key">
+                    <a href={loreImg('./' + lore.name.replace(/\s/g,"-") + '.png')} target="_blank"  rel="noopener noreferrer">Full Calendar</a>
+                  </p>
+                </div>
               }
               { creatures.keys().some(x => x.includes( lore.name.replace(/\s/g,"-") )) && 
                 <img className="portrait" alt="" src={ creatures('./' + lore.name.replace(/\s/g,"-") + '.png') }/>
@@ -137,6 +145,21 @@ class Lore extends Component {
                   <ul className="values">
                     { arrayToLi(lore.worshipers) }
                   </ul>
+                </div>
+              }
+      {/* CALENDAR EVENTS & RELATED */}
+              {
+                lore.date && 
+                <div className="Worshipers info">
+                  <p className="key">Date</p>
+                  <div className="values">{WikiUtils.linkContent(lore, lore.date)}</div>
+                </div>
+              }
+              {
+                lore.associations && 
+                <div className="Worshipers info">
+                  <p className="key">Associated with</p>
+                  <div className="values">{WikiUtils.linkContent(lore, lore.associations)}</div>
                 </div>
               }
               { 
@@ -214,8 +237,7 @@ class Lore extends Component {
               <td>Mythosk</td>
               <td className="days">28</td>
               <td>
-                {WikiUtils.linkContent(lore, "The Three Sisters Faire (6th)")}
-                {WikiUtils.linkContent(lore, "Feast of St. Bastilen (19th)")}
+                {WikiUtils.linkContent(lore, "The Three Sisters Faire (6th), Feast of St. Bastilen (19th)")}
               </td>
             </tr>
             <tr className="month">
@@ -229,8 +251,7 @@ class Lore extends Component {
               <td>Unvar</td>
               <td className="days">28</td>
               <td>
-                {WikiUtils.linkContent(lore, "Okun lar Ustod (1st)")}
-                {WikiUtils.linkContent(lore, "Rites of the Dawn (20th)")}
+                {WikiUtils.linkContent(lore, "Okun lar Ustod (1st), Rites of the Dawn (20th)")}
               </td>
             </tr>
             <tr className="festival">
@@ -249,25 +270,21 @@ class Lore extends Component {
               <td>Tarnia</td>
               <td className="days">28</td>
               <td>
-                {WikiUtils.linkContent(lore, "Day of Herbs (2nd)")}
-                {WikiUtils.linkContent(lore, "Red Blades (10-13th)")}
-                {WikiUtils.linkContent(lore, "Starlight Vigil (20th)")}
+                {WikiUtils.linkContent(lore, "Day of Herbs (2nd), Red Blades (10-13th), Starlight Vigil (20th)")}
               </td>
             </tr>
             <tr className="month">
               <td>Singor</td>
               <td className="days">28</td>
               <td>
-                {WikiUtils.linkContent(lore, "Granting of the Rites (5th)")}
-                {WikiUtils.linkContent(lore, "Craftsman’s Faire (22nd)")}
+                {WikiUtils.linkContent(lore, "Granting of the Rites (5th), Craftsman’s Faire (22nd)")}
               </td>
             </tr>
             <tr className="month">
               <td>Dusvar</td>
               <td className="days">28</td>
               <td>
-                {WikiUtils.linkContent(lore, "Spearmoot (3rd)")}
-                {WikiUtils.linkContent(lore, "Garron’s Eve (20th)")}
+                {WikiUtils.linkContent(lore, "Spearmoot (3rd), Garron’s Eve (20th)")}
               </td>
             </tr>
             <tr className="festival">
@@ -293,8 +310,7 @@ class Lore extends Component {
               <td>Nylwis</td>
               <td className="days">28</td>
               <td>
-                {WikiUtils.linkContent(lore, "Lantern Vigil (1st)")}
-                {WikiUtils.linkContent(lore, "Grey Harvest (16th)")}
+                {WikiUtils.linkContent(lore, "Lantern Vigil (1st), Grey Harvest (16th)")}
               </td>
             </tr>
             <tr className="month">
@@ -320,8 +336,7 @@ class Lore extends Component {
               <td>Heskur</td>
               <td className="days">28</td>
               <td>
-                {WikiUtils.linkContent(lore, "Day of Mirth (4th)")}
-                {WikiUtils.linkContent(lore, "Eve of the Shimmering Sky (15th)")}
+                {WikiUtils.linkContent(lore, "Day of Mirth (4th), Eve of the Shimmering Sky (15th)")}
               </td>
             </tr>
             <tr className="month">

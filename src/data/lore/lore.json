@@ -23,7 +23,7 @@
       "Tinereth",
       "the Red Moon of Tinereth"
     ],
-    "type": "World Lore",
+    "type": "Centhris World Lore",
     "tags": ["world lore","cosmos","night sky","moons"],
     "description": [
       "The Planet of Centhris has three celestial satellites, collectively referred to as \"The Three Sisters\" which orbit it in a regular cycle. The most prominent in the night sky is Idrothea, the Amber Moon. The other two moons, Tinereth and Rydora shift in stature throughout their cycles. The second moon of Centhris is Rydora, the Green Jewel and the third is Tinereth, the Red Moon."
@@ -69,7 +69,7 @@
     "name": "The Vesdarian Calendar",
     "nickname": "The Vësdarian Calendar",
     "linkingWords": [""],
-    "type": "World Lore",
+    "type": "Centhris World Lore",
     "tags": ["world lore","calendar","seasons","time","years","months","days","holidays"],
     "description": [
       "The solar orbit of Centhris results in a year of 349 days. Over the ages different nations and peoples have devised a variety of calendar systems to organize this natural cycle into a organized system of dates. The most widely accepted calendar was crafted by the great dwarf astrologer Vësdar Frostgem, who lived shortly after the turmoil of the Second Convergence.",

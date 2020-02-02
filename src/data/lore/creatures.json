@@ -1,6 +1,7 @@
 {
   "Gradiorus-Golems": {
     "playerKnown": true,
+    "hideOnCat": true,
     "name": "Gradiorus Golems",
     "nickname": "Gradiorus",
     "type": "Construct",

@@ -1,3 +1,23 @@
 {
-  
+  "Spearmoot": {
+    "playerKnown": true,
+    "name": "Spearmoot",
+    "nickname": "Spearmoot",
+    "linkingWords": ["the Ruination of Centhris"],
+    "date": "3rd of Dusvar",
+    "associations": ["the Conqueror","the Guardian"],
+    "type": "Festival",
+    "tags": ["festival","vesdarian calendar"],
+    "description": [
+      "Spearmoot is an annual festival holiday that occurs in many parts of Centhris, especially regions with feudal traditions that employ levied troops."
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+      "Tradition of the Conqueror": [
+        "The first instances of Spearmoot were started by clerics of the Conqueror in places with strong military traditions. The Cult of the Conqueror encourages a regular inspection of individuals capable of military service so that a lord is never caught off guard in terms of preparation."
+      ]
+    }
+  }
 }
