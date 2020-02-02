@@ -1,16 +1,20 @@
 {
   "The-Ruination-of-Centhris": {
-    "playerKnown": false,
+    "playerKnown": true,
     "name": "The Ruination of Centhris",
     "nickname": "the Ruination",
     "linkingWords": ["the Ruination of Centhris"],
     "type": "Historical Event",
     "tags": ["event","cataclysm","utharian empire"],
     "description": [
-      "The Ruination of Centhris was a major world event which marked the end of the Utharian Empire and the descent of Centhris into a great, dark age."
+      "The Ruination of Centhris was a major world event which marked the end of the Utharian Empire and the descent of Centhris into a long, violent dark age."
     ],
+    "articles": {
+
+    },
     "dmArticles": {
       "The End of a Golden Age": [
+        "Historical scholars date the Ruination of Centhris as occurring in the year 2C 837, or roughly 1,740 years ago. It acted as a definitive end to the Utharian Empire, which, at the time, was in the midst of a Golden Age of magical achievement and prosperity."
       ]
     }
   },

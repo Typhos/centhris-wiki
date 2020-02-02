@@ -139,6 +139,81 @@ article.lore {
     }
   }
 
+  table#vesdarianCalendar {
+    border-collapse: collapse;
+    border: 0;
+    width: 95%;
+    margin: 0 auto;
+    
+
+    tr.tableHeading {
+      th {
+        text-align: left;
+        background-color: $charcoal;
+        color: $moodGreen;
+        font-family: $headingText;
+        letter-spacing: 0.2em;
+        // font-size: 1.25em;
+      }
+    }
+
+    th,
+    td {
+      padding: 0.5em 1em;
+      word-break: initial;
+      border-bottom: 1px solid $lightText;
+
+      &:last-child {
+        border-right: 1px solid $lightText;
+      }
+
+      &.seasonCell {
+        width: 2%;
+
+        &.spring { background-color: rgba(#63f055, 0.4); }
+        &.summer { background-color: rgba(#cadf74, 0.4); }
+        &.autumn { background-color: rgba(#ff7326, 0.4); }
+        &.winter { background-color: rgba(#b8edff, 0.4); }
+        
+      }
+
+      .season {
+        writing-mode: vertical-lr;
+        text-orientation: sideways;
+        padding-left: 15%;
+        color: $blue;
+        font-family: $headingText;
+        letter-spacing: 0.15em;
+        font-size: 1.15em;
+      }
+
+      &.days {
+        padding-left: 1.5em;
+      }
+
+      p {
+        text-indent: 0;
+        margin: 0;
+      }
+    }
+
+    tr.festival {
+      td {
+        background-color: $lightText;
+        color: $blueDark;
+        border-bottom: 0;
+
+
+        &.rune {
+          text-align: center;
+          font-family: $runes;
+          font-size: 1.8em;
+          color: $blue;
+        }
+      }
+    }
+  }
+
   div.clear {
     clear:both; 
     margin: 0; 
@@ -172,6 +247,11 @@ article.lore {
 
           }
         }
+      }
+
+      table#vesdarianCalendar {
+        width: 100%;
+        font-size: 0.75rem;
       }
     }
   }

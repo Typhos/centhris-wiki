@@ -61,5 +61,28 @@
     },
     "dmArticles": {
     }
+  },
+  "The-Vesdarian-Calendar": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "doNotClipCatImg": true,
+    "name": "The Vesdarian Calendar",
+    "nickname": "The Vësdarian Calendar",
+    "linkingWords": [""],
+    "type": "World Lore",
+    "tags": ["world lore","calendar","seasons","time","years","months","days","holidays"],
+    "description": [
+      "The solar orbit of Centhris results in a year of 349 days. Over the ages different nations and peoples have devised a variety of calendar systems to organize this natural cycle into a organized system of dates. The most widely accepted calendar was crafted by the great dwarf astrologer Vësdar Frostgem, who lived shortly after the turmoil of the Second Convergence.",
+      "Born in the Utharian Empire during the Wars of Dominion, Vësdar escaped the troubles of her time by focusing on creating order from the natural chaos she found around her. Her natural inclination for organizing, recording and cataloging the natural world of Centhris led her to create a new, more accurate and rational calendar than the ones previously used by any of the world's many nation-states. The result of her work became known as the Vësdarian Calendar which is now used in most civilized parts of the world.",
+      "The Vësdarian calendar is broken into twelve standard months, each lasting 4 seven-day weeks, for a total of 28 days. This results in a calendar of only 336. The remaining 13 days of the year are separated out into four Noble Festivals, which mark the end of one season and the beginning of the next. Each Noble Festival is generally known by a single dwarf rune. Outside of the Noble Festivals, which are almost universally celebrated, many cultures, religious sects and races have their own holidays and festivals that are interspersed throughout the year."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+      "Centhris Months to Earth Months": [
+        "The conversion of Earth months to Centhris months is as follows:",
+        "Mythosk = April","Jeden = May","Unvar = June","Tarnia = July", "Sirngor = August", "Dusvar = September","Ebsok = October", "Nylwis = November", "Ralshen = December","Heskur = January", "Serybil = February", "Gonsaar = March."
+      ]
+    }
   }
 }

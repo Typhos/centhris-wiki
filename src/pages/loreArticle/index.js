@@ -24,6 +24,7 @@ class Lore extends Component {
     }
 
     this.getArticles = this.getArticles.bind(this);
+    this.vesdarianCalendar = this.vesdarianCalendar.bind(this);
   }
 
   UNSAFE_componentWillReceiveProps(nextProps){
@@ -158,6 +159,10 @@ class Lore extends Component {
     const lore = this.state.lore;
     let content = [WikiUtils.linkContent(lore, lore.description)];
 
+    if ( lore.name = "The Vesdarian Calendar" ) {
+      content.push( this.vesdarianCalendar() );
+    }
+
     if (lore.articles) {
       for ( let [heading, array] of Object.entries(articles) ) {
         content.push(
@@ -182,6 +187,168 @@ class Lore extends Component {
     }
 
     return content;
+  }
+
+  vesdarianCalendar () {
+    const lore = this.state.lore;
+
+    return (
+      <React.Fragment>
+        <h3 className="subheading">The Twelve Months of the Vesdarian Calendar</h3>
+        <table id="vesdarianCalendar">
+          <thead>
+            <tr className="tableHeading">
+              <th></th>
+              <th>Month</th>
+              <th>Days</th>
+              <th>Holidays</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="month">
+              <td rowSpan="3" className="seasonCell spring">
+                <p className="season">Spring</p>
+              </td>
+              <td>Mythosk</td>
+              <td className="days">28</td>
+              <td>
+                {WikiUtils.linkContent(lore, "The Three Sisters Faire (6th)")}
+                {WikiUtils.linkContent(lore, "Feast of St. Bastilen (19th)")}
+              </td>
+            </tr>
+            <tr className="month">
+              <td>Jeden</td>
+              <td className="days">28</td>
+              <td>
+                {WikiUtils.linkContent(lore, "The Carnival of Masks (12th)")}
+              </td>
+            </tr>
+            <tr className="month">
+              <td>Unvar</td>
+              <td className="days">28</td>
+              <td>
+                {WikiUtils.linkContent(lore, "Okun lar Ustod (1st)")}
+                {WikiUtils.linkContent(lore, "Rites of the Dawn (20th)")}
+              </td>
+            </tr>
+            <tr className="festival">
+              <td className="rune">d</td>
+              <td>Yávan Asar</td>
+              <td className="days">3</td>
+              <td>
+                {WikiUtils.linkContent(lore, "Cindercrown")}
+              </td>
+            </tr>
+
+            <tr className="month">
+              <td rowSpan="3" className="seasonCell summer">
+                <p className="season">Summer</p>
+              </td>
+              <td>Tarnia</td>
+              <td className="days">28</td>
+              <td>
+                {WikiUtils.linkContent(lore, "Day of Herbs (2nd)")}
+                {WikiUtils.linkContent(lore, "Red Blades (10-13th)")}
+                {WikiUtils.linkContent(lore, "Starlight Vigil (20th)")}
+              </td>
+            </tr>
+            <tr className="month">
+              <td>Singor</td>
+              <td className="days">28</td>
+              <td>
+                {WikiUtils.linkContent(lore, "Granting of the Rites (5th)")}
+                {WikiUtils.linkContent(lore, "Craftsman’s Faire (22nd)")}
+              </td>
+            </tr>
+            <tr className="month">
+              <td>Dusvar</td>
+              <td className="days">28</td>
+              <td>
+                {WikiUtils.linkContent(lore, "Spearmoot (3rd)")}
+                {WikiUtils.linkContent(lore, "Garron’s Eve (20th)")}
+              </td>
+            </tr>
+            <tr className="festival">
+              <td className="rune">J</td>
+              <td>Virya’losse</td>
+              <td className="days">3</td>
+              <td>
+                {WikiUtils.linkContent(lore, "Harvest Festival")}
+              </td>
+            </tr>
+            
+            <tr className="month">
+              <td rowSpan="3" className="seasonCell autumn">
+                <p className="season">Autumn</p>
+              </td>
+              <td>Ebosk</td>
+              <td className="days">28</td>
+              <td>
+                {WikiUtils.linkContent(lore, "Feast of Heroes (11th)")}
+              </td>
+            </tr>
+            <tr className="month">
+              <td>Nylwis</td>
+              <td className="days">28</td>
+              <td>
+                {WikiUtils.linkContent(lore, "Lantern Vigil (1st)")}
+                {WikiUtils.linkContent(lore, "Grey Harvest (16th)")}
+              </td>
+            </tr>
+            <tr className="month">
+              <td>Ralshen</td>
+              <td className="days">28</td>
+              <td>
+                {WikiUtils.linkContent(lore, "Frostdawn (26th)")}
+              </td>
+            </tr>
+            <tr className="festival">
+              <td className="rune">s</td>
+              <td>Merengyrth</td>
+              <td className="days">5</td>
+              <td>
+                {WikiUtils.linkContent(lore, "Feast of the Dead")}
+              </td>
+            </tr>
+            
+            <tr className="month">
+              <td rowSpan="3" className="seasonCell winter">
+                <p className="season">Winter</p>
+              </td>
+              <td>Heskur</td>
+              <td className="days">28</td>
+              <td>
+                {WikiUtils.linkContent(lore, "Day of Mirth (4th)")}
+                {WikiUtils.linkContent(lore, "Eve of the Shimmering Sky (15th)")}
+              </td>
+            </tr>
+            <tr className="month">
+              <td>Serybil</td>
+              <td className="days">28</td>
+              <td>
+                {WikiUtils.linkContent(lore, "Day of Absolution (12th)")}
+              </td>
+            </tr>
+            <tr className="month">
+              <td>Gonsaar</td>
+              <td className="days">28</td>
+              <td>
+                {WikiUtils.linkContent(lore, "Dragon Dance Festival (9th)")}
+                {WikiUtils.linkContent(lore, "Hammersong (28th)")}
+              </td>
+            </tr>
+            <tr className="festival">
+              <td className="rune">h</td>
+              <td>Fui’en Velca</td>
+              <td className="days">2</td>
+              <td>
+                {WikiUtils.linkContent(lore, "Festival of the New Life")}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </React.Fragment>
+    )
   }
 }
 

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono|Bebas+Neue|IM+Fell+Great+Primer+SC|Libre+Baskerville|Montserrat&display=swap');
+@import url('//fonts.googleapis.com/css?family=Ubuntu+Mono|Bebas+Neue|IM+Fell+Great+Primer+SC|Libre+Baskerville|Montserrat&display=swap');
+@import url('//db.onlinewebfonts.com/c/c28c31624d96519ceaf4d566d3020e12?family=Tolkien+Dwarf+Runes');
 
 $offWhite: #f4f4f4;
 $lightText: #e9e9e9;
@@ -16,11 +17,14 @@ $tagLinkHover: #dd01a8;
 $breakpoint-mobile: 768px;
 
 
+@font-face {font-family: "Tolkien Dwarf Runes"; src: url("//db.onlinewebfonts.com/t/c28c31624d96519ceaf4d566d3020e12.eot"); src: url("//db.onlinewebfonts.com/t/c28c31624d96519ceaf4d566d3020e12.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c28c31624d96519ceaf4d566d3020e12.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c28c31624d96519ceaf4d566d3020e12.woff") format("woff"), url("//db.onlinewebfonts.com/t/c28c31624d96519ceaf4d566d3020e12.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c28c31624d96519ceaf4d566d3020e12.svg#Tolkien Dwarf Runes") format("svg"); }
+
 $monoSpace: "Ubuntu Mono", monospace !important;
 $styleText: "IM Fell Great Primer SC", serif;
 $headingText: "Bebas Neue", cursive;
 $sansText: "Montserrat", "Century Gothic", sans-serif;
 $serifText: "Libre Baskerville", "Times New Roman", serif;
+$runes: "Tolkien Dwarf Runes", cursive;
 
 body {
   margin: 0;

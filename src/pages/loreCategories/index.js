@@ -152,7 +152,7 @@ class LoreCategories extends Component {
           <li key={lore+category} className="entry">
             <Link to={`/lore/${lore}`}>
               { loreImg.keys().some(x => x.includes( lore )) && 
-                <img className={`portrait ${ this.checkEmptyEntry(this.state.combinedLore[lore]) }`} alt="" src={ loreImg('./' + lore + '.png') }/>
+                <img className={`portrait ${ this.checkEmptyEntry(this.state.combinedLore[lore])} ${(this.state.combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={ loreImg('./' + lore + '.png') }/>
               }
               { creatures.keys().some(x => x.includes( lore )) && 
                 <img className={`portrait ${ this.checkEmptyEntry(this.state.combinedLore[lore]) }`} alt="" src={ creatures('./' + lore + '.png') }/>
