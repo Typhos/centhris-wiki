@@ -55,7 +55,6 @@ class LoreCategories extends Component {
   }
 
   render () {
-    const noSCategories = [];
 
     const plural = function( category ) {
       if ( category === "World Lore" ) {
@@ -103,7 +102,6 @@ class LoreCategories extends Component {
   }
 
   limitCategories(e) {
-    const dmView = localStorage.getItem('dmView') === 'true';
     let category = e.target.innerText;
     let newData;
 
@@ -133,7 +131,8 @@ class LoreCategories extends Component {
       if( this.state.combinedLore[el].playerKnown && !this.state.combinedLore[el].hideOnCat  ) {
         return el;
       }
-    }).filter( el => el !== undefined );
+      return null;
+    }).filter( el => el !== null );
 
     this.setState({
       active: category,
@@ -181,7 +180,7 @@ class LoreCategories extends Component {
 
   checkEmptyEntry(entry) {
     // check if the entry is empty to mark it for future writing
-    if ( !entry.description || entry.description.length <= 0 && this.state.dmView ) {
+    if ( (!entry.description || entry.description.length <= 0) && this.state.dmView ) {
       return "empty";
     }
 
