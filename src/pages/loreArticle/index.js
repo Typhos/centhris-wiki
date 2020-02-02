@@ -159,7 +159,9 @@ class Lore extends Component {
     const lore = this.state.lore;
     let content = [WikiUtils.linkContent(lore, lore.description)];
 
-    if ( lore.name = "The Vesdarian Calendar" ) {
+    console.log(lore)
+
+    if ( lore.name === "The Vesdarian Calendar" ) {
       content.push( this.vesdarianCalendar() );
     }
 
