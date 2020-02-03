@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import Search from '../../components/search';
+import Back from '../../components/back';
 import Page from '../../components/page';
 import WikiUtils from "components/utils/wikiUtils";
 import 'styles/categories.scss';
 
 import eventsData from 'data/lore/events';
-import godsData from 'data/lore/gods';
 import racesData from 'data/lore/races';
 import creaturesData from 'data/lore/creatures';
 import loreData from 'data/lore/lore';
@@ -17,7 +17,7 @@ class LoreCategories extends Component {
   constructor (props) {
     super(props);
 
-    const combinedLore = {...eventsData, ...racesData, ...godsData, ...creaturesData, ...loreData};
+    const combinedLore = {...eventsData, ...racesData, ...creaturesData, ...loreData};
 
     // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
     let filteredOutput = {};
@@ -51,7 +51,6 @@ class LoreCategories extends Component {
     this.getEntriesByCategory = this.getEntriesByCategory.bind(this);
     this.checkEmptyEntry = this.checkEmptyEntry.bind(this);
     this.handleSearch = this.handleSearch.bind(this);
-    this.limitCategories = this.limitCategories.bind(this);
   }
 
   render () {
@@ -61,6 +60,8 @@ class LoreCategories extends Component {
          return <h2 className="sectionTitle">{category}</h2>
       } else if ( category.toLowerCase().includes("deity") ) {
         return <h2 className="sectionTitle">{category.split(/\s/g)[0]} Deities</h2>
+      } else if (category.toLowerCase().includes("world lore") ) {
+        return <h2 className="sectionTitle">World Lore</h2>
       }
       
       return <h2 className="sectionTitle">{category}s</h2>
@@ -81,17 +82,8 @@ class LoreCategories extends Component {
 
     return (
       <Page.LoreCategories>
+        <Back/>
         <Search handleSearch={ this.handleSearch }  data={this.state.combinedLore}/>
-        <nav className="subNav">
-          <ul className="navList">
-            <li className={`navElement ${ (this.state.active === "All") ? "active" : "" }`} onClick={this.limitCategories}>All</li>
-            <li className={`navElement ${ (this.state.active === "Creatures") ? "active" : "" }`} onClick={this.limitCategories}>Creatures</li>
-            <li className={`navElement ${ (this.state.active === "Gods") ? "active" : "" }`} onClick={this.limitCategories}>Gods</li>
-            <li className={`navElement ${ (this.state.active === "History") ? "active" : "" }`} onClick={this.limitCategories}>History</li>
-            <li className={`navElement ${ (this.state.active === "Races") ? "active" : "" }`} onClick={this.limitCategories}>Races</li>
-            <li className={`navElement ${ (this.state.active === "World") ? "active" : "" }`} onClick={this.limitCategories}>World</li>
-          </ul>
-        </nav>
 
         <h2 className="sectionGroup">The Lore of Centhris</h2>
         <div id="categories" >
@@ -101,84 +93,59 @@ class LoreCategories extends Component {
     )
   }
 
-  limitCategories(e) {
-    let category = e.target.innerText;
-    let newData;
-
-    switch (category) {
-      case "Gods":
-        newData = godsData;
-        break;
-      case "Races":
-        newData = racesData;
-        break;
-      case "History":
-        newData = eventsData;
-        break;
-      case "Creatures":
-        newData = creaturesData;
-        break;
-      case "World":
-        newData = loreData;
-        break;
-      default:
-        newData = this.state.combinedLore;
-        break;
-    }
-
-    let lore = WikiUtils.sortByName( Object.keys(newData) );
-    lore = lore.map( el => {
-      if( this.state.combinedLore[el].playerKnown && !this.state.combinedLore[el].hideOnCat  ) {
-        return el;
-      }
-      return null;
-    }).filter( el => el !== null );
-
-    this.setState({
-      active: category,
-      lore: lore
-    });
-  }
-
   getEntriesByCategory(category) {
+    const combinedLore = this.state.combinedLore;
     const loreImg = require.context('img/lore/', false);
     const creatures = require.context('img/lore/creatures/', false);
     const gods = require.context('img/lore/gods/', false);
 
     return this.state.lore.map( lore => {
-      if ( this.state.combinedLore[lore].type === category ) {
+      if ( this.state.combinedLore[lore].type === category && combinedLore[lore].subcatLink) {
+        return (
+          <li key={lore+category} className="entry">
+            <Link to={ {pathname: `/${combinedLore[lore].subcatLink}`, state: "update"}}>
+              { loreImg.keys().some(x => x.includes( lore )) && 
+                <img className={`portrait ${ this.checkEmptyEntry(lore)} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={ loreImg('./' + lore + '.png') }/>
+              }
+              <p>{combinedLore[lore].name}</p>
+            </Link>
+          </li>
+        );
+      } else if ( this.state.combinedLore[lore].type === category ) {
 
         return (
           <li key={lore+category} className="entry">
             <Link to={`/lore/${lore}`}>
               { loreImg.keys().some(x => x.includes( lore )) && 
-                <img className={`portrait ${ this.checkEmptyEntry(this.state.combinedLore[lore])} ${(this.state.combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={ loreImg('./' + lore + '.png') }/>
+                <img className={`portrait ${ this.checkEmptyEntry([lore])} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={ loreImg('./' + lore + '.png') }/>
               }
               { creatures.keys().some(x => x.includes( lore )) && 
-                <img className={`portrait ${ this.checkEmptyEntry(this.state.combinedLore[lore]) }`} alt="" src={ creatures('./' + lore + '.png') }/>
+                <img className={`portrait ${ this.checkEmptyEntry(combinedLore[lore]) }`} alt="" src={ creatures('./' + lore + '.png') }/>
               }
               { gods.keys().some(x => x.includes( lore )) && 
-                <img className={`portrait ${ this.checkEmptyEntry(this.state.combinedLore[lore]) }`} alt="" src={ gods('./' + lore + '.png') }/>
+                <img className={`portrait ${ this.checkEmptyEntry(combinedLore[lore]) }`} alt="" src={ gods('./' + lore + '.png') }/>
               }
               {
                 !loreImg.keys().some(x => x.includes( lore )) && creatures.keys().some(x => x.includes( lore )) && gods.keys().some(x => x.includes( lore )) && 
                 <div class="imgPlaceholder"></div>
               }
               { !this.state.combinedLore[lore].type.toLowerCase().includes("race") &&
-                <p>{this.state.combinedLore[lore].name}</p>
+                <p>{combinedLore[lore].name}</p>
               }
-              { this.state.combinedLore[lore].type.toLowerCase().includes("race") &&
-                <p>{this.state.combinedLore[lore].nickname}</p>
+              { combinedLore[lore].type.toLowerCase().includes("race") &&
+                <p>{combinedLore[lore].nickname}</p>
               }
             </Link>
           </li>
         )
       }
+
       return undefined;
     });
   }
 
   checkEmptyEntry(entry) {
+    entry = this.state.combinedLore[entry];
     // check if the entry is empty to mark it for future writing
     if ( (!entry.description || entry.description.length <= 0) && this.state.dmView ) {
       return "empty";

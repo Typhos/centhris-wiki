@@ -18,7 +18,9 @@ class Search extends Component {
       searchString: searchString
     }
 
-    this.handleSearch(searchString);
+    if ( window.location.search.length !== 0 ) {
+      this.handleSearch(searchString);
+    }
 
     this.handleSearch = this.handleSearch.bind(this);
     this.clearSearch = this.clearSearch.bind(this);
@@ -38,6 +40,7 @@ class Search extends Component {
   }
 
   handleSearch (e) {
+    console.log()
     const searchTerm = (e.target) ? e.target.value.toLowerCase() : e.toLowerCase();
     const urlParamString = ( !e || e === "" ) ? "" : "?search=" + searchTerm ;
     let sortable = [];

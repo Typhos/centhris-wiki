@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import Search from '../../components/search';
+import Back from '../../components/back';
 import Page from '../../components/page';
 import WikiUtils from "components/utils/wikiUtils";
 import 'styles/categories.scss';
@@ -29,8 +30,10 @@ class Places extends Component {
     const dmView = localStorage.getItem('dmView') === 'true';
 
     for (let [key, obj] of Object.entries(combinedPlaces)) {
-      if ( obj.playerKnown || dmView ) {
-        filteredOutput[key] = obj;
+      if ( !obj.hideOnCat ) {
+        if ( obj.playerKnown || dmView ) {
+          filteredOutput[key] = obj;
+        }
       }
     }
 
@@ -72,6 +75,7 @@ class Places extends Component {
 
     return (
       <Page.People>
+        <Back/>
         <Search handleSearch={ this.handleSearch }  data={this.state.combinedPlaces}/>
         <h2 className="sectionGroup">Places</h2>
         <div id="categories" >

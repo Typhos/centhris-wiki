@@ -1,4 +1,21 @@
 {
+  "The-Centhrian-Pantheon": {
+    "subcatLink": "pantheon",
+    "playerKnown": true,
+    "hideOnCat": false,
+    "name": "The Centhrian Pantheon",
+    "nickname": "The Centhrian Pantheon",
+    "linkingWords": [
+      "the Pantheon",
+      "the Centhrian Pantheon",
+      "Pantheon of the Gods",
+      "pantheon of the gods",
+      "the pantheon",
+      "the gods"
+    ],
+    "type": "Centhris World Lore",
+    "tags": ["world lore","gods","pantheon"]
+  },
   "The-Three-Moons-of-Centhris": {
     "playerKnown": true,
     "hideOnCat": false,

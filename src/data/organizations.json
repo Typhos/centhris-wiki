@@ -40,6 +40,23 @@
     "articles": {
     }
   },
+  "The-Iron-Fangs": {
+    "playerKnown": false,
+    "name": "The Iron Fangs",
+    "nickname": "Iron Fangs",
+    "tags": ["adventuring group","ulfwyst"],
+    "type": "Adventuring Group",
+    "location": "Ulfwyst",
+    "memberNumber": "6",
+    "members": [
+
+    ],
+    "description": [
+      "The Iron Fangs are an adventuring group that was active at some time in the Kelishan Highlands of Navolin. They were responsible for killing two of the Coven of the Withered Eye."
+    ],
+    "articles": {
+    }
+  },
   "Ruby-Phoenix": {
     "playerKnown": true,
     "name": "Ruby Phoenix",

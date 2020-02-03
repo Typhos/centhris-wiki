@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import WikiUtils from "components/utils/wikiUtils";
+import Back from '../../components/back';
 
 import Page from 'components/page';
 import "styles/groupArticle.scss";
@@ -43,7 +44,7 @@ class Group extends Component {
         <section id="group" className="article" >
           <article className="group" id={group.name.replace(/\s/g,"-")}>
             
-            {/*<Link className="backLink" to='/organizations'>&laquo; back to Organizations</Link>*/}
+            <Back/>
 
             <h2 className="fullName">{group.nickname}</h2>
             <aside className="infoBox">

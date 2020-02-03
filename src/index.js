@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, BrowserRouter as Router } from 'react-router-dom'
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'
 
 import ScrollToTop from 'components/scrollToTop';
 
@@ -16,6 +16,8 @@ import {OrganizationGroups} from './pages/organizationGroups/index';
 import {Group} from './pages/organization/index';
 import {LoreCategories} from './pages/loreCategories/index';
 import {Lore} from './pages/loreArticle/index';
+import {Pantheon} from './pages/pantheon/index';
+import {Error404} from './pages/404/index';
 
 // import * as serviceWorker from './components/serviceWorker';
 // serviceWorker.unregister();
@@ -61,18 +63,22 @@ const routing = (
   <Router>
     <ScrollToTop>
       { localStorage.getItem('dmView') === 'true' && <div id="dmFlag">DM MODE</div>}
-      <Route exact path="/" component={App} />
-      <Route path="/runes" component={Runes} />
-      <Route path="/characters" component={Characters} />
-      <Route path="/player-character" component={Player} />
-      <Route path="/person" component={Person} />
-      <Route path="/people" component={People} />
-      <Route path="/places" component={Places} />
-      <Route path="/location" component={Location} />
-      <Route path="/organizations" component={OrganizationGroups} />
-      <Route path="/group" component={Group} />
-      <Route path="/loreCategories" component={LoreCategories} />
-      <Route path="/lore/" component={Lore} />
+      <Switch>
+        <Route exact path="/" component={App} />
+        <Route path="/runes" component={Runes} />
+        <Route path="/characters" component={Characters} />
+        <Route path="/player-character" component={Player} />
+        <Route path="/person" component={Person} />
+        <Route path="/people" component={People} />
+        <Route path="/places" component={Places} />
+        <Route path="/location" component={Location} />
+        <Route path="/organizations" component={OrganizationGroups} />
+        <Route path="/group" component={Group} />
+        <Route path="/loreCategories" component={LoreCategories} />
+        <Route path="/lore/" component={Lore} />
+        <Route path="/pantheon/" component={Pantheon} />
+        <Route component={Error404} />
+      </Switch>
     </ScrollToTop>
   </Router>
 )

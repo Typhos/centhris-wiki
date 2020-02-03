@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Back from '../../components/back';
 
 // My Components
 import WikiUtils from "components/utils/wikiUtils";
@@ -68,7 +69,7 @@ class OrganizationGroups extends Component {
 
     return (
       <Page.People>
-        
+        <Back/>
         <Search handleSearch={ this.handleSearch }  data={orgData}/>
 
         <h2 className="sectionGroup">Organizations & Groups</h2>

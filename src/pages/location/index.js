@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import WikiUtils from "components/utils/wikiUtils";
+import Back from '../../components/back';
 
 import Page from '../../components/page';
 import "styles/locationArticle.scss";
@@ -78,7 +79,7 @@ class Location extends Component {
 
           <article className="location" id={location.name.replace(/\s/g,"-")}>
             
-            {/*<Link className="backLink" to='/places'>&laquo; back to Places</Link>*/}
+            <Back/>
 
             <h2 className="fullName">{location.name}</h2>
             <aside className="infoBox">

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import WikiUtils from "components/utils/wikiUtils";
+import Back from '../../components/back';
 
 import Page from 'components/page';
 import godsData from 'data/lore/gods';
@@ -66,7 +67,7 @@ class Lore extends Component {
       <Page.Lore>
         <section id="lore" className="article" >
           <article className="lore" id={lore.name.replace(/\s/g,"-")}>
-
+            <Back/>
             <h2 className="fullName">{lore.nickname}</h2>
             <aside className="infoBox">
               <h4 className="nickname">{lore.name}</h4>
@@ -112,7 +113,7 @@ class Lore extends Component {
               }
               { lore.symbol && 
                   <div className="info">
-                    <p className="key">Symbol</p>
+                    <p className="key">Symbol(s)</p>
                     <p className="values big">{lore.symbol}</p>
                   </div>
               }
@@ -181,8 +182,6 @@ class Lore extends Component {
   getArticles(articles) {
     const lore = this.state.lore;
     let content = [WikiUtils.linkContent(lore, lore.description)];
-
-    console.log(lore)
 
     if ( lore.name === "The Vesdarian Calendar" ) {
       content.push( this.vesdarianCalendar() );
@@ -270,21 +269,25 @@ class Lore extends Component {
               <td>Tarnia</td>
               <td className="days">28</td>
               <td>
-                {WikiUtils.linkContent(lore, "Day of Herbs (2nd), Red Blades (10-13th), Starlight Vigil (20th)")}
+                {WikiUtils.linkContent(lore, "Day of Herbs (2nd)")}
+                {WikiUtils.linkContent(lore, "Red Blades (10-13th)")}
+                {WikiUtils.linkContent(lore, "Starlight Vigil (20th)")}
               </td>
             </tr>
             <tr className="month">
               <td>Singor</td>
               <td className="days">28</td>
               <td>
-                {WikiUtils.linkContent(lore, "Granting of the Rites (5th), Craftsman’s Faire (22nd)")}
+                {WikiUtils.linkContent(lore, "Granting of the Rites (5th)")}
+                {WikiUtils.linkContent(lore, "Craftsman’s Faire (22nd)")}
               </td>
             </tr>
             <tr className="month">
               <td>Dusvar</td>
               <td className="days">28</td>
               <td>
-                {WikiUtils.linkContent(lore, "Spearmoot (3rd), Garron’s Eve (20th)")}
+                {WikiUtils.linkContent(lore, "Spearmoot (3rd)")}
+                {WikiUtils.linkContent(lore, "Garron’s Eve (20th)")}
               </td>
             </tr>
             <tr className="festival">
@@ -310,7 +313,8 @@ class Lore extends Component {
               <td>Nylwis</td>
               <td className="days">28</td>
               <td>
-                {WikiUtils.linkContent(lore, "Lantern Vigil (1st), Grey Harvest (16th)")}
+                {WikiUtils.linkContent(lore, "Lantern Vigil (1st)")}
+                {WikiUtils.linkContent(lore, "Grey Harvest (16th)")}
               </td>
             </tr>
             <tr className="month">
@@ -336,7 +340,8 @@ class Lore extends Component {
               <td>Heskur</td>
               <td className="days">28</td>
               <td>
-                {WikiUtils.linkContent(lore, "Day of Mirth (4th), Eve of the Shimmering Sky (15th)")}
+                {WikiUtils.linkContent(lore, "Day of Mirth (4th)")}
+                {WikiUtils.linkContent(lore, "Eve of the Shimmering Sky (15th)")}
               </td>
             </tr>
             <tr className="month">

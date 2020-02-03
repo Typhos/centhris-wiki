@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import characterData from '../../data/characters';
+import Back from '../../components/back';
 
 import Page from '../../components/page';
 import PlayerCharacter from '../../components/articles/playerCharacter';
@@ -32,6 +33,7 @@ class Player extends Component {
     return (
       <Page.People>
         <section id="people" className="article" >
+          <Back/>
           <PlayerCharacter entry={characterData[person]} data={characterData} image={ images('./' + characterData[person].name.replace(/\s/g,"-") + '.png') }/>
         </section>
       </Page.People>

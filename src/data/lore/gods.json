@@ -191,7 +191,7 @@
     "playerKnown": true,
     "name": "The Arbiter",
     "nickname": "The Arbiter",
-    "trueName": "Thosmera",
+    "trueName": "Kezolet",
     "portfolio": [
       "Order",
       "Knowledge",
@@ -206,17 +206,25 @@
         "Lord of Order"
     ],
     "worshipers": [
-        "Engineers"
+        "rulers",
+        "judges",
+        "engineers",
+        "pioneers",
+        "artisans"
     ],
-    "symbol": "Black or white cog on a purple field",
+    "symbol": "Scales, Gavel",
     "shrineImg": ["shrine-arbiter.png"],
-    "linkingWords": ["the Arbiter","Law Giver","Thosmera"],
+    "linkingWords": ["the Arbiter","Law Giver","Kezolet"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful neutral","Knowledge","Civilization","Law"],
     "description": [
-
+      "Kezolet, the Arbiter, is depicted as a graceful, otherworldly figure clad in robes and ornamental jewelry. The Arbiter is generally portrayed as having an inhuman form, with multiple sets of arms and a face devoid of features. They are depicted with as a tranquil god, serene and detached; not allowing outside forces effect sway their judgments. They embody the ideals of civilized order, including law, order, construction, roads and the crafting of items used in everyday life, such as glassware, pottery, leather work, and jewelry.",
+      "The Church of the Arbiter is often associated with legal systems, civil infrastructure and fortifications. Many clerics of the Arbiter are skilled engineers or legal scholars. Many temples to the Lord of Order double as court houses, town halls or other civic buildings. "
     ],
     "articles": {
+
+    },
+    "dmArticles": {
 
     }
   },
@@ -249,7 +257,8 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity",""],
     "description": [
-      "The Maiden, Yelensa, is most often depicted as a young, beautiful woman wit shining white hair who wears a gown of midnight black covered in thousands of stars. She is the patron of the mariners and night watchmen. Many female spellcasters, good and neutral lycanthropes also worship her as their patron deity. She is the keeper of the Three Sisters and is referred to as the Mother of the Three. She is said to appear to lost or weary souls on nights when Idrothea, the Amber Moon of Centhris is full, offering guidance and comfort."
+      "The Maiden, Yelensa, is most often depicted as a young, beautiful woman wit shining white hair who wears a gown of midnight black covered in thousands of stars. She is the patron of the mariners and night watchmen. Many female spellcasters, good and neutral lycanthropes also worship her as their patron deity. She is the keeper of the Three Sisters and is referred to as the Mother of the Three. She is said to appear to lost or weary souls on nights when Idrothea, the Amber Moon of Centhris is full, offering guidance and comfort. As the patron of the moons of Centhris, the Maiden is associated with the tides of the oceans of the world, as well as with the night sky. She is seen as the mother of many celestial gods, such as the Stellar Wolf and the Shimmering Sky.",
+      "Clerics of the Dreamweaver are dedicated to shedding light in dark places. In towns and cities, temples to the Maiden are often lighthouses or watchtowers that are lit as beacons. In the wilderness, disciples of Yelensa will establish watchtowers or outposts to act as safe places to rest for the evening and guard against dangerous creatures."
     ],
     "articles": {
 
@@ -802,7 +811,7 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
-    "linkingWords": [""],
+    "linkingWords": ["the Shimmering Sky", "Shimmering Sky", "the Aurora Owl", "Father Owl"],
     "type": "Lesser Deity",
     "tags": ["Lesser Deity"],
     "description": [
@@ -823,7 +832,7 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
-    "linkingWords": [""],
+    "linkingWords": ["the Stellar Wolf","the Stellar Hound"],
     "type": "Lesser Deity",
     "tags": ["Lesser Deity"],
     "description": [

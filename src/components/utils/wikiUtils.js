@@ -82,7 +82,9 @@ export default class WikiUtils {
             linkingWords.forEach( (string, j) => {
               if (string !== undefined && string !== "") {
                 const arrayCheck = this.arrayCheck(target, Object.keys(namesObj), linkingWords );
-                const link = <Link key={`key-${j}-${string}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}`, state: "update"}}>{string}</Link>;    
+                const link = ( obj.subcatLink )
+                  ? <Link key={`key-${j}-${string}`} to={ {pathname: `/${obj.subcatLink}`, state: "update"}}>{string}</Link>
+                  : <Link key={`key-${j}-${string}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}`, state: "update"}}>{string}</Link>;
 
                 if ( !arrayCheck ) {
                   const nP = paragraph;

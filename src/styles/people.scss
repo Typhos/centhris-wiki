@@ -1,18 +1,5 @@
 @import "./mixins";
 
-
-main.content {
-  margin-top: 1rem;
-  padding: 0 1vw;
-}
-
-section#place,
-section#location,
-section#people,
-section#person {
-  margin-top: 2rem;
-}
-
 ul#people {
   width: 95%;
   padding: 0;

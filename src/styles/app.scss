@@ -35,6 +35,20 @@ h2.sectionTitle {
   border-bottom: 1px solid $blueDark;
 }
 
+#backLink {
+  display: inline-block;
+
+  p {
+    display: inline-block;
+    color: $tagLink;
+    padding-bottom: 0.4em;
+    padding-right: 0.5em;
+    border-bottom: 1px solid $tagLink;
+    margin-bottom: 1.5em;
+    margin-right: 3em;
+    cursor: pointer;
+  }
+}
 
 a {
   text-decoration: none;
@@ -48,7 +62,7 @@ a {
 main.content {
   width: 88vw;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0.5em auto 0;
 }
 
 article.description {

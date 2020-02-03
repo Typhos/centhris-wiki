@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import peopleData from 'data/people';
 
 import Search from 'components/search';
+import Back from '../../components/back';
 import Page from 'components/page';
 import PeopleArticle from 'components/articles/peopleArticle';
 import WikiUtils from "components/utils/wikiUtils.js";
@@ -34,7 +35,6 @@ class People extends Component {
   }
 
   render () {
-    console.log(1)
     const filteredOutput = this.state.people.map( person => {
       const imgPath = images.keys().some( x => x.includes( person )) &&  images('./' + peopleData[person].name.replace(/\s/g,"-") + '.png');
 
@@ -43,7 +43,7 @@ class People extends Component {
 
     return (
       <Page.People>
-        
+        <Back/>
         <Search handleSearch={ this.handleSearch } data={peopleData}/>
 
         <h2 className="sectionTitle">Non-Player Characters</h2>

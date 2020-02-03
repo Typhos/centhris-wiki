@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import WikiUtils from "components/utils/wikiUtils";
+import Back from '../../components/back';
 
 import "styles/personArticle.scss";
 
@@ -73,7 +74,7 @@ export default class PeopleArticle extends Component {
 
       <article className="person" id={person.name.replace(/\s/g,"-")}>
 
-        {/*<Link className="backLink" to='/people'>&laquo; back to People</Link>*/}
+        <Back/>
 
         <h2 className="fullName">{person.nickname}</h2>
         <aside className={`infoBox ${ this.state.dmView}`}>
