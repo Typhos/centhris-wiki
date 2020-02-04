@@ -598,33 +598,44 @@
     "playerKnown": true,
     "name": "The Fiend",
     "nickname": "The Fiend",
+    "trueName": "",
     "portfolio": [
       "Blood",
       "War"
     ],
-    "alignment": "Neutral Evil",
+    "alignment": "Chaotic Evil",
     "gender": "Masculine",
     "titles": [
-      "Lord of Rage",
+      "Dread King of the Burning Abyss",
       "Red Fury",
+      "Lord of Pain",
       "Great Destroyer",
       "World Breaker"
     ],
     "worshipers": [
+      "anarchists",
+      "savage barbarians",
       "orcs",
-      "gnolls",
-      "savage barbarians"
+      "gnolls"      
     ],
-    "symbol": "Tusked Skull dripping blood from its mouth",
+    "symbol": "Horned skull",
     "shrineImg": ["shrine-fiend.png"],
     "linkingWords": ["the Fiend","the Lord of All Chaos"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic evil","chaos","demons"],
     "description": [
-
+      "The Fiend is known across Centhris by many pseudonyms, but so feared is the Dread King of the Burning Abyss that few know his true name and even fewer are willing to invoke his true name under any circumstance. To common folk, he is the terror that stalks mortal nightmares. To the powerful and learned, the Fiend is considered the most dangerous and powerful threat to the stability of the mortal world, for he is the supreme lord of all demons, the commander of the infinite chaos the Burning Abyss, and a warrior to rival the Guardian and the Champion. It is said that should he walk the material plane again, it would usher in an age of destruction and death to rival the Ruination or the First Convergence."
     ],
     "articles": {
-
+      "The Dark Cult": [
+        "The Cult of the Fiend is possibly the only religious sect on Centhris which is universally reviled and without any redeeming merits in the eyes of the civilized races. While mortals may fear the Stygian, the Leviathan or the Wyrm, they are considered a part of the natural order and their cults are tolerated for the services they provide. Few could argue the positive merits of the Dark Cult, for its sole purpose is the corruption and destruction of all living things.",
+        "This raises the obvious question, who would willingly serve a god bend on the destruction of everything, including its own worshipers? Yet, history shows that in many places, innumerable times, the Dark Cult reappears with shocking volumes of fanatical worshipers willingly throwing themselves into revolts and horrifying bloodshed without concern for self preservation or their very souls."
+      ]
+    },
+    "dmArticles": {
+      "True Name": [
+        "The true name of the Fiend is Malzeton. It is considered forbidden knowledge and requires a Religion Check [DC 25] in a library or sanctuary of knowledge. Even uttering the Fiend's true name will cause open flames to flicker, shadows to grow and the very fair to chill. Invoking his true name is generally only done when performing the worst forms of unholy ritual, such as blood sacrifice and slaughter."
+      ]
     }
   },
   "The-Master": {
@@ -656,18 +667,24 @@
     "playerKnown": true,
     "name": "The Stygian",
     "nickname": "The Stygian",
-    "trueName": "",
+    "trueName": "Erèdin",
     "portfolio": [
       "Grave",
       "Death",
       "Arcana"
     ],
-    "alignment": "",
-    "gender": "",
+    "alignment": "Neutral Evil",
+    "gender": "Masculine",
     "titles": [
-      "The Eternal King"
+      "The Eternal King",
+      "The Betrayer",
+      "The Plague Magus"
     ],
-    "worshipers": [],
+    "worshipers": [
+      "conspirators",
+      "slavers",
+      "evil spellcasters"
+    ],
     "symbol": "",
     "shrineImg": ["shrine-stygian.png"],
     "linkingWords": ["the Stygian","the Stygian King"],

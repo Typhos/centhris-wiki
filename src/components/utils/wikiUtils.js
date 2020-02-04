@@ -10,6 +10,7 @@ export default class WikiUtils {
   static characterData = DataLoader.characters;
   static orgData = DataLoader.organizations;
   static gods = DataLoader.gods;
+  static calendar = DataLoader.calendar;
 
   static sortByName (arr) {
     return arr.sort( (a,b) => {
@@ -24,7 +25,8 @@ export default class WikiUtils {
   }
 
   static linkContent(target, descriptionArray) {
-    const allLore = {...this.combinedLore, ...this.gods};
+    const allLore = {...this.combinedLore, ...this.gods,
+      ...this.calendar};
 
     if ( !Array.isArray(descriptionArray) ) descriptionArray = [descriptionArray];
 

@@ -47,4 +47,6 @@ export default class DataLoader {
 
   static gods = {...godsData};
 
+  static calendar = {...calendarData};
+
 }
