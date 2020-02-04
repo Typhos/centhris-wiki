@@ -9,6 +9,7 @@ import eventsData from 'data/lore/events';
 import creaturesData from 'data/lore/creatures';
 import loreData from 'data/lore/lore';
 import calendarData    from 'data/lore/calendar';
+import itemData    from 'data/lore/items';
 
 import "styles/loreArticle.scss";
 
@@ -17,7 +18,7 @@ class Lore extends Component {
   constructor(props) {
     super(props);
 
-    const combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData, ...loreData,...calendarData};
+    const combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData, ...loreData,...calendarData, ...itemData};
 
     this.state = {
       pathname: window.location.pathname,
@@ -49,6 +50,7 @@ class Lore extends Component {
     const loreImg = require.context('img/lore/', false);
     const creatures = require.context('img/lore/creatures/', false);
     const gods = require.context('img/lore/gods/', false);
+    const items = require.context('img/lore/items/', false);
 
     const arrayToLi = function(value) {
       return value.map( val => <li className="value" key={val} >{val}</li>);
@@ -86,6 +88,9 @@ class Lore extends Component {
               }
               { gods.keys().some(x => x.includes( lore.name.replace(/\s/g,"-") )) && 
                 <img className="portrait" alt="" src={ gods('./' + lore.name.replace(/\s/g,"-") + '.png') }/>
+              }
+              { items.keys().some(x => x.includes( lore.name.replace(/\s/g,"-") )) && 
+                <img className="portrait" alt="" src={ items('./' + lore.name.replace(/\s/g,"-") + '.png') }/>
               }
               { lore.type && 
                 <div className="info">

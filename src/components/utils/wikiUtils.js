@@ -9,7 +9,8 @@ import eventsData       from 'data/lore/events';
 import godsData         from 'data/lore/gods';
 import racesData        from 'data/lore/races';
 import creaturesData    from 'data/lore/creatures';
-import calendarData    from 'data/lore/calendar';
+import calendarData     from 'data/lore/calendar';
+import itemData         from 'data/lore/items';
 
 import orgData          from 'data/organizations';
 // import dwarfRunes from '../../data/characters';
@@ -30,7 +31,7 @@ import mythic           from 'data/places/mythic';
 export default class WikiUtils {
 
   static combinedPlaces = {...structures, ...worldRegions, ...cityDistricts, ...cityStates, ...settlements, ...dungeons, ...fortifications, ...dwarfHolds, ...politicalStates, ...mythic};
-  static combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData, ...loreData, ...calendarData};
+  static combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData, ...loreData, ...calendarData, ...itemData};
 
   static sortByName (arr) {
     return arr.sort( (a,b) => {
