@@ -901,9 +901,43 @@
 		"gender": "Male",
 		"race": "Tiefling",
 		"occupation": "Mage-Lord",
+    "hp": 54,
+    "level": 12,
+    "ac": 14,
+    "stats": {
+			"STR": 12,
+			"DEX": 12,
+			"CON": 13,
+			"INT": 16,
+			"WIS": 13,
+			"CHA": 16
+		},
+		"skills": {
+			"Arcana": 7,
+			"History": 7,
+			"Investigation": 7,
+			"Persuasion": 7
+		},
+		"passiveWisdom": 11,
+		"saves": {
+			"INT": 7,
+			"CHA": 7
+		},
+    "class": "Sorcerer",
 		"affiliations": ["Utharian Empire","Vesunna Laboratories"],
 		"description": [
 			"Castra Diolanum was the Mage-Lord of Vessuna, a smaller outpost of the Utharian Empire. An avid researcher, the tiefling mage dedicated much of his time and resources to magical research and experimentation."
-		]
+		],
+		"dmArticles": {
+			"Spells": [
+				"Cantrips (at will): Minor Illusion, Blade Ward, Light, Shocking Grasp, Poison Spray",
+				"1st level (4 slots): Feather Fall, Unseen Servant, Mage Armor",
+				"2nd level (3 slots): Continual Flame, Alter Self, Crown of Madness, Rope Trick",
+				"3rd level (3 slots): Fly, Leomund's Tiny Hut, Blink",
+				"4th level (3 slots): Otiluke's Resilient Sphere, Mordenkainen's Faithful Hound",
+				"5th level (2 slots): Dream, Animate Objects, Hold Monster",
+				"6th level (1 slots): Disintegrate"
+			]
+		}
 	}
 }
