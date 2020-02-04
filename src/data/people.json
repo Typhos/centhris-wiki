@@ -725,11 +725,10 @@
 		"race": "Cúron'avar",
 		"gender": "Male",
 		"class": "Wizard",
-		"level": 12,
+		"level": 14,
 		"subclass": "Bladesinger",
 		"background": "Noble",
-		"level": 12,
-    "hp": 62,
+    "hp": 72,
     "stats": {
 			"STR": 16,
 			"DEX": 10,
@@ -739,22 +738,22 @@
 			"CHA": 14
 		},
 		"skills": {
-			"Arcana": 9,
-			"History": 9,
-			"Insight": 5,
-			"Perception": 5,
-			"Persuasion": 10
+			"Arcana": 10,
+			"History": 10,
+			"Insight": 6,
+			"Perception": 6,
+			"Persuasion": 12
 		},
-		"passiveWisdom": 15,
+		"passiveWisdom": 16,
 		"saves": {
-			"INT": 9,
-			"WIS": 5
+			"INT": 11,
+			"WIS": 7
 		},
 		"ac": "13 / 18 (Bladesong)",
 		"attacks": {
-			"Longsword": "+8",
-			"Spell Attack": "+9",
-			"Save DC": 17
+			"Longsword": "+9",
+			"Spell Attack": "+10",
+			"Save DC": 18
 		},
 		"attunedItems": [
 			"+2 Longsword: Istyandil ",
@@ -889,6 +888,22 @@
 		"affiliations": ["Army of the High King","Cult of the Champion"],
 		"description": [
 			"Khorohr of Thellodur was one of the greatest generals of Dol Obok who served the High King during the Great Expansion of the dwarves into the Pillars of Amud. He is best known in the modern era for his writing of the Codex of Vigilence, a treatise on the arts of valor, warfare, battle tactics and campaign strategy. The Codex is considered one of the greatest works of dwarven poetry ever written and in its original Dwarven can be sung as a battle hymn. Sadly, it loses this quality when translated."
+		]
+	},
+	"Castra-Diolanum": {
+		"playerKnown": true,
+		"hideOnCat": true,
+		"name": "Castra Diolanum",
+		"nickname": "Castra Diolanum",
+		"linkingWords": [],
+		"tags": ["sorcerer","tiefling","Vesunna","Utharian Empire"],
+		"birthYear": "2C 789",
+		"gender": "Male",
+		"race": "Tiefling",
+		"occupation": "Mage-Lord",
+		"affiliations": ["Utharian Empire","Vesunna Laboratories"],
+		"description": [
+			"Castra Diolanum was the Mage-Lord of Vessuna, a smaller outpost of the Utharian Empire. An avid researcher, the tiefling mage dedicated much of his time and resources to magical research and experimentation."
 		]
 	}
 }

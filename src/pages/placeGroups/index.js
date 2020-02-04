@@ -11,7 +11,6 @@ import 'styles/categories.scss';
 import structures from 'data/places/structures';
 import worldRegions from 'data/places/worldRegions';
 import politicalStates from 'data/places/politicalStates';
-import cityDistricts from 'data/places/cityDistricts';
 import cityStates from 'data/places/cityStates';
 import settlements from 'data/places/settlements';
 import dungeons from 'data/places/dungeons';
@@ -23,7 +22,7 @@ class Places extends Component {
   constructor (props) {
     super(props);
 
-    const combinedPlaces = {...cityDistricts, ...structures,...dungeons, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications, ...dwarfHolds};
+    const combinedPlaces = {...structures,...dungeons, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications, ...dwarfHolds};
 
     // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
     let filteredOutput = {};
