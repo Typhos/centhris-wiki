@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import DataLoader from 'components/utils/dataLoader';
 
 import Search from '../../components/search';
 import Back from '../../components/back';
@@ -7,17 +8,12 @@ import Page from '../../components/page';
 import WikiUtils from "components/utils/wikiUtils";
 import 'styles/categories.scss';
 
-import eventsData from 'data/lore/events';
-import racesData from 'data/lore/races';
-import creaturesData from 'data/lore/creatures';
-import loreData from 'data/lore/lore';
-
 class LoreCategories extends Component {
 
   constructor (props) {
     super(props);
 
-    const combinedLore = {...eventsData, ...racesData, ...creaturesData, ...loreData};
+    const combinedLore = DataLoader.lore;
 
     // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
     let filteredOutput = {};
@@ -105,7 +101,7 @@ class LoreCategories extends Component {
           <li key={lore+category} className="entry">
             <Link to={ {pathname: `/${combinedLore[lore].subcatLink}`, state: "update"}}>
               { loreImg.keys().some(x => x.includes( lore )) && 
-                <img className={`portrait ${ this.checkEmptyEntry(lore)} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={ loreImg('./' + lore + '.png') }/>
+                <img className={`landscape ${ this.checkEmptyEntry(lore)} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={ loreImg('./' + lore + '.png') }/>
               }
               <p>{combinedLore[lore].name}</p>
             </Link>
@@ -117,13 +113,10 @@ class LoreCategories extends Component {
           <li key={lore+category} className="entry">
             <Link to={`/lore/${lore}`}>
               { loreImg.keys().some(x => x.includes( lore )) && 
-                <img className={`portrait ${ this.checkEmptyEntry([lore])} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={ loreImg('./' + lore + '.png') }/>
+                <img className={`landscape ${ this.checkEmptyEntry([lore])} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={ loreImg('./' + lore + '.png') }/>
               }
               { creatures.keys().some(x => x.includes( lore )) && 
                 <img className={`portrait ${ this.checkEmptyEntry(combinedLore[lore]) }`} alt="" src={ creatures('./' + lore + '.png') }/>
-              }
-              { gods.keys().some(x => x.includes( lore )) && 
-                <img className={`portrait ${ this.checkEmptyEntry(combinedLore[lore]) }`} alt="" src={ gods('./' + lore + '.png') }/>
               }
               {
                 !loreImg.keys().some(x => x.includes( lore )) && creatures.keys().some(x => x.includes( lore )) && gods.keys().some(x => x.includes( lore )) && 

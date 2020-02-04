@@ -1,0 +1,216 @@
+{
+  "Shiavalae-Amarathar": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "tags": ["adventurer","elf","wizard","Ruby Phoenix","Rakenburg","bound","friend","associate"],
+    "name": "Shiavalae Amarathar",
+    "nickname": "Shia",
+    "linkingWords": ["Shiavalae"],
+    "race": "Elf",
+    "age": "133",
+    "gender": "Female",
+    "class": "Wizard",
+    "occupation": "Adventurer",
+    "affiliations": ["Ruby Phoenix", "The Tower of Stantorr"],
+    "quote": "\"One's ability to express themselves thru the arcane arts is as varied as any other art form. I find that the most effective type of magical techniques are those that resolve issues without the need for the cruder, baser forms of magical expression; evocation magic for example.\"",
+    "description": [
+      "Shiavalae Amarathar is a young, elf adventurer and member of Ruby Phoenix, a well known adventuring guild operating out of Rakenburg. Only a young adult by elven standards, Shia speaks with a relatively meek demeanor, though she can be excitable when in the presence of interesting mystical or arcane phenomena. She is of average height and build for an elf, with distinctive blue hair.",
+      "She is a Wizard specializing in Abjuration magic. While in a discussion with Erlinder, Shia revealed that she does not really know her parents, who apparently chose to leave her under the tutelage of the wizards of the Tower of Stantorr in Frecyra. She appeared to still be coming to terms with this sense of abandonment.",
+      "Shia met the Adventurers during a chance encounter at the gates of the Palace of Akad the Magnificent, the Efreet lord. While exploring the interior together, Khazar Thul, Shiavalae and the the Adventurers encountered the shade of Akad and were bound to his service."
+    ]
+  },
+  "Khazar-Thul": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "name": "Khazar Thul",
+    "tags": ["adventurer","human","paladin","Ruby Phoenix","Rakenburg","bound","friend","associate"],
+    "nickname": "Khazar",
+    "race": "Human",
+    "age": "42",
+    "gender": "Male",
+    "class": "Paladin",
+    "occupation": "Adventurer",
+    "titles": ["Master of Recruitment"],
+    "affiliations": ["Ruby Phoenix"],
+    "quote": "\"I am humble servant of the Eternal Flame. He guides me in the darkest places where there is no hope, honor or virtue to be found. Not all pay homage to his glorious visage, but all are touched by his grace.\"",
+    "description": [
+      "Khazar Thul is a seasoned human adventurer and a devout follower of the Eternal. Exceptionally tall, standing roughly 6ft 8in (2 meters), with a muscular physique, he prefers to enter the thick of the fighting in order to dispatch his foes with his two-handed sword.",
+      "Khazar has braved many dangerous locations during his time as a professional adventurer. Over the course of his adventures, he has acquired a number of helpful tools that he employs when a situation calls for it, such as Jozara's Claw of Acuity.",
+      "He has gained a keen eye for character and is a stalwart ally to those he feels are worthy of his friendship.",
+      "As part of his religious devotion, Khazar can be found praying towards the sunrise every morning.",
+      "Khazar met the Adventurers during a chance encounter at the gates of the Palace of Akad, the Efreet lord. While exploring the interior together, Khazar, Shia and the Adventurers encountered the shade of Akad and were bound to his service."
+    ]
+  },
+  "Lirr-Stonebreath": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "name": "Lirr Stonebreath",
+    "tags": ["cleric","dwarf","smith","adventurer","adventurer","associate","friend"],
+    "nickname": "Lirr",
+    "race": "Dwarf",
+    "age": "53",
+    "gender": "Female",
+    "class": "Cleric",
+    "occupation": "Forge Cleric, Blacksmith",
+    "affiliations": [ "Felrast", "Church of the Maker", "the Adventurers", "Kazdan Ord"],
+    "description": [
+      "A young dwarf cleric of the Maker, Lirr Stonebreath set out from the Dwarf Hold of Felrast on her journey to find the masters of her craft. Disguising herself as a man in order to avoid others looking down upon her as a smith, Lirr hitched a ride on a merchant wagon heading east, which was being guarded by Roland of Zelmar.",
+      "While on the border of Tovanis and Navolin, Lirr and Roland encountered a young halfling named Filibert. After a series of events outside of Auburn Castle, the three traveled together to the village of Rythlon on the Sulas river.",
+      "While in Rythlon, Lirr and the Adventurers took on a job to help a local butcher, Lormin Blackmaw, who was hoping to save his friend from a curse. After overcoming monsters and traps in a cave complex, the group succeeded in removing the curse.",
+      "This series of events left Lirr shaken and after some consideration she decided to continue her journey to Kazdan Ord by herself over staying in Rythlon to help resolve the locals' issues."
+    ]
+  },
+  "Roland-of-Zelmar": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "name": "Roland of Zelmar",
+    "tags": ["adventurer","human","monster hunter","friend","associate"],
+    "nickname": "Roland",
+    "race": "Human",
+    "age": "46",
+    "gender": "Male",
+    "class": "Blood Hunter",
+    "occupation": "Monster Hunter",
+    "quote": "\"Greetings, lord baron. I believe this creature was terrorizing your woodlands. I presume there is a bounty for its head?\"",
+    "description": [
+      "A monster hunter by trade, Roland of Zelmar is a quiet, but insightful man. Tall, with broad shoulders, and a graying beard and hair, Roland wears black studded leather armor. His most distinctive trait is his orange eyes, which have pupils like that of a lizard or cat.",
+      "He traveled to Felrast, a dwarf hold nestled in the Pillars of Amud in order to have Ithi Ironjaw, a legendary Master Runesmith, forge him a unique bastard sword etched with dwarven runes. After the work was completed, Roland left Felrast, taking a job as a guard for a merchant wagon. It was during this journey that he befriended Lirr Stonebreath.",
+      "While on the border of Tovanis and Navolin, Lirr and Roland encountered a young halfling named Filibert. After a series of events outside of Auburn Castle, the three traveled together to the village of Rythlon on the Sulas river.",
+      "Roland traveled with Filibert to several local manors trying to help the young fighter find a new lord who might employ him, but to no avail. With Filibert returning to Rythlon to being a career as an adventurer, Roland continued his journey north towards the city of Zelmar in northern Navolin."
+    ]
+  },
+  "Zorrakir": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "name": "Zorrakir",
+    "tags": ["monk","tiefling","venbrin","friend","associate","master"],
+    "nickname": "Zorrakir",
+    "race": "Tiefling",
+    "age": "??",
+    "gender": "Male",
+    "class": "Monk",
+    "quote": "\"You say you are not a wizard, but you are doing a very bad job of convincing me otherwise.\"",
+    "description": [
+      "Zorrakir is an wandering tiefling monk. He has pale, mauve skin, with long, gray hair which is always tied in a bun behind his curved, ram-like horns. He keeps a long, unkempt beard, which he never bothers to tame or bind. He is rather tall and lean for a tiefling, though his constant drinking has resulted in a paunch. He has piercing red eyes that seem to almost glow.",
+      "Murat met Zorrakir in Zurast, the capital city of the Archduchy. A gang of thugs had decided to attempt to rob the old man, and much to their surprise, the drunk old tiefling beat them mercilessly without dropping his wineskin. After witnessing this, Murat followed the old monk around for days, demanding that he teach him how to fight as he had. After several days of attempting to avoid the half-orc, Zorrakir relented and offered to train Murat.",
+      "The last time Murat or Evan-Jakob saw Zorrakir was a mountain-side temple outside of Tarona, when a mysterious darkness overtook the temple and several strange, glowing suits of armor emerged. Zorrakir told the others to run as he went about combating the creatures, throwing Murat his staff in the process.",
+      "The old tiefling told the men to meet him at the city of Venbrin."
+    ]
+  },
+  "Belthren-Ogni": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "name": "Belthren Ogni",
+    "tags": ["adventurer","human","rogue","Ruby Phoenix","Rakenburg","associate"],
+    "nickname": "Belthren",
+    "race": "Human",
+    "age": "57",
+    "gender": "Male",
+    "class": "Ranger",
+    "occupation": "Guild Master",
+    "affiliations": ["Ruby Phoenix","Guild Council of Rakenburg"],
+    "quote": "\"The biggest thing I killed? Do you know of Kaer Edsken on the border of Lemuria? It was just a ruin at the time, but back when I was an adventurer, I fought an adult red dragon there. We managed to kill the beast, but it cost me everything.\"",
+    "description": [
+      "Belthren Ogni is the guild master of Ruby Phoenix and a former adventurer with, and last surviving member of, the legendary adventuring company the Ruby Drifters."
+    ]
+  },
+  "Lensa-Ogni": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "name": "Lensa Ogni",
+    "tags": ["adventurer","human","sorceress","Ruby Phoenix","Rakenburg","associate"],
+    "nickname": "Lensa",
+    "race": "Human",
+    "age": "24",
+    "gender": "Female",
+    "class": "Sorceress",
+    "occupation": "Adventurer",
+    "affiliations": ["Ruby Phoenix"],
+    "description": [
+      "Lensa Ogni is the daughter of Belthren Ogni, the guild master of Ruby Phoenix. She is a full fledged adventurer and member of the guild in her own right, having passed the guild's Trial of Initiation by herself on her first attempt."
+    ]
+  },
+  "Telarion-Elentiir": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "name": "Telarion Elentiir",
+    "nickname": "Telarion",
+    "tags": ["wizard","moon elf","wizard","Ruby Phoenix","associate"],
+    "age": "376",
+    "race": "Cúron'avar",
+    "gender": "Male",
+    "class": "Wizard",
+    "level": 14,
+    "subclass": "Bladesinger",
+    "background": "Noble",
+    "hp": 72,
+    "stats": {
+      "STR": 16,
+      "DEX": 10,
+      "CON": 12,
+      "INT": 20,
+      "WIS": 12,
+      "CHA": 14
+    },
+    "skills": {
+      "Arcana": 10,
+      "History": 10,
+      "Insight": 6,
+      "Perception": 6,
+      "Persuasion": 12
+    },
+    "passiveWisdom": 16,
+    "saves": {
+      "INT": 11,
+      "WIS": 7
+    },
+    "ac": "13 / 18 (Bladesong)",
+    "attacks": {
+      "Longsword": "+9",
+      "Spell Attack": "+10",
+      "Save DC": 18
+    },
+    "attunedItems": [
+      "+2 Longsword: Istyandil ",
+      "Ring: Ring of Protection",
+      "Amulet: Shard of the Fallen God"
+    ],
+    "Feats": ["Diplomat"],
+    "occupation": "Lemurian Court Mage",
+    "affiliations": ["High Queen's Court","Lemuria","Ruby Phoenix"],
+    "description": [
+      "A highly regarded elven mage, Telarion Elentiir has been a fixture in the courts of Ulfwyst for well over 200 years. He is current employed as a court mage in the Kingdom of Lemuria, reporting directly to the High Queen, Inga Sudrheim. Though Telarion has an official residence in Kilurus, when he is not on official business or seeing to a task requested of him by the queen, he prefers to spend his time in the town of Zabrosk, on the northern shore of the Korin Gulf."
+    ],
+    "languages": ["Common, Elvish, Sylvan"],
+    "quote": "Let me see this disc you've been carrying... My Ignan is very rusty, but from what I can make out, I count no less than seven Sigils of Immolation. What were you going to do with this, again?",
+    "articles": {
+      "Calling in a Favor": [
+        "Telarion returned to Rakenburg in Dusvar of 2C 2573 at the request of Belthren Ogni. The guild master had learned that members of his guild and the Adventurers had been bound to the service of Akad the Magnificent and felt that Telarion was the only person he knew who might have the knowledge required to help resolve the issue before it became untenable.",
+        "Telarion met the Adventurers, along with Shiavalae, on the steps of the Reliquary of the Castidos and talked at length with the players regarding their current situation. While treating the party to coffee and lunch at a local cafe, the Golem & Hound, the mage explained the nature of Efreet dealings in depth, along with the power contained in the disc given to them by Akad the Magnificent. Telarion also took some time to question Murat on the bracelet he was wearing, which carries a jagged purple stone. Telarion revealed he wears a similar necklace, both of which seem to have magical properties capable of altering time in some manner. The mage offered try to teach Murat how to use his bracelet, if he wished, to at a later date."
+      ]
+    },
+    "dmArticles": {
+      "Early Life": [
+        "Telarion was born in the Kingdom of Abbasyr to eladrin parents who were acting as ambassadors of the Court of the Archfey of Spring, one of the four eladring courts of Feywild. Though his family made regular visits to the Feywild, the young elf did not take to the Feywild, instead finding the prime Material Plane more to his preference. He would spend most of his youth (roughly 100 years for elves) in Khezrabad, studying at the famous mage college of Seloc Gelhyan, frequenting the baths and practicing the art of diplomacy under the tutelage of his father.",
+        "Upon graduation from the Seloc Gelhyan, the young elf had many paths available to him. His father Osmiran insisted that the young wizard take a post offered to him by the Sultan of Abbasyr as an advisor to the Sultan's son, Prince Ardashir ab Shahreen. The prince had been chosen to act as an envoy for Abassyr to the distant Kingdom of Navolin."
+      ],
+      "An Exotic Accessory": [
+        "The time Telarion spent in Navolin were some of the most miserable of his life. Officially appointed to advise Prince Ardashir, the young wizard soon learned that he was less of an advisor and more a mix of bodyguard and valet. With no consistent day-to-day tasks, the prince spent most of his time in Frecyra lounging about, attending galas and other high society functions. A charming socialite, the prince's presence was in high demand and Telarion, who had expected to put his years of arcane study to use, instead found himself the exotic accessory of a drunken playboy.",
+        "This is not to say that his time in Frecyra was worthless. During his stay in the Navolinian capital, Telarion honed a variety of skills he would find useful later in his life. The fine arts of carousing, idle small talk and the subtle exit became second nature as the elf spent months on end attending garden parties, dinner parties, tournaments and hunts.",
+        "When he had the rare chance, Talerion would make his way to the Stantorr in the Timberrun District of the city. The ornate complex of halls, classrooms, extensive libraries and tower laboratories offered the mage a welcome escape back to his arcane roots. Over the course of his stay, Telarion slowly earned the confidence of the mages of the Nost Ezel'nar and slowly gained access to tools and resources of a similar nature to those in Khezrabad."
+      ],
+      "A Gracious Exit": [
+        "After almost a decade in the Frecyra, Prince Ardashir received word Khezrabad that his father's health was failing. The prince was both concerned about his father and, in the even his father were to die, the possibility that he would lose his position or be appointed elsewhere in the government. Sensing an opportunity to gracefully escape his servitude to the prince, Telarion requested to stay in Frecyra to complete a research project he was involved with. The prince agreed to the request and the two men parted ways on good terms.",
+        "Free of his service to the royal, Telarion began to plan his next steps. After the completion of his project, he wished to depart Frecyra, as he had grown to loath the high society of the city and though he was no longer required to attend social events, he found himself receiving regular invitations that he felt he could not decline.",
+        "It was at just such an event that he found himself in a protracted discussion with a wealthy merchant from the Free City of Rakenburg named Ulian Ovidius. The merchant, taken by the elf's well honed wit and charm, requested that Telarion join his merchant enterprise, the Venngar Trade Company, as a liaison. Though Telarion was hesitant at first, Ulian insisted that it would be an excellent opportunity for the wizard to see new parts of Ulfwyst, learn new types of magical practice and make connections in realms throughout the Venngar Sea and Korin Gulf. Telarion eventually accepted the merchant's offer and in less than a month, found himself in a fine apartment in the Murky Reach."
+      ],
+      "Time in Rakenburg": [
+        ""
+      ],
+      "Early Days in Lemuria": [
+        "It is in Zabrosk that Telarion met Belthren Ogni, along with the other members of the fabled Ruby Drifters, in 2C 2541. At the time, Telarion attempting to gain employment from the former monarch of Lemuria, High King Wenndrak Arnbjorg. The wizard had taken up residence in Lemurian 3 years prior after leaving the city of Rakenburg due to a falling out with a former associate, Faelana Veluthil. Seeing potential in the Drifters, Telarion offered to assist the group in their work as a liaison and advisor. He hoped that in doing so, he would be able to gain the favor of the High King through association with any heroic deeds the Drifters performed."
+      ]
+    },
+    "link": "https://www.dndbeyond.com/profile/Typhos6/characters/22189989"
+  }
+}

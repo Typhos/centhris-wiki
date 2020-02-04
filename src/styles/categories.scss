@@ -40,6 +40,7 @@
         transform: translateY(-110%);
       }
 
+      &.landscape,
       &.portrait {
         height: 8em;
         max-width: 14em;
@@ -91,8 +92,16 @@
       height: auto;
       max-width: none;
       
+      img.landscape {
+        height: auto;
+        width: 90%;
+        clip-path: polygon(12% 0%, 100% 0%, 88% 100%, 0% 100%);
+      }
+
       img.portrait {
-        width: 100%;
+        height: 100%;
+        max-height: 10em;
+        width: auto;
         clip-path: polygon(12% 0%, 100% 0%, 88% 100%, 0% 100%);
       }
     }

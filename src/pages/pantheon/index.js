@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import DataLoader from 'components/utils/dataLoader';
 import Back from '../../components/back';
-
 import Search from '../../components/search';
 import Page from '../../components/page';
 import WikiUtils from "components/utils/wikiUtils";
@@ -14,7 +14,7 @@ class Pantheon extends Component {
   constructor (props) {
     super(props);
 
-    const combinedLore = {...godsData};
+    const combinedLore = DataLoader.gods;
 
     // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
     let filteredOutput = {};
@@ -50,8 +50,6 @@ class Pantheon extends Component {
   }
 
   render () {
-    const gods = require.context('img/lore/gods/', false);
-
     const categories = this.state.categories.map( category => {
       return (
         <div key={category} className={`category ${category.replace(/\s/g,"-")}`}>
@@ -92,6 +90,8 @@ class Pantheon extends Component {
           </li>
         )
       }
+
+      return undefined;
     });
   }
 

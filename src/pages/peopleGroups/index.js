@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import peopleData from 'data/people';
+import { Link } from 'react-router-dom';
+import DataLoader from 'components/utils/dataLoader';
 
 import Search from 'components/search';
 import Back from '../../components/back';
 import Page from 'components/page';
-import PeopleArticle from 'components/articles/peopleArticle';
 import WikiUtils from "components/utils/wikiUtils.js";
 
 const images = require.context('../../img/portraits/', true);
@@ -13,6 +13,8 @@ class People extends Component {
 
   constructor (props) {
     super(props);
+
+    const peopleData = DataLoader.people;
 
     // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
     let filteredOutput = {};
@@ -27,18 +29,21 @@ class People extends Component {
     }
 
     this.state = {
+      peopleData: filteredOutput,
       people: WikiUtils.sortByName( Object.keys(filteredOutput) ),
       dmMode: dmView,
     };
 
     this.handleSearch = this.handleSearch.bind(this);
+    this.peopleCategory = this.peopleCategory.bind(this);
   }
 
   render () {
+    const peopleData = this.state.peopleData;
     const filteredOutput = this.state.people.map( person => {
       const imgPath = images.keys().some( x => x.includes( person )) &&  images('./' + peopleData[person].name.replace(/\s/g,"-") + '.png');
 
-      return <PeopleArticle key={person} data={{peopleData}} entry={peopleData[person]} image={ imgPath || "" }/>
+      return this.peopleCategory(peopleData[person], imgPath);
     });
 
     return (
@@ -52,6 +57,17 @@ class People extends Component {
           {filteredOutput}
         </ul>
       </Page.People>
+    )
+  }
+
+  peopleCategory (person, imgPath = "") {
+    return (
+      <li key={person.name.replace(/\s/g,"-")} className="person" id={person.name.replace(/\s/g,"-")}>
+        <Link className="personLink" to={ { pathname:`/person/${person.name.replace(/\s/g,"-")}`, state: "update" }}>
+          <img className="portrait" alt="" src={imgPath}/>
+          <p className="name">{person.name}</p>
+        </Link>
+      </li>
     )
   }
 

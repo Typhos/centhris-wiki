@@ -1,28 +1,20 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import DataLoader from 'components/utils/dataLoader';
 
 import Search from '../../components/search';
 import Back from '../../components/back';
 import Page from '../../components/page';
 import WikiUtils from "components/utils/wikiUtils";
-import 'styles/categories.scss';
 
-// ==== ALL DATA IMPORTS FOR LOCATIONS
-import structures from 'data/places/structures';
-import worldRegions from 'data/places/worldRegions';
-import politicalStates from 'data/places/politicalStates';
-import cityStates from 'data/places/cityStates';
-import settlements from 'data/places/settlements';
-import dungeons from 'data/places/dungeons';
-import fortifications from 'data/places/fortifications';
-import dwarfHolds from 'data/places/dwarfHolds';
+import 'styles/categories.scss';
 
 class Places extends Component {
 
   constructor (props) {
     super(props);
 
-    const combinedPlaces = {...structures,...dungeons, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications, ...dwarfHolds};
+    const combinedPlaces = DataLoader.places;
 
     // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
     let filteredOutput = {};
@@ -95,7 +87,7 @@ class Places extends Component {
           <li key={place+category} className="entry">
             <Link to={`/location/${place}`}>
               { images.keys().some(x => x.includes( place )) && 
-                <img className={`portrait ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) }`} alt="" src={ images('./' + place + '.png') }/>
+                <img className={`landscape ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) }`} alt="" src={ images('./' + place + '.png') }/>
               }
               { crests.keys().some(x => x.includes( place )) &&  
                 <img className={`crest ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) }`} alt="" src={ crests('./' + place + '.png')  }/>

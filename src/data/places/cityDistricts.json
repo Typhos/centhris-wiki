@@ -1,6 +1,7 @@
 {
   "Gullhollow": {
     "playerKnown": true,
+    "hideOnCat": true,
     "tags": ["district","rakenburg","barrier coast","ulfwyst"],
     "name": "Gullhollow",
     "nickname": "Gullhollow District",
@@ -26,6 +27,7 @@
   },
   "Ghost-Orchard": {
     "playerKnown": true,
+    "hideOnCat": true,
     "tags": ["district","rakenburg","barrier coast","ulfwyst"],
     "name": "Ghost Orchard",
     "nickname": "Ghost Orchard District",
@@ -45,6 +47,7 @@
   },
   "Murky-Reach": {
     "playerKnown": true,
+    "hideOnCat": true,
     "tags": ["district","rakenburg","barrier coast","ulfwyst"],
     "name": "Murky Reach",
     "nickname": "Murky Reach District",
@@ -67,6 +70,7 @@
   },
   "Greenwood-Quarter": {
     "playerKnown": true,
+    "hideOnCat": true,
     "tags": ["district","rakenburg","barrier coast","ulfwyst"],
     "name": "Greenwood Quarter",
     "nickname": "Greenwood Quarter",
@@ -94,6 +98,7 @@
   },
   "Embersky": {
     "playerKnown": true,
+    "hideOnCat": true,
     "tags": ["district","rakenburg","barrier coast","ulfwyst"],
     "name": "Embersky",
     "nickname": "Embersky District",
@@ -112,6 +117,7 @@
   },
   "The-Planks": {
     "playerKnown": true,
+    "hideOnCat": true,
     "tags": ["district","volikgrad","barrier coast","ulfwyst"],
     "name": "The Planks",
     "nickname": "the Planks",
@@ -137,6 +143,7 @@
   },
   "Windpoint": {
     "playerKnown": true,
+    "hideOnCat": true,
     "tags": ["district","volikgrad","barrier coast","ulfwyst"],
     "name": "Windpoint",
     "nickname": "Windpoint District",
@@ -155,6 +162,7 @@
   },
   "Stewards-Row": {
     "playerKnown": true,
+    "hideOnCat": true,
     "tags": ["district","volikgrad","barrier coast","ulfwyst"],
     "name": "Stewards Row",
     "nickname": "Stewards Row",
@@ -171,6 +179,7 @@
   },
   "Foreign-Quarter": {
     "playerKnown": true,
+    "hideOnCat": true,
     "tags": ["district","volikgrad","barrier coast","ulfwyst"],
     "name": "Foreign Quarter",
     "nickname": "the Foreign Quarter",
@@ -187,6 +196,7 @@
   },
   "The-Oakyard": {
     "playerKnown": true,
+    "hideOnCat": true,
     "tags": ["district","volikgrad","barrier coast","ulfwyst"],
     "name": "The Oakyard",
     "nickname": "the Oakyard",

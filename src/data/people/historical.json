@@ -1,0 +1,53 @@
+{  
+  "Khorohr-of-Thellodur": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "name": "Khorohr of Thellodur",
+    "nickname": "Khorohr of Thellodur",
+    "linkingWords": [],
+    "tags": ["fighter","dwarf","Thellodur","Champion","Cult of the Champion"],
+    "birthYear": "2C 662",
+    "deathYear": "2C 1140",
+    "gender": "Male",
+    "race": "Dwarf",
+    "occupation": "General, Soldier",
+    "affiliations": ["Army of the High King","Cult of the Champion"],
+    "description": [
+      "Khorohr of Thellodur was one of the greatest generals of Dol Obok who served the High King during the Great Expansion of the dwarves into the Pillars of Amud. He is best known in the modern era for his writing of the Codex of Vigilence, a treatise on the arts of valor, warfare, battle tactics and campaign strategy. The Codex is considered one of the greatest works of dwarven poetry ever written and in its original Dwarven can be sung as a battle hymn. Sadly, it loses this quality when translated."
+    ]
+  },
+  "Bazyli-of-Camunburg": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "name": "Bazyli of Camunburg",
+    "nickname": "Bazyli of Camunburg",
+    "linkingWords": ["Bazyli the Valiant"],
+    "tags": ["paladin","human","Rakenburg","Valiant","Church of the Guardian"],
+    "birthYear": "2C 2133",
+    "deathYear": "2C 2212",
+    "gender": "Male",
+    "race": "Human",
+    "occupation": "Adventurer",
+    "affiliations": ["Church of the Guardian","Sacellum of the Guardian"],
+    "description": [
+      "A legendary adventurer who is responsible for the construction of the Sacellum of the Guardian in Rakenburg. Bazyli gifted the church a sum of roughly 70,000 gold Hulls in 2C 2184 for the construction of the temple."
+    ]
+  },
+  "Eskra-Gradiorus": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "name": "Eskra Gradiorus",
+    "nickname": "Eskra Gradiorus",
+    "linkingWords": ["Artificer Gradiorus"],
+    "tags": ["artificer","tiefling","Rakenburg","Specula Arcanum"],
+    "birthYear": "2C 2191",
+    "deathYear": "2C 2318",
+    "gender": "Female",
+    "race": "Tiefling",
+    "occupation": "Artificer & Inventor",
+    "affiliations": ["Specula Arcanum"],
+    "description": [
+      "A legendary artificer who lived in Rakenburg from 2C 2215 until her death in 2C 2318. The mastermind behind, and namesake of, the Gradiorus Golems that now operate as part of the Specula Arcanum."
+    ]
+  }
+}

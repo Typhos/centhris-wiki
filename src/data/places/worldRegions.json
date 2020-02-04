@@ -7,8 +7,8 @@
     "nickname": "Centhris",
     "type": "Plane",
     "description": [
-      "Centhris is  also known as the Prime Material Plane."
-    ]    
+      "The Planet of Centhris, also known as the Prime Material Plane, is a fantasy setting comprised of five known continents and four major oceans. Centhris is orbited by three moons, known as the Three Sisters. Most people who live on Centhris keep to the Vësdarian Calendar."
+    ]
   },
   "Ulfwyst": {
     "playerKnown": true,
@@ -154,7 +154,7 @@
     ]    
   },
   "Mare-Umbra": {
-    "playerKnown": false,
+    "playerKnown": true,
     "tags": ["region","ocean","Centhris"],
     "name": "Mare Umbra",
     "nickname": "Mare Umbra",
@@ -165,7 +165,7 @@
     ]    
   },
   "Mare-Dyskira": {
-    "playerKnown": false,
+    "playerKnown": true,
     "tags": ["region","ocean","Centhris"],
     "name": "Mare Dyskira",
     "nickname": "Mare Dyskira",
@@ -175,15 +175,15 @@
       "The Mare Dyskira is an ocean on Centhris, spanning from the wester coasts of Ulfwyst to the southern coast of Cuncascus."
     ]    
   },
-  "Mare-Damnatis": {
-    "playerKnown": false,
+  "Mare-Amnatis": {
+    "playerKnown": true,
     "tags": ["region","ocean","Centhris"],
-    "name": "Mare Damnatis",
+    "name": "Mare Amnatis",
     "nickname": "Sea of Lost Souls",
     "type": "Ocean",
     "location": "Centhris",
     "description": [
-      "The Mare Damnatis, better known by its common name, the Sea of Lost Souls, is an ocean on Centhris, spanning from the wester coasts of Ulfwyst and Koraxon to the eastern coasts of Cuncascus."
+      "The Mare Amnatis, better known by its common name, the Sea of Lost Souls, is an ocean on Centhris, spanning from the wester coasts of Ulfwyst and Koraxon to the eastern coasts of Cuncascus."
     ]    
   },
   "Blighted-Mire": {

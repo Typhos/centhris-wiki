@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import characterData from '../../data/characters';
 import Back from '../../components/back';
+import DataLoader from 'components/utils/dataLoader';
 
 import Page from '../../components/page';
 import PlayerCharacter from '../../components/articles/playerCharacter';
@@ -13,6 +13,7 @@ class Player extends Component {
     super(props);
 
     this.state = {
+      characterData: DataLoader.characters,
       pathname: window.location.pathname,
       person: window.location.pathname.split('/player-character/')[1]
     }
@@ -29,6 +30,7 @@ class Player extends Component {
 
   render () {
     const person = this.state.person;
+    const characterData = this.state.characterData;
 
     return (
       <Page.People>

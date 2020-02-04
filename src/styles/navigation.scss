@@ -38,10 +38,13 @@
     padding-bottom: 0;
 
     .navigationListItem {
-      font-size: 0.9em;
+      font-size: 0.55em;
       text-align: center;
-      width: 27;
-      margin: 0 3% 1em;
+      // width: 8%;
+      line-height: 1em;
+      // margin: 0 3% 1em;
+      margin: 0 0 1.5em;
+      padding: 0 0 0.5em 0;
     }
   }
 

@@ -10,11 +10,9 @@ class Runes extends Component {
   render () {
     return (
       <div className="App">
-        <Header />
         <main className="content">
           {this.props.children}
         </main>
-        <Footer />
       </div>
     )
   }

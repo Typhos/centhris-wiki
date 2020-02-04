@@ -1,0 +1,152 @@
+{
+  "Vythica-Floshin": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "tags": ["wizard","scholar","half-elf","rythlon","navolin","nost ezel'nar"],
+    "name": "Vythica Floshin",
+    "nickname": "Vythica",
+    "race": "Half-Elf",
+    "age": "62",
+    "gender": "Female",
+    "class": "Wizard",
+    "affiliations": ["Rythlon"],
+    "quote": "\"It's been quite a while since I had a visitor. Please, come in. We can have some tea and chat.\"",
+    "description": [
+      "Vythica Floshin is a half-elf woman who resides by herself in a large stone house in Rythlon. A wizard of some manner, the Adventurers encountered her when Murat wished to have his master's staff identified. She offered to do so in exchange for him helping her clean up her library; a task Murat to do rather poorly. Though she attempted to engage Murat in further pleasantries, the monk was quick to leave her house after she identified the staff, leaving her dejected at the rare chance for company."
+    ]
+  },
+  "Reanold-Duplechin": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "tags": ["bard","halfling","trickster","sovereign","rythlon"],
+    "name": "Reanold Duplechin",
+    "nickname": "Reanold",
+    "race": "Halfling",
+    "age": "??",
+    "gender": "Male",
+    "class": "Bard",
+    "occupation": "Traveling Merchant and Fortuneteller",
+    "affiliations": ["Rythlon","Maison du Corbeau"],
+    "quote": "\"Les gar make yourselves at home! Sit yourself down at my table. Have a seat, kick up your feet. I'll tell your future if I am able...\"",
+    "description": [
+      "Reanold Duplechin is a wandering merchant who arrived in Rythlon during the Adventurers' altercations with Teliril Wasanathi.",
+      "He is of average height for a halfling, with a dark complexion and gaudy clothing. Around his neck is a silver chain with a bird skull looped through it. He drives an ostentatious wagon, on which he mounts various symbols of the occult, along with a staggering number of raven skulls. When asked where he is from, Reanold first responded that was 'not from around here', but after becoming more friendly with the Adventurers, he revealed he was from a place he referred to as 'Maison du Corbeau'.",
+      "At first, the halfling simply saw the group as a way to earn some coin, selling them several minor magical items in exchange for some coin and a favor. However, following the group's return to Rythlon after killing the Lady of the Wood, Reanold intervened when Teliril cast Raise Dead on the hag's corpse. Using his Bardic talents, Reanold severed the magical tethers that were animating the corpse, allowing the Adventurers a change to prove their innocence to Count Jeskin Sebroski.",
+      "After the completion of the trial and the death of Teliril, Reanold called upon Filibert to complete his bargain and sent the group off to look for his assistant, Leiana, who had run off with a magical figurine that Reanold uses to summon the horses that pull his wagon. The woman had last been seen at a place called 'the Bone Mill' north of the village. The only sign of the woman was scraps of a red cloak and drag marks inside the mill. With Leiana nowhere to be seen, the group returned with the figurine, completing Reanold's request."
+    ]
+  },
+  "Ithi-Ironjaw": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["smith","dwarf","Felrast","runesmith"],
+    "name": "Ithi Ironjaw",
+    "nickname": "Master Ironjaw",
+    "race": "Dwarf",
+    "age": "306",
+    "gender": "Female",
+    "occupation": "Runesmith",
+    "affiliations": ["Felrast", "Dol Obok"],
+    "description": [
+      "Ithi Ironjaw is a master runesmith. She is famous throughout Ulfwyst for her mastery of the art of Runesmithing. Most runesmiths are considered a master of their craft after learning to forge ten runes, at least one of which needs to be a Master Rune. Master Ironjaw is said to know at least 16 runes, including 5 Master Runes.",
+      "Ironjaw's reputation is well earned. Among her patrons include High King Bramdur Thundershod and Thane Gimmyl Wyrmbreaker, the lord of Felrast, for whom she has forged multiple runic items."
+    ],
+    "articles": {
+      "A Grand Reputation": [
+        "While traveling from Auburn Castle, Filibert and Lirr spoke at length with Roland of Zelmar about this new bastard sword which he had forged in Felrast. Roland shared the story of his journey with the adventurers and explained why he sought out Master Ironjaw to forge him this new blade.",
+        "Roland spoke highly of the smith and her skills, stating to Filibert that if he wished to have a blade forged worthy of his ambitions, he could do no better than to seek out Master Ironjaw."
+      ]
+    }
+  },
+  "Vagnur-Mountainhall": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "tags": ["smith","dwarf","Kazdan Ord","runesmith"],
+    "name": "Vagnur Mountainhall",
+    "nickname": "Master Mountainhall",
+    "race": "Dwarf",
+    "age": "431",
+    "gender": "Male",
+    "occupation": "Runesmith",
+    "affiliations": ["Kazdan Ord"],
+    "description": [
+      "Vagnur Mountainhall is one of the oldest Runesmiths in Ulfwyst. He manages an age-old workshop in the Dwarven Hold of Kazdan Ord, in the Jordonis Mountains. He rarely, if ever, leaves the hold. Speaking directly to the master is difficult, as his students and underlings will go to great lengths to keep prospective clients from speaking to their master unless they feel the request is worthy of Master Mountainhall's attention.",
+      "Temperamental and surly, the old runesmith spends most of his time passing on his craft to younger smiths he feels show promise in the art. He recently accepted Lirr Stonebreath as an apprentice, after she expressed interest in the art-form and passed a series of trials to prove she was worthy of the venerable dwarf's time."
+    ]
+  },
+  "Vyslos": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "tags": ["druid","elf","Sylvan Conclave","grove"],
+    "name": "Vyslos",
+    "nickname": "Vyslos",
+    "race": "Elf",
+    "age": "??",
+    "gender": "Male",
+    "class": "Druid",
+    "affiliations": ["Sylvan Conclave"],
+    "description": [
+      "Erlinder first encountered Vyslos when the Adventuerers returned to the Thornroot Thicket after defeating Teliril Wasanathi in Rythlon. Wishing to use this opportunity to try to understand his newfound abilities and connect with a place of natural power, Erlinder and his allies returned to the mysterious grove of megaliths, known as the Shrine of the Agrestal Cycle, in the middle of the forest. It was here, upon visiting for the second time, that he first encountered Vyslos, along with Cahina and Tekas Woadsinger.",
+      "Of the three druids that communed with Erlinder that night, Vyslos appeared to be the elder sage and the druid most in tune with the spell-casting aspect of his order. After discussing the nature of his power, and possible avenues in which to harness it, Erlinder chose to speak with Vyslos at length in order to further his understanding of the nature of druidic magics.",
+      "Vyslos informed Erlinder that the grove he oversees is located in the shadow of the Jordanis Mountains, in a place called the Shambling Grove."
+    ]
+  },
+  "Cahina": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "tags": ["druid","human","Sylvan Conclave","grove"],
+    "name": "Cahina",
+    "nickname": "Cahina",
+    "race": "Human",
+    "age": "33",
+    "gender": "Female",
+    "class": "Druid",
+    "affiliations": ["Sylvan Conclave"],
+    "description": [
+      "",
+      "Cahina informed Erlinder that the grove she oversees is located in the state of Cebrin, in southern Ulfwyst."
+    ]
+  },
+  "Tekas-Woadsinger": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "tags": ["druid","Sylvan Conclave","grove"],
+    "name": "Tekas Woadsinger",
+    "nickname": "Tekas",
+    "race": "unknown",
+    "age": "??",
+    "gender": "Male",
+    "class": "Druid",
+    "affiliations": ["Sylvan Conclave"],
+    "description": [
+      "Tekas Woadsinger is a druid and member of the Sylvan Conclave. Having embraced the shape shifting aspect of his druidic powers, Tekas appears as a huge, hulking humanoid-bear hybrid. In this form, he stand roughly 8 feet (2.25m) tall, with the face of a bear, dark gray fur, and large, powerful claws.",
+      "Tekas informed Erlinder that the grove he oversees is located in the Desolate Wastes, in central Ulfwyst."
+    ]
+  },
+  "Baqrin-Calosh": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "tags": ["sailor","captain","Volikgrad","barrier coast","smuggler","salty ferret"],
+    "name": "Baqrin Calosh",
+    "nickname": "Lord Baqrin",
+    "race": "Human",
+    "age": "40",
+    "gender": "Male",
+    "occupation": "7th Lord of Venbrin",
+    "affiliations": ["Venbrin","The Argentate"],
+    "description": [
+      "Lord Baqrin Calosh is a noble lord and ruler of the city-state of Venbrin. He has a long list of titles, which include the 7th Lord of Venbrin, Master of the Argentate & Protector of the Commercia Concordis. A middle aged human man, he has mid-length silvery, platinum blond hair and a goatee comprised of a thin mustache and chin-beard. Lord Baqrin does not seem to take his titles too seriously, and can be found wandering the city of Venbrin without escort. He is good natured, with a broad smile and a welcoming presence. He tends to dress in fine clothing, but carries himself more like a swashbuckling duelist than the noble lord of a city-state.",
+      "Lord Baqrin keeps his home at the Argentate, a walled palace in the north east of the city. He frequently leaves Venbrin aboard his personal flagship, the Shining Dawn, to patrol the waters around Venbrin for threats to his city and the merchant trade in the region."
+    ]
+  },
+  "Yabtaeid": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Yabtaeid",
+    "nickname": "Yabtaeid the Daring",
+    "tags": ["djinn","genie","venbrin"],
+    "race": "Djinn",
+    "description": [
+      "According to Akad the Magnificent during his brief interaction with the Adventurers in the Molten Halls, Yabtaeid is a djinn who, at one time, resided in the Free City of Venbrin."
+    ]
+  }
+}

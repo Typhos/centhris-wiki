@@ -6,13 +6,11 @@ import Back from '../../components/back';
 import WikiUtils from "components/utils/wikiUtils";
 import Search from 'components/search';
 import Page from 'components/page';
-import OrganizationGroupsArticle from 'components/articles/organizationGroupsArticle';
 
 // STYLES
-import 'styles/organiationGroups.scss';
+import 'styles/categories.scss';
 
 // DATA
-import peopleData from "data/people";
 import orgData from 'data/organizations';
 
 const images = require.context('img/organizations/', true);
@@ -50,9 +48,6 @@ class OrganizationGroups extends Component {
   }
 
   render () {
-    const filteredOutput = this.state.orgs.map( group => {
-      return <OrganizationGroupsArticle key={group} data={{orgData}} entry={orgData[group]} image={ images('./' + orgData[group].name.replace(/\s/g,"-") + '.png') }/>
-    });
 
     const categories = this.state.categories.map( category => {
       return (
@@ -73,7 +68,7 @@ class OrganizationGroups extends Component {
         <Search handleSearch={ this.handleSearch }  data={orgData}/>
 
         <h2 className="sectionGroup">Organizations & Groups</h2>
-        <div id="organizations" >
+        <div id="categories" >
           {categories}
         </div>
       </Page.People>
@@ -84,9 +79,9 @@ class OrganizationGroups extends Component {
     return this.state.orgs.map( org => {
       if ( orgData[org].type === category ) {
         return (
-          <li key={org} className="group">
+          <li key={org} className="entry">
             <Link to={`/group/${org}`}>
-              <img className="portrait" alt="" src={ images('./' + orgData[org].name.replace(/\s/g,"-") + '.png') }/>
+              <img className="landscape" alt="" src={ images('./' + orgData[org].name.replace(/\s/g,"-") + '.png') }/>
               <p>{orgData[org].name}</p>
             </Link>
           </li>

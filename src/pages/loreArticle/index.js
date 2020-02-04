@@ -220,6 +220,7 @@ class Lore extends Component {
 
   vesdarianCalendar () {
     const lore = this.state.lore;
+    const runes = require.context('../../img/runes/', true);
 
     return (
       <React.Fragment>
@@ -259,7 +260,9 @@ class Lore extends Component {
               </td>
             </tr>
             <tr className="festival">
-              <td className="rune">d</td>
+              <td className="rune">
+                <img alt="" src={runes('./80.svg')} />
+              </td>
               <td>Yávan Asar</td>
               <td className="days">3</td>
               <td>
@@ -296,7 +299,9 @@ class Lore extends Component {
               </td>
             </tr>
             <tr className="festival">
-              <td className="rune">J</td>
+              <td className="rune">
+                <img alt="" src={runes('./73.svg')} />
+              </td>
               <td>Virya’losse</td>
               <td className="days">3</td>
               <td>
@@ -330,7 +335,9 @@ class Lore extends Component {
               </td>
             </tr>
             <tr className="festival">
-              <td className="rune">s</td>
+              <td className="rune">
+                <img alt="" src={runes('./41.svg')} />
+              </td>
               <td>Merengyrth</td>
               <td className="days">5</td>
               <td>
@@ -346,7 +353,7 @@ class Lore extends Component {
               <td className="days">28</td>
               <td>
                 {WikiUtils.linkContent(lore, "Day of Mirth (4th)")}
-                {WikiUtils.linkContent(lore, "Eve of the Shimmering Sky (15th)")}
+                {WikiUtils.linkContent(lore, "Eve of the Glistening Sky (15th)")}
               </td>
             </tr>
             <tr className="month">
@@ -365,7 +372,9 @@ class Lore extends Component {
               </td>
             </tr>
             <tr className="festival">
-              <td className="rune">h</td>
+              <td className="rune">
+                <img alt="" src={runes('./78.svg')} />
+              </td>
               <td>Fui’en Velca</td>
               <td className="days">2</td>
               <td>

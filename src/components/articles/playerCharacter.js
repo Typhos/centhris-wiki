@@ -3,8 +3,6 @@ import WikiUtils from "components/utils/wikiUtils";
 
 import "styles/personArticle.scss";
 
-import peopleData from "data/people";
-
 export default class PlayerCharacter extends Component {
 
   render () {
@@ -24,9 +22,8 @@ export default class PlayerCharacter extends Component {
 
     return (
       <article className="person" id={person.name.replace(/\s/g,"-")}>
-        {/*<Link className="backLink" to='/characters'>&laquo; back to Characters</Link>*/}
 
-        <h3 className="fullName">{person.name}</h3>
+        <h2 className="fullName">{person.name}</h2>
         <aside className="infoBox">
           <h4 className="nickname">{person.nickname}</h4>
           <img className="portrait" alt="" src={this.props.image}/>

@@ -1,37 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-import peopleData       from "data/people";
-import characterData    from 'data/characters';
-
-import loreData         from 'data/lore/lore';
-import eventsData       from 'data/lore/events';
-import godsData         from 'data/lore/gods';
-import racesData        from 'data/lore/races';
-import creaturesData    from 'data/lore/creatures';
-import calendarData     from 'data/lore/calendar';
-import itemData         from 'data/lore/items';
-
-import orgData          from 'data/organizations';
-// import dwarfRunes from '../../data/characters';
-
-// ==== ALL DATA IMPORTS FOR LOCATIONS
-import structures       from 'data/places/structures';
-import worldRegions     from 'data/places/worldRegions';
-import politicalStates  from 'data/places/politicalStates';
-import cityDistricts    from 'data/places/cityDistricts';
-import cityStates       from 'data/places/cityStates';
-import settlements      from 'data/places/settlements';
-import dungeons         from 'data/places/dungeons';
-import fortifications   from 'data/places/fortifications';
-import dwarfHolds       from 'data/places/dwarfHolds';
-import mythic           from 'data/places/mythic';
-
+import DataLoader from 'components/utils/dataLoader';
 
 export default class WikiUtils {
 
-  static combinedPlaces = {...structures, ...worldRegions, ...cityDistricts, ...cityStates, ...settlements, ...dungeons, ...fortifications, ...dwarfHolds, ...politicalStates, ...mythic};
-  static combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData, ...loreData, ...calendarData, ...itemData};
+  static combinedPlaces = DataLoader.places;
+  static combinedLore = DataLoader.lore;
+  static peopleData = DataLoader.people;
+  static characterData = DataLoader.characters;
+  static orgData = DataLoader.organizations;
+  static gods = DataLoader.gods;
 
   static sortByName (arr) {
     return arr.sort( (a,b) => {
@@ -46,6 +24,8 @@ export default class WikiUtils {
   }
 
   static linkContent(target, descriptionArray) {
+    const allLore = {...this.combinedLore, ...this.gods};
+
     if ( !Array.isArray(descriptionArray) ) descriptionArray = [descriptionArray];
 
     let mapped = descriptionArray.map( (paragraph, index) => {
@@ -56,11 +36,11 @@ export default class WikiUtils {
       if ( !Array.isArray(paragraph) ) paragraph = [paragraph];
 
       const dataGroupsObj = {
-        "person": peopleData,
-        "player-character": characterData,  
+        "person": this.peopleData,
+        "player-character": this.characterData,  
         "location": this.combinedPlaces,      
-        "lore": this.combinedLore,
-        "group": orgData
+        "lore": allLore,
+        "group": this.orgData
       };
 
       for ( let [path, dataSet] of Object.entries(dataGroupsObj) ) {
@@ -107,9 +87,7 @@ export default class WikiUtils {
 
     for ( let i in dataset ) {
       if ( Array.isArray(dataset[i]) ) {
-        dataset[i].map( subArr => {
-          this.replaceNestedValue(subArr, name, link);
-        });  
+        dataset[i].map( subArr =>  this.replaceNestedValue(subArr, name, link) );  
       }
 
       if ( typeof dataset[i] === 'string' ) {
@@ -151,7 +129,6 @@ export default class WikiUtils {
 
     return keys.some( key => {
       if ( activePerson[key] ) {
-        let forceArray = ( Array.isArray(activePerson[key]) ) ? activePerson[key] : [activePerson[key]];
 
         return namesArray.some( words => {
           if ( words.includes(activePerson[key]) ) {
@@ -159,6 +136,7 @@ export default class WikiUtils {
               return true;
             }
           }
+          return false;
         });
       }
 

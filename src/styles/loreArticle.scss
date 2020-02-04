@@ -206,9 +206,11 @@ article.lore {
 
         &.rune {
           text-align: center;
-          font-family: $runes;
-          font-size: 1.8em;
-          color: $blue;
+          padding: 1em 0;
+          
+          img {
+            width: 1.33em;
+          }
         }
       }
     }

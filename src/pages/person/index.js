@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import peopleData from '../../data/people';
-
+import DataLoader from 'components/utils/dataLoader';
 import Page from '../../components/page';
 import PersonArticle from '../../components/articles/personArticle';
 
@@ -27,6 +26,7 @@ class Person extends Component {
   }
 
   render () {
+    const peopleData = DataLoader.people;
     const person = this.state.person;
     const imgPath = images.keys().some( x => x.includes( person )) &&  images('./' + peopleData[person].name.replace(/\s/g,"-") + '.png');
 

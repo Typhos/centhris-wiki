@@ -1,0 +1,49 @@
+{
+  "Kilorn-Zerem": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "name": "Kilorn Zerem",
+    "nickname": "Kilorn Zerem",
+    "linkingWords": ["Kilorn","Kilorn of Rakenburg"],
+    "tags": ["merchant","aasimar","barbarian","Ruby Phoenix","Rakenburg","associate"],
+    "age": "40",
+    "gender": "Male",
+    "occupation": "Merchant",
+    "affiliations": ["Khazar Thul","Jasper Circle"],
+    "description": [
+      "The owner and operator of Kilorn's Exotic Imports, Kilorn is a man of unknown race from the Toridosa Archipelago. He is highly knowledgeable about magical items, reagents and esoteric arcane pieces. He maintains a business agreement with the The Jasper Circle, from whom he purchases most of his magical reagents."
+    ]
+  },
+  "Bordin": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "name": "Bordin",
+    "tags": ["human","innkeeper","Rythlon","friend","Navolin"],
+    "nickname": "Bordin",
+    "race": "Human",
+    "age": "41",
+    "gender": "Male",
+    "occupation": "Innkeeper",
+    "affiliations": ["Rythlon","Moody Acrobat","Green Boat Shipping"],
+    "quote": "\"It's been a gloomy year, gentlemen. Ever since the new magistrate showed up, everyone has been on edge. I just keep to myself here and not to ask too many questions. I don't want to get on anyone's bad side. Anyway, what can I get you all to drink?\"",
+    "description": [
+      "Bordin is the large, bearded, portly owner and innkeeper of the Moody Acrobat, the only inn/tavern in the village of Rythlon. Generally jovial and good natured, Bordin has been running the inn for many years. The Moody Acrobat is frequented by locals, but rarely has guests who stay for any extended period.",
+      "His cousin, Davrik, ran Green Boat shipping, the largest business in Rythlon. With Davrik's arrest for smuggling illegal goods into Rythlon, Bordin has taken temporary ownership of the company."
+    ]
+  },
+  "Priceli-Nezella-Philyorin": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "tags": ["gnome","apothecary","rythlon","navolin","merchant"],
+    "name": "Priceli Nezella Philyorin",
+    "nickname": "Priceli",
+    "race": "Gnome",
+    "age": "210",
+    "gender": "Female",
+    "affiliations": ["Rythlon"],
+    "description": [
+      "Priceli is a female gnome apothecary who runs the the Trusty Elixir, the local herbalist shop in Rythlon. She is of average height, with bright red hair. Her usual attire is bright clothing and various pieces of gold jewelry. She is an excitable woman, as gnomes tend to be, and is happy to engage other villagers or travelers in lively discussions, especially on the topics of plants, herbs and elixirs.",
+      "She is friends with Rakas and Lormin, whom she regularly has drinks with at the Moody Acrobat. She also provides Bordin, the innkeeper, with spices for the food at the inn."
+    ]
+  }
+}

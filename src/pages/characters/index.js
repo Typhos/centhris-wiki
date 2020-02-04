@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import characterData from 'data/characters';
-
+import DataLoader from 'components/utils/dataLoader';
 import Page from 'components/page';
 import CharactersList from 'components/articles/charactersList';
 import WikiUtils from "components/utils/wikiUtils";
@@ -14,6 +13,8 @@ class Characters extends Component {
   constructor (props) {
     super(props);
 
+    const characterData = DataLoader.characters;
+
     let filteredOutput = {};
 
     for (let [key, obj] of Object.entries(characterData)) {
@@ -21,11 +22,13 @@ class Characters extends Component {
     }
 
     this.state = {
+      characterData: characterData,
       characters: WikiUtils.sortByName( Object.keys(filteredOutput) ),
     };
   }
 
   render () {
+    const characterData = this.state.characterData;
     const characters = this.state.characters.map( person => {
       return <CharactersList key={person} data={{characterData}} entry={characterData[person]} image={ images('./' + characterData[person].name.replace(/\s/g,"-") + '.png') }/>
     });

@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'
+import Header from "components/header";
+import Footer from "components/footer";
 
 import ScrollToTop from 'components/scrollToTop';
 
@@ -63,6 +65,7 @@ const routing = (
   <Router>
     <ScrollToTop>
       { localStorage.getItem('dmView') === 'true' && <div id="dmFlag">DM MODE</div>}
+      <Header/>
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/runes" component={Runes} />
@@ -79,6 +82,7 @@ const routing = (
         <Route path="/pantheon/" component={Pantheon} />
         <Route component={Error404} />
       </Switch>
+      <Footer/>
     </ScrollToTop>
   </Router>
 )

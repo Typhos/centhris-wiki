@@ -1,0 +1,88 @@
+{
+  "Janik-Malmor": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["noble","human","count","navolin","Frenkel"],
+    "name": "Janik Malmor",
+    "nickname": "Baron Janik Malmor",
+    "race": "human",
+    "age": "46",
+    "gender": "Male",
+    "class": "Fighter",
+    "titles": "Baron of Frenkel",
+    "occupation": "Noble, Soldier",
+    "affiliations": ["Auburn Castle"],
+    "description": [
+      "Baron Janik Malmor is the baron of Frenkel. The baron is a vassal of Count Jeskin Sebroski and is charged with protecting the western border of Navolin from external threats. The baron's personal manor is Auburn Castle.",
+      "Many families live and work in the barony of Frenkel, including the Montajays, a halfling family of which Filibert Montajay was a member. Filibert was a subject of the baron until he was forced to leave the fortress in Sirngor of 2C 2573."
+    ]
+  },
+  "Archduke-Nicolai-Valken": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "tags": ["noble","human","archduke","zurast"],
+    "name": "Archduke Nicolai Valken",
+    "nickname": "Nicolai Valken",
+    "race": "human",
+    "age": "37",
+    "gender": "Male",
+    "titles": "Archduke",
+    "occupation": "Monarch",
+    "affiliations": ["City of Zurast","the Sevenspire"],
+    "description": [
+      "Archduke Nicolai Valken is the current ruler of the Archduchy of Zurast."
+    ]
+  },
+  "Jeskin-Sebroski": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "name": "Jeskin Sebroski",
+    "tags": ["noble","human","count","navolin","hussar","rythlon"],
+    "nickname": "Count Jeskin Sebroski",
+    "titles": "Count of Szary, Navolinian Hussar",
+    "race": "Human",
+    "age": "27",
+    "gender": "Male",
+    "class": "Fighter",
+    "occupation": "Noble, Soldier",
+    "affiliations": ["Castle Grinsted","County of Szary","Kingdom of Navolin"],
+    "description": [
+      "As the Count of Szary, Jeskin Sebroski is both the local lord, administrator, and commander of a feudal county bordering the state of Tovanis. The count takes his role as the ruler of a border province very seriously, knowing that he is the first line of defense against incursions from foreign states, and monstrous creatures from beyond his borders.",
+      "A man of noble birth, Count Sebroski was tutored from a young age in the arts of riding, warfare, court life and hunting.",
+      "As a member of the nobility of the Kingdom of Navolin, Jeskin was brought into the ranks of the Hussars and excelled during the dangerous training regime that all initiates must undergo. He has since risen through the ranks to become one of the commanding officers of the order.",
+      "He is a common sight in the court of King Kzesimir III in Frecyra where he is called up on to provide military advice. He is also a close personal friend of Prince Aronas Czak and returned from a provincial issue in the village of Rythlon upon learning the news of the prince's death."
+    ]
+  },
+  "King-Kzesimir-III-of-House-Czak": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "King Kzesimir III of House Czak",
+    "nickname": "King Kzesimir III Czak",
+    "linkingWords": ["Kzesimir III of House Czak","King Kzesimir III","Kzesimir III","King Kzesimir Czak","King Kzesimir","Kzesimir Czak"],
+    "tags": ["king","noble","Frecyra","Navolin"],
+    "race": "Human",
+    "age": "57",
+    "gender": "Male",
+    "occupation": "King",
+    "affiliations": ["Navolin","Frecyra","Palace of the Western Wind"],
+    "description": [
+      "King Kzesimir III is the monarch of Navolin and head of the noble Czak House. His court is held in Frecyra at the Palace of the Western Wind."
+    ]
+  },
+  "Prince-Ardashir": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Prince Ardashir",
+    "nickname": "Ardashir ab Shahreen",
+    "linkingWords": ["Prince Ardashir ab Shahreen"],
+    "tags": ["merchant","aasimar","barbarian","Ruby Phoenix","Rakenburg","associate"],
+    "age": "deceased",
+    "gender": "Male",
+    "race": "Human",
+    "occupation": "Diplomat, Noble",
+    "affiliations": ["Kingdom of Abbasyr"],
+    "description": [
+      "Prince Ardashir men Shahreen was a human prince of the Kingdom of Abassyr. He spent his youth in the capital of Khezrabad before being set to Frecyra as an ambassador of his family and kingdom. While in Frecyra, his advisor and bodyguard was the elf wizard Telarion Elentiir."
+    ]
+  }
+}
