@@ -29,6 +29,7 @@ export default class WikiUtils {
     // Text in entries must be wrapped with a specific indicator in order to receive the following formatting:
     // ITALICS  =   @>string<@
     // BOLD     =   @+string+@
+    // H4       =   @#string#@
 
     // check if we need to only format a string or a single array for various reasons (see pantheon page)
     if ( typeof entryData === "string" ) {
@@ -39,6 +40,9 @@ export default class WikiUtils {
         } else if ( substr.includes("+") ) {
           substr = substr.replace(/\+/g, "");
           substr = <strong>{substr}</strong>;
+        } else if ( substr.includes("#") ) {
+          substr = substr.replace(/\#/g, "");
+          substr = <h4 className="subhead" key={substr}>{substr}</h4>;
         } 
 
         return substr;
@@ -52,6 +56,9 @@ export default class WikiUtils {
           } else if ( substr.includes("+") ) {
             substr = substr.replace(/\+/g, "");
             substr = <strong key={substr}>{substr}</strong>;
+          } else if ( substr.includes("#") ) {
+            substr = substr.replace(/\#/g, "");
+            substr = <h4 className="subhead" key={substr}>{substr}</h4>;
           } 
 
           return substr;
@@ -59,31 +66,23 @@ export default class WikiUtils {
       });
     }
 
-    if (entryData.description) {
-      // array of strings
+    // if (entryData.description) {
+    //   // array of strings
 
-      entryData.description = entryData.description.map( string => {
-        return string.split(/@(.*?)@/).map( substr => {
-          if ( substr.includes(">") ) {
-            substr = substr.replace(/>|</g, "");
-            substr = <i key={substr}>{substr}</i>;
-          } else if ( substr.includes("+") ) {
-            substr = substr.replace(/\+/g, "");
-            substr = <strong key={substr}>{substr}</strong>;
-          } 
+    //   entryData.description = entryData.description.map( string => {
+    //     return string.split(/@(.*?)@/).map( substr => {
+    //       if ( substr.includes(">") ) {
+    //         substr = substr.replace(/>|</g, "");
+    //         substr = <i key={substr}>{substr}</i>;
+    //       } else if ( substr.includes("+") ) {
+    //         substr = substr.replace(/\+/g, "");
+    //         substr = <strong key={substr}>{substr}</strong>;
+    //       } 
 
-          return substr;
-        });
-      });
-    }
-
-    if (entryData.articles) {
-      // object of arrays
-    }
-
-    if (entryData.dmArticles) {
-      // object of arrays
-    }
+    //       return substr;
+    //     });
+    //   });
+    // }
 
     return entryData;
   }

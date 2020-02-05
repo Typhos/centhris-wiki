@@ -49,5 +49,22 @@
     "description": [
       "A legendary artificer who lived in Rakenburg from 2C 2215 until her death in 2C 2318. The mastermind behind, and namesake of, the Gradiorus Golems that now operate as part of the Specula Arcanum."
     ]
+  },
+  "Gohdur-Stormbreaker": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "name": "Gohdur Stormbreaker",
+    "nickname": "Thane Gohdur Stormbreaker",
+    "linkingWords": ["Thane Stormbreaker"],
+    "tags": ["fighter","dwarf","thane","legendary","Osed'ushang"],
+    "birthYear": "2C 973",
+    "gender": "Male",
+    "race": "Dwarf",
+    "occupation": "Ruler",
+    "affiliations": ["Osed'ushang","Ushul nok Keshan"],
+    "description": [
+      "One of the greatest dwarven lords to grace the frozen peaks of Tathlok Skirrom, Gohdur Stormbreaker was a hero in his own age, before entering into the myths and legends of Ushul nok Keshan. A wise, proud, and honorable ruler, the people of Õsed'ushang whispered that he might be Usterral incarnate.",
+      "None have seen the mythical dwarven thane since the fall of his mighty hold, though some still believe he wanders the wild places of the Duskspear Peaks, a hooded figure protecting travelers and holds in their time of need."
+    ]
   }
 }

@@ -252,6 +252,17 @@
       "The Ur'shiid Desert is a vast, hot desert located in central Ulfwyst. It is the largest desert in Ulfwyst and one of the largest deserts on Centhris. The region is mostly considered part of the Kingdom of Abbasyr, though due to the hostile nature of the environment it is difficult exert direct control over those living in the deepest reaches of the wastes."
     ]
   },
+  "Dune-Sea-of-Manar": {
+    "playerKnown": false,
+    "tags": ["desert","region","ulfwyst"],
+    "name": "Dune Sea of Manar",
+    "nickname": "Manar Dunes",
+    "type": "Region",
+    "location": "Cunascus",
+    "description": [
+      "The Dune Sea of Manar is a large peninsula in northwest Cunascus and one of the largest deserts on Centhris. Once a verdant jungle, much of the topography that made up the landscape was irrevocably altered during the Ruination of Centhris and the land became nearly uninhabitable."
+    ]
+  },
   "Makorian-Sea": {
     "playerKnown": false,
     "tags": ["sea","region","ulfwyst"],

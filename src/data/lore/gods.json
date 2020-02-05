@@ -167,7 +167,7 @@
     "description": [
         "The Champion, Isilena, is generally depicted as a powerful woman with long, flowing, white hair, who is clad in heavy armor and wielding a longsword. She is the patron of the soldiers, knights and questing paladins. Many soldiers who were overcome with a battle frenzy claim to have seen her in the midst of battle, fighting on the side of victors of the conflict. Many soldiers pray to her before battle for protection, inspiration and courage. So common is her worship in camp that clerics of the Champion often march behind an army's column, carrying mobile shrines and relics of the goddess.",
         "She is also the hero and patron to the downtrodden. Many suffering people pray to the Champion for aid and when help arrives, it is the Champion that most often receives credit for ushering the would-be hero along their path.",
-        "The Champion's ancient foe is the Conqueror, Aegertoh, the Lord of War, whom she has fought in numerous battles against throughout the aeons."
+        "The Champion's ancient foe is the Conqueror, Aegeroth, the Lord of War, whom she has fought in numerous battles against throughout the aeons."
     ],
     "articles": {
         "Disorganized Faithful": [
@@ -517,15 +517,20 @@
     "playerKnown": true,
     "name": "The Conqueror",
     "nickname": "The Conqueror",
-    "trueName": "Veldrius",
+    "trueName": "Aegeroth",
     "portfolio": [
       "War",
       "Strength",
       "Death"
     ],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
+    "alignment": "Lawful Evil",
+    "gender": "Masculine",
+    "titles": [
+      "the Iron General",
+      "War Bringer",
+      "Lord of Domination",
+      "the Legionnaire"
+    ],
     "worshipers": [],
     "symbol": "",
     "shrineImg": ["shrine-conqueror.png"],
@@ -533,7 +538,9 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful evil"],
     "description": [
-
+      "Aegeroth, the Conqueror, is often depicted as a tall humanoid wearing dark, heavy armor. Aegoroth's personal weapons are @+Jor`umoth+@, @>the Blazing Cleaver<@, a great flaming battleaxe made of black iron, and @+Olmoraz+@, @>the Blade of Torment<@, a serrated broad sword made from the bones Obscalyx, the great sea serpent. It is said that the wails of those slain by this dark blade can be heard crying out from inside the pitch-black sword.",
+      "As the embodiment of war, conflict and strife, the Conqueror is the patron of warlords, dictators and any who seek honor or status through marshal means. He is often worshiped alongside other deities, and the faithful see him as a figure of protection, albeit a harsh one. Military commanders and marshals of knightly orders will often invoke his name before the start of a battle in the hope he will bless their side of the conflict. Those who would \"do what needs to be done for the greater good\" falls under the Conqueror's mantle. Many of his clerical servants follow Aegeroth under the belief that it takes strong will and courage to make the world a better place even if the methods are grim.",
+      "Some are naturally called to his service, but many of the followers of the Conqueror come follow him after the youthful idealism of the Guardian or the Champion fail them. It is then, when the harsh reality of a dangerous world sets in, that the Cult of the Conqueror may have a point."
     ],
     "articles": {
 
@@ -863,7 +870,7 @@
     "playerKnown": true,
     "name": "The Grove Keeper",
     "nickname": "The Grove Keeper",
-    "trueName": "",
+    "trueName": "Tythar",
     "portfolio": [],
     "alignment": "",
     "gender": "",
@@ -976,7 +983,7 @@
     "playerKnown": false,
     "name": "The Shattered Mind",
     "nickname": "The Shattered Mind",
-    "trueName": "",
+    "trueName": "Xedris",
     "portfolio": [],
     "alignment": "",
     "gender": "",
@@ -997,7 +1004,7 @@
     "playerKnown": true,
     "name": "The Soul Thief",
     "nickname": "The Soul Thief",
-    "trueName": "",
+    "trueName": "Doella",
     "portfolio": [],
     "alignment": "",
     "gender": "",
@@ -1102,7 +1109,7 @@
     "playerKnown": false,
     "name": "The Unending Hunger",
     "nickname": "The Unending Hunger",
-    "trueName": "",
+    "trueName": "Phyreus",
     "portfolio": [],
     "alignment": "",
     "gender": "",
@@ -1123,7 +1130,28 @@
     "playerKnown": false,
     "name": "The Masked Lady",
     "nickname": "The Masked Lady",
-    "trueName": "",
+    "trueName": "Retra",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Silver-Blade": {
+    "playerKnown": true,
+    "name": "The Silver Blade",
+    "nickname": "The Silver Blade",
+    "trueName": "Retra",
     "portfolio": [],
     "alignment": "",
     "gender": "",

@@ -30,6 +30,17 @@ h3.subheading {
 }
 
 main.content {
+  aside.infoBox {
+    .info {
+      .key,
+      .values {
+        a {
+          color: $tagLinkLight;
+        }
+      }
+    }
+  }
+
   nav.subNav {
     display: inline-flex;
     min-width: 60%;
@@ -69,6 +80,19 @@ main.content {
           line-height: 1.65em;
         }
       }
+    }
+
+    h4.subhead {
+      font-family: $serifText;
+      color: $blueDark;
+      font-size: 0.95em;
+      letter-spacing: 0.075em;
+      font-style: italic;
+      font-variant: small-caps;
+      display: inline-block;
+      padding: 0;
+      margin: 1em 0 0;
+      text-indent: 0;
     }
   }
 }

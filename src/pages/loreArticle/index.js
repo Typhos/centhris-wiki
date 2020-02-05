@@ -186,7 +186,7 @@ class Lore extends Component {
 
   getArticles(articles) {
     const lore = this.state.lore;
-    let content = [WikiUtils.linkContent(lore, lore.description)];
+    let content = [WikiUtils.linkContent(lore, WikiUtils.textFormatting( lore.description) )];
 
     if ( lore.name === "The Vesdarian Calendar" ) {
       content.push( this.vesdarianCalendar() );
@@ -197,7 +197,7 @@ class Lore extends Component {
         content.push(
           <React.Fragment key={heading}>
             <h3 className="subheading">{heading}</h3>
-            {WikiUtils.linkContent(lore, array)}
+            {WikiUtils.linkContent(lore,  WikiUtils.textFormatting( array) )}
           </React.Fragment>
         );
       }
@@ -209,7 +209,7 @@ class Lore extends Component {
         content.push(
           <React.Fragment key={heading}>
             <h3 className="subheading">{heading}</h3>
-            {WikiUtils.linkContent(lore, array)}
+            {WikiUtils.linkContent(lore,  WikiUtils.textFormatting( array) )}
           </React.Fragment>
         );
       }

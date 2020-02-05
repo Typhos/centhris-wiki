@@ -209,7 +209,7 @@ class Location extends Component {
         content.push(
           <React.Fragment key={heading}>
             <h3 className="subheading">{heading}</h3>
-            {WikiUtils.linkContent(location, array)}
+            {WikiUtils.linkContent(location, WikiUtils.textFormatting(array) )}
           </React.Fragment>
         );
       }
@@ -221,7 +221,7 @@ class Location extends Component {
         content.push(
           <React.Fragment key={heading}>
             <h3 className="subheading">{heading}</h3>
-            {WikiUtils.linkContent(location, array)}
+            {WikiUtils.linkContent(location, WikiUtils.textFormatting(array) )}
           </React.Fragment>
         );
       }
