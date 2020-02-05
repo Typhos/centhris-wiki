@@ -41,7 +41,7 @@ export default class WikiUtils {
           substr = substr.replace(/\+/g, "");
           substr = <strong>{substr}</strong>;
         } else if ( substr.includes("#") ) {
-          substr = substr.replace(/\#/g, "");
+          substr = substr.replace(/#/g, "");
           substr = <h4 className="subhead" key={substr}>{substr}</h4>;
         } 
 
@@ -57,7 +57,7 @@ export default class WikiUtils {
             substr = substr.replace(/\+/g, "");
             substr = <strong key={substr}>{substr}</strong>;
           } else if ( substr.includes("#") ) {
-            substr = substr.replace(/\#/g, "");
+            substr = substr.replace(/#/g, "");
             substr = <h4 className="subhead" key={substr}>{substr}</h4>;
           } 
 
