@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import WikiUtils from "components/utils/wikiUtils";
+import Navigation from 'components/header/navigation';
 
 import 'styles/app.scss';
 
@@ -10,6 +11,7 @@ class App extends Component {
   render() {
     return (
       <main className="content">
+      <Navigation/>
         <h2 className="sectionTitle">A Wiki for the Fantasy World of Centhris</h2>
         <article className="description">
           { 
