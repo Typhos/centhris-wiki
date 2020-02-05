@@ -7,6 +7,8 @@ import Back from '../../components/back';
 import Page from 'components/page';
 import WikiUtils from "components/utils/wikiUtils.js";
 
+import 'styles/categories.scss';
+
 const images = require.context('../../img/portraits/', true);
 
 class People extends Component {
@@ -53,7 +55,7 @@ class People extends Component {
 
         <h2 className="sectionTitle">Non-Player Characters</h2>
         
-        <ul id="people" >
+        <ul id="categories" >
           {filteredOutput}
         </ul>
       </Page.People>
@@ -62,7 +64,7 @@ class People extends Component {
 
   peopleCategory (person, imgPath = "") {
     return (
-      <li key={person.name.replace(/\s/g,"-")} className="person" id={person.name.replace(/\s/g,"-")}>
+      <li key={person.name.replace(/\s/g,"-")} className="person entry" id={person.name.replace(/\s/g,"-")}>
         <Link className="personLink" to={ { pathname:`/person/${person.name.replace(/\s/g,"-")}`, state: "update" }}>
           <img className="portrait" alt="" src={imgPath}/>
           <p className="name">{person.name}</p>

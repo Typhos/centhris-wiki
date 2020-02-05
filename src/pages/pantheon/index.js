@@ -6,6 +6,7 @@ import Search from '../../components/search';
 import Page from '../../components/page';
 import WikiUtils from "components/utils/wikiUtils";
 import 'styles/categories.scss';
+import 'styles/pantheon.scss';
 
 import godsData from 'data/lore/gods';
 
@@ -50,10 +51,13 @@ class Pantheon extends Component {
   }
 
   render () {
+    const pantheonLore = DataLoader.lore["The-Centhrian-Pantheon"];
     const categories = this.state.categories.map( category => {
       return (
-        <div key={category} className={`category ${category.replace(/\s/g,"-")}`}>
-          <h2 className="sectionTitle">{category.split(/\s/g)[0]} Deities</h2>
+        <div key={category} className={`category gods ${category.replace(/\s/g,"-")}`}>
+          { this.getGods(category).filter( el => el !== undefined ).length !== 0 &&
+            <h2 className="sectionTitle">{category.split(/\s/g)[0]} Deities</h2>
+          }
           <ul className="sectionList">
             {this.getGods(category)}
           </ul>
@@ -66,8 +70,11 @@ class Pantheon extends Component {
         <Back/>
         <Search handleSearch={ this.handleSearch } data={this.state.combinedLore}/>
         
-        <h2 className="sectionGroup">The Centhrian Pantheon</h2>
         <div id="categories" >
+          <article className="lore" id="pantheon">
+            <h2 className="fullName">The Centhrian Pantheon</h2>
+            {WikiUtils.linkContent( {...DataLoader.gods, ...pantheonLore}, WikiUtils.textFormatting( pantheonLore.description ) )}
+          </article>
           {categories}
         </div>
       </Page.LoreCategories>

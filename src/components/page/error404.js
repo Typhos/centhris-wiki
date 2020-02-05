@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
-
-import Header from "../header";
-import Footer from "../footer";
+import Navigation from 'components/header/navigation';
 
 class Error404 extends Component {
 
   render () {
     return (
       <div className="App">
-        <Header />
+        <Navigation />
         <main className="content">
           {this.props.children}
         </main>
-        <Footer />
       </div>
     )
   }

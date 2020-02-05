@@ -6,6 +6,14 @@
     "name": "Centhris",
     "nickname": "Centhris",
     "type": "Plane",
+    "regions": [
+      "Cunascus",
+      "Entos",
+      "Eastern Koraxon",
+      "Western Koraxon",
+      "Ulfwyst"
+    ],
+    "additionalImages": ["Centhris-thumbnail.png"],
     "description": [
       "The Planet of Centhris, also known as the Prime Material Plane, is a fantasy setting comprised of five known continents and four major oceans. Centhris is orbited by three moons, known as the Three Sisters. Most people who live on Centhris keep to the Vësdarian Calendar."
     ]

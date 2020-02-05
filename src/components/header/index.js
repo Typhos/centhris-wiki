@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navigation from './navigation';
 import { Link } from 'react-router-dom';
 
 import 'styles/header.scss';
@@ -39,7 +38,6 @@ class Header extends Component {
             <Link className="home" to="/">The World of Centhris</Link>
           </h1>
         </div>
-        <Navigation />
       </header>
     )
   }

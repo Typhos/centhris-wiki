@@ -14,7 +14,13 @@
       "the gods"
     ],
     "type": "Centhris World Lore",
-    "tags": ["world lore","gods","pantheon"]
+    "tags": ["world lore","gods","pantheon"],
+    "description": [
+      "The gods of Centhrian mythology are described as distant, otherworldly beings that show little interest in the events of the mortal world. Most of the gods of the Centhrian Pantheon, as described in literature, song and prayer, are said to reside in the grand Halls of Tanrilar, the home of the gods in the Astra Sea. Some sub-groups of gods, such as the gods of the Dwarves or the gods of Kumba, are said to reside in realms related their own interests.",
+      "When these gods are called upon in poetry, prayer or cult, they are referred to by a combination of their name and epithets, that identify them by these distinctions from other manifestations of themselves (e.g., @>Guardian Valiant<@ is \"the Guardian, [as] leader of the Valiants\", or @>Nevondria Libras<@, [as] \"Nevondria, patron of libraries\"). Alternatively the epithet may identify a particular and localized aspect of the god, such as the worship of the @>Tempest Karsoz<@ as the patron of raids and adventurous exploits which is unique to Cibrinian culture.",
+      "Most gods are associated with specific aspects of life. For example, the Smiling Lady is the goddess of luck and love, the Conqueror is the god of war, the Gravekeeper is the ruler of the dead, and the Champion the goddess of hope and valor. Other god are known, specific personalities of the multiverse, such as the Fiend, who is the Lord of All Demons and a representation of the chaotic, demonic entities that are part of the reality of life in the mortal world.",
+      "Different parts of the world refer to the gods in divergent manners. For example, is common in the continent of Entos to call the gods by their true names (Dhynir, Jandivar, or Yelensa), while in Ulfwyst the standard cultural practice is for the peoples to refer to the gods by their prime epithet (the Conqueror, the Harlequin, or the Maiden)."
+    ]
   },
   "The-Three-Moons-of-Centhris": {
     "playerKnown": true,

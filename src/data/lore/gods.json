@@ -30,7 +30,7 @@
         "Sacellum of the Guardian"
     ],
     "shrineImg": ["shrine-guardian.png"],
-    "tags": ["Greater Deity","good","lawful","life","justice","protection","knight","paladin"],
+    "tags": ["Greater Deity","dragons","good","lawful","life","justice","protection","knight","paladin"],
     "description": [
         "The Guardian, Bahamut, is the God-King of all good dragons and the protector of mortals. Bahamut is one of the the most renowned gods among mortal races of Centhris, and is said to command a deep respect within the Pantheon, even from those who would view him as an enemy. The Guardian and his worshipers value life, and do not harm other creatures needlessly. In battle, his servants follow a strict code of martial conduct, and generally are unwilling to harm an opponent that is unable to defend itself.",
         "The Guardian is said to be proud beyond reproach. His canon states that pride is necessary for any creature to be magnanimous; one has to believe in standards for themselves, and strive to surpass them, before standards can be applied to others. Many followers adhere to this ideal, often resulting other viewing his church as haughty and aloof."
@@ -253,7 +253,7 @@
     ],
     "symbol": "",
     "shrineImg": ["shrine-maiden.png"],
-    "linkingWords": ["the Maiden","the Maiden's Oculus"],
+    "linkingWords": ["Yelensa","the Maiden","the Maiden's Oculus"],
     "type": "Greater Deity",
     "tags": ["Greater Deity",""],
     "description": [
@@ -268,7 +268,7 @@
     "playerKnown": true,
     "name": "The Wanderer",
     "nickname": "The Wanderer",
-    "trueName": "",
+    "trueName": "Dhynir",
     "portfolio": [
       "Trickery",
       "Ambition"
@@ -288,7 +288,7 @@
     ],
     "symbol": "",
     "shrineImg": ["shrine-wanderer.png"],
-    "linkingWords": ["the Wanderer"],
+    "linkingWords": ["Dhynir","the Wanderer"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","true neutral"],
     "description": [
@@ -324,7 +324,7 @@
     ],
     "symbol": "Masquerade mask",
     "shrineImg": ["shrine-harlequin.png"],
-    "linkingWords": ["God of Many Faces","the Harlequin"],
+    "linkingWords": ["Jandivar","God of Many Faces","the Harlequin"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic neutral"],
     "description": [
@@ -383,7 +383,7 @@
         "glory hunters"
     ],
     "symbol": "Lightning bolt over a wave",
-    "linkingWords": ["the Tempest","Heimyr","Skyfather","The Lord of Thunder"],
+    "linkingWords": ["Heimyr","the Tempest","Heimyr","Skyfather","The Lord of Thunder"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic good","chaos","tempest","storms","lightning","thunder"],
     "description": [
@@ -413,7 +413,7 @@
     ],
     "symbol": "Outline of a face with three eyes",
     "shrineImg": ["shrine-philosopher.png"],
-    "linkingWords": ["the Philosopher"],
+    "linkingWords": ["Nevondria", "the Philosopher"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful neutral"],
     "description": [
@@ -448,7 +448,7 @@
     "shrineImg": ["shrine-sage.png"],
     "linkingWords": ["the Sage"],
     "type": "Greater Deity",
-    "tags": ["Greater Deity","true neutral"],
+    "tags": ["Greater Deity","true neutral","nature","forests","rivers"],
     "description": [
 
     ],
@@ -485,7 +485,7 @@
     "playerKnown": true,
     "name": "The Shadow",
     "nickname": "The Shadow",
-    "trueName": "",
+    "trueName": "Ozrus",
     "portfolio": [
       "Trickery",
       "Ambition"
@@ -502,7 +502,7 @@
       "spies"
     ],
     "symbol": "",
-    "linkingWords": [],
+    "linkingWords": ["Ozrus","the Night Stalker","Shadefingers","the King of Thieves"],
     "shrineImg": ["shrine-shadow.png"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic neutral","chaos"],
@@ -517,7 +517,7 @@
     "playerKnown": true,
     "name": "The Conqueror",
     "nickname": "The Conqueror",
-    "trueName": "",
+    "trueName": "Veldrius",
     "portfolio": [
       "War",
       "Strength",
@@ -529,7 +529,7 @@
     "worshipers": [],
     "symbol": "",
     "shrineImg": ["shrine-conqueror.png"],
-    "linkingWords": ["the Conqueror","the Lord of War"],
+    "linkingWords": ["Veldrius","the Conqueror","the Lord of War"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful evil"],
     "description": [
@@ -561,7 +561,7 @@
     "shrineImg": ["shrine-wyrm.png"],
     "linkingWords": ["the Wyrm"],
     "type": "Greater Deity",
-    "tags": ["Greater Deity","chaotic evil","chaos","dragon"],
+    "tags": ["Greater Deity","chaotic evil","chaos","dragons"],
     "description": [
 
     ],
@@ -767,7 +767,7 @@
     "symbol": "",
     "linkingWords": ["the Ember Soul","Dragon Consort"],
     "type": "Lesser Deity",
-    "tags": ["Lesser Deity","dragon","Dragon Consort"],
+    "tags": ["Lesser Deity","dragons","Dragon Consort"],
     "description": [
 
     ],

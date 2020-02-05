@@ -24,6 +24,70 @@ export default class WikiUtils {
     })
   }
 
+  static textFormatting(entryData) {
+    // This function allows for content entries to be formatted before linking. 
+    // Text in entries must be wrapped with a specific indicator in order to receive the following formatting:
+    // ITALICS  =   @>string<@
+    // BOLD     =   @+string+@
+
+    // check if we need to only format a string or a single array for various reasons (see pantheon page)
+    if ( typeof entryData === "string" ) {
+      entryData = entryData.split(/@(.*?)@/).map( substr => {
+        if ( substr.includes(">") ) {
+          substr = substr.replace(/>|</g, "");
+          substr = <i>{substr}</i>;
+        } else if ( substr.includes("+") ) {
+          substr = substr.replace(/\+/g, "");
+          substr = <strong>{substr}</strong>;
+        } 
+
+        return substr;
+      });
+    } else if ( Array.isArray(entryData) ) {
+      entryData = entryData.map( string => {
+        return string.split(/@(.*?)@/).map( substr => {
+          if ( substr.includes(">") ) {
+            substr = substr.replace(/>|</g, "");
+            substr = <i key={substr}>{substr}</i>;
+          } else if ( substr.includes("+") ) {
+            substr = substr.replace(/\+/g, "");
+            substr = <strong key={substr}>{substr}</strong>;
+          } 
+
+          return substr;
+        });
+      });
+    }
+
+    if (entryData.description) {
+      // array of strings
+
+      entryData.description = entryData.description.map( string => {
+        return string.split(/@(.*?)@/).map( substr => {
+          if ( substr.includes(">") ) {
+            substr = substr.replace(/>|</g, "");
+            substr = <i key={substr}>{substr}</i>;
+          } else if ( substr.includes("+") ) {
+            substr = substr.replace(/\+/g, "");
+            substr = <strong key={substr}>{substr}</strong>;
+          } 
+
+          return substr;
+        });
+      });
+    }
+
+    if (entryData.articles) {
+      // object of arrays
+    }
+
+    if (entryData.dmArticles) {
+      // object of arrays
+    }
+
+    return entryData;
+  }
+
   static linkContent(target, descriptionArray) {
     const allLore = {...this.combinedLore, ...this.gods,
       ...this.calendar};
