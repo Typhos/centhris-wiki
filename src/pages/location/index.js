@@ -27,7 +27,7 @@ class Location extends Component {
     this.state = {
       combinedPlaces: combinedPlaces,
       pathname: window.location.pathname,
-      location: combinedPlaces[window.location.pathname.split('/location/')[1]],
+      location: combinedPlaces[ decodeURI(window.location.pathname.split('/location/')[1]) ],
       dmView: localStorage.getItem('dmView') === 'true'
     }
 
@@ -40,7 +40,7 @@ class Location extends Component {
     if ( this.state.pathname !== nextProps.location.pathname) {
       this.setState({
         pathname: nextProps.location.pathname,
-        location: combinedPlaces[nextProps.location.pathname.split('/location/')[1]]
+        location: combinedPlaces[ decodeURI(nextProps.location.pathname.split('/location/')[1])]
       });
     }
   }
