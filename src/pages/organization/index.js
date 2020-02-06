@@ -7,8 +7,6 @@ import "styles/groupArticle.scss";
 
 import orgData from 'data/organizations';
 
-const images = require.context('img/organizations/', true);
-
 
 class Group extends Component {
 
@@ -36,6 +34,7 @@ class Group extends Component {
   }
 
   render () {
+    const images = require.context('img/organizations/', true);
     const group = this.state.group;
     const descriptionEntries = this.getArticles(group.articles);
 
@@ -56,30 +55,6 @@ class Group extends Component {
                   <p className="values">{group.type}</p>
                 </div> : "" 
               }
-              { (group.population) ? 
-                <div className="info">
-                  <p className="key">Population</p>
-                  <p className="values">{group.population}</p>
-                </div> : "" 
-              }
-              { (group.government) ? 
-                <div className="info">
-                  <p className="key">Government</p>
-                  <p className="values">{group.government}</p>
-                </div> : "" 
-              }
-              { (group.currency) ? 
-                <div className="info">
-                  <p className="key">Currency</p>
-                  <p className="values">{group.currency}</p>
-                </div> : "" 
-              }
-              { (group.capital) ? 
-                <div className="info">
-                  <p className="key">Capital City</p>
-                  <p className="values">{WikiUtils.linkContent(group, group.capital)}</p>
-                </div> : "" 
-              }
               { (group.leaders) ? 
                 <div className="info">
                   <p className="key">Leader(s)</p>
@@ -92,29 +67,19 @@ class Group extends Component {
                   <div className="values">{WikiUtils.linkContent(group, group.members)}</div>
                 </div> : "" 
               }
-              { (group.races) ? 
-                <div className="info">
-                  <p className="key">Race(s)</p>
-                  <div className="races values">{WikiUtils.linkContent(group, group.races)}</div>
-                </div> : "" 
-              }
-              { (group.location) ? 
+              { group.location &&
                 <div className="info">
                   <p className="key">Location</p>
                   <div className="values">{WikiUtils.linkContent(group, group.location)}</div>
-                </div> : "" 
+                </div>
               }
-              { (group.group) ? 
-                <div className="info">
-                  <p className="key">group</p>
-                  <div className="values">{WikiUtils.linkContent(group, group.group)}</div>
-                </div> : "" 
-              }
-              { (group.regions) ? 
-                <div className="info">
-                  <p className="key">Regions</p>
-                  <div className="values">{WikiUtils.linkContent(group, group.regions)}</div>
-                </div> : "" 
+              { group.additionalImages && group.additionalImages.map( image => {
+                  return (
+                    <div className="info mapBox">
+                        <img alt="" className="additional" src={images(`./${image}`)}/>
+                    </div>
+                  )
+                })
               }
             </aside>
             <div className="mainContent">

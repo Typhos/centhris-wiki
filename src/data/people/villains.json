@@ -152,5 +152,20 @@
     "description": [
       "Nadia Vernon is a leader of the Red Moon Order, one of the 8 Major Guilds operating in the city of Rakenburg on the Barrier Coast. When she appears in public, which is a rare sight, she dresses in black, with two rapiers on her hip."
     ]
+  },
+  "Dimon-Rhym": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Dimon Rhym",
+    "nickname": "Dimon Rhym",
+    "tags": ["cleric","priest","human","Hestia"],
+    "birthYear": "2C 2513",
+    "gender": "Male",
+    "race": "Human",
+    "titles": ["High Lord","the Betrayer"],
+    "affiliations": ["Hestia"],
+    "description": [
+      "Dimon Rhym was the High Lord of Hestia. It was his decision to surrender Hestia to the Syrothian Empire instead of calling for the aid of Dol Obok and Cibrin. In doing so, he joined the court of Droknac the Immortal."
+    ]
   }
 }

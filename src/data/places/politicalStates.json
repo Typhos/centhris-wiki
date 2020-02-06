@@ -95,8 +95,20 @@
     "leaders": ["Han Darga Vaburk of Clan Godak"],
     "regions": ["Ossin River","Torick-Vir Valley","Torick Peaks","Vir Mountains","Venngar Sea"],
     "description": [
-      "A mid-sized state in southern Ulfwyst, the Realm of Cibrin is a harsh land sitting between the Torik Peaks and Vir Mountain ranges, south of the Theocracy of Tovanis. Most of the kingdom is comprised of dangerous, untamed forest and craggy hills."
+      "A mid-sized state in southern Ulfwyst, the @+Realm of Cibrin+@ is a harsh land sitting between the Torick Peaks and Vir Mountain ranges, south of the Theocracy of Tovanis. Most of the kingdom is comprised of dangerous, untamed forest and craggy hills.",
+      "Cibrin is an ancient land, and its people still remember the old ways. The harsh environments that make up the territory have caused the various fractured groups of peoples that live in the country to put aside their difference in order to survive. All are welcome under the banner of the chiefs, so long as they abide by the rules of the clan they live under.",
+      "This is a place of ever-present dangers. Monsters stalk the woods. Giants, Trolls and Ogres walk the mountain passes. Great, horrific beasts roam the shore and sea. From below, horrors of the Underdark regularly appear during the long winter nights to raid the surface. The people who live here fear little, but are ever-vigilant against the constant dangers around them."
     ],
+    "articles": {
+      "Clan Law": [
+        "Each clan is within its rights to set its own laws and codes, so long as they do not come into conflict with the overarching tenants of the Clan system.",
+        "@#Customs of the Clans#@",
+        "@+Provide for the Clan and the Clan Provides+@: All members of a clan are expected to provide half of what they earn or create as tribute to their community. The chief and their people then provide equitable goods based on need from clan stores. None are to go without, and none should have more than they need.",
+        "@+Honor Above All+@: The highest honor one can achieve in their lifetime in their clan is a Totem of Honor. One's honor is worth more than gold. If someone dishonors themselves in the eyes of the clan, be it in battle, business or socially, they are exiled and their name is stripped from all records.","The harshest offenses carry a two-fold punishment. The clan seer first conducts the magical Rite of Cleansing, which permanently removes someone from the minds of all members of the clan, save the executioner. The clan member is then executed, knowing they have been almost completely forgotten.",
+        "@+Heed the Call+@: All are expected to be fit to fight and defend their homeland. Martial prowess is valued as much as business acumen or scholarly knowledge. Even the village potter and tailor are expected to hone their craft alongside their martial skill.",
+        "@+Embrace the Storm+@: The weather of Cibrin is a near constant battering of ocean storms, blizzards, and cutting winds. The people of this land worship many gods, but chief among them is The Thunder King. The clans honor Ukrom in a variety of ways, but many of them embrace the Tempest Karsoz, the Aspect of Glory."
+      ]
+    },
     "dmArticles":{
       "Only the Strong": [
         "Most of the inhabitants of Cibrin live in hillforts, subsisting as hunter-gatherers, or in coastal castle-towns from which they conduct maritime activities in the Venngar Sea. Due to it's geography and climate, the realm's population is comprised of hardier races, such as humans, dwarves, and Uklang, or yakfolk. It also has a high percentage of half-breeds, specifically half-orcs, and half-giants, as well as the very rare Marus, or walrus-people."
@@ -228,7 +240,7 @@
     "races": ["elf","human","tiefling","half-elf","gnome","halfling","dragonborn","half-orc","serbonji"],
     "government": "Hereditary Monarchy",
     "location": "Ulfwyst",
-    "leaders": ["Lord "],
+    "leaders": ["Nantar Izorin Sarentus","Prince Thabos the Warrior"],
     "regions": ["Zavalev Mountains","Crimson Loch","Tormented Forest","Veldrin Wood","Malthor Forest"],
     "description": [
     ],

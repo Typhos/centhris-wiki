@@ -242,7 +242,8 @@ class Lore extends Component {
               <td>Mythosk</td>
               <td className="days">28</td>
               <td>
-                {WikiUtils.linkContent(lore, "The Three Sisters Faire (6th), Feast of St. Bastilen (19th)")}
+                {WikiUtils.linkContent(lore, "The Three Sisters Faire (6th)")}
+                {WikiUtils.linkContent(lore, "Feast of St. Bastilen (19th)")}
               </td>
             </tr>
             <tr className="month">
@@ -256,7 +257,8 @@ class Lore extends Component {
               <td>Unvar</td>
               <td className="days">28</td>
               <td>
-                {WikiUtils.linkContent(lore, "Okun lar Ustod (1st), Rites of the Dawn (20th)")}
+                {WikiUtils.linkContent(lore, "Okun lar Ustod (1st)")}
+                {WikiUtils.linkContent(lore, "Rites of the Dawn (20th)")}
               </td>
             </tr>
             <tr className="festival">

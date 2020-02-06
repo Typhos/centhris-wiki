@@ -43,7 +43,10 @@ export default class WikiUtils {
         } else if ( substr.includes("#") ) {
           substr = substr.replace(/#/g, "");
           substr = <h4 className="subhead" key={substr}>{substr}</h4>;
-        } 
+        } else if ( substr.includes("$") ) {
+          substr = substr.replace(/\$/g, "");
+          substr = <React.Fragment><br/>{substr}</React.Fragment>;
+        }
 
         return substr;
       });
@@ -59,7 +62,10 @@ export default class WikiUtils {
           } else if ( substr.includes("#") ) {
             substr = substr.replace(/#/g, "");
             substr = <h4 className="subhead" key={substr}>{substr}</h4>;
-          } 
+          } else if ( substr.includes("$") ) {
+            substr = substr.replace(/\$/g, "");
+            substr = <React.Fragment><br/>{substr}</React.Fragment>;
+          }
 
           return substr;
         });

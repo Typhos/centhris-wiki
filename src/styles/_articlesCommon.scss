@@ -1,7 +1,5 @@
 @import './mixins';
 
-
-
 a.backLink {
   display: inline-block;
   margin-bottom: 2em;
@@ -32,11 +30,33 @@ h3.subheading {
 main.content {
   aside.infoBox {
     .info {
+      align-items: flex-start;
+
       .key,
       .values {
+        font-size: 0.85rem;
+
+        p.linkedContent {
+          font-family: $monoSpace;
+          font-size: 0.85rem;
+        }
+
         a {
           color: $tagLinkLight;
         }
+      }
+
+      .key {
+        font-family: $monoSpace;
+        letter-spacing: 0.05em;
+        font-weight: 700;
+        width: 40%;
+      }
+
+      .values {
+        font-family: $monoSpace;
+        width: 60%;
+        text-align: right;
       }
     }
   }

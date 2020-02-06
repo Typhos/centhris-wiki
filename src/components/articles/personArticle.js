@@ -83,7 +83,13 @@ export default class PeopleArticle extends Component {
           { (person.titles) ? 
             <div className="info">
               <p className="key">Title(s)</p>
-              <p className="values">{person.titles}</p>
+              <div className="values">{
+                person.titles.map( title => {
+                  return <React.Fragment>
+                    <p className="linkedContent">{title}</p>
+                  </React.Fragment>
+                })
+              }</div>
             </div> : "" 
           }
           { person.race && 
@@ -218,7 +224,7 @@ export default class PeopleArticle extends Component {
   }
 
   getArticles(person) {
-    let content = [WikiUtils.linkContent(person, person.description)];
+    let content = [WikiUtils.linkContent(person, WikiUtils.textFormatting( person.description) )];
 
     if (person.articles) {
       for ( let [heading, array] of Object.entries(person.articles) ) {
@@ -236,7 +242,7 @@ export default class PeopleArticle extends Component {
         content.push(
           <React.Fragment key={heading}>
             <h3 className="subheading">{heading}</h3>
-            {WikiUtils.linkContent(person, array)}
+            {WikiUtils.linkContent(person, WikiUtils.textFormatting( array) )}
           </React.Fragment>
         );
       }

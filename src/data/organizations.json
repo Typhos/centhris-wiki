@@ -84,6 +84,7 @@
     "type": "Rakenburg Guild",
     "location": "Rakenburg",
     "memberNumber": "~200",
+    "additionalImages": ["specs.png"],
     "leaders": [
       "Adalyn Delia"
     ],
@@ -209,7 +210,7 @@
     "name": "Knights of the Sacred Dawn",
     "nickname": "Holy Order of the Sacred Dawn",
     "tags": ["holy order","knights","Tovanis","ulfwyst"],
-    "type": "Holy Order",
+    "type": "Knightly Order",
     "location": "Tovanis",
     "memberNumber": "~300",
     "leaders": [
@@ -217,6 +218,23 @@
     ],
     "description": [
       "Holy Order of the Eternal"
+    ],
+    "articles": {
+    }
+  },
+  "Order-of-the-Blackened-Sun": {
+    "playerKnown": false,
+    "name": "Order of the Blackened Sun",
+    "nickname": "Order of the Blackened Sun",
+    "tags": ["holy order","knights","desolate wastes","ulfwyst"],
+    "type": "Knightly Order",
+    "location": "Desolate Wastes",
+    "memberNumber": "~80",
+    "leaders": [
+      "Hirloc the Black"
+    ],
+    "description": [
+      "An order of black knights who believe that one day the sun will be swallowed by the Endless Night, a dark god they worship. They seek to increase their god's power by slaughtering others in his name."
     ],
     "articles": {
     }

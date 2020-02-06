@@ -202,7 +202,7 @@ class Location extends Component {
 
   getArticles(articles) {
     const location = this.state.location;
-    let content = [WikiUtils.linkContent(location, location.description)];
+    let content = [WikiUtils.linkContent(location, WikiUtils.textFormatting(location.description) )];
 
     if (location.articles) {
       for ( let [heading, array] of Object.entries(articles) ) {

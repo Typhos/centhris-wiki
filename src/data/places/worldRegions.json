@@ -431,6 +431,17 @@
       "The Torick Peaks are a small mountain range which provides a natural barrier between the Realm of Cibrin and Kingdom of Lemuria. The mountians are south of the Realm of Tovanis. The dwarven hold of Tronj'und is located under Mount Certunsk, which is located in the middle of the range."
     ]
   },
+  "Vir-Mountains": {
+    "playerKnown": true,
+    "tags": ["mountains","region","ulfwyst"],
+    "name": "Vir Mountains",
+    "nickname": "Vir Mountains",
+    "type": "Region",
+    "location": "Ulfwyst",
+    "description": [
+      "The Vir Mountains are a small mountain range which provides a natural barrier between the Realm of Cibrin and the Olgarrod Wilds to the southwest. The mountains are south of the former state of Hestia, now part of the Syrothian Empire. The dwarven holds of Vol Volund and Kadren Zul are located in the mountains, connected by the deep tunnels of the dwarves."
+    ]
+  },
   "Vesanas-Mountains": {
     "playerKnown": false,
     "tags": ["mountains","region","entos"],
