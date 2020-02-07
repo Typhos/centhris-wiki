@@ -80,7 +80,7 @@ export default class PeopleArticle extends Component {
         <aside className={`infoBox ${ this.state.dmView}`}>
           <h4 className="nickname">{person.name}</h4>
           <img className="portrait" alt="" src={this.props.image}/>
-          { (person.titles) ? 
+          { person.titles &&
             <div className="info">
               <p className="key">Title(s)</p>
               <div className="values">{
@@ -90,7 +90,7 @@ export default class PeopleArticle extends Component {
                   </React.Fragment>
                 })
               }</div>
-            </div> : "" 
+            </div> 
           }
           { person.race && 
             <div className="info">

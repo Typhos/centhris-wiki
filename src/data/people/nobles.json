@@ -9,7 +9,7 @@
     "age": "46",
     "gender": "Male",
     "class": "Fighter",
-    "titles": "Baron of Frenkel",
+    "titles": ["Baron of Frenkel"],
     "occupation": "Noble, Soldier",
     "affiliations": ["Auburn Castle"],
     "description": [
@@ -26,7 +26,7 @@
     "race": "human",
     "age": "37",
     "gender": "Male",
-    "titles": "Archduke",
+    "titles": ["Archduke"],
     "occupation": "Monarch",
     "affiliations": ["City of Zurast","the Sevenspire"],
     "description": [
@@ -39,7 +39,7 @@
     "name": "Jeskin Sebroski",
     "tags": ["noble","human","count","navolin","hussar","rythlon"],
     "nickname": "Count Jeskin Sebroski",
-    "titles": "Count of Szary, Navolinian Hussar",
+    "titles": ["Count of Szary", "Navolinian Hussar"],
     "race": "Human",
     "age": "27",
     "gender": "Male",
