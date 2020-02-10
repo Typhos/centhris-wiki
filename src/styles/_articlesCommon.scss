@@ -28,6 +28,8 @@ h3.subheading {
 }
 
 main.content {
+  padding: 0 1%;
+
   aside.infoBox {
     .info {
       align-items: flex-start;
@@ -114,6 +116,33 @@ main.content {
       margin: 1em 0 0;
       text-indent: 0;
     }
+
+    .articleImgBox {
+      display: block;
+      float: left;
+      width: 25%;
+      padding: 0.15em;
+      margin: 0.5em 1.5em 0.5em 0;
+      border: 1px solid $grayText;
+      background: $lightText;
+      text-indent: 0;
+
+      img.articleImg {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      figcaption {
+        color: $grayText;
+        font-family: $monoSpace;
+        font-style: italic;
+        font-size: 0.9em;
+        padding: 0 0.5em;
+        margin: 0;
+        line-height: 1.75em;
+      }
+    }
   }
 }
 
@@ -146,6 +175,20 @@ main.content {
           margin-bottom: 1.5em;
           padding-bottom: 0.5em;
         }
+      }
+    }
+
+    section.article {
+
+      .articleImgBox {
+        width: 80%;
+        float: none;
+        display: block;
+        margin: 2em auto;
+
+        img.articleImg {
+
+        }        
       }
     }
   }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import DataLoader from 'components/utils/dataLoader';
+import Modal from 'components/utils/modal';
 
 export default class WikiUtils {
 
@@ -25,11 +26,14 @@ export default class WikiUtils {
   }
 
   static textFormatting(entryData) {
+    const images = require.context('img', true);
+
     // This function allows for content entries to be formatted before linking. 
     // Text in entries must be wrapped with a specific indicator in order to receive the following formatting:
-    // ITALICS  =   @>string<@
-    // BOLD     =   @+string+@
-    // H4       =   @#string#@
+    // ITALICS      =   @>string<@
+    // BOLD         =   @+string+@
+    // H4           =   @#string#@
+    // inline img   =   @$imgurl|caption$@
 
     // check if we need to only format a string or a single array for various reasons (see pantheon page)
     if ( typeof entryData === "string" ) {
@@ -45,7 +49,16 @@ export default class WikiUtils {
           substr = <h4 className="subhead" key={substr}>{substr}</h4>;
         } else if ( substr.includes("$") ) {
           substr = substr.replace(/\$/g, "");
-          substr = <React.Fragment><br/>{substr}</React.Fragment>;
+          const path = substr.split(/\|/)[0];
+          const caption = substr.split(/\|/)[1];
+          const inlineImg = images.keys().filter(x => x === path);
+          
+          substr = <figure className="articleImgBox">
+            <a href={`${images(`${inlineImg}`)}`} target="_blank" rel="noopener noreferrer">
+              <img src={`${images(`${inlineImg}`)}`} className="articleImg" alt={caption} onClick={this.expandedImageModal} />
+            </a>
+            <figcaption className="imgCaption">{caption}</figcaption>
+          </figure>
         }
 
         return substr;
@@ -64,7 +77,16 @@ export default class WikiUtils {
             substr = <h4 className="subhead" key={substr}>{substr}</h4>;
           } else if ( substr.includes("$") ) {
             substr = substr.replace(/\$/g, "");
-            substr = <React.Fragment><br/>{substr}</React.Fragment>;
+            const path = substr.split(/\|/)[0];
+            const caption = substr.split(/\|/)[1];
+            const inlineImg = images.keys().filter(x => x === path);
+
+            substr = <figure className="articleImgBox">
+              <a href={`${images(`${inlineImg}`)}`} target="_blank" rel="noopener noreferrer">
+                <img src={`${images(`${inlineImg}`)}`} className="articleImg" alt={caption} onClick={this.expandedImageModal} />
+              </a>
+              <figcaption className="imgCaption">{caption}</figcaption>
+            </figure>
           }
 
           return substr;
@@ -91,6 +113,10 @@ export default class WikiUtils {
     // }
 
     return entryData;
+  }
+
+  static expandedImageModal (e) {
+    // TODO: MAKE MODAL POPUP FOR IMAGES
   }
 
   static linkContent(target, descriptionArray) {

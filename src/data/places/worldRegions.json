@@ -27,7 +27,14 @@
     "location": "Centhris",
     "description": [
       "Ulfwyst is the largest continent on Centhris, covering roughly 8.4 million square miles."
-    ]    
+    ],
+    "articles": {
+      "States & Politics": [
+        "The political dynamic in Ulfwyst sits on the edge of a knife. In the eastern portion of the continent, the rising powers of Zurast and Syrothia expand against the old order of the Kingdom of Navolin and the Kaeldrin Sanctum. The Theocracy of Tovanis has risen from the ashes of Istagen, the Realm of Shulxaa. And in the southeast, the realms of Cibrin and Lemuria clash, while a seemingly endless horde of ship-borne raiders attack coastal settlements in each kingdom from the waves of the Venngar Sea.",
+        "@$./maps/Political-Map-of-Ulfwyst-2C-2450.png|A political map of eastern Ulfwyst ca. 2C 2450$@ The standard form of government in Ulfwyst is, historical, hereditary monarchy. After the Ruination, as the major political structures of the time crumbled, surviving settlements in Ulfwyst recovered under the guidance of individuals or families with considerable means to defend those around them. This often took the form of a fortress or an armory capable of supplying a standing defensive force. Over several centuries, these semi-informal power dynamics became codified into classes of nobles controlling arable farmland around a manor or keep.",
+        "For hundreds of years after, these landed nobles squabbled over territory and as modest kingdoms slowly formed from these feudal bastions an extensive network of alliances arose. As more formal vassal structures formed and wars of expansion diminished, the realms of Kaeldrin, Istagen, Rinalir, Navolin, Lemuria, Ildroun, Cibrin, Hestia, Zurast, Azond & Sedobia established themselves as the strongest eleven realms in eastern Ulfwyst."
+      ]
+    }
   },
   "Entos": {
     "playerKnown": true,

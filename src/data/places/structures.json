@@ -109,6 +109,23 @@
       ]
     }
   },
+  "The-Argentate": {
+    "playerKnown": false,
+    "tags": ["temple","building","rakenburg","ulfwyst","barrier coast","church","the eternal"],
+    "name": "The Argentate",
+    "nickname": "The Argentate",
+    "linkingWords": ["the Argentate"],
+    "type": "Structure",
+    "location": "Khezrabad",
+    "leaders": ["Lord Baqrin Calosh","Vizier Cazner Yasir"],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The Chram of the Eternal is a the High Temple dedicated to the god of the sun. It is located in Khezbrabad, Abbasyr."
+      ]
+    }
+  },
   "Chram-of-the-Eternal": {
     "playerKnown": false,
     "tags": ["temple","building","rakenburg","ulfwyst","barrier coast","church","the eternal"],

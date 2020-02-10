@@ -2,8 +2,8 @@
   "The-Ruination-of-Centhris": {
     "playerKnown": true,
     "name": "The Ruination of Centhris",
-    "nickname": "the Ruination",
-    "linkingWords": ["the Ruination of Centhris"],
+    "nickname": "the Ruination of Centhris",
+    "linkingWords": ["the Ruination"],
     "type": "Historical Event",
     "tags": ["event","cataclysm","utharian empire"],
     "description": [
@@ -61,6 +61,16 @@
     "tags": ["era","feywild","planes","planar"],
     "description": [
       "The Second Convergence was a historical era in the history of the world of Centhris."
+    ]
+  },
+  "The-War-of-Sellswords": {
+    "playerKnown": false,
+    "name": "The War of Sellswords",
+    "nickname": "the War of Sellswords",
+    "type": "Conflict",
+    "tags": ["conflict","war","battles","ulfwyst"],
+    "description": [
+      "The War of Sellswords took place starting in 2C 2551 and ending in 2C 2554. It marked the most recent and largest expansion of the Archduchy of Zurast, which took territory from the Kingdom of Lemuria along the coast of the Mare Concordis. The majority of the fighting occurred in the Drakenwald and the Drowned Weald."
     ]
   }
 }

@@ -125,9 +125,10 @@
   "Baqrin-Calosh": {
     "playerKnown": false,
     "hideOnCat": false,
-    "tags": ["sailor","captain","Volikgrad","barrier coast","smuggler","salty ferret"],
+    "tags": ["noble","lord","Venbrin","barrier coast","argentate"],
     "name": "Baqrin Calosh",
     "nickname": "Lord Baqrin",
+    "linkingWords": ["Lord Baqrin Calosh", "Lord Calosh"],
     "race": "Human",
     "age": "40",
     "gender": "Male",
@@ -136,7 +137,32 @@
     "description": [
       "Lord Baqrin Calosh is a noble lord and ruler of the city-state of Venbrin. He has a long list of titles, which include the 7th Lord of Venbrin, Master of the Argentate & Protector of the Commercia Concordis. A middle aged human man, he has mid-length silvery, platinum blond hair and a goatee comprised of a thin mustache and chin-beard. Lord Baqrin does not seem to take his titles too seriously, and can be found wandering the city of Venbrin without escort. He is good natured, with a broad smile and a welcoming presence. He tends to dress in fine clothing, but carries himself more like a swashbuckling duelist than the noble lord of a city-state.",
       "Lord Baqrin keeps his home at the Argentate, a walled palace in the north east of the city. He frequently leaves Venbrin aboard his personal flagship, the Shining Dawn, to patrol the waters around Venbrin for threats to his city and the merchant trade in the region."
-    ]
+    ],
+    "dmArticles": {
+      "True Form": [
+        "Lord Calosh is the humaoid form of Zaldegarion, the adult silver dragon, the true lord of Venbrin."
+      ]
+    }
+  },
+  "Zaldegarion": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "tags": ["noble","lord","Venbrin","barrier coast","argentate"],
+    "name": "Zaldegarion",
+    "nickname": "Zaldegarion",
+    "linkingWords": [""],
+    "race": "Silver Dragon",
+    "gender": "Male",
+    "occupation": "7th Lord of Venbrin",
+    "affiliations": ["Venbrin","The Argentate"],
+    "description": [
+      "An adult silver dragon who resides somewhere in the Barrier Coast."
+    ],
+    "dmArticles": {
+      "False Form": [
+        "Lord Calosh is the humaoid form of Zaldegarion, the adult silver dragon, the true lord of Venbrin."
+      ]
+    }
   },
   "Yabtaeid": {
     "playerKnown": false,
@@ -145,8 +171,29 @@
     "nickname": "Yabtaeid the Daring",
     "tags": ["djinn","genie","venbrin"],
     "race": "Djinn",
+    "affiliations": ["Venbrin","The Argentate"],
     "description": [
-      "According to Akad the Magnificent during his brief interaction with the Adventurers in the Molten Halls, Yabtaeid is a djinn who, at one time, resided in the Free City of Venbrin."
+      "According to Akad the Magnificent during his brief interaction with the Adventurers in the Molten Halls, Yabtaeid is a djinn who currently resides in the Free City of Venbrin."
     ]
+  },
+  "Cazner-Yasir": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Cazner Yasir",
+    "nickname": "Vizier Cazner Yasir",
+    "linkingWords": ["Royal Vizier Cazner Yasir"],
+    "tags": ["half-elf","vizier","venbrin"],
+    "race": "Half-Elf",
+    "occupation": "Vizier",
+    "gender": "Male",
+    "affiliations": ["Venbrin","The Argentate"],
+    "description": [
+      "Cazner Yasir is the esteemed vizier of Vebrin. A half-elf with purple skin, dark hair and yellow eyes, Cazner cuts a striking figure in the Argentate with his flamboyant mannerisms and antics. He is a talkative man who enjoys entertainment, wine and well-prepared foods."
+    ],
+    "dmArticles": {
+      "False Face": [
+        "Cazner is the false form of Yabtaeid, the Djinn servant of "
+      ]
+    }
   }
 }

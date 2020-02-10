@@ -24,6 +24,18 @@
       "The castle manor is the home of numerous families of humans and halflings, including the Montajay family. Prior to the arrival of Roland of Zelmar and Lirr Stonebreath, and the events that transpired in the woodlands near the castle, it was also the home of Filibert Montajay."
     ]
   },
+  "Kaer-Valvik": {
+    "playerKnown": true,
+    "tags": ["castle","navolin","rythlon","ulfwyst"],
+    "name": "Kaer Valvik",
+    "nickname": "Kaer Valvik",
+    "type": "Fortification",
+    "location": "Kelishan Highlands",
+    "leaders": ["Marshal Dianna van Alrin"],
+    "description": [
+      "Kaer Valvik is a border-keep located at the eastern border of the Archduchy of Zurast, on the edge of the Barrier Coast and Navolin. The castle was constructed to guard the eastern expansion of the archduchy after it claimed the territory during the War of Sellswords."
+    ]
+  },
   "Fesgart-Citadel": {
     "playerKnown": false,
     "tags": ["castle","navolin","frecyra","ulfwyst"],
