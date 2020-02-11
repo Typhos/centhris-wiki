@@ -66,7 +66,7 @@ class People extends Component {
     return (
       <li key={person.name.replace(/\s/g,"-")} className="person entry" id={person.name.replace(/\s/g,"-")}>
         <Link className="personLink" to={ { pathname:`/person/${person.name.replace(/\s/g,"-")}`, state: "update" }}>
-          <img className="portrait" alt="" src={imgPath}/>
+          <img className="portrait" alt="" src={imgPath || images('./unknown.png')}/>
           <p className="name">{person.name}</p>
         </Link>
       </li>

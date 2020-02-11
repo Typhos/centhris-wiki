@@ -54,9 +54,9 @@ export default class WikiUtils {
           const inlineImg = images.keys().filter(x => x === path);
           
           substr = <figure className="articleImgBox">
-            <a href={`${images(`${inlineImg}`)}`} target="_blank" rel="noopener noreferrer">
+            {/*<a href={`${images(`${inlineImg}`)}`} target="_blank" rel="noopener noreferrer">*/}
               <img src={`${images(`${inlineImg}`)}`} className="articleImg" alt={caption} onClick={this.expandedImageModal} />
-            </a>
+            {/*</a>*/}
             <figcaption className="imgCaption">{caption}</figcaption>
           </figure>
         }
@@ -82,9 +82,9 @@ export default class WikiUtils {
             const inlineImg = images.keys().filter(x => x === path);
 
             substr = <figure className="articleImgBox">
-              <a href={`${images(`${inlineImg}`)}`} target="_blank" rel="noopener noreferrer">
-                <img src={`${images(`${inlineImg}`)}`} className="articleImg" alt={caption} onClick={this.expandedImageModal} />
-              </a>
+            <a href={`${images(`${inlineImg}`)}`} target="_blank" rel="noopener noreferrer">
+              <img src={`${images(`${inlineImg}`)}`} className="articleImg" alt={caption} onClick={this.expandedImageModal} />
+            </a>
               <figcaption className="imgCaption">{caption}</figcaption>
             </figure>
           }

@@ -3,8 +3,6 @@ import DataLoader from 'components/utils/dataLoader';
 import Page from '../../components/page';
 import PersonArticle from '../../components/articles/personArticle';
 
-const images = require.context('../../img/portraits/', true);
-
 class Person extends Component {
 
   constructor(props) {
@@ -26,6 +24,7 @@ class Person extends Component {
   }
 
   render () {
+    const images = require.context('../../img/portraits/', true);
     const peopleData = DataLoader.people;
     const person = this.state.person;
     const imgPath = images.keys().some( x => x.includes( person )) &&  images('./' + peopleData[person].name.replace(/\s/g,"-") + '.png');
@@ -33,7 +32,7 @@ class Person extends Component {
     return (
       <Page.People>
         <section id="people" className="article" >
-          <PersonArticle key={person} data={{peopleData}} entry={peopleData[person]} image={ imgPath || "" } />
+          <PersonArticle key={person} data={{peopleData}} entry={peopleData[person]} image={ imgPath || images('./unknown.png') } />
         </section>
       </Page.People>
     )
