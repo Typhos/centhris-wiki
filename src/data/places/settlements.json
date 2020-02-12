@@ -30,12 +30,11 @@
     "description": [
       "The capital city of the Archduchy of Zurast, the city was once a small city-state in eastern Ulfwyst. Over the last century and a half, through military conflict and political alliances, the archdukes of Zurast have successfully expanded and consolidated their holdings into a respected regional power."
     ],
-    "historyDescription": [
-      ""
-    ],
-    "governmentDescription": [
-      ""
-    ]
+    "articles": {
+      "Location": [
+        "The City of Zurast is situated on the Sulas river, which flows south from the Kelishan Highlands into the Bay of Claws. Located roughly 8 miles from upriver from the Bay of Claws, the city is one of the most important ports in southern Ulfwyst. Even before expanding into a regional power, the city-state served as a major hub of trade and culture in the region, linking the states of Navolin, Tovanis (Istagen), Cibrin, Lemuria and Sedobia."
+      ]
+    }
   },
   "Frecyra": {
     "playerKnown": true,

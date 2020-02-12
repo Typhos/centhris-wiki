@@ -4,6 +4,7 @@
     "name": "The Ruination of Centhris",
     "nickname": "the Ruination of Centhris",
     "linkingWords": ["the Ruination"],
+    "dates": ["2C 837"],
     "type": "Historical Event",
     "tags": ["event","cataclysm","utharian empire"],
     "description": [
@@ -37,6 +38,7 @@
     "playerKnown": false,
     "name": "Ascension of the Eternal King",
     "nickname": "Ascension of the Eternal King",
+    "dates": ["2C 837"],
     "type": "Historical Event",
     "tags": ["event","eternal king","utharian empire","god"],
     "description": [
@@ -47,6 +49,7 @@
     "playerKnown": false,
     "name": "The First Convergence",
     "nickname": "The First Convergence",
+    "dates": "unknown",
     "type": "Era",
     "tags": ["era","elementals","planes","planar"],
     "description": [
@@ -57,20 +60,45 @@
     "playerKnown": false,
     "name": "The Second Convergence",
     "nickname": "The Second Convergence",
+    "dates": ["2C 1","2C 12"],
     "type": "Era",
     "tags": ["era","feywild","planes","planar"],
     "description": [
       "The Second Convergence was a historical era in the history of the world of Centhris."
     ]
   },
+  "The-Navolinian-Conquest-of-Azond": {
+    "playerKnown": true,
+    "name": "The Navolinian Conquest of Azond",
+    "nickname": "the Navolinian Conquest of Azond",
+    "dates": ["2C 2536","2C 2543"],
+    "type": "Conflict",
+    "tags": ["conflict","war","battles","ulfwyst","navolin","azond"],
+    "description": [
+      "@+The Navolinian Conquest of Azond+@ was a large military conflict that began in 2C 2536 between the Kingdom of Navolin and the Kingdom of Azond. The conflict ended seven years later, in 2C 2543, with the Treaty of Yelant and the formal annexation of the entirety of Azond into the @;Kingdom of Navolin;@. "
+    ]
+  },
   "The-War-of-Sellswords": {
-    "playerKnown": false,
+    "playerKnown": true,
     "name": "The War of Sellswords",
     "nickname": "the War of Sellswords",
+    "dates": ["2C 2551","2C 2554"],
     "type": "Conflict",
     "tags": ["conflict","war","battles","ulfwyst"],
     "description": [
       "The War of Sellswords took place starting in 2C 2551 and ending in 2C 2554. It marked the most recent and largest expansion of the Archduchy of Zurast, which took territory from the Kingdom of Lemuria along the coast of the Mare Concordis. The majority of the fighting occurred in the Drakenwald and the Drowned Weald."
+    ]
+  },
+  "War-of-Red-Claws": {
+    "playerKnown": true,
+    "name": "War of Red Claws",
+    "nickname": "First War of Zurastian Aggression",
+    "dates": ["2C 2481"],
+    "type": "Conflict",
+    "tags": ["conflict","war","battles","ulfwyst"],
+    "description": [
+      "@+The First War of Zurastian Aggression+@ was a conflict taking place in 2C 2481 between the City-State of Zurast and the Kingdom of Lemuria over the Lepkar Peninsula. It marked the first formal expansion of Zurast's territory outside the City of Zurast. The conflict ended with the Treaty of Lepkar, which also marked the official declaration of Zurast as an arch-duchy instead of a city-state.",
+      "The conflict's informal name, the War of Red Claws, is derived from the bloodied water in the Bay of Claws after the largest naval battle of the conflict, the Battle of High Tide, which stained the rocky pillars of the bay near the mouth of the Sulas river red for weeks after the battle."
     ]
   }
 }

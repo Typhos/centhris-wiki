@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 import WikiUtils from "components/utils/wikiUtils";
+import DataLoader from 'components/utils/dataLoader';
 import Back from '../../components/back';
 
 import Page from 'components/page';
 import godsData from 'data/lore/gods';
-import racesData from 'data/lore/races';
-import eventsData from 'data/lore/events';
-import creaturesData from 'data/lore/creatures';
-import loreData from 'data/lore/lore';
 import calendarData    from 'data/lore/calendar';
-import itemData    from 'data/lore/items';
 
 import "styles/loreArticle.scss";
 
@@ -18,7 +14,7 @@ class Lore extends Component {
   constructor(props) {
     super(props);
 
-    const combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData, ...loreData,...calendarData, ...itemData};
+    const combinedLore = {...DataLoader.gods, ...DataLoader.calendar, ...DataLoader.historical, ...DataLoader.lore};
 
     this.state = {
       pathname: window.location.pathname,
@@ -31,8 +27,7 @@ class Lore extends Component {
   }
 
   UNSAFE_componentWillReceiveProps(nextProps){
-
-    const combinedLore = {...godsData, ...racesData, ...eventsData, ...creaturesData, ...loreData,...calendarData};
+    const combinedLore = {...DataLoader.gods, ...DataLoader.calendar, ...DataLoader.historical, ...DataLoader.lore};
 
     if ( this.state.pathname !== nextProps.location.pathname) {
       this.setState({
@@ -155,15 +150,22 @@ class Lore extends Component {
               }
       {/* CALENDAR EVENTS & RELATED */}
               {
+                lore.dates && 
+                <div className="info dates">
+                  <p className="key">Date(s)</p>
+                  <div className="values">{WikiUtils.linkContent(lore, lore.dates)}</div>
+                </div>
+              }
+              {
                 lore.date && 
-                <div className="Worshipers info">
+                <div className="info">
                   <p className="key">Date</p>
                   <div className="values">{WikiUtils.linkContent(lore, lore.date)}</div>
                 </div>
               }
               {
                 lore.associations && 
-                <div className="Worshipers info">
+                <div className="info">
                   <p className="key">Associated with</p>
                   <div className="values">{WikiUtils.linkContent(lore, lore.associations)}</div>
                 </div>

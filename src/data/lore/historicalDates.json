@@ -1,0 +1,102 @@
+{
+  "2C-1": {
+    "playerKnown": true,
+    "showOnCat": false,
+    "name": "2C 1",
+    "nickname": "2C 1",
+    "type": "Year",
+    "tags": ["year","events"],
+    "description": [
+      "2C 1 refers to the first year of Centhris during and following the Second Convergence, an event which lasted roughly 12 years. The following major historical events took place in 2C 1:"
+    ],
+    "articles": {
+      "Arrival of the Eladrin": [
+        "In 2C 1, the first Eladrin stepped foot on Centhris from the realms of the Feywild."
+      ]
+    }
+  },
+  "2C-12": {
+    "playerKnown": true,
+    "showOnCat": false,
+    "name": "2C 12",
+    "nickname": "2C 12",
+    "type": "Year",
+    "tags": ["year","events"],
+    "description": [
+      "The following major historical events took place in 2C 12:"
+    ],
+    "articles": {
+      "Convergence Ends": [
+        "In 2C 12, the Second Convergence comes to a close with the Feywild returning to its natural existence as a mirror plane of the material world."
+      ]
+    }
+  },
+  "2C-837": {
+    "playerKnown": true,
+    "showOnCat": false,
+    "name": "2C 837",
+    "nickname": "2C 837",
+    "type": "Year",
+    "tags": ["year","events"],
+    "description": [
+      "The following major historical events took place in 2C 837:"
+    ],
+    "articles": {
+      "Heskur": [
+        "Sorceror-King Erèdin esk Zarlaya, Grand Magister of the Utharian Empire, enters the Aelsonthar and ascends to godhood as the Stygian.",
+        "The Ruination of Centhris begins, causing the complete destruction of the Utharian Empire and widespread devastation across the entire globe."
+      ]
+    }
+  },
+  "2C-2481": {
+    "playerKnown": true,
+    "showOnCat": false,
+    "name": "2C 2481",
+    "nickname": "2C 2481",
+    "type": "Year",
+    "tags": ["year","events"],
+    "description": [
+      "The following major historical events took place in 2C 2481:"
+    ],
+    "articles": {
+      "Jeden": [
+        "The War of Red Claws, or @>the First War of Zurastian Aggression<@, begins with the Zurastian demand of the formal annexation of the Lepkar Peninsula from Lemuria."
+      ],
+      "Dusvar": [
+        "The War of Red Claws ends with Treaty of Lepkar. Zurast formally declares itself an Archduchy."
+      ]
+    }
+  },
+  "2C-2551": {
+    "playerKnown": true,
+    "showOnCat": false,
+    "name": "2C 2551",
+    "nickname": "2C 2551",
+    "type": "Year",
+    "tags": ["year","events"],
+    "description": [
+      "The following major historical events took place in 2C 2551:"
+    ],
+    "articles": {
+      "Singor": [
+        "The War of Sellswords begins between the Archduchy Zurast and the Kingdom of Lemuria."
+      ]
+    }
+  },
+  "2C-2554": {
+    "playerKnown": true,
+    "showOnCat": false,
+    "name": "2C 2554",
+    "nickname": "2C 2554",
+    "type": "Year",
+    "tags": ["year","events"],
+    "description": [
+      "The following major historical events took place in 2C 2554:"
+    ],
+    "articles": {
+      "Nylwis": [
+        "The War of Sellswords ends with the Archduchy of Zurast annexing territory from the Kingdom of Lemuria."
+      ]
+    }    
+  }
+}

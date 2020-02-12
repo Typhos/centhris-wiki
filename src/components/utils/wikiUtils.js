@@ -12,6 +12,7 @@ export default class WikiUtils {
   static orgData = DataLoader.organizations;
   static gods = DataLoader.gods;
   static calendar = DataLoader.calendar;
+  static historical = DataLoader.historical;
 
   static sortByName (arr) {
     return arr.sort( (a,b) => {
@@ -30,6 +31,7 @@ export default class WikiUtils {
 
     // This function allows for content entries to be formatted before linking. 
     // Text in entries must be wrapped with a specific indicator in order to receive the following formatting:
+    // No Links     =   @;string;@
     // ITALICS      =   @>string<@
     // BOLD         =   @+string+@
     // H4           =   @#string#@
@@ -41,6 +43,9 @@ export default class WikiUtils {
         if ( substr.includes(">") ) {
           substr = substr.replace(/>|</g, "");
           substr = <i>{substr}</i>;
+        } else if ( substr.includes(";") ) {
+          substr = substr.replace(/;/g, "");
+          substr = <span>{substr}</span>;
         } else if ( substr.includes("+") ) {
           substr = substr.replace(/\+/g, "");
           substr = <strong>{substr}</strong>;
@@ -69,6 +74,9 @@ export default class WikiUtils {
           if ( substr.includes(">") ) {
             substr = substr.replace(/>|</g, "");
             substr = <i key={substr}>{substr}</i>;
+          } else if ( substr.includes(";") ) {
+            substr = substr.replace(/;/g, "");
+            substr = <span>{substr}</span>;
           } else if ( substr.includes("+") ) {
             substr = substr.replace(/\+/g, "");
             substr = <strong key={substr}>{substr}</strong>;
@@ -94,24 +102,6 @@ export default class WikiUtils {
       });
     }
 
-    // if (entryData.description) {
-    //   // array of strings
-
-    //   entryData.description = entryData.description.map( string => {
-    //     return string.split(/@(.*?)@/).map( substr => {
-    //       if ( substr.includes(">") ) {
-    //         substr = substr.replace(/>|</g, "");
-    //         substr = <i key={substr}>{substr}</i>;
-    //       } else if ( substr.includes("+") ) {
-    //         substr = substr.replace(/\+/g, "");
-    //         substr = <strong key={substr}>{substr}</strong>;
-    //       } 
-
-    //       return substr;
-    //     });
-    //   });
-    // }
-
     return entryData;
   }
 
@@ -120,8 +110,7 @@ export default class WikiUtils {
   }
 
   static linkContent(target, descriptionArray) {
-    const allLore = {...this.combinedLore, ...this.gods,
-      ...this.calendar};
+    const allLore = {...this.combinedLore, ...this.gods, ...this.calendar, ...this.historical};
 
     if ( !Array.isArray(descriptionArray) ) descriptionArray = [descriptionArray];
 
@@ -188,7 +177,8 @@ export default class WikiUtils {
       }
 
       if ( typeof dataset[i] === 'string' ) {
-        if ( dataset[i].includes(name) ) {
+        let matcher = new RegExp(name + "[" + /\s/ + ".,;!?\"':\-]","g");
+        if ( matcher.test(dataset[i]) || dataset[i] === name ) {
           let strReplace = dataset[i].replace(name, `|${name}|`).split("|").map( str => ( str === name ) ? link : str);
 
           dataset[i] = strReplace;

@@ -1,28 +1,17 @@
 import React, { Component } from 'react';
 import WikiUtils from "components/utils/wikiUtils";
+import DataLoader from 'components/utils/dataLoader';
 import Back from '../../components/back';
 
 import Page from '../../components/page';
 import "styles/locationArticle.scss";
-
-// ==== ALL DATA IMPORTS FOR LOCATIONS
-import structures from 'data/places/structures';
-import worldRegions from 'data/places/worldRegions';
-import politicalStates from 'data/places/politicalStates';
-import cityDistricts from 'data/places/cityDistricts';
-import cityStates from 'data/places/cityStates';
-import settlements from 'data/places/settlements';
-import dungeons from 'data/places/dungeons';
-import fortifications from 'data/places/fortifications';
-import dwarfHolds from 'data/places/dwarfHolds';
-import mythic from 'data/places/mythic';
 
 class Location extends Component {
 
   constructor(props) {
     super(props);
 
-    const combinedPlaces = {...cityDistricts, ...dungeons, ...structures, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications, ...dwarfHolds, ...mythic};
+    const combinedPlaces = DataLoader.places;
 
     this.state = {
       combinedPlaces: combinedPlaces,
@@ -35,7 +24,7 @@ class Location extends Component {
   }
 
   UNSAFE_componentWillReceiveProps(nextProps){
-    const combinedPlaces = {...cityDistricts, ...structures,...dungeons, ...settlements, ...cityStates, ...politicalStates, ...worldRegions, ...fortifications, ...dwarfHolds};
+    const combinedPlaces = DataLoader.places;
 
     if ( this.state.pathname !== nextProps.location.pathname) {
       this.setState({

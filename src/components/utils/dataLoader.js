@@ -6,6 +6,7 @@ import racesData        from 'data/lore/races';
 import creaturesData    from 'data/lore/creatures';
 import calendarData     from 'data/lore/calendar';
 import itemData         from 'data/lore/items';
+import historicalData   from 'data/lore/historicalDates';
 
 // ==== PEOPLE DATA IMPORTS
 import characterData    from 'data/people/characters';
@@ -48,5 +49,7 @@ export default class DataLoader {
   static gods = {...godsData};
 
   static calendar = {...calendarData};
+
+  static historical = {...historicalData};
 
 }

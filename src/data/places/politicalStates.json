@@ -3,7 +3,7 @@
     "playerKnown": true,
     "name": "Kingdom of Navolin",
     "nickname": "Navolin",
-    "linkingWords": ["Navolinian"],
+    "linkingWords": ["Navolinian","Navolinians"],
     "tags": ["kingdom","navolin","state","ulfwyst","monarchy"],
     "type": "State",
     "currency": "Navolinian Talon",
@@ -27,25 +27,41 @@
     "tags": ["archduchy","state","ulfwyst","monarchy"],
     "name": "Archduchy of Zurast",
     "nickname": "Zurast",
+    "linkingWords": ["Zurastan"],
     "type": "State",
     "population": "~320,000",
     "races": ["human","elf","gnome","half-elf","halfling"],
     "government": "Hereditary Monarchy",
-    "currency": "Zurastian Helm",
+    "currency": "Zurastan Helm",
     "capital": "City of Zurast",
     "location": "Ulfwyst",
     "leaders": ["Archduke Nicolai Valken"],
-    "regions": ["Blighted Mire","Drakenwald","Kazgrim Mountains"],
+    "regions": ["Blighted Mire","Drakenwald","Lepkar Peninsula","Kazgrim Mountains"],
     "description": [
-      "The Archduchy of Zurast is a growing regional power in eastern Ulfwyst. Several hundred years ago, the City of Zurast was an ordinary city-state located on the southern Sulas river near the Bay of Claws. Only within the last 60 years, through military expansion and shrewd political maneuvering, have the archdukes of Zurast successfully expanded and maintained their position as a respected regional power. As Zurast does not have a large standing military of its own, this expansion was mostly paved by foreign mercenaries. It is unclear where the Archduchy acquired such a sudden influx of wealth to be able to afford its mercenary armies, though there are many rumors bandied about."
-    ]
+      "The @+Archduchy of Zurast+@ is a growing regional power in eastern Ulfwyst. Several hundred years ago, the City of Zurast was an ordinary city-state located on the southern Sulas river near the Bay of Claws. Only within the last 60 years, through military expansion and shrewd political maneuvering, have the archdukes of Zurast successfully expanded and maintained their position as a respected regional power. As Zurast does not have a large standing military of its own, this expansion was mostly possible with the mass recruitment of foreign mercenaries.",
+        "Since it's founding as a city-state on the Sulas river, the City of Zurast has remained independent. Whether this is due to the dangers of marching an army through the region, the city's well built defenses, or the well-established trade networks in the region is hard to say. The few times that the city has been put under siege, its high, gray stone walls have never been breeched."
+    ],
+    "articles": {
+      "Location": [
+        "The archduchy is located in southeastern Ulfwyst, between the Bay of Claws and the Mare Concordis. It is primarily centered on the Sulas river, which provides fresh water and a navigable river for trade. The state is centered around the capital City of Zurast, located 8 miles upriver from the mouth of the bay. To the northwest lies the Blighted Mire, a dangerous swath of stinking marshland. The vast Drakenwald covers much of the land south of the city, with the Kazgrim Mountains looming beyond. Though rich in resources, the region is notoriously dangerous, with monstrous creatures residing in all of these places, striking out at many settlements that attempted to conquer the dangerous areas."
+      ],
+      "Wars of Expansion": [
+        "Throughout the 25th century, as the financial influence of the city grew, the lords of Highwater, led Lord Mayor Fernand Valken II, later known as @>the Bold<@, found their domestic situation increasingly dangerous. The city had become overcrowded with a burgeoning population and an influx of immigrants, causing unrest due to a dearth of housing and perceived lack of upward mobility. The city-state had never sought to expand beyond its walls, but it seemed there was now a need for more land to house the growing Zurastian population.",
+        "Receiving word that the clans of Lemuria were exhausted from conflicts with yet another horde of raiders from the Venngar Sea, and knowing that inaction would result in possible civil revolt, the lord mayor called for able bodied soldiers willing to earn land as part of an expansion campaign. After an extensive recruitment drive, the nobles of Highwater were dismayed to discovered their forces numbered only @>4,000<@ soldiers, not nearly enough for an aggressive campaign into the northern border of Lemuria, through the dangerous Drakenwald. Hoping to avoid open war, the lord mayor sent a formal demand for annexation of the Lepkar Peninsula to the High King in Kilurus, stating that if the land was not granted, it would be taken by force. After 3 long weeks, the Lemurians rejected the demands and formally declared the start of open war, now known as the War of Red Claws.",
+        "Having expected this response from the proud clans of the south, Fernand and his council chose the only viable alternative, mercenary soldiers. Spending huge sums of coin, well over @+2 million Helms+@, the nobles of the city hired an addition @>8,000<@ soldiers for the expected six month campaign.",
+        "Over the course of only 5 months, the highly trained soldiers of the Zurastian mercenaries, along with the inexperienced recruits from the city-state smashed the war weary armies of the clans of Lemuria. On the 17th of Dusvar 2C 2481, the Treaty of Lepkar was signed and Fernand Valken II was declared the @>First Archduke of Zurast<@.",
+        "@#Expansion & Consolidation#@",
+        "Over the course of the next 60 years, Zurast would undertake several further wars of expansion using the same tactics that had won them their first campaign in Lepkar. These campaigns, known as the War of the Black Bog, the Three Years War and the War of Sellswords, expanded the archduchy's territory to its current borders. Each time, when the political situation in the city of Zurast would become untenable, the Archduke and the nobles of Highwater would call for volunteers and then hire mercenaries to fill out their ranks.",
+        "After each conflict, the archduchy would use the same process of consolidation as well. First, the mercenary companies hired would receive a bonus based on the success of the campaign. This payment was granted under the expectation that the mercenaries would not take up arms against the Archduchy for a period of at least five years following. In this way, the nobles ensured that their weakened neighbors would not be able to purchase the forces required for retaliation."
+      ]
+    }
   },
   "Kingdom-of-Lemuria": {
     "playerKnown": true,
     "tags": ["kingdom","state","ulfwyst","monarchy"],
     "name": "Kingdom of Lemuria",
     "nickname": "Lemuria",
-    "linkingWords": ["Lemurian"],
+    "linkingWords": ["Lemurian","Lemurians"],
     "type": "State",
     "currency": "Lemurian Pike",
     "capital": "Kilurus",
@@ -84,7 +100,7 @@
     "tags": ["kingdom","state","ulfwyst"],
     "name": "Cibrin",
     "nickname": "Realm of Cibrin",
-    "linkingWords": ["Cibrinian"],
+    "linkingWords": ["Cibrinian","Cibrinians"],
     "type": "State",
     "currency": "Cibrinian Vale",
     "capital": "Enira",
