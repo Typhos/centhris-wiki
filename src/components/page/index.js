@@ -1,3 +1,4 @@
+import {Default} from "./default";
 import {Characters} from "./characters";
 import {People} from "./people";
 import {Person} from "./person";
@@ -9,4 +10,4 @@ import {LoreCategories} from "./loreCategories";
 import {Lore} from "./lore";
 import {Error404} from "./error404";
 
-export default { Characters, People, Person, Runes, Places, Location, Group, LoreCategories, Lore, Error404 };
+export default { Default, Characters, People, Person, Runes, Places, Location, Group, LoreCategories, Lore, Error404 };

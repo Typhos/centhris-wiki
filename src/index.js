@@ -18,6 +18,8 @@ import {OrganizationGroups} from './pages/organizationGroups/index';
 import {Group} from './pages/organization/index';
 import {LoreCategories} from './pages/loreCategories/index';
 import {Lore} from './pages/loreArticle/index';
+import {History} from './pages/history/index';
+import {Timeline} from './pages/timeline/index';
 import {Pantheon} from './pages/pantheon/index';
 import {Error404} from './pages/404/index';
 
@@ -79,6 +81,8 @@ const routing = (
         <Route path="/group" component={Group} />
         <Route path="/loreCategories" component={LoreCategories} />
         <Route path="/lore/" component={Lore} />
+        <Route path="/history/" component={History} />
+        <Route path="/timeline/" component={Timeline} />
         <Route path="/pantheon/" component={Pantheon} />
         <Route component={Error404} />
       </Switch>

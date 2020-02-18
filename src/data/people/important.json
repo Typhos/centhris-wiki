@@ -2,7 +2,7 @@
   "Vythica-Floshin": {
     "playerKnown": true,
     "hideOnCat": false,
-    "tags": ["wizard","scholar","half-elf","rythlon","navolin","nost ezel'nar"],
+    "tags": ["wizard","scholar","half-elf","Rythlon","Frecyra","Navolin","Nost Ezel'nar"],
     "name": "Vythica Floshin",
     "nickname": "Vythica",
     "race": "Half-Elf",
@@ -12,7 +12,7 @@
     "affiliations": ["Rythlon"],
     "quote": "\"It's been quite a while since I had a visitor. Please, come in. We can have some tea and chat.\"",
     "description": [
-      "Vythica Floshin is a half-elf woman who resides by herself in a large stone house in Rythlon. A wizard of some manner, the Adventurers encountered her when Murat wished to have his master's staff identified. She offered to do so in exchange for him helping her clean up her library; a task Murat to do rather poorly. Though she attempted to engage Murat in further pleasantries, the monk was quick to leave her house after she identified the staff, leaving her dejected at the rare chance for company."
+      "Vythica Floshin is a half-elf woman who resides by herself in a large stone house in Rythlon. A wizard of some manner, the Lost Shields encountered her when Murat wished to have his master's staff identified. She offered to do so in exchange for him helping her clean up her library; a task Murat to do rather poorly. Though she attempted to engage Murat in further pleasantries, the monk was quick to leave her house after she identified the staff, leaving her dejected at the rare chance for company."
     ]
   },
   "Reanold-Duplechin": {
@@ -29,16 +29,16 @@
     "affiliations": ["Rythlon","Maison du Corbeau"],
     "quote": "\"Les gar make yourselves at home! Sit yourself down at my table. Have a seat, kick up your feet. I'll tell your future if I am able...\"",
     "description": [
-      "Reanold Duplechin is a wandering merchant who arrived in Rythlon during the Adventurers' altercations with Teliril Wasanathi.",
-      "He is of average height for a halfling, with a dark complexion and gaudy clothing. Around his neck is a silver chain with a bird skull looped through it. He drives an ostentatious wagon, on which he mounts various symbols of the occult, along with a staggering number of raven skulls. When asked where he is from, Reanold first responded that was 'not from around here', but after becoming more friendly with the Adventurers, he revealed he was from a place he referred to as 'Maison du Corbeau'.",
-      "At first, the halfling simply saw the group as a way to earn some coin, selling them several minor magical items in exchange for some coin and a favor. However, following the group's return to Rythlon after killing the Lady of the Wood, Reanold intervened when Teliril cast Raise Dead on the hag's corpse. Using his Bardic talents, Reanold severed the magical tethers that were animating the corpse, allowing the Adventurers a change to prove their innocence to Count Jeskin Sebroski.",
+      "Reanold Duplechin is a wandering merchant who arrived in Rythlon during the Lost Shields' altercations with Teliril Wasanathi.",
+      "He is of average height for a halfling, with a dark complexion and gaudy clothing. Around his neck is a silver chain with a bird skull looped through it. He drives an ostentatious wagon, on which he mounts various symbols of the occult, along with a staggering number of raven skulls. When asked where he is from, Reanold first responded that was 'not from around here', but after becoming more friendly with the Lost Shields, he revealed he was from a place he referred to as 'Maison du Corbeau'.",
+      "At first, the halfling simply saw the group as a way to earn some coin, selling them several minor magical items in exchange for some coin and a favor. However, following the group's return to Rythlon after killing the Lady of the Wood, Reanold intervened when Teliril cast Raise Dead on the hag's corpse. Using his Bardic talents, Reanold severed the magical tethers that were animating the corpse, allowing the Lost Shields a change to prove their innocence to Count Jeskin Sebroski.",
       "After the completion of the trial and the death of Teliril, Reanold called upon Filibert to complete his bargain and sent the group off to look for his assistant, Leiana, who had run off with a magical figurine that Reanold uses to summon the horses that pull his wagon. The woman had last been seen at a place called 'the Bone Mill' north of the village. The only sign of the woman was scraps of a red cloak and drag marks inside the mill. With Leiana nowhere to be seen, the group returned with the figurine, completing Reanold's request."
     ]
   },
   "Ithi-Ironjaw": {
     "playerKnown": true,
     "hideOnCat": true,
-    "tags": ["smith","dwarf","Felrast","runesmith"],
+    "tags": ["smith","dwarf","felrast","runesmith"],
     "name": "Ithi Ironjaw",
     "nickname": "Master Ironjaw",
     "race": "Dwarf",
@@ -85,7 +85,7 @@
     "class": "Druid",
     "affiliations": ["Sylvan Conclave"],
     "description": [
-      "Erlinder first encountered Vyslos when the Adventuerers returned to the Thornroot Thicket after defeating Teliril Wasanathi in Rythlon. Wishing to use this opportunity to try to understand his newfound abilities and connect with a place of natural power, Erlinder and his allies returned to the mysterious grove of megaliths, known as the Shrine of the Agrestal Cycle, in the middle of the forest. It was here, upon visiting for the second time, that he first encountered Vyslos, along with Cahina and Tekas Woadsinger.",
+      "Erlinder first encountered Vyslos when the Lost Shields returned to the Thornroot Thicket after the defeat of Teliril Wasanathi. Wishing to use this opportunity to try to understand his newfound abilities and connect with a place of natural power, Erlinder and his allies returned to the mysterious grove of megaliths, known as the Shrine of the Agrestal Cycle, in the middle of the forest. It was here, upon visiting for the second time, that he first encountered Vyslos, along with Cahina and Tekas Woadsinger.",
       "Of the three druids that communed with Erlinder that night, Vyslos appeared to be the elder sage and the druid most in tune with the spell-casting aspect of his order. After discussing the nature of his power, and possible avenues in which to harness it, Erlinder chose to speak with Vyslos at length in order to further his understanding of the nature of druidic magics.",
       "Vyslos informed Erlinder that the grove he oversees is located in the shadow of the Jordanis Mountains, in a place called the Shambling Grove."
     ]
@@ -123,7 +123,7 @@
     ]
   },
   "Baqrin-Calosh": {
-    "playerKnown": false,
+    "playerKnown": true,
     "hideOnCat": false,
     "tags": ["noble","lord","Venbrin","barrier coast","argentate"],
     "name": "Baqrin Calosh",
@@ -173,7 +173,7 @@
     "race": "Djinn",
     "affiliations": ["Venbrin","The Argentate"],
     "description": [
-      "According to Akad the Magnificent during his brief interaction with the Adventurers in the Molten Halls, Yabtaeid is a djinn who currently resides in the Free City of Venbrin."
+      "According to Akad the Magnificent during his brief interaction with the Lost Shields in the Molten Halls, Yabtaeid is a djinn who currently resides in the Free City of Venbrin."
     ]
   },
   "Cazner-Yasir": {

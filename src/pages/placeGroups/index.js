@@ -94,7 +94,7 @@ class Places extends Component {
               }
               {
                 !images.keys().some(x => x.includes( place )) && 
-                <div class="imgPlaceholder"></div>
+                <div className="imgPlaceholder"></div>
               }
               <p>{this.state.combinedPlaces[place].name}</p>
             </Link>

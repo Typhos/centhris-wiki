@@ -19,8 +19,8 @@
     "location": "Rythlon",
     "description": [
       "The Bonemill is an old, abandoned windmill that was used, in days gone by, for grinding bones into bonemeal. Around the mill, stacked in large mounds, are hundreds of bones, bleached white in the summer sun.",
-      "The Adventurers came to the mill looking for Reanold Duplechin's assistant, Leiana. The group did not find Leiana, only a scrap of a red cloak Reanold said she had been wearing. When Evan-Jakob disturbed the scrap of fabric, the piles of bone began to shift and a horrible monstrosity coalesced from the discarded skeletons. The Lurking Abomination, a horrible nightmarish creature with four arms burst forth to attack the Adventurers. After enduring a furious assault, the group was able to destroy the creature.",
-      "Venturing inside the mill, the Adventurers discovered found the interior nearly monocromatic, as if all color had been removed from it. Taking great care, they searched the building and found no further signs of Leiana, though they did find further shreds of red fabric. Murat investigated what might have happened to the woman, and determined that she possibly had been taken to the wall, but there were no signs of a door and no exit on the exterior of the mill."
+      "The Adventurers came to the mill looking for Reanold Duplechin's assistant, Leiana. The group did not find Leiana, only a scrap of a red cloak Reanold said she had been wearing. When Evan-Jakob disturbed the scrap of fabric, the piles of bone began to shift and a horrible monstrosity coalesced from the discarded skeletons. The Lurking Abomination, a horrible nightmarish creature with four arms burst forth to attack the Lost Shields. After enduring a furious assault, the group was able to destroy the creature.",
+      "Venturing inside the mill, the Lost Shields discovered found the interior nearly monocromatic, as if all color had been removed from it. Taking great care, they searched the building and found no further signs of Leiana, though they did find further shreds of red fabric. Murat investigated what might have happened to the woman, and determined that she possibly had been taken to the wall, but there were no signs of a door and no exit on the exterior of the mill."
     ]
   },
   "Shrine-of-the-Agrestal-Cycle": {
@@ -111,18 +111,19 @@
   },
   "The-Argentate": {
     "playerKnown": false,
-    "tags": ["temple","building","rakenburg","ulfwyst","barrier coast","church","the eternal"],
+    "tags": ["building","venbrin","ulfwyst","barrier coast","palace","fortress"],
     "name": "The Argentate",
     "nickname": "The Argentate",
     "linkingWords": ["the Argentate"],
     "type": "Structure",
-    "location": "Khezrabad",
+    "location": "Venbrin",
     "leaders": ["Lord Baqrin Calosh","Vizier Cazner Yasir"],
     "description": [
+      "The Argentate is the walled palace of the Lord of Venbrin, located in the north east end of the city. The palace is made of white marble quarried on the Isle of Sunheim."
     ],
     "dmArticles": {
       "History": [
-        "The Chram of the Eternal is a the High Temple dedicated to the god of the sun. It is located in Khezbrabad, Abbasyr."
+        
       ]
     }
   },
@@ -163,5 +164,16 @@
     "location": "Axuros",
     "description": [
     ]    
+  },
+  "Kvenvik-Tower": {
+    "playerKnown": false,
+    "tags": ["tower","building","Zabrosk","Lemuria","ulfwyst"],
+    "name": "Kvenvik Tower",
+    "nickname": "Kvenvik Tower",
+    "type": "Structure",
+    "location": "Zabrosk",
+    "description": [
+      "Kvenvik Tower is the home of Telarion Elentiir, located in Zabrosk, Lemuria."
+    ] 
   }
 }

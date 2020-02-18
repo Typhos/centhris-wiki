@@ -126,7 +126,7 @@ export default class WikiUtils {
         "player-character": this.characterData,  
         "location": this.combinedPlaces,      
         "lore": allLore,
-        "timeline": this.historical,
+        "history": this.historical,
         "group": this.orgData
       };
 

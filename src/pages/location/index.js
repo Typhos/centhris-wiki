@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import WikiUtils from "components/utils/wikiUtils";
 import DataLoader from 'components/utils/dataLoader';
 import Back from '../../components/back';
@@ -21,6 +22,7 @@ class Location extends Component {
     }
 
     this.getArticles = this.getArticles.bind(this);
+    this.personsList = this.personsList.bind(this);
   }
 
   UNSAFE_componentWillReceiveProps(nextProps){
@@ -37,6 +39,7 @@ class Location extends Component {
   render () {
     const crests = require.context('img/crests/', true);
     const images = require.context('img/places/', false);
+    const peopleImgs = require.context('img/portraits/', false);
     const maps = require.context('img/maps/', true);
     const currency = require.context('img/currency/', false);
 
@@ -45,7 +48,7 @@ class Location extends Component {
     // const races = location.races && location.races.map( race => <span className="race commaSeparated">{ WikiUtils.linkContent(location, race) }</span> );
     const additionalImages = location.additionalImages && location.additionalImages.map( image => {
       return (
-        <div className="info mapBox">
+        <div className="info mapBox" key={image}>
             <img alt="" className="additional" src={images(`./${image}`)}/>
         </div>
       )
@@ -181,12 +184,63 @@ class Location extends Component {
               { (location.quote) ? <i className="quote">{location.quote}</i> : ""}
 
               {descriptionEntries}
+
+              { this.personsList() }
             </div>
 
           </article>
         </section>
       </Page.Location>
     )
+  }
+
+  personsList () {
+    const location = this.state.location;
+    const dmView = this.state.dmView;
+    const peopleImgs = require.context('img', true);
+    let array = [];
+
+    const peoples = {...DataLoader.people, ...DataLoader.characters};
+
+    for ( let [key, values] of Object.entries( peoples ) ) {
+      Object.entries(values).map( entry => {
+        let entryVal = entry[1];
+        if ( Array.isArray( entryVal ) && entryVal.some( x => x.toLowerCase().includes( location.name.toLowerCase() ) || x.toLowerCase().includes( location.nickname.toLowerCase() ) ) ) {
+          if ( !array.some( x => x === key ) && ( values.playerKnown || dmView ) ) {
+            array.push( key );
+          }
+        }
+      });
+    }
+
+    const lis = array.sort().map( result => {
+      let imgSrc = 
+        ( peopleImgs.keys().some(x => x.includes( peoples[result].name.replace(/\s/g,"-") ) ) ) 
+          ? peopleImgs( peopleImgs.keys().filter( x => x.includes( peoples[result].name.replace(/\s/g,"-") ) ) ) 
+          : peopleImgs("./portraits/unknown.png");
+
+      let path = ( Object.keys(DataLoader.characters).some(c => c === result) ) ? `/player-character/${result}` :  `/person/${result}`;
+
+      return (
+        <li className="person entry" id={result} key={Math.random()}>
+          <Link className="personLink" to={path}>
+            <img className="portrait" alt="" src={imgSrc}/>
+            <p className="name">{peoples[result].name}</p>
+          </Link>
+        </li>
+      )
+    })
+
+    if ( lis.length > 0 ) {
+      return (
+        <React.Fragment>
+          <h3 className="subheading">Related People</h3>
+          <ul id="categories" className="articleList" key={Math.random()}>
+            {lis}
+          </ul>
+        </React.Fragment>
+      )
+    }
   }
 
   getArticles(articles) {

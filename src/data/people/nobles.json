@@ -2,7 +2,7 @@
   "Janik-Malmor": {
     "playerKnown": true,
     "hideOnCat": true,
-    "tags": ["noble","human","count","navolin","Frenkel"],
+    "tags": ["noble","human","count","navolin","Frenkel","Ahburn Castle"],
     "name": "Janik Malmor",
     "nickname": "Baron Janik Malmor",
     "race": "human",
@@ -20,7 +20,7 @@
   "Archduke-Nicolai-Valken": {
     "playerKnown": false,
     "hideOnCat": false,
-    "tags": ["noble","human","archduke","zurast"],
+    "tags": ["noble","human","archduke","City of Zurast"],
     "name": "Archduke Nicolai Valken",
     "nickname": "Nicolai Valken",
     "race": "human",
@@ -37,7 +37,7 @@
     "playerKnown": true,
     "hideOnCat": false,
     "name": "Jeskin Sebroski",
-    "tags": ["noble","human","count","navolin","hussar","rythlon"],
+    "tags": ["noble","human","count","navolin","hussar","rythlon","castle grinsted"],
     "nickname": "Count Jeskin Sebroski",
     "titles": ["Count of Szary", "Navolinian Hussar"],
     "race": "Human",
@@ -80,7 +80,7 @@
     "age": "481",
     "gender": "Male",
     "occupation": "Ruler",
-    "affiliations": ["Ildroun Vale"],
+    "affiliations": ["Ildroun Vale","Lyrannore"],
     "description": [
       "@+Izorin Sarentus+@ is the Nantar, or @>Woodland King<@ in Elvish, of the peoples of the Ildroun Vale."
     ]
@@ -96,9 +96,9 @@
     "age": "460",
     "gender": "Male",
     "occupation": "General",
-    "affiliations": ["Ildroun Vale"],
+    "affiliations": ["Ildroun Vale","Lyrannore"],
     "description": [
-      "@+Ernil Thabos+@ is a Ernil, or @>Prince<@ in Elvish, of the peoples of the Ildroun Vale. He is the Lord General of the armies of the Ildroun Vale and the younger brother of Nantar Izorin Sarentus. Nicknamed @>Thabos the Warrior<@, he is among the greatest living warriors in the Vale. A master horseman, swordsman and archer, he is the defacto heir to the throne."
+      "@+Thabos+@ is an Ernil, or @>Prince<@ in Elvish, of the peoples of the Ildroun Vale. He is the Lord General of the armies of the Ildroun Vale and the younger brother of Nantar Izorin Sarentus. Nicknamed @>Thabos the Warrior<@, he is among the greatest living warriors in the Vale. A master horseman, swordsman and archer, he is the defacto heir to the throne."
     ]
   },
   "Prince-Ardashir": {

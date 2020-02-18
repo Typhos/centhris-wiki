@@ -3,7 +3,7 @@ import Back from '../../components/back';
 import DataLoader from 'components/utils/dataLoader';
 
 import Page from '../../components/page';
-import PlayerCharacter from '../../components/articles/playerCharacter';
+import PersonArticle from '../../components/articles/personArticle';
 
 const images = require.context('../../img/characters/', true);
 
@@ -35,8 +35,7 @@ class Player extends Component {
     return (
       <Page.People>
         <section id="people" className="article" >
-          <Back/>
-          <PlayerCharacter entry={characterData[person]} data={characterData} image={ images('./' + characterData[person].name.replace(/\s/g,"-") + '.png') }/>
+          <PersonArticle entry={characterData[person]} data={characterData} image={ images('./' + characterData[person].name.replace(/\s/g,"-") + '.png') }/>
         </section>
       </Page.People>
     )

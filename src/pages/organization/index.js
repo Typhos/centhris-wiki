@@ -47,8 +47,10 @@ class Group extends Component {
 
             <h2 className="fullName">{group.nickname}</h2>
             <aside className="infoBox">
-              <h4 className="nickname">{group.name}</h4>          
-              <img className="portrait" alt="" src={ images('./' + group.name.replace(/\s/g,"-") + '.png') }/>
+              <h4 className="nickname">{group.name}</h4>
+              { images.keys().some(x => x.includes( group.name.replace(/\s/g,"-") )) && 
+                <img className="portrait" alt="" src={ images('./' + group.name.replace(/\s/g,"-") + '.png') }/>
+              }
               { (group.type) ? 
                 <div className="info">
                   <p className="key">Type</p>

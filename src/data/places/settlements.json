@@ -136,7 +136,7 @@
     "races": ["elf","gnome","human","half-elf"],
     "government": "Hereditary Monarchy",
     "location": "Ildroun Vale",
-    "leaders": ["Prince Zaleath"],
+    "leaders": ["Nantar Izorin Sarentus","Ernil Thabos"],
     "description": [
       "Lyrannore is the capital city of the Ildroun Vale."
     ]

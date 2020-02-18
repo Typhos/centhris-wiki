@@ -1,4 +1,23 @@
 {
+  "The-Lost-Shields": {
+    "playerKnown": true,
+    "name": "The Lost Shields",
+    "nickname": "the Lost Shields",
+    "tags": ["adventuring","players"],
+    "type": "Adventuring Group",
+    "memberNumber": "4",
+    "members": [
+      "Erlinder Bluefield",
+      "Evan-Jakob Reinhold",
+      "Filibert Montajay",
+      "Murat"
+    ],
+    "description": [
+      "The Lost Shields are an adventuring group which formed in the village of Rythlon in Sirngor of 2C 2573."
+    ],
+    "articles": {
+    }
+  },
   "Nost-Ezel'nar": {
     "playerKnown": false,
     "name": "Nost Ezel'nar",
@@ -17,7 +36,7 @@
       "Vythica Floshin"
     ],
     "description": [
-      "An ancient order of mages, Nost Ezel’nár was established at the Tower of Stantorr around 2C 1350 by the Archmage Xarrut Vandilid. Ruby Drifters"
+      "An ancient order of mages, Nost Ezel’nár was established at the Tower of Stantorr around 2C 1350 by the Archmage Xarrut Vandilid."
     ],
     "articles": {
     }

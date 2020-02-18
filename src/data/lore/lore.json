@@ -91,7 +91,7 @@
     "doNotClipCatImg": true,
     "name": "The Vesdarian Calendar",
     "nickname": "The Vësdarian Calendar",
-    "linkingWords": ["the Vesdarian Calendar","the Vësdarian Calendar"],
+    "linkingWords": ["the Vesdarian Calendar","the Vësdarian Calendar","Mythosk","Jeden","Unvar","Tarnia","Sirngor","Dusvar","Ebosk","Nylwis","Ralshen","Heskur","Serybil","Gonsaar"],
     "type": "Centhris World Lore",
     "tags": ["world lore","calendar","seasons","time","years","months","days","holidays"],
     "description": [
@@ -104,7 +104,7 @@
     "dmArticles": {
       "Centhris Months to Earth Months": [
         "The conversion of Earth months to Centhris months is as follows:",
-        "Mythosk = April","Jeden = May","Unvar = June","Tarnia = July", "Sirngor = August", "Dusvar = September","Ebsok = October", "Nylwis = November", "Ralshen = December","Heskur = January", "Serybil = February", "Gonsaar = March."
+        "Mythosk = April","Jeden = May","Unvar = June","Tarnia = July", "Sirngor = August", "Dusvar = September","Ebosk = October", "Nylwis = November", "Ralshen = December","Heskur = January", "Serybil = February", "Gonsaar = March."
       ]
     }
   }

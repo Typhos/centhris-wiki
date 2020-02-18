@@ -13,8 +13,6 @@ import 'styles/categories.scss';
 // DATA
 import orgData from 'data/organizations';
 
-const images = require.context('img/organizations/', true);
-
 class OrganizationGroups extends Component {
 
   constructor (props) {
@@ -76,12 +74,16 @@ class OrganizationGroups extends Component {
   }
 
   getEntriesByCategory(category) {
+    const images = require.context('img/organizations/', true);
+
     return this.state.orgs.map( org => {
       if ( orgData[org].type === category ) {
+        let imgSrc = images.keys().some( x => x.includes( org )) &&  images('./' + orgData[org].name.replace(/\s/g,"-") + '.png')
+
         return (
           <li key={org} className="entry">
             <Link to={`/group/${org}`}>
-              <img className="landscape" alt="" src={ images('./' + orgData[org].name.replace(/\s/g,"-") + '.png') }/>
+              <img className="landscape" alt="" src={ (imgSrc) || images('./unknown.png')}/>
               <p>{orgData[org].name}</p>
             </Link>
           </li>
