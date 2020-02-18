@@ -110,7 +110,7 @@ export default class WikiUtils {
   }
 
   static linkContent(target, descriptionArray) {
-    const allLore = {...this.combinedLore, ...this.gods, ...this.calendar, ...this.historical};
+    const allLore = {...this.combinedLore, ...this.gods, ...this.calendar};
 
     if ( !Array.isArray(descriptionArray) ) descriptionArray = [descriptionArray];
 
@@ -126,6 +126,7 @@ export default class WikiUtils {
         "player-character": this.characterData,  
         "location": this.combinedPlaces,      
         "lore": allLore,
+        "timeline": this.historical,
         "group": this.orgData
       };
 
