@@ -29,7 +29,7 @@
     "government": "Guild Oligarchy",
     "currency": "Barrier Coast Hull",
     "location": "Barrier Coast",
-    "districts": ["Embersky", "Ghost Orchard", "the Greenwood Quarter", "Gullhollow","Murky Reach"],
+    "districts": ["Embersky","Ghost Orchard","the Greenwood Quarter","Gullhollow","Murky Reach"],
     "map": "Rakenburg",
     "description": [
       "The Free City of Rakenburg is a city-state in the Barrier Coast region of Ulfwyst. It is the largest city in the region and the defacto capital of the city-state alliance. The city is a common point for merchants and travelers moving through the region to resupply, due to its central location. The city is surrounded on all sides by a large, stone wall which is 12 meters tall on the north side of the Kamsby river and 15 meters high south of the river. The citadel, Dawnguard Keep, is located on the western end of the city, just beyond the Ghost Orchard District.",
@@ -86,6 +86,7 @@
     "nickname": "Free City of Venbrin",
     "type": "City-State",
     "population": "~4,500",
+    "districts": ["Darsnel Hill","Goldhawk","Hornsend","Tollis Quay"],
     "races": ["human","gnome","elf","dwarf","dragonborn"],
     "government": "Hereditary Monarchy",
     "currency": "Barrier Coast Hull",

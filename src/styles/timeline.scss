@@ -21,6 +21,7 @@ ul#datesLine {
     h4.heading {
       font-family: $monoSpace;
       font-size: 1.15em;
+      margin-bottom: 0em;
     }
 
     &:nth-child(odd) {
@@ -33,7 +34,12 @@ ul#datesLine {
       left: 22%;
     }
 
-
+    span.currentYear {
+      display: block;
+      color: $susiePurple;
+      font-size: 0.75em;
+      line-height: 2.25em;
+    }
 
     p,
     small {
@@ -47,16 +53,30 @@ ul#datesLine {
 
     p {
       &:before {
-        content: "\2735";
+        content: "\1F73E";
         color: $susiePurple;
         padding-right: 0.5em;
         font-size: 1.33em;
       }
     }
 
+    .era {
+      p:before {
+        content: "\1F70D";
+        color: $blue;
+      }
+    }
+
+    .war {
+      p:before {
+        content: "\2694";
+        color: $blue;
+      }
+    }
+
     .minor {
       p:before {
-        content: "\25EC";
+        content: "\1F767";
         color: $blue;
       }
     }
@@ -68,16 +88,15 @@ ul#datesLine {
   
     li.date {
       max-width: 65%;
-      text-align: left;
 
       &:nth-child(odd) {
         position: relative;
-        right: 35%;
+        right: 37%;
       }
 
       &:nth-child(even) {
         position: relative;
-        left: 36%;
+        left: 37%;
       }
 
     }

@@ -332,12 +332,12 @@
     "dmArticles": {
     }
   },
-  "Cwyrnburne": {
+  "Cwynburn": {
     "playerKnown": false,
     "hideOnCat": true,
     "tags": ["district","navolin","ulfwyst","frecyra"],
-    "name": "Cwyrnburne",
-    "nickname": "Cwyrnburne Ward",
+    "name": "Cwynburn",
+    "nickname": "Cwynburn Ward",
     "type": "City District",
     "location": "Frecyra",
     "description": [
@@ -376,6 +376,74 @@
     "nickname": "Holford Ward",
     "type": "City District",
     "location": "Frecyra",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Goldhawk": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "tags": ["district","barrier coast","venbrin","ulfwyst"],
+    "name": "Goldhawk",
+    "nickname": "Goldhawk District",
+    "type": "City District",
+    "location": "Venbrin",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Darsnel-Hill": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "tags": ["district","barrier coast","venbrin","ulfwyst"],
+    "name": "Darsnel Hill",
+    "nickname": "Darsnel Hill",
+    "type": "City District",
+    "location": "Venbrin",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Hornsend": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "tags": ["district","barrier coast","venbrin","ulfwyst"],
+    "name": "Hornsend",
+    "nickname": "Hornsend",
+    "type": "City District",
+    "location": "Venbrin",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Tollis-Quay": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "tags": ["district","barrier coast","venbrin","ulfwyst"],
+    "name": "Tollis Quay",
+    "nickname": "Tollis Quay",
+    "type": "City District",
+    "location": "Venbrin",
     "description": [
     ],
     "articles": {    

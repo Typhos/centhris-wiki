@@ -1,27 +1,81 @@
 {
   "1C-1": {
     "playerKnown": true,
-    "showOnCat": false,
     "name": "1C 1",
     "nickname": "1C 1",
     "type": "",
     "tags": ["year","events"],
     "description": [
-      "2C 1 refers to the first year of Centhris during and following the First Convergence."
+      "1C 1 refers to the first year of Centhris during and following the First Convergence."
     ],
     "articles": {
       "Age of the Elemental Lords": [
-        "In 2C 1, the Fire Convergence begins, as Centhris and the Elemental Planes intersect in cosmic alignment. Elementals freely walk the Material Plane without need for planar gates."
+        "In 1C 1, the Fire Convergence begins, as Centhris and the Elemental Planes intersect in cosmic alignment. Elementals freely walk the Material Plane without need for planar gates."
       ]
     },
     "timeline": {
-      "major": ["The First Convergence begins."],
-      "minor": []
+      "era": ["The First Convergence begins."]
+    }
+  },
+  "1C-6752":{
+    "playerKnown": true,
+    "hideDate":true,
+    "name": "1C 6752",
+    "nickname": "1C 6752",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 1C 6752:"
+    ],
+    "articles": {
+      "Banishment of Akad": [
+        "The wizards Menodora & Amabilis banish Akad the Magnificent from the Material Plane, barring his reentry through any interplanar rift."
+      ]
+    },
+    "timeline": {
+      "minor": ["The wizards Menodora & Amabilis banish Akad the Magnificent from the Material Plane."]
+    }
+  },
+  "1C-6907": {
+    "playerKnown": false,
+    "hideDate": true,
+    "name": "1C 6907",
+    "nickname": "1C 6907",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 1C 6907:"
+    ],
+    "articles": {
+      "The Age of Giants Begins": [
+        "With the slow decline of the influence of the Elemental Lords, Giants begin to take control of large swaths of Centhris."
+      ]
+    },
+    "timeline": {
+      "era": ["The Age of Giants Begins"]
+    }
+  },
+  "1C-8209":{
+    "playerKnown": true,
+    "hideDate":true,
+    "name": "1C 8209",
+    "nickname": "1C 8209",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 1C 8209:"
+    ],
+    "articles": {
+      "End of an Age": [
+        "The final year of the Era known as the First Convergence. The next year in historical record is referred to as 2C 1, or the first year of the Second Convergence."
+      ]
+    },
+    "timeline": {
+      "era": ["The final year of the Era known as the First Convergence."]
     }
   },
   "2C-1": {
     "playerKnown": true,
-    "showOnCat": false,
     "name": "2C 1",
     "nickname": "2C 1",
     "type": "",
@@ -35,13 +89,11 @@
       ]
     },
     "timeline": {
-      "major": ["The Second Convergence begins."],
-      "minor": []
+      "era": ["The Second Convergence begins."]
     }
   },
   "2C-12": {
     "playerKnown": true,
-    "showOnCat": false,
     "name": "2C 12",
     "nickname": "2C 12",
     "type": "",
@@ -55,13 +107,49 @@
       ]
     },
     "timeline": {
-      "major": ["The Second Convergence ends."],
-      "minor": []
+      "era": ["The Second Convergence ends."]
+    }
+  },
+  "2C-80": {
+    "playerKnown": true,
+    "hideDate": true,
+    "name": "2C 80",
+    "nickname": "2C 80",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 80:"
+    ],
+    "articles": {
+      "Founding of the Utharian Empire": [
+        "The Utharian Empire is founded under the guidance of eldarin from the Feywild, the humans of Thyra and the tieflings of Koraxon."
+      ]
+    },
+    "timeline": {
+      "major": ["Founding of the Utharian Empire."]
+    }
+  },
+  "2C-694": {
+    "playerKnown": true,
+    "hideDate": true,
+    "name": "2C 694",
+    "nickname": "2C 694",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 694:"
+    ],
+    "articles": {
+      "Foundation of the Vessuna Alcimianus": [
+        "Castra Dialanum founds the Vessuna Alcimianus, a research center for the study of the arcane and its potential to perfect the physical form. After the Ruination of Centhris, this area would come to be known as the Twisting Warrens."
+      ]
+    },
+    "timeline": {
+      "minor": ["Foundation of the Vessuna Alcimianus."]
     }
   },
   "2C-837": {
     "playerKnown": true,
-    "showOnCat": false,
     "name": "2C 837",
     "nickname": "2C 837",
     "type": "",
@@ -82,7 +170,6 @@
   },
   "2C-2481": {
     "playerKnown": true,
-    "showOnCat": false,
     "name": "2C 2481",
     "nickname": "2C 2481",
     "type": "",
@@ -99,19 +186,38 @@
       ]
     },
     "timeline": {
-      "major": ["The War of Red Claws occurs in Ulfwyst."],
+      "war": ["The War of Red Claws occurs in Ulfwyst."],
       "minor": []
+    }
+  },
+  "2C-2536": {
+    "playerKnown": true,
+    "name": "2C 2536",
+    "nickname": "2C 2536",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2536:"
+    ],
+    "articles": {
+      "Unvar": [
+        "The Navolinian Conquest of Azond begins."
+      ]
+    },
+    "timeline": {
+      "war": [
+        "The Navolinian Conquest of Azond begins."
+      ]
     }
   },
   "2C-2541": {
     "playerKnown": true,
-    "showOnCat": false,
     "name": "2C 2541",
     "nickname": "2C 2541",
     "type": "",
     "tags": ["year","events"],
     "description": [
-      "The following historical events took place in 2C 2551:"
+      "The following historical events took place in 2C 2541:"
     ],
     "articles": {
       "??": [
@@ -125,11 +231,30 @@
       ]
     }
   },
+  "2C-2543": {
+    "playerKnown": true,
+    "name": "2C 2543",
+    "nickname": "2C 2543",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2543:"
+    ],
+    "articles": {
+      "Heskur": [
+        "The Navolinian Conquest of Azond ends."
+      ]
+    },
+    "timeline": {
+      "war": [
+        "The Navolinian Conquest of Azond ends."
+      ]
+    }
+  },
   "2C-2549": {
     "playerKnown": true,
-    "showOnCat": false,
     "name": "2C 2549",
-    "nickname": "2C 2551",
+    "nickname": "2C 2549",
     "type": "",
     "tags": ["year","2549"],
     "description": [
@@ -147,7 +272,6 @@
   },
   "2C-2551": {
     "playerKnown": true,
-    "showOnCat": false,
     "name": "2C 2551",
     "nickname": "2C 2551",
     "type": "",
@@ -161,13 +285,12 @@
       ]
     },
     "timeline": {
-      "major": ["The War of Sellswords begins."],
+      "war": ["The War of Sellswords begins."],
       "minor": []
     }
   },
   "2C-2554": {
     "playerKnown": true,
-    "showOnCat": false,
     "name": "2C 2554",
     "nickname": "2C 2554",
     "type": "",
@@ -184,13 +307,12 @@
       ]
     },
     "timeline": {
-      "major": ["The War of Sellswords ends."],
+      "war": ["The War of Sellswords ends."],
       "minor": ["Murat is born."]
     }
   },
   "2C-2573": {
     "playerKnown": true,
-    "showOnCat": false,
     "name": "2C 2573",
     "nickname": "2C 2573",
     "type": "",

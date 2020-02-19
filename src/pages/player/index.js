@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Back from '../../components/back';
 import DataLoader from 'components/utils/dataLoader';
 
 import Page from '../../components/page';

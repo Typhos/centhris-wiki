@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 import WikiUtils from "components/utils/wikiUtils";
 import DataLoader from 'components/utils/dataLoader';
 import Back from '../../components/back';
-
 import Page from 'components/page';
-import godsData from 'data/lore/gods';
-import calendarData    from 'data/lore/calendar';
 
 import "styles/loreArticle.scss";
 

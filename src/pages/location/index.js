@@ -39,7 +39,6 @@ class Location extends Component {
   render () {
     const crests = require.context('img/crests/', true);
     const images = require.context('img/places/', false);
-    const peopleImgs = require.context('img/portraits/', false);
     const maps = require.context('img/maps/', true);
     const currency = require.context('img/currency/', false);
 
@@ -183,7 +182,7 @@ class Location extends Component {
             <div className="mainContent">
               { (location.quote) ? <i className="quote">{location.quote}</i> : ""}
 
-              {descriptionEntries}
+              { descriptionEntries }
 
               { this.personsList() }
             </div>
@@ -192,6 +191,59 @@ class Location extends Component {
         </section>
       </Page.Location>
     )
+  }
+
+  districtList () {
+    const location = this.state.location;
+    const images = require.context('img/places/', false);
+    let list;
+
+    if ( location.districts ) {
+      let listItems = location.districts.map( district => {
+        const places = DataLoader.places;
+        const distData = Object.values(places).filter( x => 
+          district === x.name || 
+          district === x.nickname || 
+          ( x.linkingWords && x.linkingWords.some( words => words.includes(district) ) ) 
+        )[0];
+
+        let districtImg = images("./Belloton.png");
+
+        // if the district has an image
+        if ( images.keys().some( img => img.includes( distData.name.replace(/\s/g,'-') ) ) ) {
+          districtImg = images( images.keys().filter( img => img.includes( distData.name.replace(/\s/g,'-') ) ) ); 
+        }
+
+        if ( distData.playerKnown === true || this.state.dmView ) {
+          return <li className="entry">
+            <Link to={`/location/${distData.name.replace(/\s/g,"-")}`}>
+              <img className="landscape" src={districtImg || ""}/>
+              <p>{distData.name}</p>
+            </Link>
+          </li>
+        }
+
+        return undefined;
+      });
+
+      if ( listItems.filter( x => x !== undefined ).length > 0 ) {
+
+        list = 
+        <div id="categories">
+          <div className="category">
+            <h3 className="subheading">Districts</h3>
+            <ul className="sectionList">
+            {
+              listItems
+            }
+            </ul>
+          </div>
+        </div>
+
+      }
+    }
+
+    return list;
   }
 
   personsList () {
@@ -203,7 +255,7 @@ class Location extends Component {
     const peoples = {...DataLoader.people, ...DataLoader.characters};
 
     for ( let [key, values] of Object.entries( peoples ) ) {
-      Object.entries(values).map( entry => {
+      Object.entries(values).forEach( entry => {
         let entryVal = entry[1];
         if ( Array.isArray( entryVal ) && entryVal.some( x => x.toLowerCase().includes( location.name.toLowerCase() ) || x.toLowerCase().includes( location.nickname.toLowerCase() ) ) ) {
           if ( !array.some( x => x === key ) && ( values.playerKnown || dmView ) ) {
@@ -246,6 +298,8 @@ class Location extends Component {
   getArticles(articles) {
     const location = this.state.location;
     let content = [WikiUtils.linkContent(location, WikiUtils.textFormatting(location.description) )];
+
+    content.push(this.districtList());
 
     if (location.articles) {
       for ( let [heading, array] of Object.entries(articles) ) {

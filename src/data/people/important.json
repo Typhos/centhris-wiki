@@ -140,27 +140,27 @@
     ],
     "dmArticles": {
       "True Form": [
-        "Lord Calosh is the humaoid form of Zaldegarion, the adult silver dragon, the true lord of Venbrin."
+        "Lord Calosh is the humaoid form of Zaldegarion, the adult bronze dragon, the true lord of Venbrin."
       ]
     }
   },
   "Zaldegarion": {
     "playerKnown": false,
     "hideOnCat": false,
-    "tags": ["noble","lord","Venbrin","barrier coast","argentate"],
+    "tags": ["dragon","Venbrin","barrier coast","argentate"],
     "name": "Zaldegarion",
     "nickname": "Zaldegarion",
     "linkingWords": [""],
-    "race": "Silver Dragon",
+    "race": "Bronze Dragon",
     "gender": "Male",
     "occupation": "7th Lord of Venbrin",
     "affiliations": ["Venbrin","The Argentate"],
     "description": [
-      "An adult silver dragon who resides somewhere in the Barrier Coast."
+      "An adult bronze dragon who resides somewhere in the Barrier Coast."
     ],
     "dmArticles": {
       "False Form": [
-        "Lord Calosh is the humaoid form of Zaldegarion, the adult silver dragon, the true lord of Venbrin."
+        "Lord Calosh is the humaoid form of Zaldegarion, the adult bronze dragon, the true lord of Venbrin."
       ]
     }
   },

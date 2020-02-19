@@ -41,12 +41,6 @@ class History extends Component {
     console.log(dates)
     const descriptionEntries = this.getArticles(dates.articles);
 
-    const datesImg = require.context('img/lore/', false);
-
-    const arrayToLi = function(value) {
-      return value.map( val => <li className="value" key={val} >{val}</li>);
-    }
-
     return (
       <Page.Lore>
         <section id="lore" className="article" >

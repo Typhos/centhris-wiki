@@ -82,6 +82,17 @@
       "Western Koraxon is a continent in the northwest hemisphere of Centhris, covering roughly 4.3 million square miles."
     ]
   },
+  "Thyra": {
+    "playerKnown": false,
+    "tags": ["continent"],
+    "name": "Thyra",
+    "nickname": "Thyra",
+    "type": "Continent",
+    "location": "Centhris",
+    "description": [
+      "Thyra was a continent located centrally in Centhris, covering roughly 1.7 million square miles. It was almost completely destroyed during the Ruination. The remnants of the continent now make up the Toridosa Archipelago."
+    ]
+  },
   "Kelishan-Highlands": {
     "playerKnown": true,
     "tags": ["region","highlands","plains","navolin","ulfwyst"],
@@ -496,6 +507,17 @@
     "nation": ["Dol Obok"],
     "location": "Ulfwyst",
     "description": [
+    ]    
+  },
+  "Celestial-Shards": {
+    "playerKnown": false,
+    "tags": ["hills","region","ulfwyst","forest","pillars of amud"],
+    "name": "Celestial Shards",
+    "nickname": "Celestial Shards",
+    "type": "Region",
+    "location": "Isle of Mizera, Torisoda Archipelago",
+    "description": [
+      "The Celestial Shards are a mysterious geographic feature of the the Isle of Mizera in the Torisoda Archipelago. The spires are enormous, brilliant shards of white stone which extend from rocky bases of sculpted earth. The spires themselves are comprised of a strange, luminous material which is innately magical and defies the laws of the material realm. Some of the spires no longer have earthen bases, or have been shattered, but instead of falling to the ground, they now float in the sky, piercing the clouds above."
     ]    
   }
 }

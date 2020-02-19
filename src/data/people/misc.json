@@ -84,7 +84,7 @@
     "affiliations": ["Rythlon"],
     "description": [
       "Edmund is a young halfling man who makes a living as a stable hand for various stables and farms around the village of Rythlon. He is friends with Imizael Clathara and can be found most nights at the Moody Acrobat playing cards with Imizael and other gamblers. Erlinder took note that Lormin Blackmaw has a tendency to keep an eye on Edmund when he is at the Moody Acrobat.",
-      "The Adventurers purchased Muffin from Edmund before leaving Rythlon on their way to Volikgrad."
+      "The Adventurers purchased Muffin from Edmund before leaving Rythlon."
     ]
   },
   "Rakas-of-Driskal": {
@@ -115,8 +115,9 @@
     "gender": "Female",
     "affiliations": ["the Lost Shields"],
     "description": [
-      "Muffin is a pack mule that the Lost Shields purchased from Edmund the stable hand before leaving Rythlon on their way to Volikgrad. Erlinder will occasionally use Speak with Animals to converse with Muffin, who is generally rude and terse with the druid.",
-      "When the Lost Shields ventured inside the Molten Halls, they left Muffin outside to graze. When they emerged from the halls, Muffin was loaded with thousands of copper coins that the group had found and was made to carry the coins to Volikgrad for exchange into more usable currency. She was then brought along on the Salty Ferret as the Lost Shields traveled on to Rakenburg."
+      "Muffin is a pack mule that the Lost Shields purchased from Edmund the stable hand before leaving Rythlon.",
+      "Erlinder will occasionally use @+Speak with Animals+@ to converse with Muffin, who is generally rude and terse with the druid.",
+      "When the Lost Shields ventured inside the Molten Halls, they left Muffin outside to graze. When they emerged from the halls, Muffin was loaded with thousands of copper coins that the group had found and was made to carry the coins until they could be exchanged for more usable currency. She was then brought along on the Salty Ferret as the Lost Shields traveled on to Rakenburg."
     ]
   },
   "Selif-Koric": {
