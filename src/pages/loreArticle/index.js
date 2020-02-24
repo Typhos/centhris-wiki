@@ -40,7 +40,7 @@ class Lore extends Component {
     const descriptionEntries = this.getArticles(lore.articles);
 
     const loreImg = require.context('img/lore/', false);
-    const creatures = require.context('img/lore/creatures/', false);
+    const creatures = require.context('img/creatures/', false);
     const gods = require.context('img/lore/gods/', false);
     const items = require.context('img/lore/items/', false);
 

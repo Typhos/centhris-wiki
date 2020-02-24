@@ -9,6 +9,7 @@ import ScrollToTop from 'components/scrollToTop';
 import App from './components/app';
 import {Characters} from './pages/characters/index';
 import {Player} from './pages/player/index';
+import {Creatures} from './pages/creatures/index';
 import {People} from './pages/peopleGroups/index';
 import {Person} from './pages/person/index';
 import {Runes} from './pages/runes/index';
@@ -22,6 +23,7 @@ import {History} from './pages/history/index';
 import {Timeline} from './pages/timeline/index';
 import {Pantheon} from './pages/pantheon/index';
 import {Error404} from './pages/404/index';
+import {CreatureCategories} from './pages/creatureCategories/index';
 
 // import * as serviceWorker from './components/serviceWorker';
 // serviceWorker.unregister();
@@ -73,6 +75,7 @@ const routing = (
         <Route path="/runes" component={Runes} />
         <Route path="/characters" component={Characters} />
         <Route path="/player-character" component={Player} />
+        <Route path="/creature" component={Creatures} />
         <Route path="/person" component={Person} />
         <Route path="/people" component={People} />
         <Route path="/places" component={Places} />
@@ -84,6 +87,7 @@ const routing = (
         <Route path="/history/" component={History} />
         <Route path="/timeline/" component={Timeline} />
         <Route path="/pantheon/" component={Pantheon} />
+        <Route path="/creatureTypes/" component={CreatureCategories} />
         <Route component={Error404} />
       </Switch>
       <Footer/>

@@ -1,12 +1,14 @@
 {
-  "Gradiorus-Golems": {
+  "Gradiorus-Golem": {
     "playerKnown": true,
-    "hideOnCat": true,
-    "name": "Gradiorus Golems",
+    "hideOnCat": false,
+    "showStatBlock": true,
+    "name": "Gradiorus Golem",
     "nickname": "Gradiorus",
     "type": "Construct",
     "tags": ["construct","golem","arcane","magical"],
     "imgFolder": "creatures",
+    "affiliations": ["Rakenburg","Specula Arcanum"],
     "description": [
       "Gradiorus Golems are arcane constructs that safeguard the city of Rakenburg. The golems stand roughly 9 feet tall and weight upwards of 400 kg (900 lbs). The golems outer hull is made of a magically-infused iron, while the inside contains numerous magical seals, mechanisms and foci to help power and control the construct.",
       "When activated, the golems give off a faint violet glow from the inside as the magical energy that tethers their limbs to the core dances and sparks."
@@ -20,6 +22,140 @@
       "Relics of a Forgotten Age": [
         "The Gradiorus Golems are reclaimed arcane technology of the Utharian Empire, first discovered in the Twisting Warrens by the settlers who reclaimed Rakenburg hundreds of years ago. Eskra Gradiorus, the tiefling artificer, was the first to take an interest in the constructs and through extensive research and reverse-engineering, she was able to activate and reprogram the golems to serve the city."
       ]
-    }
+    },
+    "alignment": "Unaligned",
+    "creatureType": "Large Construct",
+    "stats": [
+      {"name": "STR", "val": 24},
+      {"name": "DEX", "val": 9},
+      {"name": "CON", "val": 20},
+      {"name": "INT", "val": 3},
+      {"name": "WIS", "val": 11},
+      {"name": "CHA", "val": 1}
+    ],
+    "skills": "",
+    "passiveWisdom": 10,
+    "savingThrows": "",
+    "armor": 18,
+    "hitPoint": 140,
+    "hitDie": "22d8+41",
+    "damageResistances": "Bludgeoning, Piercing, and Slashing From Nonmagical Attacks",
+    "damageImmunities": "Fire, Poison, Psychic",
+    "conditionImmunities": "Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned",
+    "senses": "Darkvision 120 ft.",
+    "speed": "20 ft.",
+    "languages": "Understands the languages of its creator and can respond with information from the Arcanum archives",
+    "challenge": "7",
+    "abilities": [
+      {
+        "name": "Illumination.",
+        "text": "A Gradiorus Golem sheds dim, purple light in a 10-foot radius."
+      },
+      {
+        "name": "Magic Resistance.",
+        "text": "The golem has advantage on Saving Throws against Spells and other magical Effects."
+      },
+      {
+        "name": "Immutable Form.",
+        "text": "The golem is immune to any spell or effect that would alter its form."
+      },
+      {
+        "name": "Magic Weapons.",
+        "text": "The golem's weapon attacks are magical."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "A golem makes two melee attacks."
+      },
+      {
+        "name": "Slam.",
+        "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (1d8 + 7) bludgeoning damage."
+      },
+      {
+        "name": "Suppression Pulse (Recharge 5-6)",
+        "text": "The golem unleashes a pulse of arcane, electrical energy in a 15-foot radius centered on itself. Each creature in that area must make a DC 15 Constitution saving throw, taking 22 (5d8) lightning damage on a failed save, or half as much damage on a successful one."
+      }
+    ]
+  },
+  "Icebrine-Serpent": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "showStatBlock": true,
+    "name": "Icebrine Serpent",
+    "nickname": "Icebrine Serpent",
+    "type": "Dragon",
+    "tags": ["venngar sea","ocean","sea serpent","predator","dragon"],
+    "description": [
+      "Native to the Venngar Sea, Icebrine Serpents are a species of aggressive, deep sea predators. These aquatic dragons are covered in large, hard scales that range from deep blue to pale green. They have a single pair of clawed arms a third of the way down their body that end in three razor-sharp talons. They feel most at home among the ice flows and icebergs of the frigid, arctic oceans of Centhris.",
+      "Icebrine Serpents hold a legendary reputation among the cold-water seafaring nations of the world, such as Cibrin, Lemuria and Talhurst. Many sailors tell harrowing tales of horrific monsters that stalk ships for days, waiting for an opportune moment to strike, such as rough seas or a sudden maelstrom. When an Icebrine Serpent strikes, it will attempt to break a ship's hull with its jaws and claws, blast sailors from the deck with a jet of briny water, or knock sailors overboard with its tail."
+    ],
+    "articles": {
+      "Legendary Beasts of the Frozen Sea": [
+        "Icebrine Serpents have been the subject of skalds' poems and songs for millenia. Numerous tales of mythic heroes, such as the legendary Lemurian hero Stolkar Wyrmbreaker, involve battles with a serpent. Such is the reputation of these beasts that their true nature and capabilities have been lost among the uneducated masses. Common folk will regularly attribute abilities or supernatural powers to Icebrine Serpents that they are not capable of, simply out of ignorance or the increasing tall tales of a local tavern."
+      ]
+    },
+    "dmArticles": {
+      "": [
+        ""
+      ]
+    },
+    "alignment": "Neutral Evil",
+    "creatureType": "Huge Dragon",
+    "stats": [
+      {"name": "STR", "val": 21},
+      {"name": "DEX", "val": 15},
+      {"name": "CON", "val": 18},
+      {"name": "INT", "val": 7},
+      {"name": "WIS", "val": 13},
+      {"name": "CHA", "val": 14}
+    ],
+    "savingThrows": "Str +9, Dex +6, Con +8",
+    "skills": "Athletics +9, Perception +5",
+    "passiveWisdom": 10,
+    "armor": "15 (natural armor)",
+    "hitPoint": 118,
+    "hitDie": "10d12+46",
+    "speed": "30 ft., swim 60ft.",
+    "damageResistances": "Fire",
+    "damageVulnerabilities": "Lightning",
+    "damageImmunities": "Cold",
+    "conditionImmunities": "Paralyzed, Prone, Stun, Unconscious",
+    "senses": "Darkvision 60 ft.",
+    "languages": "Aquan, Draconic",
+    "challenge": "8",
+    "abilities": [
+      {
+        "name": "Icy Barbs",
+        "text": "The entire body of an Icebrine Serpent is covered in small, jagged shards of ice which protrude from the monster's scales. Any creature that begins its turn within 5 feet of the Icebrine Serpent takes 1d6+2 points of cold damage."
+      },
+      {
+        "name": "Coiling Maneuver.",
+        "text": "When the Icebrine Serpent is hit with an attack in melee, it may attempt to grapple the attacker. The target must make a DC 15 Strength saving throw or be grappled."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "A Icebrine Serpent attacks once with its tail and either bites or uses its Brine Blast."
+      },
+      {
+        "name": "Bite.",
+        "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (1d10+5) piercing damage plus 7 (2d6) cold damage. The target of the bite attack must make a DC 15 Strength saving throw or be grappled and restrained. If the target is already grappled by a previous bite attack, the target may may still make another save to attempt to break the grapple."
+      },
+      {
+        "name": "Tail Slap.",
+        "text": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 11 (2d6+4) bludgeoning damage. A target hit by a tail slap is pushed 10 feet away from the Icebrine Serpent."
+      },
+      {
+        "name": "Throw.",
+        "text": "If the Icebrine Serpent has a creature grappled from a Bite attack or from its Coiling Maneuver, it may throw the target. The throw may target another creature within 30 ft. The target must succeed a DC 14 Dexterity save or suffer 10 (3d6) bludgeoning damage. The thrown target automatically suffers 10 (3d6) damage."
+      },
+      {
+        "name": "Brine Blast (recharge 6).",
+        "text": "The Icebrine Serpent opens its massive jaws and sends forth an blast of chilled sea water. All creatures in a 25 ft. cone must succeed on a DC 15 Dex save or suffer 5d8 Cold damage. Any target that succeeds its save takes half damage."
+      }
+    ]
   }
 }

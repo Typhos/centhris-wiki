@@ -2,6 +2,11 @@
 
 body {
   font-family: $sansText;
+  font-size: 15px;
+}
+
+::spelling-error {
+  border-bottom: 1px dashed tomato;
 }
 
 #dmFlag {

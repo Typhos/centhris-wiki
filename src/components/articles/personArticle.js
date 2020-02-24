@@ -20,12 +20,20 @@ export default class PeopleArticle extends Component {
     const person = this.props.entry;
     const descriptionEntries = this.getArticles(person);
 
+    const getMod = function(score) {
+      const num = Math.round( (10.5 - score ) * -1 / 2 );
+      return ( num >= 0 ) ? `+${num}` : `${num}`;
+    }
+
     const stats = function() {
       let array = [];
       for ( let [key, val] of Object.entries(person.stats) ) { 
         array.push(
           <div className="block">
-            <span className="stat">{key}</span> <span className="num">{val}</span>
+            <span className="stat">{key}</span> 
+            <span className="num">
+              <span className="mod">{getMod(val)}</span> <small className="score">({val})</small>
+            </span>
           </div>
         )
       }
@@ -77,7 +85,7 @@ export default class PeopleArticle extends Component {
         <Back/>
 
         <h2 className="fullName">{person.nickname}</h2>
-        <aside className={`infoBox ${ this.state.dmView}`}>
+        <aside className={`infoBox ${ this.state.dmView || ""}`}>
           <h4 className="nickname">{person.name}</h4>
           <img className="portrait" alt="" src={this.props.image}/>
           { person.titles &&

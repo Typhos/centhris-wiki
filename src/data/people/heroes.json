@@ -146,10 +146,10 @@
     "hp": 72,
     "stats": {
       "STR": 16,
-      "DEX": 10,
-      "CON": 12,
       "INT": 20,
+      "DEX": 10,
       "WIS": 12,
+      "CON": 12,
       "CHA": 14
     },
     "skills": {
@@ -170,6 +170,7 @@
       "Spell Attack": "+10",
       "Save DC": 18
     },
+    "languages": ["Common, Elvish, Sylvan"],
     "attunedItems": [
       "+2 Longsword: Istyandil ",
       "Ring: Ring of Protection",
@@ -181,8 +182,7 @@
     "description": [
       "A highly regarded elven mage, Telarion Elentiir has been a fixture in the courts of Ulfwyst for well over 200 years. He is current employed as a court mage in the Kingdom of Lemuria, reporting directly to the High Queen, Inga Sudrheim. Though Telarion has an official residence in Kilurus, when he is not on official business or seeing to a task requested of him by the queen, he prefers to spend his time in the town of Zabrosk, at Kvenvik Tower, on the northern shore of the Korin Gulf."
     ],
-    "languages": ["Common, Elvish, Sylvan"],
-    "quote": "Let me see this disc you've been carrying... My Ignan is very rusty, but from what I can make out, I count no less than seven Sigils of Immolation. What were you going to do with this, again?",
+    "quote": "\"Let me see this disc you have been carrying... My Ignan is very rusty, but from what I can make out, I count no less than seven Sigils of Immolation. What were you going to do with this, again?\"",
     "articles": {
       "Calling in a Favor": [
         "Telarion returned to Rakenburg in Dusvar of 2C 2573 at the request of Belthren Ogni. The guild master had learned that members of his guild and the Lost Shields had been bound to the service of Akad the Magnificent and felt that Telarion was the only person he knew who might have the knowledge required to help resolve the issue before it became untenable.",

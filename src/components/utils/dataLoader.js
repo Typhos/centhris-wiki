@@ -38,13 +38,15 @@ export default class DataLoader {
 
   static places = {...structures, ...worldRegions, ...cityDistricts, ...cityStates, ...settlements, ...dungeons, ...fortifications, ...dwarfHolds, ...politicalStates, ...mythic};
   
-  static lore = {...racesData, ...eventsData, ...creaturesData, ...loreData, ...itemData};
+  static lore = {...racesData, ...eventsData, ...loreData, ...itemData};
   
   static people = {...heroData,...villainData,...nobleData,...importantPeopleData,...merchantsData,...historicalPeopleData,...miscPeopleData};
   
   static organizations = {...orgData};
 
   static characters = {...characterData};
+
+  static creatures = { ...creaturesData};
 
   static gods = {...godsData};
 

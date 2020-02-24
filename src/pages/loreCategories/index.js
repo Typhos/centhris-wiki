@@ -92,7 +92,7 @@ class LoreCategories extends Component {
   getEntriesByCategory(category) {
     const combinedLore = this.state.combinedLore;
     const loreImg = require.context('img/lore/', false);
-    const creatures = require.context('img/lore/creatures/', false);
+    const creatures = require.context('img/creatures/', false);
     const gods = require.context('img/lore/gods/', false);
 
     return this.state.lore.map( lore => {

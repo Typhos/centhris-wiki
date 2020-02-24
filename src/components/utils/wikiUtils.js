@@ -6,7 +6,7 @@ import Modal from 'components/utils/modal';
 export default class WikiUtils {
 
   static combinedPlaces = DataLoader.places;
-  static combinedLore = DataLoader.lore;
+  static lore = DataLoader.lore;
   static peopleData = DataLoader.people;
   static characterData = DataLoader.characters;
   static orgData = DataLoader.organizations;
@@ -110,7 +110,6 @@ export default class WikiUtils {
   }
 
   static linkContent(target, descriptionArray) {
-    const allLore = {...this.combinedLore, ...this.gods, ...this.calendar};
 
     if ( !Array.isArray(descriptionArray) ) descriptionArray = [descriptionArray];
 
@@ -125,7 +124,8 @@ export default class WikiUtils {
         "person": this.peopleData,
         "player-character": this.characterData,  
         "location": this.combinedPlaces,      
-        "lore": allLore,
+        "lore": this.lore,
+        "creature": DataLoader.creatures,
         "history": this.historical,
         "group": this.orgData
       };
