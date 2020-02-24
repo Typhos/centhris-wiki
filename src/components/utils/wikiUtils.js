@@ -124,7 +124,7 @@ export default class WikiUtils {
         "person": this.peopleData,
         "player-character": this.characterData,  
         "location": this.combinedPlaces,      
-        "lore": this.lore,
+        "lore": {...DataLoader.lore, ...DataLoader.gods},
         "creature": DataLoader.creatures,
         "history": this.historical,
         "group": this.orgData

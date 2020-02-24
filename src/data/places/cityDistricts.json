@@ -386,7 +386,7 @@
     }
   },
   "Goldhawk": {
-    "playerKnown": false,
+    "playerKnown": true,
     "hideOnCat": true,
     "tags": ["district","barrier coast","venbrin","ulfwyst"],
     "name": "Goldhawk",
@@ -394,16 +394,24 @@
     "type": "City District",
     "location": "Venbrin",
     "description": [
+      "@+Goldhawk+@ is the most affluent district in Venbrin. Sitting at the foot of the Argentate, most residents of the district are wealthy merchants, or aristocrats from noble families that have spread across the Barrier Coast city-states. Goldhawk is also the home of several knightly order halls and temples to lawful gods."
     ],
     "articles": {    
       "Places of Interest": [
+        "@#The Shrine of Saint Bastilen#@",
+        "A well-known shrine to Bastilen, a martyr of the Champion. Bastilen was a famous hedge knight who roamed the wild places of Ulfwyst seeking to destroy evil where it took root. While on the Isle of Sunheim she was ambushed by cultists of the Wyrm and was sacrificed to their twisted god. Her body was never recovered. In place of a tomb, a memorial shrine was built in her honor in Goldhawk.",
+        "The structure itself is comprised of a great, stone lantern enshrining the flame of the Champion, said to reveal visions to those who leave an offering. It is said that so long as there are those who fight for the sake of others, the flame can never die.",
+        "@#Obelisk of Law#@",
+        "A large, flat-topped, 4-story obelisk that rises above the rest of Goldhawk. This structure is home to the Court of Order, the legal center of Venbrin. The first floor is a composed of a administrative center. The second floor is the grand courtroom and the final two upper floors are used for housing the staff of the court.",
+        "@#Alevak's Carvings#@",
+        "A prominent woodcarver's workshop, built around a large rowan tree. Alevak is a renowned, green-dragonborn woodcarver. Wealthy patrons from all over the city and beyond come to Alevak's Carvings for unique statues and works of art."
       ]
     },
     "dmArticles": {
     }
   },
   "Darsnel-Hill": {
-    "playerKnown": false,
+    "playerKnown": true,
     "hideOnCat": true,
     "tags": ["district","barrier coast","venbrin","ulfwyst"],
     "name": "Darsnel Hill",
@@ -411,16 +419,23 @@
     "type": "City District",
     "location": "Venbrin",
     "description": [
+      "@+Darsnel Hill+@ is nicknamed @>Temple Hill<@ due to the large number of temples and shrines to all manner of gods and demi-gods built there. Darsnel Hill is situated between Goldhawk, to the east, and Hornsend, to the south. The district begins at Templeheart Square, where the High Temple of the Maiden is located and ends at the Venhond Gate, located on the northern wall. "
     ],
     "articles": {    
       "Places of Interest": [
+        "@#High Temple of the Maiden#@",
+        "An enormous temple dedicate to Yelensa, the goddess of the moon, this building is comprised of three spires, each topped with enchanted crystals that glow when exposed to the proper spectrum of moonlight. Each tower is dedicated to one of the Three Sisters.",
+        "@#Temple Row#@",
+        "@>Temple Row<@ is the main thoroughfare of the district, running directly up the hill. Along the entire stretch of the cobblestone path are numerous temples, shrines and monuments to the various gods and demi-gods. Almost every prominent god of the pantheon can be found on the path with the notable exception of the Fiend, the Stygian and several other darker deities who do not have cults willing to openly display their worship of the god.",
+        "@#The Weary Warhammer Lodge#@",
+        "A large, stone inn run by the dwarves of Clan Boulderpike. The inn stands 3 stories tall and is known for its large wrestling/boxing ring. Prize fights are held during each of the Noble Festivals of the Vesdarian Calendar. Informal bouts are not uncommon, but are tightly regulated by the owners, who reserve all booking and betting rights."
       ]
     },
     "dmArticles": {
     }
   },
   "Hornsend": {
-    "playerKnown": false,
+    "playerKnown": true,
     "hideOnCat": true,
     "tags": ["district","barrier coast","venbrin","ulfwyst"],
     "name": "Hornsend",
@@ -428,16 +443,25 @@
     "type": "City District",
     "location": "Venbrin",
     "description": [
+      "@+Hornsend+@ is one of two working class districts of Venbrin. Located along the western wall of the city, the district got its name from the long, looped road that ran around it before the construction of the city wall."
     ],
     "articles": {    
       "Places of Interest": [
+        "@#The Eldergrove#@",
+        "This thick, tangled copse of trees is a sacred location to a group of gnomes native to the Isle of Sunheim. The gnomes, known as Elderkin, have built a small village at the base of the trees, and guard it around the clock from those they do not deem worthy of entry. No one is clear when the gnomes arrived or why they revere the grove as they do.",
+        "@#Rylreman's Vials and Elixirs#@",
+        "A small, cramped store run by the halfling potion master Rylreman Tunsfield. The owner is known for stocking an odd assortment of potions not usually sold. Nobody is quite sure where he acquires his ingredients for his strange brews.",
+        "@#The Handsome Ox#@",
+        "A large inn, kept by a tiefling named Hadirnus. The first floor of the inn contains a stage for entertainers to perform, including the owner, who is  a retired adventurer & bard.",
+        "@#Elhia's Pottery#@",
+        "The workshop of a female human potter named Elhia, known for her fire-resistant stoneware scale armor."
       ]
     },
     "dmArticles": {
     }
   },
   "Tollis-Quay": {
-    "playerKnown": false,
+    "playerKnown": true,
     "hideOnCat": true,
     "tags": ["district","barrier coast","venbrin","ulfwyst"],
     "name": "Tollis Quay",
@@ -445,9 +469,16 @@
     "type": "City District",
     "location": "Venbrin",
     "description": [
+      "The dockyards of Venbrin, the @+Tollis Quay+@ was the first human settlement on Sunheim. The small fishing village that began here eventually expanded to become the city of Venbrin as it exists today. Now a working class neighborhood of the city, it is informally run by gangs of ruffians who frequent scuffle in the streets, battling over territory."
     ],
     "articles": {    
       "Places of Interest": [
+        "@#The Dead Parrot Tavern#@",
+        "A small, run-down tavern located along the docks, the Dead Parrot is a seedy bar run by Gavril Iskir, an Uklang who holds a side job as a fence. It is also the headquarters of the Trident Boys, one of the gangs of Tollis. The tavern is well known for being @>the place<@ to hold shady deals.",
+        "@#Fairtide Arsenal#@",
+        "The home of the Venbrin navy. All of the naval vessels belonging to Lord Baqrin Calosh are located at this dockyard, including his personal flagship, the Shining Dawn. The arsenal is surrounded by a small, 8 foot tall, stone wall which could easily be scaled, however none of the gangs of Venbrin are known to have dared to attempted a raid on the arsenal.",
+        "@#Stonehead Tower#@",
+        "A huge, ancient tower located on the eastern end of Tollis Quay. Standing roughly 8 stories tall, the tower's name comes from the large three-eyed stone head that crowns it. The tower has no known entrances at its base."
       ]
     },
     "dmArticles": {

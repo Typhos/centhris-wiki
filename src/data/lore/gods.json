@@ -139,6 +139,7 @@
     "playerKnown": true,
     "name": "The Champion",
     "nickname": "The Champion",
+    "linkingWords": ["Isilena","the Champion"],
     "trueName": "Isilena",
     "portfolio": [
       "Strength",
@@ -161,7 +162,6 @@
     ],
     "symbol": "White longsword",
     "shrineImg": ["shrine-champion.png"],
-    "linkingWords": ["Isilena","the Champion"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","neutral good","Courage","War","Life","knight","paladin"],
     "description": [
