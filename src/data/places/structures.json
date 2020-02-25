@@ -35,7 +35,7 @@
     ]  
   },
   "Tower-of-Stantorr": {
-    "playerKnown": false,
+    "playerKnown": true,
     "tags": ["building","tower","wizard","frecyra","navolin","ulfwyst"],
     "name": "Tower of Stantorr",
     "nickname": "Stantorr",

@@ -19,7 +19,7 @@
     }
   },
   "Nost-Ezel'nar": {
-    "playerKnown": false,
+    "playerKnown": true,
     "name": "Nost Ezel'nar",
     "nickname": "Lodge of the Emerald Flame",
     "linkingWords": ["Nost Ezel’nár"],

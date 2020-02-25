@@ -165,7 +165,7 @@
     }
   },
   "Yabtaeid": {
-    "playerKnown": false,
+    "playerKnown": true,
     "hideOnCat": false,
     "name": "Yabtaeid",
     "nickname": "Yabtaeid the Daring",
@@ -174,10 +174,15 @@
     "affiliations": ["Venbrin","The Argentate"],
     "description": [
       "According to Akad the Magnificent during his brief interaction with the Lost Shields in the Molten Halls, Yabtaeid is a djinn who currently resides in the Free City of Venbrin."
-    ]
+    ],
+    "articles": {
+      "Vizier of Venbrin": [
+        "Yabtaeid currently is assuming the form of Cazner Yasir, the half-elf vizier of Lord Baqrin Calosh, the 7th Lord of Venbrin. At the behest of the lord, Yabtaeid seems to spend most of his time in his false form. When not actively in court, he can be seen lounging about the Argentate, rarely doing anything worthy of attention."
+      ]
+    }
   },
   "Cazner-Yasir": {
-    "playerKnown": false,
+    "playerKnown": true,
     "hideOnCat": false,
     "name": "Cazner Yasir",
     "nickname": "Vizier Cazner Yasir",
@@ -188,16 +193,16 @@
     "gender": "Male",
     "affiliations": ["Venbrin","The Argentate"],
     "description": [
-      "Cazner Yasir is the esteemed vizier of Vebrin. A half-elf with purple skin, dark hair and yellow eyes, Cazner cuts a striking figure in the Argentate with his flamboyant mannerisms and antics. He is a talkative man who enjoys entertainment, wine and well-prepared foods."
+      "Cazner Yasir is the esteemed vizier of Vebrin. A half-elf with purple skin, dark hair and yellow eyes, Cazner cuts a striking figure in the Argentate with his flamboyant dress. Around his wrists are two large, silver bracers wrapped in silver chains. When he is not seemingly sulking about something, he can be a jovial and talkative man who enjoys fine wine and well-prepared foods. He seems to find his master, Lord Baqrin Calosh, rather tiresome, though the Lord of Venbrin does not seem to pay this attitude any mind."
     ],
-    "dmArticles": {
+    "articles": {
       "False Face": [
-        "Cazner is the false form of Yabtaeid, the Djinn servant of "
+        "Cazner is actually the humanoid polymorphed form of Yabtaeid the Daring, the Djinn servant of Lord Calosh."
       ]
     }
   },
   "Franziska-Straken": {
-    "playerKnown": false,
+    "playerKnown": true,
     "hideOnCat": false,
     "name": "Franziska Straken",
     "nickname": "Archmage Franziska Straken",
@@ -209,13 +214,15 @@
     "affiliations": ["Navolin","Nost Ezel’nár"],
     "quote": "\"My, my… Teralion Elentiir, the esteemed archmage of Kilurus himself. What could possibly have been so remarkable as to drag the pureblooded advisor of Queen Inga from her frozen halls? It must be important. An arcanist of your stature wouldn't have come all the way to Sunheim with four bodyguards to sun himself on the beach.\"",
     "description": [
-      "@+Franziska Straken+@ is an Archmage of the Nost Ezel’nár and holds the title of @>Archmage of Culture and Social Protection<@. She is a tall, human woman in her mid forties with with sharp features, and graying, brown hair. She generally dresses in traditional attire of Azond, a region (and former nation-state) in northern Navolin."
+      "@+Franziska Straken+@ is an Archmage of the Nost Ezel’nár and holds the title of @>Archmage of Cultural and Social Protection<@. She is a tall, human woman in her mid forties with with sharp features, and graying, brown hair. She generally dresses in traditional attire of Azond, a region (and former nation-state) in northern Navolin."
     ],
+    "articles": {
+      "Archmage of Cultural and Social Protection": [
+        "As the @+Archmage of Culture and Social Protection+@, Franziska Straken is tasked by the Lodge of the Emerald Flame with the preservation of cultural integrity and maintaining of social order. More directly, it is her job to root out possible corrupting influences from Navolinian society. Fitting someone of her given role, she has an extensive knowledge of cults, deities and the planes. She is also responsible for the retrieval of elements of cultural importance for study, or items of great danger to civilization for containment at the Tower of Stantorr.",
+        "A divisive figure in Navolin, she has earned a reputation as a master manipulator and die hard believer in the importance of her cause. Those who value social order and rigid structures view her as a hero who will go at great lengths to achieve her goals. Those who value personal freedom and unique cultural identities tend to view her as little more than a bully, thief and dismantler of cultural heritage."
+      ]
+    },
     "dmArticles": {
-      "Roles in the Lodge": [
-        "As the @>Archmage of Culture and Social Protection<@, Franziska Straken is tasked by the Lodge of the Emerald Flame with the preservation of cultural integrity and maintaining of social order. More directly, it is her job to root out possible corrupting influences from Navolinian society. Fitting someone of her given role, she has an extensive knowledge of cults, deities and the planes. She is also responsible for the retrieval of elements of cultural importance for study, or items of great danger to civilization for containment at the Tower of Stantorr.",
-        "Known for her manipulative nature and die hard belief in the importance of her cause, Franziska is a decisive figure. Those who value social order and rigid structures view her as a hero who will go at great lengths to achieve her goals. Those who value personal freedom and unique cultural identities tend to view her as little more than a bully and a thief."
-      ],
       "The Flaming Scalpel": [
         "Franziska and the arcanists who she oversees rarely take overt public action against dangerous elements of society they uncover. Often they will infiltrate occult organizations or attempt to manipulate known members of cabals into slowly destroying the organization from the inside naturally. When this does not work, or the situation proves too far along, the archmage and her allies will approach a situation with a scorched earth mentality. They feel it better to aggressively remove the cancer from society than to miss a portion and have it reappear later, possibly even more dangerous than before.",
         "This gives the @>Archmage of Culture and Social Protection<@ a great deal of power, as what falls into the realm of \"dangerous\" is a matter of opinion."

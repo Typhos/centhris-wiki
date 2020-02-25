@@ -239,7 +239,7 @@ export default class PeopleArticle extends Component {
         content.push(
           <React.Fragment key={heading}>
             <h3 className="subheading">{heading}</h3>
-            {WikiUtils.linkContent(person, array)}
+            {WikiUtils.linkContent(person, WikiUtils.textFormatting(array))}
           </React.Fragment>
         );
       }
