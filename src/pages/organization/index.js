@@ -15,7 +15,7 @@ class Group extends Component {
 
     this.state = {
       pathname: window.location.pathname,
-      group: orgData[window.location.pathname.split('/group/')[1]],
+      group: orgData[ decodeURI(window.location.pathname.split('/group/')[1] )],
       dmView: localStorage.getItem('dmView') === 'true'
     }
 
@@ -27,7 +27,7 @@ class Group extends Component {
     if ( this.state.pathname !== nextProps.location.pathname) {
       this.setState({
         pathname: nextProps.location.pathname,
-        group: orgData[window.location.pathname.split('/group/')[1]]
+        group: orgData[decodeURI(window.location.pathname.split('/group/')[1])]
       });
     }
     
