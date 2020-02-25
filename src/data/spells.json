@@ -18,7 +18,7 @@
       "You blow the white powder from your hand, turning your breath into a chilling blast of arctic wind.",
       "@%Each creature%@ in a @%30-foot cone%@ must make a @%Constitution%@ saving throw. On a failed save, a target takes @%2d6 cold damage%@ and is @%restrained%@ in ice. On a successful save, the target takes half damage and is not restrained.",
       "To break out, the restrained target can use its action to make a @%Strength check%@ against your spell save DC. On a success, the target escapes and is no longer restrained by the ice.",
-      "@+At Higher Levels.+@ When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot above 2nd."
+      "@+At Higher Levels.+@ When you cast this spell using a spell slot of 2nd level or higher, the size of the cone increases by 10 feet and the cold damage increases by 1d6 for each slot above 2nd."
     ]
   },
   "Sheet-of-Ice": {
