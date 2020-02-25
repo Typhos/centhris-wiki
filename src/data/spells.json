@@ -13,6 +13,7 @@
     "attackOrSave": "CON Save",
     "damageEffect": "Cold",
     "materialComponent": "a handful of snow or chalk dust",
+    "classes": ["Cleric","Druid","Ranger"],
     "description": [
       "You blow the white powder from your hand, turning your breath into a chilling blast of arctic wind.",
       "@%Each creature%@ in a @%30-foot cone%@ must make a @%Constitution%@ saving throw. On a failed save, a target takes @%2d6 cold damage%@ and is @%restrained%@ in ice. On a successful save, the target takes half damage and is not restrained.",
@@ -33,6 +34,7 @@
     "school": "Conjuration",
     "attackOrSave": "DEX Save",
     "materialComponent": "a twig once frozen completely in ice",
+    "classes": ["Bard","Druid","Sorcerer","Wizard"],
     "description": [
       "You create a 3-inch-thick sheet of ice on a @%solid surface%@ within range, or spanning @%two solid anchor%@ points within range. You may choose to make the ice sheet up to @%20 feet long%@ and @%20 feet wide%@.",
       "When the sheet of ice appears, each creature within its area must make a @%Dexterity%@ saving throw. On a failed save, is knocked @%prone%@.",

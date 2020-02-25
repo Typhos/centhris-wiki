@@ -18,6 +18,11 @@
   p {
     text-indent: 0;
     font-size: 0.85rem;
+    line-height: 1.33em;
+
+    &.demiList {
+      margin: 0;
+    }
   }
 
   span.colorize {

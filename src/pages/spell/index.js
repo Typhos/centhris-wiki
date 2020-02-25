@@ -112,13 +112,13 @@ class Spell extends Component {
                   <p className="values">{spell.attackOrSave}</p>
                 </div>
               }
-              { spell.additionalImages && spell.additionalImages.map( image => {
-                  return (
-                    <div className="info mapBox">
-                        <img alt="" className="additional" src={images(`./${image}`)}/>
-                    </div>
-                  )
-                })
+              { spell.classes &&
+                <div className="info">
+                  <p className="key">Available to:</p>
+                  <div className="values">{
+                    spell.classes.map( pc => <p class="demiList">{pc}</p> )
+                  }</div>
+                </div>
               }
             </aside>
             <div className="mainContent">
