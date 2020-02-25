@@ -25,20 +25,21 @@
     "playerKnown": true,
     "name": "Sheet of Ice",
     "nickname": "Sheet of Ice",
-    "type": "Evocation",
-    "tags": ["evocation","druid","cleric","ranger"],
+    "type": "Conjuration",
+    "tags": ["conjuration","druid","cleric","ranger"],
     "level": "1st",
     "castingTime": "1 Action",
     "range": "60 ft (20 ft square)",
     "components": ["verbal","somatic","material"],
-    "duration": "Instantaneous",
+    "duration": "1 Minute",
     "school": "Evocation",
     "attackOrSave": "DEX Save",
     "materialComponent": "a twig once frozen completely in ice",
     "description": [
-      "You create a 1-inch-thick sheet of ice on a solid surface within range, or spanning two solid anchor points within range. You may choose to make the ice sheet up to @%20 feet long%@ and @%20 feet wide%@.",
+      "You create a 3-inch-thick sheet of ice on a @%solid surface%@ within range, or spanning @%two solid anchor%@ points within range. You may choose to make the ice sheet up to @%20 feet long%@ and @%20 feet wide%@.",
       "When the sheet of ice appears, each creature within its area must make a @%Dexterity%@ saving throw. On a failed save, is knocked @%prone%@.",
-      "The first time a creature attempts to move across an effected area of the ice sheet during a turn or ends its turn there, the creature must make a @%Dexterity%@ saving throw. On a failed save, it is knocked @%prone%@."
+      "The first time a creature attempts to move across an effected area of the ice sheet during a turn or ends its turn there, the creature must make a @%Dexterity%@ saving throw. On a failed save, it is knocked @%prone%@.",
+      "If the sheet of ice is suspended between two anchor points, it can hold up to @%150 lbs%@ of weight before shattering. The sheet of ice has an AC of 12 and 10 hit points, and is @%vulnerable%@ to fire damage."
     ]
   }
 }
