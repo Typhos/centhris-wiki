@@ -34,15 +34,15 @@
       ]
     }
   },
-  "Ascension-of-the-Eternal-King": {
+  "The-Great-Betrayal": {
     "playerKnown": false,
-    "name": "Ascension of the Eternal King",
-    "nickname": "Ascension of the Eternal King",
+    "name": "The Great Betrayal",
+    "nickname": "Ascension of the Betrayer",
     "dates": ["2C 837"],
     "type": "Historical Event",
-    "tags": ["event","eternal king","utharian empire","god"],
+    "tags": ["event","stygian","utharian empire","god"],
     "description": [
-      "The Ascension of the Eternal King was ascendancy of Aeldronvos Thashendar to godhood as the Stygian, Erèdin. The ascension was the inciting event in the Ruination of Centhris."
+      "The Great Betrayal was ascendancy of Aeldronvos Thashendar to godhood as the Stygian, Erèdin. The ascension was the inciting event in the Ruination of Centhris."
     ]
   },
   "The-First-Convergence": {
