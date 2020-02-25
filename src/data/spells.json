@@ -1,0 +1,44 @@
+{
+  "Biting-Hoarfrost": {
+    "playerKnown": true,
+    "name": "Biting Hoarfrost",
+    "nickname": "Biting Hoarfrost",
+    "type": "Evocation",
+    "tags": ["evocation","druid","cleric","ranger"],
+    "level": "2nd",
+    "castingTime": "1 Action",
+    "range": "Self (30 ft cone)",
+    "components": ["verbal","somatic","material"],
+    "duration": "Instantaneous",
+    "school": "Evocation",
+    "attackOrSave": "CON Save",
+    "damageEffect": "Cold",
+    "materialComponent": "a handful of snow or chalk dust",
+    "description": [
+      "You blow the white powder from your hand, turning your breath into a chilling blast of arctic wind.",
+      "@%Each creature%@ in a @%30-foot cone%@ must make a @%Constitution%@ saving throw. On a failed save, a target takes @%2d6 cold damage%@ and is @%restrained%@ in ice. On a successful save, the target takes half damage and is not restrained.",
+      "To break out, the restrained target can use its action to make a @%Strength check%@ against your spell save DC. On a success, the target escapes and is no longer restrained by the ice.",
+      "@+At Higher Levels.+@ When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot above 2nd."
+    ]
+  },
+  "Flash-Freeze": {
+    "playerKnown": true,
+    "name": "Flash Freeze",
+    "nickname": "Flash Freeze",
+    "type": "Evocation",
+    "tags": ["evocation","druid","cleric","ranger"],
+    "level": "1st",
+    "castingTime": "1 Action",
+    "range": "60 ft (30 ft square)",
+    "components": ["verbal","somatic","material"],
+    "duration": "Instantaneous",
+    "school": "Evocation",
+    "attackOrSave": "DEX Save",
+    "materialComponent": "a twig once frozen completely in ice",
+    "description": [
+      "You create a 1-inch-thick sheet of ice on a solid surface within range. You may choose to make the ice sheet up to @%30 feet long%@ and @%30 feet wide%@.",
+      "When the sheet of ice appears, each creature within its area must make a @%Dexterity%@ saving throw. On a failed save, a creature takes @%1d6 cold damage%@ and is knocked @%prone%@. On a successful save, the target takes half damage and is not knocked prone.",
+      "The first time a creature attempts to move across an effected area of the ice sheet during a turn or ends its turn there, the creature must make a @%Dexterity%@ saving throw. It takes @%1d6 cold damage%@ on a failed save, and is knocked @%prone%@. If the creature succeeds on its save, it may act normally."
+    ]
+  }
+}

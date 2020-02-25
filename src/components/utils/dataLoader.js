@@ -34,6 +34,8 @@ import fortifications   from 'data/places/fortifications';
 import dwarfHolds       from 'data/places/dwarfHolds';
 import mythic           from 'data/places/mythic';
 
+import spellData        from 'data/spells';
+
 export default class DataLoader {
 
   static places = {...structures, ...worldRegions, ...cityDistricts, ...cityStates, ...settlements, ...dungeons, ...fortifications, ...dwarfHolds, ...politicalStates, ...mythic};
@@ -53,5 +55,7 @@ export default class DataLoader {
   static calendar = {...calendarData};
 
   static historical = {...historicalData};
+
+  static spells = {...spellData};
 
 }

@@ -35,6 +35,7 @@ export default class WikiUtils {
     // ITALICS      =   @>string<@
     // BOLD         =   @+string+@
     // H4           =   @#string#@
+    // colorize     =   @%string%@
     // inline img   =   @$imgurl|caption$@
 
     // check if we need to only format a string or a single array for various reasons (see pantheon page)
@@ -52,6 +53,9 @@ export default class WikiUtils {
         } else if ( substr.includes("#") ) {
           substr = substr.replace(/#/g, "");
           substr = <h4 className="subhead" key={substr}>{substr}</h4>;
+        } else if ( substr.includes("%") ) {
+          substr = substr.replace(/%/g, "");
+          substr = <span className="colorize" key={substr}>{substr}</span>;
         } else if ( substr.includes("$") ) {
           substr = substr.replace(/\$/g, "");
           const path = substr.split(/\|/)[0];
@@ -83,6 +87,9 @@ export default class WikiUtils {
           } else if ( substr.includes("#") ) {
             substr = substr.replace(/#/g, "");
             substr = <h4 className="subhead" key={substr}>{substr}</h4>;
+          } else if ( substr.includes("%") ) {
+            substr = substr.replace(/%/g, "");
+            substr = <span className="colorize" key={substr}>{substr}</span>;
           } else if ( substr.includes("$") ) {
             substr = substr.replace(/\$/g, "");
             const path = substr.split(/\|/)[0];
