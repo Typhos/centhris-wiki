@@ -21,24 +21,24 @@
       "@+At Higher Levels.+@ When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot above 2nd."
     ]
   },
-  "Flash-Freeze": {
+  "Sheet-of-Ice": {
     "playerKnown": true,
-    "name": "Flash Freeze",
-    "nickname": "Flash Freeze",
+    "name": "Sheet of Ice",
+    "nickname": "Sheet of Ice",
     "type": "Evocation",
     "tags": ["evocation","druid","cleric","ranger"],
     "level": "1st",
     "castingTime": "1 Action",
-    "range": "60 ft (30 ft square)",
+    "range": "60 ft (20 ft square)",
     "components": ["verbal","somatic","material"],
     "duration": "Instantaneous",
     "school": "Evocation",
     "attackOrSave": "DEX Save",
     "materialComponent": "a twig once frozen completely in ice",
     "description": [
-      "You create a 1-inch-thick sheet of ice on a solid surface within range. You may choose to make the ice sheet up to @%30 feet long%@ and @%30 feet wide%@.",
-      "When the sheet of ice appears, each creature within its area must make a @%Dexterity%@ saving throw. On a failed save, a creature takes @%1d6 cold damage%@ and is knocked @%prone%@. On a successful save, the target takes half damage and is not knocked prone.",
-      "The first time a creature attempts to move across an effected area of the ice sheet during a turn or ends its turn there, the creature must make a @%Dexterity%@ saving throw. It takes @%1d6 cold damage%@ on a failed save, and is knocked @%prone%@. If the creature succeeds on its save, it may act normally."
+      "You create a 1-inch-thick sheet of ice on a solid surface within range, or spanning two solid anchor points within range. You may choose to make the ice sheet up to @%20 feet long%@ and @%20 feet wide%@.",
+      "When the sheet of ice appears, each creature within its area must make a @%Dexterity%@ saving throw. On a failed save, is knocked @%prone%@.",
+      "The first time a creature attempts to move across an effected area of the ice sheet during a turn or ends its turn there, the creature must make a @%Dexterity%@ saving throw. On a failed save, it is knocked @%prone%@."
     ]
   }
 }
