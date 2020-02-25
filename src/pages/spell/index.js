@@ -45,13 +45,27 @@ class Spell extends Component {
             <h2 className="fullName">{spell.nickname}</h2>
             <aside className="infoBox">
               <h4 className="nickname">{spell.name}</h4>
-              { images.keys().some(x => x.includes( spell.name.replace(/\s/g,"-") )) && 
-                <img className="portrait" alt="" src={ images('./' + spell.name.replace(/\s/g,"-") + '.png') }/>
+              { images.keys().some(x => x.includes( spell.school.replace(/\s/g,"-") )) && 
+                <figure className="imgBox">
+                  <img className="portrait spellSchool" alt="" src={ images('./' + spell.school.replace(/\s/g,"-") + '.png') }/>
+                </figure>
+              }
+              { spell.school &&
+                <div className="info">
+                  <p className="key">School</p>
+                  <p className="values">{spell.school}</p>
+                </div>
               }
               { spell.level &&
-                <div className="info">
+                <div className="info big">
                   <p className="key">Level</p>
-                  <p className="values">{spell.level}</p>
+                  <strong className="values green">{spell.level}</strong>
+                </div>
+              }
+              { spell.damageEffect &&
+                <div className="info">
+                  <p className="key">Damage/Effect</p>
+                  <p className="values">{spell.damageEffect}</p>
                 </div>
               }
               { spell.castingTime &&
@@ -86,34 +100,16 @@ class Spell extends Component {
                   <p className="values">{spell.materialComponent}</p>
                 </div>
               }
-              { spell.type &&
-                <div className="info">
-                  <p className="key">Type</p>
-                  <p className="values">{spell.type}</p>
-                </div>
-              }
               { spell.duration &&
                 <div className="info">
                   <p className="key">Duration</p>
                   <p className="values">{spell.duration}</p>
                 </div>
               }
-              { spell.school &&
-                <div className="info">
-                  <p className="key">School</p>
-                  <p className="values">{spell.school}</p>
-                </div>
-              }
               { spell.attackOrSave &&
                 <div className="info">
                   <p className="key">Attack/Save</p>
                   <p className="values">{spell.attackOrSave}</p>
-                </div>
-              }
-              { spell.damageEffect &&
-                <div className="info">
-                  <p className="key">Damage/Effect</p>
-                  <p className="values">{spell.damageEffect}</p>
                 </div>
               }
               { spell.additionalImages && spell.additionalImages.map( image => {

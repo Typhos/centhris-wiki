@@ -2,6 +2,19 @@
 
 #spell {
 
+  .info {
+    &.big {
+      .values {
+        font-size: 1.5em;
+      }
+    }
+
+    .green {
+      color: $moodGreen;
+    }
+  }
+
+
   p {
     text-indent: 0;
     font-size: 0.85rem;
@@ -9,6 +22,20 @@
 
   span.colorize {
     border-bottom: 1px dashed $dndGreen;
+  }
+
+  figure.imgBox {
+    border-top: 1px solid $blueLight;
+    border-bottom: 1px solid $blueLight;
+    width: 100%;
+    margin: 0;
+  }
+
+  img.spellSchool {
+    display: block;
+    max-width: 75px;
+    border: 0;
+    margin: 1em auto;
   }
 
 }
