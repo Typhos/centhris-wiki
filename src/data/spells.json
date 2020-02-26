@@ -1,4 +1,23 @@
-{
+{ 
+  "Test-Spell": {
+    "playerKnown": false,
+    "name": "Test Spell",
+    "nickname": "Test Spell",
+    "tags": ["abjuration","wizard","sorcerer"],
+    "level": "5th",
+    "castingTime": "1 Action",
+    "range": "Self",
+    "components": ["verbal","somatic","material"],
+    "duration": "1 Minute",
+    "school": "Abjuration",
+    "attackOrSave": "Spell Attack",
+    "materialComponent": "a shard of self doubt",
+    "damageEffect": "Buff",
+    "classes": ["Sorcerer","Wizard"],
+    "description": [
+      "You cast \"Test\" upon yourself in order to ensure you are still an arcane caster."
+    ]
+  },
   "Biting-Hoarfrost": {
     "playerKnown": true,
     "name": "Biting Hoarfrost",
@@ -33,6 +52,7 @@
     "duration": "1 Minute",
     "school": "Conjuration",
     "attackOrSave": "DEX Save",
+    "damageEffect": "Prone",
     "materialComponent": "a twig once frozen completely in ice",
     "classes": ["Bard","Druid","Sorcerer","Wizard"],
     "description": [

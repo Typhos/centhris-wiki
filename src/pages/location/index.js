@@ -217,7 +217,7 @@ class Location extends Component {
         if ( distData.playerKnown === true || this.state.dmView ) {
           return <li className="entry">
             <Link to={`/location/${distData.name.replace(/\s/g,"-")}`}>
-              <img className="landscape" src={districtImg || ""}/>
+              <img className="landscape" alt="" src={districtImg || ""}/>
               <p>{distData.name}</p>
             </Link>
           </li>

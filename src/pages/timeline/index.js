@@ -25,7 +25,6 @@ class Timeline extends Component {
   }
 
   render () {
-    const dates = this.orderDates();
     return (
       <Page.Default>
         <section id="lore" className="article" >

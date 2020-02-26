@@ -26,7 +26,8 @@
   }
 
   span.colorize {
-    border-bottom: 1px dashed $dndGreen;
+    // border-bottom: 1px dashed $dndGreen;
+    color: $dndGreen;
   }
 
   figure.imgBox {
@@ -41,6 +42,13 @@
     max-width: 75px;
     border: 0;
     margin: 1em auto;
+  }
+
+  .mainContent {
+    p.linkedContent {
+      margin-bottom: 1em;
+      line-height: 1.75em;
+    }
   }
 
 }

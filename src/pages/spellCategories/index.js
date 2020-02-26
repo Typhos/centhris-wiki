@@ -1,100 +1,141 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Back from '../../components/back';
+import Back from 'components/back';
+import DataLoader from 'components/utils/dataLoader';
 
 // My Components
 import WikiUtils from "components/utils/wikiUtils";
-import Search from 'components/search';
 import Page from 'components/page';
 
 // STYLES
 import 'styles/categories.scss';
-
-// DATA
-import orgData from 'data/organizations';
+import 'styles/spellCategories.scss';
 
 class SpellCategories extends Component {
 
   constructor (props) {
     super(props);
 
+    const data = DataLoader.spells;
+
     // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
     let filteredOutput = {};
     let dmView = localStorage.getItem('dmView') === 'true';
 
-    for (let [key, obj] of Object.entries(orgData)) {
+    for (let [key, obj] of Object.entries(data)) {
       if ( obj.playerKnown || dmView ) {
         filteredOutput[key] = obj;
       }
     }
 
-    const orgs = WikiUtils.sortByName( Object.keys(filteredOutput) );
+    const knownSpells = WikiUtils.sortByName( Object.keys(filteredOutput) );
 
-    let categories = orgs.map( org => {
-      return orgData[org].type;
+    let schools = knownSpells.map( spell => {
+      return data[spell].school;
     });
-    const uniqueSet = new Set(categories);
-    categories = [...uniqueSet];
+    let uniqueSet = new Set(schools);
+    schools = [...uniqueSet];
+
+    let levels = knownSpells.map( spell => {
+      return data[spell].level;
+    });
+    uniqueSet = new Set(levels);
+    levels = [...uniqueSet];
+
+    let damageEffect = knownSpells.map( spell => {
+      return data[spell].damageEffect;
+    });
+    uniqueSet = new Set(damageEffect);
+    damageEffect = [...uniqueSet];
 
     this.state = {
-      orgs: WikiUtils.sortByName( Object.keys(filteredOutput) ),
-      categories: WikiUtils.sortByName(categories),
+      spellsArray: WikiUtils.sortByName( Object.keys(filteredOutput) ),
+      levelsArray: WikiUtils.sortByName(levels),
+      schoolsArray: WikiUtils.sortByName(schools),
+      damageEffectArray: WikiUtils.sortByName(damageEffect),
+      sorting: "school",
       dmMode: dmView,
     };
 
     this.handleSearch = this.handleSearch.bind(this);
+    this.getSpellsByCat = this.getSpellsByCat.bind(this);
   }
 
   render () {
-
-    const categories = this.state.categories.map( category => {
-      return (
-        <div key={category} className="category">
-          { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 &&
-            <h2 className="sectionTitle">{category}s</h2>
-          }
-          <ul className="sectionList">
-            {this.getEntriesByCategory(category)}
-          </ul>
-        </div>
-      )
-    });
+    const schoolsArray = this.state.schoolsArray;
+    const levelsArray = this.state.levelsArray;
+    const damageEffectArray = this.state.damageEffectArray;
 
     return (
-      <Page.People>
+      <Page.Default>
         <Back/>
-        <Search handleSearch={ this.handleSearch }  data={orgData}/>
 
-        <h2 className="sectionGroup">Organizations & Groups</h2>
-        <div id="categories" >
-          {categories}
+        <h2 className="sectionGroup">Spells</h2>
+
+        <div className="subNav spells">
+          <label>Sort Spells By:</label>
+          <button className={`sortButton ${ (this.state.sorting === "school") ? "active" : ""}`} onClick={ () => { this.setState({sorting: "school"}) }}>School</button>
+          <button className={`sortButton ${ (this.state.sorting === "level") ? "active" : ""}`} onClick={() => { this.setState({sorting: "level"}) }}>Level</button>
+          <button className={`sortButton ${ (this.state.sorting === "effect") ? "active" : ""}`} onClick={() => { this.setState({sorting: "effect"}) }}>Damage / Effect</button>
         </div>
-      </Page.People>
+
+        <div id="categories" className="spells" >
+          { this.state.sorting === "school" && 
+            schoolsArray.map( school => {
+              return <div className="category" key={school}>
+                <h2 className="sectionTitle">{school}</h2>
+                {this.getSpellsByCat("school", school)}
+              </div>
+            })
+          }
+          { this.state.sorting === "level" && 
+            levelsArray.map( level => {
+              return <div className="category" key={level}>
+                <h2 className="sectionTitle">{level}</h2>
+                {this.getSpellsByCat("level", level)}
+              </div>
+            })
+          }
+          { this.state.sorting === "effect" && 
+            damageEffectArray.map( effect => {
+              return <div className="category" key={effect}>
+                <h2 className="sectionTitle">{effect}</h2>
+                {this.getSpellsByCat("damageEffect", effect)}
+              </div>
+            })
+          }
+        </div>
+      </Page.Default>
     )
-  }
-
-  getEntriesByCategory(category) {
-    const images = require.context('img/organizations/', true);
-
-    return this.state.orgs.map( org => {
-      if ( orgData[org].type === category ) {
-        let imgSrc = images.keys().some( x => x.includes( org )) &&  images('./' + orgData[org].name.replace(/\s/g,"-") + '.png')
-
-        return (
-          <li key={org} className="entry">
-            <Link to={`/group/${org}`}>
-              <img className="landscape" alt="" src={ (imgSrc) || images('./unknown.png')}/>
-              <p>{orgData[org].name}</p>
-            </Link>
-          </li>
-        )
-      }
-      return undefined;
-    });
   }
 
   handleSearch(results) {
     this.setState({orgs: results});
+  }
+
+  getSpellsByCat(category, val) {
+    const allSpells = DataLoader.spells;
+    const images = require.context('img/spellSchools/', false);
+
+    return <ul className="sectionList">
+        { Object.keys( allSpells ).map( spell => {
+          if ( allSpells[spell][category] === val ) {
+            return <li className="entry" key={spell}>
+              <Link to={`/spell/${spell}`}>
+                { images.keys().some(x => x.includes( allSpells[spell].school )) && 
+                  <figure className="imgBox">
+                    <img className="landscape noTilt spellSchool" alt="" src={ images('./' + allSpells[spell].school + '.png') }/>
+                  </figure>
+                }
+                { allSpells[spell].name }
+              </Link>
+            </li>
+          }
+          
+          return undefined;
+        }) 
+      }
+      </ul>
   }
 
 }
