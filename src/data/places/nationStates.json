@@ -15,7 +15,50 @@
     "leaders": ["King Kzesimir III"],
     "regions": ["Kelishan Highlands","Galren Moor","Damali Steppe","Tiderack Coast"],
     "description": [
+      "The largest state in eastern Ulfwyst, the Kingdom of Navolin is feudal society that stretches across the vast highlands between the Jordonis Mountains and the natural barriers to the west. Navolin is a land of vast plains, verdant forests and soggy marshland. The villages and towns that dot the land along the Sulas and Zalkow rivers provide large quantities of staple crops that feed the kingdom and beyond.",
+      "Navolin is an ancient land, with many great nations having coming before the current political structure that rules the region. Great ruins, eerie forests and stagnant bogs lie just beyond the walls of the various towns and castles. Abandoned castles, farms, windmills and even entire towns can be found along the ancient, dirt roads.",
+      "The people of Navolin, due to the constant monstrous threats that test their walls and stalk the wild lands, are deeply superstitious. Many Navolinian folk tales involve all manner of terrifying monsters, including witches, lycanthropes, devils and dragons, all trying to destroy the kingdom and its people from within."
     ],
+    "articles": {
+      "Government & Nobility": [
+        "Navolin is a highly structured, rigid, feudal society. Most everyone who lives here knows their place and few dare to challenge the tenuous order, lest it come crashing down like so many times in history before. The court of the King Kzesimir III is located in Frecyra, the capital and largest city in the kingdom, where various dukes, counts and barons vie for position in an endless political power struggle.",
+        "Most members of the nobility in the kingdom tend to be members of prestigious dynasties. Most prominent among these are Brzezick, Czak, Kaluza, Kosmatka, Ostrowski, Sebroski and Sokol lines.",
+        "Outside the capital, the rule of each fiefdom is left to the administration of its title holder and their direct vassals. This highly decentralized form of rule allows for each lord to determine what is best for their domain. Some regions, such as the Tiderack Coast (formerly the Kingdom of Azond) are ruled with an iron grip to ensure order is maintained, while other regions, such as the County of Szary, ruled by Count Jeskin Sebroski, in the south are ruled with a lighter touch under the desire to promote commerce. As with any hereditary, feudal system, these approaches can shift drastically after a chance in rulers."
+      ],
+      "Society": [
+        "Due to its central geographic location in eastern Ulfwyst, Navolinian cities are cosmopolitan by most standards. All manner of races and trade skills coalesce in these hubs of commerce, learning and protection. No peoples are barred from entry, however Navolinians are naturally superstitious people and they tend to regard “otherworldly” races with distrust. Tieflings, Genasi, Aasimar, and Tritons are viewed with mild hostility until they can prove they are not dangerous individuals."
+      ],
+      "Religion": [
+        "Religion in Navolin is not heavily regulated, however there are a limited number of commonly worshiped deities, with the some of the other common gods being considered dangerous or heretical. Veneration of deities deemed heretical is punishable with a variety of penalties, usually left up to the whim of the local authority. The following is a list of standard deities, as well as a list of banned deities and punishments for worship of outlawed gods.",
+        "@φ Commonly Worshiped Gods φ@",
+        "Navolin has a wide variety of commonly worshiped deities. As a polytheistic culture, few people, save clerics of a given god, tend to venerate one deity over another. Most gods are associated with specific aspects of life and are venerated when it is deemed appropriate or prudent. Some families, groups or even entire villages will gravitate towards the veneration of a specific god based on historical events or the strong presence of a given church.",
+        "The Guardian, the Arbiter, the Maiden, the Maker, the Wanderer, the Sage, and the Philosopher are all gods that are commonly worshiped in the kingdom, and temples or shrines of these gods can be found in most settlements.",
+
+        "@φ Non-standard Deities of Note φ@",
+        "Strangely, the Eternal is not a commonly worshiped deity in Navolin, but is not considered heretical. Generally, the Dawnfather is simply considered the god of foreigners, as he is more commonly venerated in other kingdoms, such as Tovanis or Abbasyr.",
+        "The Conqueror is not commonly worshiped outside of the high aristocracy and military elite, who venerate @λAegeroth Dagrasλ@, the aspect of the Iron General pertaining to tactics and strategy.",
+
+        "@φ Forbidden Gods φ@",
+        "Worship of the Master is not common and is technically not allowed in Navolin, but few enforce this code as most people feel such pacts invariably turn ill of their own accord. @λPunishmentλ@: small fine, or public humiliation if fine cannot be paid.",
+        "Worship of the Wyrm, and the Stygian are banned due to the tendency of their adherents to cause varying degrees of unrest. @λPunishmentλ@: Imprisonment at Castle Yrdrinlow, the notorious @λIron Citadelλ@.",
+        "The Fiend. @λPunishmentλ@: Imprisonment for worship without sedition. Public execution for worship and indications/acts of treason.",
+        "\"Improper\" Minor / Racial Deities. @λPunishmentλ@: Fine. @λRepeat Offensesλ@: Banishment."
+      ],
+      "Military": [
+        "The soldiery of Navolin is comprised of three parts: militia, levied men and the Navolinian Hussars.",
+        "@φMilitiasφ@",
+        "At the local level, protection and defense of most of Navolin is handled by militias run by an appointed member of the feudal system. Most often the local militia commander of a town or village is the local alderman, or a yeoman appointed by the local lord. More important settlements might have their military overseen by an official commander, or the local lord themselves.",
+        "@φLevied Menφ@",
+        "Roughly 70% of the Navolinian military is comprised of conscripted soldiers owning their personal allegiances to the noble house that they serve. These people range from craftsmen and peasants to low-level nobles. Though formal experience is not required, most noble houses train their levied men at regular stints (seasonally) in order to ensure if they were required for service, they can serve at maximum effectiveness.",
+        "Levied soldiers are expected to provide their own equipment if they can afford to do so. The poor or fresh recruits are provided whatever gear is available from the noble houses’ personal armories.",
+        "@λ Heavy Infantry Equipment: λ@ halberd, long sword, half plate and wooden kite shield.",
+        "@λ Light Infantry Equipment: λ@ spear, short sword, a set of chainmail and wooden round shield.",
+        "@λ Archer Equipment: λ@ longbow, dagger, and light armor, either common clothing or leathers.",
+        "@φNavolinian Hussarsφ@",
+        "Navolin’s noble class a long tradition of military involvement. Due to the nature of the terrain of Navolin, most noble families keep extensive stables and hold great pride in their horses. This, in-turn, led to an increased focus on heavy cavalry as the proper place for men of noble birth to serve their king.",
+        "@λ Standard Equipment: λ@ lance, longsword, splint mail, and a wooden norman shield. "
+      ]
+    },
     "dmArticles": {
       "History": [
         "The Kingdom of Navolin is a large, feudal state located in Eastern Ulfwyst."
@@ -38,7 +81,7 @@
     "leaders": ["Archduke Nicolai Valken"],
     "regions": ["Blighted Mire","Drakenwald","Lepkar Peninsula","Kazgrim Mountains"],
     "description": [
-      "The @+Archduchy of Zurast+@ is a growing regional power in eastern Ulfwyst. Several hundred years ago, the City of Zurast was an ordinary city-state located on the southern Sulas river near the Bay of Claws. Only within the last 60 years, through military expansion and shrewd political maneuvering, have the archdukes of Zurast successfully expanded and maintained their position as a respected regional power. As Zurast does not have a large standing military of its own, this expansion was mostly possible with the mass recruitment of foreign mercenaries.",
+      "The @βArchduchy of Zurastβ@ is a growing regional power in eastern Ulfwyst. Several hundred years ago, the City of Zurast was an ordinary city-state located on the southern Sulas river near the Bay of Claws. Only within the last 60 years, through military expansion and shrewd political maneuvering, have the archdukes of Zurast successfully expanded and maintained their position as a respected regional power. As Zurast does not have a large standing military of its own, this expansion was mostly possible with the mass recruitment of foreign mercenaries.",
         "Since it's founding as a city-state on the Sulas river, the City of Zurast has remained independent. Whether this is due to the dangers of marching an army through the region, the city's well built defenses, or the well-established trade networks in the region is hard to say. The few times that the city has been put under siege, its high, gray stone walls have never been breeched."
     ],
     "articles": {
@@ -46,11 +89,11 @@
         "The archduchy is located in southeastern Ulfwyst, between the Bay of Claws and the Mare Concordis. It is primarily centered on the Sulas river, which provides fresh water and a navigable river for trade. The state is centered around the capital City of Zurast, located 8 miles upriver from the mouth of the bay. To the northwest lies the Blighted Mire, a dangerous swath of stinking marshland. The vast Drakenwald covers much of the land south of the city, with the Kazgrim Mountains looming beyond. Though rich in resources, the region is notoriously dangerous, with monstrous creatures residing in all of these places, striking out at many settlements that attempted to conquer the dangerous areas."
       ],
       "Wars of Expansion": [
-        "Throughout the 25th century, as the financial influence of the city grew, the lords of Highwater, led Lord Mayor Fernand Valken II, later known as @>the Bold<@, found their domestic situation increasingly dangerous. The city had become overcrowded with a burgeoning population and an influx of immigrants, causing unrest due to a dearth of housing and perceived lack of upward mobility. The city-state had never sought to expand beyond its walls, but it seemed there was now a need for more land to house the growing Zurastian population.",
-        "Receiving word that the clans of Lemuria were exhausted from conflicts with yet another horde of raiders from the Venngar Sea, and knowing that inaction would result in possible civil revolt, the lord mayor called for able bodied soldiers willing to earn land as part of an expansion campaign. After an extensive recruitment drive, the nobles of Highwater were dismayed to discovered their forces numbered only @>4,000<@ soldiers, not nearly enough for an aggressive campaign into the northern border of Lemuria, through the dangerous Drakenwald. Hoping to avoid open war, the lord mayor sent a formal demand for annexation of the Lepkar Peninsula to the High King in Kilurus, stating that if the land was not granted, it would be taken by force. After 3 long weeks, the Lemurians rejected the demands and formally declared the start of open war, now known as the War of Red Claws.",
-        "Having expected this response from the proud clans of the south, Fernand and his council chose the only viable alternative, mercenary soldiers. Spending huge sums of coin, well over @+2 million Helms+@, the nobles of the city hired an addition @>8,000<@ soldiers for the expected six month campaign.",
-        "Over the course of only 5 months, the highly trained soldiers of the Zurastian mercenaries, along with the inexperienced recruits from the city-state smashed the war weary armies of the clans of Lemuria. On the 17th of Dusvar 2C 2481, the Treaty of Lepkar was signed and Fernand Valken II was declared the @>First Archduke of Zurast<@.",
-        "@#Expansion & Consolidation#@",
+        "Throughout the 25th century, as the financial influence of the city grew, the lords of Highwater, led Lord Mayor Fernand Valken II, later known as @λthe Boldλ@, found their domestic situation increasingly dangerous. The city had become overcrowded with a burgeoning population and an influx of immigrants, causing unrest due to a dearth of housing and perceived lack of upward mobility. The city-state had never sought to expand beyond its walls, but it seemed there was now a need for more land to house the growing Zurastian population.",
+        "Receiving word that the clans of Lemuria were exhausted from conflicts with yet another horde of raiders from the Venngar Sea, and knowing that inaction would result in possible civil revolt, the lord mayor called for able bodied soldiers willing to earn land as part of an expansion campaign. After an extensive recruitment drive, the nobles of Highwater were dismayed to discovered their forces numbered only @λ4,000λ@ soldiers, not nearly enough for an aggressive campaign into the northern border of Lemuria, through the dangerous Drakenwald. Hoping to avoid open war, the lord mayor sent a formal demand for annexation of the Lepkar Peninsula to the High King in Kilurus, stating that if the land was not granted, it would be taken by force. After 3 long weeks, the Lemurians rejected the demands and formally declared the start of open war, now known as the War of Red Claws.",
+        "Having expected this response from the proud clans of the south, Fernand and his council chose the only viable alternative, mercenary soldiers. Spending huge sums of coin, well over @β2 million Helmsβ@, the nobles of the city hired an addition @λ8,000λ@ soldiers for the expected six month campaign.",
+        "Over the course of only 5 months, the highly trained soldiers of the Zurastian mercenaries, along with the inexperienced recruits from the city-state smashed the war weary armies of the clans of Lemuria. On the 17th of Dusvar 2C 2481, the Treaty of Lepkar was signed and Fernand Valken II was declared the @λFirst Archduke of Zurastλ@.",
+        "@φExpansion & Consolidationφ@",
         "Over the course of the next 60 years, Zurast would undertake several further wars of expansion using the same tactics that had won them their first campaign in Lepkar. These campaigns, known as the War of the Black Bog, the Three Years War and the War of Sellswords, expanded the archduchy's territory to its current borders. Each time, when the political situation in the city of Zurast would become untenable, the Archduke and the nobles of Highwater would call for volunteers and then hire mercenaries to fill out their ranks.",
         "After each conflict, the archduchy would use the same process of consolidation as well. First, the mercenary companies hired would receive a bonus based on the success of the campaign. This payment was granted under the expectation that the mercenaries would not take up arms against the Archduchy for a period of at least five years following. In this way, the nobles ensured that their weakened neighbors would not be able to purchase the forces required for retaliation."
       ]
@@ -75,6 +118,8 @@
       "One of the largest states in eastern Ulfwyst, the clans of Lemuria control the frigid lands that surround the tempestuous Korin Gulf. Lemuria is a harsh and dangerous land, full of savage beasts, perilous terrain and volatile weather. The people who live here are large, willful, and daring. Over the millennia amongst the crags, glaciers, ice flows and howling woods, the people have developed an understanding with the land they inhabit."
     ],
     "articles":{
+      "Society": [],
+      "Military": [],
       "People of the Land": [
         "Due to the vast amount of natural wilderness that exists in this remote region of Ulfwyst, there is an innate connection in Lemuria with the Feywild. Many people claim to see fey spirits roaming the hills or dancing in the ancient forests.",
         "With this fey connection comes a peculiar phenomena: Lemuria has the highest concentration of half-elves in all of Ulfwyst, possibly in all of Centhris. It is not uncommon for a man or woman to disappear for years at a time, only to return from some far off place with a child in tow, a reminder of fleeting tryst with a fey from beyond the mortal realms. Half-elves are viewed as normal, or in some eyes, blessed people who have been touched by the realms beyond."
@@ -111,18 +156,18 @@
     "leaders": ["Han Darga Vaburk of Clan Godak"],
     "regions": ["Ossin River","Torick-Vir Valley","Torick Peaks","Vir Mountains","Venngar Sea"],
     "description": [
-      "A mid-sized state in southern Ulfwyst, the @+Realm of Cibrin+@ is a harsh land sitting between the Torick Peaks and Vir Mountain ranges, south of the Theocracy of Tovanis. Most of the kingdom is comprised of dangerous, untamed forest and craggy hills.",
+      "A mid-sized state in southern Ulfwyst, the @βRealm of Cibrinβ@ is a harsh land sitting between the Torick Peaks and Vir Mountain ranges, south of the Theocracy of Tovanis. Most of the kingdom is comprised of dangerous, untamed forest and craggy hills.",
       "Cibrin is an ancient land, and its people still remember the old ways. The harsh environments that make up the territory have caused the various fractured groups of peoples that live in the country to put aside their difference in order to survive. All are welcome under the banner of the chiefs, so long as they abide by the rules of the clan they live under.",
       "This is a place of ever-present dangers. Monsters stalk the woods. Giants, Trolls and Ogres walk the mountain passes. Great, horrific beasts roam the shore and sea. From below, horrors of the Underdark regularly appear during the long winter nights to raid the surface. The people who live here fear little, but are ever-vigilant against the constant dangers around them."
     ],
     "articles": {
       "Clan Law": [
         "Each clan is within its rights to set its own laws and codes, so long as they do not come into conflict with the overarching tenants of the Clan system.",
-        "@#Customs of the Clans#@",
-        "@+Provide for the Clan and the Clan Provides+@: All members of a clan are expected to provide half of what they earn or create as tribute to their community. The chief and their people then provide equitable goods based on need from clan stores. None are to go without, and none should have more than they need.",
-        "@+Honor Above All+@: The highest honor one can achieve in their lifetime in their clan is a Totem of Honor. One's honor is worth more than gold. If someone dishonors themselves in the eyes of the clan, be it in battle, business or socially, they are exiled and their name is stripped from all records.","The harshest offenses carry a two-fold punishment. The clan seer first conducts the magical Rite of Cleansing, which permanently removes someone from the minds of all members of the clan, save the executioner. The clan member is then executed, knowing they have been almost completely forgotten.",
-        "@+Heed the Call+@: All are expected to be fit to fight and defend their homeland. Martial prowess is valued as much as business acumen or scholarly knowledge. Even the village potter and tailor are expected to hone their craft alongside their martial skill.",
-        "@+Embrace the Storm+@: The weather of Cibrin is a near constant battering of ocean storms, blizzards, and cutting winds. The people of this land worship many gods, but chief among them is The Thunder King. The clans honor Ukrom in a variety of ways, but many of them embrace the Tempest Karsoz, the Aspect of Glory."
+        "@φCustoms of the Clansφ@",
+        "@βProvide for the Clan and the Clan Providesβ@: All members of a clan are expected to provide half of what they earn or create as tribute to their community. The chief and their people then provide equitable goods based on need from clan stores. None are to go without, and none should have more than they need.",
+        "@βHonor Above Allβ@: The highest honor one can achieve in their lifetime in their clan is a Totem of Honor. One's honor is worth more than gold. If someone dishonors themselves in the eyes of the clan, be it in battle, business or socially, they are exiled and their name is stripped from all records.","The harshest offenses carry a two-fold punishment. The clan seer first conducts the magical Rite of Cleansing, which permanently removes someone from the minds of all members of the clan, save the executioner. The clan member is then executed, knowing they have been almost completely forgotten.",
+        "@βHeed the Callβ@: All are expected to be fit to fight and defend their homeland. Martial prowess is valued as much as business acumen or scholarly knowledge. Even the village potter and tailor are expected to hone their craft alongside their martial skill.",
+        "@βEmbrace the Stormβ@: The weather of Cibrin is a near constant battering of ocean storms, blizzards, and cutting winds. The people of this land worship many gods, but chief among them is The Thunder King. The clans honor Ukrom in a variety of ways, but many of them embrace the Tempest Karsoz, the Aspect of Glory."
       ]
     },
     "dmArticles":{

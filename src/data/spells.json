@@ -35,9 +35,9 @@
     "classes": ["Cleric","Druid","Ranger"],
     "description": [
       "You blow the white powder from your hand, turning your breath into a chilling blast of arctic wind.",
-      "@%Each creature%@ in a @%30-foot cone%@ must make a @%Constitution%@ saving throw. On a failed save, a target takes @%2d6 cold damage%@ and is @%restrained%@ in ice. On a successful save, the target takes half damage and is not restrained.",
-      "To break out, the restrained target can use its action to make a @%Strength check%@ against your spell save DC. On a success, the target escapes and is no longer restrained by the ice.",
-      "@+At Higher Levels.+@ When you cast this spell using a spell slot of 3rd level or higher, the size of the cone increases by 10 feet and the cold damage increases by 1d6 for each slot above 2nd."
+      "@εEach creatureε@ in a @ε30-foot coneε@ must make a @εConstitutionε@ saving throw. On a failed save, a target takes @ε2d6 cold damageε@ and is @εrestrainedε@ in ice. On a successful save, the target takes half damage and is not restrained.",
+      "To break out, the restrained target can use its action to make a @εStrength checkε@ against your spell save DC. On a success, the target escapes and is no longer restrained by the ice.",
+      "@βAt Higher Levels.β@ When you cast this spell using a spell slot of 3rd level or higher, the size of the cone increases by 10 feet and the cold damage increases by 1d6 for each slot above 2nd."
     ]
   },
   "Sheet-of-Ice": {
@@ -56,10 +56,10 @@
     "materialComponent": "a twig once frozen completely in ice",
     "classes": ["Bard","Druid","Sorcerer","Wizard"],
     "description": [
-      "You create a 3-inch-thick sheet of ice on a @%solid surface%@ within range, or spanning @%two solid anchor%@ points within range. You may choose to make the ice sheet up to @%20 feet long%@ and @%20 feet wide%@.",
-      "When the sheet of ice appears, each creature within its area must make a @%Dexterity%@ saving throw. On a failed save, is knocked @%prone%@.",
-      "The first time a creature attempts to move across an effected area of the ice sheet during a turn or ends its turn there, the creature must make a @%Dexterity%@ saving throw. On a failed save, it is knocked @%prone%@.",
-      "If the sheet of ice is suspended between two anchor points, it can hold up to @%150 lbs%@ of weight before shattering. The sheet of ice has an AC of 12 and 10 hit points, and is @%vulnerable%@ to fire damage."
+      "You create a 3-inch-thick sheet of ice on a @εsolid surfaceε@ within range, or spanning @εtwo solid anchorε@ points within range. You may choose to make the ice sheet up to @ε20 feet longε@ and @ε20 feet wideε@.",
+      "When the sheet of ice appears, each creature within its area must make a @εDexterityε@ saving throw. On a failed save, is knocked @εproneε@.",
+      "The first time a creature attempts to move across an effected area of the ice sheet during a turn or ends its turn there, the creature must make a @εDexterityε@ saving throw. On a failed save, it is knocked @εproneε@.",
+      "If the sheet of ice is suspended between two anchor points, it can hold up to @ε150 lbsε@ of weight before shattering. The sheet of ice has an AC of 12 and 10 hit points, and is @εvulnerableε@ to fire damage."
     ]
   }
 }

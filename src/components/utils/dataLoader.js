@@ -25,7 +25,7 @@ import orgData  from 'data/organizations';
 // ==== ALL DATA IMPORTS FOR LOCATIONS
 import structures       from 'data/places/structures';
 import worldRegions     from 'data/places/worldRegions';
-import politicalStates  from 'data/places/politicalStates';
+import politicalStates  from 'data/places/nationStates';
 import cityDistricts    from 'data/places/cityDistricts';
 import cityStates       from 'data/places/cityStates';
 import settlements      from 'data/places/settlements';

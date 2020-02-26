@@ -32,7 +32,7 @@
     "shrineImg": ["shrine-guardian.png"],
     "tags": ["Greater Deity","dragons","good","lawful","life","justice","protection","knight","paladin"],
     "description": [
-        "@+The Guardian+@, Bahamut, is the God-King of all good dragons and the protector of mortals. Bahamut is one of the the most renowned gods among mortal races of Centhris, and is said to command a deep respect within the Pantheon, even from those who would view him as an enemy. The Guardian and his worshipers value life, and do not harm other creatures needlessly. In battle, his servants follow a strict code of martial conduct, and generally are unwilling to harm an opponent that is unable to defend itself.",
+        "@βThe Guardianβ@, Bahamut, is the God-King of all good dragons and the protector of mortals. Bahamut is one of the the most renowned gods among mortal races of Centhris, and is said to command a deep respect within the Pantheon, even from those who would view him as an enemy. The Guardian and his worshipers value life, and do not harm other creatures needlessly. In battle, his servants follow a strict code of martial conduct, and generally are unwilling to harm an opponent that is unable to defend itself.",
         "The Guardian is said to be proud beyond reproach. His canon states that pride is necessary for any creature to be magnanimous; one has to believe in standards for themselves, and strive to surpass them, before standards can be applied to others. Many followers adhere to this ideal, often resulting other viewing his church as haughty and aloof."
     ],
     "articles": {
@@ -165,7 +165,7 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","neutral good","Courage","War","Life","knight","paladin"],
     "description": [
-        "@+The Champion+@, Isilena, is generally depicted as a powerful woman with long, flowing, white hair, who is clad in heavy armor and wielding a longsword. She is the patron of the soldiers, knights and questing paladins. Many soldiers who were overcome with a battle frenzy claim to have seen her in the midst of battle, fighting on the side of victors of the conflict. Many soldiers pray to her before battle for protection, inspiration and courage. So common is her worship in camp that clerics of the Champion often march behind an army's column, carrying mobile shrines and relics of the goddess.",
+        "@βThe Championβ@, Isilena, is generally depicted as a powerful woman with long, flowing, white hair, who is clad in heavy armor and wielding a longsword. She is the patron of the soldiers, knights and questing paladins. Many soldiers who were overcome with a battle frenzy claim to have seen her in the midst of battle, fighting on the side of victors of the conflict. Many soldiers pray to her before battle for protection, inspiration and courage. So common is her worship in camp that clerics of the Champion often march behind an army's column, carrying mobile shrines and relics of the goddess.",
         "She is also the hero and patron to the downtrodden. Many suffering people pray to the Champion for aid and when help arrives, it is the Champion that most often receives credit for ushering the would-be hero along their path.",
         "The Champion's ancient foe is the Fiend, the Dread King of the Burning Abyss, whom she has fought in numerous battles against throughout the eons."
     ],
@@ -218,7 +218,7 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful neutral","Knowledge","Civilization","Law"],
     "description": [
-      "Kezolet, @+the Arbiter+@, is depicted as a graceful, otherworldly figure clad in robes and ornamental jewelry. The Arbiter is generally portrayed as having an inhuman form, with multiple sets of arms and a face devoid of features. They are depicted with as a tranquil god, serene and detached; not allowing outside forces effect sway their judgments. They embody the ideals of civilized order, including law, order, construction, roads and the crafting of items used in everyday life, such as glassware, pottery, leather work, and jewelry.",
+      "Kezolet, @βthe Arbiterβ@, is depicted as a graceful, otherworldly figure clad in robes and ornamental jewelry. The Arbiter is generally portrayed as having an inhuman form, with multiple sets of arms and a face devoid of features. They are depicted with as a tranquil god, serene and detached; not allowing outside forces effect sway their judgments. They embody the ideals of civilized order, including law, order, construction, roads and the crafting of items used in everyday life, such as glassware, pottery, leather work, and jewelry.",
       "The Church of the Arbiter is often associated with legal systems, civil infrastructure and fortifications. Many clerics of the Arbiter are skilled engineers or legal scholars. Many temples to the Lord of Order double as court houses, town halls or other civic buildings. "
     ],
     "articles": {
@@ -257,7 +257,7 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity",""],
     "description": [
-      "@+The Maiden+@, Yelensa, is most often depicted as a young, pale, beautiful woman with dark hair. Every culture tends to depict Yelensa slightly differently, depending on their own interpretation of how a young woman should dress and act. She is the patron of the mariners and night watchmen. Many female spellcasters, good and neutral lycanthropes also worship her as their patron deity. She is the keeper of the Three Sisters and is referred to as the Mother of the Three. She is said to appear to lost or weary souls on nights when Idrothea, the Amber Moon, is full, offering guidance and comfort. As the patron of the moons of Centhris, the Maiden is associated with the tides of the oceans of the world, as well as with the night sky. She is seen as the keeper of other celestial gods, such as the Stellar Wolf and the Shimmering Sky.",
+      "@βThe Maidenβ@, Yelensa, is most often depicted as a young, pale, beautiful woman with dark hair. Every culture tends to depict Yelensa slightly differently, depending on their own interpretation of how a young woman should dress and act. She is the patron of the mariners and night watchmen. Many female spellcasters, good and neutral lycanthropes also worship her as their patron deity. She is the keeper of the Three Sisters and is referred to as the Mother of the Three. She is said to appear to lost or weary souls on nights when Idrothea, the Amber Moon, is full, offering guidance and comfort. As the patron of the moons of Centhris, the Maiden is associated with the tides of the oceans of the world, as well as with the night sky. She is seen as the keeper of other celestial gods, such as the Stellar Wolf and the Shimmering Sky.",
       "Clerics of the Dreamweaver are dedicated to shedding light in dark places. In towns and cities, temples to the Maiden are often lighthouses or watchtowers that are lit as beacons. In the wilderness, disciples of Yelensa will establish watchtowers or outposts to act as safe places to rest for the evening and guard against dangerous creatures. In some parts of the world, lycanthropy is considerd the goddess' blessing and some radical sects will spread lycanthropy among their members, or seek out less vicious forms of lycanthropy to prove their dedication to the goddess."
     ],
     "articles": {
@@ -328,7 +328,7 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic neutral"],
     "description": [
-      "@+The Harlequin+@, Jandivar, is the trickster god and the patron god of artists, bards, entertainers, and diplomats. The Harlequin has many aspects, and at times what they represent can be synonymous or contradictory. The Harlequin is a consummate performer above all else, with a playful, debonair personality. They are said to possess an impeccable memory about any piece of lore, person or place they encounter. It is said that so perfect is the Harlequin's mimicry of even their fellow gods that on numerous occasions the Harlequin has impersonated other divines without their fellow deities being aware.",
+      "@βThe Harlequinβ@, Jandivar, is the trickster god and the patron god of artists, bards, entertainers, and diplomats. The Harlequin has many aspects, and at times what they represent can be synonymous or contradictory. The Harlequin is a consummate performer above all else, with a playful, debonair personality. They are said to possess an impeccable memory about any piece of lore, person or place they encounter. It is said that so perfect is the Harlequin's mimicry of even their fellow gods that on numerous occasions the Harlequin has impersonated other divines without their fellow deities being aware.",
       "The Harlequin is said to be egotistical, and adores being the center of attention. They cannot stand the idea of not receiving adoration for their clever pranks and would grow easily bored if they were not showered with accolades. The Harlequin is said to be an irreverent philanderer, and has been said to flirt with both mortals and gods alike."
     ],
     "articles": {
@@ -389,7 +389,7 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic good","chaos","tempest","storms","lightning","thunder"],
     "description": [
-      "@+The Tempest+@, Ukrom, is the god of Strength, Storms, Athletics and Brawling. He is generally depicted as a huge, muscle-bound man with dark skin, large beard and bald head. In civilized places he is worshiped as the god of athletes, boxers and wrestlers, with his more barbaric and primal aspects are downplayed.",
+      "@βThe Tempestβ@, Ukrom, is the god of Strength, Storms, Athletics and Brawling. He is generally depicted as a huge, muscle-bound man with dark skin, large beard and bald head. In civilized places he is worshiped as the god of athletes, boxers and wrestlers, with his more barbaric and primal aspects are downplayed.",
       "In regions that are untamed, he is viewed as the Thunder King, the chaotic, yet merciful, god of might and adventure. His followers delight in adventure, glory and the thrill of battle. Sailors and port-towns also pay homage to his place as the Lord of Storms, the god of maelstroms. Sailors will often pray to the Tempest for protection on voyages, seeking his guiding hand in their journey.",
       "The legends of the gods claim that Ukrom views the Conqueror as both a great rival and a drinking companion. The two, though completely opposed in their ideology are battle brothers who value each other's strength. It is said that the two gods have held 999 contests of strength. The cult of the Tempest claims that Ukrom has bested his brother a single time more, while the Church of the Conqueror claims that Aegeroth has the edge in the godly contest."
     ],
@@ -411,7 +411,7 @@
         "Most major ports have a temple dedicated to the Tempest Nautica and many fishing villages keep a shrine to the tempest on a location overlooking the shore. In this way, sailors may conduct rites of veneration before heading out onto the waves. Generally, the longer and more daring the voyage, the larger the offering that is made. This generally comes in the form of a tithe to the temple, a grand feast or a display of strength or athleticism, such as a wrestling contest with the champion of the temple."
       ],
       "Cult of the Tempest Karsoz": [
-        "The people of Cibrin embrace the teachings of Ukrom unquestioningly. They value strength, glory and adventure so completely that they embrace the Ukrom's @>Aspect of Glory<@, his commandment to seek out valor and glory aggressively. Many members of the clans of Cibrin will regularly call for adventurous souls willing to serve in mercenary companies in foreign lands, so long as they do not act against their homeland. Many coastal tribes will form raiding parties and sail out into the Venngar Sea and on to the Korin Gulf to raid the coasts of Lemuria, Tovanis or Zurast. Though momentary enrichment is a benefit of such actions, many of the raiders do not seek physical wealth, but instead hope to earn glory and honor @>Tempest Karsoz<@."
+        "The people of Cibrin embrace the teachings of Ukrom unquestioningly. They value strength, glory and adventure so completely that they embrace the Ukrom's @λAspect of Gloryλ@, his commandment to seek out valor and glory aggressively. Many members of the clans of Cibrin will regularly call for adventurous souls willing to serve in mercenary companies in foreign lands, so long as they do not act against their homeland. Many coastal tribes will form raiding parties and sail out into the Venngar Sea and on to the Korin Gulf to raid the coasts of Lemuria, Tovanis or Zurast. Though momentary enrichment is a benefit of such actions, many of the raiders do not seek physical wealth, but instead hope to earn glory and honor @λTempest Karsozλ@."
       ]
     }
   },
@@ -419,6 +419,7 @@
     "playerKnown": true,
     "name": "The Philosopher",
     "nickname": "The Philosopher",
+    "linkingWords": ["Nevondria", "the Philosopher"],
     "trueName": "Nevondria",
     "portfolio": [
       "Knowledge",
@@ -435,7 +436,6 @@
     ],
     "symbol": "Outline of a face with three eyes",
     "shrineImg": ["shrine-philosopher.png"],
-    "linkingWords": ["Nevondria", "the Philosopher"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful neutral"],
     "description": [
@@ -560,7 +560,7 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful evil"],
     "description": [
-      "Aegeroth, @+the Conqueror+@, is often depicted as a tall humanoid wearing dark, heavy armor. Aegoroth's personal weapons are @+Jor`umoth+@, @>the Blazing Cleaver<@, a great flaming battleaxe made of black iron, and @+Olmoraz+@, @>the Blade of Torment<@, a serrated broad sword made from the bones of Obscalyx, the great sea serpent, whom the Iron General slew in the ancient era of the First Convergence.",
+      "Aegeroth, @βthe Conquerorβ@, is often depicted as a tall humanoid wearing dark, heavy armor. Aegoroth's personal weapons are @βJor`umothβ@, @λthe Blazing Cleaverλ@, a great flaming battleaxe made of black iron, and @βOlmorazβ@, @λthe Blade of Tormentλ@, a serrated broad sword made from the bones of Obscalyx, the great sea serpent, whom the Iron General slew in the ancient era of the First Convergence.",
       "As the embodiment of war, conflict and strife, the Conqueror is the patron of warlords, dictators and any who seek honor or status through marshal means. He is often worshiped alongside other deities, and the faithful see him as a figure of protection, albeit a harsh one. Military commanders and marshals of knightly orders will often invoke his name before the start of a battle in the hope he will bless their side of the conflict. Those who would \"do what needs to be done for the greater good\" falls under the Conqueror's mantle. Many of his clerical servants follow Aegeroth under the belief that it takes strong will and courage to make the world a better place even if the methods are grim.",
       "Some are naturally called to his service, but many of the followers of the Conqueror come follow him after the youthful idealism of the Guardian or the Champion fail them. It is then, when the harsh reality of a dangerous world sets in, that the Cult of the Conqueror may have a point."
     ],
@@ -653,7 +653,7 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic evil","chaos","demons"],
     "description": [
-      "@+The Fiend+@ is known across Centhris by many pseudonyms, but so feared is the Dread King of the Burning Abyss that few know his true name and even fewer are willing to invoke his true name under any circumstance. To common folk, he is the terror that stalks mortal nightmares. To the powerful and learned, the Fiend is considered the most dangerous and powerful threat to the stability of the mortal world, for he is the supreme lord of all demons, the commander of the infinite chaos the Burning Abyss, and a warrior to rival the Guardian and the Champion. It is said that should he walk the material plane again, it would usher in an age of destruction and death to rival the Ruination or the First Convergence."
+      "@βThe Fiendβ@ is known across Centhris by many pseudonyms, but so feared is the Dread King of the Burning Abyss that few know his true name and even fewer are willing to invoke his true name under any circumstance. To common folk, he is the terror that stalks mortal nightmares. To the powerful and learned, the Fiend is considered the most dangerous and powerful threat to the stability of the mortal world, for he is the supreme lord of all demons, the commander of the infinite chaos the Burning Abyss, and a warrior to rival the Guardian and the Champion. It is said that should he walk the material plane again, it would usher in an age of destruction and death to rival the Ruination or the First Convergence."
     ],
     "articles": {
       "The Dark Cult": [

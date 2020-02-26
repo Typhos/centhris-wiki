@@ -31,77 +31,60 @@ export default class WikiUtils {
 
     // This function allows for content entries to be formatted before linking. 
     // Text in entries must be wrapped with a specific indicator in order to receive the following formatting:
-    // No Links     =   @;string;@
-    // ITALICS      =   @>string<@
-    // BOLD         =   @+string+@
-    // H4           =   @#string#@
-    // colorize     =   @%string%@
-    // inline img   =   @$imgurl|caption$@
+    // No Links     =   @Ϫ string Ϫ@  Ϫ
+    // ITALICS      =   @λ string λ@  λ
+    // BOLD         =   @β string β@  β
+    // H4           =   @φ string φ@  φ
+    // colorize     =   @ε string ε@  ε
+    // inline img   =   @Ω imgurl | caption Ω@  Ω
 
-    // check if we need to only format a string or a single array for various reasons (see pantheon page)
-    if ( typeof entryData === "string" ) {
-      entryData = entryData.split(/@(.*?)@/).map( substr => {
-        if ( substr.includes(">") ) {
-          substr = substr.replace(/>|</g, "");
-          substr = <i>{substr}</i>;
-        } else if ( substr.includes(";") ) {
-          substr = substr.replace(/;/g, "");
-          substr = <span>{substr}</span>;
-        } else if ( substr.includes("+") ) {
-          substr = substr.replace(/\+/g, "");
-          substr = <strong>{substr}</strong>;
-        } else if ( substr.includes("#") ) {
-          substr = substr.replace(/#/g, "");
-          substr = <h4 className="subhead" key={substr}>{substr}</h4>;
-        } else if ( substr.includes("%") ) {
-          substr = substr.replace(/%/g, "");
-          substr = <span className="colorize" key={substr}>{substr}</span>;
-        } else if ( substr.includes("$") ) {
-          substr = substr.replace(/\$/g, "");
-          const path = substr.split(/\|/)[0];
-          const caption = substr.split(/\|/)[1];
-          const inlineImg = images.keys().filter(x => x === path);
-          
-          substr = <figure className="articleImgBox">
-            {/*<a href={`${images(`${inlineImg}`)}`} target="_blank" rel="noopener noreferrer">*/}
-              <img src={`${images(`${inlineImg}`)}`} className="articleImg" alt={caption} onClick={this.expandedImageModal} />
-            {/*</a>*/}
-            <figcaption className="imgCaption">{caption}</figcaption>
-          </figure>
-        }
+    if (typeof entryData === "string") entryData = [entryData];
 
-        return substr;
-      });
-    } else if ( Array.isArray(entryData) ) {
+    if ( Array.isArray(entryData) ) {
+
       entryData = entryData.map( string => {
+
         return string.split(/@(.*?)@/).map( substr => {
-          if ( substr.includes(">") ) {
-            substr = substr.replace(/>|</g, "");
+
+          if ( substr.includes("λ") ) {
+
+            substr = substr.replace(/λ/g, "");
             substr = <i key={substr}>{substr}</i>;
-          } else if ( substr.includes(";") ) {
-            substr = substr.replace(/;/g, "");
+
+          } else if ( substr.includes("Ϫ") ) {
+
+            substr = substr.replace(/Ϫ/g, "");
             substr = <span>{substr}</span>;
-          } else if ( substr.includes("+") ) {
-            substr = substr.replace(/\+/g, "");
+
+          } else if ( substr.includes("β") ) {
+
+            substr = substr.replace(/β/g, "");
             substr = <strong key={substr}>{substr}</strong>;
-          } else if ( substr.includes("#") ) {
-            substr = substr.replace(/#/g, "");
+          
+          } else if ( substr.includes("φ") ) {
+            
+            substr = substr.replace(/φ/g, "");
             substr = <h4 className="subhead" key={substr}>{substr}</h4>;
-          } else if ( substr.includes("%") ) {
-            substr = substr.replace(/%/g, "");
+          
+          } else if ( substr.includes("ε") ) {
+            
+            substr = substr.replace(/ε/g, "");
             substr = <span className="colorize" key={substr}>{substr}</span>;
-          } else if ( substr.includes("$") ) {
-            substr = substr.replace(/\$/g, "");
+          
+          } else if ( substr.includes("Ω") ) {
+            
+            substr = substr.replace(/Ω/g, "");
             const path = substr.split(/\|/)[0];
             const caption = substr.split(/\|/)[1];
             const inlineImg = images.keys().filter(x => x === path);
 
             substr = <figure className="articleImgBox">
-            <a href={`${images(`${inlineImg}`)}`} target="_blank" rel="noopener noreferrer">
-              <img src={`${images(`${inlineImg}`)}`} className="articleImg" alt={caption} onClick={this.expandedImageModal} />
-            </a>
-              <figcaption className="imgCaption">{caption}</figcaption>
-            </figure>
+                      <a href={`${images(`${inlineImg}`)}`} target="_blank" rel="noopener noreferrer">
+                        <img src={`${images(`${inlineImg}`)}`} className="articleImg" alt={caption} onClick={this.expandedImageModal} />
+                      </a>
+                      <figcaption className="imgCaption">{caption}</figcaption>
+                    </figure>;
+
           }
 
           return substr;

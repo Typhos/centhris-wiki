@@ -184,7 +184,7 @@ class Location extends Component {
 
               { descriptionEntries }
 
-              { this.personsList() }
+              {/* { this.personsList() } */}
             </div>
 
           </article>
