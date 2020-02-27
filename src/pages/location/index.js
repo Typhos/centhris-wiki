@@ -231,7 +231,7 @@ class Location extends Component {
         list = 
         <div id="categories">
           <div className="category">
-            <h3 className="subheading">Districts</h3>
+            <h3 className="subjectArea">Districts</h3>
             <ul className="sectionList">
             {
               listItems
@@ -286,7 +286,7 @@ class Location extends Component {
     if ( lis.length > 0 ) {
       return (
         <React.Fragment>
-          <h3 className="subheading">Related People</h3>
+          <h3 className="subjectArea">Related People</h3>
           <ul id="categories" className="articleList" key={Math.random()}>
             {lis}
           </ul>
@@ -305,7 +305,7 @@ class Location extends Component {
       for ( let [heading, array] of Object.entries(articles) ) {
         content.push(
           <React.Fragment key={heading}>
-            <h3 className="subheading">{heading}</h3>
+            <h3 className="subjectArea">{heading}</h3>
             {WikiUtils.linkContent(location, WikiUtils.textFormatting(array) )}
           </React.Fragment>
         );
@@ -317,7 +317,7 @@ class Location extends Component {
       for ( let [heading, array] of Object.entries(location.dmArticles) ) {
         content.push(
           <React.Fragment key={heading}>
-            <h3 className="subheading">{heading}</h3>
+            <h3 className="subjectArea">{heading}</h3>
             {WikiUtils.linkContent(location, WikiUtils.textFormatting(array) )}
           </React.Fragment>
         );

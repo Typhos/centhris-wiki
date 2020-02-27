@@ -16,15 +16,26 @@ h2.fullName {
   border-bottom: 1px solid $blue;
 }
 
-h3.subheading {
-  font-family: $headingText;
+h3.subjectArea {
   font-weight: 700;
-  font-size: 1.25em;
-  letter-spacing: 0.1em;
+  font-size: 1.5em;
+  letter-spacing: 0.05em;
   margin-top: 2em;
-  line-height: 2em;
-  border-bottom: 1px solid $blueDark;
+  line-height: 1.33em;
+  border-bottom: 1px solid rgba($charcoal,0.66);
   overflow: hidden;
+}
+
+h4.subheading {
+  font-family: $headingText;
+  color: $charcoal;
+  line-height: 2em;
+  font-size: 1.35em;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  display: inline-block;
+  padding: 0;
+  margin: 0.5em 0 0;
 }
 
 main.content {
@@ -116,20 +127,6 @@ main.content {
       }
     }
 
-    h4.subhead {
-      font-family: $serifText;
-      color: $blueDark;
-      font-size: 0.95em;
-      letter-spacing: 0.075em;
-      font-style: italic;
-      font-variant: small-caps;
-      display: inline-block;
-      padding: 0;
-      margin: 1em 0 0;
-      text-indent: 0;
-      border-bottom: 1px solid $blueDark;
-    }
-
     .articleImgBox {
       display: block;
       float: left;
@@ -139,6 +136,15 @@ main.content {
       border: 1px solid $grayText;
       background: $lightText;
       text-indent: 0;
+
+      &.right {
+        float: right;
+        margin: 0.5em 0.5em 0.5em 1.5em;
+      }
+
+      &.small {
+        width: 10%;
+      }
 
       img.articleImg {
         width: 100%;
@@ -219,6 +225,15 @@ main.content {
         float: none;
         display: block;
         margin: 2em auto;
+
+        &.right {
+          float: none;
+          margin: 2em auto;
+        }
+
+        &.small {
+          width: 80%;
+        }
 
         img.articleImg {
 

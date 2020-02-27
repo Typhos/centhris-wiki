@@ -103,7 +103,7 @@ class Creatures extends Component {
       for ( let [heading, array] of Object.entries(creature.articles) ) {
         content.push(
           <React.Fragment key={heading}>
-            <h3 className="subheading">{heading}</h3>
+            <h3 className="subjectArea">{heading}</h3>
             {WikiUtils.linkContent(creature, array)}
           </React.Fragment>
         );
@@ -114,7 +114,7 @@ class Creatures extends Component {
       for ( let [heading, array] of Object.entries(creature.dmArticles) ) {
         content.push(
           <React.Fragment key={heading}>
-            <h3 className="subheading">{heading}</h3>
+            <h3 className="subjectArea">{heading}</h3>
             {WikiUtils.linkContent(creature, WikiUtils.textFormatting( array) )}
           </React.Fragment>
         );

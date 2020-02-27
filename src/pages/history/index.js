@@ -71,7 +71,7 @@ class History extends Component {
       for ( let [heading, array] of Object.entries(articles) ) {
         content.push(
           <React.Fragment key={heading}>
-            <h3 className="subheading">{heading}</h3>
+            <h3 className="subjectArea">{heading}</h3>
             {WikiUtils.linkContent(dates,  WikiUtils.textFormatting( array) )}
           </React.Fragment>
         );
@@ -83,7 +83,7 @@ class History extends Component {
       for ( let [heading, array] of Object.entries(dates.dmArticles) ) {
         content.push(
           <React.Fragment key={heading}>
-            <h3 className="subheading">{heading}</h3>
+            <h3 className="subjectArea">{heading}</h3>
             {WikiUtils.linkContent(dates,  WikiUtils.textFormatting( array) )}
           </React.Fragment>
         );

@@ -42,6 +42,26 @@
     "articles": {
     }
   },
+  "Navolinian-Hussars": {
+    "playerKnown": true,
+    "name": "Navolinian Hussars",
+    "nickname": "Navolinian Hussars",
+    "linkingWords": [],
+    "tags": ["winged riders","owl knights","frecyra","ulfwyst"],
+    "type": "Knightly Order",
+    "location": "Navolin",
+    "memberNumber": "~600",
+    "leaders": [
+    ],
+    "members": [
+      "Jeskin Sebroski"
+    ],
+    "description": [
+      "The @+Navolinian Hussars+@ are a knightly order of heavy cavalry who count among their ranks many members of the noble military class of the kingdom."
+    ],
+    "articles": {
+    }
+  },
   "Ruby-Drifters-Mercenary-Company": {
     "playerKnown": true,
     "name": "Ruby Drifters Mercenary Company",

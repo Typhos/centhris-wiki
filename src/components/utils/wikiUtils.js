@@ -31,12 +31,13 @@ export default class WikiUtils {
 
     // This function allows for content entries to be formatted before linking. 
     // Text in entries must be wrapped with a specific indicator in order to receive the following formatting:
-    // No Links     =   @Ϫ string Ϫ@  Ϫ
-    // ITALICS      =   @λ string λ@  λ
-    // BOLD         =   @β string β@  β
-    // H4           =   @φ string φ@  φ
-    // colorize     =   @ε string ε@  ε
-    // inline img   =   @Ω imgurl | caption Ω@  Ω
+    // No Links     =   @~ string ~@  
+    // ITALICS      =   @* string *@
+    // BOLD         =   @+ string +@
+    // H4           =   @# string #@
+    // super        =   @^ string ^@
+    // colorize     =   @; string ;@
+    // inline img   =   @& imgurl | caption &@
 
     if (typeof entryData === "string") entryData = [entryData];
 
@@ -44,41 +45,49 @@ export default class WikiUtils {
 
       entryData = entryData.map( string => {
 
+        // split the string by the @ marker to ensure proper replacements
         return string.split(/@(.*?)@/).map( substr => {
 
-          if ( substr.includes("λ") ) {
+          // Test for various markers only at the start and end of each string
+          if ( /^\*(.*?)\*$/.test(substr) ) {
 
-            substr = substr.replace(/λ/g, "");
+            substr = substr.replace(/\*/g,"");
             substr = <i key={substr}>{substr}</i>;
 
-          } else if ( substr.includes("Ϫ") ) {
+          } else if ( /^~(.*?)~$/.test(substr) ) {
 
-            substr = substr.replace(/Ϫ/g, "");
+            substr = substr.replace(/~/g, "");
             substr = <span>{substr}</span>;
 
-          } else if ( substr.includes("β") ) {
+          } else if ( /^\+(.*?)\+$/.test(substr) ) {
 
-            substr = substr.replace(/β/g, "");
+            substr = substr.replace(/\+/g, "");
             substr = <strong key={substr}>{substr}</strong>;
+
+          } else if ( /^\^(.*?)\^$/.test(substr) ) {
+
+            substr = substr.replace(/\^/g, "");
+            substr = <sup key={substr}>{substr}</sup>;
           
-          } else if ( substr.includes("φ") ) {
+          } else if ( /^#(.*?)#$/.test(substr) ) {
             
-            substr = substr.replace(/φ/g, "");
-            substr = <h4 className="subhead" key={substr}>{substr}</h4>;
+            substr = substr.replace(/#/g, "");
+            substr = <h4 className="subheading" key={substr}>{substr}</h4>;
           
-          } else if ( substr.includes("ε") ) {
+          } else if ( /^;(.*?);$/.test(substr) ) {
             
-            substr = substr.replace(/ε/g, "");
+            substr = substr.replace(/;/g, "");
             substr = <span className="colorize" key={substr}>{substr}</span>;
           
-          } else if ( substr.includes("Ω") ) {
+          } else if ( /^&(.*?)&$/.test(substr) ) {
             
-            substr = substr.replace(/Ω/g, "");
+            substr = substr.replace(/&/g, "");
             const path = substr.split(/\|/)[0];
             const caption = substr.split(/\|/)[1];
+            const position = substr.split(/\|/)[2];
             const inlineImg = images.keys().filter(x => x === path);
 
-            substr = <figure className="articleImgBox">
+            substr = <figure className={`articleImgBox ${ (position) ? position : ""}`}>
                       <a href={`${images(`${inlineImg}`)}`} target="_blank" rel="noopener noreferrer">
                         <img src={`${images(`${inlineImg}`)}`} className="articleImg" alt={caption} onClick={this.expandedImageModal} />
                       </a>
@@ -154,7 +163,13 @@ export default class WikiUtils {
         }
       }
 
-      return <p className="linkedContent" key={target+index}>{paragraph}</p>;
+      paragraph = paragraph.filter( x => x !== "" );
+
+      if ( paragraph[0] && (paragraph[0].type === "h3" || paragraph[0].type === "h4" ) ) {
+        return paragraph;
+      } else {
+        return <p className="linkedContent" key={target+index}>{paragraph}</p>;
+      }
     });
 
     return mapped;
@@ -168,7 +183,7 @@ export default class WikiUtils {
       }
 
       if ( typeof dataset[i] === 'string' ) {
-        let matcher = new RegExp(name + "[" + /\s/ + ".,;!?\"':-]","g");
+        let matcher = new RegExp(name + "[" + /\s/ + ".,;!?\"()':-]","g");
         if ( matcher.test(dataset[i]) || dataset[i] === name ) {
           let strReplace = dataset[i].replace(name, `|${name}|`).split("|").map( str => ( str === name ) ? link : str);
 

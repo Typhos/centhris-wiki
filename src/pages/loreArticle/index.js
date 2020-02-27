@@ -195,7 +195,7 @@ class Lore extends Component {
       for ( let [heading, array] of Object.entries(articles) ) {
         content.push(
           <React.Fragment key={heading}>
-            <h3 className="subheading">{heading}</h3>
+            <h3 className="subjectArea">{heading}</h3>
             {WikiUtils.linkContent(lore,  WikiUtils.textFormatting( array) )}
           </React.Fragment>
         );
@@ -207,7 +207,7 @@ class Lore extends Component {
       for ( let [heading, array] of Object.entries(lore.dmArticles) ) {
         content.push(
           <React.Fragment key={heading}>
-            <h3 className="subheading">{heading}</h3>
+            <h3 className="subjectArea">{heading}</h3>
             {WikiUtils.linkContent(lore,  WikiUtils.textFormatting( array) )}
           </React.Fragment>
         );
@@ -223,7 +223,7 @@ class Lore extends Component {
 
     return (
       <React.Fragment>
-        <h3 className="subheading">The Twelve Months of the Vesdarian Calendar</h3>
+        <h3 className="subjectArea">The Twelve Months of the Vesdarian Calendar</h3>
         <table id="vesdarianCalendar">
           <thead>
             <tr className="tableHeading">

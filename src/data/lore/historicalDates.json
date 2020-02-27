@@ -76,6 +76,7 @@
   },
   "2C-1": {
     "playerKnown": true,
+    "hideDate": false,
     "name": "2C 1",
     "nickname": "2C 1",
     "type": "",
@@ -94,6 +95,7 @@
   },
   "2C-12": {
     "playerKnown": true,
+    "hideDate": true,
     "name": "2C 12",
     "nickname": "2C 12",
     "type": "",
@@ -150,6 +152,7 @@
   },
   "2C-837": {
     "playerKnown": true,
+    "hideDate": false,
     "name": "2C 837",
     "nickname": "2C 837",
     "type": "",
@@ -168,8 +171,130 @@
       "minor": []
     }
   },
+  "2C-2143":{
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2143",
+    "nickname": "2C 2143",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2143:"
+    ],
+    "articles": {
+      "Nylwis": [
+        "The Congress of Adendorf takes place at Castle Adendorf near the city of Korasov. Resulting in the founding of the @+Malstein Confederation+@."
+      ]
+    },
+    "timeline": {
+      "major": ["The Congress of Adendorf occurs in Ulfwyst resulting in the foundation of the Malstein Confederation."],
+      "minor": []
+    }
+  },
+  "2C-2209":{
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2209",
+    "nickname": "2C 2209",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2209:"
+    ],
+    "articles": {
+      "Savage Contagion": [
+        "The @+Savage Contagion+@ was a widespread outbreak of lycanthropy across eastern Ulfwyst. Perpetuated by a heretical cult of Sage that venerated the more savage elements of the natural world, the cult managed to infect hundreds of people across several kingdoms before it could be contained."
+      ]
+    },
+    "timeline": {
+      "major": ["The Savage Contagion, a widespread outbreak of lycanthropy, devastates eastern Ulfwyst."],
+      "minor": []
+    }
+  },
+  "2C-2211":{
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2211",
+    "nickname": "2C 2211",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2211:"
+    ],
+    "articles": {
+      "Heskur": [
+        "The War of Five Crowns between begins."
+      ]
+    },
+    "timeline": {
+      "war": ["The War of Five Crowns begins."],
+      "minor": []
+    }
+  },
+  "2C-2245":{
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2245",
+    "nickname": "2C 2245",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2245:"
+    ],
+    "articles": {
+      "Gonsaar": [
+        "The War of Five Crowns between ends."
+      ]
+    },
+    "timeline": {
+      "war": ["The War of Five Crowns ends."],
+      "minor": []
+    }
+  },
+  "2C-2250":{
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2250",
+    "nickname": "2C 2250",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2250:"
+    ],
+    "articles": {
+      "Wars of Dominion": [
+        "The era known as the Wars of Dominion roughly begins around this date, though no exact date is generally accepted."
+      ]
+    },
+    "timeline": {
+      "era": ["The age known as the Wars of Dominion begins."],
+      "minor": []
+    }
+  },
+  "2C-2440":{
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2440",
+    "nickname": "2C 2440",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2440:"
+    ],
+    "articles": {
+      "Wars of Dominion": [
+        "The era known as the Wars of Dominion is considered to come to an end around this date, with the Navolinian Subjugation of Malstein taking place in 2438."
+      ]
+    },
+    "timeline": {
+      "era": ["The age known as the Wars of Dominion comes to a close."],
+      "minor": []
+    }
+  },
+
   "2C-2481": {
     "playerKnown": true,
+    "hideDate": false,
     "name": "2C 2481",
     "nickname": "2C 2481",
     "type": "",
@@ -179,7 +304,7 @@
     ],
     "articles": {
       "Jeden": [
-        "The War of Red Claws, or @λthe First War of Zurastian Aggressionλ@, begins with the Zurastian demand of the formal annexation of the Lepkar Peninsula from Lemuria."
+        "The War of Red Claws, or @*the First War of Zurastian Aggression*@, begins with the Zurastian demand of the formal annexation of the Lepkar Peninsula from Lemuria."
       ],
       "Dusvar": [
         "The War of Red Claws ends with Treaty of Lepkar. Zurast formally declares itself an Archduchy."
@@ -192,6 +317,7 @@
   },
   "2C-2536": {
     "playerKnown": true,
+    "hideDate": false,
     "name": "2C 2536",
     "nickname": "2C 2536",
     "type": "",
@@ -212,6 +338,7 @@
   },
   "2C-2541": {
     "playerKnown": true,
+    "hideDate": false,
     "name": "2C 2541",
     "nickname": "2C 2541",
     "type": "",
@@ -233,6 +360,7 @@
   },
   "2C-2543": {
     "playerKnown": true,
+    "hideDate": false,
     "name": "2C 2543",
     "nickname": "2C 2543",
     "type": "",
@@ -253,6 +381,7 @@
   },
   "2C-2549": {
     "playerKnown": true,
+    "hideDate": false,
     "name": "2C 2549",
     "nickname": "2C 2549",
     "type": "",
@@ -272,6 +401,7 @@
   },
   "2C-2551": {
     "playerKnown": true,
+    "hideDate": false,
     "name": "2C 2551",
     "nickname": "2C 2551",
     "type": "",
@@ -291,6 +421,7 @@
   },
   "2C-2554": {
     "playerKnown": true,
+    "hideDate": false,
     "name": "2C 2554",
     "nickname": "2C 2554",
     "type": "",
@@ -313,6 +444,7 @@
   },
   "2C-2573": {
     "playerKnown": true,
+    "hideDate": false,
     "name": "2C 2573",
     "nickname": "2C 2573",
     "type": "",

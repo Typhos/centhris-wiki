@@ -104,7 +104,7 @@ class Group extends Component {
       for ( let [heading, array] of Object.entries(articles) ) {
         content.push(
           <React.Fragment key={heading}>
-            <h3 className="subheading">{heading}</h3>
+            <h3 className="subjectArea">{heading}</h3>
             {WikiUtils.linkContent(group, array)}
           </React.Fragment>
         );
@@ -116,7 +116,7 @@ class Group extends Component {
       for ( let [heading, array] of Object.entries(group.dmArticles) ) {
         content.push(
           <React.Fragment key={heading}>
-            <h3 className="subheading">{heading}</h3>
+            <h3 className="subjectArea">{heading}</h3>
             {WikiUtils.linkContent(group, array)}
           </React.Fragment>
         );
