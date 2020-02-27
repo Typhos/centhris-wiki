@@ -133,7 +133,7 @@ class Creatures extends Component {
     return <section id="statBlock">
       <div className="grouping heading">
         <h3 className="creatureName">{creature.name}</h3>
-        <p>{WikiUtils.textFormatting( `@>${creature.creatureType}<@` )}, {WikiUtils.textFormatting(`@>${creature.alignment}<@`)}</p>
+        <p>{WikiUtils.textFormatting( `@λ${creature.creatureType}λ@` )}, {WikiUtils.textFormatting(`@λ${creature.alignment}λ@`)}</p>
       </div>
       <div className="grouping basics">
         <p><strong>Armor Class</strong> {creature.armor}</p>
