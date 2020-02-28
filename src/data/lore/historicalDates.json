@@ -171,6 +171,46 @@
       "minor": []
     }
   },
+  "2C-900": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 900",
+    "nickname": "2C 900",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 900:"
+    ],
+    "articles": {
+      "Tempus Draconis Begins": [
+        "The Era of Centhris history known as the Tempus Draconis begins roughly around this time. With the fall of the existing humanoid civilizations due to the Ruination, dragons become the preeminent power on the prime material plane."
+      ]
+    },
+    "timeline": {
+      "era": ["Tempus Draconis Begins."],
+      "minor": []
+    }
+  },
+  "2C-2100": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2100",
+    "nickname": "2C 2100",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2100:"
+    ],
+    "articles": {
+      "Tempus Draconis Ends": [
+        "The Era of Centhris history known as the Tempus Draconis ends roughly around this time. As humanoid kingdoms begin to reemerge and challenge the power of the tyrannical chromatic dragons, the power of the dragonkin begins to wain."
+      ]
+    },
+    "timeline": {
+      "era": ["Tempus Draconis Ends."],
+      "minor": []
+    }
+  },
   "2C-2143":{
     "playerKnown": true,
     "hideDate": false,
@@ -267,7 +307,7 @@
       ]
     },
     "timeline": {
-      "era": ["The age known as the Wars of Dominion begins."],
+      "era": ["The Wars of Dominion begin."],
       "minor": []
     }
   },
@@ -287,7 +327,7 @@
       ]
     },
     "timeline": {
-      "era": ["The age known as the Wars of Dominion comes to a close."],
+      "era": ["The Wars of Dominion come to a close."],
       "minor": []
     }
   },

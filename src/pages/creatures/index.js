@@ -104,7 +104,7 @@ class Creatures extends Component {
         content.push(
           <React.Fragment key={heading}>
             <h3 className="subjectArea">{heading}</h3>
-            {WikiUtils.linkContent(creature, array)}
+            {WikiUtils.linkContent(creature, WikiUtils.textFormatting(array))}
           </React.Fragment>
         );
       }
@@ -133,7 +133,7 @@ class Creatures extends Component {
     return <section id="statBlock">
       <div className="grouping heading">
         <h3 className="creatureName">{creature.name}</h3>
-        <p>{WikiUtils.textFormatting( `@λ${creature.creatureType}λ@` )}, {WikiUtils.textFormatting(`@λ${creature.alignment}λ@`)}</p>
+        <p>{WikiUtils.textFormatting( `@*${creature.creatureType}*@` )}, {WikiUtils.textFormatting(`@*${creature.alignment}*@`)}</p>
       </div>
       <div className="grouping basics">
         <p><strong>Armor Class</strong> {creature.armor}</p>
@@ -216,6 +216,24 @@ class Creatures extends Component {
       }
       { creature.legendary &&
         <div className="grouping legendary">
+          <h4 className="heading">Legendary Actions</h4>
+          {
+            creature.legendary.map( legendary => {
+              if ( legendary.name === 'description' ) {
+                return <React.Fragment>
+                  <p>
+                    {legendary.text}
+                  </p>
+                </React.Fragment>
+              }
+
+              return <React.Fragment>
+                <p>
+                  <strong>{legendary.name}</strong> {legendary.text}
+                </p>
+              </React.Fragment>
+            })
+          }
         </div>
       }
       
