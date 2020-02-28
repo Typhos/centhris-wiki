@@ -107,9 +107,9 @@ class Places extends Component {
 
   checkEmptyEntry(entry) {
     // check if the entry is empty to mark it for future writing
-    if ( entry.description.length <= 0 && this.state.dmView ) {
-      return "empty";
-    }
+    // if ( entry.description.length <= 0 && this.state.dmView ) {
+      // return "empty";
+    // }
 
     return "";
   }

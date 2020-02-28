@@ -38,6 +38,16 @@ h4.subheading {
   margin: 0.5em 0 0;
 }
 
+a.externalLink {
+  border-bottom: 1px dotted $tagLink;
+  padding-bottom: 0.1em;
+  color: $charcoal;
+
+  &:hover {
+    color: $charcoal;
+  }
+}
+
 main.content {
   padding: 0 1%;
 

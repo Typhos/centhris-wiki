@@ -1,0 +1,96 @@
+{
+  "Centhris": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["continent"],
+    "name": "Centhris",
+    "nickname": "Centhris",
+    "type": "Plane",
+    "regions": [
+      "Cunascus",
+      "Entos",
+      "Eastern Koraxon",
+      "Western Koraxon",
+      "Ulfwyst"
+    ],
+    "additionalImages": ["map-projection.png"],
+    "description": [
+      "The Planet of Centhris, also known as the Prime Material Plane, is a fantasy setting comprised of five known continents and four major oceans. Centhris is orbited by three moons, known as the Three Sisters. Most people who live on Centhris keep to the Vësdarian Calendar."
+    ]
+  },
+  "Ulfwyst": {
+    "playerKnown": true,
+    "tags": ["continent"],
+    "name": "Ulfwyst",
+    "nickname": "Ulfwyst",
+    "type": "Continent",
+    "location": "Centhris",
+    "description": [
+      "Ulfwyst is the largest continent on Centhris, covering roughly 8.4 million square miles. Located in the southern hemisphere, the continent is coldest in the south, near the arctic. The northern coast and island chains are sub-tropical. Almost every kind of natural environment can be found on Ulfwyst, from the steaming jungles of the Kaeldrin Sanctum, to the vast plains of Syrothian Plateau, to the wild, arboreal forests of the Olgarrod Wilds and the wind-swept dunes of the Ur'shiid Desert.",
+      "In the ancient past, Ulfwyst was home to several extensive empires, such as the Utharian Empire in the east, and the Ekerus & Jolmon empires in the west. Today, it is a dangerous land. In civilized places, it is home to numerous poltical states, ranging from fledgling empires, stagnant kingdoms of court intrigue, and vibrant city-states growing wealthy from extensive trade networks. In the untamed wilds beyond, Ulfwyst holds a nearly endless array of deadly beasts and monstrous creatures that stalk their territory waiting for their next victim."
+    ],
+    "articles": {
+      "Governments & Politics": [
+        "The political dynamic in Ulfwyst sits on the edge of a knife. In the eastern portion of the continent, the rising powers of Zurast and Syrothia expand against the old order of the Kingdom of Navolin and the Kaeldrin Sanctum. The Theocracy of Tovanis has risen from the ashes of Istagen. And in the southeast, the realms of Cibrin and Lemuria clash, while a seemingly endless horde of ship-borne raiders attack coastal settlements in both kingdoms from the icy waters of the Venngar Sea.",
+        "@&./maps/Political-Map-of-Ulfwyst-2C-2450.png|A political map of eastern Ulfwyst ca. 2C 2450&@ Though each major power is involved in its own internal political squabbles, the looming threat of the ever-expanding Syrothian Empire to the west is a lingering whisper in the back halls of the noble courts. Each kingdom posturing for a coming conflict, but none are sure if they should prepare for invasion from the west, or for a stab in the back closer to home.",
+        "The standard form of government in Ulfwyst is, historically, the hereditary monarchy. After the Ruination, as the major political structures of the time crumbled, surviving settlements in Ulfwyst recovered under the guidance of individuals or families with considerable means to defend those around them. This often took the form of a fortress, or an armory capable of supplying a standing defensive force. Over several centuries, these semi-informal power dynamics became codified into classes of nobles controlling arable farmland around a fortified manor.",
+        "For hundreds of years after, these landed nobles squabbled over territory and as modest kingdoms slowly formed from these feudal bastions, an extensive network of alliances arose. As more formal vassal structures solidified and wars of expansion diminished, the realms of Kaeldrin, Istagen, Rinalir, Navolin, Lemuria, Ildroun, Cibrin, Hestia, Zurast, Azond & Sedobia established themselves as the strongest realms in eastern Ulfwyst."
+      ]
+    }
+  },
+  "Entos": {
+    "playerKnown": true,
+    "tags": ["continent"],
+    "name": "Entos",
+    "nickname": "Entos",
+    "type": "Continent",
+    "location": "Centhris",
+    "description": [
+      "Entos is the smallest continent on Centhris, covering roughly 2.9 million square miles."
+    ]
+  },
+  "Cunascus": {
+    "playerKnown": true,
+    "tags": ["continent"],
+    "name": "Cunascus",
+    "nickname": "Cunascus",
+    "type": "Continent",
+    "location": "Centhris",
+    "description": [
+      "Cunascus is a continent in the southeast hemisphere of Centhris, covering roughly 6.6 million square miles."
+    ]
+  },
+  "Eastern-Koraxon": {
+    "playerKnown": true,
+    "tags": ["continent"],
+    "name": "Eastern Koraxon",
+    "nickname": "Eastern Koraxon",
+    "type": "Continent",
+    "location": "Centhris",
+    "description": [
+      "Eastern Koraxon is a continent in the northwest hemisphere of Centhris, covering roughly 2.9 million square miles."
+    ]
+  },
+  "Western-Koraxon": {
+    "playerKnown": true,
+    "tags": ["continent"],
+    "name": "Western Koraxon",
+    "nickname": "Western Koraxon",
+    "type": "Continent",
+    "location": "Centhris",
+    "description": [
+      "Western Koraxon is a continent in the northwest hemisphere of Centhris, covering roughly 4.3 million square miles."
+    ]
+  },
+  "Thyra": {
+    "playerKnown": false,
+    "tags": ["continent"],
+    "name": "Thyra",
+    "nickname": "Thyra",
+    "type": "Continent",
+    "location": "Centhris",
+    "description": [
+      "Thyra was a continent located centrally in Centhris, covering roughly 1.7 million square miles. It was almost completely destroyed during the Ruination. The remnants of the continent now make up the Toridosa Archipelago."
+    ]
+  }
+}

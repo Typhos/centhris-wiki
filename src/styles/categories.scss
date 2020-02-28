@@ -24,8 +24,9 @@
     position: relative;
     padding: 0 1%;
     // width: 14em;
-    min-width: 15%;
-    max-width: 18%;
+    // min-width: 15%;
+    // max-width: 18%;
+    width: 18%;
     margin: 1em 0 0.5em;
     vertical-align: top;
     justify-content: center;
@@ -45,9 +46,6 @@
 
       &.landscape,
       &.portrait {
-        height: 8em;
-        max-width: 14em;
-        width: auto;
         left: 1em;
         clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
 
@@ -59,6 +57,19 @@
           border: 10px solid tomato;
         }
       }
+
+      &.landscape {
+        height:auto;
+        max-width: 90%;
+        margin: 0 auto;
+      }
+
+      &.portrait {
+        height: 8em;
+        max-width: 14em;
+        width: auto;
+      }
+
     }
 
     .imgPlaceholder {

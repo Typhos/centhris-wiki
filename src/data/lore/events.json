@@ -69,11 +69,11 @@
       "The Second Convergence was a historical era in the history of the world of Centhris."
     ]
   },
-  "Tempus-Draconis": {
+  "Cordus-Tempus-Draconis": {
     "playerKnown": false,
-    "name": "Tempus Draconis",
-    "nickname": "Tempus Draconis",
-    "linkingWords": ["Second Convergence"],
+    "name": "Cordus Tempus Draconis",
+    "nickname": "Cordus Tempus Draconis",
+    "linkingWords": ["Second Era of Dragons"],
     "dates": ["2C 900","2C 2100"],
     "type": "Era",
     "tags": ["era","era of dragons"],

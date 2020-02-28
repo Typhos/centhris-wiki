@@ -15,7 +15,7 @@
     "leaders": ["King Kzesimir III"],
     "regions": ["Kelishan Highlands","Galren Moor","Damali Steppe","Tiderack Coast"],
     "description": [
-      "The largest state in eastern Ulfwyst, the @+Kingdom of Navolin+@ is feudal society that stretches across the vast highlands between the Jordonis Mountains and the natural barriers to the west. Navolin is a land of vast plains, verdant forests and soggy marshland. The villages and towns that dot the land along the Sulas and Zalkow rivers provide large quantities of staple crops that feed the kingdom and beyond.",
+      "The largest state in eastern Ulfwyst, the @+Kingdom of Navolin+@ (@?/ˈnəˌvoʊˌliːn/|https://en.wikipedia.org/wiki/Help:IPA/English?@) is feudal society that stretches across the vast highlands between the Jordonis Mountains and the natural barriers to the west. Navolin is a land of vast plains, verdant forests and soggy marshland. The villages and towns that dot the land along the Sulas and Zalkow rivers provide large quantities of staple crops that feed the kingdom and beyond.",
       "Navolin is an ancient land, with many great nations having coming before the current political structure that rules the region. Great ruins, eerie forests and stagnant bogs lie just beyond the walls of the various towns and castles. Abandoned castles, farms, windmills and even entire towns can be found along the ancient, dirt roads.",
       "The people of Navolin, due to the constant monstrous threats that test their walls and stalk the wild lands, are deeply superstitious. Many Navolinian folk tales involve all manner of terrifying monsters, including witches, lycanthropes, devils and dragons, all trying to destroy the kingdom and its people from within."
     ],
@@ -80,7 +80,7 @@
       "Military": [
         "The soldiery of Navolin is comprised of three parts: militia, levied men and the Navolinian Hussars. Each is comprised of a different class of people and server a specific role in the defense (and power projection) of the country.",
         "At the local level, protection and defense of most of Navolin is handled by militias run by an appointed member of the feudal system. Most often the local militia commander of a town or village is the local alderman, or a yeoman appointed by the local lord. More important settlements might have their military overseen by an official commander, or the local lord themselves.",
-        "@&./lore/Navolinian-Hussars.png|A unit of Navolinian Hussars charging|right&@Roughly 70% of the Navolinian military is comprised of levied freemen soldiers owing their personal allegiances to the noble house that they serve. These people range from craftsmen and peasants to low-level nobles. Though formal experience is not required, most noble houses train their levied men at regular stints (seasonally) in order to ensure if they were required for service, they can serve at maximum effectiveness.",
+        "@&./lore/Navolinian-Hussars.png|A unit of junior Navolinian Hussars charging|right&@Roughly 70% of the Navolinian military is comprised of levied freemen soldiers owing their personal allegiances to the noble house that they serve. These people range from craftsmen and peasants to low-level nobles. Though formal experience is not required, most noble houses train their levied men at regular stints (seasonally) in order to ensure if they were required for service, they can serve at maximum effectiveness.",
         "Levied soldiers are expected to provide their own equipment if they can afford to do so. The poor or fresh recruits are provided whatever gear is available from the noble houses’ personal armories. The following are the most types of gear that soldiers are expected to be able to supply:",
         "• @* Light Infantry: *@ spear, short sword, a set of chainmail and wooden round shield.",
         "• @* Heavy Infantry: *@ halberd, long sword, half plate and wooden kite shield.",
@@ -210,12 +210,12 @@
       ]
     }
   },
-  "Tovanis": {
+  "Theocracy-of-Tovanis": {
     "playerKnown": true,
     "tags": ["state","ulfwyst","theocracy"],
-    "name": "Tovanis",
-    "nickname": "Realm of Tovanis",
-    "linkingWords": ["Tovani","Theocracy of Tovanis"],
+    "name": "Theocracy of Tovanis",
+    "nickname": "Tovanis",
+    "linkingWords": ["Tovani","Realm of Tovanis"],
     "type": "State",
     "currency": "Tovani Blade",
     "capital": "Axuros",
@@ -226,7 +226,7 @@
     "leaders": ["Tsongar Barath","Gergely Vastagh","Mozes Kovacs","Karola Piroska Szilágyi","Tomi Dobos","Ignac Lazar","Viola Pasztor"],
     "regions": ["Bay of Claws","Blighted Mire","Desolate Wastes","Lake Droknog","Pillars of Amud","Semogan Hills","Torick Peaks"],
     "description": [
-      "The Realm of Tovanis is a young state, having come into existence roughly 110 years ago. It is a centralized state ruled by the Church of the Eternal from the capital of Axuros. The rulers of Tovanis are notoriously hostile to practitioners of the arcane arts, having expelled all mages from the country on its founding. Any arcane magic user wishing to travel through, or live in Tovanis does so at great risk."
+      "The @+Theocracy of Tovanis+@ (@?/ˈtoʊˌvənˌɪs/|https://en.wikipedia.org/wiki/Help:IPA/English?@) is a young state, having come into existence roughly 110 years ago. It is a centralized state ruled by the Church of the Eternal from the capital of Axuros. The rulers of Tovanis are notoriously hostile to practitioners of the arcane arts, having expelled all mages from the country on its founding. Any arcane magic user wishing to travel through, or live in Tovanis does so at great risk."
     ],
     "dmArticles":{
       "Dark Times": [

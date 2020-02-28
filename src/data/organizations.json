@@ -60,6 +60,11 @@
       "The @+Navolinian Hussars+@ are a knightly order of heavy cavalry who count among their ranks many members of the noble military class of the kingdom."
     ],
     "articles": {
+    },
+    "dmArtilces": {
+      "Ranks": [
+        "The hussars, like most military organizations, have a highly structured, tiered series of ranks for their members. These ranks are usually granted based on noble status. A recent reform movement in the order, which suggests the use of merit based promotions and honors, is seen as highly controversial among the order's elite. These proposed changes, which would be based on a combination of time served, martial skill and noble status, are seen by senior members as a direct challenge to their birthright rule."
+      ]
     }
   },
   "Ruby-Drifters-Mercenary-Company": {

@@ -31,13 +31,14 @@ export default class WikiUtils {
 
     // This function allows for content entries to be formatted before linking. 
     // Text in entries must be wrapped with a specific indicator in order to receive the following formatting:
-    // No Links     =   @~ string ~@  
-    // ITALICS      =   @* string *@
-    // BOLD         =   @+ string +@
-    // H4           =   @# string #@
-    // super        =   @^ string ^@
-    // colorize     =   @; string ;@
-    // inline img   =   @& imgurl | caption &@
+    // No Links      =   @~ string ~@  
+    // ITALICS       =   @* string *@
+    // BOLD          =   @+ string +@
+    // H4            =   @# string #@
+    // super         =   @^ string ^@
+    // colorize      =   @; string ;@
+    // external link =   @? string | url ?@
+    // inline img    =   @& imgurl | caption &@
 
     if (typeof entryData === "string") entryData = [entryData];
 
@@ -78,6 +79,14 @@ export default class WikiUtils {
             
             substr = substr.replace(/;/g, "");
             substr = <span className="colorize" key={substr}>{substr}</span>;
+          
+          } else if ( /^\?(.*?)\?$/.test(substr) ) {
+            
+            substr = substr.replace(/\?/g, "");
+            const text = substr.split(/\|/)[0];
+            const url = substr.split(/\|/)[1];
+
+            substr = <a href={url} className="externalLink">{text}</a>;
           
           } else if ( /^&(.*?)&$/.test(substr) ) {
             
