@@ -167,5 +167,25 @@
     "description": [
       "Dimon Rhym was the High Lord of Hestia. It was his decision to surrender Hestia to the Syrothian Empire instead of calling for the aid of Dol Obok and Cibrin. In doing so, he joined the court of Droknac the Immortal."
     ]
+  },
+  "Jondr-Mistwalker": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Jondr Mistwalker",
+    "nickname": "Jöndr Mistwalker",
+    "tags": ["Duskreef","pirate","cloud giant"],
+    "age": "72",
+    "gender": "Male",
+    "race": "Cloud Giant",
+    "titles": ["Captain Miststalker"],
+    "affiliations": ["Duskreef"],
+    "description": [
+      "Jöndr Mistwalker is a cloud giant who rules Duskreef by force. He resides in Duskreef citadel, watching the town from a throne atop the broken prison-citadel with his pet Dire Lion, Gámr. His ship, the Black Fang, is a huge ships which has a reserved, central, location in the harbor. A giant with a mean temper, he is known for visiting the @*Crimson Cuttlass*@ with his crew, which causes others to vacate quickly. He is the only person in Duskreef who can openly harm or kill other pirates, as none can challenge his ironclad grip on the town."
+    ],
+    "dmArticles": {
+      "Coastal Raider": [
+        "Before becoming a pirate, Jöndr was a prisoner in Duskreef, having been captured near Korasov, in the Barrier Coast, where he was raiding merchant vessels that ventured too close to rocks, which he would obscure with fog, causing them to run aground."
+      ]
+    }
   }
 }

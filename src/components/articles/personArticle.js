@@ -238,7 +238,7 @@ export default class PeopleArticle extends Component {
       for ( let [heading, array] of Object.entries(person.articles) ) {
         content.push(
           <React.Fragment key={heading}>
-            <h3 className="subheading">{heading}</h3>
+            <h3 className="subjectArea">{heading}</h3>
             {WikiUtils.linkContent(person, WikiUtils.textFormatting(array))}
           </React.Fragment>
         );
@@ -249,7 +249,7 @@ export default class PeopleArticle extends Component {
       for ( let [heading, array] of Object.entries(person.dmArticles) ) {
         content.push(
           <React.Fragment key={heading}>
-            <h3 className="subheading">{heading}</h3>
+            <h3 className="subjectArea">{heading}</h3>
             {WikiUtils.linkContent(person, WikiUtils.textFormatting( array) )}
           </React.Fragment>
         );

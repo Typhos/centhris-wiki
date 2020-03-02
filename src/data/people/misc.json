@@ -238,5 +238,25 @@
     "description": [
       "Beris Krakhammer is one of the mercenary captains of Gerrick's Delvers, one of the 8 Major Guilds operating in the city of Rakenburg on the Barrier Coast."
     ]
+  },
+  "Mahdi-Jamshidi": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Mahdi Jamshidi",
+    "nickname": "Mahdi 'the Damned' Jamshidi",
+    "tags": ["pirate","human","fighter","Duskreef"],
+    "age": "36",
+    "gender": "Male",
+    "race": "Human",
+    "occupation": "Pirate",
+    "affiliations": ["Duskreef"],
+    "description": [
+      "@+Mahdi 'the Damned' Jamshidi+@, is a pirate captain who operates out of the port of Duskreef in the Barrier Coast. He has a reputation for killing officers of the ships he raids, but willing takes on those who wish to join his crew."
+    ],
+    "dmArticles": {
+      "My Love in Venbrin": [
+        "Mahdi sold his soul to a devil [tbd] in Venbrin in order to bring his love, Azala, back to life. He returns to visit her when he can, stopping his ship in a cove north of the city to avoid the naval forces of the city. He will then sneak into town to visit her for several days before heading out again."
+      ]
+    }
   }
 }
