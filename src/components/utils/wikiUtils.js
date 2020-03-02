@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import DataLoader from 'components/utils/dataLoader';
 import Modal from 'components/utils/modal';
 
@@ -142,7 +142,14 @@ export default class WikiUtils {
 
         for ( let obj of Object.values(dataSet) ) {
 
+          let idLinks = null;
+          let idPaths = null;
+
+          if ( obj.idLinks ) idLinks = Object.keys(obj.idLinks);
+          if ( obj.idLinks ) idPaths = Object.values(obj.idLinks);
+
           const namesObj = {
+            idLinks: idLinks || null,
             linkingWords: obj.linkingWords,
             name: obj.name,
             nickname: obj.nickname
@@ -158,9 +165,10 @@ export default class WikiUtils {
             linkingWords.forEach( (string, j) => {
               if (string !== undefined && string !== "") {
                 const arrayCheck = this.arrayCheck(target, Object.keys(namesObj), linkingWords );
-                const link = ( obj.subcatLink )
-                  ? <Link key={`key-${j}-${string}`} to={ {pathname: `/${obj.subcatLink}`, state: "update"}}>{string}</Link>
-                  : <Link key={`key-${j}-${string}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}`, state: "update"}}>{string}</Link>;
+                let link = <Link key={`key-${j}-${string}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}`, state: "update"}}>{string}</Link>; 
+
+                if ( idLinks && idLinks.includes(string) ) link = <Link smooth key={`key-${j}-${string}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}#${obj.idLinks[string]}`, state: "update"}}>{string}</Link>;
+                if ( obj.subcatLink ) link = <Link key={`key-${j}-${string}`} to={ {pathname: `/${obj.subcatLink}`, state: "update"}}>{string}</Link>;
 
                 if ( !arrayCheck ) {
                   const nP = paragraph;
@@ -205,9 +213,15 @@ export default class WikiUtils {
   }
 
   static createLinkingWordsArray(obj) {
-    if ( Array.isArray(obj.linkingWords) ) {
+    if ( Array.isArray(obj.linkingWords) || Array.isArray(obj.idLinks) ) {
       let resp = [obj.name, obj.nickname];
-      obj.linkingWords.forEach( x => resp.push(x) );
+      if ( Array.isArray(obj.linkingWords) ) {
+        obj.linkingWords.forEach( x => resp.push(x) );
+      }
+
+      if ( Array.isArray(obj.idLinks) ) {
+        obj.idLinks.forEach( x => resp.push(x) );
+      }
 
       resp = resp
         .flat()

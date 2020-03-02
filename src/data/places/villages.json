@@ -1,0 +1,18 @@
+{
+  "Rythlon": {
+    "playerKnown": true,
+    "tags": ["village","navolin","szary","ulfwyst"],
+    "name": "Rythlon",
+    "nickname": "Rythlon on Sulas",
+    "type": "Village",
+    "population": "~400",
+    "races": ["human","elf","halfling","gnome","half-elf","half-orc"],
+    "government": "Appointed Steward",
+    "leaders": ["Imizael Clathara","Selif Koric (former)"],
+    "nation": "Kingdom of Navolin",
+    "location": "Kelishan Highlands",
+    "description": [
+      "Rythlon, aka Rythlon on Sulas, is an ancient human village that sits on the banks of the Sulas river. Located in the Kelishan Highlands of Navolin, the village has roughly 400 inhabitants, most of which are farmers, hunters, craftsmen, and ranchers."
+    ]
+  }
+}

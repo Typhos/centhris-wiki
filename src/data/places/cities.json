@@ -1,0 +1,72 @@
+{
+  "Qabakh": {
+    "playerKnown": false,
+    "tags": ["city","Abbasyr","port","ulfwyst","adorra sound"],
+    "name": "Qabakh",
+    "nickname": "Qabakh",
+    "type": "City",
+    "population": "8,500",
+    "races": ["dragonborn","human","half-orc","tiefling"],
+    "government": "Viceroyalty",
+    "location": "Abbasyr",
+    "leaders": ["Emira Ghaliya Najjar"],
+    "description": [
+      "Qabakh is a major port city of the Kingdom of Abbasyr and is nicknamed 'the Jewel of the Adorra Coast'."
+    ]
+  },
+  "Zelmar": {
+    "playerKnown": false,
+    "tags": ["city","Abbasyr","port","ulfwyst","adorra sound"],
+    "name": "Zelmar",
+    "nickname": "Zelmar",
+    "linkingWords": [],
+    "idLinks": {
+      "Zelmar City Law": "Zelmar-City-Law",
+      "Zelmar Law": "Zelmar-City-Law"
+    },
+    "type": "City",
+    "population": "6,500",
+    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "government": "Oligarchy",
+    "location": "Navolin",
+    "leaders": ["Baroness Kasandra Gorecki"],
+    "description": [
+      "Zelmar is a major city in the Kingdom of Navolin and is nicknamed 'the city of ???'."
+    ],
+    "articles": {
+      "Zelmar City Law": [
+        "Zelmar Law is a system of city government first instituted by the city in 2C 2047. It provides that a city should be governed by a Rada (council) of 20 Członek (council members). These members are not elected by the citizens, instead appointing a new member on their own from the city's nobility. The period of office is, in principle, 2 years, but the Rada can request a Członek to stay in office, which is almost always accepted, so that the election is effectively for life. The \"first członek\", usually the eldest of the Rada, acts as a @*primus inter pares*@ (first among equals) and is effectively the head of the Rada, running Rada meetings and other official business.",
+        "The Rada elect a Burmistrz (mayor) from its members, who shares the power of government. Most Burmistrz stay in office as long as they can, with several historical example in which Burmistrz of cities under Zelmar Law were sentenced to death for unsuccessful politics.",
+        "This model of city government provides that only the most experienced, influential and personally most successful nobles, merchants - and a few lawyers, called Syndics - became members of the Rada. It is also a rule that a parent and his children, or siblings, can never be members of the Rada at the same time, so that influential families could not get too large a share of influence on the city's politics."
+      ]
+    }
+  },
+  "City-of-Brass": {
+    "playerKnown": false,
+    "tags": ["elemental","plane of fire","efreet","metal"],
+    "name": "City of Brass",
+    "nickname": "the City of Brass",
+    "type": "City",
+    "races": ["efreet","salamander","azer"],
+    "government": "Absolute Monarchy",
+    "location": "Plane of Fire",
+    "leaders": ["Marrake al-Sidan al-Hariq ben Lazan"],
+    "quote": "\"It is a place of perpetual heat that reeks of burning flesh and ashen dreams. It is flame incarnate.\"",
+    "description": [
+      "Hovering in the hottest areas of the Plane of Fire, the City of Brass sits on an enormous disc of brass. A wall of ornate brass surrounds the entire city, giving the city its name. However, since the brass disc gives the city its ability to fly, (albeit slowly,) these impressive walls were typically unmanned. Throughout the cosmopolitan city, the increible heat of the Elemental Plane of Fire is suppressed by the will of the Grand Sultan in an effort to foster interplanar trade. Despite this, the city itself has a hindering effect on creatures cosmically aligned towards good, due partly to the nature of the efreet, but also to the numerous connecting portals with the Nine Hells.",
+      "Surrounding the city itself are large mines where slaves mine tin, copper, and diamonds for their efreeti masters."
+    ],
+    "articles": {
+      "History": [
+        "Aside from the gods, elementals are possibly the oldest beings in all of creation and the city is considered possibly the first city to ever exist. None can state exactly how old the city is, and the efreet who live here care not for such mundane matters.",
+        "The city has had several rulers over its existence. The first Grand Sultan being Ramiz al'Akbar Multahi Tawfiq, who presided over the city during its construction. Like many of the city's later Grand Sultans, he was eventually destroyed by other scheming members of the efreeti nobility."
+      ],
+      "Government": [
+        "The City of Brass is governed by the undisputed Sultan of the Efreet, who rules the city with a tyrannical hold over his subjects. On occasion, the Sultan will oversee important legal matters of noble efreet but mostly focuses on wider politics. Although the Sultan is the paramount authority in the City of Brass, he generally delegates the day-to-day affairs to his vizier. The title of Grand Sultan is held by Marrake al-Sidan al-Hariq ben Lazan.",
+        "Most efreet pledge their fealty to the Grand Sultan, whether they resided in the city or not. Even those residing in settlements outside of the city consider it their capital.",
+        "Although the streets of the city are bustling with trade and crammed with crowds during the day, by night a strict curfew is enforced by the Illuminated, the guards of the city. All shops are shut up and all citizens must return to their homes, else face arrest, the loss of a hand, enslavement, or even death.",
+        "Slaves are obligated to bear bracelets that display their servitude and who their master is at all times. It is common for visitors to the city to become slaves by defaulting on borrowed money. In addition, this servitude can be extended by additional offenses that can add days or even years to their thralldom."
+      ]
+    }
+  }
+}

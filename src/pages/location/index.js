@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import WikiUtils from "components/utils/wikiUtils";
 import DataLoader from 'components/utils/dataLoader';
 import Back from '../../components/back';
@@ -305,7 +305,7 @@ class Location extends Component {
       for ( let [heading, array] of Object.entries(articles) ) {
         content.push(
           <React.Fragment key={heading}>
-            <h3 className="subjectArea">{heading}</h3>
+            <h3 id={heading.replace(/\s/g,"-")} className="subjectArea">{heading}</h3>
             {WikiUtils.linkContent(location, WikiUtils.textFormatting(array) )}
           </React.Fragment>
         );
@@ -317,7 +317,7 @@ class Location extends Component {
       for ( let [heading, array] of Object.entries(location.dmArticles) ) {
         content.push(
           <React.Fragment key={heading}>
-            <h3 className="subjectArea">{heading}</h3>
+            <h3 id={heading.replace(/\s/g,"-")} className="subjectArea">{heading}</h3>
             {WikiUtils.linkContent(location, WikiUtils.textFormatting(array) )}
           </React.Fragment>
         );

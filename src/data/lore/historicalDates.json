@@ -182,13 +182,32 @@
       "The following historical events took place in 2C 900:"
     ],
     "articles": {
-      "Tempus Draconis Begins": [
-        "The Era of Centhris history known as the Tempus Draconis begins roughly around this time. With the fall of the existing humanoid civilizations due to the Ruination, dragons become the preeminent power on the prime material plane."
+      "Cordus Tempus Draconis Begins": [
+        "The Era of Centhris history known as the Cordus Tempus Draconis begins roughly around this time. With the fall of the existing humanoid civilizations due to the Ruination, dragons become the preeminent power on the prime material plane."
       ]
     },
     "timeline": {
-      "era": ["Tempus Draconis Begins."],
+      "era": ["Cordus Tempus Draconis Begins."],
       "minor": []
+    }
+  },
+  "2C-2047": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2047",
+    "nickname": "2C 2047",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2047:"
+    ],
+    "articles": {
+      "Dusvar": [
+        "The Zelmar Law is official enacted in the free city of Zelmar. The city would go on to be a model for other city governments throughout Ulfwyst."
+      ]
+    },
+    "timeline": {
+      "minor": ["Zelmar Law is official enacted in the free city of Zelmar."]
     }
   },
   "2C-2100": {
@@ -207,7 +226,7 @@
       ]
     },
     "timeline": {
-      "era": ["Tempus Draconis Ends."],
+      "era": ["Cordus Tempus Draconis Ends."],
       "minor": []
     }
   },

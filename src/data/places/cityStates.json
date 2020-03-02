@@ -94,5 +94,20 @@
     "description": [
       "The Free City of Venbrin is a city-state in the Barrier Coast region of Ulfwyst. Located on the isle of Sunheim off the eastern coast of Ulfwyst, the city is home to a large number of temples, including the High Temple of the Maiden, the Eldergrove, the Shrine of St. Bastlen and Elfin Gate Monastery."
     ]
+  },
+  "Hubrynk": {
+    "playerKnown": false,
+    "tags": ["city-state","barrier coast","ulfwyst","port"],
+    "name": "Hubrynk",
+    "nickname": "Free Town of Hubrynk",
+    "type": "Settlement",
+    "population": "~1000",
+    "races": ["human","tiefling","dwarf","dragonborn"],
+    "government": "Oligarchy",
+    "location": "Barrier Coast",
+    "description": [
+      "Free Town of Hubrynk is a city-state in the Barrier Coast region of Ulfwyst. It is located between the larger city-states of Korasov and Braxinfurt.",
+      "Hubrynk was resettled centuries ago in the shadow of a huge castle ruin. The structure, referred to locally as the 'Titan', has no visible entrances. Townsfolk claim that when the town was founded some of the settlers attempted to scale the walls to explore the ruins. None of the initial explorers who ventured over the walls ever returned, and the settlers banned all attempts to do so in the future for fear of what might lurk within."
+    ]    
   }
 }
