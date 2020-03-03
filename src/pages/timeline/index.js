@@ -14,7 +14,7 @@ class Timeline extends Component {
     const dates = {...DataLoader.historical};
 
     this.state = {
-      pathname: window.location.pathname,
+      pathname: decodeURI(window.location.pathname),
       dates: dates,
       dmView: localStorage.getItem('dmView') === 'true'
     }

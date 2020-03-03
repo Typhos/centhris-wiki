@@ -13,16 +13,16 @@ class Player extends Component {
 
     this.state = {
       characterData: DataLoader.characters,
-      pathname: window.location.pathname,
-      person: window.location.pathname.split('/player-character/')[1]
+      pathname: decodeURI(window.location.pathname),
+      person: decodeURI(window.location.pathname.split('/player-character/')[1])
     }
   }
 
   UNSAFE_componentWillReceiveProps(nextProps){
     if ( this.state.pathname !== nextProps.location.pathname) {
       this.setState({
-        pathname: nextProps.location.pathname,
-        person: nextProps.location.pathname.split('/player-character/')[1]
+        pathname: decodeURI(nextProps.location.pathname),
+        person: decodeURI(nextProps.location.pathname.split('/player-character/')[1])
       })
     }
   }

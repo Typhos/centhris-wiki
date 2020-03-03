@@ -15,7 +15,7 @@ class Lore extends Component {
 
     this.state = {
       pathname: window.location.pathname,
-      lore: combinedLore[window.location.pathname.split('/lore/')[1]],
+      lore: combinedLore[ decodeURI(window.location.pathname.split('/lore/')[1]) ],
       dmView: localStorage.getItem('dmView') === 'true'
     }
 
@@ -29,7 +29,7 @@ class Lore extends Component {
     if ( this.state.pathname !== nextProps.location.pathname) {
       this.setState({
         pathname: nextProps.location.pathname,
-        lore: combinedLore[window.location.pathname.split('/lore/')[1]]
+        lore: combinedLore[ decodeURI(window.location.pathname.split('/lore/')[1]) ]
       });
     }
     
@@ -222,7 +222,7 @@ class Lore extends Component {
     const runes = require.context('../../img/runes/', true);
 
     return (
-      <React.Fragment>
+      <React.Fragment key="vesdarianCalendar">
         <h3 className="subjectArea">The Twelve Months of the Vesdarian Calendar</h3>
         <table id="vesdarianCalendar">
           <thead>

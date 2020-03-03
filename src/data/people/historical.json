@@ -66,5 +66,22 @@
       "One of the greatest dwarven lords to grace the frozen peaks of Tathlok Skirrom, Gohdur Stormbreaker was a hero in his own age, before entering into the myths and legends of Ushul nok Keshan. A wise, proud, and honorable ruler, the people of Õsed'ushang whispered that he might be Usterral incarnate.",
       "None have seen the mythical dwarven thane since the fall of his mighty hold, though some still believe he wanders the wild places of the Duskspear Peaks, a hooded figure protecting travelers and holds in their time of need."
     ]
+  },
+  "Vësdar-Frostgem": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "name": "Vësdar Frostgem",
+    "nickname": "Vësdar Frostgem",
+    "linkingWords": [],
+    "tags": ["scholar","dwarf","sorceress","historical"],
+    "birthYear": "2C 42",
+    "deathYear": "2C 505",
+    "gender": "Female",
+    "race": "Dwarf",
+    "occupation": "Scholar",
+    "affiliations": ["Utharian Empire"],
+    "description": [
+      "@+Vësdar Frostgem+@ was born the Utharian Empire during the era of the Great Imperial Conflicts. As a way to escape the troubles of her time, Vësdar focused on creating order from the natural chaos she found around her. Her natural inclination for organizing, recording and cataloging the natural world of Centhris led her to create a new, more accurate and rational calendar than the ones previously used by any of the world's many nation-states. The result of her work became known as the Vësdarian Calendar which is now used in most civilized parts of the world."
+    ]
   }
 }

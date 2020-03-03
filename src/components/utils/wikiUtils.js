@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import DataLoader from 'components/utils/dataLoader';
-import Modal from 'components/utils/modal';
+// import Modal from 'components/utils/modal';
 
 export default class WikiUtils {
 
@@ -126,7 +126,7 @@ export default class WikiUtils {
       // ensure that if the paragraph is a String or an Object, make it an Array.
       // 
 
-      if ( !Array.isArray(paragraph) ) paragraph = [paragraph];
+      paragraph = ( !Array.isArray(paragraph) ) ? paragraph = [paragraph] : paragraph;
 
       const dataGroupsObj = {
         "person": this.peopleData,
@@ -138,18 +138,15 @@ export default class WikiUtils {
         "group": this.orgData
       };
 
+      // path is the key declared above in dataGroupObj
+      // dataSet is the obj values
       for ( let [path, dataSet] of Object.entries(dataGroupsObj) ) {
 
         for ( let obj of Object.values(dataSet) ) {
 
-          let idLinks = null;
-          let idPaths = null;
-
-          if ( obj.idLinks ) idLinks = Object.keys(obj.idLinks);
-          if ( obj.idLinks ) idPaths = Object.values(obj.idLinks);
-
+          const idLinks = ( obj.idLinks ) ? Object.keys(obj.idLinks) : null;
           const namesObj = {
-            idLinks: idLinks || null,
+            idLinks: idLinks,
             linkingWords: obj.linkingWords,
             name: obj.name,
             nickname: obj.nickname
@@ -159,8 +156,10 @@ export default class WikiUtils {
           const show = dataSet[ obj.name.replace(/\s/g,"-") ].playerKnown;
 
           // Only show content that is current listed for viewing by players.
-          // If the DM view search para is enabled, show all content!
+          // If the DM view parameter is enabled, show all content!
           if ( show || localStorage.getItem('dmView') === 'true' ) {
+
+            let tempArray = paragraph;
 
             linkingWords.forEach( (string, j) => {
               if (string !== undefined && string !== "") {
@@ -171,23 +170,24 @@ export default class WikiUtils {
                 if ( obj.subcatLink ) link = <Link key={`key-${j}-${string}`} to={ {pathname: `/${obj.subcatLink}`, state: "update"}}>{string}</Link>;
 
                 if ( !arrayCheck ) {
-                  const nP = paragraph;
-                  paragraph = this.replaceNestedValue(nP, string, link);
+                  tempArray = this.replaceNestedValue(tempArray, string, link);
                 }
               }
             });
+
+            paragraph = tempArray.filter( x => x !== "" );
           }
         }
       }
-
-      paragraph = paragraph.filter( x => x !== "" );
 
       if ( paragraph[0] && (paragraph[0].type === "h3" || paragraph[0].type === "h4" ) ) {
         return paragraph;
       } else {
         return <p className="linkedContent" key={target+index}>{paragraph}</p>;
       }
+    
     });
+
 
     return mapped;
   }
@@ -209,7 +209,9 @@ export default class WikiUtils {
       }
     }
 
-    return dataset.flat(Infinity)
+    if ( Array.isArray(dataset) ) return dataset.flat(Infinity);
+
+    return dataset;    
   }
 
   static createLinkingWordsArray(obj) {

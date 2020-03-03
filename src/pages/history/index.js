@@ -16,7 +16,7 @@ class History extends Component {
 
     this.state = {
       pathname: window.location.pathname,
-      dates: dates[window.location.pathname.split('/history/')[1]],
+      dates: dates[ decodeURI(window.location.pathname.split('/history/')[1]) ],
       dmView: localStorage.getItem('dmView') === 'true'
     }
 
@@ -30,7 +30,7 @@ class History extends Component {
     if ( this.state.pathname !== nextProps.location.pathname) {
       this.setState({
         pathname: nextProps.location.pathname,
-        dates: dates[window.location.pathname.split('/history/')[1]]
+        dates: dates[ decodeURI(window.location.pathname.split('/history/')[1]) ]
       });
     }
     

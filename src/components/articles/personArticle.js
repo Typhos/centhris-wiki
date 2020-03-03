@@ -87,7 +87,7 @@ export default class PeopleArticle extends Component {
         <h2 className="fullName">{person.nickname}</h2>
         <aside className={`infoBox ${ this.state.dmView || ""}`}>
           <h4 className="nickname">{person.name}</h4>
-          <img className="portrait" alt="" src={this.props.image}/>
+          <img className={`portrait ${ (!this.props.image) ? "fillSpace" : "" }`} alt="" src={this.props.image}/>
           { person.titles &&
             <div className="info">
               <p className="key">Title(s)</p>
@@ -232,6 +232,7 @@ export default class PeopleArticle extends Component {
   }
 
   getArticles(person) {
+    console.log(person)
     let content = [WikiUtils.linkContent(person, WikiUtils.textFormatting( person.description) )];
 
     if (person.articles) {

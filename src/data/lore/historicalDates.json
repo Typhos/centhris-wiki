@@ -438,6 +438,27 @@
       ]
     }
   },
+  "2C-2546": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2546",
+    "nickname": "2C 2546",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2546:"
+    ],
+    "articles": {
+      "Tarnia": [
+        "A massive riot, which turned into a full scale prison break, occurs at Duskreef Citadel. After the riot, the prisoners took control of the island, and turned the surrounding village into a pirate haven."
+      ]
+    },
+    "timeline": {
+      "minor": [
+        "A prison riot at Duskreef Citadel results in the surrounding island becoming a pirate haven."
+      ]
+    }
+  },
   "2C-2549": {
     "playerKnown": true,
     "hideDate": false,

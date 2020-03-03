@@ -10,7 +10,7 @@ class Person extends Component {
     
     this.state = {
       pathname: window.location.pathname,
-      person: window.location.pathname.split('/person/')[1]
+      person: decodeURI(window.location.pathname.split('/person/')[1])
     }
   }
 
@@ -18,7 +18,7 @@ class Person extends Component {
     if ( this.state.pathname !== nextProps.location.pathname) {
       this.setState({
         pathname: nextProps.location.pathname,
-        person: nextProps.location.pathname.split('/person/')[1]
+        person: decodeURI(nextProps.location.pathname.split('/person/')[1])
       });
     }
   }
@@ -32,7 +32,7 @@ class Person extends Component {
     return (
       <Page.People>
         <section id="people" className="article" >
-          <PersonArticle key={person} data={{peopleData}} entry={peopleData[person]} image={ imgPath || images('./unknown.png') } />
+          <PersonArticle key={person} data={{peopleData}} entry={peopleData[person]} image={ imgPath || undefined } />
         </section>
       </Page.People>
     )

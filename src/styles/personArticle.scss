@@ -37,6 +37,11 @@ article.person {
       width: 100%;
       border-top: 1px solid $blueLight;
       border-bottom: 1px solid $blueLight;
+
+      &.fillSpace {
+        border-top: 0;
+        padding-bottom: 1em;
+      }
     } 
 
     div.info {

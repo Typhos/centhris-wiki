@@ -12,8 +12,8 @@ class Creatures extends Component {
     super(props);
     
     this.state = {
-      pathname: window.location.pathname,
-      creature: window.location.pathname.split('/creature/')[1],
+      pathname: decodeURI(window.location.pathname),
+      creature: decodeURI(window.location.pathname.split('/creature/')[1]),
       dmView: localStorage.getItem('dmView') === 'true'
     }
 
@@ -27,7 +27,7 @@ class Creatures extends Component {
     if ( this.state.pathname !== nextProps.location.pathname) {
       this.setState({
         pathname: nextProps.location.pathname,
-        creature: window.location.pathname.split('/creature/')[1]
+        creature: decodeURI(window.location.pathname.split('/creature/')[1])
       });
     }
   }
