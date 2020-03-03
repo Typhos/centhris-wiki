@@ -1,6 +1,6 @@
 {
   "Duskreef": {
-    "playerKnown": false,
+    "playerKnown": true,
     "tags": ["town","Nakali Isles","port","ulfwyst","Mare Concordis"],
     "name": "Duskreef",
     "nickname": "Duskreef",

@@ -240,7 +240,7 @@
     ]
   },
   "Mahdi-Jamshidi": {
-    "playerKnown": false,
+    "playerKnown": true,
     "hideOnCat": false,
     "name": "Mahdi Jamshidi",
     "nickname": "Mahdi 'the Damned' Jamshidi",
