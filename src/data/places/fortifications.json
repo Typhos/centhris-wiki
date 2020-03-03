@@ -36,6 +36,18 @@
       "Kaer Valvik is a border-keep located at the eastern border of the Archduchy of Zurast, on the edge of the Barrier Coast and Navolin. The castle was constructed to guard the eastern expansion of the archduchy after it claimed the territory during the War of Sellswords."
     ]
   },
+  "Var-Komarno": {
+    "playerKnown": false,
+    "tags": ["castle","Cibrin","Clan Godak","ulfwyst"],
+    "name": "Var Komarno",
+    "nickname": "Var Komarno",
+    "type": "Fortification",
+    "location": "Torick-Vir Valley",
+    "leaders": ["Han Darga Vaburk"],
+    "description": [
+      "Var Komarno is the hill fortress of Clan Godak, one of the most powerful clans in Cibrin."
+    ]
+  },
   "Fesgart-Citadel": {
     "playerKnown": false,
     "tags": ["castle","navolin","frecyra","ulfwyst"],
@@ -49,7 +61,7 @@
     ]
   },
   "Dawnguard-Keep": {
-    "playerKnown": false,
+    "playerKnown": true,
     "tags": ["castle","rakenburg","barrier coast","ulfwyst"],
     "name": "Dawnguard Keep",
     "nickname": "Dawnguard Keep",

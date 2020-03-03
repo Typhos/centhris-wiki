@@ -105,6 +105,7 @@ class Timeline extends Component {
           ( data.timeline.major && data.timeline.major.length > 0) || 
           ( data.timeline.minor && data.timeline.minor.length > 0) || 
           ( data.timeline.era && data.timeline.era.length > 0) || 
+          ( data.timeline.age && data.timeline.age.length > 0) || 
           ( data.timeline.war && data.timeline.war.length > 0 )
         )
 
@@ -124,22 +125,27 @@ class Timeline extends Component {
             }
             { data.timeline.major && 
               data.timeline.major.map( event => {
-                return WikiUtils.linkContent( date, event )
+                return <div key={event} title="Major Event" className="">{WikiUtils.linkContent( date, event )}</div>
               })
             }
             { data.timeline.era && 
               data.timeline.era.map( event => {
-                return <div key={event} className="era">{WikiUtils.linkContent( date, event )}</div>
+                return <div key={event} title="Era" className="era">{WikiUtils.linkContent( date, event )}</div>
+              })
+            }
+            { data.timeline.age && 
+              data.timeline.age.map( event => {
+                return <div key={event} title="Age" className="age">{WikiUtils.linkContent( date, event )}</div>
               })
             }
             { data.timeline.war && 
               data.timeline.war.map( event => {
-                return <div key={event} className="war">{WikiUtils.linkContent( date, event )}</div>
+                return <div key={event} title="War" className="war">{WikiUtils.linkContent( date, event )}</div>
               })
             }
             { data.timeline.minor && 
               data.timeline.minor.map( event => {
-                return <div key={event} className="minor">{WikiUtils.linkContent( date, event )}</div>
+                return <div key={event} title="Minor Event" className="minor">{WikiUtils.linkContent( date, event )}</div>
               })
             }
           </li>

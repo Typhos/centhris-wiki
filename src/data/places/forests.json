@@ -1,0 +1,79 @@
+{
+  "Greyleaf-Pines": {
+    "playerKnown": false,
+    "tags": ["region","ulfwyst","forest","Torick Peaks"],
+    "name": "Greyleaf Pines",
+    "nickname": "Greyleaf Pines",
+    "type": "Forest",
+    "location": "Lemuria",
+    "description": [
+    ]    
+  },
+  "Thornroot-Thicket": {
+    "playerKnown": true,
+    "tags": ["region","forest","rythlon","kelishan highlands","ulfwyst","Sylvan Conclave"],
+    "name": "Thornroot Thicket",
+    "nickname": "Thornroot Forest",
+    "type": "Forest",
+    "location": "Kelishan Highlands",
+    "description": [
+      "An ancient forest located in the Kelishan Highlands, Thornroot Thicket is a dark and twisted place, full of hostile creatures, both natural and monstrous.",
+      "The Adventurers ventured into Thornroot twice. Once to find and kill the Lady of the Wood, a hag who lived in the forest and the group felt needed to be killed in order to save the town of Rythlon. The second time the group traveled into the dark woods, it was at the request of Erlinder Bluefield, who wished to return to the Shrine of the Agrestal Cycle in order commune with nature and find out more about his new abilities."
+    ]  
+  },
+  "Drakenwald": {
+    "playerKnown": true,
+    "tags": ["region","forest","zurast","ulfwyst"],
+    "name": "Drakenwald",
+    "nickname": "Drakenwald Forest",
+    "type": "Forest",
+    "location": "Archduchy of Zurast",
+    "description": [
+      "A relatively young forest compared to the rest of those in Ulfwyst, the Drakenwald is a dark, foreboding sea of green in the shadow of the Kazgrim Mountains. The forest has expanded quickly due to the rich volcanic soil that makes up the earth beneath it."
+    ]  
+  },
+  "Vel'dorin-Wood": {
+    "playerKnown": true,
+    "tags": ["region","forest","zurast","ulfwyst"],
+    "name": "Vel'dorin Wood",
+    "nickname": "Vel'dorin Forest",
+    "type": "Forest",
+    "location": "Archduchy of Zurast",
+    "description": [
+      "The @+Vel'dorin Wood+@ is a large, marshy woodland that rests north of the Eye of Vel'dorin, in east-central ulfwyst. The forest acts as a natural barrier between the Kelishan Highlands to the east and the Desolate Wastes to the west."
+    ]
+  },
+  "The-Wraithwood": {
+    "playerKnown": false,
+    "tags": ["region","forest","Navolin","ulfwyst"],
+    "name": "The Wraithwood",
+    "nickname": "The Wraithwood",
+    "type": "Forest",
+    "location": "Navolin",
+    "description": [
+      "The @+Wraithwood+@ is a wooded region in northwestern Navolin. The forest is located along the coast of the Adorra Sound and encircles the Jeziora Lakes."
+    ]
+  },
+  "Razark-Timberland": {
+    "playerKnown": false,
+    "tags": ["region","forest","Navolin","ulfwyst"],
+    "name": "Razark Timberland",
+    "nickname": "Razark Timberland",
+    "type": "Forest",
+    "location": "Navolin",
+    "description": [
+      "The @+Razark Timberland+@ is a tundra forest region in southern Lemuria. The hilly forest makes up the majority of the kingdom's south western peninsula, which juts out into the Venngar sea."
+    ]
+  },
+  "Greater-Tsaga-Forests": {
+    "playerKnown": false,
+    "tags": ["region","forest","Navolin","ulfwyst"],
+    "name": "Greater Tsaga Forests",
+    "nickname": "Tsaga Forests",
+    "type": "Forest",
+    "location": "Syrothia",
+    "description": [
+      "The @+Greater Tsaga Forests+@, also known as the Tsaga wildlands, is an expansive wooded region west of the Pillars of Amud. The region acts as a natural southern barrier to the Syrothian Plateau, which extends hundreds of miles to the north of the forest. The forest itself covers over 250,000 km@^2^@."
+    ]
+  }
+}

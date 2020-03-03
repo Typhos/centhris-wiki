@@ -36,15 +36,15 @@
       "minor": ["The wizards Menodora & Amabilis banish Akad the Magnificent from the Material Plane."]
     }
   },
-  "1C-6907": {
+  "1C-6500": {
     "playerKnown": false,
     "hideDate": true,
-    "name": "1C 6907",
-    "nickname": "1C 6907",
+    "name": "1C 6500",
+    "nickname": "1C 6500",
     "type": "",
     "tags": ["year","events"],
     "description": [
-      "The following historical events took place in 1C 6907:"
+      "The following historical events took place in 1C 6500:"
     ],
     "articles": {
       "The Age of Giants Begins": [
@@ -52,7 +52,26 @@
       ]
     },
     "timeline": {
-      "era": ["The Age of Giants Begins"]
+      "age": ["The Age of Giants begins."]
+    }
+  },
+  "1C-7400":{
+    "playerKnown": true,
+    "hideDate":true,
+    "name": "1C 7400",
+    "nickname": "1C 7400",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 1C 7400:"
+    ],
+    "articles": {
+      "Era of the Primulus Tempus Draconis": [
+        "The era known as the Primulus Tempus Draconis begins around this time."
+      ]
+    },
+    "timeline": {
+      "age": ["The Age of Giants ends.","The Primulus Tempus Draconis begins."]
     }
   },
   "1C-8209":{
@@ -131,6 +150,25 @@
       "major": ["Founding of the Utharian Empire."]
     }
   },
+  "2C-110":{
+    "playerKnown": true,
+    "hideDate":true,
+    "name": "2C 110",
+    "nickname": "2C 110",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 110:"
+    ],
+    "articles": {
+      "Era of the Primulus Tempus Draconis": [
+        "The age known as the Primulus Tempus Draconis ends around this time, due to the aggressive hunting and extermination of dragons by the various great empires of the early Second Convergence."
+      ]
+    },
+    "timeline": {
+      "age": ["End of the Primulus Tempus Draconis."]
+    }
+  },
   "2C-694": {
     "playerKnown": true,
     "hideDate": true,
@@ -187,7 +225,7 @@
       ]
     },
     "timeline": {
-      "era": ["Cordus Tempus Draconis Begins."],
+      "age": ["Cordus Tempus Draconis Begins."],
       "minor": []
     }
   },
@@ -226,7 +264,7 @@
       ]
     },
     "timeline": {
-      "era": ["Cordus Tempus Draconis Ends."],
+      "age": ["Cordus Tempus Draconis Ends."],
       "minor": []
     }
   },
@@ -326,7 +364,7 @@
       ]
     },
     "timeline": {
-      "era": ["The Wars of Dominion begin."],
+      "age": ["The Wars of Dominion begin."],
       "minor": []
     }
   },
@@ -346,7 +384,7 @@
       ]
     },
     "timeline": {
-      "era": ["The Wars of Dominion come to a close."],
+      "age": ["The Wars of Dominion come to a close."],
       "minor": []
     }
   },

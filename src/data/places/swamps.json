@@ -1,0 +1,50 @@
+{
+  "Sullen-Fen": {
+    "playerKnown": false,
+    "tags": ["swamp","region","ulfwyst","marsh","mangroves"],
+    "name": "Sullen Fen",
+    "nickname": "The Sullen Fen",
+    "linkingWords": ["Sullen Mangrove"],
+    "type": "Wetland",
+    "nation": ["Kaeldrin Sanctum"],
+    "location": "Ulfwyst",
+    "description": [
+    ]    
+  },
+  "Blighted-Mire": {
+    "playerKnown": true,
+    "tags": ["swamp","region","ulfwyst"],
+    "name": "Blighted Mire",
+    "nickname": "The Blighted Mire",
+    "type": "Wetland",
+    "races": ["human","elf","gnome","half-elf","half-orc","tiefling"],
+    "nation": ["Tovanis","Zurast"],
+    "location": "Ulfwyst",
+    "description": [
+      "The Blighted Mire is a large area of swampland in east-central Ulfwyst. The swamp, which acts as a natural divider between the state of Tovanis and the Archduchy of Zurast, is wild, stinking marshland full of wild creatures, dangerous monsters and forgotten ruins.",
+      "It is here, while traveling north from the City of Zurast, that Murat and Zorrakir first met Evan-Jakob when he appeared out of thin air."
+    ]    
+  },
+  "Galren-Moor": {
+    "playerKnown": true,
+    "tags": ["moor","marsh","region","ulfwyst"],
+    "name": "Galren Moor",
+    "nickname": "Galren Moor",
+    "linkingWords": ["Galren"],
+    "type": "Wetland",
+    "location": "Navolin",
+    "description": [
+    ]    
+  },
+  "Drowned-Weald": {
+    "playerKnown": true,
+    "tags": ["moor","marsh","region","ulfwyst"],
+    "name": "Drowned Weald",
+    "nickname": "Drowned Weald",
+    "linkingWords": [],
+    "type": "Wetland",
+    "location": "Zurast / Lemuria",
+    "description": [
+    ]    
+  }
+}

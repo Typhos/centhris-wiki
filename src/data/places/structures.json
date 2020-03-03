@@ -110,7 +110,7 @@
     }
   },
   "The-Argentate": {
-    "playerKnown": false,
+    "playerKnown": true,
     "tags": ["building","venbrin","ulfwyst","barrier coast","palace","fortress"],
     "name": "The Argentate",
     "nickname": "The Argentate",

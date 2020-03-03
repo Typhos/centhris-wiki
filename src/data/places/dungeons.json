@@ -50,6 +50,7 @@
     "tags": ["ruins","labyrinth","ulfwyst","rakenburg","under-city","barrier coast"],
     "name": "the Twisting Warrens",
     "nickname": "The Twisting Warrens",
+    "linkingWords": ["Vessuna Alcimianus"],
     "type": "Dungeon",
     "location": "Rakenburg",
     "description": [

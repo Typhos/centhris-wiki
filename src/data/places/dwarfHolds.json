@@ -35,7 +35,7 @@
     "location": "Pillars of Amud",
     "nation": "Dol Obok",
     "leaders": ["High King Bramdur Thundershod"],
-    "districts": [""],
+    "districts": [],
     "description": [
     ],
     "dmArticles": {
@@ -58,7 +58,7 @@
     "location": "Pillars of Amud",
     "nation": "Dol Obok",
     "leaders": ["Thane Gimmyl Wyrmbreaker"],
-    "districts": [""],
+    "districts": [],
     "description": [
         "The city of Felrast is a dwarf hold under Mount Delovun in the Pillars of Amud. The city overlooks the vast Iron Hills that mark the southern edge of the Pillars of Amud."
     ],
@@ -88,7 +88,7 @@
     "location": "Pillars of Amud",
     "nation": "Dol Obok",
     "leaders": ["Thane Jarvari Frostbeard"],
-    "districts": [""],
+    "districts": [],
     "description": [
     ],
     "dmArticles": {
@@ -111,7 +111,7 @@
     "location": "Pillars of Amud",
     "nation": "Dol Obok",
     "leaders": ["Thane Recha Yewhammer"],
-    "districts": [""],
+    "districts": [],
     "description": [
     ],
     "dmArticles": {
@@ -134,7 +134,7 @@
     "location": "Pillars of Amud",
     "nation": "Dol Obok",
     "leaders": ["Thane Soksy Thundershod"],
-    "districts": [""],
+    "districts": [],
     "description": [
     ],
     "dmArticles": {
@@ -157,7 +157,7 @@
     "location": "Jordonis Mountains",
     "nation": "Independent",
     "leaders": ["Lord Tarmis Doomsong"],
-    "districts": [""],
+    "districts": [],
     "description": [
     ],
     "dmArticles": {
@@ -180,7 +180,7 @@
     "location": "Jordonis Mountains",
     "nation": "Independent",
     "leaders": ["Lady Lalliss Stormrock"],
-    "districts": [""],
+    "districts": [],
     "description": [
     ],
     "dmArticles": {
@@ -203,7 +203,7 @@
     "location": "Jordonis Mountains",
     "nation": "Independent",
     "leaders": ["Lord Ugreth Starkheart"],
-    "districts": [""],
+    "districts": [],
     "description": [
     ],
     "dmArticles": {
@@ -226,15 +226,20 @@
     "location": "Kazgrim Mountains",
     "nation": "Independent",
     "leaders": ["Lord Doran Ashenforge"],
-    "districts": [""],
+    "districts": [],
     "description": [
-      "The dwarven fortress of Rul Undrak is a hard-fought foothold of the dwarven people in the Kazgri Mountains. The dwarves of Rul Undrak have been slowly shaping the fortress out of the foot of Mount Ulzanos. "
+      "The dwarven fortress of @+Rul Undrak+@ is a hard-fought foothold of the dwarven people in the Kazgrim Mountains. The dwarves of Rul Undrak have been slowly shaping the fortress out of the foot of Mount Ulzanos. "
     ],
     "articles": {
-      "The Persistence of the Ziril'udór":[
+      "History": [
+        "The Kazgrim Mountains, in which Mount Ulzanos resides, is a range of dormant volanic peaks in southeastern Ulfwyst. During the age of the First Convergence, the range was extremely active, creating large swaths of previously submerged territory around the volcanoes. The region was so active that it eventually connected the island southeast of the range, which is now eastern Lemuria.",
+        "Within this constant firestorm, the elementals and their servants, the giants, established fledgling territories. Coming down from their molten homes, these powerful beings conquered and enslaved the various small tribes of humanoids which lived in the surround areas.",
+        "Eventually, as the @;First Convergence;@ came to an end, and the empires of the giants slowly collapsed, giving way to the Primulus Tempus Draconis, the Kazgrim range was left with not but ruins and savage monsters as residents.",
+        "@#The Persistence of the Ziril'udór#@",
         "For the last several centuries, dwarves across Ulfwyst have been setting out, seeking new sites to establish outposts and forge new thanedoms. Most of these expeditions were doomed to failure, as the harsh weather and deadly creatures that inhabit Ulfwyst make carving out new settlements in the wild places of the world extremely dangerous. However, eventually the persistence of the dwarven people defied the odds, and the fortress of Rul Undrak was established in the volcanic mountain of Ulzanos on the northern end of the Kazgrim range."
       ],
-      "The Heart of the Volcano": [
+      "Geography": [
+        "@#The Heart of the Volcano#@",
         "Mount Ulzanos, or 'Fire River' in the Ziril'udórian dialect, is currently dormant, but during the age of the First Convergence, it was one of the most active volcanoes on the continent. The various forests that sit at the foot of the Kazgrim range, the Drakenwald, Drowned Weald and Amber Grove all grew out of the fertile volcanic soil deposited by the volcanic activity.",
         "Though the mountain is current dormant, the dwarves of Rul Undrak gone to great lengths to take advantage of their home's unique properties. A 40 year project, headed up by the master engineer Tira Stormriver, lead to the creation of huge stone shafts that channel magma from the heart of the mountain into enormous furnaces in the heart of the city. The project was commissioned by the city's lord, Doran Ashenforge, as a way to gain renown for the city, as well as to attract young, talented craftsdwarfs to the fledgling fortress. The Grand Magma Forges of Rul Undrak are widely regarded as one of the most ambitious dwarven engineering projects in the last two centuries and are available for any smith living in the city to use at no cost."
       ],
@@ -245,9 +250,6 @@
       ]
     },
     "dmArticles": {
-      "History": [
-        
-      ]
     }
   },
   "Thuryn-Zul": {
@@ -264,7 +266,7 @@
     "location": "Zavalev Mountains",
     "nation": "Independent",
     "leaders": ["Lord Brokki Snowspire"],
-    "districts": [""],
+    "districts": [],
     "description": [
     ],
     "dmArticles": {
@@ -287,7 +289,7 @@
     "location": "Zavalev Mountains",
     "nation": "Independent",
     "leaders": ["Lady Ynga Nightiron"],
-    "districts": [""],
+    "districts": [],
     "description": [
     ],
     "dmArticles": {
@@ -310,7 +312,7 @@
     "location": "Vir Mountains",
     "nation": "Dol Obok",
     "leaders": ["Lord Nezul Graybeard"],
-    "districts": [""],
+    "districts": [],
     "description": [
     ],
     "dmArticles": {
@@ -333,7 +335,7 @@
     "location": "Vir Mountains",
     "nation": "Dol Obok",
     "leaders": ["Lord Erikoc Opalcloak"],
-    "districts": [""],
+    "districts": [],
     "description": [
     ],
     "dmArticles": {

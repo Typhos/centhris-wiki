@@ -27,6 +27,10 @@ import structures       from 'data/places/structures';
 import world            from 'data/places/world';
 import seas             from 'data/places/seas';
 import regions          from 'data/places/regions';
+import mountains        from 'data/places/mountains';
+import forests          from 'data/places/forests';
+import deserts          from 'data/places/deserts';
+import swamps           from 'data/places/swamps';
 import politicalStates  from 'data/places/nationStates';
 import cityDistricts    from 'data/places/cityDistricts';
 import cityStates       from 'data/places/cityStates';
@@ -43,7 +47,7 @@ import spellData        from 'data/spells';
 
 export default class DataLoader {
 
-  static places = {...structures, ...world, ...regions, ...seas, ...cityDistricts, ...cityStates, ...capitals, ...cities, ...towns, ...villages, ...dungeons, ...fortifications, ...dwarfHolds, ...politicalStates, ...mythic};
+  static places = {...structures, ...world, ...regions, ...mountains, ...forests, ...deserts, ...swamps, ...seas, ...cityDistricts, ...cityStates, ...capitals, ...cities, ...towns, ...villages, ...dungeons, ...fortifications, ...dwarfHolds, ...politicalStates, ...mythic};
   
   static lore = {...racesData, ...eventsData, ...loreData, ...itemData};
   

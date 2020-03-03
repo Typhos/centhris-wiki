@@ -100,7 +100,7 @@
     "tags": ["city-state","barrier coast","ulfwyst","port"],
     "name": "Hubrynk",
     "nickname": "Free Town of Hubrynk",
-    "type": "Settlement",
+    "type": "Town",
     "population": "~1000",
     "races": ["human","tiefling","dwarf","dragonborn"],
     "government": "Oligarchy",

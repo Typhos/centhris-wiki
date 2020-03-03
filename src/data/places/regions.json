@@ -28,39 +28,17 @@
       "The Damali Steppe is a seemingly endless flat grassland that makes up a large area of east-central Ulfwyst. The steppe is considered the territorial barrier between the Kingdom of Navolin and the Kaeldrin Sanctum."
     ]    
   },
-  "Eye-of-Vel'dorin": {
+  "Syrothian-Plateau": {
     "playerKnown": false,
-    "tags": ["region","volcano","moutain","ulfwyst"],
-    "name": "Eye of Vel'dorin",
-    "nickname": "Vel'dorin's Eye",
+    "tags": ["region","plains","steppe","Syrothian Empire","ulfwyst"],
+    "name": "Syrothian Plateau",
+    "nickname": "Syrothian Plateau",
     "type": "Region",
+    "nation": "Syrothian Empire",
     "location": "Ulfwyst",
     "description": [
-      "An active volcano located east of the Desolate Wastes and west of the Kelishan Highlands, the Eye of Vel'dorin billows dark smoke endlessly into the sky. An old saying in the region portents that should the mountain ever cease to smolder, all of Ulfwyst should fear Vel'dorin's wrath."
+      "The @+Syrothian Plateau+@ a seemingly endless, rolling grassland that covers the nearly the entirety of central Ulfwyst. The plateau has been home to numerous tribes of nomadic peoples and various great plains creatures including horses, elk, boar, wolves, griffins, wyverns and even the occasional roc."
     ]    
-  },
-  "Thornroot-Thicket": {
-    "playerKnown": true,
-    "tags": ["region","forest","rythlon","kelishan highlands","ulfwyst","Sylvan Conclave"],
-    "name": "Thornroot Thicket",
-    "nickname": "Thornroot Forest",
-    "type": "Region",
-    "location": "Kelishan Highlands",
-    "description": [
-      "An ancient forest located in the Kelishan Highlands, Thornroot Thicket is a dark and twisted place, full of hostile creatures, both natural and monstrous.",
-      "The Adventurers ventured into Thornroot twice. Once to find and kill the Lady of the Wood, a hag who lived in the forest and the group felt needed to be killed in order to save the town of Rythlon. The second time the group traveled into the dark woods, it was at the request of Erlinder Bluefield, who wished to return to the Shrine of the Agrestal Cycle in order commune with nature and find out more about his new abilities."
-    ]  
-  },
-  "Drakenwald": {
-    "playerKnown": true,
-    "tags": ["region","forest","zurast","ulfwyst"],
-    "name": "Drakenwald",
-    "nickname": "Drakenwald Forest",
-    "type": "Region",
-    "location": "Archduchy of Zurast",
-    "description": [
-      "A relatively young forest compared to the rest of those in Ulfwyst, the Drakenwald is a dark, foreboding sea of green in the shadow of the Kazgrim Mountains. The forest has expanded quickly due to the rich volcanic soil that makes up the earth beneath it."
-    ]  
   },
   "Barrier-Coast": {
     "playerKnown": true,
@@ -76,26 +54,12 @@
       "The major political elements in the region are the Free City-States of the Barrier Coast. These loosely affiliated city-states maintain their independence from each other, but share a common culture and a defensive alliance against outside aggression from other regional powers. The major city-states that comprise this alliance are Braxinfurt, Korasov, Rakenburg, Venbrin and Volikgrad."
     ]    
   },
-  "Blighted-Mire": {
-    "playerKnown": true,
-    "tags": ["swamp","region","ulfwyst"],
-    "name": "Blighted Mire",
-    "nickname": "The Blighted Mire",
-    "type": "Region",
-    "races": ["human","elf","gnome","half-elf","half-orc","tiefling"],
-    "nation": ["Tovanis","Zurast"],
-    "location": "Ulfwyst",
-    "description": [
-      "The Blighted Mire is a large area of swampland in east-central Ulfwyst. The swamp, which acts as a natural divider between the state of Tovanis and the Archduchy of Zurast, is wild, stinking marshland full of wild creatures, dangerous monsters and forgotten ruins.",
-      "It is here, while traveling north from the City of Zurast, that Murat and Zorrakir first met Evan-Jakob when he appeared out of thin air."
-    ]    
-  },
   "Isle-of-Sunheim": {
     "playerKnown": true,
     "tags": ["island","barrier coast","region","ulfwyst"],
     "name": "Isle of Sunheim",
     "nickname": "Sunheim",
-    "type": "Region",
+    "type": "Island",
     "location": "Mare Concordis",
     "description": [
       "The Isle of Sunheim is located off the eastern coast of the continent of Ulfwyst. Is is a sub-tropical island. The largest settlement on the island is the city of Venbrin."
@@ -106,44 +70,41 @@
     "tags": ["island","archipelago","region","ulfwyst"],
     "name": "Toridosa Archipelago",
     "nickname": "Toridosa",
-    "type": "Region",
+    "type": "Island",
     "description": [
       "The Toridosa Archipelago is series of islands in the center of the Mare Concordis. Little is known about the islands, though their existence has been known for centuries. It was only within the last few years that the island chain has been successfully mapped.",
       "Explorers who have traveled to the archipelago speak of incredible, vast ruins and terrible dangers that await any who venture there."
     ]    
   },
-  "the-Rostamas": {
-    "playerKnown": false,
-    "tags": ["mountains","region","ulfwyst"],
-    "name": "the Rostamas",
-    "nickname": "Rostamas",
-    "type": "Region",
-    "location": "Ulfwyst",
+  "Nakali-Islands": {
+    "playerKnown": true,
+    "tags": ["islands","region","ulfwyst"],
+    "name": "Nakali Islands",
+    "nickname": "Nakali Isles",
+    "type": "Island",
     "description": [
-      "The Rostamas are a small mountain range in north-central Ulfwyst. The divide the Ur'shiid Desert from Syrothian Plateau."
-    ]
+      "The @+Nakali Islands+@ are an island chain off the north western coast of Ulfwyst. Covered in dense, verdant jungle, the islands are thought to be mostly uninhabited. Crewmen of ships that have sailed past the islands state that there are huge, ancient ruins, mostly in the form of large pyramids, that dot some islands, but expeditions to the islands have proven extremely difficult due to the oppressive heat, dense jungles, aggressive wildlife and rumors of strange tribal peoples that live amongst the ruins."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+
+    }
   },
-  "Ur'shiid-Desert": {
+  "Jayanti-Isles": {
     "playerKnown": false,
-    "tags": ["desert","region","ulfwyst"],
-    "name": "Ur'shiid Desert",
-    "nickname": "Dunes of Ur'shiid",
-    "type": "Region",
-    "location": "Ulfwyst",
+    "tags": ["islands","region","ulfwyst"],
+    "name": "Jayanti Isles",
+    "nickname": "Jayanti Islands",
+    "type": "Island",
     "description": [
-      "The Ur'shiid Desert is a vast, hot desert located in central Ulfwyst. It is the largest desert in Ulfwyst and one of the largest deserts on Centhris. The region is mostly considered part of the Kingdom of Abbasyr, though due to the hostile nature of the environment it is difficult exert direct control over those living in the deepest reaches of the wastes."
-    ]
-  },
-  "Dune-Sea-of-Manar": {
-    "playerKnown": false,
-    "tags": ["desert","region","ulfwyst"],
-    "name": "Dune Sea of Manar",
-    "nickname": "Manar Dunes",
-    "type": "Region",
-    "location": "Cunascus",
-    "description": [
-      "The Dune Sea of Manar is a large peninsula in northwest Cunascus and one of the largest deserts on Centhris. Once a verdant jungle, much of the topography that made up the landscape was irrevocably altered during the Ruination of Centhris and the land became nearly uninhabitable."
-    ]
+      "The @+Jayanti Islands+@ are an island chain off the northern coast of Ulfwyst. Volcanic in origin, the islands are covered in thick forests before rising up to the high, jagged peaks at their center. Several large port towns have been established on the islands in order to facilitate trade along the northern coast."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+
+    }
   },
   "Valley-of-Rud-Gilan": {
     "playerKnown": false,
@@ -158,110 +119,6 @@
       "Remnants of a long-dead civilization still dot the region. Many structures have long crumbled into ruin, though many great monuments, temples and public works can still be found throughout the area. Superstitious travelers steer well clear of the valley, and claim they have seen or hear tales of terrible, nightmarish creatures that wander the valley at night. Other claim they have seen huge, winged creatures circle the crags and ruins, openly displaying their power and ownership of the valley to anyone who might challenge their dominance."
     ] 
   },
-  "Crimson-Mist-Mountains": {
-    "playerKnown": false,
-    "tags": ["mountains","forest","region","Western Koraxon"],
-    "name": "Crimson Mist Mountains",
-    "nickname": "Crimson Mist Mountains",
-    "type": "Region",
-    "location": "Western Koraxon",
-    "description": [
-      "The Crimson Mist Mountains is a mountain range in the south-west region of the continent of Western Koraxon. The region is renown for its verdant and lush, crimson forests. High spires dot the region and its coastal areas, and the flora is diverse, relative to the elevation. The mountain spires are capped with the crimson leaves of the huge trees that make up the Xiangmu Forest. At the base of the steep cliffs sits a lush bamboo forest teeming with wildlife."
-    ] 
-  },  
-  "Jordonis-Mountains": {
-    "playerKnown": true,
-    "tags": ["mountains","region","ulfwyst"],
-    "name": "Jordonis Mountains",
-    "nickname": "Jordonis Mountains",
-    "type": "Region",
-    "location": "Ulfwyst",
-    "description": [
-      "The Jordonis Mountains are one of the most important geographic features in the climate, politics and culture of eastern Ulfwyst. Spanning a huge part of the eastern coast of the continent, the mountains act as the dividing line between the Kingdom of Navolin and the city-states of the Barrier Coast."
-    ]
-  },
-  "Kazgrim-Mountains": {
-    "playerKnown": true,
-    "tags": ["mountains","region","ulfwyst"],
-    "name": "Kazgrim Mountains",
-    "nickname": "Kazgrim Moutains",
-    "linkingWords": ["Kazgrims"],
-    "type": "Region",
-    "location": "Ulfwyst",
-    "description": [
-      "The Kazgrim Mountains are a small series of volcanic mountains situated in souther eastern Ulfwyst. The range has been dormant for centuries, but millennia-ago is responsible for connecting central Ulfwyst to the landmass that now makes up eastern Lemuria.",
-      "Centuries ago, dwarves from other parts of Ulfwyst set out, seeking new sites to establish outposts and forge new thanedoms. Most of these expeditions were doomed to failure. The harsh weather of the region, along with numerous threats that inhabit the mountains, such as chimeras, wyverns, giant, ogres, and trolls resulted in numerous camps and fledgling holds being sacked. However, eventually the persistence (and some would say suicidal stubbornness) of the dwarven people defied the odds, and the fortress of Rul Undrak was established under Mount Ulzanos on the northern end of the Kazgrim range."
-    ]
-  },
-  "Pillars-of-Amud": {
-    "playerKnown": true,
-    "tags": ["mountains","region","ulfwyst"],
-    "name": "Pillars of Amud",
-    "nickname": "Spires of Amud",
-    "type": "Region",
-    "location": "Ulfwyst",
-    "description": [
-      "The Pillars of Amud are a series of huge, jagged rocky spires that cut across the heart of central Ulfwyst. They are the tallest mountains in Ulfwyst, and the range is the second longest on the continent. The mountain range is home to the dwarven kingdom of Dol Obok, one of the largest and most well-established dwarf kingdoms on Centhris. Carved into the mountains are five great dwarf cities: Thellodur, Felrast, Nak Orodum, Lanok and Isidar Hreth."
-    ]
-  },
-  "Torick-Peaks": {
-    "playerKnown": true,
-    "tags": ["mountains","region","ulfwyst"],
-    "name": "Torick Peaks",
-    "nickname": "Torick Peaks",
-    "type": "Region",
-    "location": "Ulfwyst",
-    "description": [
-      "The Torick Peaks are a small mountain range which provides a natural barrier between the Realm of Cibrin and Kingdom of Lemuria. The mountians are south of the Realm of Tovanis. The dwarven hold of Tronj'und is located under Mount Certunsk, which is located in the middle of the range."
-    ]
-  },
-  "Vir-Mountains": {
-    "playerKnown": true,
-    "tags": ["mountains","region","ulfwyst"],
-    "name": "Vir Mountains",
-    "nickname": "Vir Mountains",
-    "type": "Region",
-    "location": "Ulfwyst",
-    "description": [
-      "The Vir Mountains are a small mountain range which provides a natural barrier between the Realm of Cibrin and the Olgarrod Wilds to the southwest. The mountains are south of the former state of Hestia, now part of the Syrothian Empire. The dwarven holds of Vol Volund and Kadren Zul are located in the mountains, connected by the deep tunnels of the dwarves."
-    ]
-  },
-  "Vesanas-Mountains": {
-    "playerKnown": false,
-    "tags": ["mountains","region","entos"],
-    "name": "Vesanas Mountains",
-    "nickname": "Vesanas Mountains",
-    "linkingWords": ["the Vesanas"],
-    "type": "Region",
-    "location": "Entos",
-    "description": [
-      "The Vesanas Mountains are a large mountain range that divide the northeastern part of Entos. The range acts as a natural border between the Kingdom of Talhurst, Dôr Glannen and Motreso. The Vesanas are the longest range on the continent and, like their cousins the Duskspear Peaks, contain numerous volcanoes some of which are still active."
-    ]
-  },
-  "Duskspear-Peaks": {
-    "playerKnown": false,
-    "tags": ["mountains","region","entos"],
-    "name": "Duskspear Peaks",
-    "nickname": "Tathlok Skirrom",
-    "linkingWords": ["the Vesanas"],
-    "type": "Region",
-    "location": "Entos",
-    "description": [
-      "The Duskspear Peaks, or Tathlok Skirrom as they are referred to in Dwarvish, are a large mountain range in the northwest Entos. The range is highly volcanic and contains numerous valleys, calderas and snow-capped peaks. The mountain range forms a peninsula that makes up the entire northwest area of the continent.  is home to a wide variety of "
-    ]
-  },
-  "Sullen-Fen": {
-    "playerKnown": false,
-    "tags": ["swamp","region","ulfwyst","marsh","mangroves"],
-    "name": "Sullen Fen",
-    "nickname": "The Sullen Fen",
-    "linkingWords": ["Sullen Mangrove"],
-    "type": "Region",
-    "nation": ["Kaeldrin Sanctum"],
-    "location": "Ulfwyst",
-    "description": [
-    ]    
-  },
   "Iron-Hills": {
     "playerKnown": false,
     "tags": ["hills","region","ulfwyst","forest","pillars of amud"],
@@ -270,28 +127,6 @@
     "type": "Region",
     "nation": ["Dol Obok"],
     "location": "Ulfwyst",
-    "description": [
-    ]    
-  },
-  "Celestial-Shards": {
-    "playerKnown": false,
-    "tags": ["mythic","region","ulfwyst","spires","Torisoda Archipelago"],
-    "name": "Celestial Shards",
-    "nickname": "Celestial Shards",
-    "type": "Region",
-    "location": "Isle of Mizera, Torisoda Archipelago",
-    "description": [
-      "The Celestial Shards are a mysterious geographic feature of the the Isle of Mizera in the Torisoda Archipelago. The spires are enormous, brilliant shards of white stone which extend from rocky bases of sculpted earth. The spires themselves are comprised of a strange, luminous material which is innately magical and defies the laws of the material realm. Some of the spires no longer have earthen bases, or have been shattered, but instead of falling to the ground, they now float in the sky, piercing the clouds above."
-    ]    
-  },
-  "Galren-Moor": {
-    "playerKnown": true,
-    "tags": ["moor","marsh","region","ulfwyst"],
-    "name": "Galren Moor",
-    "nickname": "Galren Moor",
-    "linkingWords": ["Galren"],
-    "type": "Region",
-    "location": "Navolin",
     "description": [
     ]    
   },
@@ -314,16 +149,6 @@
     "linkingWords": ["Tiderack"],
     "type": "Region",
     "location": "Navolin",
-    "description": [
-    ]    
-  },
-  "Greyleaf-Pines": {
-    "playerKnown": false,
-    "tags": ["region","ulfwyst","forest","Torick Peaks"],
-    "name": "Greyleaf Pines",
-    "nickname": "Greyleaf Pines",
-    "type": "Region",
-    "location": "Lemuria",
     "description": [
     ]    
   },
@@ -352,6 +177,22 @@
         "In an age past, this valley was known as the Nascuta Valley, named for the Nascuta river that flows through it. At the height of the Kingdom of Istagen's power, it was a thriving center of agriculture, which fed off the rich mineral deposits cascading down from the great mountains to the west.",
         "When Istagen fell to the power of Shuxaa and deteriorated into a shell of its former glory, the valley became a fetid land littered with abandoned villages and towns. Travelers would prefer to take dangerous roads that went many miles out of their way to avoid the savage beasts and monsters that haunted the land.",
         "With the fall of Shulxaa and the rebirth of the land as the Theocracy of Tovanis, the valley was slowly cleansed of its many foul denizens and over the course of many years, the people of Tovanis began to rediscover the potential of the rich, arable soil."
+      ]
+    }
+  },
+  "Torick-Vir-Valley": {
+    "playerKnown": false,
+    "tags": ["region","ulfwyst","valley","Tovanis"],
+    "name": "Torick-Vir Valley",
+    "nickname": "Torick-Vir Valley",
+    "type": "Region",
+    "location": "Tovanis",
+    "description": [
+      "The Torick-Vir Valley is a vast, hilly woodland that stretches between the Torick Peaks in the east and the Vir Mountains in the west. The valley terminates in the Venngar Sea to the south, the Retirim Valley to the northeast and the Iron Hills in the northwest."
+    ],
+    "articles": {
+      "Untamed Wilds of Cibrin": [
+        "The Torick-Vir Valley is a large, untamed wilderness, full of natural and supernatural dangers. The people of this region, which consists mostly of the various clans of Cibrin, live in hillforts to protect themselves from the constant dangers of their homeland. These people subsist as a hunter-gatherer society in the hilly woodlands that make up the inland, or as fishermen and sailors in the coastal castle-towns along the coast of the Venngar Sea."
       ]
     }
   }
