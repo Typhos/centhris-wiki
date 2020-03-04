@@ -6,7 +6,7 @@
     "nickname": "City of Zurast",
     "linkingWords": ["city of Zurast"],
     "type": "Capital City",
-    "population": "~22,000",
+    "population": "22,000",
     "races": ["human","elf","gnome","half-elf","half-orc","halfling"],
     "government": "Hereditary Monarchy",
     "leaders": ["Archduke Nicolai Valken"],
@@ -26,14 +26,13 @@
     "name": "Frecyra",
     "nickname": "Frecyra",
     "type": "Capital City",
-    "population": "~70,000",
+    "population": "60,000",
     "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
     "government": "Hereditary Monarchy",
     "location": "Navolin",
     "districts": ["Coldwall","Edgewater","Cwynburn","Timberrun","Belloton","Holford","Potter's Reach","The Crowns","Hartwood Row","Drakeperch"],
-    "map": "Frecyra",
     "description": [
-      "The capital city of Navolin, Frecyra is one of the largest cities in Ulfwyst."
+      "The capital city of Navolin, Frecyra is one of the largest cities in Ulfwyst. The city has several nicknames including: \"the Fortress City\",\"the City of Statues\", and \"the City of the Tower\"."
     ]
   },
   "Kilurus": {
@@ -42,7 +41,7 @@
     "name": "Kilurus",
     "nickname": "Kilurus",
     "type": "Capital City",
-    "population": "~13,000",
+    "population": "19,000",
     "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
     "government": "Clan Council",
     "location": "Lemuria",
@@ -56,7 +55,7 @@
     "name": "Irulek",
     "nickname": "Irulek",
     "type": "Capital City",
-    "population": "~31,000",
+    "population": "31,000",
     "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
     "government": "Mage Council",
     "location": "Kaeldrin Sanctum",

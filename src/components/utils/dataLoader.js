@@ -45,6 +45,8 @@ import mythic           from 'data/places/mythic';
 
 import spellData        from 'data/spells';
 
+import ships            from 'data/misc/ships';
+
 export default class DataLoader {
 
   static places = {...structures, ...world, ...regions, ...mountains, ...forests, ...deserts, ...swamps, ...seas, ...cityDistricts, ...cityStates, ...capitals, ...cities, ...towns, ...villages, ...dungeons, ...fortifications, ...dwarfHolds, ...politicalStates, ...mythic};
@@ -53,6 +55,8 @@ export default class DataLoader {
   
   static people = {...heroData,...villainData,...nobleData,...importantPeopleData,...merchantsData,...historicalPeopleData,...miscPeopleData};
   
+  static misc = {...ships}
+
   static organizations = {...orgData};
 
   static characters = {...characterData};
@@ -66,5 +70,5 @@ export default class DataLoader {
   static historical = {...historicalData};
 
   static spells = {...spellData};
-
+  
 }

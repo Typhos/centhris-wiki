@@ -33,7 +33,7 @@
     ]  
   },
   "Vel'dorin-Wood": {
-    "playerKnown": true,
+    "playerKnown": false,
     "tags": ["region","forest","zurast","ulfwyst"],
     "name": "Vel'dorin Wood",
     "nickname": "Vel'dorin Forest",
@@ -67,7 +67,7 @@
   },
   "Greater-Tsaga-Forests": {
     "playerKnown": false,
-    "tags": ["region","forest","Navolin","ulfwyst"],
+    "tags": ["region","forest","Syrothia","ulfwyst"],
     "name": "Greater Tsaga Forests",
     "nickname": "Tsaga Forests",
     "type": "Forest",
@@ -75,5 +75,22 @@
     "description": [
       "The @+Greater Tsaga Forests+@, also known as the Tsaga wildlands, is an expansive wooded region west of the Pillars of Amud. The region acts as a natural southern barrier to the Syrothian Plateau, which extends hundreds of miles to the north of the forest. The forest itself covers over 250,000 km@^2^@."
     ]
+  },
+  "Gorcien-Forests": {
+    "playerKnown": true,
+    "tags": ["region","forest","Navolin","ulfwyst"],
+    "name": "Gorcien Forests",
+    "nickname": "Gorcien Forests",
+    "linkingWords": ["Dabrusk Forest","Growling Wood","Barbed Weald","Shambling Grove"],
+    "type": "Forest",
+    "location": "Navolin",
+    "description": [
+      "The @+Gorcien Forests+@ (@?/ˈgʊərˌsiːˌən/|https://en.wikipedia.org/wiki/Help:IPA/English?@) are a series of semi-contiguous woodland regions to the west of the Jordonis Mountains."
+    ],
+    "articles": {
+      "Dark Forests": [
+        "The forests of the Gorcien Dell, the region west of the Jordonis Mountains before reaching the Kelishan Highlands, are an expansive series of woodlands which supply much of the timber used in the Kingdom of Navolin. The "
+      ]
+    }
   }
 }

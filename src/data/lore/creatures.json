@@ -159,7 +159,7 @@
     ]
   },
   "Crozemgax": {
-    "playerKnown": true,
+    "playerKnown": false,
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Crozemgax",

@@ -7,25 +7,26 @@ import Footer from "components/footer";
 import ScrollToTop from 'components/scrollToTop';
 
 import App from './components/app';
-import {Characters} from './pages/characters/index';
-import {Player} from './pages/player/index';
-import {Creatures} from './pages/creatures/index';
-import {People} from './pages/peopleGroups/index';
-import {Person} from './pages/person/index';
-import {Runes} from './pages/runes/index';
-import {Places} from './pages/placeGroups/index';
-import {Location} from './pages/location/index';
-import {OrganizationGroups} from './pages/organizationGroups/index';
-import {Group} from './pages/organization/index';
-import {LoreCategories} from './pages/loreCategories/index';
-import {Lore} from './pages/loreArticle/index';
-import {SpellCategories} from './pages/spellCategories/index';
-import {Spell} from './pages/spell/index';
-import {History} from './pages/history/index';
-import {Timeline} from './pages/timeline/index';
-import {Pantheon} from './pages/pantheon/index';
+import {Characters} from './pages/categories/characters/index';
+import {Creatures} from './pages/articles/creatures/index';
+import {CreatureCategories} from './pages/categories/creatures/index';
 import {Error404} from './pages/404/index';
-import {CreatureCategories} from './pages/creatureCategories/index';
+import {History} from './pages/articles/history/index';
+import {Location} from './pages/articles/location/index';
+import {Lore} from './pages/articles/lore/index';
+import {LoreCategories} from './pages/categories/lore/index';
+import {MiscellaneousCategories} from './pages/categories/misc/index';
+import {Organization} from './pages/articles/organization/index';
+import {OrganizationGroups} from './pages/categories/organizations/index';
+import {Pantheon} from './pages/articles/pantheon/index';
+import {People} from './pages/categories/people/index';
+import {Person} from './pages/articles/person/index';
+import {Places} from './pages/categories/places/index';
+import {Player} from './pages/articles/player/index';
+import {Runes} from './pages/articles/runes/index';
+import {Spell} from './pages/articles/spell/index';
+import {SpellCategories} from './pages/categories/spells/index';
+import {Timeline} from './pages/articles/timeline/index';
 
 // import * as serviceWorker from './components/serviceWorker';
 // serviceWorker.unregister();
@@ -74,24 +75,26 @@ const routing = (
       <Header/>
       <Switch>
         <Route exact path="/" component={App} />
-        <Route path="/runes" component={Runes} />
-        <Route path="/characters" component={Characters} />
         <Route path="/player-character" component={Player} />
+        <Route path="/characters" component={Characters} />
         <Route path="/creature" component={Creatures} />
-        <Route path="/person" component={Person} />
-        <Route path="/people" component={People} />
-        <Route path="/places" component={Places} />
-        <Route path="/location" component={Location} />
-        <Route path="/organizations" component={OrganizationGroups} />
-        <Route path="/group" component={Group} />
-        <Route path="/loreCategories" component={LoreCategories} />
-        <Route path="/lore/" component={Lore} />
-        <Route path="/spellCategories" component={SpellCategories} />
-        <Route path="/spell/" component={Spell} />
-        <Route path="/history/" component={History} />
-        <Route path="/timeline/" component={Timeline} />
-        <Route path="/pantheon/" component={Pantheon} />
         <Route path="/creatureTypes/" component={CreatureCategories} />
+        <Route path="/history/" component={History} />
+        <Route path="/location" component={Location} />
+        <Route path="/lore/" component={Lore} />
+        <Route path="/loreCategories" component={LoreCategories} />
+        <Route path="/miscCategories" component={MiscellaneousCategories} />
+        <Route path="/group" component={Organization} />
+        <Route path="/organizations" component={OrganizationGroups} />
+        <Route path="/pantheon/" component={Pantheon} />
+        <Route path="/people" component={People} />
+        <Route path="/person" component={Person} />
+        <Route path="/places" component={Places} />
+        <Route path="/runes/" component={Runes} />
+        <Route path="/spell/" component={Spell} />
+        <Route path="/spellCategories" component={SpellCategories} />
+        <Route path="/timeline/" component={Timeline} />
+
         <Route component={Error404} />
       </Switch>
       <Footer/>

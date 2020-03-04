@@ -22,7 +22,7 @@
     ]
   },
   "Desolate-Wastes": {
-    "playerKnown": true,
+    "playerKnown": false,
     "tags": ["desert","region","ulfwyst"],
     "name": "Desolate Wastes",
     "nickname": "Desolate Wastes",

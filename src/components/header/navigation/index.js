@@ -19,6 +19,7 @@ class Navigation extends Component {
           <li className={`navigationListItem ${ (loc === '/timeline') ? "active" : "" }`} navid="timeline"><Link to="/timeline">Timeline</Link></li>
           <li className={`navigationListItem ${ (loc === '/creatureTypes') ? "active" : "" }`} navid="creatures"><Link to="/creatureTypes">Creatures</Link></li>
           <li className={`navigationListItem ${ (loc === '/spellCategories') ? "active" : "" }`} navid="runes"><Link to="/spellCategories">Spells</Link></li>
+          <li className={`navigationListItem ${ (loc === '/miscCategories') ? "active" : "" }`} navid="misc"><Link to="/miscCategories">Misc</Link></li>
           <li className={`navigationListItem ${ (loc === '/runes') ? "active" : "" }`} navid="runes"><Link to="/runes">Runes</Link></li>
         </ul>
       </nav>      
