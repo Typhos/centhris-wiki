@@ -14,6 +14,21 @@
       "Qabakh is a major port city of the Kingdom of Abbasyr and is nicknamed \"the Jewel of the Adorra Coast\"."
     ]
   },
+  "Majandir": {
+    "playerKnown": false,
+    "tags": ["city","Abbasyr","port","ulfwyst"],
+    "name": "Majandir",
+    "nickname": "Majandir",
+    "type": "City",
+    "population": "3,600",
+    "races": ["dragonborn","human","half-orc","tiefling","anubari"],
+    "government": "Viceroyalty",
+    "location": "Abbasyr",
+    "leaders": [],
+    "description": [
+      "Majandir, also known as \"the Hidden City\" is a city of the Kingdom of Abbasyr."
+    ]
+  },
   "Zelmar": {
     "playerKnown": true,
     "tags": ["city","Abbasyr","port","ulfwyst","adorra sound"],
@@ -85,6 +100,126 @@
       "Former Capital of Malstein": [
         ""
       ]
+    }
+  },
+  "Ozeresk": {
+    "playerKnown": true,
+    "tags": ["city","Lemuria","port","ulfwyst"],
+    "name": "Ozeresk",
+    "nickname": "Ozeresk",
+    "linkingWords": [],
+    "idLinks": {
+    },
+    "type": "City",
+    "population": "3,200",
+    "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
+    "government": "Clan Chief",
+    "location": "Lemuria",
+    "leaders": ["Clan Chief Wuldren Tordenfødt"],
+    "description": [
+      "Ozeresk is a major city in the Realm of Lemuria."
+    ],
+    "articles": {
+    }
+  },
+  "Postek": {
+    "playerKnown": true,
+    "tags": ["city","Lemuria","ulfwyst"],
+    "name": "Postek",
+    "nickname": "Postek",
+    "linkingWords": [],
+    "idLinks": {
+    },
+    "type": "City",
+    "population": "5,100",
+    "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
+    "government": "Clan Chief",
+    "location": "Lemuria",
+    "leaders": ["Clan Chief Ulf Arnbjorg"],
+    "description": [
+      "Postek is a major city in the Realm of Lemuria."
+    ],
+    "articles": {
+    }
+  },
+  "Ketrizyn": {
+    "playerKnown": true,
+    "tags": ["city","Lemuria","ulfwyst"],
+    "name": "Ketrizyn",
+    "nickname": "Ketrizyn",
+    "linkingWords": [],
+    "idLinks": {
+    },
+    "type": "City",
+    "population": "3,400",
+    "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
+    "government": "Clan Chief",
+    "location": "Lemuria",
+    "leaders": ["Clan Chief Torild Sjomann"],
+    "description": [
+      "Ketrizyn is a major city in the Realm of Lemuria."
+    ],
+    "articles": {
+    }
+  },
+  "Dunndag": {
+    "playerKnown": true,
+    "tags": ["city","Lemuria","ulfwyst"],
+    "name": "Dunndag",
+    "nickname": "Dunndag",
+    "linkingWords": [],
+    "idLinks": {
+    },
+    "type": "City",
+    "population": "2,900",
+    "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
+    "government": "Clan Chief",
+    "location": "Lemuria",
+    "leaders": ["Clan Chief Viljar Rødtblad"],
+    "description": [
+      "Dunndag is a major city in the Realm of Lemuria."
+    ],
+    "articles": {
+    }
+  },
+  "Damisul": {
+    "playerKnown": true,
+    "tags": ["city","Syrothian Empire","ulfwyst"],
+    "name": "Damisul",
+    "nickname": "Damisul",
+    "linkingWords": [],
+    "idLinks": {
+    },
+    "type": "City",
+    "population": "4,600",
+    "races": ["human","half-orc","half-elf","hobgoblin","goblin"],
+    "government": "",
+    "location": "Syrothian Empire",
+    "leaders": [""],
+    "description": [
+      "Damisul is a major city in Syrothian Empire."
+    ],
+    "articles": {
+    }
+  },
+  "Avalo": {
+    "playerKnown": true,
+    "tags": ["city","Kaeldrin Sanctum","ulfwyst"],
+    "name": "Avalo",
+    "nickname": "Avalo",
+    "linkingWords": [],
+    "idLinks": {
+    },
+    "type": "City",
+    "population": "7,300",
+    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "government": "",
+    "location": "Kaeldrin Sanctum",
+    "leaders": [""],
+    "description": [
+      "Avalo is a major city in Kaeldrin Sanctum."
+    ],
+    "articles": {
     }
   },
   "City-of-Brass": {

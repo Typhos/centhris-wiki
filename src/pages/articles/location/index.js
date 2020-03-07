@@ -46,7 +46,7 @@ class Location extends Component {
     }
 
     const crests = require.context('img/crests/', true);
-    const images = require.context('img/places/', false);
+    const images = require.context('img/places/', true);
     const maps = require.context('img/maps/', true);
     const currency = require.context('img/currency/', false);
 
@@ -54,12 +54,20 @@ class Location extends Component {
 
     // const races = location.races && location.races.map( race => <span className="race commaSeparated">{ WikiUtils.linkContent(location, race) }</span> );
     const additionalImages = location.additionalImages && location.additionalImages.map( image => {
+      const img = images.keys().filter( name => name.includes(image));
       return (
         <div className="info mapBox" key={image}>
-            <img alt="" className="additional" src={images(`./${image}`)}/>
+            <img alt="" className="additional" src={images(img)}/>
         </div>
       )
     });
+
+    const map = location.map && maps.keys().filter( name => name.includes(location.map)) && 
+        <div className="info mapBox">
+          <a href={ maps( maps.keys().filter( name => name.includes(location.map)) ) }>
+            <img alt="map" className="map" src={ maps( maps.keys().filter( name => name.includes(location.map)) ) }/>
+          </a>
+        </div>      
 
     function nickname() {
       if (location.nickname) {
@@ -86,7 +94,7 @@ class Location extends Component {
               { nickname() }          
               { images.keys().some(x => x.includes( location.name.replace(/\s/g,"-") )) &&
                 <div className="container">
-                  <img className="portrait" alt="" src={ images('./' + location.name.replace(/\s/g,"-") + '.png') }/>
+                  <img className="portrait" alt="" src={ images( images.keys().filter( name => name.replace(/\s/g,"-").includes(location.name.replace(/\s/g,"-")))) }/>
                   { crests.keys().some(x => x.includes( location.name.replace(/\s/g,"-") )) &&
                     <img className="crest" alt="" src={ crests('./' + location.name.replace(/\s/g,"-") + '.png') }/>
                   }
@@ -181,11 +189,7 @@ class Location extends Component {
               }
               { location.additionalImages && additionalImages }
               { location.map && 
-                <div className="info mapBox">
-                  <a href={ maps(`./${location.map}.png`) }>
-                    <img alt="map" className="map" src={maps(`./${location.map}.png`)}/>
-                  </a>
-                </div>
+                map
               }
             </aside>
             <div className="mainContent">

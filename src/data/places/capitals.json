@@ -78,6 +78,21 @@
       "Lyrannore is the capital city of the Ildroun Vale."
     ]
   },
+  "Enira": {
+    "playerKnown": false,
+    "tags": ["city","Ildroun Vale","capital","ulfwyst"],
+    "name": "Enira",
+    "nickname": "Enira",
+    "type": "Capital City",
+    "population": "6,500",
+    "races": ["human","dwarf","uklang","half-orc","half-giant"],
+    "government": "Clan Chieftain",
+    "location": "Realm of Cibrin",
+    "leaders": ["Han Darga Vaburk of Clan Godak"],
+    "description": [
+      "Enira is the capital city of the Realm of Cibrin."
+    ]
+  },
   "Khezrabad": {
     "playerKnown": false,
     "tags": ["city","Abbasyr","capital","ulfwyst"],

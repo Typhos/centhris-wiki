@@ -51,7 +51,7 @@ class MiscellaneousCategories extends Component {
   }
 
   render () {
-
+    const numberOfArticles = Object.keys(this.state.lore).length;
     const plural = function( category ) {
       if ( category === "World Lore" ) {
          return <h2 className="sectionTitle">{category}</h2>
@@ -81,7 +81,7 @@ class MiscellaneousCategories extends Component {
         <Back/>
         <Search handleSearch={ this.handleSearch }  data={this.state.combinedLore}/>
 
-        <h2 className="sectionGroup">Miscellaneous</h2>
+        <h2 className="sectionGroup">Miscellaneous <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
         <div id="categories" >
           {categories}
         </div>

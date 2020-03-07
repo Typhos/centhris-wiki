@@ -560,6 +560,44 @@
       "minor": ["Murat is born."]
     }
   },
+  "2C-2552": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2552",
+    "nickname": "2C 2552",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2552:"
+    ],
+    "articles": {
+      "Ebosk": [
+        "The War of Black Fields, also known as the @*3rd Navolinian War of Expansion*@, between the Kingdom of Navolin, the Theocracy of Tovanis and the Kingdom of Sedobia begins."
+      ]
+    },
+    "timeline": {
+      "war": ["The War of Black Fields begins."]
+    }
+  },
+  "2C-2555": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2555",
+    "nickname": "2C 2555",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2555:"
+    ],
+    "articles": {
+      "Mythosk": [
+        "The War of Black Fields, also known as the @*3rd Navolinian War of Expansion*@, between the Kingdom of Navolin, the Theocracy of Tovanis and the Kingdom of Sedobia ends with the Treaty of Tarona. @;The treaty results in the Kingdom of Navolin formally absorbing the eastern half of Sedobia into its territory and Tovanis annexing the western half of Sedobia.;@"
+      ]
+    },
+    "timeline": {
+      "war": ["The War of Black Fields ends."]
+    }
+  },
   "2C-2573": {
     "playerKnown": true,
     "hideDate": false,

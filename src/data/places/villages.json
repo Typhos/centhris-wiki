@@ -14,5 +14,39 @@
     "description": [
       "Rythlon, aka Rythlon on Sulas, is an ancient human village that sits on the banks of the Sulas river. Located in the Kelishan Highlands of Navolin, the village has roughly 400 inhabitants, most of which are farmers, hunters, craftsmen, and ranchers."
     ]
+  },
+  "Blackmoor": {
+    "playerKnown": true,
+    "tags": ["village","navolin","szary","ulfwyst"],
+    "name": "Blackmoor",
+    "nickname": "Blackmoor",
+    "type": "Village",
+    "population": "248",
+    "races": ["human","halfing","half-elf","gnome","dwarf"],
+    "government": "Baron Regent",
+    "leaders": ["Lady Alicia de Campos (Regent)", "Baron Radomil Bosko"],
+    "nation": "Kingdom of Navolin",
+    "location": "Tiderack Coast",
+    "map": "Blackmoor",
+    "description": [
+      "The village of @+Blackmoor+@ is a small, fortified settlement on the northern coast of Ulfwyst in the Kingdom of Navolin. The village is located in the Wraithwood, on the edge of Lake "
+    ]
+  },
+  "Blåttfelt": {
+    "playerKnown": true,
+    "tags": ["village","","ulfwyst"],
+    "name": "Blåttfelt",
+    "nickname": "Blåttfelt",
+    "type": "Village",
+    "population": "185",
+    "races": ["half-elf","human","elf","gnome"],
+    "government": "Council",
+    "leaders": ["Hilga Bluefield","Erlinder Bluefield (absent)"],
+    "nation": "Realm of Lemuria",
+    "location": "Razark Timberland",
+    "description": [
+      "Blåttfelt, or Bluefield in Common, is a small farming village on the Svinge river in southwestern Lemuria. The village sits on the northern border of the vast Razark Timberland which stretches south all the way to the Venngar Sea.",
+      "The Svinge, which flows from the hills in the west into the Isdrage Bay in the east, allows the village easy access to other parts of Lemuria for trade, military service or clan councils."
+    ]
   }
 }

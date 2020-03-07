@@ -30,8 +30,6 @@ class CreatureCategories extends Component {
 
     const sortedCreatures = WikiUtils.sortByName( Object.keys(filteredOutput) );
 
-    console.log(sortedCreatures)
-
     // Create a list of unique location categories. eg. Cities, regions, nations, continents
     let categories = sortedCreatures.map( entry => {
       return creatures[entry].type;
@@ -42,7 +40,8 @@ class CreatureCategories extends Component {
     this.state = {
       dmView: dmView,
       categories: WikiUtils.sortByName(categories),
-      creatures: creatures
+      allCreatures: filteredOutput,
+      creatures: sortedCreatures
     };
 
     this.getEntriesByCategory = this.getEntriesByCategory.bind(this);
@@ -51,7 +50,7 @@ class CreatureCategories extends Component {
   }
 
   render () {
-
+    const numberOfArticles = Object.keys(this.state.creatures).length;
     const plural = function( category ) {
       // quick check for non-standard plurals, such as Monstrosity -> Monstrosities
 
@@ -64,28 +63,28 @@ class CreatureCategories extends Component {
       return <h2 className="sectionTitle">{category}s</h2>
     }
 
-    const categories = this.state.categories.map( category => {
-      return (
-        <div key={category} className={`category ${category.replace(/\s/g,"-")}`}>
-          { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 &&
-            plural(category)
-          }
-          <ul className="sectionList">
-            {this.getEntriesByCategory(category)}
-          </ul>
-        </div>
-      )
-    });
-
     return (
       <Page.Default>
         <TitleComponent title={`Creatures - Centhris Wiki`} />
         <Back/>
         <Search handleSearch={ this.handleSearch }  data={this.state.allCreatures}/>
 
-        <h2 className="sectionGroup">The Creatures of Centhris</h2>
+        <h2 className="sectionGroup">Creatures of Centhris <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
         <div id="categories" >
-          {categories}
+          {
+            this.state.categories.map( category => {
+              return (
+                <div key={category} className={`category ${category.replace(/\s/g,"-")}`}>
+                  { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 &&
+                    plural(category)
+                  }
+                  <ul className="sectionList">
+                    {this.getEntriesByCategory(category)}
+                  </ul>
+                </div>
+              )
+            })
+          }
         </div>
       </Page.Default>
     )
@@ -93,9 +92,9 @@ class CreatureCategories extends Component {
 
   getEntriesByCategory(category) {
     const creatureImg = require.context('img/creatures/', false);
-    const allCreatures = Object.values(this.state.creatures);
 
-    return allCreatures.map( creature => {
+    return this.state.creatures.map( entry => {
+      const creature = this.state.allCreatures[entry];
 
       if ( creature.type === category && ( creature.playerKnown || this.state.dmView ) ) {
 
@@ -136,7 +135,7 @@ class CreatureCategories extends Component {
   }
 
   handleSearch(results) {
-    this.setState({creature: results});
+    this.setState({creatures: results});
   }
 
 }

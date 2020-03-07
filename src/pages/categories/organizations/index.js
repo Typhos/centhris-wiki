@@ -47,7 +47,7 @@ class OrganizationGroups extends Component {
   }
 
   render () {
-
+    const numberOfArticles = Object.keys(this.state.orgs).length;
     const categories = this.state.categories.map( category => {
       return (
         <div key={category} className="category">
@@ -67,7 +67,7 @@ class OrganizationGroups extends Component {
         <Back/>
         <Search handleSearch={ this.handleSearch }  data={orgData}/>
 
-        <h2 className="sectionGroup">Organizations & Groups</h2>
+        <h2 className="sectionGroup">Organizations & Groups <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
         <div id="categories" >
           {categories}
         </div>

@@ -116,5 +116,21 @@
     "description": [
       "Prince Ardashir men Shahreen was a human prince of the Kingdom of Abassyr. He spent his youth in the capital of Khezrabad before being set to Frecyra as an ambassador of his family and kingdom. While in Frecyra, his advisor and bodyguard was the elf wizard Telarion Elentiir."
     ]
+  },
+  "High-King-Bramdur-Thundershod": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "High King Bramdur Thundershod",
+    "nickname": "High King Bramdur Thundershod",
+    "linkingWords": ["Bramdur Thundershod","King Bramdur Thundershod"],
+    "tags": ["dwarf","noble","Dol Obok","high king"],
+    "age": "239",
+    "gender": "Male",
+    "race": "Dwarf",
+    "occupation": "High King",
+    "affiliations": ["Dol Obok"],
+    "description": [
+      
+    ]
   }
 }

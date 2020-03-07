@@ -84,7 +84,18 @@
     "type": "Sea",
     "location": "Lemuria",
     "description": [
-      "The Venngar Sea is a large sea that is south of the Korin Gulf. It is a sub-region of the Mare Concordis."
+      "The Venngar Sea is a large sea that is south of Isdrage Bay. It is a sub-region of the Mare Concordis."
+    ]
+  },
+  "Isdrage-Bay": {
+    "playerKnown": true,
+    "tags": ["sea","region","ulfwyst"],
+    "name": "Isdrage Bay",
+    "nickname": "Isdrage Bay",
+    "type": "Sea",
+    "location": "Lemuria",
+    "description": [
+      "The Isdrage Bay is an inland sea that is south of the Korin Gulf and flows into the Venngar Sea. It connects to the @;Koring Gulf;@ via the Strait of Krigere."
     ]
   },
   "Korin-Gulf": {
@@ -95,7 +106,7 @@
     "type": "Sea",
     "location": "Lemuria",
     "description": [
-      "The Korin Gulf is a large inland sea that is south of the Bay of Claws and north of the Venngar Sea."
+      "The Korin Gulf is a large inland sea that is south of the Bay of Claws and north of Isdrage Bay."
     ]
   },
   "Bay-of-Claws": {
@@ -138,7 +149,7 @@
     "type": "Sea",
     "location": "Korin Gulf",
     "description": [
-      "The Straight of Krigere is a natural waterway that divides the Korin Gulf. The strait is controlled by vessels belonging to the various Clans of Lemuria. On the eastern shore of the straight rests the great city of Kilurus."
+      "The Straight of Krigere is a natural waterway that divides the Korin Gulf and Isdrage Bay. The strait is controlled by vessels belonging to the various Clans of Lemuria. On the eastern shore of the straight rests the great city of Kilurus."
     ]
   }
 }

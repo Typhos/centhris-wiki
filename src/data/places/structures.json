@@ -155,6 +155,18 @@
     "description": [
     ]    
   },
+  "Storsal-Helter": {
+    "playerKnown": true,
+    "tags": ["palace","building","navolin","frecyra","ulfwyst","king"],
+    "name": "Storsal Helter",
+    "nickname": "Grand Hall of the Clans",
+    "type": "Structure",
+    "location": "Kilurus",
+    "leaders": ["High Queen Inga Kjeldsen"],
+    "description": [
+      "The @+Storsal Helter+@, or Grand Hall of the Clans in Common, is the court of the High King or Queen of Lemuria located in Kilurus. The hall is located on Seier Cliff, which overlooks the Korin Gulf to the north and Isdrage Bay to the south."
+    ]    
+  },
   "Hall-of-the-Eternal-Saints": {
     "playerKnown": false,
     "tags": ["temple","building","axuros","tovanis","ulfwyst"],

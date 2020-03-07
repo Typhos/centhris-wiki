@@ -51,7 +51,7 @@ class Places extends Component {
   }
 
   render () {
-
+    const numberOfArticles = Object.keys(this.state.places).length;
     const categories = this.state.categories.map( category => {
       return (
         <div key={category} className="category">
@@ -73,7 +73,7 @@ class Places extends Component {
         <TitleComponent title={`Places - Centhris Wiki`} />
         <Back/>
         <Search handleSearch={ this.handleSearch }  data={this.state.combinedPlaces}/>
-        <h2 className="sectionGroup">Places</h2>
+        <h2 className="sectionGroup">Regions and Locales <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
         <div id="categories" >
           {categories}
         </div>

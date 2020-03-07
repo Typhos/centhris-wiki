@@ -45,5 +45,37 @@
         "@+Nordrin Steelgrip+@: A one-armed alchemist/artificer who specializes in creating gunpowder in vast quantities. His left arm is a mechanical contraption he devised after blowing off his arm in an accident. Explosions can often be heard from his small but extravagant villa."
       ]
     }
-  }  
+  },
+  "Zabrosk": {
+    "playerKnown": true,
+    "tags": ["town","Lemuria","ulfwyst","Telarion Elentiir"],
+    "name": "Zabrosk",
+    "nickname": "Zabrosk",
+    "linkingWords": [],
+    "type": "Town",
+    "population": "960",
+    "races": ["human","elf","gnome","half-elf","uklang"],
+    "government": "Council",
+    "location": "Realm of Lemuria",
+    "leaders": ["Olaug Arnbjorg"],
+    "description": [
+      "@+Zabrosk+@ is a small town near the border between Lemuria and the Theocracy of Tovanis. Though relatively remote, it is the primary home of the mage Telarion Elentiir, who prefers to reside at Kvenvik Tower when he is able."
+    ]
+  },
+  "Wexin": {
+    "playerKnown": true,
+    "tags": ["town","Lemuria","ulfwyst","Telarion Elentiir"],
+    "name": "Wexin",
+    "nickname": "Wexin",
+    "linkingWords": [],
+    "type": "Town",
+    "population": "1,500",
+    "races": ["human","dwarf","uklang","half-orc","half-giant"],
+    "government": "Clan Council",
+    "location": "Realm of Cibrin",
+    "leaders": ["Darga Nagrosh of Clan Thosh"],
+    "description": [
+      "@+Wexin+@ is a town near the border between Cibrin and the Theocracy of Tovanis."
+    ]
+  }
 }

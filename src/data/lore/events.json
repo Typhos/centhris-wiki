@@ -8,7 +8,7 @@
     "type": "Historical Event",
     "tags": ["event","cataclysm","utharian empire"],
     "description": [
-      "The Ruination of Centhris was a major world event which marked the end of the Utharian Empire and the descent of Centhris into a long, violent dark age."
+      "@+The Ruination of Centhris+@ was a major world event which marked the end of the Utharian Empire and the descent of Centhris into a long, violent dark age."
     ],
     "articles": {
 
@@ -27,7 +27,7 @@
     "type": "Historical Event",
     "tags": ["event","zurast","starfall"],
     "description": [
-      "The Descent of the Shattered God was a historical event that took place in Zalany Marsh, now known as the Blighted Mire, 83 years ago."
+      "@+The Descent of the Shattered God+@ was a historical event that took place in Zalany Marsh, now known as the Blighted Mire, 83 years ago."
     ],
     "dmArticles": {
       "": [
@@ -42,7 +42,7 @@
     "type": "Historical Event",
     "tags": ["event","stygian","utharian empire","god"],
     "description": [
-      "The Great Betrayal was ascendancy of Aeldronvos Thashendar to godhood as the Stygian, Erèdin. The ascension was the inciting event in the Ruination of Centhris."
+      "@+The Great Betrayal+@ was ascendancy of Aeldronvos Thashendar to godhood as the Stygian, Erèdin. The ascension was the inciting event in the Ruination of Centhris."
     ]
   },
   "The-First-Convergence": {
@@ -102,6 +102,17 @@
     "tags": ["conflict","war","battles","ulfwyst","navolin","azond"],
     "description": [
       "@+The Navolinian Conquest of Azond+@ was a large military conflict that began in 2C 2536 between the Kingdom of Navolin and the Kingdom of Azond. The conflict ended seven years later, in 2C 2543, with the Treaty of Yelant and the formal annexation of the entirety of Azond into the @;Kingdom of Navolin;@. "
+    ]
+  },
+  "War-of-Black-Fields": {
+    "playerKnown": true,
+    "name": "War of Black Fields",
+    "nickname": "War of Black Fields",
+    "dates": ["2C 2552","2C 2555"],
+    "type": "Conflict",
+    "tags": ["conflict","war","battles","ulfwyst"],
+    "description": [
+      "@+The War of Black Fields+@, also known as the @*3rd Navolinian War of Expansion*@, was a military conflict that began in 2C 2552 between the Kingdom of Navolin, the Theocracy of Tovanis and the Kingdom of Sedobia. The conflict ended three years later, in 2C 2555, @;with the Treaty of Tarona, which results in the Kingdom of Navolin formally absorbing the eastern half of Sedobia into its territory and Tovanis annexing the western half of Sedobia.;@"
     ]
   },
   "The-War-of-Sellswords": {

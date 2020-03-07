@@ -43,6 +43,7 @@ class People extends Component {
 
   render () {
     const peopleData = this.state.peopleData;
+    const numberOfArticles = Object.keys(this.state.people).length;
     const filteredOutput = this.state.people.map( person => {
       const imgPath = images.keys().some( x => x.includes( person )) &&  images('./' + peopleData[person].name.replace(/\s/g,"-") + '.png');
 
@@ -55,7 +56,7 @@ class People extends Component {
         <Back/>
         <Search handleSearch={ this.handleSearch } data={peopleData}/>
 
-        <h2 className="sectionTitle">Non-Player Characters</h2>
+        <h2 className="sectionTitle">Non-Player Characters <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
         
         <ul id="categories" >
           {filteredOutput}
@@ -76,6 +77,7 @@ class People extends Component {
   }
 
   handleSearch(results) {
+    console.log(results)
     this.setState({people: results})
   }
 

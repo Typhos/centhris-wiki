@@ -25,9 +25,17 @@ body {
 h2.sectionGroup {
   font-size: 1.5em;
   margin: 1em auto 0;
-  font-family: $serifText;
+  font-family: $headingText;
   font-variant: small-caps;
   letter-spacing: 0.2em;
+
+  small {
+    font-size: 0.55em;
+    font-family: $sansText;
+    font-variant: normal;
+    letter-spacing: 0.05em;
+    color: $dndGreen;
+  }
 }
 
 h2.sectionTitle {
@@ -38,6 +46,14 @@ h2.sectionTitle {
   font-family: $headingText;
   color: $blueDark;
   border-bottom: 1px solid $blueDark;
+
+  small {
+    font-size: 0.75em;
+    font-family: $sansText;
+    font-variant: normal;
+    letter-spacing: 0.05em;
+    color: $dndGreen;
+  }
 }
 
 #backLink {

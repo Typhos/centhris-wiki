@@ -63,6 +63,7 @@ class SpellCategories extends Component {
   }
 
   render () {
+    const numberOfArticles = this.state.spellsArray.length;
     const schoolsArray = this.state.schoolsArray;
     const levelsArray = this.state.levelsArray;
     const damageEffectArray = this.state.damageEffectArray;
@@ -72,7 +73,7 @@ class SpellCategories extends Component {
         <TitleComponent title="Spells - Centhris Wiki" />
         <Back/>
 
-        <h2 className="sectionGroup">Spells</h2>
+        <h2 className="sectionGroup">Spells <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Spells" : "Spell"})</small></h2>
 
         <div className="subNav spells">
           <label>Sort Spells By:</label>

@@ -46,5 +46,27 @@
     "location": "Zurast / Lemuria",
     "description": [
     ]    
+  },
+  "Vorssav-Marshlands": {
+    "playerKnown": false,
+    "tags": ["wetland","marsh","region","ulfwyst"],
+    "name": "Vorssav Marshlands",
+    "nickname": "Vorssav Marshlands",
+    "linkingWords": [],
+    "type": "Wetland",
+    "location": "Kaeldrin Sanctum",
+    "description": [
+    ]    
+  },
+  "Mire-de-Rever": {
+    "playerKnown": false,
+    "tags": ["wetland","marsh","region","entos"],
+    "name": "Mire de Rever",
+    "nickname": "Mire de Rever",
+    "linkingWords": [],
+    "type": "Wetland",
+    "location": "Grand Duchy of Burcant",
+    "description": [
+    ]    
   }
 }
