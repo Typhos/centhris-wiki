@@ -161,7 +161,7 @@
     "races": ["human","elf","gnome","half-elf","half-orc","half-giant","marus"],
     "government": "Elective Clan Monarchy",
     "location": "Ulfwyst",
-    "leaders": ["High Queen Inga Kjeldsen"],
+    "leaders": ["High Queen Inga Villdyr"],
     "regions": ["Korin Gulf","Strait of Krigere","Amber Grove","Torick Peaks","Mösöngol Tundra","Ursgal Islands","Venngar Sea","Mare Concordis"],
     "description": [
       "One of the largest states in eastern Ulfwyst, the clans of Lemuria control the frigid lands that surround the tempestuous Korin Gulf. Lemuria is a harsh and dangerous land, full of savage beasts, perilous terrain and volatile weather. The people who live here are large, willful, and daring. Over the millennia amongst the crags, glaciers, ice flows and howling woods, the people have developed an understanding with the land they inhabit."
@@ -238,7 +238,15 @@
     "races": ["human","aasimar","dwarf","halfling","half-orc","tiefling"],
     "government": "Elective Theocracy",
     "location": "Ulfwyst",
-    "leaders": ["Tsongar Barath","Gergely Vastagh","Mozes Kovacs","Karola Piroska Szilágyi","Tomi Dobos","Ignac Lazar","Viola Pasztor"],
+    "leaders": [
+      "Tsongar Barath",
+      "Didac Jorda",
+      "Mozes Kovacs",
+      "Karola Piroska Szilágyi",
+      "Tomi Dobos",
+      "Ignac Lazar",
+      "Viola Pasztor"
+    ],
     "regions": ["Bay of Claws","Blighted Mire","Lake Droknog","Pillars of Amud","Retirim Valley","Torick Peaks"],
     "description": [
       "The @+Theocracy of Tovanis+@ (@?/ˈtoʊˌvənˌɪs/|https://en.wikipedia.org/wiki/Help:IPA/English?@) is a young state, having come into existence roughly 110 years ago. It is a centralized state ruled by the Church of the Eternal from the capital of Axuros. The rulers of Tovanis are notoriously hostile to practitioners of the arcane arts, having expelled all mages from the country on its founding. Any arcane magic user wishing to travel through, or live in Tovanis does so at great risk."
@@ -258,7 +266,7 @@
       ],
       "Suffer Not the Mage": [
         "Along with the ruling body, the order felt it prudent to deal with the dangers of renegade magic users. It was deemed that practitioners of the arcane, though useful, could not be controlled or trusted to avoid following their base desires for forbidden knowledge and power. Thus, all magicians, diviners, soothsayers, alchemists and sorcerers were expelled from the country, never to return on pain of death.",
-        "The council then created the Order of the Custodial Mind. This clandestine order of mage-hunters was tasked with training elite assassins that, if needs be, could be sent out to track down and kill renegade mages that would reside in the newly formed Tovanis. These highly trained mage hunters now serve the Atrium Fidelium as their secretive arm, keeping the magical peace in Tovanis and potentially having reach to hunt down rogue mages throughout all of eastern Ulfwyst."
+        "The council then created the Knights of the Righteous Soul. This clandestine order of mage-hunters was tasked with training elite assassins that, if needs be, could be sent out to track down and kill renegade mages that would reside in the newly formed Tovanis. These highly trained mage hunters now serve the Atrium Fidelium as their secretive arm, keeping the magical peace in Tovanis and potentially having reach to hunt down rogue mages throughout all of eastern Ulfwyst."
       ]
     }
   },

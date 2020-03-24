@@ -4,6 +4,7 @@ import eventsData       from 'data/lore/events';
 import godsData         from 'data/lore/gods';
 import racesData        from 'data/lore/races';
 import creaturesData    from 'data/lore/creatures';
+import holidayData     from 'data/lore/holidays';
 import calendarData     from 'data/lore/calendar';
 import itemData         from 'data/lore/items';
 import historicalData   from 'data/lore/historicalDates';
@@ -17,6 +18,7 @@ import nobleData            from 'data/people/nobles';
 import importantPeopleData  from 'data/people/important';
 import merchantsData        from 'data/people/merchants';
 import historicalPeopleData from 'data/people/historical';
+import mageData             from 'data/people/mages';
 import miscPeopleData       from 'data/people/misc';
 
 // ==== ORGANIZATION DATA IMPORTS
@@ -53,7 +55,7 @@ export default class DataLoader {
   
   static lore = {...racesData, ...eventsData, ...loreData, ...itemData};
   
-  static people = {...heroData,...villainData,...nobleData,...importantPeopleData,...merchantsData,...historicalPeopleData,...miscPeopleData};
+  static people = {...heroData,...villainData,...nobleData,...importantPeopleData,...merchantsData,...historicalPeopleData,...miscPeopleData, ...mageData};
   
   static misc = {...ships}
 
@@ -64,6 +66,8 @@ export default class DataLoader {
   static creatures = { ...creaturesData};
 
   static gods = {...godsData};
+
+  static holidays = {...holidayData};
 
   static calendar = {...calendarData};
 

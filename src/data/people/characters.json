@@ -11,7 +11,7 @@
     "subclass": "Circle of the Land",
     "background": "Folk Hero",
     "affiliations": ["Lemuria","Bluefield Farms"],
-    "level": 5,
+    "level": 6,
     "hp": 36,
     "stats": {
       "STR": 12, 
@@ -36,11 +36,11 @@
     "race": "Human",
     "age": "32",
     "gender": "Male",
-    "class": "Warlock",
+    "class": "Warlock 5 / Fighter 1",
     "subclass": "Hexblade",
     "background": "Soldier",
     "affiliations": ["Kingdom of Sennhoff"],
-    "level": 5,
+    "level": 6,
     "hp": 42,
     "stats": {
       "STR": 12, 
@@ -66,7 +66,7 @@
     "subclass": "Battlemaster",
     "background": "Soldier",
     "affiliations": ["Auburn Castle"],
-    "level": 5,
+    "level": 6,
     "hp": 40,
     "stats": {
       "STR": 18, 
@@ -92,7 +92,7 @@
     "subclass": "Drunken Master",
     "occupation": "Urchin",
     "affiliations": ["City of Zurast"],
-    "level": 5,
+    "level": 6,
     "hp": 41,
     "stats": {
       "STR": 13, 

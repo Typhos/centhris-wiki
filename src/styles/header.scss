@@ -42,8 +42,15 @@
 @media all and (max-width: $breakpoint-mobile) {
   .appHeader {
     .headerBox {
+      position: fixed;
+      height: 9vh;
+      width: 100vw;
+      top: 0;
+      z-index: 10;
+
       h1 {
-        font-size: 9vw;
+        font-size: 6vw;
+        // margin-left: 10vw;
 
         a.home {
 

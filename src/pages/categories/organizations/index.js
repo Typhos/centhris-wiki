@@ -76,17 +76,24 @@ class OrganizationGroups extends Component {
   }
 
   getEntriesByCategory(category) {
-    const images = require.context('img/organizations/', true);
+    const images = require.context('img/organizations', true);
+    const allImages = require.context('img/', true);
 
     return this.state.orgs.map( org => {
-      if ( orgData[org].type === category ) {
-        let imgSrc = images.keys().some( x => x.includes( org )) &&  images('./' + orgData[org].name.replace(/\s/g,"-") + '.png')
+      const current = orgData[org];
+      if ( current.type === category ) {
+        let imgSrc = ( images.keys().some( x => x.includes( org ) ) && images(images.keys().filter( x => x.includes( org ) ) ) ) 
+          || images('./unknown.png');
+
+        if ( current.forceImg && allImages.keys().some( x => x.includes( current.forceImg )) ) {
+          imgSrc = allImages( allImages.keys().filter( x => x.includes( current.forceImg ) ) );
+        }
 
         return (
           <li key={org} className="entry">
             <Link to={`/group/${org}`}>
-              <img className="landscape" alt="" src={ (imgSrc) || images('./unknown.png')}/>
-              <p>{orgData[org].name}</p>
+              <img className="landscape" alt="" src={ imgSrc }/>
+              <p>{current.name}</p>
             </Link>
           </li>
         )

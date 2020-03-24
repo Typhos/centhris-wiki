@@ -162,7 +162,7 @@
     "nickname": "Grand Hall of the Clans",
     "type": "Structure",
     "location": "Kilurus",
-    "leaders": ["High Queen Inga Kjeldsen"],
+    "leaders": ["High Queen Inga Villdyr"],
     "description": [
       "The @+Storsal Helter+@, or Grand Hall of the Clans in Common, is the court of the High King or Queen of Lemuria located in Kilurus. The hall is located on Seier Cliff, which overlooks the Korin Gulf to the north and Isdrage Bay to the south."
     ]    
@@ -187,5 +187,42 @@
     "description": [
       "Kvenvik Tower is the home of Telarion Elentiir, located in Zabrosk, Lemuria."
     ] 
+  },
+  "Pałac-Króla": {
+    "playerKnown": false,
+    "tags": ["king's palace","building","Frecyra","Navolin","ulfwyst"],
+    "name": "Pałac Króla",
+    "nickname": "Pałac Króla",
+    "type": "Structure",
+    "location": "Frecyra",
+    "description": [
+      "The @+Pałac Króla+@, or Palace of the King, is the royal palace of the Czak dynasty in the capital city of Frecyra."
+    ] 
+  },
+  "Kongir-Temple": {
+    "playerKnown": false,
+    "tags": ["Nakali Islands","ulfwyst"],
+    "name": "Kongir Temple",
+    "nickname": "Kongir Temple",
+    "type": "Structure",
+    "location": "Nakali Islands",
+    "description": [
+      "@+Kongir Temple+@, formerly the Kongir Asylum, is a building complex in the jungles outside of Duskreef. The was formerly part of the Duskreef Prison complex, located deeper into the jungles northeast of the port town. After the fall of the prison, contact with the asylum was lost."
+    ],
+    "articles": {
+      "A Twisted Temple": [
+        ""
+      ]
+    },
+    "dmArticles": {
+      "After the Fall of Duskreef Prison": [
+        "When @;Duskreef Prison;@ fell and inmates turned the island into a pirate haven, all contact was lost with the doctors and patients at the asylum. It quickly became apparent to the guards and staff of the hospital that something was wrong, as their regular deliveries and correspondence ceased. Though the asylum housed enough supplies to last a month or two if required, plans were soon made to abandon the facility and return to the mainland.",
+        "Director Herbert Prostov was able, through arcane means, to arrange return passage from the island for his staff. The director and his closest staff members, Clasara Weissbrin and Yokim Tresser, informed the staff of their intention to remain behind and keep the patients in check until it was no longer possible. The rest of the staff escaped, leaving the three remaining members of the staff to guard the complex, hailing them as heroic for their willing sacrifice to save everyone and guard the asylum.",
+        "After the final members of the asylum staff fled the island the three members of the staff began their true work and began experimenting on inmates. Previously this dark work had to be conducted in secret, in order to avoid suspicion from the well intentioned doctors and guards. Now left alone with dozens of test subjects, the three began twisted experiments and occult rituals."
+      ],
+      "Forbidden Occult Rituals": [
+        ""
+      ]
+  }
   }
 }

@@ -95,12 +95,30 @@ article.person {
       width: 96%;
       padding: 0.5em 2%;
       margin: 0;
-      border-bottom: 1px solid $blueLight;
 
       p.heading {
         padding: 0;
         line-height: 1.8em;
       }      
+    }
+
+    .attacks {
+      .name {
+        margin-right: 1em;
+
+        &:after {
+          content: ":"
+        }
+      }
+
+      .stats {
+        color: $moodGreen;
+      }
+    }
+
+    .attunedItems,
+    .statblock {
+      border-bottom: 1px solid $blueLight;
     }
 
     p.heading {

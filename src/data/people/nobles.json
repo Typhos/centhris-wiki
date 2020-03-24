@@ -85,6 +85,22 @@
       "@+Izorin Sarentus+@ is the Nantar, or @*Woodland King*@ in Elvish, of the peoples of the Ildroun Vale."
     ]
   },
+  "Elrîs-Melhira-Sarentus": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Elrîs Melhira Sarentus",
+    "nickname": "Melhira Sarentus",
+    "linkingWords": ["Queen Melhira"],
+    "tags": ["queen","noble","Ildroun Vale","elf","eldarin"],
+    "race": "Cúron'avar",
+    "age": "390",
+    "gender": "Female",
+    "occupation": "Queen-Consort",
+    "affiliations": ["Ildroun Vale","Lyrannore"],
+    "description": [
+      "@+Melhira Sarentus+@ is the Elrîs, or @*Queen of the Stars*@ in Elvish, of the peoples of the Ildroun Vale.  She is the queen-consort of Nantar Izorin Sarentus."
+    ]
+  },
   "Ernil-Thabos": {
     "playerKnown": false,
     "hideOnCat": false,
@@ -117,20 +133,52 @@
       "Prince Ardashir men Shahreen was a human prince of the Kingdom of Abassyr. He spent his youth in the capital of Khezrabad before being set to Frecyra as an ambassador of his family and kingdom. While in Frecyra, his advisor and bodyguard was the elf wizard Telarion Elentiir."
     ]
   },
-  "High-King-Bramdur-Thundershod": {
+  "King-Bramdur-Thundershod": {
     "playerKnown": false,
     "hideOnCat": false,
-    "name": "High King Bramdur Thundershod",
-    "nickname": "High King Bramdur Thundershod",
-    "linkingWords": ["Bramdur Thundershod","King Bramdur Thundershod"],
+    "name": "King Bramdur Thundershod",
+    "nickname": "King Bramdur Thundershod",
+    "linkingWords": ["Bramdur Thundershod","King Bramdur Thundershod","King Bramdur"],
     "tags": ["dwarf","noble","Dol Obok","high king"],
     "age": "239",
     "gender": "Male",
     "race": "Dwarf",
-    "occupation": "High King",
+    "occupation": "King",
     "affiliations": ["Dol Obok"],
     "description": [
       
+    ]
+  },
+  "High-Queen-Inga-Villdyr": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "High Queen Inga Villdyr",
+    "nickname": "High Queen Inga Villdyr",
+    "linkingWords": ["Queen Inga Villdyr","Inga Villdyr","Queen Inga","High Queen Inga"],
+    "tags": ["human","noble","Realm of Lemuria","Kingdom of Lemuria"],
+    "age": "33",
+    "gender": "Female",
+    "race": "Human",
+    "occupation": "High Queen of the Clans of Lemuria",
+    "affiliations": ["Realm of Lemuria"],
+    "description": [
+      "@+High Queen Inga Villdyr+@ is the leader of the Realm of Lemuria and the head of Clan Villdyr. She was became the head of @;Clan Villdyr;@ at the age of twenty two, and was elected to the position of High Queen by the Clan Council of Lemuria when she was twenty nine."
+    ]
+  },
+  "Han-Darga-Vazrak": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Han Darga Vazrak",
+    "nickname": "Han Darga Vazrak",
+    "linkingWords": ["Vazrak Godak", "Chief Vazrak"],
+    "tags": ["half-orc","noble","Realm of Cibrin"],
+    "age": "41",
+    "gender": "Male",
+    "race": "Half-Orc",
+    "occupation": "Dagra of Clan Godak, Han Dagra of Cibrin",
+    "affiliations": ["Realm of Cibrin"],
+    "description": [
+      "@+Han Darga Vazrak+@ is the leader of the Realm of Cibrin, the head of Clan Godak, and is said to be one of the greatest living warriors on Centhris."
     ]
   }
 }

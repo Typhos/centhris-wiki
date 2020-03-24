@@ -132,10 +132,11 @@ export default class WikiUtils {
         "person": this.peopleData,
         "player-character": this.characterData,  
         "lore": {...DataLoader.lore, ...DataLoader.gods},
+        "group": this.orgData,
         "location": this.combinedPlaces,      
         "creature": DataLoader.creatures,
-        "history": this.historical,
-        "group": this.orgData
+        "history": this.historical
+        
       };
 
       // path is the key declared above in dataGroupObj

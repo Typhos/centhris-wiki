@@ -27,6 +27,7 @@ import {Runes} from './pages/articles/runes/index';
 import {Spell} from './pages/articles/spell/index';
 import {SpellCategories} from './pages/categories/spells/index';
 import {Timeline} from './pages/articles/timeline/index';
+import {VesdarianCalendar} from './pages/articles/calendar/index';
 
 // import * as serviceWorker from './components/serviceWorker';
 // serviceWorker.unregister();
@@ -75,6 +76,7 @@ const routing = (
       <Header/>
       <Switch>
         <Route exact path="/" component={App} />
+        <Route path="/lore/The-Vesdarian-Calendar" component={VesdarianCalendar} />
         <Route path="/player-character" component={Player} />
         <Route path="/characters" component={Characters} />
         <Route path="/creature" component={Creatures} />

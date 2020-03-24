@@ -137,7 +137,7 @@
     "nickname": "Telarion",
     "tags": ["wizard","moon elf","associate"],
     "age": "376",
-    "race": "Cúron'avar",
+    "race": "Cúron'avar (Eladrin)",
     "gender": "Male",
     "class": "Wizard",
     "level": 14,
@@ -176,20 +176,32 @@
       "Ring: Ring of Protection",
       "Amulet: Shard of the Fallen God"
     ],
-    "Feats": ["Diplomat"],
-    "occupation": "Lemurian Court Mage",
-    "affiliations": ["High Queen's Court","Lemuria","Ruby Phoenix"],
+    "feats": ["Diplomat"],
+    "occupation": "Court Mage",
+    "affiliations": [
+      "Storsal Helter",
+      "Ruby Phoenix",
+      "Seloc Gelhyan"
+    ],
     "description": [
-      "A highly regarded elven mage, Telarion Elentiir has been a fixture in the courts of Ulfwyst for well over 200 years. He is current employed as a court mage in the Kingdom of Lemuria, reporting directly to the High Queen, Inga Kjeldsen. Though Telarion has an official residence in Kilurus, when he is not on official business or seeing to a task requested of him by the queen, he prefers to spend his time in the town of Zabrosk, at Kvenvik Tower, on the northern shore of the Korin Gulf."
+      "A highly regarded elven mage, Telarion Elentiir has been a fixture in the courts of Ulfwyst for well over 200 years. He is current employed as a court mage in the Kingdom of Lemuria, reporting directly to the High Queen, Inga Villdyr. Though Telarion has an official residence in Kilurus, when he is not on official business or seeing to a task requested of him by the queen, he prefers to spend his time in the town of Zabrosk, at Kvenvik Tower, on the northern shore of the Korin Gulf."
     ],
     "quote": "\"Let me see this disc you have been carrying... My Ignan is very rusty, but from what I can make out, I count no less than seven Sigils of Immolation. What were you going to do with this, again?\"",
     "articles": {
       "Calling in a Favor": [
         "Telarion returned to Rakenburg in Dusvar of 2C 2573 at the request of Belthren Ogni. The guild master had learned that members of his guild and the Lost Shields had been bound to the service of Akad the Magnificent and felt that Telarion was the only person he knew who might have the knowledge required to help resolve the issue before it became untenable.",
-        "Telarion met the Lost Shields, along with Shiavalae, on the steps of the Reliquary of the Castidos and talked at length with the players regarding their current situation. While treating the party to coffee and lunch at a local cafe, the Golem & Hound, the mage explained the nature of Efreet dealings in depth, along with the power contained in the disc given to them by Akad the Magnificent. Telarion also took some time to question Murat on the bracelet he was wearing, which carries a jagged purple stone. Telarion revealed he wears a similar necklace, both of which seem to have magical properties capable of altering time in some manner. The mage offered try to teach Murat how to use his bracelet, if he wished, to at a later date."
+        "Telarion met the Lost Shields, along with Shiavalae, on the steps of the Reliquary of the Castidos and talked at length with them regarding their current situation. While treating the party to coffee and lunch at a local cafe, the Golem & Hound, the mage explained the nature of Efreet dealings in depth, along with the power contained in the Disc of the Blazing Compact. Telarion also took some time to question Murat on the bracelet he was wearing, which carries a jagged purple stone. Telarion revealed he wears a similar necklace, both of which seem to have magical properties capable of altering time in some manner. The mage offered try to teach Murat how to use his bracelet, if he wished, to at a later date."
       ]
     },
     "dmArticles": {
+      "Known Teleportation Circles": [
+        "@+Frecyra+@: During his time in Navolin, Telarion was given access to one of the teleporation sigils in the Tower of Stantorr. He has never used the sigil.",
+        "@+Khezrabad+@: Telarion knows the runic symbol for the teleporation circle of the Seloc Gelhyan in Khezrabad.",
+        "@+Kilurus+@: One of the most regularly used sigils in Telarion's repertoire is the sigil for the Hall of Seers in Kilurus.",
+        "@+Rakenburg+@: Telarion knows the teleportation sigil for the Reliquary of the Castidos in Rakenburg.",
+        "@+Venbrin+@: The only teleportation circle in Venbrin is located in the throne room of the Argentate.",
+        "@+Zabrosk+@: Telarion has personally inscribed a teleportation circle in Kvenvik Tower, his personal sanctum."
+      ],
       "Early Life": [
         "Telarion was born in the Kingdom of Abbasyr to eladrin parents who were acting as ambassadors of the Court of the Archfey of Spring, one of the four eladring courts of Feywild. Though his family made regular visits to the Feywild, the young elf did not take to the Feywild, instead finding the prime Material Plane more to his preference. He would spend most of his youth (roughly 100 years for elves) in Khezrabad, studying at the famous mage college of Seloc Gelhyan, frequenting the baths and practicing the art of diplomacy under the tutelage of his father.",
         "Upon graduation from the Seloc Gelhyan, the young elf had many paths available to him. His father Osmiran insisted that the young wizard take a post offered to him by the Sultan of Abbasyr as an advisor to the Sultan's son, Prince Ardashir ab Shahreen. The prince had been chosen to act as an envoy for Abassyr to the distant Kingdom of Navolin."
@@ -202,7 +214,7 @@
       "A Gracious Exit": [
         "After almost a decade in the Frecyra, Prince Ardashir received word Khezrabad that his father's health was failing. The prince was both concerned about his father and, in the even his father were to die, the possibility that he would lose his position or be appointed elsewhere in the government. Sensing an opportunity to gracefully escape his servitude to the prince, Telarion requested to stay in Frecyra to complete a research project he was involved with. The prince agreed to the request and the two men parted ways on good terms.",
         "Free of his service to the royal, Telarion began to plan his next steps. After the completion of his project, he wished to depart Frecyra, as he had grown to loath the high society of the city and though he was no longer required to attend social events, he found himself receiving regular invitations that he felt he could not decline.",
-        "It was at just such an event that he found himself in a protracted discussion with a wealthy merchant from the Free City of Rakenburg named Ulian Ovidius. The merchant, taken by the elf's well honed wit and charm, requested that Telarion join his merchant enterprise, the Venngar Trade Company, as a liaison. Though Telarion was hesitant at first, Ulian insisted that it would be an excellent opportunity for the wizard to see new parts of Ulfwyst, learn new types of magical practice and make connections in realms throughout the Venngar Sea and Korin Gulf. Telarion eventually accepted the merchant's offer and in less than a month, found himself in a fine apartment in the Murky Reach."
+        "It was at just such an event that he found himself in a protracted discussion with a wealthy merchant from the Free City of Rakenburg named Ulian Ovidius. The merchant, taken by the elf's well honed wit and charm, requested that Telarion join his merchant enterprise, the Venngar Trade Company, as a liaison. Though Telarion was hesitant at first, Ulian insisted that it would be an excellent opportunity for the wizard to see new parts of Ulfwyst, learn new types of magical practice and make connections in realms throughout the Venngar Sea and Korin Gulf. Telarion eventually accepted the merchant's offer and in less than a month, found himself in a fine apartment in Ghost Orchard."
       ],
       "Time in Rakenburg": [
         ""
@@ -212,5 +224,54 @@
       ]
     },
     "link": "https://www.dndbeyond.com/profile/Typhos6/characters/22189989"
+  },
+  "Wulfgar-of-Ozeresk": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Wulfgar of Ozeresk",
+    "nickname": "Wulfgar",
+    "tags": ["human","lemuria","bodyguard"],
+    "race": "Human",
+    "age": "37",
+    "gender": "Male",
+    "occupation": "Personal Guard of Queen Inga",
+    "class": "Barbarian 10",
+    "subclass": "Path of the Beast",
+    "background": "Soldier",
+    "hp": 105,
+    "stats": {
+      "STR": 21,
+      "INT": 10,
+      "DEX": 12,
+      "WIS": 14,
+      "CON": 16,
+      "CHA": 9
+    },
+    "skills": {
+      "Animal Handling": 6,
+      "Athletics": 8,
+      "Intimidation": 3,
+      "Perception": 6,
+      "Survival": 6
+    },
+    "passiveWisdom": 21,
+    "saves": {
+      "STR": 8,
+      "CON": 7
+    },
+    "ac": "17",
+    "attacks": {
+      "Attacks Per Action": 2,
+      "Claws": "2 attacks @ +8 1d6+5 slashing"
+    },
+    "languages": ["Common, Giant"],
+    "attunedItems": [
+      "Half Plate +1",
+      "Belt of Hill Giant Strength"
+    ],
+    "feats": ["Observant"],
+    "description": [
+      "@+Wulgar of Ozeresk+@ is the personal guard of the High Queen of Lemuria, Inga Villdyr."
+    ]
   }
 }

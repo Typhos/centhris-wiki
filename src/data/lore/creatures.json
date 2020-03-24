@@ -164,8 +164,8 @@
     "showStatBlock": true,
     "name": "Lurking Abomination",
     "nickname": "Lurking Abomination",
-    "type": "Dragon",
-    "tags": ["venngar sea","ocean","sea serpent","predator","dragon"],
+    "type": "Undead",
+    "tags": ["undead","construct","dark spirits"],
     "description": [
     ],
     "articles": {
@@ -175,57 +175,90 @@
     "alignment": "Chaotic Evil",
     "creatureType": "Large Undead",
     "stats": [
-      {"name": "STR", "val": 21},
+      {"name": "STR", "val": 16},
       {"name": "DEX", "val": 15},
-      {"name": "CON", "val": 18},
-      {"name": "INT", "val": 7},
-      {"name": "WIS", "val": 13},
-      {"name": "CHA", "val": 14}
+      {"name": "CON", "val": 15},
+      {"name": "INT", "val": 9},
+      {"name": "WIS", "val": 11},
+      {"name": "CHA", "val": 11}
     ],
-    "savingThrows": "Str +9, Dex +6, Con +8",
-    "skills": "Athletics +9, Perception +5",
+    "savingThrows": "Str +5, Con +4, Wis +2",
     "passiveWisdom": 10,
-    "armor": "15 (natural armor)",
-    "hitPoint": 118,
-    "hitDie": "10d12+46",
-    "speed": "30 ft., swim 60ft.",
-    "damageResistances": "Fire",
-    "damageVulnerabilities": "Lightning",
-    "damageImmunities": "Cold",
-    "conditionImmunities": "Paralyzed, Prone, Stun, Unconscious",
-    "senses": "Darkvision 60 ft.",
-    "languages": "Aquan, Draconic",
-    "challenge": "8",
+    "armor": "16 (natural armor)",
+    "hitPoint": 74,
+    "hitDie": "14d8+18",
+    "speed": "30 ft., climb 30 ft.",
+    "damageResistances": "Cold; Piercing and Slashing from Nonmagical Attacks that aren't Silvered",
+    "damageVulnerabilities": "",
+    "damageImmunities": "Necrotic, Poison",
+    "conditionImmunities": "Poisoned",
+    "senses": "Darkvision 120 ft.",
+    "languages": "Those it knew in life, but cannot speak.",
+    "challenge": "3",
     "abilities": [
       {
-        "name": "Icy Barbs",
-        "text": "The entire body of an Icebrine Serpent is covered in small, jagged shards of ice which protrude from the monster's scales. Any creature that begins its turn within 5 feet of the Icebrine Serpent takes 1d6+2 points of cold damage."
+        "name": "Abomination's Sight",
+        "text": "Magical darkness does not impede the abomination's darkvision."
       },
       {
-        "name": "Coiling Maneuver.",
-        "text": "When the Icebrine Serpent is hit with an attack in melee, it may attempt to grapple the attacker. The target must make a DC 15 Strength saving throw or be grappled."
+        "name": "Magic Resistance.",
+        "text": "The abomination has advantage on saving throws against spells and other magical effects."
       }
     ],
     "actions": [
       {
         "name": "Multiattack.",
-        "text": "A Icebrine Serpent attacks once with its tail and either bites or uses its Brine Blast."
+        "text": "A Lurking Abomination makes two attacks: one with its claw and one with its hook."
       },
       {
-        "name": "Bite.",
-        "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (1d10+5) piercing damage plus 7 (2d6) cold damage. The target of the bite attack must make a DC 15 Strength saving throw or be grappled and restrained. If the target is already grappled by a previous bite attack, the target may may still make another save to attempt to break the grapple."
+        "name": "Sickening Claw.",
+        "text": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage. The target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target cannot regain hit points. The target can repeat the saving throw at the end of its turns, ending the poison effect on a success."
       },
       {
-        "name": "Tail Slap.",
-        "text": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 11 (2d6+4) bludgeoning damage. A target hit by a tail slap is pushed 10 feet away from the Icebrine Serpent."
+        "name": "Grisly Hook.",
+        "text": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10+3) slashing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 12 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to an festering wound. Each time the abomination hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing."
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Shamble.",
+        "text": "The abomination moves 10 ft in a line. Any creature it moves through must make a DC 12 Dexterity saving throw or lose 5 (1d4+3) hit points."
       },
       {
-        "name": "Throw.",
-        "text": "If the Icebrine Serpent has a creature grappled from a Bite attack or from its Coiling Maneuver, it may throw the target. The throw may target another creature within 30 ft. The target must succeed a DC 14 Dexterity save or suffer 10 (3d6) bludgeoning damage. The thrown target automatically suffers 10 (3d6) damage."
+        "name": "Engulf.",
+        "text": "The abomination attempts to place a creature inside its form. The target must make a DC 12 Dexterity saving throw or become restrained inside the abomination. A creature that begins its turn inside the abomination takes 8 (2d8) necrotic damage."
+      }
+    ],
+    "reactions": [
+      {
+        "name": "Consume.",
+        "text": "When a creature enters melee with the abomination and no other creature is inside it, the abomination can attempt to use Engulf on it."
       },
       {
-        "name": "Brine Blast (recharge 6).",
-        "text": "The Icebrine Serpent opens its massive jaws and sends forth an blast of chilled sea water. All creatures in a 25 ft. cone must succeed on a DC 15 Dex save or suffer 5d8 Cold damage. Any target that succeeds its save takes half damage."
+        "name": "Ghostly Wail.",
+        "text": "When struck in melee, the abomination may release a haunting lament. Any creature within 15ft of the abomination must make a DC 12 Wisdom saving throw or become frightened."
+      }
+    ],
+    "villainActions": [
+      {
+        "order": "1. ",
+        "name": "Emerge.",
+        "text": "An abomination forms with a whirling torrent of bones. Anyone within 10ft of a bone pile must succeed on a DC 12 Dexterity saving throw or be knocked prone."
+      },
+      {
+        "order": "2. ",
+        "name": "Call Spirits.",
+        "text": "An abomination calls upon the spirits of the restless dead who haunt the piles of bone nearby. If the Lurking Abomination begins or ends its turn within 10 ft of a pile of bone, spirits fly through the abomination, healing it for 2d8 hit points and causing ranged attacks to have disadvantage."
+      },
+      {
+        "order": "3. ",
+        "name": "Whirling Death.",
+        "text": "When surrounded, an abomination uses it’s jagged body as a weapon, swinging around in a torrent of razor-sharp bone. All creatures within 10 feet of the Lurking Abomination must make a DC 14 Dexterity saving throw or take 2d8 slashing damage. Half damage on a successful save."
+      },
+      {
+        "order": "(Death) ",
+        "name": "Spirit Nova.",
+        "text": "As an abomination is destroyed, it releases an explosion of necrotic energy as the malign magics that kept it bound to this place burst forth. Anyone within 20 ft must succeed a DC 12 Dexterity saving throw or take 2d6 necrotic damage. Half damage on successful save."
       }
     ]
   },

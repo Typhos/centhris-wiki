@@ -36,6 +36,8 @@ class Organization extends Component {
 
   render () {
     const images = require.context('img/organizations/', true);
+    const allImages = require.context('img/', true);
+
     const group = this.state.group;
     const descriptionEntries = this.getArticles(group.articles);
 
@@ -52,6 +54,10 @@ class Organization extends Component {
               <h4 className="nickname">{group.name}</h4>
               { images.keys().some(x => x.includes( group.name.replace(/\s/g,"-") )) && 
                 <img className="portrait" alt="" src={ images('./' + group.name.replace(/\s/g,"-") + '.png') }/>
+              }
+              {
+                group.forceImg && allImages.keys().some( x => x.includes( group.forceImg )) &&
+                <img className="portrait" alt="" src={ allImages( allImages.keys().filter( x => x.includes( group.forceImg ) ) ) }/>
               }
               { (group.type) ? 
                 <div className="info">

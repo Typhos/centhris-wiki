@@ -68,8 +68,8 @@ export default class PeopleArticle extends Component {
       let array = [];
       for ( let [key, val] of Object.entries(person.attacks) ) { 
         array.push(
-          <div key={val} className="block">
-            <small className="stat">{key}</small> <span className="num">{val}</span>
+          <div key={val} className="attacks">
+            <span className="name">{key}</span> <span className="stats">{val}</span>
           </div>
         )
       }
@@ -200,6 +200,12 @@ export default class PeopleArticle extends Component {
             <div className="attunedItems">
               <p className="heading">Attuned Items</p>
               {attunedItems}
+            </div>
+          }
+          { person.feats && 
+            <div className="info">
+              <p className="key">Feats</p>
+              <div className="values">{WikiUtils.linkContent(person, person.feats)}</div>
             </div>
           }
           { person.occupation && 

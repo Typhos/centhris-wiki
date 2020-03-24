@@ -61,7 +61,7 @@
   },
   "Castle-Lęczyca": {
     "playerKnown": false,
-    "tags": ["castle","navolin","ulfwyst"],
+    "tags": ["castle","navolin","ulfwyst","abandoned"],
     "name": "Castle Lęczyca",
     "nickname": "Castle Lęczyca",
     "type": "Fortification",
@@ -73,7 +73,7 @@
   },
   "Castle-Roznów": {
     "playerKnown": false,
-    "tags": ["castle","navolin","ulfwyst"],
+    "tags": ["castle","navolin","ulfwyst","abandoned"],
     "name": "Castle Roznów",
     "nickname": "Castle Roznów",
     "type": "Fortification",
@@ -148,7 +148,7 @@
   },
   "Castle-Zagórz": {
     "playerKnown": false,
-    "tags": ["castle","navolin","ulfwyst"],
+    "tags": ["castle","navolin","ulfwyst","abandoned","vampire"],
     "name": "Castle Zagórz",
     "nickname": "Castle Zagórz",
     "type": "Fortification",

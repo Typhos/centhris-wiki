@@ -111,7 +111,7 @@
     "idLinks": {
     },
     "type": "City",
-    "population": "3,200",
+    "population": "3,700",
     "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
     "government": "Clan Chief",
     "location": "Lemuria",
@@ -175,9 +175,29 @@
     "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
     "government": "Clan Chief",
     "location": "Lemuria",
-    "leaders": ["Clan Chief Viljar Rødtblad"],
+    "leaders": ["High Queen Inga Villdyr"],
     "description": [
-      "Dunndag is a major city in the Realm of Lemuria."
+      "Dunndag is a minor city in the Realm of Lemuria."
+    ],
+    "articles": {
+    }
+  },
+  "Eldskog": {
+    "playerKnown": true,
+    "tags": ["city","Lemuria","ulfwyst"],
+    "name": "Eldskog",
+    "nickname": "Eldskog",
+    "linkingWords": [],
+    "idLinks": {
+    },
+    "type": "City",
+    "population": "2,250",
+    "races": ["human","elf","gnome","half-elf","half-orc"],
+    "government": "Clan Chief",
+    "location": "Lemuria",
+    "leaders": ["Clan Chief Viljar Bjørsel"],
+    "description": [
+      "Eldskog is a minor city in the Realm of Lemuria. The city is located on Eldskog Isle in the Korin Gulf, just west of the Amber Grove."
     ],
     "articles": {
     }

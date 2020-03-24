@@ -207,6 +207,20 @@ class Creatures extends Component {
           })
         }
       </div>
+      { creature.bonusActions && 
+        <div className="grouping reactions">
+          <h4 className="heading">Bonus Actions</h4>
+          {
+            creature.bonusActions.map( bonus => {
+              return <React.Fragment>
+                <p>
+                  <strong>{bonus.name}</strong> {bonus.text}
+                </p>
+              </React.Fragment>
+            })
+          }
+        </div>
+      }
       { creature.reactions && 
         <div className="grouping reactions">
           <h4 className="heading">Reactions</h4>
@@ -221,8 +235,18 @@ class Creatures extends Component {
           }
         </div>
       }
-      { creature.villain &&
+      { creature.villainActions &&
         <div className="grouping villain">
+          <h4 className="heading">Villain Actions</h4>
+          {
+            creature.villainActions.map( actions => {
+              return <React.Fragment>
+                <p>
+                  <strong>{actions.order}{actions.name}</strong> {actions.text}
+                </p>
+              </React.Fragment>
+            })
+          }
         </div>
       }
       { creature.legendary &&

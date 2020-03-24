@@ -1,36 +1,79 @@
 {
-  "Spearmoot": {
-    "playerKnown": true,
-    "name": "Spearmoot",
-    "nickname": "Spearmoot",
-    "linkingWords": ["the Ruination of Centhris"],
-    "date": "3rd of Dusvar",
-    "associations": ["the Conqueror","the Guardian"],
-    "type": "Festival",
-    "tags": ["festival","vesdarian calendar"],
-    "description": [
-      "Spearmoot is an annual festival that occurs in many parts of Centhris, especially regions with feudal traditions that employ levied troops. On this day, all able bodied men (women are not required for conscription, but willing volunteers are accepted) from a lord's demense are expected to report to the nearest mustering ground for inspection and enlistment for next year's campaign season.",
-      "Following the inspection, which usually takes place in the morning, a fairground is setup near the mustering field and the afternoon is spent as a moment for residents from neighboring villages to catch up, drink and compete in festival games. The games are general athletic competitions, such as archery, distance running, climbing, swimming, javelin and rock tossing, wresting and boxing. Often there is grand feast that takes place at sundown where the winners of the day's games are celebrated."
-    ],
-    "articles": {
-      "Foundations in Conflict": [
-        "The practice began, centuries ago, as a way for landed nobles to get a full, annual account of the able bodied men available to them in times of conflict. Before the annual inspection, feudal lords would simply call upon their vassals and subjects without a informed count of their forces. Many an inept lord had who not kept track of his available forces could find himself under attack without knowledge of his levies. This could often result in a border province being overrun and sacked when only half the expected forces would arrive.",
-        "The practice, originally championed by the powerful nobles who could be counted among the members of the Cult of the Conqueror, was established as a way for ambitions lords to avoid ruin and as a way to keep able bodied peasants accountable for their military duties. The practice spread and evolved slowly, but within a few centuries, almost every lord had instituted the practice.",
-        "With the tradition established, a further evolution took place, as farmers, artisans and professional soldiers began to meet annually at the moot, or spent long seasons together on campaign if required. Building bonds of over the course of years, often across generations, the practice shifted from a martial duty to a way for old friends to meet again and reminisce."
-      ],
-      "Contests of Might & Skill": [
-        "The festival of Spearmoot is a disorderly affair. Hundres, possibly thousands of men in arms and armor march from their homes to the mustering grounds, sometime days away from their village. These, mostly amateur, soldiers then spend much the morning standing at attention while their feudal lord gets a proper count, assesses equipment quality and confers with local militia commanders.",
-        "When the official dismissal order is given around midday, the soldiers return to their camps to doff their armor, store their arms and take a moment to rest. Slowly, as they return to the main grounds, the men will begin to organize the year's games. Unofficially run by the militia commanders, who are expected to petition the lord for prizes, each village or town will offer up their best candidate for a given contest. These local champions will then compete in their event(s) in hopes of whatever prizes the lord might grant. Even when faced with a miserly lord, or in a difficult year, the soldiers will compete simply for local pride.",
-        "Some lords take a more direct involvement, treating the event as a grand peasant tournament to rival Red Blades. More military minded or cunning lords will offer splendid prizes as a way to garner good will and favor with their subjects."
-      ],
-      "Soldier's Feast": [
-        "At the conclusion of the days contests, a grand feast is traditional. Some soldiers will bring food from their homes to share, but it is an expectation that the levy lord will provide food and an allotment of beer for every soldier. Traditional dishes vary greatly depending on the country. After the meals is mostly over and the heaviest drinking has begun, the day's champions will be crowned, given their prizes, which can range from a goat or some chickens to large purses of coin."
-      ]
-    },
-    "dmArticles": {
-      "Tradition of the Conqueror": [
-        "The first instances of Spearmoot were started by clerics of the Conqueror in places with strong military traditions. The Cult of the Conqueror encourages a regular inspection of individuals capable of military service so that a lord is never caught off guard in terms of preparation."
-      ]
-    }
-  }
+   "year_len":349,
+   "events":1,
+   "n_months":16,
+   "months":[
+      "Mythosk",
+      "Jeden",
+      "Unvar",
+      "Yávan Asar",
+      "Tarnia",
+      "Singor",
+      "Dusvar",
+      "Virya’losse",
+      "Ebosk",
+      "Nylwis",
+      "Ralshen",
+      "Merengyrth",
+      "Heskur",
+      "Serybil",
+      "Gonsaar",
+      "Fui’en Velca"
+   ],
+   "month_len":{
+      "Mythosk":28,
+      "Jeden":28,
+      "Unvar":28,
+      "Yávan Asar":3,
+      "Tarnia":28,
+      "Singor":28,
+      "Dusvar":28,
+      "Virya’losse":3,
+      "Ebosk":28,
+      "Nylwis":28,
+      "Ralshen":28,
+      "Merengyrth":5,
+      "Heskur":28,
+      "Serybil":28,
+      "Gonsaar":28,
+      "Fui’en Velca":2
+   },
+   "festivals": [
+      "Yávan Asar",
+      "Virya’losse",
+      "Merengyrth",
+      "Fui’en Velca"
+   ],   
+   "week_len":7,
+   "weekdays":[
+      "Vîrist",
+      "Kelosid",
+      "Dastot",
+      "Istrath",
+      "Folthur",
+      "Ducilam",
+      "Anosil"
+   ],
+   "n_moons":3,
+   "moons":[
+      "Idrothea",
+      "Rydora",
+      "Tinereth"
+   ],
+   "lunar_cyc":{
+      "Idrothea":28,
+      "Rydora":34,
+      "Tinereth":46
+   },
+   "lunar_shf":{
+      "Idrothea":6.5,
+      "Rydora":13.5,
+      "Tinereth":21.5
+   },
+   "era": "2C",
+   "year":2573,
+   "first_day":0,
+   "notes":{
+
+   }
 }
