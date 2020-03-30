@@ -273,5 +273,20 @@
     "description": [
       "@+Captain Terrowin Drynn+@ is a pirate captain who operates out of the port of Duskreef in the Barrier Coast. He has two ships, a frigate, the Sanguine Jewel and a brig, the Elusive Revenge. He has a reputation for being a dashing, charismatic figure who enjoys the privileges earned from years of fame and notoriety. His first mate and captain of the @*Elusive Revenge*@ is Asher deGray. His quartermaster is Ellyana. "
     ]
+  },
+  "Brother-Leorick": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "name": "Brother Leorick",
+    "nickname": "Brother Leorick",
+    "tags": ["half-orc","cleric","Duskreef"],
+    "age": "38",
+    "gender": "Male",
+    "race": "Half-Orc",
+    "occupation": "Priest",
+    "affiliations": ["Duskreef"],
+    "description": [
+      "@+Brother Leorick+@ is a half-orc priest of the Tempest who runs the god's temple in Duskreef. He is a large, stoic man who regularly is called upon to bless sailors and vessels before their voyages."
+    ]
   }
 }
