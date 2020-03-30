@@ -48,6 +48,7 @@ import mythic           from 'data/places/mythic';
 import spellData        from 'data/spells';
 
 import ships            from 'data/misc/ships';
+import items            from 'data/misc/items';
 
 export default class DataLoader {
 
@@ -57,7 +58,7 @@ export default class DataLoader {
   
   static people = {...heroData,...villainData,...nobleData,...importantPeopleData,...merchantsData,...historicalPeopleData,...miscPeopleData, ...mageData};
   
-  static misc = {...ships}
+  static misc = {...ships, ...items};
 
   static organizations = {...orgData};
 

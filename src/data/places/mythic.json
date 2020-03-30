@@ -36,5 +36,41 @@
     "dmArticles": {
 
     }
+  },
+  "The-Feywild": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "name": "The Feywild",
+    "nickname": "the Feywild",
+    "linkingWords": [],
+    "tags": ["mythic locale","plane"],
+    "type": "Plane",
+    "description": [
+      "The Feywild is a plane located in the Astral Sea. It is, cosmologically, relatively close to the Prime Material Plane and it is not uncommon to find locations where to the two planes cross into each other, allowing peoples to travel between the two realms."
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+
+    }
+  },
+  "The-Shadowfell": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "name": "The Shadowfell",
+    "nickname": "the Shadowfell",
+    "linkingWords": [],
+    "tags": ["mythic locale","plane"],
+    "type": "Plane",
+    "description": [
+      "The Shadowfell is a plane located in the Astral Sea. It is, cosmologically, relatively close to the Prime Material Plane and it is not uncommon to find locations where to the two planes cross into each other, allowing peoples to travel between the two realms."
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+
+    }
   }
 }

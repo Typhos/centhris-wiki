@@ -76,7 +76,7 @@ class Lore extends Component {
             <aside className="infoBox">
               <h4 className="nickname">{lore.name}</h4>
               { imgs.keys().some(x => x.includes( lore.name.replace(/\s/g,"-") )) && 
-                <img className="portrait" alt="" src={ imgs( imgs.keys().filter(x => x.includes( lore.name.replace(/\s/g,"-") )) )}/>
+                <img className="portrait" alt="" src={ imgs( imgs.keys().filter(x => x.includes( lore.name.replace(/\s/g,"-") ))[0] ) }/>
               }
               { lore.name === "The Vesdarian Calendar" && 
                 <div className="info">
@@ -144,6 +144,41 @@ class Lore extends Component {
                   <ul className="values">
                     { arrayToLi(lore.worshipers) }
                   </ul>
+                </div>
+              }
+              {lore.type !== "Ship" && lore.class &&
+                <div className="info">
+                  <p className="key">Class</p>
+                  <div className="values">
+                    {WikiUtils.linkContent(lore, lore.class)}
+                  </div>
+                </div>
+              }
+      {/* WEAPON RELATED */}
+              {lore.type === "Weapon" && lore.cost &&
+                <div className="info">
+                  <p className="key">Cost</p>
+                  <div className="values">{lore.cost}</div>
+                </div>
+              }
+              {lore.type === "Weapon" && lore.weight &&
+                <div className="info">
+                  <p className="key">Weight</p>
+                  <div className="values">{lore.weight}</div>
+                </div>
+              }
+              {lore.type === "Weapon" && lore.damage &&
+                <div className="info">
+                  <p className="key">Damage</p>
+                  <div className="values">{lore.damage}</div>
+                </div>
+              }
+              {lore.type === "Weapon" && lore.properties &&
+                <div className="info">
+                  <p className="key">Properties</p>
+                  <div className="values">
+                    {WikiUtils.linkContent(lore, lore.properties)}
+                  </div>
                 </div>
               }
       {/* SHIP RELATED */}
