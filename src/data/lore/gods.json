@@ -36,6 +36,15 @@
         "The Guardian is said to be proud beyond reproach. His canon states that pride is necessary for any creature to be magnanimous; one has to believe in standards for themselves, and strive to surpass them, before standards can be applied to others. Many followers adhere to this ideal, often resulting other viewing his church as haughty and aloof."
     ],
     "articles": {
+        "Dogma": [
+          "The Guardian's dogma was based on justice, nobility, protection, and honor. His church teaches its followers to always uphold the highest ideals of honor and justice; to be constantly vigilant against evil and to oppose it from all fronts; and to protect the weak, liberate the oppressed, and defend just order. The Guardian is said to advocate a 'greater justice' that includes fighting against evil and toppling oppressive regimes. The church also is keen to reward strength of purpose and character in his followers.",
+          "The Church of the Guardian holds a strong central structure and canon which includes the Leges Aequitatis. Each church of the Celestial Dragon contains a central pillar, shrine or statue of the Dragon King which displays the church's code. Every follower of the church of the Guardian, and most people with a passing knowledge of religious rites are able to recite it. The major tenants of the Leges Aequitatis are:",
+          "Justice, virtue and good above all.",
+          "Honor and fealty to just lords.",
+          "Honor and protect the righteous innocence.",
+          "Seek out and correct the enemies of justice and good.",
+          "Honor and forbearance for oneself."
+        ],
         "Righteous Dignity": [
           "The canon law of the Guardian expressly disapproves of zealotry. The Church of the Guardian holds itself to the ideals of its patron, but does not seek to actively spread or force its beliefs upon others. Instead, the church seeks to hold itself up as an ideal that others might strive to meet.",
           "While the followers of the Guardian do not overtly proselytize or attempt to convert followers, many have been swayed to the Celestial Dragon's church through his followers' selfless acts and example."
@@ -50,15 +59,6 @@
           "The followers and churches of some other deities maintain good relations with the Church of the Guardian. The churches of the Maker, the Arbiter and the Tempest have varying degrees of interaction with the followers of the Guardian. Though none of these followers see completely eye to eye, they all understand that they stand as a common bloc against others that might threaten the safety, order and dignity of the societies their patrons guard. The church and the Cult of the Champion often overlap in times of war, as soldiers venerate the Champion while also embracing the protection of the Guardian. Faithful of the Guardian find those who follow Isilena to be keen allies, but often differ on what motivates their actions, as the followers of Bahamut wish to instill order, while heroes of the Champion focus on doing good regardless of its effect on the order of the world.",
 
           "The Church of the Guardian canon demands the seeking and directly opposition of the acts of, though not the existence of, the churches of the Wyrm, the Stygian and the Fiend. Other evil gods and their cults are viewed with suspicion, but their aims only occasionally require direct intervention from the Valiants, and the champions of the Guardian do not actively seek out their members."
-        ],
-        "Dogma": [
-          "The Guardian's dogma was based on justice, nobility, protection, and honor. His church teaches its followers to always uphold the highest ideals of honor and justice; to be constantly vigilant against evil and to oppose it from all fronts; and to protect the weak, liberate the oppressed, and defend just order. The Guardian is said to advocate a 'greater justice' that includes fighting against evil and toppling oppressive regimes. The church also is keen to reward strength of purpose and character in his followers.",
-          "The Church of the Guardian holds a strong central structure and canon which includes the Leges Aequitatis. Each church of the Celestial Dragon contains a central pillar, shrine or statue of the Dragon King which displays the church's code. Every follower of the church of the Guardian, and most people with a passing knowledge of religious rites are able to recite it. The major tenants of the Leges Aequitatis are:",
-          "Justice, virtue and good above all.",
-          "Honor and fealty to just lords.",
-          "Honor and protect the righteous innocence.",
-          "Seek out and correct the enemies of justice and good.",
-          "Honor and forbearance for oneself."
         ],
         "Divine Realm": [
           "The Guardian's Hall is said to be a sight to behold. High atop the heavens, it stands as a massive palace, the exterior plated with platinum, reflecting the light of heaven like a impossibly bright lighthouse. Inside of the marble halls of dragon god's home, many exotic materials can be found: precious metals, astral ivory and gemstones of incredible size decorate windows and mithral walls. This is not just for vanity: the Celestial Dragon's gigantic palace is said to serve as remind the other gods of the Guardian's might, and on a more basic level, it also serves as his hoard. It is here, atop the Divine Lighthouse that he holds court, deals with other deities and beings of near similar power, and passes judgment on the wicked."
@@ -396,11 +396,11 @@
     "articles": {
       "Tenets of Faith": [
         "The Cult of the Tempest has little in the way of formal dogma which members are expected to follow. The few commandment handed down by leaders of the faith are:",
-        "Be strong, but do not use your strength for destruction or oppression.",
-        "Heed the waves and squalls, but overcome it with your might.",
-        "Be brave. Scorn cowardice in any form. A proud warrior embraces a glorious end.",
-        "Prove your might in battle. Win glory and renown.",
-        "Ensure your deeds are worthy of poem and song so that others may remember your might."
+        "• Be strong, but do not use your strength for destruction or oppression.",
+        "• Heed the waves and squalls, but overcome it with your might.",
+        "• Be brave. Scorn cowardice in any form. A proud warrior embraces a glorious end.",
+        "• Prove your might in battle. Win glory and renown.",
+        "• Ensure your deeds are worthy of poem and song so that others may remember your might."
       ],
       "Temples of the Mighty":[
         "Though the Tempest does not have a large, formal clerical structure, he does earn many followers, especially with those who value strength and physical prowess. The temples of the Tempest are generally structures that double as arenas or gymnasiums. His festivals generally involve feasts and contests of strength. These can often overlap with festivals to the Conqueror, with whom the followers of the Tempest share a veneration of strength.",
