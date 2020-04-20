@@ -18,27 +18,27 @@
     ]
   },
   "the-Myrd'draal": {
-    "playerKnown": false,
+    "playerKnown": true,
     "hideOnCat": false,
     "name": "the Myrd'draal",
     "tags": ["monk","master","villain","endless sky","azoth'xun","eladrin"],
     "nickname": "the Myrd'draal",
-    "race": "Eladrin",
-    "age": "??",
-    "gender": "Female",
+    "race": "Githyanki",
+    "gender": "Male",
     "class": "Monk",
     "affiliations": ["Order of the Endless Sky", "Cult of Azoth'Xun", "Kongir Temple"],
     "quote": "\"You have traveled far and seen much of the world. Now it is time for me to open your eyes to the truths of this universe.\"",
     "description": [
-      "The Myrd'draal is an elder Eladrin female and the Grand Master of the Order of the Endless Sky. She resides at Kongir Temple and currently is in possession of the Belt of the Masters."
+      "The Myrd'draal is the Githyanki Grand Master of the Order of the Endless Sky. He resided at Kongir Temple until the arrival of the Lost Shields in 2C 2573. His current whereabouts are unknown."
     ]
   },
-  "Mysterious-Monk": {
+  "Rashev": {
     "playerKnown": true,
     "hideOnCat": false,
-    "name": "Mysterious Monk",
+    "name": "Rashev",
     "tags": ["monk","human","kongir","enemy","azoth'xun"],
-    "nickname": "Mysterious Monk",
+    "nickname": "Rashev, the Blind Monk",
+    "linkingWords": ["Mysterious Monk","Blind Monk"],
     "race": "Human",
     "age": "??",
     "gender": "Male",
@@ -169,18 +169,17 @@
     ]
   },
   "Jondr-Mistwalker": {
-    "playerKnown": false,
+    "playerKnown": true,
     "hideOnCat": false,
     "name": "Jondr Mistwalker",
     "nickname": "Jöndr Mistwalker",
     "tags": ["Duskreef","pirate","cloud giant"],
-    "age": "72",
     "gender": "Male",
     "race": "Cloud Giant",
     "titles": ["Tyrant of Duskreef"],
     "affiliations": ["Duskreef"],
     "description": [
-      "Jöndr Mistwalker is a cloud giant who rules Duskreef by force. He resides in Duskreef citadel, watching the town from a throne atop the broken prison-citadel with his pet Dire Lion, Gámr. His ship, the Black Fang, is a huge ships which has a reserved, central, location in the harbor. A giant with a mean temper, he is known for visiting the @*Crimson Cuttlass*@ with his crew, which causes others to vacate quickly. He is the only person in Duskreef who can openly harm or kill other pirates, as none can challenge his ironclad grip on the town."
+      "Jöndr Mistwalker is a cloud giant who rules Duskreef by force. He resides in Duskreef citadel, watching the town from a throne atop the broken prison-citadel with his pet Dire Lion, Gámr. His ship, the Black Fang, is a huge galleon which has a reserved, central location in the harbor. A giant with a mean temper, he is known for visiting the @*Crimson Cuttlass*@ with his crew, which causes others to vacate quickly. He is the only person in Duskreef who can openly harm or kill other pirates, as none can challenge his ironclad grip on the town."
     ],
     "dmArticles": {
       "Coastal Raider": [

@@ -220,6 +220,12 @@ export default class PeopleArticle extends Component {
               <div className="values">{WikiUtils.linkContent(person, person.affiliations)}</div>
             </div>
           }
+          { person.player &&
+            <div className="info affiliations">
+              <p className="key">Player</p>
+              <p className="values">{ WikiUtils.textFormatting(person.player) }</p>
+            </div>
+          }
           { person.link && this.state.dmView &&
             <div className="info link">
               <a href={person.link} target="_blank" rel="noopener noreferrer">

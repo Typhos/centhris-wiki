@@ -16,7 +16,7 @@
   },
   "Majandir": {
     "playerKnown": false,
-    "tags": ["city","Abbasyr","port","ulfwyst"],
+    "tags": ["city","Abbasyr","ulfwyst"],
     "name": "Majandir",
     "nickname": "Majandir",
     "type": "City",
@@ -27,6 +27,36 @@
     "leaders": [],
     "description": [
       "Majandir, also known as \"the Hidden City\" is a city of the Kingdom of Abbasyr."
+    ]
+  },
+  "Al-Saham": {
+    "playerKnown": false,
+    "tags": ["city","Abbasyr","port","ulfwyst"],
+    "name": "Al Saham",
+    "nickname": "Al Saham",
+    "type": "City",
+    "population": "38,000",
+    "races": ["dragonborn","human","half-orc","tiefling","anubari"],
+    "government": "Viceroyalty",
+    "location": "Abbasyr",
+    "leaders": [],
+    "description": [
+      "@+Al Saham+@, also known as \"the Grand Bazar\" is a city of the Kingdom of Abbasyr."
+    ]
+  },
+  "Badra-Gassan": {
+    "playerKnown": false,
+    "tags": ["city","Abbasyr","port","ulfwyst"],
+    "name": "Badra Gassan",
+    "nickname": "Badra Gassan",
+    "type": "City",
+    "population": "23,000",
+    "races": ["dragonborn","human","half-orc","tiefling","anubari"],
+    "government": "Viceroyalty",
+    "location": "Abbasyr",
+    "leaders": [],
+    "description": [
+      "@+Badra Gassan+@, also known as \"the City of White Spires\" is a city of the Kingdom of Abbasyr."
     ]
   },
   "Zelmar": {

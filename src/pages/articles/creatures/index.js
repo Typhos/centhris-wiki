@@ -175,6 +175,9 @@ class Creatures extends Component {
         { creature.damageImmunities &&
           <p><strong>Damage Immunities</strong> {creature.damageImmunities}</p>
         }
+        { creature.conditionImmunities &&
+          <p><strong>Condition Immunities</strong> {creature.conditionImmunities}</p>
+        }
         <p><strong>Senses</strong> {creature.senses}, passive Perception {creature.passiveWisdom}</p>
         { creature.languages &&
           <p><strong>Languages</strong> {creature.languages}</p>
@@ -189,7 +192,7 @@ class Creatures extends Component {
           creature.abilities.map( ability => {
             return <React.Fragment>
               <p>
-                <strong>{ability.name}</strong> {ability.text}
+                <strong>{ability.name}</strong> { WikiUtils.textFormatting(ability.text) }
               </p>
             </React.Fragment>
           })
@@ -201,7 +204,7 @@ class Creatures extends Component {
           creature.actions.map( action => {
             return <React.Fragment>
               <p>
-                <strong>{action.name}</strong> {action.text}
+                <strong>{action.name}</strong> { WikiUtils.textFormatting(action.text) }
               </p>
             </React.Fragment>
           })
@@ -214,7 +217,7 @@ class Creatures extends Component {
             creature.bonusActions.map( bonus => {
               return <React.Fragment>
                 <p>
-                  <strong>{bonus.name}</strong> {bonus.text}
+                  <strong>{bonus.name}</strong> { WikiUtils.textFormatting(bonus.text) }
                 </p>
               </React.Fragment>
             })
@@ -228,7 +231,7 @@ class Creatures extends Component {
             creature.reactions.map( reaction => {
               return <React.Fragment>
                 <p>
-                  <strong>{reaction.name}</strong> {reaction.text}
+                  <strong>{reaction.name}</strong> { WikiUtils.textFormatting(reaction.text) }
                 </p>
               </React.Fragment>
             })
@@ -242,7 +245,7 @@ class Creatures extends Component {
             creature.villainActions.map( actions => {
               return <React.Fragment>
                 <p>
-                  <strong>{actions.order}{actions.name}</strong> {actions.text}
+                  <strong>{actions.order}{actions.name}</strong> { WikiUtils.textFormatting(actions.text) }
                 </p>
               </React.Fragment>
             })
@@ -264,7 +267,7 @@ class Creatures extends Component {
 
               return <React.Fragment>
                 <p>
-                  <strong>{legendary.name}</strong> {legendary.text}
+                  <strong>{legendary.name}</strong> { WikiUtils.textFormatting(legendary.text) }
                 </p>
               </React.Fragment>
             })

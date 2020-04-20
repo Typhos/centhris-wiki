@@ -28,7 +28,7 @@
     "affiliations": ["Navolin","Nost Ezel’nár"],
     "quote": "\"My, my… Teralion Elentiir, the esteemed archmage of Kilurus himself. What could possibly have been so remarkable as to drag the pureblooded advisor of Queen Inga from her frozen halls? It must be important. An arcanist of your stature wouldn't have come all the way to Sunheim with four bodyguards to sun himself on the beach.\"",
     "description": [
-      "@+Franziska Straken+@ is an Archmage of the Nost Ezel’nár and holds the title of @*Archmage of Cultural and Social Protection*@. She is a tall, human woman in her mid forties with with sharp features, and graying, brown hair. She generally dresses in traditional attire of Azond, a region (and former nation-state) in northern Navolin."
+      "@+Franziska Straken+@ is an Archmage of the Nost Ezel’nár and holds the title of @*Archmage of Cultural and Social Protection*@. She is a tall, human woman in her mid forties with sharp features, and graying, brown hair. She generally dresses in traditional attire of Azond, a region (and former nation-state) in northern Navolin."
     ],
     "articles": {
       "Archmage of Cultural and Social Protection": [
@@ -44,6 +44,27 @@
       "Cunning Manipulator": [
         ""
       ]
+    }
+  },
+  "Izolda-of-Olesko": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Izolda of Olesko",
+    "nickname": "Izolda of Olesko",
+    "linkingWords": [],
+    "tags": ["human","wizard","nost ezel'nar"],
+    "race": "Human",
+    "occupation": "Archmage of Martial Strategy",
+    "gender": "Female",
+    "affiliations": ["Navolin","Nost Ezel’nár"],
+    "description": [
+      "@+Izolda of Olesko+@ is an Archmage of the Nost Ezel’nár and holds the title of @*Archmage of Martial Strategy*@. She is a human woman in her early thirties."
+    ],
+    "articles": {
+      
+    },
+    "dmArticles": {
+      
     }
   },
   "Dolmar-Coldforge": {

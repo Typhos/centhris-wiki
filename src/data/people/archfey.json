@@ -1,0 +1,279 @@
+{
+  "Jadartis": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Jadartis",
+    "nickname": "Lord of the Green",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["Lord of the Green"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Jadartis+@ is an archfey that resides in the Realm of Spring in the Feywild."
+    ],
+    "dmArticles": {
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Gelion": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Gelion",
+    "nickname": "Good Fellow",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["the Good Fellow"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Gelion+@ is an archfey that resides in the Realm of Spring in the Feywild."
+    ],
+    "dmArticles": {
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Sovexis": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Sovexis",
+    "nickname": "the Minstrel",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["the Minstrel"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Sovexis+@ is an archfey that resides in the Realm of Spring in the Feywild."
+    ],
+    "dmArticles": {
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Farhorn": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Farhorn",
+    "nickname": "Prince of Harts",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["Prince of Harts"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Farhorn+@ is an archfey that resides in the Realm of Summer in the Feywild."
+    ],
+    "dmArticles": {
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Elvyre": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Elvyre",
+    "nickname": "Lady of Blossoms",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["Prince of Harts"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Elvyre+@ is an archfey that resides in the Realm of Spring in the Feywild."
+    ],
+    "dmArticles": {
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Gyllenae": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Gyllenae",
+    "nickname": "Summer Queen",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["the Summer Queen"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Gyllenae+@ is an archfey that resides in the Realm of Summer in the Feywild. She is one of the most ancient and powerful fey in existence. It is unclear the extent of her power, and some followers consider her a god, or demi-god of nature in her own right. This has led many religious scholars who become aware of her existence to question her relationship with the Sage, with some postulating that she might even be the Sage herself, an avatar of the goddess, or possibly that the two are in conflict over the dominion of nature."
+    ],
+    "dmArticles": {
+      "Ideals": [
+        "Beauty is truth, truth beauty."
+      ],
+      "Goals and Schemes": [
+        "As the monarch of the Summer Court, the Summer Queen's obligation is to defend her vassals – including all of the other Seelie Archfey (Spring and Summer) – from the Prince of Frost and the Unseelie (Autumn and Winter). Many problems between the Courts escalate to the point of her intervention.",
+        "Truth and beauty are her greatest ideals. \"Mortals should be free of influence\", however is not one of them. She concludes that a beautiful relic in the hands of a repugnant person is a wrong that needs righting. To separate the two, she opens with persuasion, but fey persuasion is inextricable from magical might.",
+        "When she encounters a mortal that captures here interest, she will often orchestrate a trial for them, which ends with the discovery of a great, often dangerous, secret. This can often come in the form of a fey in mortal guise who apparently requires saving."
+      ]
+    }
+  },
+  "Neráida": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Neráida",
+    "nickname": "the Lady of the Wood",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["the Lady of the Wood"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Neráida+@ is an archfey that resides in the Realm of Summer in the Feywild."
+    ],
+    "dmArticles": {
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Xanyth": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Xanyth",
+    "nickname": "Lord of Frost",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["Lord of Frost"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Xanyth+@ is an archfey that resides in the Realm of Winter in the Feywild. He is the monarch of the Unseelie, the fey of Autumn and Winter. Fear and passion guide the Unseelie as much as truth and beauty do the Seelie. The Lord of Frost rules the fey for half the year, but finds the transfer of power back to his counterpart even more objectionable than the Summer Queen does. While the Seelie are more invested in the high and courtly traditions, the Unseelie prize ambition and will engage in treachery when it suits their needs."
+    ],
+    "dmArticles": {
+      "Goals and Schemes": [
+        "The Lord's primary goal is to convince mortals that he is the true, benevolent ruler of the fey. Any who capture his attention are treated as welcome guests and ensnared in his charming, yet terrifying, company. Those who reject him or seek to uncover the true, cruel nature are cast out, and become the subject of bitter revenge.",
+        "The Lord of Frost profits by dividing his enemies and setting them against one another. This could be as simple as telling mortals of the powerful magic items that a Seelie fey possess, or something impossibly byzantine involving capturing three stable-boys (one of which has a latent sorcerous talent), invoking the curse of deadly nightshade on the princess whose parents snubbed His Darkly Imperious Majesty, or leading mortals into the Feywild simply to delight in their terror upon realizing they have been trapped in the Wild Lands.",
+        "While cruel, the Lord of Frost is not overly evil. He does good in his own, chaotic way. He is more than happy to take in young children who arrive in his realm unannounced, alone and frightened, and teach them the ways of fey so that they might act as his agents in the future."        
+      ]
+    }
+  },
+  "Caehyssa": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Caehyssa",
+    "nickname": "the Winter Witch",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["Winter Witch"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Caehyssa+@ is an archfey that resides in the Realm of Winter in the Feywild."
+    ],
+    "dmArticles": {
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Orisanna": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Orisanna",
+    "nickname": "Oracle of Fates",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["Oracle of Fates"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Orisanna+@ is an archfey that resides in the Realm of Autumn in the Feywild."
+    ],
+    "dmArticles": {
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Ralmerin": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Ralmerin",
+    "nickname": "Thornweaver",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["Thornweaver"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Ralmerin+@ is an archfey that resides in the Realm of Autumn in the Feywild."
+    ],
+    "dmArticles": {
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Eregdir": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Eregdir",
+    "nickname": "Dream Walker",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["Dream Walker"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Eregdir+@ is an archfey that resides in the Realm of Autumn in the Feywild."
+    ],
+    "dmArticles": {
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Arintari": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Arintari",
+    "nickname": "Mistress of the Hunt",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["Mistress of the Hunt"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Arintari+@ is an archfey that resides in the Realm of Autumn in the Feywild."
+    ],
+    "dmArticles": {
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Váyanís": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Váyanís",
+    "nickname": "Lady in the Water",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["Lady in the Water"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Váyanís+@ is an archfey that resides in the Realm of Winter in the Feywild."
+    ],
+    "dmArticles": {
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Celebrin": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Celebrin",
+    "nickname": "Silver Blade",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["Silver Blade"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Celebrin+@ is an archfey that resides in the Realm of Spring in the Feywild."
+    ],
+    "dmArticles": {
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  }
+}

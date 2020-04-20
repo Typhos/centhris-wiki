@@ -10,6 +10,7 @@
     "class": "Druid",
     "subclass": "Circle of the Land",
     "background": "Folk Hero",
+    "player": "Ryan",
     "affiliations": ["Lemuria","Bluefield Farms"],
     "level": 6,
     "hp": 36,
@@ -39,6 +40,7 @@
     "class": "Warlock 5 / Fighter 1",
     "subclass": "Hexblade",
     "background": "Soldier",
+    "player": "Zi",
     "affiliations": ["Kingdom of Sennhoff"],
     "level": 6,
     "hp": 42,
@@ -65,6 +67,7 @@
     "class": "Fighter",
     "subclass": "Battlemaster",
     "background": "Soldier",
+    "player": "Sean",
     "affiliations": ["Auburn Castle"],
     "level": 6,
     "hp": 40,
@@ -91,6 +94,7 @@
     "class": "Monk",
     "subclass": "Drunken Master",
     "occupation": "Urchin",
+    "player": "Andrew",
     "affiliations": ["City of Zurast"],
     "level": 6,
     "hp": 41,
@@ -104,6 +108,106 @@
     },
     "description": [
       "A young, half-orc Monk from the City of Zurast, Murat met his master Zorrakir and persuaded the old tiefling to take him on as an apprentice. Traveling with the old monk, Murat began to train in the martial arts. While venturing through the Blighted Mire, he met Evan-Jakob Reinhold. Together, they traveled to Rythlon, Navolin and would go on to become founding members of the Lost Shields."
+    ]
+  },
+  "Grimsley": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "name": "Grimsley",
+    "nickname": "Grimsley",
+    "tags": ["human","duskreef","priest","cleric"],
+    "race": "Human",
+    "age": "35",
+    "gender": "Male",
+    "occupation": "Priest of the Tempest",
+    "class": "Cleric 4, Barbarian 1",
+    "subclass": "Tempest Domain",
+    "background": "Haunted One",
+    "player": "Andy",
+    "hp": 47,
+    "stats": {
+      "STR": 14,
+      "INT": 13,
+      "DEX": 8,
+      "WIS": 18,
+      "CON": 16,
+      "CHA": 13
+    },
+    "skills": {
+      "Arcana": 4,
+      "Insight": 7,
+      "Religion": 4,
+      "Survival": 7
+    },
+    "passiveWisdom": 14,
+    "saves": {
+      "WIS": 7,
+      "CHA": 4
+    },
+    "ac": "16/18",
+    "attacks": {
+      "Attacks Per Action": 1,
+      "Thunderous Hammer": "1 attack @ +6 1d6+3 bludgeoning"
+    },
+    "languages": ["Common, Celestial, Primordial"],
+    "attunedItems": [
+      "Thunderous Hammer of Battle",
+      "Censer of the Triad"
+    ],
+    "description": [
+      "@+Grimsley+@ is a human priest of the Tempest who works at the Temple of the @*Tempest Nautica*@ in Duskreef."
+    ]
+  },
+  "Ellyana": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "name": "Ellyana",
+    "nickname": "Ellyana",
+    "tags": ["half-elf","duskreef","pirate","rogue"],
+    "race": "Half-Elf",
+    "age": "23",
+    "gender": "Female",
+    "occupation": "Pirate",
+    "class": "Rogue 5",
+    "subclass": "Thief",
+    "background": "Pirate",
+    "player": "Heather",
+    "hp": 28,
+    "stats": {
+      "STR": 10,
+      "INT": 20,
+      "DEX": 13,
+      "WIS": 14,
+      "CON": 16,
+      "CHA": 14
+    },
+    "skills": {
+      "Athletics": 3,
+      "Deception": 5,
+      "Insight": 6,
+      "Perception": 6,
+      "Persuasion": 5,
+      "Religion": 5,
+      "Sleight of Hand": 8,
+      "Stealth": 11
+    },
+    "passiveWisdom": 16,
+    "saves": {
+      "DEX": 8,
+      "INT": 5
+    },
+    "ac": "16",
+    "attacks": {
+      "Attacks Per Action": 1,
+      "Requiem": "1 attack @ +9 2d4+6 piercing",
+      "Rapier": "1 attack @ +8 1d8+5 piercing"
+    },
+    "languages": ["Common, Celestial, Elven"],
+    "attunedItems": [
+      "Requiem"
+    ],
+    "description": [
+      "@+Ellyana+@ is the quartermaster of the Sanguine Jewel, a frigate-class pirate ship captained by Terrowin Drynn."
     ]
   }
 }

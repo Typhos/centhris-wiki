@@ -83,5 +83,22 @@
     "description": [
       "@+Vësdar Frostgem+@ was born the Utharian Empire during the era of the Great Imperial Conflicts. As a way to escape the troubles of her time, Vësdar focused on creating order from the natural chaos she found around her. Her natural inclination for organizing, recording and cataloging the natural world of Centhris led her to create a new, more accurate and rational calendar than the ones previously used by any of the world's many nation-states. The result of her work became known as the Vësdarian Calendar which is now used in most civilized parts of the world."
     ]
+  },
+  "Shulxaa": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "name": "Shulxaa",
+    "nickname": "Shulxaa, the Withered King",
+    "linkingWords": ["Shulxaa the Withered King"],
+    "tags": ["lich","realm lord","wizard","historical"],
+    "birthYear": "??",
+    "deathYear": "2C 2461",
+    "gender": "Male",
+    "race": "Human",
+    "occupation": "Realm Lord",
+    "affiliations": ["Istagen"],
+    "description": [
+      "@+Shulxaa, the Withered King+@, was a lich lord who reigned over the Kingdom of Istagen for several hundred years prior to his defeat by the Knights of the Sacred Dawn. Shulxaa had achieved lichdom several hundred years prior to his complete domination of the Kingdom of Istagen. He established total control around 2C 1900, though his domination of the realm had occurred slowly, lasting roughly a hundred years, as the region was twisted into a puppet state by the lich."
+    ]
   }
 }

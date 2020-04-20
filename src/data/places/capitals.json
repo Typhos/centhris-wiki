@@ -35,6 +35,21 @@
       "The capital city of Navolin, Frecyra is one of the largest cities in Ulfwyst. The city has several nicknames including: \"the Fortress City\",\"the City of Statues\", and \"the City of the Tower\"."
     ]
   },
+  "Axuros": {
+    "playerKnown": false,
+    "tags": ["Tovanis","ulfwyst","capital","city"],
+    "name": "Axuros",
+    "nickname": "Axuros",
+    "type": "Capital City",
+    "population": "22,000",
+    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "government": "Elective Theocracy",
+    "location": "Tovanis",
+    "districts": [],
+    "description": [
+      "The capital city of Tovanis, @+Axuros+@ is a religious center and a beacon of rebirth. The city is also know as \"Dawn's Light\"."
+    ]
+  },
   "Kilurus": {
     "playerKnown": true,
     "tags": ["lemuria","ulfwyst","capital","city"],

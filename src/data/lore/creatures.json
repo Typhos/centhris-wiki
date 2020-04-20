@@ -265,7 +265,7 @@
   "Magma-Behemoth": {
     "playerKnown": true,
     "hideOnCat": false,
-    "showStatBlock": true,
+    "showStatBlock": false,
     "name": "Magma Behemoth",
     "nickname": "Magma Behemoth",
     "type": "Elemental",
@@ -429,6 +429,272 @@
       {
         "name": "Wing Attack (Costs 2 Actions).",
         "text": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+      }
+    ]
+  },
+  "Zeradrasa": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Zeradrasa",
+    "nickname": "Zeradrasa, the Gilded Queen",
+    "type": "Dragon",
+    "tags": ["jordonis mountains","ancient red dragon","predator"],
+    "description": [
+      "@+Zeradrasa+@ (Zera-matoo), the Gilded Queen, is a legendary green dragon who resides somewhere in the Drakenwald. Though her domain technically falls inside the Realm of Lemuria, no clan dares to claim this region of the forest for fear of retribution from the Gilded Queen."
+    ],
+    "articles": {
+      "": [
+        ""
+      ]
+    },
+    "dmArticles": {
+    },
+    "alignment": "chaotic evil",
+    "creatureType": "Gargantuan dragon",
+    "stats": [
+      {"name": "STR", "val": 30},
+      {"name": "DEX", "val": 10},
+      {"name": "CON", "val": 29},
+      {"name": "INT", "val": 18},
+      {"name": "WIS", "val": 15},
+      {"name": "CHA", "val": 23}
+    ],
+    "savingThrows": "Dex +7, Con +16, Wis +9, Cha +13",
+    "skills": "Perception +16, Stealth +7",
+    "passiveWisdom": 26,
+    "armor": "22 (Natural Armor)",
+    "hitPoint": 546,
+    "hitDie": "28d20+252",
+    "speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "damageImmunities": "Fire",
+    "senses": "Blindsight 60 Ft., Darkvision 120 Ft.",
+    "languages": "Common, Draconic",
+    "challenge": "24",
+    "abilities": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "text": "If Crozemgax fails a saving throw, it can choose to succeed instead."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "Crozemgax can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+      },
+      {
+        "name": "Bite.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: (2d10 + 10) piercing damage plus (4d6)fire damage."
+      },
+      {
+        "name": "Claw.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: (2d6 + 10) slashing damage."
+      },
+      {
+        "name": "Tail.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: (2d8 + 10) bludgeoning damage."
+      },
+      {
+        "name": "Fightful Presence.",
+        "text": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+      },
+      {
+        "name": "Fire Breath (Recharge 5-6).",
+        "text": "The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
+      }
+    ],
+    "legendary": [
+      {
+        "name": "description",
+        "text": "Ancient Red Dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Ancient Red Dragon regains spent legendary actions at the start of their turn."
+      },
+      {
+        "name": "Detect.",
+        "text": "The dragon makes a Wisdom (Perception) check."
+      },
+      {
+        "name": "Tail Attack.",
+        "text": "The dragon makes a tail attack."
+      },
+      {
+        "name": "Wing Attack (Costs 2 Actions).",
+        "text": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+      }
+    ]
+  },
+  "Ithanus": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Ithanus",
+    "nickname": "Ithanus, the Looming Dread",
+    "type": "Dragon",
+    "tags": ["jordonis mountains","ancient red dragon","predator"],
+    "description": [
+      "@+Ithanus+@ (Zera-matoo), sometimes known as the Looming Dread, is a legendary black dragon."
+    ],
+    "articles": {
+      "": [
+        ""
+      ]
+    },
+    "dmArticles": {
+    },
+    "alignment": "chaotic evil",
+    "creatureType": "Gargantuan dragon",
+    "stats": [
+      {"name": "STR", "val": 30},
+      {"name": "DEX", "val": 10},
+      {"name": "CON", "val": 29},
+      {"name": "INT", "val": 18},
+      {"name": "WIS", "val": 15},
+      {"name": "CHA", "val": 23}
+    ],
+    "savingThrows": "Dex +7, Con +16, Wis +9, Cha +13",
+    "skills": "Perception +16, Stealth +7",
+    "passiveWisdom": 26,
+    "armor": "22 (Natural Armor)",
+    "hitPoint": 546,
+    "hitDie": "28d20+252",
+    "speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "damageImmunities": "Fire",
+    "senses": "Blindsight 60 Ft., Darkvision 120 Ft.",
+    "languages": "Common, Draconic",
+    "challenge": "24",
+    "abilities": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "text": "If Crozemgax fails a saving throw, it can choose to succeed instead."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "Crozemgax can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+      },
+      {
+        "name": "Bite.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: (2d10 + 10) piercing damage plus (4d6)fire damage."
+      },
+      {
+        "name": "Claw.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: (2d6 + 10) slashing damage."
+      },
+      {
+        "name": "Tail.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: (2d8 + 10) bludgeoning damage."
+      },
+      {
+        "name": "Fightful Presence.",
+        "text": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+      },
+      {
+        "name": "Fire Breath (Recharge 5-6).",
+        "text": "The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
+      }
+    ],
+    "legendary": [
+      {
+        "name": "description",
+        "text": "Ancient Red Dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Ancient Red Dragon regains spent legendary actions at the start of their turn."
+      },
+      {
+        "name": "Detect.",
+        "text": "The dragon makes a Wisdom (Perception) check."
+      },
+      {
+        "name": "Tail Attack.",
+        "text": "The dragon makes a tail attack."
+      },
+      {
+        "name": "Wing Attack (Costs 2 Actions).",
+        "text": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+      }
+    ]
+  },
+  "Void-Horror": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Void Horror",
+    "nickname": "Void Horror",
+    "type": "Aberration",
+    "tags": ["shadowfell","aberration","predator"],
+    "description": [
+      "@+Void Horrors+@ are horrible, twisted monstrosities that stalk the shadow plane beyond the veil of the mortal world."
+    ],
+    "articles": {
+      "Night Stalkers": [
+        "."
+      ]
+    },
+    "dmArticles": {
+    },
+    "alignment": "chaotic evil",
+    "creatureType": "Huge aberration",
+    "stats": [
+      {"name": "STR", "val": 20},
+      {"name": "DEX", "val": 10},
+      {"name": "CON", "val": 18},
+      {"name": "INT", "val": 16},
+      {"name": "WIS", "val": 13},
+      {"name": "CHA", "val": 14}
+    ],
+    "savingThrows": "Str +9, Dex +4, Con +8, Int +7, Wis +5, Cha +6",
+    "conditionImmunities": "Frightened, Unconscious",
+    "skills": "Perception +9, Stealth +4",
+    "passiveWisdom": 11,
+    "armor": "17 (Natural Armor)",
+    "hitPoint": 148,
+    "hitDie": "16d10+64",
+    "speed": "40 ft., burrow 20 ft., fly 80 ft.",
+    "senses": "Blindsight 30 ft., Darkvision 120 ft.",
+    "languages": "Deep Speech, Draconic, telepathy 120 ft.",
+    "challenge": "9",
+    "abilities": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "text": "If the void horror fails a saving throw, it can choose to succeed instead."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "The void horror makes two attacks: one with its tentacles and one with its claws."
+      },
+      {
+        "name": "Tentacles.",
+        "text": "Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage plus 13 (3d6 + 3) psychic damage."
+      },
+      {
+        "name": "Claw.",
+        "text": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 23 (4d8 + 5) slashing damage."
+      },
+      {
+        "name": "Tail.",
+        "text": "Melee Weapon Attack: +7 to hit, reach 20 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage."
+      },
+      {
+        "name": "Wave of Despair (Recharge 4-6).",
+        "text": "The void horror emits a psychic wave of despair in a 60-foot cube. Each creature in that area must make a DC 16 Constitution saving throw. On a failed save, a creature takes 28 (8d6) psychic damage and suffers 1 level of exhaustion. On a successful save, it takes half damage."
+      }
+    ],
+    "legendary": [
+      {
+        "name": "description",
+        "text": "The void horror can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The void horror regains spent legendary actions at the start of their turn."
+      },
+      {
+        "name": "Detect.",
+        "text": "The void horror makes a Wisdom (Perception) check."
+      },
+      {
+        "name": "Tail Attack.",
+        "text": "The void horror makes a tail attack."
+      },
+      {
+        "name": "Eyes in the Dark.",
+        "text": "The void horror trains all of its innumerable eyes upon a creature it can see within 60 feet. The target must make a DC 16 Wisdom saving throw or take 12 (3d8) necrotic damage and become frightened until the end of the void horror's next turn. While frightened in this way, the creature is also paralyzed. If the target's saving throw is successful, the target is immune to the void horror's Eyes in the Dark for the next 24 hours."
       }
     ]
   }

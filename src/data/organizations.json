@@ -440,5 +440,34 @@
     ],
     "articles": {
     }
+  },
+  "Council-of-the-Withered-King": {
+    "playerKnown": false,
+    "name": "Council of the Withered King",
+    "nickname": "Council of the Withered King",
+    "tags": ["Istagen","ulfwyst","wizards"],
+    "type": "Magic Order",
+    "location": "Kingdom of Istagen",
+    "leaders": [
+      "Shulxaa the Withered King"
+    ],
+    "description": [
+      "The @+Council of the Withered King+@ was a group of liches that were subservient to Shulxaa, the Withered King."
+    ],
+    "articles": {
+    }
+  },
+  "Monks-of-the-Emerald-Wind": {
+    "playerKnown": false,
+    "name": "Monks of the Emerald Wind",
+    "nickname": "Order of the Emerald Wind",
+    "tags": ["Koraxxon","monks"],
+    "type": "Monastic Order",
+    "location": "Western Koraxxon",
+    "description": [
+      "The @+Order of the Emerald Wind+@ is an order of monks who maintain a series of hidden monasteries in the Crimson Mist Mountains and defend the region from outside influences."
+    ],
+    "articles": {
+    }
   }
 }

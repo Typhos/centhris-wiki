@@ -106,14 +106,14 @@ class Organization extends Component {
 
   getArticles(articles) {
     const group = this.state.group;
-    let content = [WikiUtils.linkContent(group, group.description)];
+    let content = [WikiUtils.linkContent(group, WikiUtils.textFormatting( group.description ) )];
 
     if (group.articles) {
       for ( let [heading, array] of Object.entries(articles) ) {
         content.push(
           <React.Fragment key={heading}>
             <h3 className="subjectArea">{heading}</h3>
-            {WikiUtils.linkContent(group, array)}
+            {WikiUtils.linkContent(group, WikiUtils.textFormatting( array ))}
           </React.Fragment>
         );
       }
@@ -125,7 +125,7 @@ class Organization extends Component {
         content.push(
           <React.Fragment key={heading}>
             <h3 className="subjectArea">{heading}</h3>
-            {WikiUtils.linkContent(group, array)}
+            {WikiUtils.linkContent(group, WikiUtils.textFormatting( array ))}
           </React.Fragment>
         );
       }

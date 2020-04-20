@@ -38,7 +38,7 @@
         "@#Taverns#@",
         "Tavern: @*The Tilted Mast.*@ Run by @+Terryn+@, the half-elf. Older, with copper skin, long, tied back auburn hair & green eyes. He has an obvious prisoner's brand on this chest. Trades in rumors for coin.",
         "Tavern: @*Crimson Cuttlass.*@ Run by @+\"Two-Shots\" Alice+@, a large, older, dark skinned woman with long crown rows and brown eyes. She is covered in piercings. Former pirate captain who retired years ago. Has a special officers only section of the bar on a slight rise near the bar.",
-        "Brothel: @*Maybell's Bordello.*@",
+        "Brothel: @*Maybell's Bordello.*@ Jenneve the Receptionist & Morgan the Bartender",
         "@#Shops#@",
         "@+Shipwright+@: \"One-eye\" Hrend, half-orc sculptor who specializes exclusively in wood carvings of beasts, often hired to decorate or \"improve\" the ship's figure head.",
         "@+Shipwright+@: Capris & Flint, human shipwrights who specialize in repairs and non-standard maintenance.",
@@ -65,7 +65,7 @@
   },
   "Wexin": {
     "playerKnown": true,
-    "tags": ["town","Lemuria","ulfwyst","Telarion Elentiir"],
+    "tags": ["town","Cibrin","ulfwyst"],
     "name": "Wexin",
     "nickname": "Wexin",
     "linkingWords": [],
@@ -77,6 +77,22 @@
     "leaders": ["Darga Nagrosh of Clan Thosh"],
     "description": [
       "@+Wexin+@ is a town near the border between Cibrin and the Theocracy of Tovanis."
+    ]
+  },
+  "Edremit": {
+    "playerKnown": true,
+    "tags": ["town","Lemuria","ulfwyst"],
+    "name": "Edremit",
+    "nickname": "Edremit",
+    "linkingWords": [],
+    "type": "Town",
+    "population": "850",
+    "races": ["human","dwarf","uklang","half-orc","half-giant"],
+    "government": "Clan Council",
+    "location": "Realm of Lemuria",
+    "leaders": [""],
+    "description": [
+      "@+Edremit+@ is a town near the border between Lemuria and the Archduchy of Zurast."
     ]
   }
 }
