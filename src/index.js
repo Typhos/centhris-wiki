@@ -15,6 +15,7 @@ import {History} from './pages/articles/history/index';
 import {Location} from './pages/articles/location/index';
 import {Lore} from './pages/articles/lore/index';
 import {LoreCategories} from './pages/categories/lore/index';
+import {InteractiveMap} from './pages/articles/map/index';
 import {MiscellaneousCategories} from './pages/categories/misc/index';
 import {Organization} from './pages/articles/organization/index';
 import {OrganizationGroups} from './pages/categories/organizations/index';
@@ -85,6 +86,7 @@ const routing = (
         <Route path="/location" component={Location} />
         <Route path="/lore/" component={Lore} />
         <Route path="/loreCategories" component={LoreCategories} />
+        <Route path="/map" component={InteractiveMap} />
         <Route path="/miscCategories" component={MiscellaneousCategories} />
         <Route path="/group" component={Organization} />
         <Route path="/organizations" component={OrganizationGroups} />
