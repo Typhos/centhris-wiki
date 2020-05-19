@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "Keeps",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "id": null, "name": "Auburn Castle", "info": "A keep near the south-west border of Navolin, Auburn Castle is the ancestral home of the halfling Montajay family." }, "geometry": { "type": "Point", "coordinates": [ 33.496999723906136, -8.754379249163449 ] } }
-]
-}
