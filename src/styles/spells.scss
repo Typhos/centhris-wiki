@@ -1,0 +1,54 @@
+@import "./mixins";
+
+#spell {
+
+  .info {
+    &.big {
+      .values {
+        font-size: 1.5em;
+      }
+    }
+
+    .green {
+      color: $moodGreen;
+    }
+  }
+
+
+  p {
+    text-indent: 0;
+    font-size: 0.85rem;
+    line-height: 1.33em;
+
+    &.demiList {
+      margin: 0;
+    }
+  }
+
+  span.colorize {
+    // border-bottom: 1px dashed $dndGreen;
+    color: $dndGreen;
+  }
+
+  figure.imgBox {
+    border-top: 1px solid $blueLight;
+    border-bottom: 1px solid $blueLight;
+    width: 100%;
+    margin: 0;
+  }
+
+  img.spellSchool {
+    display: block;
+    max-width: 75px;
+    border: 0;
+    margin: 1em auto;
+  }
+
+  .mainContent {
+    p.linkedContent {
+      margin-bottom: 1em;
+      line-height: 1.75em;
+    }
+  }
+
+}

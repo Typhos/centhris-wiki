@@ -1,0 +1,49 @@
+{ 
+  "Salty-Ferret": {
+    "playerKnown": true,
+    "name": "Salty Ferret",
+    "nickname": "Salty Ferret",
+    "type": "Ship",
+    "tags": ["ship","smuggler","barrier coast","captain niko"],
+    "class": "Brig",
+    "speed": "6 knots (7 mph)",
+    "crew": [],
+    "description": [
+      "The @+Salty Ferret+@ is a Brig-class sailing ship captained by Nikodim Tifafi Zihan Pilkozz."
+    ],
+    "articles": {
+      "Specifications": [
+        "As a Brig-class ship, the Salty Ferret has two square rigged masts (fore and main). The main mast of a brig is the aft one. To improve maneuverability, the mainmast carries a small (gaff rigged) fore-and-aft sail. The brig's foremast is smaller than the main mast.",
+        "The Salty Ferret has a length of 120 ft and is armed with six 12-pound guns. The Salty Ferret had a crew of roughly 20, though the ship can be sailed with a crew of 10-12 experienced sailors."
+      ],
+      "Voyages": [
+        "While staying in Volikgrad, Shiavalae Amarathar hired @;Captain Niko;@ to transport herself, Khazar Thul, Uster and the Lost Shields to the city of Rakenburg.",
+        "The ship left @;Volikgrad;@ in early Dusvar, on a course along the barrier coast towards @;Rakenburg;@. After a salvage mission gone awry, the captain and the adventurers battled an Icebrine Serpent. The battle resulted in significant damage to the port side hull of the ship, due to an errant cannon shot from Erlinder Bluefield.",
+        "@;Following the battle, the Lost Shields grew even more suspicious, due to Erlinder's knowledge of the serpent's diet. Unknown to the captain, Erlinder transformed into a spider and searched the ship, discovering that the captain and his crew were smuggling 20 blue dragon eggs, and were using the transport of passengers as cover.;@",
+        "@;Following their successful arrival in Rakenburg, the captain offered his interest in providing further transportation services to the Lost Shields if they required it.;@"
+      ]
+    }
+  },
+  "The-Sidon": {
+    "playerKnown": true,
+    "name": "The Sidon",
+    "nickname": "The Sidon",
+    "type": "Ship",
+    "tags": ["ship","smuggler","barrier coast","captain niko"],
+    "class": "Sloop",
+    "speed": "8.5 knots (10 mph)",
+    "crew": [],
+    "description": [
+      "@+The Sidon+@ is a Sloop-class sailing ship captained by Mahdi Jamshidi. The ship's home port is the pirate haven of Duskreef in the Nakali Isles."
+    ],
+    "articles": {
+      "Specifications": [
+        "As a Sloop-class ship, the Sidon has a single mast which is fore-and-aft rigged with one jib (staysail) before the mast. If the wind was favorable, a square topsail could be hoisted to give her a top speed that can, on occasion, exceed 11 knots.",
+        "The Sidon has a length of 85 ft and has 3 decks - the surface deck, the hold, and the bilge. The ship is armed with twelve 9-pound guns, which the experienced crew is able to fire roughly twice every three minutes. The Sidon has a crew of roughly 55, though the ship can be sailed with a much smaller crew of 8 experienced sailors."
+      ],
+      "Voyage to Duskreef": [
+        "After reaching the port city of Venbrin and removing the bonds of servitude placed upon them by Akad the Magnificent, the Lost Shields decided to venture further north to the Nakali Isles in search of Kongir Temple."
+      ]
+    }
+  }
+}

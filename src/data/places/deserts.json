@@ -1,0 +1,51 @@
+{
+  "Ur'shiid-Desert": {
+    "playerKnown": false,
+    "tags": ["desert","region","ulfwyst"],
+    "name": "Ur'shiid Desert",
+    "nickname": "Dunes of Ur'shiid",
+    "type": "Desert",
+    "location": "Ulfwyst",
+    "description": [
+      "The Ur'shiid Desert is a vast, hot desert located in central Ulfwyst. It is the largest desert in Ulfwyst and one of the largest deserts on Centhris. The region is mostly considered part of the Kingdom of Abbasyr, though due to the hostile nature of the environment it is difficult exert direct control over those living in the deepest reaches of the wastes."
+    ]
+  },
+  "Dune-Sea-of-Manar": {
+    "playerKnown": false,
+    "tags": ["desert","region","ulfwyst"],
+    "name": "Dune Sea of Manar",
+    "nickname": "Manar Dunes",
+    "type": "Desert",
+    "location": "Cunascus",
+    "description": [
+      "The Dune Sea of Manar is a large peninsula in northwest Cunascus and one of the largest deserts on Centhris. Once a verdant jungle, much of the topography that made up the landscape was irrevocably altered during the Ruination of Centhris and the land became nearly uninhabitable."
+    ]
+  },
+  "Desolate-Wastes": {
+    "playerKnown": false,
+    "tags": ["desert","region","ulfwyst"],
+    "name": "Desolate Wastes",
+    "nickname": "Desolate Wastes",
+    "linkingWords": ["Lake Droknog"],
+    "type": "Desert",
+    "location": "Ulfwyst",
+    "description": [
+      "The Desolate Wastes are a region of arid badlands in central Ulfwyst. The wastes are located east of the Pillars of Amud, and west of the Kelishan Highlands. They act as a natural northern border to the Theocracy of Tovanis, and a southern border to the Ildroun Vale. On the eastern end of the wastes sits the Crimson Loch to the north and Lake Droknog to the south, near the Eye of Vel'dorin."
+    ],
+    "dmArticles": {
+      "History": [
+        "The Desolate Wastes is a region with a cyclical pattern, alternating between a verdant grassland and a parched, broken badland. This cycle generally shifts every ten to twenty thousand years, with the next shift likely to occur in another six thousand years from now. The previous cyclical change was accelerated by the First Convergence, which saw a great number of fire and wind elementals descend upon the region. The presence of the elementals, and their ensuing battles over the region, dried the region and had lasting impact on Lake Droknog.",
+        "@#Lake Droknog, the Silt Sea#@",
+        "@+Lake Droknog+@ is a large, barren lake bed on the south eastern end of the Desolate Wastes, north of Tovanis. It was, at one time, a large, fresh water lake, that was fed by numerous underground wells. During the @;First Convergence;@ several massive, lengthy conflicts between the fire and earth elementals that found their way into the region resulted in the seemingly permanent destruction of the aquifers and wellsprings that fed the lake.",
+        "The earth elements, which were largely made of alkaline mineral deposits, also polluted the lake bed unintentionally during the conflict. As the battles raged and numerous earth elementals were destroyed in the area, their bodies, filled with salt and stone, were scattered across the lake, slowly turning the fresh water of the lake to salt water. This shift in the mineral composition of the lake, along with the extensive damage to the wellsprings that fed it slowly drained the lake and leaving it in the current, barren state.",
+        "Today, Lake Droknog is a parched, sterile basin of loose rock, clay and large blocks of crystalline salt deposits which emerge from the dry lake bed like spines of a great, long-dead beast."
+      ],
+      "Climate": [
+        "The Desolate Wastes are a natural desert created by the weather patterns in Ulfwyst. Located centrally, they receive no moisture off of the Mare Concordis or the Venngar Sea. The air currents in central @;Ulfwyst;@ move west to east, which results in most moisture from clouds passing through the region deposits to the east of the Pillars of Amud, or on the mountain range itself, leaving the area east of the peaks almost devoid of rainfall. ",
+        "@#Flora & Fauna#@",
+        "Though the region is an arid wasteland with little potential for agriculture, the Desolate Wastes still holds a vibrant and diverse ecosystem of strange and wondrous inhabitants. Dry grasses, various species of strange shrubs and cacti all dot the landscape, subsisting on the extremely rare rainfall that reaches the region.",
+        "Animal life can be found across the desert as well, with all manner of birds, lizards, insects and small rodents making the dry, craggy outcroppings of rock, and numerous ravines their home. The region is also home to small bands of orcs, goblins and other, even more bestial creatures. Occasionally, during especially dry or barren years in the wastes, some tribes will take to raiding settlements that border the region in order to scavenge supplies before scurrying back into their hostile homeland before retaliation can be made."
+      ]
+    }
+  }
+}

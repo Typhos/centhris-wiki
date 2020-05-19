@@ -1,0 +1,701 @@
+{
+  "Gradiorus-Golem": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "showStatBlock": true,
+    "name": "Gradiorus Golem",
+    "nickname": "Gradiorus",
+    "type": "Construct",
+    "tags": ["construct","golem","arcane","magical"],
+    "imgFolder": "creatures",
+    "affiliations": ["Rakenburg","Specula Arcanum"],
+    "description": [
+      "Gradiorus Golems are arcane constructs that safeguard the city of Rakenburg. The golems stand roughly 9 feet tall and weight upwards of 400 kg (900 lbs). The golems outer hull is made of a magically-infused iron, while the inside contains numerous magical seals, mechanisms and foci to help power and control the construct.",
+      "When activated, the golems give off a faint violet glow from the inside as the magical energy that tethers their limbs to the core dances and sparks."
+    ],
+    "articles": {
+      "Sentinels of the Specula Arcanum": [
+        "The golems serve the city of Rakenburg as arcane sentinels as part of the Specula Arcanum, the Rakenburg guild responsible for the protection of the city. The Specs operate in small patrol teams and it is common for a single iron golem to accompany each team. Each team's golem is controlled by the patrol leader, who is given a magical device that lets them command the golem vocally. Should the squad become incapacitated, the Gradiorus can be controlled by the guild remotely in order to prevent hostile actors from taking control of one of the city's most powerful defensive tools."
+      ]
+    },
+    "dmArticles": {
+      "Relics of a Forgotten Age": [
+        "The Gradiorus Golems are reclaimed arcane technology of the Utharian Empire, first discovered in the Twisting Warrens by the settlers who reclaimed Rakenburg hundreds of years ago. Eskra Gradiorus, the tiefling artificer, was the first to take an interest in the constructs and through extensive research and reverse-engineering, she was able to activate and reprogram the golems to serve the city."
+      ]
+    },
+    "alignment": "Unaligned",
+    "creatureType": "Large Construct",
+    "stats": [
+      {"name": "STR", "val": 24},
+      {"name": "DEX", "val": 9},
+      {"name": "CON", "val": 20},
+      {"name": "INT", "val": 3},
+      {"name": "WIS", "val": 11},
+      {"name": "CHA", "val": 1}
+    ],
+    "skills": "",
+    "passiveWisdom": 10,
+    "savingThrows": "",
+    "armor": 18,
+    "hitPoint": 140,
+    "hitDie": "22d8+41",
+    "damageResistances": "Bludgeoning, Piercing, and Slashing From Nonmagical Attacks",
+    "damageImmunities": "Fire, Poison, Psychic",
+    "conditionImmunities": "Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned",
+    "senses": "Darkvision 120 ft.",
+    "speed": "20 ft.",
+    "languages": "Understands the languages of its creator and can respond with information from the Arcanum archives",
+    "challenge": "7",
+    "abilities": [
+      {
+        "name": "Illumination.",
+        "text": "A Gradiorus Golem sheds dim, purple light in a 10-foot radius."
+      },
+      {
+        "name": "Magic Resistance.",
+        "text": "The golem has advantage on Saving Throws against Spells and other magical Effects."
+      },
+      {
+        "name": "Immutable Form.",
+        "text": "The golem is immune to any spell or effect that would alter its form."
+      },
+      {
+        "name": "Magic Weapons.",
+        "text": "The golem's weapon attacks are magical."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "A golem makes two melee attacks."
+      },
+      {
+        "name": "Slam.",
+        "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (1d8 + 7) bludgeoning damage."
+      },
+      {
+        "name": "Suppression Pulse (Recharge 5-6)",
+        "text": "The golem unleashes a pulse of arcane, electrical energy in a 15-foot radius centered on itself. Each creature in that area must make a DC 15 Constitution saving throw, taking 22 (5d8) lightning damage on a failed save, or half as much damage on a successful one."
+      }
+    ]
+  },
+  "Icebrine-Serpent": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "showStatBlock": true,
+    "name": "Icebrine Serpent",
+    "nickname": "Icebrine Serpent",
+    "type": "Dragon",
+    "tags": ["venngar sea","ocean","sea serpent","predator","dragon"],
+    "description": [
+      "Native to the Venngar Sea, Icebrine Serpents are a species of aggressive, deep sea predators. These aquatic dragons are covered in large, hard scales that range from deep blue to pale green. They have a single pair of clawed arms a third of the way down their body that end in three razor-sharp talons. They feel most at home among the ice flows and icebergs of the frigid, arctic oceans of Centhris.",
+      "Icebrine Serpents hold a legendary reputation among the cold-water seafaring nations of the world, such as Cibrin, Lemuria and Talhurst. Many sailors tell harrowing tales of horrific monsters that stalk ships for days, waiting for an opportune moment to strike, such as rough seas or a sudden maelstrom. When an Icebrine Serpent strikes, it will attempt to break a ship's hull with its jaws and claws, blast sailors from the deck with a jet of briny water, or knock sailors overboard with its tail."
+    ],
+    "articles": {
+      "Legendary Beasts of the Frozen Sea": [
+        "Icebrine Serpents have been the subject of skalds' poems and songs for millenia. Numerous tales of mythic heroes, such as the legendary Lemurian hero Stolkar Wyrmbreaker, involve battles with a serpent. Such is the reputation of these beasts that their true nature and capabilities have been lost among the uneducated masses. Common folk will regularly attribute abilities or supernatural powers to Icebrine Serpents that they are not capable of, simply out of ignorance or the increasing tall tales of a local tavern."
+      ]
+    },
+    "dmArticles": {
+      "": [
+        ""
+      ]
+    },
+    "alignment": "Neutral Evil",
+    "creatureType": "Huge Dragon",
+    "stats": [
+      {"name": "STR", "val": 21},
+      {"name": "DEX", "val": 15},
+      {"name": "CON", "val": 18},
+      {"name": "INT", "val": 7},
+      {"name": "WIS", "val": 13},
+      {"name": "CHA", "val": 14}
+    ],
+    "savingThrows": "Str +9, Dex +6, Con +8",
+    "skills": "Athletics +9, Perception +5",
+    "passiveWisdom": 10,
+    "armor": "15 (natural armor)",
+    "hitPoint": 118,
+    "hitDie": "10d12+46",
+    "speed": "30 ft., swim 60ft.",
+    "damageResistances": "Fire",
+    "damageVulnerabilities": "Lightning",
+    "damageImmunities": "Cold",
+    "conditionImmunities": "Paralyzed, Prone, Stun, Unconscious",
+    "senses": "Darkvision 60 ft.",
+    "languages": "Aquan, Draconic",
+    "challenge": "8",
+    "abilities": [
+      {
+        "name": "Icy Barbs",
+        "text": "The entire body of an Icebrine Serpent is covered in small, jagged shards of ice which protrude from the monster's scales. Any creature that begins its turn within 5 feet of the Icebrine Serpent takes 1d6+2 points of cold damage."
+      },
+      {
+        "name": "Coiling Maneuver.",
+        "text": "When the Icebrine Serpent is hit with an attack in melee, it may attempt to grapple the attacker. The target must make a DC 15 Strength saving throw or be grappled."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "A Icebrine Serpent attacks once with its tail and either bites or uses its Brine Blast."
+      },
+      {
+        "name": "Bite.",
+        "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (1d10+5) piercing damage plus 7 (2d6) cold damage. The target of the bite attack must make a DC 15 Strength saving throw or be grappled and restrained. If the target is already grappled by a previous bite attack, the target may may still make another save to attempt to break the grapple."
+      },
+      {
+        "name": "Tail Slap.",
+        "text": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 11 (2d6+4) bludgeoning damage. A target hit by a tail slap is pushed 10 feet away from the Icebrine Serpent."
+      },
+      {
+        "name": "Throw.",
+        "text": "If the Icebrine Serpent has a creature grappled from a Bite attack or from its Coiling Maneuver, it may throw the target. The throw may target another creature within 30 ft. The target must succeed a DC 14 Dexterity save or suffer 10 (3d6) bludgeoning damage. The thrown target automatically suffers 10 (3d6) damage."
+      },
+      {
+        "name": "Brine Blast (recharge 6).",
+        "text": "The Icebrine Serpent opens its massive jaws and sends forth an blast of chilled sea water. All creatures in a 25 ft. cone must succeed on a DC 15 Dex save or suffer 5d8 Cold damage. Any target that succeeds its save takes half damage."
+      }
+    ]
+  },
+  "Lurking-Abomination": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "showStatBlock": true,
+    "name": "Lurking Abomination",
+    "nickname": "Lurking Abomination",
+    "type": "Undead",
+    "tags": ["undead","construct","dark spirits"],
+    "description": [
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    },
+    "alignment": "Chaotic Evil",
+    "creatureType": "Large Undead",
+    "stats": [
+      {"name": "STR", "val": 16},
+      {"name": "DEX", "val": 15},
+      {"name": "CON", "val": 15},
+      {"name": "INT", "val": 9},
+      {"name": "WIS", "val": 11},
+      {"name": "CHA", "val": 11}
+    ],
+    "savingThrows": "Str +5, Con +4, Wis +2",
+    "passiveWisdom": 10,
+    "armor": "16 (natural armor)",
+    "hitPoint": 74,
+    "hitDie": "14d8+18",
+    "speed": "30 ft., climb 30 ft.",
+    "damageResistances": "Cold; Piercing and Slashing from Nonmagical Attacks that aren't Silvered",
+    "damageVulnerabilities": "",
+    "damageImmunities": "Necrotic, Poison",
+    "conditionImmunities": "Poisoned",
+    "senses": "Darkvision 120 ft.",
+    "languages": "Those it knew in life, but cannot speak.",
+    "challenge": "3",
+    "abilities": [
+      {
+        "name": "Abomination's Sight",
+        "text": "Magical darkness does not impede the abomination's darkvision."
+      },
+      {
+        "name": "Magic Resistance.",
+        "text": "The abomination has advantage on saving throws against spells and other magical effects."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "A Lurking Abomination makes two attacks: one with its claw and one with its hook."
+      },
+      {
+        "name": "Sickening Claw.",
+        "text": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage. The target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target cannot regain hit points. The target can repeat the saving throw at the end of its turns, ending the poison effect on a success."
+      },
+      {
+        "name": "Grisly Hook.",
+        "text": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10+3) slashing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 12 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to an festering wound. Each time the abomination hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing."
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Shamble.",
+        "text": "The abomination moves 10 ft in a line. Any creature it moves through must make a DC 12 Dexterity saving throw or lose 5 (1d4+3) hit points."
+      },
+      {
+        "name": "Engulf.",
+        "text": "The abomination attempts to place a creature inside its form. The target must make a DC 12 Dexterity saving throw or become restrained inside the abomination. A creature that begins its turn inside the abomination takes 8 (2d8) necrotic damage."
+      }
+    ],
+    "reactions": [
+      {
+        "name": "Consume.",
+        "text": "When a creature enters melee with the abomination and no other creature is inside it, the abomination can attempt to use Engulf on it."
+      },
+      {
+        "name": "Ghostly Wail.",
+        "text": "When struck in melee, the abomination may release a haunting lament. Any creature within 15ft of the abomination must make a DC 12 Wisdom saving throw or become frightened."
+      }
+    ],
+    "villainActions": [
+      {
+        "order": "1. ",
+        "name": "Emerge.",
+        "text": "An abomination forms with a whirling torrent of bones. Anyone within 10ft of a bone pile must succeed on a DC 12 Dexterity saving throw or be knocked prone."
+      },
+      {
+        "order": "2. ",
+        "name": "Call Spirits.",
+        "text": "An abomination calls upon the spirits of the restless dead who haunt the piles of bone nearby. If the Lurking Abomination begins or ends its turn within 10 ft of a pile of bone, spirits fly through the abomination, healing it for 2d8 hit points and causing ranged attacks to have disadvantage."
+      },
+      {
+        "order": "3. ",
+        "name": "Whirling Death.",
+        "text": "When surrounded, an abomination uses it’s jagged body as a weapon, swinging around in a torrent of razor-sharp bone. All creatures within 10 feet of the Lurking Abomination must make a DC 14 Dexterity saving throw or take 2d8 slashing damage. Half damage on a successful save."
+      },
+      {
+        "order": "(Death) ",
+        "name": "Spirit Nova.",
+        "text": "As an abomination is destroyed, it releases an explosion of necrotic energy as the malign magics that kept it bound to this place burst forth. Anyone within 20 ft must succeed a DC 12 Dexterity saving throw or take 2d6 necrotic damage. Half damage on successful save."
+      }
+    ]
+  },
+  "Magma-Behemoth": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Magma Behemoth",
+    "nickname": "Magma Behemoth",
+    "type": "Elemental",
+    "tags": ["elemental","giant"],
+    "description": [
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    },
+    "alignment": "Neutral Evil",
+    "creatureType": "Huge Elemental",
+    "stats": [
+      {"name": "STR", "val": 21},
+      {"name": "DEX", "val": 15},
+      {"name": "CON", "val": 18},
+      {"name": "INT", "val": 7},
+      {"name": "WIS", "val": 13},
+      {"name": "CHA", "val": 14}
+    ],
+    "savingThrows": "Str +9, Dex +6, Con +8",
+    "skills": "Athletics +9, Perception +5",
+    "passiveWisdom": 10,
+    "armor": "15 (natural armor)",
+    "hitPoint": 118,
+    "hitDie": "10d12+46",
+    "speed": "30 ft., swim 60ft.",
+    "damageResistances": "Fire",
+    "damageVulnerabilities": "Lightning",
+    "damageImmunities": "Cold",
+    "conditionImmunities": "Paralyzed, Prone, Stun, Unconscious",
+    "senses": "Darkvision 60 ft.",
+    "languages": "Aquan, Draconic",
+    "challenge": "8",
+    "abilities": [
+      {
+        "name": "Icy Barbs",
+        "text": "The entire body of an Icebrine Serpent is covered in small, jagged shards of ice which protrude from the monster's scales. Any creature that begins its turn within 5 feet of the Icebrine Serpent takes 1d6+2 points of cold damage."
+      },
+      {
+        "name": "Coiling Maneuver.",
+        "text": "When the Icebrine Serpent is hit with an attack in melee, it may attempt to grapple the attacker. The target must make a DC 15 Strength saving throw or be grappled."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "A Icebrine Serpent attacks once with its tail and either bites or uses its Brine Blast."
+      },
+      {
+        "name": "Bite.",
+        "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (1d10+5) piercing damage plus 7 (2d6) cold damage. The target of the bite attack must make a DC 15 Strength saving throw or be grappled and restrained. If the target is already grappled by a previous bite attack, the target may may still make another save to attempt to break the grapple."
+      },
+      {
+        "name": "Tail Slap.",
+        "text": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 11 (2d6+4) bludgeoning damage. A target hit by a tail slap is pushed 10 feet away from the Icebrine Serpent."
+      },
+      {
+        "name": "Throw.",
+        "text": "If the Icebrine Serpent has a creature grappled from a Bite attack or from its Coiling Maneuver, it may throw the target. The throw may target another creature within 30 ft. The target must succeed a DC 14 Dexterity save or suffer 10 (3d6) bludgeoning damage. The thrown target automatically suffers 10 (3d6) damage."
+      },
+      {
+        "name": "Brine Blast (recharge 6).",
+        "text": "The Icebrine Serpent opens its massive jaws and sends forth an blast of chilled sea water. All creatures in a 25 ft. cone must succeed on a DC 15 Dex save or suffer 5d8 Cold damage. Any target that succeeds its save takes half damage."
+      }
+    ]
+  },
+  "Crozemgax": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Crozemgax",
+    "nickname": "Crozemgax, the Lord of Ash",
+    "type": "Dragon",
+    "tags": ["jordonis mountains","ancient red dragon","predator"],
+    "description": [
+      "@+Crozemgax+@ (crow-ZEM-gax), the Lord of Ash, was a legendary, ancient red dragon that, in the centuries following the Ruination of Centhris, slowly became the tyrannical ruler of a huge area in the shadow of the northern Jordonis Mountains. The dragon, which matured and rose to power in the chaotic vacuum of the post-Ruination era, was able to carved out an extensive domain in the shadow of Ashspire Peak following the Utharian Empire's destruction."
+    ],
+    "articles": {
+      "Demesne of Cinders": [
+        "Crozemgax is theorized to have been part of a clutch of eggs birthed several hundred years after the @;Ruination of Centhris;@ by another dragon of legend, Zethostria the Voidfury. According to followers of the Crozemgax, the wyrm was the strongest of its clutch and quickly disposed of most of its weaker kin.",
+        "As he grew, the red dragon began to amass followers. At first this only amounted to a small band of kobolds, but over time, the wyrm began to gather other, more powerful subjects. By 2C 1700, Crozemgax, now nearly 900 years old, had claimed dominion over numerous towns, castles and even a dwarven hold. Numerous cults to the red wyrm had formed, with followers of numerous humanoid races. Though some worshiped the dragon out of awe and respect, most did so out of fear for its terrible wrath, which it brought down with little warning when displeased."
+      ],
+      "Assault on Frecyra": [
+        "As the various kingdoms in the Kelishan Highlands, Galren Moor and Tidewrack Coast began to transition from spare, desperate settlements into expansive, complex societies, they slowly began to come into conflict with the red dragon and its followers. At first, the dragon saw this as an amusing attempt by lesser begins to challenge the draconic masters of the Tempus Draconis, but as other great wyrms fell, Crozemgax grew angry.",
+        "In 2C 2130, the red wyrm struck an unexpected blow. Setting out from its lair at Ashspire Peak, the dragon attempted to raze Frecyra, the Fortress City of the Galren Moor, to the ground in a single night. Though the dragon did incredible damage, it was ultimately unsuccessful due to intervention of an organization it had grossly underestimated, the Nost Ezel'nar. The ancient dragon retreated back to its lair to plan its next move."
+      ],
+      "Battle of Ashspire Peak": [
+        "In the aftermath of the sudden aggression of the elder dragon, the leaders of the nearby kingdoms, Azond, Dunfeld, Malstein, Navolin and Vacelin, gathered to determine a course of action. After much debate, the decision was reached to strike directly at the dragon's lair. Thus, the Ashbreaker Coalition was formed.",
+        "As the armies of @;Azond, Dunfeld, Malstein, Navolin, Vacelin;@ and the other, smaller grand duchies and city-states of the region gathered, "
+      ]
+    },
+    "dmArticles": {
+    },
+    "alignment": "chaotic evil",
+    "creatureType": "Gargantuan dragon",
+    "stats": [
+      {"name": "STR", "val": 30},
+      {"name": "DEX", "val": 10},
+      {"name": "CON", "val": 29},
+      {"name": "INT", "val": 18},
+      {"name": "WIS", "val": 15},
+      {"name": "CHA", "val": 23}
+    ],
+    "savingThrows": "Dex +7, Con +16, Wis +9, Cha +13",
+    "skills": "Perception +16, Stealth +7",
+    "passiveWisdom": 26,
+    "armor": "22 (Natural Armor)",
+    "hitPoint": 546,
+    "hitDie": "28d20+252",
+    "speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "damageImmunities": "Fire",
+    "senses": "Blindsight 60 Ft., Darkvision 120 Ft.",
+    "languages": "Common, Draconic",
+    "challenge": "24",
+    "abilities": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "text": "If Crozemgax fails a saving throw, it can choose to succeed instead."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "Crozemgax can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+      },
+      {
+        "name": "Bite.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: (2d10 + 10) piercing damage plus (4d6)fire damage."
+      },
+      {
+        "name": "Claw.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: (2d6 + 10) slashing damage."
+      },
+      {
+        "name": "Tail.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: (2d8 + 10) bludgeoning damage."
+      },
+      {
+        "name": "Fightful Presence.",
+        "text": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+      },
+      {
+        "name": "Fire Breath (Recharge 5-6).",
+        "text": "The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
+      }
+    ],
+    "legendary": [
+      {
+        "name": "description",
+        "text": "Ancient Red Dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Ancient Red Dragon regains spent legendary actions at the start of their turn."
+      },
+      {
+        "name": "Detect.",
+        "text": "The dragon makes a Wisdom (Perception) check."
+      },
+      {
+        "name": "Tail Attack.",
+        "text": "The dragon makes a tail attack."
+      },
+      {
+        "name": "Wing Attack (Costs 2 Actions).",
+        "text": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+      }
+    ]
+  },
+  "Zeradrasa": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Zeradrasa",
+    "nickname": "Zeradrasa, the Gilded Queen",
+    "type": "Dragon",
+    "tags": ["jordonis mountains","ancient red dragon","predator"],
+    "description": [
+      "@+Zeradrasa+@ (Zera-matoo), the Gilded Queen, is a legendary green dragon who resides somewhere in the Drakenwald. Though her domain technically falls inside the Realm of Lemuria, no clan dares to claim this region of the forest for fear of retribution from the Gilded Queen."
+    ],
+    "articles": {
+      "": [
+        ""
+      ]
+    },
+    "dmArticles": {
+    },
+    "alignment": "chaotic evil",
+    "creatureType": "Gargantuan dragon",
+    "stats": [
+      {"name": "STR", "val": 30},
+      {"name": "DEX", "val": 10},
+      {"name": "CON", "val": 29},
+      {"name": "INT", "val": 18},
+      {"name": "WIS", "val": 15},
+      {"name": "CHA", "val": 23}
+    ],
+    "savingThrows": "Dex +7, Con +16, Wis +9, Cha +13",
+    "skills": "Perception +16, Stealth +7",
+    "passiveWisdom": 26,
+    "armor": "22 (Natural Armor)",
+    "hitPoint": 546,
+    "hitDie": "28d20+252",
+    "speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "damageImmunities": "Fire",
+    "senses": "Blindsight 60 Ft., Darkvision 120 Ft.",
+    "languages": "Common, Draconic",
+    "challenge": "24",
+    "abilities": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "text": "If Crozemgax fails a saving throw, it can choose to succeed instead."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "Crozemgax can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+      },
+      {
+        "name": "Bite.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: (2d10 + 10) piercing damage plus (4d6)fire damage."
+      },
+      {
+        "name": "Claw.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: (2d6 + 10) slashing damage."
+      },
+      {
+        "name": "Tail.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: (2d8 + 10) bludgeoning damage."
+      },
+      {
+        "name": "Fightful Presence.",
+        "text": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+      },
+      {
+        "name": "Fire Breath (Recharge 5-6).",
+        "text": "The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
+      }
+    ],
+    "legendary": [
+      {
+        "name": "description",
+        "text": "Ancient Red Dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Ancient Red Dragon regains spent legendary actions at the start of their turn."
+      },
+      {
+        "name": "Detect.",
+        "text": "The dragon makes a Wisdom (Perception) check."
+      },
+      {
+        "name": "Tail Attack.",
+        "text": "The dragon makes a tail attack."
+      },
+      {
+        "name": "Wing Attack (Costs 2 Actions).",
+        "text": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+      }
+    ]
+  },
+  "Ithanus": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Ithanus",
+    "nickname": "Ithanus, the Looming Dread",
+    "type": "Dragon",
+    "tags": ["jordonis mountains","ancient red dragon","predator"],
+    "description": [
+      "@+Ithanus+@ (Zera-matoo), sometimes known as the Looming Dread, is a legendary black dragon."
+    ],
+    "articles": {
+      "": [
+        ""
+      ]
+    },
+    "dmArticles": {
+    },
+    "alignment": "chaotic evil",
+    "creatureType": "Gargantuan dragon",
+    "stats": [
+      {"name": "STR", "val": 30},
+      {"name": "DEX", "val": 10},
+      {"name": "CON", "val": 29},
+      {"name": "INT", "val": 18},
+      {"name": "WIS", "val": 15},
+      {"name": "CHA", "val": 23}
+    ],
+    "savingThrows": "Dex +7, Con +16, Wis +9, Cha +13",
+    "skills": "Perception +16, Stealth +7",
+    "passiveWisdom": 26,
+    "armor": "22 (Natural Armor)",
+    "hitPoint": 546,
+    "hitDie": "28d20+252",
+    "speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "damageImmunities": "Fire",
+    "senses": "Blindsight 60 Ft., Darkvision 120 Ft.",
+    "languages": "Common, Draconic",
+    "challenge": "24",
+    "abilities": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "text": "If Crozemgax fails a saving throw, it can choose to succeed instead."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "Crozemgax can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+      },
+      {
+        "name": "Bite.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: (2d10 + 10) piercing damage plus (4d6)fire damage."
+      },
+      {
+        "name": "Claw.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: (2d6 + 10) slashing damage."
+      },
+      {
+        "name": "Tail.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: (2d8 + 10) bludgeoning damage."
+      },
+      {
+        "name": "Fightful Presence.",
+        "text": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+      },
+      {
+        "name": "Fire Breath (Recharge 5-6).",
+        "text": "The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
+      }
+    ],
+    "legendary": [
+      {
+        "name": "description",
+        "text": "Ancient Red Dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Ancient Red Dragon regains spent legendary actions at the start of their turn."
+      },
+      {
+        "name": "Detect.",
+        "text": "The dragon makes a Wisdom (Perception) check."
+      },
+      {
+        "name": "Tail Attack.",
+        "text": "The dragon makes a tail attack."
+      },
+      {
+        "name": "Wing Attack (Costs 2 Actions).",
+        "text": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+      }
+    ]
+  },
+  "Void-Horror": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Void Horror",
+    "nickname": "Void Horror",
+    "type": "Aberration",
+    "tags": ["shadowfell","aberration","predator"],
+    "description": [
+      "@+Void Horrors+@ are horrible, twisted monstrosities that stalk the shadow plane beyond the veil of the mortal world."
+    ],
+    "articles": {
+      "Night Stalkers": [
+        "."
+      ]
+    },
+    "dmArticles": {
+    },
+    "alignment": "chaotic evil",
+    "creatureType": "Huge aberration",
+    "stats": [
+      {"name": "STR", "val": 20},
+      {"name": "DEX", "val": 10},
+      {"name": "CON", "val": 18},
+      {"name": "INT", "val": 16},
+      {"name": "WIS", "val": 13},
+      {"name": "CHA", "val": 14}
+    ],
+    "savingThrows": "Str +9, Dex +4, Con +8, Int +7, Wis +5, Cha +6",
+    "conditionImmunities": "Frightened, Unconscious",
+    "skills": "Perception +9, Stealth +4",
+    "passiveWisdom": 11,
+    "armor": "17 (Natural Armor)",
+    "hitPoint": 148,
+    "hitDie": "16d10+64",
+    "speed": "40 ft., burrow 20 ft., fly 80 ft.",
+    "senses": "Blindsight 30 ft., Darkvision 120 ft.",
+    "languages": "Deep Speech, Draconic, telepathy 120 ft.",
+    "challenge": "9",
+    "abilities": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "text": "If the void horror fails a saving throw, it can choose to succeed instead."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "The void horror makes two attacks: one with its tentacles and one with its claws."
+      },
+      {
+        "name": "Tentacles.",
+        "text": "Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage plus 13 (3d6 + 3) psychic damage."
+      },
+      {
+        "name": "Claw.",
+        "text": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 23 (4d8 + 5) slashing damage."
+      },
+      {
+        "name": "Tail.",
+        "text": "Melee Weapon Attack: +7 to hit, reach 20 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage."
+      },
+      {
+        "name": "Wave of Despair (Recharge 4-6).",
+        "text": "The void horror emits a psychic wave of despair in a 60-foot cube. Each creature in that area must make a DC 16 Constitution saving throw. On a failed save, a creature takes 28 (8d6) psychic damage and suffers 1 level of exhaustion. On a successful save, it takes half damage."
+      }
+    ],
+    "legendary": [
+      {
+        "name": "description",
+        "text": "The void horror can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The void horror regains spent legendary actions at the start of their turn."
+      },
+      {
+        "name": "Detect.",
+        "text": "The void horror makes a Wisdom (Perception) check."
+      },
+      {
+        "name": "Tail Attack.",
+        "text": "The void horror makes a tail attack."
+      },
+      {
+        "name": "Eyes in the Dark.",
+        "text": "The void horror trains all of its innumerable eyes upon a creature it can see within 60 feet. The target must make a DC 16 Wisdom saving throw or take 12 (3d8) necrotic damage and become frightened until the end of the void horror's next turn. While frightened in this way, the creature is also paralyzed. If the target's saving throw is successful, the target is immune to the void horror's Eyes in the Dark for the next 24 hours."
+      }
+    ]
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "1C-1": {
+    "playerKnown": true,
+    "name": "1C 1",
+    "nickname": "1C 1",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "1C 1 refers to the first year of Centhris during and following the First Convergence."
+    ],
+    "articles": {
+      "Age of the Elemental Lords": [
+        "In 1C 1, the Fire Convergence begins, as Centhris and the Elemental Planes intersect in cosmic alignment. Elementals freely walk the Material Plane without need for planar gates."
+      ]
+    },
+    "timeline": {
+      "era": ["The First Convergence begins."]
+    }
+  },
+  "1C-6752":{
+    "playerKnown": true,
+    "hideDate":true,
+    "name": "1C 6752",
+    "nickname": "1C 6752",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 1C 6752:"
+    ],
+    "articles": {
+      "Banishment of Akad": [
+        "The wizards Menodora & Amabilis banish Akad the Magnificent from the Material Plane, barring his reentry through any interplanar rift."
+      ]
+    },
+    "timeline": {
+      "minor": ["The wizards Menodora & Amabilis banish Akad the Magnificent from the Material Plane."]
+    }
+  },
+  "1C-6500": {
+    "playerKnown": false,
+    "hideDate": true,
+    "name": "1C 6500",
+    "nickname": "1C 6500",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 1C 6500:"
+    ],
+    "articles": {
+      "The Age of Giants Begins": [
+        "With the slow decline of the influence of the Elemental Lords, Giants begin to take control of large swaths of Centhris."
+      ]
+    },
+    "timeline": {
+      "age": ["The Age of Giants begins."]
+    }
+  },
+  "1C-7400":{
+    "playerKnown": true,
+    "hideDate":true,
+    "name": "1C 7400",
+    "nickname": "1C 7400",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 1C 7400:"
+    ],
+    "articles": {
+      "Era of the Primulus Tempus Draconis": [
+        "The era known as the Primulus Tempus Draconis begins around this time."
+      ]
+    },
+    "timeline": {
+      "age": ["The Age of Giants ends.","The Primulus Tempus Draconis begins."]
+    }
+  },
+  "1C-8209":{
+    "playerKnown": true,
+    "hideDate":true,
+    "name": "1C 8209",
+    "nickname": "1C 8209",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 1C 8209:"
+    ],
+    "articles": {
+      "End of an Age": [
+        "The final year of the Era known as the First Convergence. The next year in historical record is referred to as 2C 1, or the first year of the Second Convergence."
+      ]
+    },
+    "timeline": {
+      "era": ["The final year of the Era known as the First Convergence."]
+    }
+  },
+  "2C-1": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 1",
+    "nickname": "2C 1",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "2C 1 refers to the first year of Centhris during and following the Second Convergence, an event which lasted roughly 12 years. The following historical events took place in 2C 1:"
+    ],
+    "articles": {
+      "Arrival of the Eladrin": [
+        "In 2C 1, the first Eladrin stepped foot on Centhris from the realms of the Feywild."
+      ]
+    },
+    "timeline": {
+      "era": ["The Second Convergence begins."]
+    }
+  },
+  "2C-12": {
+    "playerKnown": true,
+    "hideDate": true,
+    "name": "2C 12",
+    "nickname": "2C 12",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 12:"
+    ],
+    "articles": {
+      "Convergence Ends": [
+        "In 2C 12, the Second Convergence comes to a close with the Feywild returning to its natural existence as a mirror plane of the material world."
+      ]
+    },
+    "timeline": {
+      "era": ["The Second Convergence ends."]
+    }
+  },
+  "2C-80": {
+    "playerKnown": true,
+    "hideDate": true,
+    "name": "2C 80",
+    "nickname": "2C 80",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 80:"
+    ],
+    "articles": {
+      "Founding of the Utharian Empire": [
+        "The Utharian Empire is founded under the guidance of eldarin from the Feywild, the humans of Thyra and the tieflings of Koraxon."
+      ]
+    },
+    "timeline": {
+      "major": ["Founding of the Utharian Empire."]
+    }
+  },
+  "2C-110":{
+    "playerKnown": true,
+    "hideDate":true,
+    "name": "2C 110",
+    "nickname": "2C 110",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 110:"
+    ],
+    "articles": {
+      "Era of the Primulus Tempus Draconis": [
+        "The age known as the Primulus Tempus Draconis ends around this time, due to the aggressive hunting and extermination of dragons by the various great empires of the early Second Convergence."
+      ]
+    },
+    "timeline": {
+      "age": ["End of the Primulus Tempus Draconis."]
+    }
+  },
+  "2C-694": {
+    "playerKnown": true,
+    "hideDate": true,
+    "name": "2C 694",
+    "nickname": "2C 694",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 694:"
+    ],
+    "articles": {
+      "Foundation of the Vessuna Alcimianus": [
+        "Castra Dialanum founds the Vessuna Alcimianus, a research center for the study of the arcane and its potential to perfect the physical form. After the Ruination of Centhris, this area would come to be known as the Twisting Warrens."
+      ]
+    },
+    "timeline": {
+      "minor": ["Foundation of the Vessuna Alcimianus."]
+    }
+  },
+  "2C-837": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 837",
+    "nickname": "2C 837",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 837:"
+    ],
+    "articles": {
+      "Heskur": [
+        "Sorceror-King Erèdin esk Zarlaya, Grand Magister of the Utharian Empire, enters the Aelsonthar and ascends to godhood as the Stygian.",
+        "The Ruination of Centhris begins, causing the complete destruction of the Utharian Empire and widespread devastation across the entire globe."
+      ]
+    },
+    "timeline": {
+      "major": ["The Ruination of Centhris occurs."],
+      "minor": []
+    }
+  },
+  "2C-900": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 900",
+    "nickname": "2C 900",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 900:"
+    ],
+    "articles": {
+      "Cordus Tempus Draconis Begins": [
+        "The Era of Centhris history known as the Cordus Tempus Draconis begins roughly around this time. With the fall of the existing humanoid civilizations due to the Ruination, dragons become the preeminent power on the prime material plane."
+      ]
+    },
+    "timeline": {
+      "age": ["Cordus Tempus Draconis Begins."],
+      "minor": []
+    }
+  },
+  "2C-2047": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2047",
+    "nickname": "2C 2047",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2047:"
+    ],
+    "articles": {
+      "Dusvar": [
+        "The Zelmar Law is official enacted in the free city of Zelmar. The city would go on to be a model for other city governments throughout Ulfwyst."
+      ]
+    },
+    "timeline": {
+      "minor": ["Zelmar Law is official enacted in the free city of Zelmar."]
+    }
+  },
+  "2C-2100": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2100",
+    "nickname": "2C 2100",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2100:"
+    ],
+    "articles": {
+      "Tempus Draconis Ends": [
+        "The Era of Centhris history known as the Tempus Draconis ends roughly around this time. As humanoid kingdoms begin to reemerge and challenge the power of the tyrannical chromatic dragons, the power of the dragonkin begins to wain."
+      ]
+    },
+    "timeline": {
+      "age": ["Cordus Tempus Draconis Ends."],
+      "minor": []
+    }
+  },
+  "2C-2143":{
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2143",
+    "nickname": "2C 2143",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2143:"
+    ],
+    "articles": {
+      "Nylwis": [
+        "The Congress of Adendorf takes place at Castle Adendorf near the city of Korasov. Resulting in the founding of the @+Malstein Confederation+@."
+      ]
+    },
+    "timeline": {
+      "major": ["The Congress of Adendorf occurs in Ulfwyst resulting in the foundation of the Malstein Confederation."],
+      "minor": []
+    }
+  },
+  "2C-2209":{
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2209",
+    "nickname": "2C 2209",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2209:"
+    ],
+    "articles": {
+      "Savage Contagion": [
+        "The @+Savage Contagion+@ was a widespread outbreak of lycanthropy across eastern Ulfwyst. Perpetuated by a heretical cult of Sage that venerated the more savage elements of the natural world, the cult managed to infect hundreds of people across several kingdoms before it could be contained."
+      ]
+    },
+    "timeline": {
+      "major": ["The Savage Contagion, a widespread outbreak of lycanthropy, devastates eastern Ulfwyst."],
+      "minor": []
+    }
+  },
+  "2C-2211":{
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2211",
+    "nickname": "2C 2211",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2211:"
+    ],
+    "articles": {
+      "Heskur": [
+        "The War of Five Crowns between begins."
+      ]
+    },
+    "timeline": {
+      "war": ["The War of Five Crowns begins."],
+      "minor": []
+    }
+  },
+  "2C-2245":{
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2245",
+    "nickname": "2C 2245",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2245:"
+    ],
+    "articles": {
+      "Gonsaar": [
+        "The War of Five Crowns between ends."
+      ]
+    },
+    "timeline": {
+      "war": ["The War of Five Crowns ends."],
+      "minor": []
+    }
+  },
+  "2C-2250":{
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2250",
+    "nickname": "2C 2250",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2250:"
+    ],
+    "articles": {
+      "Wars of Dominion": [
+        "The era known as the Wars of Dominion roughly begins around this date, though no exact date is generally accepted."
+      ]
+    },
+    "timeline": {
+      "age": ["The Wars of Dominion begin."],
+      "minor": []
+    }
+  },
+  "2C-2440":{
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2440",
+    "nickname": "2C 2440",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2440:"
+    ],
+    "articles": {
+      "Wars of Dominion": [
+        "The era known as the Wars of Dominion is considered to come to an end around this date, with the Navolinian Subjugation of Malstein taking place in 2438."
+      ]
+    },
+    "timeline": {
+      "age": ["The Wars of Dominion come to a close."],
+      "minor": []
+    }
+  },
+
+  "2C-2481": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2481",
+    "nickname": "2C 2481",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2481:"
+    ],
+    "articles": {
+      "Jeden": [
+        "The War of Red Claws, or @*the First War of Zurastian Aggression*@, begins with the Zurastian demand of the formal annexation of the Lepkar Peninsula from Lemuria."
+      ],
+      "Dusvar": [
+        "The War of Red Claws ends with Treaty of Lepkar. Zurast formally declares itself an Archduchy."
+      ]
+    },
+    "timeline": {
+      "war": ["The War of Red Claws occurs in Ulfwyst."],
+      "minor": []
+    }
+  },
+  "2C-2536": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2536",
+    "nickname": "2C 2536",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2536:"
+    ],
+    "articles": {
+      "Unvar": [
+        "The Navolinian Conquest of Azond begins."
+      ]
+    },
+    "timeline": {
+      "war": [
+        "The Navolinian Conquest of Azond begins."
+      ]
+    }
+  },
+  "2C-2541": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2541",
+    "nickname": "2C 2541",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2541:"
+    ],
+    "articles": {
+      "??": [
+        "Erlinder Bluefield & Evan-Jakob Reinhold are born."
+      ]
+    },
+    "timeline": {
+      "major": [],
+      "minor": [
+        "Erlinder Bluefield & Evan-Jakob Reinhold are born."
+      ]
+    }
+  },
+  "2C-2543": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2543",
+    "nickname": "2C 2543",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2543:"
+    ],
+    "articles": {
+      "Heskur": [
+        "The Navolinian Conquest of Azond ends."
+      ]
+    },
+    "timeline": {
+      "war": [
+        "The Navolinian Conquest of Azond ends."
+      ]
+    }
+  },
+  "2C-2546": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2546",
+    "nickname": "2C 2546",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2546:"
+    ],
+    "articles": {
+      "Tarnia": [
+        "A massive riot, which turned into a full scale prison break, occurs at Duskreef Citadel. After the riot, the prisoners took control of the island, and turned the surrounding village into a pirate haven."
+      ]
+    },
+    "timeline": {
+      "minor": [
+        "A prison riot at Duskreef Citadel results in the surrounding island becoming a pirate haven."
+      ]
+    }
+  },
+  "2C-2549": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2549",
+    "nickname": "2C 2549",
+    "type": "",
+    "tags": ["year","2549"],
+    "description": [
+      "The following historical events took place in 2C 2549:"
+    ],
+    "articles": {
+      "??": [
+        "Filibert Montajay is born."
+      ]
+    },
+    "timeline": {
+      "major": [],
+      "minor": ["Filibert Montajay is born."]
+    }
+  },
+  "2C-2551": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2551",
+    "nickname": "2C 2551",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2551:"
+    ],
+    "articles": {
+      "Singor": [
+        "The War of Sellswords begins between the Archduchy Zurast and the Kingdom of Lemuria."
+      ]
+    },
+    "timeline": {
+      "war": ["The War of Sellswords begins."],
+      "minor": []
+    }
+  },
+  "2C-2554": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2554",
+    "nickname": "2C 2554",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2554:"
+    ],
+    "articles": {
+      "Nylwis": [
+        "The War of Sellswords ends with the Archduchy of Zurast annexing territory from the Kingdom of Lemuria."
+      ],
+      "??": [
+        "Murat is born."
+      ]
+    },
+    "timeline": {
+      "war": ["The War of Sellswords ends."],
+      "minor": ["Murat is born."]
+    }
+  },
+  "2C-2552": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2552",
+    "nickname": "2C 2552",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2552:"
+    ],
+    "articles": {
+      "Ebosk": [
+        "The War of Black Fields, also known as the @*3rd Navolinian War of Expansion*@, between the Kingdom of Navolin, the Theocracy of Tovanis and the Kingdom of Sedobia begins."
+      ]
+    },
+    "timeline": {
+      "war": ["The War of Black Fields begins."]
+    }
+  },
+  "2C-2555": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2555",
+    "nickname": "2C 2555",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2555:"
+    ],
+    "articles": {
+      "Mythosk": [
+        "The War of Black Fields, also known as the @*3rd Navolinian War of Expansion*@, between the Kingdom of Navolin, the Theocracy of Tovanis and the Kingdom of Sedobia ends with the Treaty of Tarona. @;The treaty results in the Kingdom of Navolin formally absorbing the eastern half of Sedobia into its territory and Tovanis annexing the western half of Sedobia.;@"
+      ]
+    },
+    "timeline": {
+      "war": ["The War of Black Fields ends."]
+    }
+  },
+  "2C-2573": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2573",
+    "nickname": "2C 2573",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2573:"
+    ],
+    "articles": {
+      "Ebosk": [
+        "The Lost Shields form in the village of Rythlon, Navolin.",
+        "Prince Aronas of Navolin is assassinated."
+      ]
+    },
+    "timeline": {
+      "major": [],
+      "minor": ["The Lost Shields form in the village of Rythlon, Navolin."]
+    }
+  }
+}

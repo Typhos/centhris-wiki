@@ -1,0 +1,127 @@
+{
+  "the-Rostamas": {
+    "playerKnown": false,
+    "tags": ["mountains","region","ulfwyst"],
+    "name": "the Rostamas",
+    "nickname": "Rostamas",
+    "type": "Mountain Range",
+    "location": "Ulfwyst",
+    "description": [
+      "The Rostamas are a small mountain range in north-central Ulfwyst. The divide the Ur'shiid Desert from Syrothian Plateau."
+    ]
+  },
+  "Crimson-Mist-Mountains": {
+    "playerKnown": false,
+    "tags": ["mountains","forest","region","Western Koraxon"],
+    "name": "Crimson Mist Mountains",
+    "nickname": "Crimson Mist Mountains",
+    "type": "Mountain Range",
+    "location": "Western Koraxon",
+    "description": [
+      "The Crimson Mist Mountains is a mountain range in the south-west region of the continent of Western Koraxon. The region is renown for its verdant and lush, crimson forests. High spires dot the region and its coastal areas, and the flora is diverse, relative to the elevation. The mountain spires are capped with the crimson leaves of the huge trees that make up the Xiangmu Forest. At the base of the steep cliffs sits a lush bamboo forest teeming with wildlife."
+    ] 
+  },  
+  "Jordonis-Mountains": {
+    "playerKnown": true,
+    "tags": ["mountains","region","ulfwyst"],
+    "name": "Jordonis Mountains",
+    "nickname": "Jordonis Mountains",
+    "type": "Mountain Range",
+    "location": "Ulfwyst",
+    "description": [
+      "The Jordonis Mountains are one of the most important geographic features in the climate, politics and culture of eastern Ulfwyst. Spanning a huge part of the eastern coast of the continent, the mountains act as the dividing line between the Kingdom of Navolin and the city-states of the Barrier Coast."
+    ]
+  },
+  "Kazgrim-Mountains": {
+    "playerKnown": true,
+    "tags": ["mountains","region","ulfwyst"],
+    "name": "Kazgrim Mountains",
+    "nickname": "Kazgrim Moutains",
+    "linkingWords": ["Kazgrims"],
+    "type": "Mountain Range",
+    "location": "Ulfwyst",
+    "description": [
+      "The Kazgrim Mountains are a small series of volcanic mountains situated in souther eastern Ulfwyst. The range has been dormant for centuries, but millennia-ago is responsible for connecting central Ulfwyst to the landmass that now makes up eastern Lemuria.",
+      "Centuries ago, dwarves from other parts of Ulfwyst set out, seeking new sites to establish outposts and forge new thanedoms. Most of these expeditions were doomed to failure. The harsh weather of the region, along with numerous threats that inhabit the mountains, such as chimeras, wyverns, giant, ogres, and trolls resulted in numerous camps and fledgling holds being sacked. However, eventually the persistence (and some would say suicidal stubbornness) of the dwarven people defied the odds, and the fortress of Rul Undrak was established under Mount Ulzanos on the northern end of the Kazgrim range."
+    ]
+  },
+  "Pillars-of-Amud": {
+    "playerKnown": true,
+    "tags": ["mountains","region","ulfwyst"],
+    "name": "Pillars of Amud",
+    "nickname": "Spires of Amud",
+    "type": "Mountain Range",
+    "location": "Ulfwyst",
+    "description": [
+      "The Pillars of Amud are a series of huge, jagged rocky spires that cut across the heart of central Ulfwyst. They are the tallest mountains in Ulfwyst, and the range is the second longest on the continent. The mountain range is home to the dwarven kingdom of Dol Obok, one of the largest and most well-established dwarf kingdoms on Centhris. Carved into the mountains are five great dwarf cities: Thellodur, Felrast, Rul Orodum, Lanok Duraz and Isidar Hreth."
+    ]
+  },
+  "Torick-Peaks": {
+    "playerKnown": true,
+    "tags": ["mountains","region","ulfwyst"],
+    "name": "Torick Peaks",
+    "nickname": "Torick Peaks",
+    "type": "Mountain Range",
+    "location": "Ulfwyst",
+    "description": [
+      "The Torick Peaks are a small mountain range which provides a natural barrier between the Realm of Cibrin and Kingdom of Lemuria. The mountians are south of the Realm of Tovanis. The dwarven hold of Tronj'und is located under Mount Certunsk, which is located in the middle of the range."
+    ]
+  },
+  "Vir-Mountains": {
+    "playerKnown": true,
+    "tags": ["mountains","region","ulfwyst"],
+    "name": "Vir Mountains",
+    "nickname": "Vir Mountains",
+    "type": "Mountain Range",
+    "location": "Ulfwyst",
+    "description": [
+      "The Vir Mountains are a small mountain range which provides a natural barrier between the Realm of Cibrin and the Olgarrod Wilds to the southwest. The mountains are south of the former state of Hestia, now part of the Syrothian Empire. The dwarven holds of Vol Volund and Kadren Zul are located in the mountains, connected by the deep tunnels of the dwarves."
+    ]
+  },
+  "Vesanas-Mountains": {
+    "playerKnown": false,
+    "tags": ["mountains","region","entos"],
+    "name": "Vesanas Mountains",
+    "nickname": "Vesanas Mountains",
+    "linkingWords": ["the Vesanas"],
+    "type": "Mountain Range",
+    "location": "Entos",
+    "description": [
+      "The Vesanas Mountains are a large mountain range that divide the northeastern part of Entos. The range acts as a natural border between the Kingdom of Talhurst, Dôr Glannen and Motreso. The Vesanas are the longest range on the continent and, like their cousins the Duskspear Peaks, contain numerous volcanoes some of which are still active."
+    ]
+  },
+  "Duskspear-Peaks": {
+    "playerKnown": false,
+    "tags": ["mountains","region","entos"],
+    "name": "Duskspear Peaks",
+    "nickname": "Tathlok Skirrom",
+    "linkingWords": ["the Vesanas"],
+    "type": "Mountain Range",
+    "location": "Entos",
+    "description": [
+      "The Duskspear Peaks, or Tathlok Skirrom as they are referred to in Dwarvish, are a large mountain range in the northwest Entos. The range is highly volcanic and contains numerous valleys, calderas and snow-capped peaks. The mountain range forms a peninsula that makes up the entire northwest area of the continent.  is home to a wide variety of "
+    ]
+  },
+  "Celestial-Shards": {
+    "playerKnown": false,
+    "tags": ["mythic","region","ulfwyst","spires","Torisoda Archipelago"],
+    "name": "Celestial Shards",
+    "nickname": "Celestial Shards",
+    "type": "Mountain Range",
+    "location": "Isle of Mizera, Torisoda Archipelago",
+    "description": [
+      "The Celestial Shards are a mysterious geographic feature of the the Isle of Mizera in the Torisoda Archipelago. The spires are enormous, brilliant shards of white stone which extend from rocky bases of sculpted earth. The spires themselves are comprised of a strange, luminous material which is innately magical and defies the laws of the material realm. Some of the spires no longer have earthen bases, or have been shattered, but instead of falling to the ground, they now float in the sky, piercing the clouds above."
+    ]    
+  },
+  "Eye-of-Vel'dorin": {
+    "playerKnown": false,
+    "tags": ["region","volcano","moutain","ulfwyst"],
+    "name": "Eye of Vel'dorin",
+    "nickname": "Vel'dorin's Eye",
+    "type": "Mountain Range",
+    "location": "Ulfwyst",
+    "description": [
+      "An active volcano located east of the Desolate Wastes and west of the Kelishan Highlands, the Eye of Vel'dorin billows dark smoke endlessly into the sky. An old saying in the region portents that should the mountain ever cease to smolder, all of Ulfwyst should fear Vel'dorin's wrath."
+    ]    
+  }
+}

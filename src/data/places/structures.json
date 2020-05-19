@@ -1,0 +1,228 @@
+{
+  "Reliquary-of-the-Castidos":{
+    "playerKnown": true,
+    "tags": ["structure","barrier coast","ulfwyst","rakenburg"],
+    "name": "Reliquary of the Castidos",
+    "nickname": "the Castidos",
+    "type": "Structure",
+    "location": "Rakenburg",
+    "description": [
+      "The town hall and meeting place of the Guild Council of Rakenburg. The Castidos is also a library and vault for information and items that come from the Twisting Warrens beneath Rakenburg."
+    ]
+  },
+  "the-Bonemill":{
+    "playerKnown": true,
+    "tags": ["structure","Rythlon","ulfwyst","navolin"],
+    "name": "the Bonemill",
+    "nickname": "the Bonemill",
+    "type": "Structure",
+    "location": "Rythlon",
+    "description": [
+      "The Bonemill is an old, abandoned windmill that was used, in days gone by, for grinding bones into bonemeal. Around the mill, stacked in large mounds, are hundreds of bones, bleached white in the summer sun.",
+      "The Adventurers came to the mill looking for Reanold Duplechin's assistant, Leiana. The group did not find Leiana, only a scrap of a red cloak Reanold said she had been wearing. When Evan-Jakob disturbed the scrap of fabric, the piles of bone began to shift and a horrible monstrosity coalesced from the discarded skeletons. The Lurking Abomination, a horrible nightmarish creature with four arms burst forth to attack the Lost Shields. After enduring a furious assault, the group was able to destroy the creature.",
+      "Venturing inside the mill, the Lost Shields discovered found the interior nearly monocromatic, as if all color had been removed from it. Taking great care, they searched the building and found no further signs of Leiana, though they did find further shreds of red fabric. Murat investigated what might have happened to the woman, and determined that she possibly had been taken to the wall, but there were no signs of a door and no exit on the exterior of the mill."
+    ]
+  },
+  "Shrine-of-the-Agrestal-Cycle": {
+    "playerKnown": true,
+    "tags": ["building","shrine","Thornroot Forest","kelishan highlands","ulfwyst"],
+    "name": "Shrine of the Agrestal Cycle",
+    "nickname": "Shrine of the Agrestal Cycle",
+    "type": "Structure",
+    "location": "Thornroot Forest",
+    "description": [
+      "An ancient druid shrine deep in the heart of Thornroot Thicket."
+    ]  
+  },
+  "Tower-of-Stantorr": {
+    "playerKnown": true,
+    "tags": ["building","tower","wizard","frecyra","navolin","ulfwyst"],
+    "name": "Tower of Stantorr",
+    "nickname": "Stantorr",
+    "type": "Structure",
+    "location": "Frecyra",
+    "description": [
+      "The Tower of Stantorr is an enormous wizard's tower in the Timberrun District of Frecyra. The tower is the home of the Nost Ezel’nár. The tower dates back to the Utharian Empire, though the original purpose of the tower is not know outside the ranks of the magical order. The city of Frecyra was originally a small village built around the outskirts of the tower, however as a central state emerged in the region after the period of collapse that followed the Ascension of the Betrayer and the subsequent Ruination of Centhris."
+    ]  
+  },
+  "Seloc-Gelhyan": {
+    "playerKnown": false,
+    "tags": ["building","school","wizard","Khezrabad","Abbasyr","ulfwyst"],
+    "name": "Seloc Gelhyan",
+    "nickname": "the Seloc Gelhyan",
+    "type": "Structure",
+    "location": "Khezrabad",
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The Seloc Gelhyan is a library and mage college located in the Abbasyri capital of Khezrabad. The college is well over 1,500 years old, having been founded during the Utharian Empire. Sadly, it fell into a state of ruin for hundreds of years after the Ruination of Centhris and most of the knowledge within was lost. The college returned to prominence through the patronage of the ab Shahreen royal family."
+      ]
+    }
+  },
+  "Eikras-Auction-House":{
+    "playerKnown": true,
+    "tags": ["structure","barrier coast","ulfwyst","rakenburg"],
+    "name": "Eikras Auction House",
+    "nickname": "the Eikras",
+    "type": "Structure",
+    "location": "Volikgrad",
+    "description": [
+      "The Eikras Auction House is an important fixture in the city of Volikgrad. Adventurers, nobles and merchants from all over eastern Ulfwyst will venture to Volikgrad in order to buy and sell items at the auction house. It is located in the Windpoint District in Volikgrad.",
+      "The auction house has 2 wings, each 3 stories tall, and a main hall.",
+      "The first floor of the northern wing is comprised of several rooms, each holding silent auctions for lesser items, categorized by type. This includes, housewares, arms & armor, potions & elixirs, antiques and vehicles. The second floor of the northern wing is comprised of storage and the third floor is for administrative offices.",
+      "The first floor of the southern wing is used for the auction of mundane livestock. The second and third floors of this wing are actually one large, vaulted room which is reserved for exotic livestock, including magical and dangerous beasts.",
+      "The main hall of the auction house holds infrequent auctions, based upon the volume and interest in the more valuable items for sale. The date of the next main hall auction, along with a list of items up for auction, is posted outside the hall. The main hall holds a traditional auction, with an auctioneer and standard bidding procedure. The hall itself is laid out in the manner of an amphitheater, allowing for all in the room to be seen and see the items up for auction."
+    ]
+  },
+  "Ruby-Phoenix-Guild-Hall": {
+    "playerKnown": true,
+    "tags": ["guild hall","building","rakenburg","ulfwyst","barrier coast","ruby phoenix"],
+    "name": "Ruby Phoenix Guild Hall",
+    "nickname": "Ruby Phoenix Guild Hall",
+    "type": "Structure",
+    "location": "Rakenburg",
+    "leaders": ["Belthren Ogni","Rendis Moon","Khazar Thul"],
+    "description": [
+      "The guild hall of Ruby Phoenix is located in the Gullhollow District of Rakenburg. Located on the edge of the Dawnstar Fairgrounds, the hall is where the guilds meets prospective clients. In addition, the hall is a place for members to find lodging and training facilities."
+    ]    
+  },
+  "Sacellum-of-the-Guardian": {
+    "playerKnown": true,
+    "tags": ["temple","building","rakenburg","ulfwyst","barrier coast","church","the guardian"],
+    "name": "Sacellum of the Guardian",
+    "nickname": "the Sacellum",
+    "type": "Structure",
+    "location": "Rakenburg",
+    "leaders": ["High Prelate Tryngwen Benno"],
+    "additionalImages": ["Sacellum-of-the-Guardian-exterior.png"],
+    "description": [
+      "The Sacellum of the Guardian is a massive, stone basilica in the heart of the main square of Rakenburg. Completed 375 years ago, the building was designed in the Baroque style. The exterior of the Sacellum is comprised of gray stone and each of the four corners of the building rise into an imposing stone tower capped with a bronze spire.",
+      "The basilica is one of the largest churches to the Guardian on Centhris, with pilgrims from all over Ulfwyst traveling to the city to visit the temple, take part in holy services and pray at the shrines to the champions and saints who have served him.",
+      "The head of the temple is High Prelate Tryngwen Benno, who many view as the leader of the Church of the Guardian in Ulfwyst."
+    ],
+    "articles": {
+      "History": [
+        "The sacellum existed long before the current, massive structure was erected. When the city was first being resettled, and Oldtown, now the Greenwood Quarter, was established, the first shrine to the Guardian was erected in the Oldtown square. As the city expanded across the Kamsby river, the people of Rakenburg constructed other shrines around the city to the various gods of the pantheon. As the main square was planned, the original design included space for 7 small temples near the river; a single sacellum, or shrine, for the Guardian, the Arbiter, the Eternal, the Maiden, the Philosopher, the Wanderer and the Leviathan. These shrines existed on the current grounds of the Sacellum of the Guardian for roughly 130 years.",
+        "In 2C 2181, a great earthquake of unknown origin rocked the Barrier Coast. There was major damage to much of the city and all seven of the small shrines to the gods in Rakenburg Square were damaged. Many of the churches had, in the years after the construction of the main square, erected their own larger, dedicated churches in other parts of the city and were not concerned with immediate reconstruction of these small shrines.",
+        "In the aftermath of the earthquake, the Church of the Guardian had sent numerous Valiants to the cities of the Barrier Coast to aid the people and with this influx of the faithful, the church leaders deemed it necessary to look for a location to build a new temple capable of holding its worshipers. In 2184, the famous adventuring paladin of Bahamut, Bazyli of Camunburg, tithed an immense fortune of roughly 70,000 gold Hulls to the church in Rakenburg to build a new temple on the site of the old Sacellum. "
+      ]
+    }
+  },
+  "The-Argentate": {
+    "playerKnown": true,
+    "tags": ["building","venbrin","ulfwyst","barrier coast","palace","fortress"],
+    "name": "The Argentate",
+    "nickname": "The Argentate",
+    "linkingWords": ["the Argentate"],
+    "type": "Structure",
+    "location": "Venbrin",
+    "leaders": ["Lord Baqrin Calosh","Vizier Cazner Yasir"],
+    "description": [
+      "The Argentate is the walled palace of the Lord of Venbrin, located in the north east end of the city. The palace is made of white marble quarried on the Isle of Sunheim."
+    ],
+    "dmArticles": {
+      "History": [
+        
+      ]
+    }
+  },
+  "Chram-of-the-Eternal": {
+    "playerKnown": false,
+    "tags": ["temple","building","rakenburg","ulfwyst","barrier coast","church","the eternal"],
+    "name": "Chram of the Eternal",
+    "nickname": "the Chram",
+    "type": "Structure",
+    "location": "Khezrabad",
+    "leaders": ["High Priestess Katayun Attar"],
+    "additionalImages": ["Chram-of-the-Eternal-exterior.png"],
+    "description": [
+    ],
+    "dmArticles": {
+      "History": [
+        "The Chram of the Eternal is a the High Temple dedicated to the god of the sun. It is located in Khezbrabad, Abbasyr."
+      ]
+    }
+  },
+  "Hessirwynd-Palace": {
+    "playerKnown": false,
+    "tags": ["palace","building","navolin","frecyra","ulfwyst","king"],
+    "name": "Hessirwynd Palace",
+    "nickname": "Hessirwynd Royal Palace",
+    "type": "Structure",
+    "location": "Frecyra",
+    "leaders": ["King Kzesimir III Czak"],
+    "description": [
+    ]    
+  },
+  "Storsal-Helter": {
+    "playerKnown": true,
+    "tags": ["palace","building","navolin","frecyra","ulfwyst","king"],
+    "name": "Storsal Helter",
+    "nickname": "Grand Hall of the Clans",
+    "type": "Structure",
+    "location": "Kilurus",
+    "leaders": ["High Queen Inga Villdyr"],
+    "description": [
+      "The @+Storsal Helter+@, or Grand Hall of the Clans in Common, is the court of the High King or Queen of Lemuria located in Kilurus. The hall is located on Seier Cliff, which overlooks the Korin Gulf to the north and Isdrage Bay to the south."
+    ]    
+  },
+  "Hall-of-the-Eternal-Saints": {
+    "playerKnown": false,
+    "tags": ["temple","building","axuros","tovanis","ulfwyst"],
+    "name": "Hall of the Eternal Saints",
+    "nickname": "Shrine to the Eternal Saints",
+    "type": "Structure",
+    "location": "Axuros",
+    "description": [
+    ]    
+  },
+  "Kvenvik-Tower": {
+    "playerKnown": false,
+    "tags": ["tower","building","Zabrosk","Lemuria","ulfwyst"],
+    "name": "Kvenvik Tower",
+    "nickname": "Kvenvik Tower",
+    "type": "Structure",
+    "location": "Zabrosk",
+    "description": [
+      "Kvenvik Tower is the home of Telarion Elentiir, located in Zabrosk, Lemuria."
+    ] 
+  },
+  "Pałac-Króla": {
+    "playerKnown": false,
+    "tags": ["king's palace","building","Frecyra","Navolin","ulfwyst"],
+    "name": "Pałac Króla",
+    "nickname": "Pałac Króla",
+    "type": "Structure",
+    "location": "Frecyra",
+    "description": [
+      "The @+Pałac Króla+@, or Palace of the King, is the royal palace of the Czak dynasty in the capital city of Frecyra."
+    ] 
+  },
+  "Kongir-Temple": {
+    "playerKnown": false,
+    "tags": ["Nakali Islands","ulfwyst"],
+    "name": "Kongir Temple",
+    "nickname": "Kongir Temple",
+    "type": "Structure",
+    "location": "Nakali Islands",
+    "description": [
+      "@+Kongir Temple+@, formerly the Kongir Asylum, is a building complex in the jungles outside of Duskreef. The was formerly part of the Duskreef Prison complex, located deeper into the jungles northeast of the port town. After the fall of the prison, contact with the asylum was lost."
+    ],
+    "articles": {
+      "A Twisted Temple": [
+        ""
+      ]
+    },
+    "dmArticles": {
+      "After the Fall of Duskreef Prison": [
+        "When @;Duskreef Prison;@ fell and inmates turned the island into a pirate haven, all contact was lost with the doctors and patients at the asylum. It quickly became apparent to the guards and staff of the hospital that something was wrong, as their regular deliveries and correspondence ceased. Though the asylum housed enough supplies to last a month or two if required, plans were soon made to abandon the facility and return to the mainland.",
+        "Director Herbert Prostov was able, through arcane means, to arrange return passage from the island for his staff. The director and his closest staff members, Clasara Weissbrin and Yokim Tresser, informed the staff of their intention to remain behind and keep the patients in check until it was no longer possible. The rest of the staff escaped, leaving the three remaining members of the staff to guard the complex, hailing them as heroic for their willing sacrifice to save everyone and guard the asylum.",
+        "After the final members of the asylum staff fled the island the three members of the staff began their true work and began experimenting on inmates. Previously this dark work had to be conducted in secret, in order to avoid suspicion from the well intentioned doctors and guards. Now left alone with dozens of test subjects, the three began twisted experiments and occult rituals."
+      ],
+      "Forbidden Occult Rituals": [
+        ""
+      ]
+  }
+  }
+}

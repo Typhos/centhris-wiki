@@ -1,0 +1,353 @@
+{  
+  "Castle-Romont": {
+    "playerKnown": false,
+    "tags": ["castle","kaeldrin sanctum","ulfwyst"],
+    "name": "Castle Romont",
+    "nickname": "Romont",
+    "type": "Fortification",
+    "location": "Sullen Fen",
+    "leaders": [],
+    "description": [
+      "Castle Romont."
+    ]    
+  },
+  "Castle-Grinsted": {
+    "playerKnown": true,
+    "tags": ["castle","navolin","rythlon","ulfwyst"],
+    "name": "Castle Grinsted",
+    "nickname": "Grinsted",
+    "type": "Fortification",
+    "location": "Kelishan Highlands",
+    "leaders": ["Count Jeskin Sebroksi"],
+    "description": [
+      "Castle Grinsted is the home castle and seat of Count Jeskin Sebroksi. It is located along the Sulas river in southern Navolin and is the capital of the County of Szary. The castle is roughly two day's travel from the village of Rythlon."
+    ]    
+  },
+  "Castle-Adendorf": {
+    "playerKnown": false,
+    "tags": ["castle","navolin","ulfwyst"],
+    "name": "Castle Adendorf",
+    "nickname": "Castle Adendorf",
+    "type": "Fortification",
+    "location": "Tiderack Coast",
+    "leaders": ["Duchess Gertruda Czak"],
+    "description": [
+      "Castle Adendorf is the seat of the Duchy of Kezmarok, ruled by Duchess Gertruda Czak."
+    ]    
+  },
+  "Castle-Bricza": {
+    "playerKnown": false,
+    "tags": ["castle","navolin","ulfwyst"],
+    "name": "Castle Bricza",
+    "nickname": "Castle Bricza",
+    "type": "Fortification",
+    "location": "Tiderack Coast",
+    "leaders": ["Duchess Gertruda Czak"],
+    "description": [
+      "Castle Bricza guards a secret pass through the Jordonis Mountains known only to select members of the Kingdom of Navolin. The keep is designed to be a refuge for the royal Czak family if events were to cause them to be in danger staying in court at Frecyra."
+    ]    
+  },
+  "Castle-Westerholt": {
+    "playerKnown": false,
+    "tags": ["castle","navolin","ulfwyst"],
+    "name": "Castle Westerholt",
+    "nickname": "Castle Westerholt",
+    "type": "Fortification",
+    "location": "Tiderack Coast",
+    "leaders": ["Baroness Tola Stolarz"],
+    "description": [
+      "Castle Westerholt is a border-keep near the Eye of Vel'dorin. It is the keep of Baroness Tola Stolarz and marks the western-most territory of Navolin."
+    ]    
+  },
+  "Castle-Lęczyca": {
+    "playerKnown": false,
+    "tags": ["castle","navolin","ulfwyst","abandoned"],
+    "name": "Castle Lęczyca",
+    "nickname": "Castle Lęczyca",
+    "type": "Fortification",
+    "location": "Tiderack Coast",
+    "leaders": ["Baroness Tola Stolarz"],
+    "description": [
+      "@+Castle Lęczyca+@ @*(Lec-zee-ca)*@ is an abandoned castle located in the Gorcien Forests, specifically in the Czinlas Weald. Villagers from nearby towns claim that the castle has been abandoned for generations, but all of them agree on one thing: the castle is haunted and none of the locals will dare to venture near the place."
+    ]    
+  },
+  "Castle-Roznów": {
+    "playerKnown": false,
+    "tags": ["castle","navolin","ulfwyst","abandoned"],
+    "name": "Castle Roznów",
+    "nickname": "Castle Roznów",
+    "type": "Fortification",
+    "location": "Tiderack Coast",
+    "leaders": ["Baroness Tola Stolarz"],
+    "description": [
+      "@+Castle Roznów+@ is an abandoned castle located on the edge of the Shambling Grove in north central Navolin. It was last occupied by Count Mathias Tykoncin, who ruled the area until 2C 2231, when the castle was sacked during the War of Five Crowns. After the castle's destruction, the ruins were never reclaimed, as the nearby woods seemed to creep ever closer to the keep. Those that attempted to explore the ruins looking for valuables rarely returned, and those that did claimed that strange beasts and moving trees guard the castle from intruders."
+    ],
+    "dmArticles": {
+      "": []
+    }
+  },
+  "Castle-Wittmund": {
+    "playerKnown": false,
+    "tags": ["castle","navolin","ulfwyst"],
+    "name": "Castle Wittmund",
+    "nickname": "Castle Wittmund",
+    "type": "Fortification",
+    "location": "Gorcien Forests",
+    "leaders": ["Countess Justina Ostrowski"],
+    "description": [
+      "Castle Wittmund is a castle in the foothills of the Jordonis Mountains. It is the keep of Countess Justina Ostrowski guards against aggression from the creatures that live in the Gorcien Forests, or those that might descend from the mountains to the east."
+    ]    
+  },
+  "Castle-Kollrung": {
+    "playerKnown": false,
+    "tags": ["castle","navolin","ulfwyst"],
+    "name": "Castle Kollrung",
+    "nickname": "Castle Kollrung",
+    "type": "Fortification",
+    "location": "Tiderack Coast",
+    "leaders": ["Baroness Tola Stolarz"],
+    "description": [
+      "Castle Kollrung is a castle in the heartland of the Kingdom of Navolin. It is the keep of Count Radomil Sokal, the count of Balwiec."
+    ]    
+  },
+  "Castle-Senmyr": {
+    "playerKnown": false,
+    "tags": ["castle","navolin","ulfwyst"],
+    "name": "Castle Senmyr",
+    "nickname": "Castle Senmyr",
+    "type": "Fortification",
+    "location": "Tiderack Coast",
+    "leaders": ["Count Lucjan Kaluza"],
+    "description": [
+      "Castle Senmyr is a castle located in the Duchy of Kezmarok in the Kingdom of Navolin. It is the keep of Count Lucjan Kaluza."
+    ]    
+  },
+  "Castle-Erstfeld": {
+    "playerKnown": false,
+    "tags": ["castle","kaeldrin scanctum","ulfwyst"],
+    "name": "Castle Erstfeld",
+    "nickname": "Castle Erstfeld",
+    "type": "Fortification",
+    "location": "Adorra Sound",
+    "leaders": [],
+    "description": [
+      "Castle Erstfeld."
+    ]    
+  },
+  "Castle-Thun": {
+    "playerKnown": false,
+    "tags": ["castle","kaeldrin scanctum","ulfwyst"],
+    "name": "Castle Thun",
+    "nickname": "Castle Thun",
+    "type": "Fortification",
+    "location": "Adorra Sound",
+    "leaders": [],
+    "description": [
+      "Castle Thun."
+    ]    
+  },
+  "Castle-Zagórz": {
+    "playerKnown": false,
+    "tags": ["castle","navolin","ulfwyst","abandoned","vampire"],
+    "name": "Castle Zagórz",
+    "nickname": "Castle Zagórz",
+    "type": "Fortification",
+    "location": "Tiderack Coast",
+    "leaders": ["Count Lucjan Kaluza"],
+    "description": [
+      "Castle Zagórz is a border-castle located north western Kelishan Highlands. It was once the keep of Zagórz dynasty of Malstein. The last known count of Zagórz was Count Wezcek. Today it is considered a lost demesne of the kingdom, as no contact has been made with the Zagórz family in roughly 80 years."
+    ],
+    "dmArticles": {
+      "Castle of the Devil": [
+        "The Zagórz dynasty became reclusive not because they were killed, as rumors claim, but because Count Wezcek Zagórz conducted a dark ritual to the Stygian in order to bring his wife, Countess Lirana Zagórz back to life when she died of a plague that swept the region, making it impossible to resurrect her through divine magic. The ritual was successful, however Lirana was brought back to life as a vampire and quickly killed, enthralled or turned everyone in the castle.",
+        "Now, the castle and the surrounding area are the domain of the Zagórz family and their enthralled subjects. The Zagórzs wish to keep their existence a rumor, and are content to have the kingdom believe the castle was abandoned or their family was killed. The surrounding territory and the peasants that live in it seem to shun outsiders, fearing reprisal from their dark lords."
+      ]
+    }
+  },
+  "Auburn-Castle": {
+    "playerKnown": true,
+    "tags": ["castle","navolin","rythlon","ulfwyst"],
+    "name": "Auburn Castle",
+    "nickname": "Auburn Castle",
+    "type": "Fortification",
+    "location": "Kelishan Highlands",
+    "leaders": ["Baron Janik Malmor"],
+    "description": [
+      "Auburn Castle is a border keep along the border of Navolin and Tovanis in central Ulfwyst. Is the home castle and seat of Baron Janik Malmor.",
+      "The castle manor is the home of numerous families of humans and halflings, including the Montajay family. Prior to the arrival of Roland of Zelmar and Lirr Stonebreath, and the events that transpired in the woodlands near the castle, it was also the home of Filibert Montajay."
+    ]
+  },
+  "Kaer-Valvik": {
+    "playerKnown": true,
+    "tags": ["castle","navolin","rythlon","ulfwyst"],
+    "name": "Kaer Valvik",
+    "nickname": "Kaer Valvik",
+    "type": "Fortification",
+    "location": "Kelishan Highlands",
+    "leaders": ["Marshal Dianna van Alrin"],
+    "description": [
+      "Kaer Valvik is a border-keep located at the eastern border of the Archduchy of Zurast, on the edge of the Barrier Coast and Navolin. The castle was constructed to guard the eastern expansion of the archduchy after it claimed the territory during the War of Sellswords."
+    ]
+  },
+  "Var-Komarno": {
+    "playerKnown": false,
+    "tags": ["castle","Cibrin","Clan Godak","ulfwyst"],
+    "name": "Var Komarno",
+    "nickname": "Var Komarno",
+    "type": "Fortification",
+    "location": "Torick-Vir Valley",
+    "leaders": ["Han Darga Vaburk"],
+    "description": [
+      "Var Komarno is the hill fortress of Clan Godak, one of the most powerful clans in Cibrin."
+    ]
+  },
+  "Var-Rohoznik": {
+    "playerKnown": false,
+    "tags": ["castle","Tovanis","ulfwyst"],
+    "name": "Var Rohoznik",
+    "nickname": "Var Rohoznik",
+    "type": "Fortification",
+    "location": "Tovanis",
+    "leaders": [],
+    "description": [
+      "Var Rohoznik."
+    ]
+  },
+  "Var-Valoska": {
+    "playerKnown": false,
+    "tags": ["castle","Tovanis","ulfwyst"],
+    "name": "Var Valoska",
+    "nickname": "Var Valoska",
+    "type": "Fortification",
+    "location": "Tovanis",
+    "leaders": [],
+    "description": [
+      "Var Valoska."
+    ]
+  },
+  "Fesgart-Citadel": {
+    "playerKnown": false,
+    "tags": ["castle","navolin","frecyra","ulfwyst"],
+    "name": "Fesgart Citadel",
+    "nickname": "Fesgart Citadel ",
+    "type": "Fortification",
+    "location": "Frecyra",
+    "leaders": ["Marshal Stanislaw Kaczka"],
+    "description": [
+      "Fesgart Citadel is the city fortress of Frecyra. Located in the middle of the city, on the Mivan hill, it provides an overlook of most of the city, and south into the Galren Moor."
+    ]
+  },
+  "Dawnguard-Keep": {
+    "playerKnown": true,
+    "tags": ["castle","rakenburg","barrier coast","ulfwyst"],
+    "name": "Dawnguard Keep",
+    "nickname": "Dawnguard Keep",
+    "type": "Fortification",
+    "location": "Rakenburg",
+    "leaders": ["Constable Gren Norusk"],
+    "description": [
+      "Dawnguard Keep is the city fortress of Rakenburg. The castle is located on the western end of the city and has defends the western approach to the city. The southern half of the city has no permanent citadel. Instead, the walls are slightly taller, with more imposing battlements which makes the approach to Dawnguard a more appealing option to any army intent on attacking the city by land."
+    ]
+  },
+  "Kaer-Alfjall": {
+    "playerKnown": false,
+    "tags": ["castle","lemuria","ulfwyst"],
+    "name": "Kaer Alfjall",
+    "nickname": "Kaer Alfjall",
+    "type": "Fortification",
+    "location": "Lemuria",
+    "leaders": ["Clan Chief Torild Sjomann"],
+    "description": [
+      "Kaer Alfjall is the hill fortress located in southern Lemuria in the XYZ forest. It is the keep of Clan Sjomann."
+    ]
+  },
+  "Kaer-Sundsvall": {
+    "playerKnown": false,
+    "tags": ["castle","lemuria","ulfwyst"],
+    "name": "Kaer Sundsvall",
+    "nickname": "Kaer Sundsvall",
+    "type": "Fortification",
+    "location": "Lemuria",
+    "leaders": [],
+    "description": [
+      "Kaer Sundsvall."
+    ]
+  },
+  "Kaer-Uldrog": {
+    "playerKnown": false,
+    "tags": ["castle","lemuria","ulfwyst"],
+    "name": "Kaer Uldrog",
+    "nickname": "Kaer Uldrog",
+    "type": "Fortification",
+    "location": "Lemuria",
+    "leaders": [],
+    "description": [
+      "Kaer Uldrog."
+    ]
+  },
+  "Kaer-Undvik": {
+    "playerKnown": false,
+    "tags": ["castle","lemuria","ulfwyst"],
+    "name": "Kaer Undvik",
+    "nickname": "Kaer Undvik",
+    "type": "Fortification",
+    "location": "Lemuria",
+    "leaders": [],
+    "description": [
+      "Kaer Undvik."
+    ]
+  },
+  "Kaer-Ingskar": {
+    "playerKnown": false,
+    "tags": ["castle","lemuria","ulfwyst"],
+    "name": "Kaer Ingskar",
+    "nickname": "Kaer Ingskar",
+    "type": "Fortification",
+    "location": "Lemuria",
+    "leaders": [],
+    "description": [
+      "Kaer Ingskar."
+    ]
+  },
+  "Kaer-Ramvik": {
+    "playerKnown": false,
+    "tags": ["castle","lemuria","ulfwyst"],
+    "name": "Kaer Ramvik",
+    "nickname": "Kaer Ramvik",
+    "type": "Fortification",
+    "location": "Lemuria",
+    "leaders": [],
+    "description": [
+      "Kaer Ramvik."
+    ]
+  },
+  "Kaer-Edsken": {
+    "playerKnown": false,
+    "tags": ["castle","lemuria","ulfwyst"],
+    "name": "Kaer Edsken",
+    "nickname": "Kaer Edsken",
+    "type": "Fortification",
+    "location": "Lemuria",
+    "leaders": [],
+    "description": [
+      "@+Kaer Edsken+@ is a keep on the northwest border of Lemuria. It guards the pass between the Korin Gulf and the Torick Peaks."
+    ],
+    "articles": {
+      "Difters' End": [
+        "In 2C 2547, Kaer Edsken was still a ruined keep which had become the home of Usodgen, the Scourger, an adult red dragon. After years of this draconic menace terrorizing the nearby villages and towns, including Zabrosk, Niz and Murmont, the adventuring group known as the Ruby Drifters assaulted the keep and killed Usodgen. Though they managed to rid the region of the red tyrant, only a single member of the Drifters, Belthren Ogni, survived the battle."
+      ]
+    }
+  },
+  "Kaer-Soderhan": {
+    "playerKnown": false,
+    "tags": ["castle","lemuria","ulfwyst"],
+    "name": "Kaer Soderhan",
+    "nickname": "Kaer Soderhan",
+    "type": "Fortification",
+    "location": "Lemuria",
+    "leaders": [],
+    "description": [
+      "Kaer Soderhan."
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "Duskreef": {
+    "playerKnown": true,
+    "tags": ["town","Nakali Isles","port","ulfwyst","Mare Concordis"],
+    "name": "Duskreef",
+    "nickname": "Duskreef",
+    "linkingWords": ["Port of Duskreef","Duskreef Prison"],
+    "type": "Town",
+    "population": "1,200",
+    "races": ["human","halfling","half-orc","tiefling","hobgoblin","tortle","chromatic dragonborn"],
+    "government": "Lawless",
+    "location": "Nakali Iles",
+    "leaders": ["Jöndr Mistwalker"],
+    "description": [
+      "The port of @+Duskreef+@ was once a prison fortress located on the Nakali Isles off the eastern coast of Ulfwyst. In 2C 2546, a massive riot, which turned into a full scale prison break, occurred at Duskreef Citadel. After the riot, the prisoners took control of the island, and turned the surrounding village into a pirate haven.",
+      "The notorious pirate outpost now welcomes all kinds to its murky shores, assuming they follow the unspoken pirate code that rules the place."
+    ],
+    "articles":{
+      "Pirate Code": [
+        "Officially, the port of Duskreef is a lawless place, perfect for the chaotic sort that the port attracts. Anyone in the town is expected, however, to abide by the pirate code. Those who break the code face mob justice at the hands of the violent citizenry. The code includes the following provisions:",
+        "• \"@*None shall make use of hostile magicks while within city limits. Any found doing so will be banished. Any soul who does so in an action which results in the injury or death of another man shall suffer death.*@\"",
+        "• \"@*Every man shall have an equal vote in affairs of moment. He shall have an equal title to the fresh provisions or strong liquors at any time seized, and shall use them at pleasure unless a scarcity makes it necessary for the common good that a retrenchment may be voted.*@\"",
+        "• \"@*Every man shall be called fairly in turn by the list on board of prizes, because over and above their proper share, they are allowed a shift of clothes. But if they defraud the company to the value of even one dollar in plate, jewels, or money, they shall be marooned. If any man rob another, he shall have his nose and ears slit, and be put ashore where he shall be sure to encounter hardships.*@\"",
+        "• \"@*He that shall desert the ship or his quarters in the time of battle shall be punished by death or marooning.*@\"",
+        "• \"@*None shall strike another on board the ship, but every man's quarrel shall be ended onshore by sword or pistol in this manner: at the word of command from the Quartermaster, each man being previously placed back to back, shall turn and fire immediately. If any man do not, the Quartermaster shall knock the piece out of his hand. If both miss their aim, they shall take to their cutlasses, and he that draws first blood shall be declared the victor.*@\"",
+        "• \"@*Every man who shall become a cripple or lose a limb in the service shall have three hundred hulls from the common stock, and for lesser hurts proportionately.*@\"",
+        "• \"@*The Captain and the Quartermaster shall each receive two shares of a prize, the Master Gunner and Boatswain, one and one half shares, all other officers one and one quarter, and private gentlemen of fortune one share each.*@\"",
+        "• \"@*The musicians shall have rest every fifth day, by right, on all other days, by favor only.*@\""
+      ]
+    },
+    "dmArticles": {
+      "Governance": [
+        "Though officially lawless, the town is unofficially ruled by Jöndr Mistwalker, a cloud giant who rules from a throne atop the broken prison-citadel with his pet Dire Lion, Gámr."
+      ],
+      "Places & Residents": [
+        "@+Kupietz Trust Office+@: A nice looking office belonging to the the Kupietz Trust, operating with the authority of a the Navolinian court. They are the liason for those looking for pirates to perform dirty work on their behalf. Think of something like the East Indian Company.",
+        "@+Wretched Slums+@: A slum full of lepers and otherwise sick sailors who were ditched by their crew.",
+        "@#Taverns#@",
+        "Tavern: @*The Tilted Mast.*@ Run by @+Terryn+@, the half-elf. Older, with copper skin, long, tied back auburn hair & green eyes. He has an obvious prisoner's brand on this chest. Trades in rumors for coin.",
+        "Tavern: @*Crimson Cuttlass.*@ Run by @+\"Two-Shots\" Alice+@, a large, older, dark skinned woman with long crown rows and brown eyes. She is covered in piercings. Former pirate captain who retired years ago. Has a special officers only section of the bar on a slight rise near the bar.",
+        "Brothel: @*Maybell's Bordello.*@ Jenneve the Receptionist & Morgan the Bartender",
+        "@#Shops#@",
+        "@+Shipwright+@: \"One-eye\" Hrend, half-orc sculptor who specializes exclusively in wood carvings of beasts, often hired to decorate or \"improve\" the ship's figure head.",
+        "@+Shipwright+@: Capris & Flint, human shipwrights who specialize in repairs and non-standard maintenance.",
+        "@+Rusty Anchor Market+@: A black market with prestigious and illegal goods. Vendors who are willing to purchase valuable things for good coin, but who are just as willing to disembowel you and take the valuable things off your corpse.",
+        "@+Nordrin Steelgrip+@: A one-armed alchemist/artificer who specializes in creating gunpowder in vast quantities. His left arm is a mechanical contraption he devised after blowing off his arm in an accident. Explosions can often be heard from his small but extravagant villa."
+      ]
+    }
+  },
+  "Zabrosk": {
+    "playerKnown": true,
+    "tags": ["town","Lemuria","ulfwyst","Telarion Elentiir"],
+    "name": "Zabrosk",
+    "nickname": "Zabrosk",
+    "linkingWords": [],
+    "type": "Town",
+    "population": "960",
+    "races": ["human","elf","gnome","half-elf","uklang"],
+    "government": "Council",
+    "location": "Realm of Lemuria",
+    "leaders": ["Olaug Arnbjorg"],
+    "description": [
+      "@+Zabrosk+@ is a small town near the border between Lemuria and the Theocracy of Tovanis. Though relatively remote, it is the primary home of the mage Telarion Elentiir, who prefers to reside at Kvenvik Tower when he is able."
+    ]
+  },
+  "Wexin": {
+    "playerKnown": true,
+    "tags": ["town","Cibrin","ulfwyst"],
+    "name": "Wexin",
+    "nickname": "Wexin",
+    "linkingWords": [],
+    "type": "Town",
+    "population": "1,500",
+    "races": ["human","dwarf","uklang","half-orc","half-giant"],
+    "government": "Clan Council",
+    "location": "Realm of Cibrin",
+    "leaders": ["Darga Nagrosh of Clan Thosh"],
+    "description": [
+      "@+Wexin+@ is a town near the border between Cibrin and the Theocracy of Tovanis."
+    ]
+  },
+  "Edremit": {
+    "playerKnown": true,
+    "tags": ["town","Lemuria","ulfwyst"],
+    "name": "Edremit",
+    "nickname": "Edremit",
+    "linkingWords": [],
+    "type": "Town",
+    "population": "850",
+    "races": ["human","dwarf","uklang","half-orc","half-giant"],
+    "government": "Clan Council",
+    "location": "Realm of Lemuria",
+    "leaders": [""],
+    "description": [
+      "@+Edremit+@ is a town near the border between Lemuria and the Archduchy of Zurast."
+    ]
+  }
+}

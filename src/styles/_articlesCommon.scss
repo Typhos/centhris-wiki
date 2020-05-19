@@ -1,0 +1,255 @@
+@import './mixins';
+
+a.backLink {
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+h2.fullName {
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 0;
+  font-size: 1.6em;
+  color: $blue;
+  font-family: $styleText;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid $blue;
+}
+
+h3.subjectArea {
+  font-weight: 700;
+  font-size: 1.5em;
+  letter-spacing: 0.05em;
+  margin-top: 2em;
+  line-height: 1.33em;
+  border-bottom: 1px solid rgba($charcoal,0.66);
+  overflow: hidden;
+}
+
+h4.subheading {
+  font-family: $headingText;
+  color: $charcoal;
+  line-height: 2em;
+  font-size: 1.35em;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  display: inline-block;
+  padding: 0;
+  margin: 0.5em 0 0;
+}
+
+a.externalLink {
+  border-bottom: 1px dotted $tagLink;
+  padding-bottom: 0.1em;
+  color: $charcoal;
+
+  &:hover {
+    color: $charcoal;
+  }
+}
+
+main.content {
+  padding: 0 1%;
+
+  aside.infoBox {
+    .info {
+      align-items: flex-start;
+
+      &.dates {
+        .values {
+          p.linkedContent {
+            display: inline-block;
+            &:nth-child(2n):before {
+              content: "—";
+              margin: 0 0.5em;
+            }
+          }
+        }
+      }
+
+      .key,
+      .values {
+        font-size: 0.85rem;
+
+        p.linkedContent {
+          font-family: $monoSpace;
+          font-size: 0.85rem;
+        }
+
+        a {
+          color: $tagLinkLight;
+        }
+      }
+
+      .key {
+        font-family: $monoSpace;
+        letter-spacing: 0.05em;
+        font-weight: 700;
+        width: 40%;
+      }
+
+      .values {
+        font-family: $monoSpace;
+        width: 60%;
+        text-align: right;
+      }
+    }
+  }
+
+  nav.subNav {
+    display: inline-flex;
+    min-width: 60%;
+    margin-left: 10%;
+    
+    .navList{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      margin-bottom: 1em;
+
+      .navElement {
+        display: inline-block;
+        line-height: 1.5em;
+        padding: 0 0.5em;
+        cursor: pointer;
+
+        &.active {
+          cursor: initial;
+          border-bottom: 1px solid tomato;
+        }
+      }
+    }
+  }
+
+  section.article {
+    width: 100%;
+
+    .info {
+      ul {
+        li {
+          list-style: none;
+          line-height: 1.65em;
+        }
+      }
+    }
+
+    .articleImgBox {
+      display: block;
+      float: left;
+      width: 20%;
+      padding: 0.15em;
+      margin: 0.5em 1.5em 0.5em 0;
+      border: 1px solid $grayText;
+      background: $lightText;
+      text-indent: 0;
+
+      &.right {
+        float: right;
+        margin: 0.5em 0.5em 0.5em 1.5em;
+      }
+
+      &.small {
+        width: 10%;
+      }
+
+      img.articleImg {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      figcaption {
+        color: $grayText;
+        font-family: $monoSpace;
+        font-style: italic;
+        font-size: 0.9em;
+        padding: 0 0.5em;
+        margin: 0;
+        line-height: 1.75em;
+      }
+    }
+
+    #categories {
+      .sectionList{
+        display: block;
+
+        li.entry {
+          width: 12.5%;
+          min-width: 5%;
+          height: auto;
+
+          p {
+            text-indent: initial;
+          }
+
+          img.landscape {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+.monoSpace {
+  font-family: $monoSpace;
+  font-size: 0.85rem;
+}
+
+
+@media all and (max-width: $breakpoint-mobile) {
+  
+  main.content {
+    h2.sectionGroup {
+      margin-top: 0;
+    }
+  
+    nav.subNav {
+      display: flex;
+      margin: 0 auto;
+
+      .navList{
+        margin-top: 1em;
+
+        .navElement {
+          width: auto;
+          text-align: center;
+          // padding: 0 7.5%;
+          padding: 0;
+          width: 25%;
+          margin-bottom: 1.5em;
+          padding-bottom: 0.5em;
+        }
+      }
+    }
+
+    section.article {
+
+      .articleImgBox {
+        width: 80%;
+        float: none;
+        display: block;
+        margin: 2em auto;
+
+        &.right {
+          float: none;
+          margin: 2em auto;
+        }
+
+        &.small {
+          width: 80%;
+        }
+
+        img.articleImg {
+
+        }        
+      }
+    }
+  }
+
+}

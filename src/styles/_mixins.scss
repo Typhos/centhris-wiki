@@ -1,0 +1,39 @@
+@import url('//fonts.googleapis.com/css?family=Ubuntu+Mono|Fira+Sans|Gochi+Hand|Oswald|Cinzel|Libre+Baskerville&display=swap');
+
+$white: #ffffff;
+$offWhite: #f4f4f4;
+$lightText: #e9e9e9;
+$grayText: #5c5c93;
+$charcoal: #0c0c13;
+
+$moodGreen: #2cdd90;
+$susiePurple: #4c2860;
+
+$blueLight: #d3edfd;
+$blue: #234d6d;
+$blueDark: #002d3d;
+
+$tagLink: #D33017;
+$tagLinkLight: #ff5a1e;
+$tagLinkHover: #158454;
+
+$statSheet: #FDF1DC;
+$dndRed: #7A200D;
+$dndGreen: #0d7756;
+$dndGold: #E59A28;
+
+$breakpoint-mobile: 768px;
+
+$monoSpace: "Ubuntu Mono", monospace !important;
+$styleText: "Cinzel", serif;
+$headingText: "Oswald", sans-serif;
+$sansText: "Century Gothic", sans-serif;
+$serifText: "Libre Baskerville", "Times New Roman", serif;
+$fira: "Fira Sans", sans-serif;
+$handwriting: "Gochi Hand", sans-serif;
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

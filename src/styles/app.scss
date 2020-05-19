@@ -1,0 +1,140 @@
+@import './mixins', "./articlesCommon";
+
+body {
+  font-family: $sansText;
+  font-size: 15px;
+}
+
+::spelling-error {
+  border-bottom: 1px dashed tomato;
+}
+
+#dmFlag {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  line-height: 1.2em;
+  font-family: $headingText;
+  font-size: 1.2em;
+  padding: 0;
+  margin: 0;
+  background-color: $charcoal;
+  color: $moodGreen;
+}
+
+h2.sectionGroup {
+  font-size: 1.5em;
+  margin: 1em auto 0;
+  font-family: $headingText;
+  font-variant: small-caps;
+  letter-spacing: 0.2em;
+
+  small {
+    font-size: 0.55em;
+    font-family: $sansText;
+    font-variant: normal;
+    letter-spacing: 0.05em;
+    color: $dndGreen;
+  }
+}
+
+h2.sectionTitle {
+  font-size: 1.1em;
+  letter-spacing: 0.15em;
+  width: 100%;
+  margin: 1.5em auto 1em;
+  font-family: $headingText;
+  color: $blueDark;
+  border-bottom: 1px solid $blueDark;
+
+  small {
+    font-size: 0.75em;
+    font-family: $sansText;
+    font-variant: normal;
+    letter-spacing: 0.05em;
+    color: $dndGreen;
+  }
+}
+
+#backLink {
+  display: inline-block;
+
+  p {
+    display: inline-block;
+    color: $tagLink;
+    padding-bottom: 0.4em;
+    padding-right: 0.5em;
+    border-bottom: 1px solid $tagLink;
+    margin-bottom: 1.5em;
+    margin-right: 3em;
+    cursor: pointer;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $tagLink;
+
+  &:hover {
+    color: $tagLinkHover;
+  }
+}
+
+main.content {
+  max-width: 1200px;
+  margin: 0.5em auto 0;
+
+  p.linkedContent {
+    font-size: 1em;
+    font-family: $sansText;
+  }
+}
+
+article.description {
+  width: 100%;
+  margin: 1.5em auto 1em;
+  line-height: 1.5em;
+}
+
+img.worldMap {
+  display: block;
+  margin: 3em auto;
+  width: 66%;
+  max-width: 1200px;
+}
+
+@media all and (max-width: $breakpoint-mobile) {
+
+  main.content {
+    width: 94vw;
+    position: relative;
+    top: 7.5vh;
+
+    article.person,
+    article.location,
+    article.group {
+      width: 96%;
+      margin: 0 2% 3em;
+
+      h2.fullName {
+        display: none;
+      }
+
+      div.mainContent {
+        i.quote {
+          padding: 0;
+        }
+      }
+
+      aside.infoBox {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 2em;
+
+        h4.nickname {
+
+        }
+      }
+    }
+  }
+}

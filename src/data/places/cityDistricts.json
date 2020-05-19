@@ -1,0 +1,487 @@
+{
+  "Gullhollow": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","rakenburg","barrier coast","ulfwyst"],
+    "name": "Gullhollow",
+    "nickname": "Gullhollow District",
+    "type": "City District",
+    "location": "Rakenburg",
+    "description": [
+      "Gullhollow is a mostly residential district in the city-state of Rakenburg. A mostly middle-class neighborhood, Gullhollow has a wide variety of shops, cafes and small green spaces. The district earned its name due to the variety of birds that live here. Generations of city folk have made a tradition out of placing and maintaining ornate bird boxes throughout the streets and alleyways.",
+      "Gullhollow is situated between the Murky Reach and Ghost Orchard."
+    ],
+    "articles": {
+      "Nightlife & Fairs": [
+        "Gullhollow is the cultural heart of Rakenburg. Home to the Dawnstar Fairgrounds, the district has numerous places for the residents to enjoy themselves. During holidays and festivals, the district becomes a dazzling display of lights, banners, bards and street performers. The fairgrounds, which sit on the northern end of the district, against the city wall is used extensively throughout the year. When not being used for fairs or festivals, the grounds also serve as a training ground for the Specula Arcanum."
+      ],
+      "Dangers Below": [
+        "Gullhollow, specifically the Dawnstar Fairgrounds, is the home to the Black Descent, which is the primary entrance into the Twisting Warrens. This ancient, ornate staircase is one of three known gates into the under-city, the other two smaller entrances being located in the Murky Reach and Ghost Orchard. The Black Descent is guarded at all hours by at least 10 members of the Specula Arcanum and 4 Gradiori. These watchmen are stationed to keep anything that might attempt to escape the under-city below and also to keep unauthorized explorers out."
+      ],
+      "Places of Interet": [
+        "Places of particular note in this district include Kilorn's Exotic Imports and the Dawnstar Fairgrounds."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Ghost-Orchard": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","rakenburg","barrier coast","ulfwyst"],
+    "name": "Ghost Orchard",
+    "nickname": "Ghost Orchard District",
+    "type": "City District",
+    "location": "Rakenburg",
+    "description": [
+      "Ghost Orchard is a district in the city of Rakenburg. It is the furthest district from the dockyards, making it the furthest from the smog that is produced in Embersky. The wealthiest merchants, guilds and foreign nobles own property here. The streets in Ghost Orchard are wide, cobblestone roads that almost as much horse and carriage traffic as pedestrians. The district has a regular presence of Specula Arcanum to dissuade illicit activity against the wealthy.",
+      "Ghost Orchard is located across the Kamsby river from the Greenwood Quarter and next to Gullhollow."
+    ],
+    "articles": {
+      "Places of Interet": [
+        "Located in this district are the Evening Lantern Inn, the Emerald Elephant Inn, Dawnkeeper Smithy, which specializes in high end arms and armor. The gates of Dawnguard Keep mark the western end of the district."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Murky-Reach": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","rakenburg","barrier coast","ulfwyst"],
+    "name": "Murky Reach",
+    "nickname": "Murky Reach District",
+    "type": "City District",
+    "location": "Rakenburg",
+    "description": [
+      "The Murky Reach is a district in the city-state of Rakenburg. It is located on the north side of the Kamsby river, sitting between Gullhollow and the coast of the Mare Concordis."
+    ],
+    "articles": {
+      "Dockyards, Warehouses and Tenements": [
+        "Murky Reach is a tightly packed district, full of small alleys, multi-story warehouses and quayside workshops. Most travelers coming into Rakenburg from the Mare Concordis step off the docks and find themselves here before quickly moving on to less crowded, and safer, places in the city. The Murky Reach has the highest crime rate in the city and is home to numerous gangs of cutthroats and brigands. People claim that if Rakenburg had anything like a Thieves' Guild, it would be in here.",
+        "Most houses in the Murk Reach are large, multi-family tenements that offer little in the way of space or accommodations. Many people who have moved to Rakenburg seeking a fresh start find themselves renting a space here, only to quickly move to Gullhollow or the Greenwood Quarter as soon as they can afford to do so."
+      ],
+      "Places of Interet": [
+        "Located along the water, the district is home to the northern dockyards, as well as the Shattered Anchor Pub, which is frequented by rowdy sailors and unscrupulous drifters. Rakenburg central square is also technically located in Murky Reach and contains the Reliquary of the Castidos, the Sacellum of the Guardian and the Temple of the Wanderer."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Greenwood-Quarter": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","rakenburg","barrier coast","ulfwyst"],
+    "name": "Greenwood Quarter",
+    "nickname": "Greenwood Quarter",
+    "linkingWords": ["the Greenwood Quarter"],
+    "type": "City District",
+    "location": "Rakenburg",
+    "description": [
+      "The Greenwood Quarter, previously known as Oldtown, is the oldest district of Rakenburg, but is the newest in terms of construction.",
+      "The district is located west of Embersky and across the Kamsby river from Ghost Orchard."
+    ],
+    "articles": {
+      "The Birthplace of the City": [
+        "City scholars speculate that it was in the Greenwood Quarter that people first resettled Rakenburg hundreds of years ago. Safely across the river from the Twisting Warrens, it was a safe place to settle while still having access to the old city's ruins for building materials. As the city expanded, the tight alleys and cramped streets of district left much to be desired and most immigrants preferred the city planning of the other districts."
+      ],
+      "the Great Fire of Oldtown": [
+        "The Greenwood District remained a tightly packed array of old buildings until 2C 2533, when the Great Fire of Oldtown scorched almost every building in the district to the ground. Tightly packed and full of old, dry, wooden buildings, the district was ripe for a devastating fire. It was only through the intervention of the guilds of Rakenburg and several private adventuring companies that more of the city was not caught up in the blaze.",
+        "After the fire, the Guild Council of Rakenburg set about re-planning and rebuilding the district, as it was still inside the city walls and it was only a matter of time before the displaced populace of Oldtown became restless. Using funds set aside for other projects, the Guild Council began rebuilding the district at a blazing pace. Within 15 years, the entire district was completely transformed."
+      ],
+      "Places of Interest": [
+        "Due to being mostly new construction, the only well known establishment in the district is the Stumbling Pelican Tavern, located near the south-west gate of the city."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Embersky": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","rakenburg","barrier coast","ulfwyst"],
+    "name": "Embersky",
+    "nickname": "Embersky District",
+    "type": "City District",
+    "location": "Rakenburg",
+    "description": [
+      "The Embersky District in Rakenburg is the industrial heart of the city. Numerous factories, workshops and the southern dockyards are located here. It is located next to the Greenwood Quarter and across the Kamsby River from the Murky Reach District."
+    ],
+    "articles": {
+      "Places of Interest": [
+        "Located in this district are the Stormrender Steelworks, the Rakenburg Naval Academy, the Wildhart Circus and the Stag & Goblet Tavern."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "The-Planks": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","volikgrad","barrier coast","ulfwyst"],
+    "name": "The Planks",
+    "nickname": "the Planks",
+    "type": "City District",
+    "location": "Volikgrad",
+    "description": [
+      "The Planks is a ward of the city-state of Volikgrad. A muddy, dangerous slum on the west side of the city, the Planks is home to the monster strange and dangerous denizens of Volikgrad. Cut purses who operate in the Twin Arches Market almost always flee into the labyrinth which is infested with back alley gangs, beggars and drunks."
+    ],
+    "articles": {
+      "What's in a Name?": [
+        "The streets of the district are not paved and due to the proximity to the docks, as well as coastal rains, the alleys of the Planks are often nearly impossible to use. The citizens of the district, instead of waiting in hope that the merchant-nobles of the city would pay to pave the streets, constructed a ramshackle system of causeways and catwalks as a means of getting around the ward when the streets become impassible. These overhead walkways, usually constructed from whatever wood was left over from the ships being constructed in the Oakyard, are where the district earned its name."
+      ],
+      "Dangerous Liaisons": [
+        "The Planks is not a welcoming part of Volikgrad and few visitors willingly wander into it by mistake. The ward does have seedy bars, fences and swindlers in abundance. Anyone looking to unload stole goods, find someone looking for hired muscle or hoping to hear about their next heist opportunity is bound to wind up in the Planks.",
+        "Some of the most dangerous assassins, daring thieves and infamous crime lords in all of the Barrier Coast got their start here."
+      ],
+      "Places of Interest": [
+        "The only establishments of note in the Planks end to be rough, rundown taverns that can be found on many street corners in the ward. The Brass Horse, the Glowing Wolf, Thorar's Pub, the Firbolg and Gambler, the One-eyed Monkey, and Spireforge's Tavern are a places to check out for anyone brave enough to risk their neck."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Windpoint": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","volikgrad","barrier coast","ulfwyst"],
+    "name": "Windpoint",
+    "nickname": "Windpoint District",
+    "type": "City District",
+    "location": "Volikgrad",
+    "description": [
+      "Windpoint sits at the crest of the hill on which Volikgrad is located. The district is seemingly ironically named, as the windiest points in the city tend to be along shore, in the Planks or the Foreign Quarter. The district itself is a working class neighborhood. Most of the residents are either craftsmen, day laborers or Oakyard dockworkers. The buildings in Windpoint are generally made of clay with shingled roofs. The clay used in the districts construction comes from a quarry outside the city that employs numerous neighborhood residents."
+    ],
+    "articles": {    
+      "Places of Interest": [
+        "Windpoint is generally the district that travelers first see when coming to Volikgrad by land. Two of the four gates to the city run through the ward. As such, there are several small inns and taverns that operate under the patronage of traveling merchants, mercenaries and pilgrims on their way to Rakenburg. Some of the most well-known taverns in the district include the Sapphire Pig, the Lumpy Sailor and Deror's Alehouse. Two modest inns that operate near the city gates are the Lonely Satyr Inn and the Honest Minstrel Lodge."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Stewards-Row": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","volikgrad","barrier coast","ulfwyst"],
+    "name": "Stewards Row",
+    "nickname": "Stewards Row",
+    "type": "City District",
+    "location": "Volikgrad",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Foreign-Quarter": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","volikgrad","barrier coast","ulfwyst"],
+    "name": "Foreign Quarter",
+    "nickname": "the Foreign Quarter",
+    "type": "City District",
+    "location": "Volikgrad",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "The-Oakyard": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","volikgrad","barrier coast","ulfwyst"],
+    "name": "The Oakyard",
+    "nickname": "the Oakyard",
+    "type": "City District",
+    "location": "Volikgrad",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Coldwall": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "tags": ["district","navolin","ulfwyst","frecyra"],
+    "name": "Coldwall",
+    "nickname": "Coldwall Ward",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Edgewater": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "tags": ["district","navolin","ulfwyst","frecyra"],
+    "name": "Edgewater",
+    "nickname": "Edgewater Ward",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Hartwood-Row": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "tags": ["district","navolin","ulfwyst","frecyra"],
+    "name": "Hartwood Row",
+    "nickname": "Hartwood Row",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Timberrun": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "tags": ["district","navolin","ulfwyst","frecyra"],
+    "name": "Timberrun",
+    "nickname": "Timberrun Ward",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Belloton": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "tags": ["district","navolin","ulfwyst","frecyra"],
+    "name": "Belloton",
+    "nickname": "Belloton Ward",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Drakeperch": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "tags": ["district","navolin","ulfwyst","frecyra"],
+    "name": "Drakeperch",
+    "nickname": "Drakeperch Heights",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+      "Write something."
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "The-Crowns": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "tags": ["district","navolin","ulfwyst","frecyra"],
+    "name": "The Crowns",
+    "nickname": "Crowns Arcade",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+      "Write something."
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Cwynburn": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "tags": ["district","navolin","ulfwyst","frecyra"],
+    "name": "Cwynburn",
+    "nickname": "Cwynburn Ward",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+      "Write something."
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Potter's-Reach": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "tags": ["district","navolin","ulfwyst","frecyra"],
+    "name": "Potter's Reach",
+    "nickname": "Potter's Reach",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+        "An bunch of places"
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Holford": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "tags": ["district","navolin","ulfwyst","frecyra"],
+    "name": "Holford",
+    "nickname": "Holford Ward",
+    "type": "City District",
+    "location": "Frecyra",
+    "description": [
+    ],
+    "articles": {    
+      "Places of Interest": [
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Goldhawk": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","barrier coast","venbrin","ulfwyst"],
+    "name": "Goldhawk",
+    "nickname": "Goldhawk District",
+    "type": "City District",
+    "location": "Venbrin",
+    "description": [
+      "@+Goldhawk+@ is the most affluent district in Venbrin. Sitting at the foot of the Argentate, most residents of the district are wealthy merchants, or aristocrats from noble families that have spread across the Barrier Coast city-states. Goldhawk is also the home of several knightly order halls and temples to lawful gods."
+    ],
+    "articles": {    
+      "Places of Interest": [
+        "@#The Shrine of Saint Bastilen#@",
+        "A well-known shrine to Bastilen, a martyr of the Champion. Bastilen was a famous hedge knight who roamed the wild places of Ulfwyst seeking to destroy evil where it took root. While on the Isle of Sunheim she was ambushed by cultists of the Wyrm and was sacrificed to their twisted god. Her body was never recovered. In place of a tomb, a memorial shrine was built in her honor in Goldhawk.",
+        "The structure itself is comprised of a great, stone lantern enshrining the flame of the Champion, said to reveal visions to those who leave an offering. It is said that so long as there are those who fight for the sake of others, the flame can never die.",
+        "@#Obelisk of Law#@",
+        "A large, flat-topped, 4-story obelisk that rises above the rest of Goldhawk. This structure is home to the Court of Order, the legal center of Venbrin. The first floor is a composed of a administrative center. The second floor is the grand courtroom and the final two upper floors are used for housing the staff of the court.",
+        "@#Alevak's Carvings#@",
+        "A prominent woodcarver's workshop, built around a large rowan tree. Alevak is a renowned, green-dragonborn woodcarver. Wealthy patrons from all over the city and beyond come to Alevak's Carvings for unique statues and works of art."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Darsnel-Hill": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","barrier coast","venbrin","ulfwyst"],
+    "name": "Darsnel Hill",
+    "nickname": "Darsnel Hill",
+    "type": "City District",
+    "location": "Venbrin",
+    "description": [
+      "@+Darsnel Hill+@ is nicknamed @*Temple Hill*@ due to the large number of temples and shrines to all manner of gods and demi-gods built there. Darsnel Hill is situated between Goldhawk, to the east, and Hornsend, to the south. The district begins at Templeheart Square, where the High Temple of the Maiden is located and ends at the Venhond Gate, located on the northern wall. "
+    ],
+    "articles": {    
+      "Places of Interest": [
+        "@#High Temple of the Maiden#@",
+        "An enormous temple dedicate to Yelensa, the goddess of the moon, this building is comprised of three spires, each topped with enchanted crystals that glow when exposed to the proper spectrum of moonlight. Each tower is dedicated to one of the Three Sisters.",
+        "@#Temple Row#@",
+        "@*Temple Row*@ is the main thoroughfare of the district, running directly up the hill. Along the entire stretch of the cobblestone path are numerous temples, shrines and monuments to the various gods and demi-gods. Almost every prominent god of the pantheon can be found on the path with the notable exception of the Fiend, the Stygian and several other darker deities who do not have cults willing to openly display their worship of the god.",
+        "@#The Weary Warhammer Lodge#@",
+        "A large, stone inn run by the dwarves of Clan Boulderpike. The inn stands 3 stories tall and is known for its large wrestling/boxing ring. Prize fights are held during each of the Noble Festivals of the Vesdarian Calendar. Informal bouts are not uncommon, but are tightly regulated by the owners, who reserve all booking and betting rights."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Hornsend": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","barrier coast","venbrin","ulfwyst"],
+    "name": "Hornsend",
+    "nickname": "Hornsend",
+    "type": "City District",
+    "location": "Venbrin",
+    "description": [
+      "@+Hornsend+@ is one of two working class districts of Venbrin. Located along the western wall of the city, the district got its name from the long, looped road that ran around it before the construction of the city wall."
+    ],
+    "articles": {    
+      "Places of Interest": [
+        "@#The Eldergrove#@",
+        "This thick, tangled copse of trees is a sacred location to a group of gnomes native to the Isle of Sunheim. The gnomes, known as Elderkin, have built a small village at the base of the trees, and guard it around the clock from those they do not deem worthy of entry. No one is clear when the gnomes arrived or why they revere the grove as they do.",
+        "@#Rylreman's Vials and Elixirs#@",
+        "A small, cramped store run by the halfling potion master Rylreman Tunsfield. The owner is known for stocking an odd assortment of potions not usually sold. Nobody is quite sure where he acquires his ingredients for his strange brews.",
+        "@#The Handsome Ox#@",
+        "A large inn, kept by a tiefling named Hadirnus. The first floor of the inn contains a stage for entertainers to perform, including the owner, who is  a retired adventurer & bard.",
+        "@#Elhia's Pottery#@",
+        "The workshop of a female human potter named Elhia, known for her fire-resistant stoneware scale armor."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Tollis-Quay": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","barrier coast","venbrin","ulfwyst"],
+    "name": "Tollis Quay",
+    "nickname": "Tollis Quay",
+    "type": "City District",
+    "location": "Venbrin",
+    "description": [
+      "The dockyards of Venbrin, the @+Tollis Quay+@ was the first human settlement on Sunheim. The small fishing village that began here eventually expanded to become the city of Venbrin as it exists today. Now a working class neighborhood of the city, it is informally run by gangs of ruffians who frequent scuffle in the streets, battling over territory."
+    ],
+    "articles": {    
+      "Places of Interest": [
+        "@#The Dead Parrot Tavern#@",
+        "A small, run-down tavern located along the docks, the Dead Parrot is a seedy bar run by Gavril Iskir, an Uklang who holds a side job as a fence. It is also the headquarters of the Trident Boys, one of the gangs of Tollis. The tavern is well known for being @*the place*@ to hold shady deals.",
+        "@#Fairtide Arsenal#@",
+        "The home of the Venbrin navy. All of the naval vessels belonging to Lord Baqrin Calosh are located at this dockyard, including his personal flagship, the Shining Dawn. The arsenal is surrounded by a small, 8 foot tall, stone wall which could easily be scaled, however none of the gangs of Venbrin are known to have dared to attempted a raid on the arsenal.",
+        "@#Stonehead Tower#@",
+        "A huge, ancient tower located on the eastern end of Tollis Quay. Standing roughly 8 stories tall, the tower's name comes from the large three-eyed stone head that crowns it. The tower has no known entrances at its base."
+      ]
+    },
+    "dmArticles": {
+    }
+  }
+}
