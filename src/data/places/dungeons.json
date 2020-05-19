@@ -28,6 +28,7 @@
     "tags": ["ruins","palace","ulfwyst","jordonis","efreet","barrier coast"],
     "name": "the Molten Halls",
     "nickname": "Molten Halls of Akad",
+    "linkingWords": ["Molten Halls"],
     "type": "Dungeon",
     "location": "Jordonis Mountains",
     "description": [

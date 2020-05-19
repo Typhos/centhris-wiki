@@ -16,6 +16,7 @@ class Navigation extends Component {
           <span></span>
           <span></span>
           <ul id="navigationList">
+            <li className={`navigationListItem ${ (loc === '/map') ? "active" : "" }`} navid="map"><Link to="/map">Map</Link></li>
             <li className={`navigationListItem ${ (loc === '/characters') ? "active" : "" }`} navid="characters"><Link to="/characters">Characters</Link></li>
             <li className={`navigationListItem ${ (loc === '/people') ? "active" : "" }`} navid="people"><Link to="/people">People</Link></li>
             <li className={`navigationListItem ${ (loc === '/places') ? "active" : "" }`} navid="places"><Link to="/places">Places</Link></li>

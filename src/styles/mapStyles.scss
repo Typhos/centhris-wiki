@@ -1,8 +1,9 @@
+@import "./mixins";
 @import url('https://api.tiles.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css');
 
 .mapContainer {
   position: absolute;
-  top: 105px;
+  top: 155px;
   right: 5px;
   left: 5px;
   bottom: 5px;
@@ -55,4 +56,70 @@
 
 .mapboxgl-popup-tip {
   display: none;
+}
+
+.mapboxgl-control-container {
+  .mapboxgl-ctrl-home {
+    font-size: 0;
+    background-image: url('../img/home.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .mapboxgl-ctrl-ruler {
+    font-size: 0;
+    background-image: url('../img/ruler.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3px;
+
+    &.active {
+      background-color: #9dcbe8;
+    }
+
+    &:not(:disabled):hover {
+      background-color: #9dcbe8;
+    }
+  }
+}
+
+#distance {
+  position: absolute;
+  display: inline-block;
+  top: 170px;
+  right: 15px;
+  z-index: 1;
+  width: auto;
+
+  & > * {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 18px;
+    display: block;
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+
+}
+
+@media all and (max-width: $breakpoint-mobile) {
+
+  .mapContainer {
+    // position: relative;
+    overflow: initial;
+    top: 0;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    height: 85vh;
+    width: 94vw;
+  }
+
+
+
 }

@@ -3,7 +3,7 @@
 "name": "Points of Interest",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "id": null, "name": "Molten Halls", "type": "Dungeon", "info": "The Molten Halls were once the palace of Akad the Magnificent, an efreet who ruled the area several thousand years ago. In their original state the Molten Halls were a huge, regal complex of basalt rock inlaid with dazzling bronze motifs." }, "geometry": { "type": "Point", "coordinates": [ 37.372651936446971, -11.264544542706934 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Grotto of the Withered Eye", "type": "Dungeon", "info": "A cave system in the hills outside the village of Rythlon, the grotto was a place of power for the witches of the Coven of the Withered Eye. In the rear of the cave system is an entrance to a series of ruined halls, where the coven would conduct foul rituals." }, "geometry": { "type": "Point", "coordinates": [ 35.453101123534189, -8.455739455353411 ] } }
+{ "type": "Feature", "properties": { "id": null, "name": "Molten Halls", "info": "The Molten Halls were once the palace of Akad the Magnificent, an efreet who ruled the area several thousand years ago. In their original state the Molten Halls were a huge, regal complex of basalt rock inlaid with dazzling bronze motifs." }, "geometry": { "type": "Point", "coordinates": [ 38.00, -11.1964 ] } },
+{ "type": "Feature", "properties": { "id": null, "name": "Grotto of the Withered Eye", "info": "A cave system in the hills outside the village of Rythlon, the grotto was a place of power for the witches of the Coven of the Withered Eye. In the rear of the cave system is an entrance to a series of ruined halls, where the coven would conduct foul rituals." }, "geometry": { "type": "Point", "coordinates": [ 35.453101123534189, -8.455739455353411 ] } }
 ]
 }
