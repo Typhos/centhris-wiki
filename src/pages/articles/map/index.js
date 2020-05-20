@@ -18,8 +18,6 @@ import dungeon from "img/dungeon.png";
 
 mapboxgl.accessToken = "pk.eyJ1IjoidHlwaG9zIiwiYSI6ImNrOTNrM2x5MzAweW4zZm1tZHY3d3ZtbmUifQ.eMdubQ_r2bfdI72pcCwNMg";
 
-console.log(turf)
-
 class InteractiveMap extends Component {
 
   constructor (props) {

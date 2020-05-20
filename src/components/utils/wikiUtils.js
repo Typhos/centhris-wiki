@@ -189,19 +189,20 @@ export default class WikiUtils {
     
     });
 
-
     return mapped;
   }
 
   static replaceNestedValue( dataset, name, link) {
 
     for ( let i in dataset ) {
+
       if ( Array.isArray(dataset[i]) ) {
         dataset[i].map( subArr =>  this.replaceNestedValue(subArr, name, link) );  
       }
 
       if ( typeof dataset[i] === 'string' ) {
-        let matcher = new RegExp(name + "[" + /\s/ + ".,;!?\"()':-]","g");
+        let matcher = new RegExp(name + "[\\s.,;!?\"()\/':-]","g");
+        // let matcher = new RegExp(name + "\\s" + "[.,;!?\"()\':-]","g");
         if ( matcher.test(dataset[i]) || dataset[i] === name ) {
           let strReplace = dataset[i].replace(name, `|${name}|`).split("|").map( str => ( str === name ) ? link : str);
 
