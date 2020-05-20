@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import WikiUtils from 'components/utils/wikiUtils';
 import Page from 'components/page';
+import { TitleComponent } from 'components/titleComponent.js';
 
 import mapboxgl from 'mapbox-gl';
 import * as turf from '@turf/turf'
@@ -128,6 +129,7 @@ class InteractiveMap extends Component {
 
     return (
       <Page.Location>
+        <TitleComponent title={`Map of Ulfwyst`} />
         {/*<div className='sidebarStyle'>
           <div>Longitude: {this.state.lng} | Latitude: {this.state.lat} | Zoom: {this.state.zoom}</div>
         </div>*/}
