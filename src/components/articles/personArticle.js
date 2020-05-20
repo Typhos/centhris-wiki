@@ -93,7 +93,7 @@ export default class PeopleArticle extends Component {
               <p className="key">Title(s)</p>
               <div className="values">{
                 person.titles.map( title => {
-                  return <React.Fragment>
+                  return <React.Fragment key={title}>
                     <p className="linkedContent">{title}</p>
                   </React.Fragment>
                 })
@@ -244,7 +244,6 @@ export default class PeopleArticle extends Component {
   }
 
   getArticles(person) {
-    console.log(person)
     let content = [WikiUtils.linkContent(person, WikiUtils.textFormatting( person.description) )];
 
     if (person.articles) {
