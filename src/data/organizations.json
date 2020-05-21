@@ -469,5 +469,18 @@
     ],
     "articles": {
     }
+  },
+  "Order-of-the-Radiant-Eye": {
+    "playerKnown": false,
+    "name": "Order of the Radiant Eye",
+    "nickname": "the Radiant Eye",
+    "tags": ["Ulfwyst","monks"],
+    "type": "Monastic Order",
+    "location": "Ulfwyst",
+    "description": [
+      "The @+Order of the Radiant Eye+@ is a monastic order who follow the teachings of the Philosopher. The order is dedicated to finding, organizing and preserving knowledge in all forms."
+    ],
+    "articles": {
+    }
   }
 }
