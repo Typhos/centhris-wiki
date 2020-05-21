@@ -8,7 +8,7 @@
     "location": "Sullen Fen",
     "leaders": [],
     "description": [
-      "Castle Romont."
+      "Castle Romont guards the western edge of the Sullen Fen. The castle was originally a single tower, constructed by an archmage long ago, but after her death the tower was fortified and turned into a proper defensive structure."
     ]    
   },
   "Castle-Grinsted": {
@@ -41,10 +41,10 @@
     "name": "Castle Bricza",
     "nickname": "Castle Bricza",
     "type": "Fortification",
-    "location": "Tiderack Coast",
+    "location": "Galren Moor",
     "leaders": ["Duchess Gertruda Czak"],
     "description": [
-      "Castle Bricza guards a secret pass through the Jordonis Mountains known only to select members of the Kingdom of Navolin. The keep is designed to be a refuge for the royal Czak family if events were to cause them to be in danger staying in court at Frecyra."
+      "Castle Bricza guards the eastern border between Navolin and the Barrier Coast. The castle was almost completely destroyed several centuries ago by Crozemgax, the Lord of Ash."
     ]    
   },
   "Castle-Westerholt": {
@@ -68,7 +68,7 @@
     "location": "Tiderack Coast",
     "leaders": ["Baroness Tola Stolarz"],
     "description": [
-      "@+Castle Lęczyca+@ @*(Lec-zee-ca)*@ is an abandoned castle located in the Gorcien Forests, specifically in the Czinlas Weald. Villagers from nearby towns claim that the castle has been abandoned for generations, but all of them agree on one thing: the castle is haunted and none of the locals will dare to venture near the place."
+      "@+Castle Lęczyca+@ @*(Lec-zee-ca)*@ is an abandoned castle located in the Gorcien Forests, specifically in the Czinlas Weald. Villagers from nearby toCount Izdor Brzezickwns claim that the castle has been abandoned for generations, but all of them agree on one thing: the castle is haunted and none of the locals will dare to venture near the place."
     ]    
   },
   "Castle-Roznów": {
@@ -80,10 +80,23 @@
     "location": "Tiderack Coast",
     "leaders": ["Baroness Tola Stolarz"],
     "description": [
-      "@+Castle Roznów+@ is an abandoned castle located on the edge of the Shambling Grove in north central Navolin. It was last occupied by Count Mathias Tykoncin, who ruled the area until 2C 2231, when the castle was sacked during the War of Five Crowns. After the castle's destruction, the ruins were never reclaimed, as the nearby woods seemed to creep ever closer to the keep. Those that attempted to explore the ruins looking for valuables rarely returned, and those that did claimed that strange beasts and moving trees guard the castle from intruders."
+      "@+Castle Roznów+@ is an abandoned castle located on the edge of the Shambling Woods in north central Navolin. It was last occupied by Count Mathias Tykoncin, who ruled the area until 2C 2231, when the castle was sacked during the War of Five Crowns. After the castle's destruction, the ruins were never reclaimed, as the nearby woods seemed to creep ever closer to the keep. Those that attempted to explore the ruins looking for valuables rarely returned, and those that did claimed that strange beasts and moving trees guard the castle from intruders."
     ],
     "dmArticles": {
-      "": []
+    }
+  },
+  "Castle-Tykocin": {
+    "playerKnown": false,
+    "tags": ["castle","navolin","ulfwyst"],
+    "name": "Castle Tykocin",
+    "nickname": "Castle Tykocin",
+    "type": "Fortification",
+    "location": "Damali Steppe",
+    "leaders": ["Count Izdor Brzezick"],
+    "description": [
+      "@+Castle Tykocin+@ overlooks the western roads of the Kingdom of Navolin leading into the Damali Steppe. It is the personal holding of Count Izdor Brzezick."
+    ],
+    "dmArticles": {
     }
   },
   "Castle-Wittmund": {
@@ -95,7 +108,7 @@
     "location": "Gorcien Forests",
     "leaders": ["Countess Justina Ostrowski"],
     "description": [
-      "Castle Wittmund is a castle in the foothills of the Jordonis Mountains. It is the keep of Countess Justina Ostrowski guards against aggression from the creatures that live in the Gorcien Forests, or those that might descend from the mountains to the east."
+      "@+Castle Wittmund+@ is a castle in the foothills of the Jordonis Mountains. It is the keep of Countess Justina Ostrowski guards against aggression from the creatures that live in the Gorcien Forests, or those that might descend from the mountains to the east."
     ]    
   },
   "Castle-Kollrung": {
@@ -107,7 +120,7 @@
     "location": "Tiderack Coast",
     "leaders": ["Baroness Tola Stolarz"],
     "description": [
-      "Castle Kollrung is a castle in the heartland of the Kingdom of Navolin. It is the keep of Count Radomil Sokal, the count of Balwiec."
+      "@+Castle Kollrung+@ is a castle in the heartland of the Kingdom of Navolin. It is the keep of Count Radomil Sokal, the count of Balwiec. At one time it marked the southern border of the kingdom before the wars of expansion that saw Navolin conquer the Kelishan Highlands."
     ]    
   },
   "Castle-Senmyr": {
@@ -119,7 +132,7 @@
     "location": "Tiderack Coast",
     "leaders": ["Count Lucjan Kaluza"],
     "description": [
-      "Castle Senmyr is a castle located in the Duchy of Kezmarok in the Kingdom of Navolin. It is the keep of Count Lucjan Kaluza."
+      "@+Castle Senmyr+@ is a castle located in the Duchy of Kezmarok in the Kingdom of Navolin. It is the keep of Count Lucjan Kaluza."
     ]    
   },
   "Castle-Erstfeld": {
@@ -128,22 +141,46 @@
     "name": "Castle Erstfeld",
     "nickname": "Castle Erstfeld",
     "type": "Fortification",
-    "location": "Adorra Sound",
+    "location": "Kaeldrin Sanctum",
     "leaders": [],
     "description": [
-      "Castle Erstfeld."
+      "Guarding the southwest region of the Kaeldrin Sanctum, @+Castle Erstfeld+@ is an expansive fortress designed speficially to hold out against attacks from both the ground and sky. It is rumored the castle could withstand a siege for over 2 years without need for reinforcements."
+    ]    
+  },
+  "Castle-Oltelmar": {
+    "playerKnown": false,
+    "tags": ["castle","kaeldrin scanctum","ulfwyst"],
+    "name": "Castle Oltelmar",
+    "nickname": "Castle Oltelmar",
+    "type": "Fortification",
+    "location": "Zorebrak Peninsula",
+    "leaders": [],
+    "description": [
+      "Castle Oltelmar is a castle-town located centrally in the Zorebrak Peninsula. Though a functional keep, the primary purpose of the complex is to train battle-mages for the Kaeldrin military."
+    ]    
+  },
+  "Castle-Ferden": {
+    "playerKnown": false,
+    "tags": ["castle","kaeldrin scanctum","ulfwyst"],
+    "name": "Castle Ferden",
+    "nickname": "Castle Ferden",
+    "type": "Fortification",
+    "location": "Vorssav Marshlands",
+    "leaders": [],
+    "description": [
+      "Built atop one of the few rocky hills in the Vorssav Marshlands, Castle Ferden provides a safe haven should hostile forces invade Kaeldrin from the northwest."
     ]    
   },
   "Castle-Thun": {
     "playerKnown": false,
-    "tags": ["castle","kaeldrin scanctum","ulfwyst"],
+    "tags": ["castle","kaeldrin sanctum","ulfwyst"],
     "name": "Castle Thun",
     "nickname": "Castle Thun",
     "type": "Fortification",
-    "location": "Adorra Sound",
+    "location": "Bay of Sathir",
     "leaders": [],
     "description": [
-      "Castle Thun."
+      "A coastal fortress overlooking the Bay of Sathir, @+Castle Thun+@ stands atop a naturally jetty. Due to this imposing location and the ability to resupply the fortress from the sea, the castle has never been breached the few times it has been put under siege."
     ]    
   },
   "Castle-Zagórz": {
@@ -294,7 +331,7 @@
     "location": "Lemuria",
     "leaders": [],
     "description": [
-      "Kaer Undvik."
+      "Kaer Undvik is a fortress on the edge of the Razark Timberlands which overlooks the western Ursgal Islands."
     ]
   },
   "Kaer-Ingskar": {
@@ -330,7 +367,7 @@
     "location": "Lemuria",
     "leaders": [],
     "description": [
-      "@+Kaer Edsken+@ is a keep on the northwest border of Lemuria. It guards the pass between the Korin Gulf and the Torick Peaks."
+      "@+Kaer Edsken+@ is a keep on the northwest border of Lemuria. It guards the roadway between the Korin Gulf and the Torick Peaks."
     ],
     "articles": {
       "Difters' End": [
@@ -344,10 +381,22 @@
     "name": "Kaer Soderhan",
     "nickname": "Kaer Soderhan",
     "type": "Fortification",
-    "location": "Lemuria",
+    "location": "Zurast",
     "leaders": [],
     "description": [
-      "Kaer Soderhan."
+      "Kaer Soderhan is a castle-town located in the southern Blighted Mire, overlooking the Bay of Claws. The keep was rebuilt on foundation of an ancient, ruined fortress."
+    ]
+  },
+  "Castle-Mignollard": {
+    "playerKnown": false,
+    "tags": ["castle","kaeldrin","ulfwyst"],
+    "name": "Castle Mignollard",
+    "nickname": "Castle Mignollard",
+    "type": "Fortification",
+    "location": "Kaeldrin Sanctum",
+    "leaders": [],
+    "description": [
+      "Castle Mignollard is the eastern-most fortification of the Kaeldrin Sanctum. The fortress guards the roadway south into the Damali Steppe."
     ]
   }
 }

@@ -300,12 +300,10 @@
     "type": "Dwarf Hold",
     "currency": "Cibrinian Vale",
     "population": "~900",
-    "races": ["dwarf","human","elf","gnome"],
-    "government": "Hereditary Monarchy",
+    "races": ["dwarf"],
+    "government": "Council of Elders",
     "location": "Vir Mountains",
-    "nation": "Dol Obok",
     "leaders": ["Lord Nezul Graybeard"],
-    "districts": [],
     "description": [
         "Vol Volund is a independent dwarven town founded as a home for dwarves who have been banished, or left other holds in disgrace. These reculsive dwarves rarely allow outsiders beyond the Gate of Rundgral."
     ],
@@ -324,11 +322,68 @@
     "races": ["dwarf","human","elf","gnome"],
     "government": "Hereditary Monarchy",
     "location": "Vir Mountains",
-    "nation": "Dol Obok",
     "leaders": ["Lord Erikoc Opalcloak"],
-    "districts": [],
     "description": [
         "Kadren Zul is an independent dwarf hold allied with the Realm of Cibrin. The dwarf lords of the city have extensive trade agreements with the clans of Cibrin, for whom they supply a large amount of weapons and armor."
+    ],
+    "dmArticles": {
+    }
+  },
+  "Maraz-Drul": {
+    "playerKnown": false,
+    "name": "Maraz Drul",
+    "nickname": "Dwarf Hold of Maraz Drul",
+    "linkingWords": ["Marazian"],
+    "tags": ["dwarf hold","jordonis mountains","ulfwyst"],
+    "type": "Dwarf Hold",
+    "currency": "Barrier Coast Hull",
+    "population": "~720",
+    "races": ["dwarf","gnome","human"],
+    "government": "Hereditary Monarchy",
+    "location": "Jordonis Mountains",
+    "nation": "Independent",
+    "leaders": ["Thane Daenva Broadmane"],
+    "districts": [],
+    "description": [
+        "Maraz Drul guards the Bricza Pass, one of the few safe passageways through the Jordonis Mountains. The dwarves of the hold have come into armed conflict with the peoples of Navolin, due to the high toll the dwarves place on the use of the pass."
+    ],
+    "dmArticles": {
+    }    
+  },
+  "Barak-Azgal": {
+    "playerKnown": false,
+    "name": "Barak Azgal",
+    "nickname": "Lost Dwarf Hold of Barak Azgal",
+    "linkingWords": ["Azgalian"],
+    "tags": ["dwarf hold","pillars of amud","ulfwyst"],
+    "type": "Dwarf Hold",
+    "currency": "Amuddurin",
+    "population": "unknown",
+    "government": "Hereditary Monarchy",
+    "location": "Pillars of Amud",
+    "districts": [],
+    "description": [
+        "The lost dwarf hold of Barak Azgal is considered a place of legend among the dwarves of Dol Obok. The city was lost centuries ago. Before its fall to invaders from the Underdark, the city was renowned for its vast gold deposits and architectural marvels."
+    ],
+    "dmArticles": {
+    }    
+  },
+  "Zul-Baraz": {
+    "playerKnown": false,
+    "name": "Zul Baraz",
+    "nickname": "Dwarf Hold of Zul Baraz",
+    "linkingWords": ["Barazian"],
+    "tags": ["dwarf hold","pillars of amud","ulfwyst"],
+    "type": "Dwarf Hold",
+    "currency": "Amuddurin",
+    "population": "~1,350",
+    "races": ["dwarf","human","halfling"],
+    "government": "Hereditary Monarchy",
+    "location": "Pillars of Amud",
+    "nation": "Dol Obok",
+    "leaders": ["Thane Jorstaal Bazgryn"],
+    "description": [
+        "The dwarven fortress of Zul Baraz guards Black Dragon Pass, one of the few natural passages into the Pillars of Amud. "
     ],
     "dmArticles": {
     }
