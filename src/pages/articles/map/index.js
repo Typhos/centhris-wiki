@@ -11,8 +11,10 @@ import cities from "data/map/cities.geojson";
 import poi from "data/map/poi.geojson";
 import keeps from "data/map/keeps.geojson";
 import dwarfHolds from "data/map/dwarfHolds.geojson";
+import capitals from "data/map/capitals.geojson";
 
 import dot from "img/city-dot.png";
+import star from "img/capital.png";
 import castle from "img/castle.png";
 import dwarf from "img/hammer.png";
 import dungeon from "img/dungeon.png";
@@ -89,8 +91,8 @@ class InteractiveMap extends Component {
 
     const cityLabelOptions = [
       "interpolate", ["linear"], ["zoom"],
-      2, 10,
-      6, 16
+      2, 8,
+      6, 14
     ];
 
     const castleIconOptions = [
@@ -111,6 +113,7 @@ class InteractiveMap extends Component {
       //url, layername, icon, source, radialOffset, iconOptions, labelOptions
       loadPoints(poi, 'interest_points', dungeon, 'poi', [0.01,0.6], castleIconOptions, cityLabelOptions, 0);
       loadPoints(cities, 'city_points', dot, 'cities', [0.01,0.6], cityIconOptions, cityLabelOptions, 0);
+      loadPoints(capitals, 'capitals', star, 'capitals', [0.01,0.6], cityIconOptions, cityLabelOptions, 0);
       loadPoints(keeps, 'castle_points', castle, 'castles', [0.01,0.6], castleIconOptions, cityLabelOptions, 0);
       loadPoints(dwarfHolds, 'dwarf_points', dwarf, 'dwarfHolds', [0.01,0.6], dwarfHoldIconOptions, cityLabelOptions, 0);
     });
@@ -161,7 +164,7 @@ class InteractiveMap extends Component {
           "icon-size": iconOptions,
           "icon-allow-overlap": false,
           "text-allow-overlap": false,
-          "text-field": ["get", "Name"],
+          "text-field": ["get", "name"],
           "text-size": labelOptions,
           "text-variable-anchor": ["top", "bottom", "left", "right"],
           "text-radial-offset": [

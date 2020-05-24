@@ -1,0 +1,131 @@
+{
+   "type":"FeatureCollection",
+   "name":"Ulfwyst Capitals",
+   "crs":{
+      "type":"name",
+      "properties":{
+         "name":"urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+   },
+   "features":[
+      {
+         "type":"Feature",
+         "properties":{
+            "id":null,
+            "name":"Kilurus",
+            "population":19523,
+            "type":"Lemurian Capital",
+            "info":"Kilurus is the capital city of the Realm of Lemuria and the seat of the High King or Queen of the Clans. "
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               36.816722306667721,
+               -24.846559482790294
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "id":null,
+            "name":"Zurast",
+            "population":22490,
+            "type":"Capital City",
+            "info":"Once a minor city-state, the city of Zurast is now the capital of the quickly expanding Archduch of Zurast. Almost all trade flowing up or down the Sulas River travels through the trade city."
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               33.478165421574957,
+               -17.452783432785818
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "id":null,
+            "name":"Frecyra",
+            "population":61145,
+            "type":"Navolinian Capital",
+            "info":"The capital of the Kingdom of Navolin, Frecyra was built around the mysterious Tower of Stantorr. It is the center of Navolinian cultural, political and military traditions."
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               35.507230024194712,
+               -0.196035373543057
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "id":null,
+            "name":"Axuros",
+            "population":22783,
+            "type":"Tovanian Capital",
+            "info":"Known as \"Dawn's Light\", Axuros is the capital of Tovanis. The city is home to numerous temples, and is a bastion of religious freedom. Arcane pursuits, however, are banned."
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               27.158548615121816,
+               -15.573216176297681
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "id":null,
+            "name":"Enira",
+            "population":null,
+            "type":"Cibrinian Capital",
+            "info":"The capital of Cibrin, Enira is the stronghold of Clan Godak. More of a stronghold than a city, it is said that no army has ever breached Enira's walls."
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               23.95162873967768,
+               -27.203645591241745
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "id":null,
+            "name":"Irulek",
+            "population":31620,
+            "type":"Kaeldrin Capital",
+            "info":"The capital of the Kaeldrin Sanctum, Irulek spans the Ponerno river just south of the Sullen Fen. From here the magisters of the Kaeldrin debate philosophy and explore the wonders of arcane magicks."
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               21.706784826866784,
+               8.997134936063464
+            ]
+         }
+      },
+      {
+         "type":"Feature",
+         "properties":{
+            "id":null,
+            "name":"Lyrannore",
+            "population":6580,
+            "type":"Ildroun Capital",
+            "info":"The capital city of the Ildroun Vale, Lyrannore sits deep in the Malthor Woods. The city's design and construction is a physical reminder of the elves' respect for and control over the natural world."
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               21.117513299753902,
+               5.064649438800084
+            ]
+         }
+      }
+   ]
+}
