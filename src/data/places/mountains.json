@@ -123,5 +123,27 @@
     "description": [
       "An active volcano located east of the Desolate Wastes and west of the Kelishan Highlands, the Eye of Vel'dorin billows dark smoke endlessly into the sky. An old saying in the region portents that should the mountain ever cease to smolder, all of Ulfwyst should fear Vel'dorin's wrath."
     ]    
+  },
+  "Tashvir-Mountains": {
+    "playerKnown": false,
+    "tags": ["region","volcano","moutain","ulfwyst"],
+    "name": "Tashvir Mountains",
+    "nickname": "Tashvir Mountains",
+    "type": "Mountain Range",
+    "location": "Ulfwyst",
+    "description": [
+      "One of the longest mountain ranges on Centhris, the @+Tashvir Mountains+@ are nearly 1,200 miles long, starting on the coast of the Adorra Sound in the north and running south all the way to the dangerous Skala Itam Gorge in the south."
+    ]    
+  },
+  "Dakshava-Heights": {
+    "playerKnown": false,
+    "tags": ["region","volcano","moutain","ulfwyst"],
+    "name": "Dakshava Heights",
+    "nickname": "Dakshava Heights",
+    "type": "Mountain Range",
+    "location": "Ulfwyst",
+    "description": [
+      "The @+Dakshava Heights+@ are a series of small to mid-sized mountains that run along the south western edge of the continent of Ulfwyst."
+    ]    
   }
 }
