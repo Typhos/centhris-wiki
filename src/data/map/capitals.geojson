@@ -126,6 +126,23 @@
                5.064649438800084
             ]
          }
+      },
+      { 
+         "type": "Feature", 
+         "properties": { 
+            "id": null, 
+            "name": "Lashkar", 
+            "population": 34700, 
+            "type": "Syrothian Capital", 
+            "info": "The capital city of the Syrothian Empire, Lashkar is home to the great hobgoblin hordes. In its great markets can be found goods of all kinds, including slaves captured from all over." 
+         }, 
+         "geometry": { 
+            "type": "Point", 
+            "coordinates": [ 
+               5.927402823066837, 
+               6.999491096984724 
+            ] 
+         } 
       }
    ]
 }
