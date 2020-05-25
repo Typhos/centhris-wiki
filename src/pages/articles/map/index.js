@@ -85,26 +85,26 @@ class InteractiveMap extends Component {
 
     const cityIconOptions = [
       "interpolate", ["linear"], ["zoom"],
-      3, 0.025,
+      4, 0.025,
       8, 0.15
     ];
 
     const cityLabelOptions = [
       "interpolate", ["linear"], ["zoom"],
-      2, 8,
+      4, 8,
       6, 14
     ];
 
     const castleIconOptions = [
       "interpolate", ["linear"], ["zoom"],
-      3, 0.005,
+      4, 0.005,
       8, 0.066
     ];
 
     const dwarfHoldIconOptions = [
       "interpolate", ["linear"], ["zoom"],
       // zoom is 4 (or less) -> circle radius will be minimum size
-      3, 0.0075,
+      4, 0.0075,
       // zoom is 18 (or greater) -> circle radius will be maximum size
       8, 0.1
     ];
@@ -159,6 +159,7 @@ class InteractiveMap extends Component {
         "id": layername,
         "type": "symbol",
         "source": source,
+        "minzoom": 4,
         "layout": {
           "icon-image": iconLayer,
           "icon-size": iconOptions,
