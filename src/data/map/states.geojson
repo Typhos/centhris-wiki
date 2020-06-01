@@ -20,6 +20,6 @@
 { "type": "Feature", "properties": { "id": null, "name": "Kingdom of Neria" }, "geometry": { "type": "Point", "coordinates": [ -39.781843381472171, -26.800198998624413 ] } },
 { "type": "Feature", "properties": { "id": null, "name": "Thanes of Rikkaz-Drun" }, "geometry": { "type": "Point", "coordinates": [ -23.607688457307724, 22.405988927578811 ] } },
 { "type": "Feature", "properties": { "id": null, "name": "Emirates of the Searing Dunes" }, "geometry": { "type": "Point", "coordinates": [ -33.322027025219839, -8.487358049655038 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Free Cities of the Barrier Coast" }, "geometry": { "type": "Point", "coordinates": [ 45.027176604719692, -4.527233543366601 ] } }
+{ "type": "Feature", "properties": { "id": null, "name": "Barrier Coast City-States" }, "geometry": { "type": "Point", "coordinates": [ 45.027176604719692, -4.527233543366601 ] } }
 ]
 }

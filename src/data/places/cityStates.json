@@ -60,6 +60,7 @@
     "government": "Oligarchic Republic",
     "currency": "Barrier Coast Hull",
     "location": "Barrier Coast",
+    "districts": ["Rainbank","Sunhook","Bakerton","Comar's Ford"],
     "description": [
       "Braxinfurt is one of the five major, allied cities that comprise the alliance of Barrier Coast city-states. A true merchant republic, the city is a strange experiment in governance in the eyes of other political entities in the region. The city has a long-standing alliance with the dwarven hold of Ezhekal, located to the west in the Jordonis mountains. The two cities have traded goods, resources and elements of their cultures for hundreds of years, creating a unique blend of art, music and legal practices."
     ]
