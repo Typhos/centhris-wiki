@@ -483,5 +483,69 @@
     },
     "dmArticles": {
     }
+  },
+  "Rainbank":{
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","barrier coast","braxinfurt","ulfwyst"],
+    "name": "Rainbank",
+    "nickname": "Rainbank",
+    "type": "City District",
+    "location": "Braxinfurt",
+    "description": [
+      ""
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    }
+  },
+  "Sunhook":{
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","barrier coast","braxinfurt","ulfwyst"],
+    "name": "Sunhook",
+    "nickname": "Sunhook",
+    "type": "City District",
+    "location": "Braxinfurt",
+    "description": [
+      ""
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    }
+  },
+  "Bakerton":{
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","barrier coast","braxinfurt","ulfwyst"],
+    "name": "Bakerton",
+    "nickname": "Bakerton",
+    "type": "City District",
+    "location": "Braxinfurt",
+    "description": [
+      ""
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    }
+  },
+  "Comar's-Ford":{
+    "playerKnown": true,
+    "hideOnCat": true,
+    "tags": ["district","barrier coast","braxinfurt","ulfwyst"],
+    "name": "Comar's Ford",
+    "nickname": "Comar's Ford",
+    "type": "City District",
+    "location": "Braxinfurt",
+    "description": [
+      ""
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    }
   }
 }
