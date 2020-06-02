@@ -8,7 +8,13 @@
     "location": "Rakenburg",
     "description": [
       "The town hall and meeting place of the Guild Council of Rakenburg. The Castidos is also a library and vault for information and items that come from the Twisting Warrens beneath Rakenburg."
-    ]
+    ],
+    "articles": {
+      "Nexus of Translocation": [
+        "The Nexus of Translocation is located in the basement of the Castidos. Generally only open to members of the guilds of Rakenburg, it contains numerous teleportation sigils to places across Ulfwyst. Members of guilds are able to access the circles for a 10gp charge per person, with any non-guild person joining them requiring a 50gp fee.",
+        "Sigils to the following places can be found in the nexus: Enira, Felrast, Frecyra, Futhmer, Khezrabad, Kilurus, Tegren, Thellodur, Zelmar, and the City of Zurast."
+      ]
+    }
   },
   "the-Bonemill":{
     "playerKnown": true,
