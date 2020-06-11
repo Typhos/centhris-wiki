@@ -148,5 +148,19 @@
     "description": [
       "@+The War of Five Crowns+@ was a conflict that took place from 2C 2211 to 2C 2245 between the states of Navolin, Malstein, Dunfeld, Lezna and Khor. The war marked the official dissolution of the @*Malstein Confederation*@."
     ]
+  },
+  "The-Great-Clan-War": {
+    "playerKnown": true,
+    "name": "The Great Clan War",
+    "nickname": "The Great Clan War of Lemuria",
+    "linkingWords": ["the Great Clan War","the Great Clan Wars"],
+    "dates": ["2C 2062","2C 2103"],
+    "type": "Conflict",
+    "tags": ["conflict","war","battles","ulfwyst","lemuria","clans"],
+    "description": [
+      "@+The Great Clan War+@ was a conflict that took place from 2C 2062 to 2C 2103 between the great houses of Lemuria. Scholars now agree that the war had been brewing for generations, with minor squabbles and family feuds between clans causing minor skirmishes and honor duels. However, the formal event that began full scale hostilities is generally agreed to be a familial dispute between Clan Arnbjorg and Clan Tordenfødt, due to claims of domestic violence against Brandur Arnbjorg, the heir to the clan chiefdom, by his wife, Nelgi Tordenfødt, sister of the ruling Tordenfødt lord, Eldmind Tordenfødt.",
+      "A series of battles between the two resulted in further hostility and the invocation of alliances and blood oaths by both sides. This spiraling conflict would see all of the great and many of the minor clans pulled into a conflict that ravaged the Realm of Lemuria and saw the clans lose their foothold over more distant holdings, including the former vassal state of Istagen and the declaration of its status as a free-city by the City of Zurast.",
+      "The war formally ended in 2C 2103 with the Grand Treaty of Kilurus, which declared the city as the seat of the newly instated Clan Council of Lemuria and its elected monarch, the High King. Clan Arnbjorg, who had previously held the city as the seat of its clan chieftain, relinquished its ownership and declared Postek as the clan's new home."
+    ]
   }
 }

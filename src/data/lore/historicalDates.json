@@ -248,6 +248,26 @@
       "minor": ["Zelmar Law is official enacted in the free city of Zelmar."]
     }
   },
+  "2C-2062": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2062",
+    "nickname": "2C 2062",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2062:"
+    ],
+    "articles": {
+      "The Great Clan War of Lemuria Begins": [
+        "The Great Clan War begins in Lemuria due to long-standing clan rivalries. The inciting event was a domestic dispute between Clan Arnbjorg and Clan Tordenfødt."
+      ]
+    },
+    "timeline": {
+      "age": ["Cordus Tempus Draconis Ends."],
+      "minor": []
+    }
+  },
   "2C-2100": {
     "playerKnown": true,
     "hideDate": false,
@@ -265,6 +285,26 @@
     },
     "timeline": {
       "age": ["Cordus Tempus Draconis Ends."],
+      "minor": []
+    }
+  },
+  "2C-2103": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2103",
+    "nickname": "2C 2103",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2103:"
+    ],
+    "articles": {
+      "The Great Clan War of Lemuria Ends": [
+        "The Great Clan War ends with the Treaty of Kilurus, which declares the city under the control of the Clan Council of Lemuria. The treat also established the elected position of High King or Queen, which served as a central, unifying figurehead behind which the Lemurians could rally."
+      ]
+    },
+    "timeline": {
+      "war": ["The Great Clan War Ends."],
       "minor": []
     }
   },

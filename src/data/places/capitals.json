@@ -56,13 +56,36 @@
     "name": "Kilurus",
     "nickname": "Kilurus",
     "type": "Capital City",
-    "population": "19,000",
+    "population": "30,900",
     "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
     "government": "Clan Council",
+    "districts": ["Ravensperch","The Boatyard","Spirit Grove","Kingsbloom","Korin Gate"],
     "location": "Lemuria",
+    "map": "City-of-Kilurus.png",
     "description": [
-      "The capital city of Lemuria, Kilurus is located on the eastern side of the Strait of Krigere."
-    ]
+      "@+Kilurus+@ is the capital and most populous city in Lemuria. The city is located on the eastern side of the Strait of Krigere, which connects the Korin Gulf to Isdrage Bay. The city is colloquially referred to as \"Gulbrandr's Rock\", attributed to the fact that the city was first founded in the shadow of a huge outcropping of rock, said to be shaped like the hand of the legendary Giant King Gulbrandr, on the shore of the bay.",
+      "The name Kilurus is derived from the ancient tribe of Uklang that once called the area home, known as the Kiluri. Originating as a small, tribal fishing settlement, the city's strategic location in the Strait of Krigere saw it grow into the stronghold of Clan Arnbjorg. After the Great Clan Wars of the Cordus Tempus Draconis, Kilurus was made into the capital city of the clans, under the authority of the High King or Queen, with @~Clan Arnbjorg~@ moving the seat of their clan chieftain to the city of Postek."
+    ],
+    "articles": {
+      "History": [
+        "For thousands of years, the lowland plains to the east of the Korin Gulf and Isdrage Bay were the nomadic hunting and foraging grounds of a tribe of Uklang known as the Kiluri. These relatively peaceful yakfolk did not posses seafaring technology and were unable to travel across the open waters, except during deep winter when the strait could occasionally freeze, allowing limited access to the lands to the west. This limitation on the migration of their people resulted in the founding of a permanent settlement on the strait, to act as an annual meeting place for the various nomadic herds to meet, trade and celebrate another year's passing. The ancient @~Yuklang~@ may have also chosen to found the village in this location due to the huge stone outcropping, known as Gulbrandr's Rock, which they revered as the hand of a petrified deity.",
+        "With the diaspora of humans, dwarves and tieflings after the Ruination, the land in the south east region of Centhris saw a massive influx of peoples looking for new places to call home. The humans who migrated to his area did so via small sailing vessels, similar to the traditional Lemurian longships of the current era, though much smaller. These people, in search of a new place to call home, realized the prime location of the Kiluri meeting grounds and over generations, peacefully integrated into the Uklang society. During this transitional period, the migrating humans taught the yakfolk the arts of fishing, ship building, large-scale engineering and other practices which had been unknown to the herds.",
+        "Over the ensuing centuries, the city would slowly expand, though growth would be stalled numerous times by large scales fires which destroyed large sections of the city. Also, due to its position as a trading port, the city suffered from numerous plagues that wiped out large portions of the population. The largest outbreak of disease occurred in 2C 1789. Known as the Frost Plague, this magical epidemic caused non-fur covered residents of the city to slowly become encased in ice. Due to the city's population of Marus and Uklang not being affected by the disease, some residents believed that the disease was a plot by the original residents of the city to purge it out \"outsider\".",
+        "By 2C 1800, Kilurus had been transformed into one of the most prosperous cities in Ulfwyst, having avoided much of the turmoil of the Cordus Tempus Draconis. However, this prosperity would eventually draw the attention of draconic avarice, and the jealousy of the less affluent @~Lemurian~@ tribes to the south and east. The next two hundred years would see the city put under siege no less than fifteen times, as rival tribes, bands of goblins, and giants would attempt to take the city. There were also numerous attacks on the city by dragons, often targeting noble houses or the Arnbjorg treasury.",
+        "In 2C 2062, the date agreed upon as the formal start of the Great Clan Wars, the city would become the most sought-after prize in the realm. The clan that managed to claim and retain control of the city was seen as the defacto ruling clan of Lemuria, and the city was sacked numerous times, as the great clans vied for control of it."
+      ],
+      "Peoples and Culture": [
+        "The city of Kilurus has a population of roughly 30,900 people. Humans and Half-Elves make up the largest population group in the city at roughly half of all residents. Other races found in the city include Uklang, Elves, Gnomes, Tieflings, Half-Orcs and isolated enclaves of Marus.",
+        "Kilurian culture is an amalgamation of clan cultures from across Lemuria."
+      ],
+      "Economy and Trade Practices": [
+        "Kilurus has been, historically, known for its shipwrights, stoneworkers, spiritualists (known as seers) and carpenters. Due to the vast amount of trade that flows through the city, a sizable banking sector has grown in the last century.",
+        "Many of the most prominent artisans hail from, or are patronized by, Clan Sjomann. The clan has had a long tradition of valuing arts and culture. Clan Sjomann's territorial holdings include vast deposits of mineral wealth, which they believe is bestowed upon them by the spirits. The clan, either as an act of good will or a calculated attempt to earn the political favor, has build large public works and low cost housing for the people of Kilurus.",
+        "Many of the shipyards which produce the widely recognized Lemurian longships are owned by Clan Arnbjorg, who are regarded as the most successful traders and explorers among the clans. Other businesses run by Arnbjorg include timberyards, forestries and carpenters. The Arnbjorg's strict focus on timber works and their unusually large population of half-elves has often been used as the butt end of jokes about the Arnbjorgs \"preparing to sail home to the lands of the fey\". In reality, the clan simply has chosen to invest in vertical integration, preferring to keep resource and operational costs low in order to maximize profits.",
+        "Almost every neighborhood in the city has shops and stands dedicated to spiritual guidance. Many of these practitioners hail from Clan Tordenfødt. This clan, comprised of a mix of humans and tieflings, are regarded with a mix of reverence and fear by the rest of the populace. Their unnatural appearance and uncanny affinity for spiritual matters tends to unnerve most people.",
+        "Smithing and metalworking, once a prominent industry in the city, has fallen into decline in recent decades. Clan Villdyr, which owned much of the forges and smithies in the city has turned to banking to replace their previous economic power. This has drawn the ire of the other clans, who view money lending as a business unbecoming of great warriors and masters of the sea."
+      ]
+    }
   },
   "Irulek": {
     "playerKnown": false,
