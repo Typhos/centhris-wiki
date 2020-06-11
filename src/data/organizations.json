@@ -335,6 +335,18 @@
     "tags": ["lemuria","ulfwyst","elective body"],
     "type": "Government",
     "location": "Realm of Lemuria",
+    "members": [
+      "Torild Sjomann",
+      "Ulfrica Arnbjorg",
+      "Wuldren Tordenfødt",
+      "Viljar Bjørsel",
+      "Solveig Alding",
+      "Ylva Kvalheim",
+      "Halder Falklyng",
+      "Dagny Nygard",
+      "Eydis Völsung"
+
+    ],
     "memberNumber": "15",
     "forceImg": "/places/Storsal-Helter",
     "leaders": [

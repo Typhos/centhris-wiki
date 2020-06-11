@@ -124,9 +124,10 @@
     ]
   },
   "Serbonji": {
-    "playerKnown": false,
+    "playerKnown": true,
     "name": "Serbonji",
-    "nickname": "Lionfolk",
+    "nickname": "Serbonji",
+    "commonName": "Lionfolk",
     "linkingWords": ["Sêrbonji"],
     "locations": ["Abbasyr"],
     "type": "Race",
@@ -135,7 +136,7 @@
     ]
   },
   "Marus": {
-    "playerKnown": false,
+    "playerKnown": true,
     "name": "Marus",
     "nickname": "Marus",
     "commonName": "Walrusfolk",
@@ -146,7 +147,7 @@
     ]
   },
   "Anubari": {
-    "playerKnown": false,
+    "playerKnown": true,
     "name": "Anubari",
     "nickname": "Anubari",
     "commonName": "Jackalfolk",
@@ -157,11 +158,33 @@
     ]
   },
   "Uklang": {
-    "playerKnown": false,
+    "playerKnown": true,
     "name": "Uklang",
     "nickname": "Uklang",
     "commonName": "Yakfolk",
     "locations": ["Lemuria","Cibrin","Hestia","Syrothia"],
+    "type": "Race",
+    "tags": ["race"],
+    "description": [
+    ]
+  },
+  "Zhuren": {
+    "playerKnown": false,
+    "name": "Zhuren",
+    "nickname": "Zhuren",
+    "commonName": "Boarfolk",
+    "locations": [],
+    "type": "Race",
+    "tags": ["race"],
+    "description": [
+    ]
+  },
+  "Daxiong": {
+    "playerKnown": false,
+    "name": "Daxiong",
+    "nickname": "Daxiong",
+    "commonName": "Boarfolk",
+    "locations": [],
     "type": "Race",
     "tags": ["race"],
     "description": [

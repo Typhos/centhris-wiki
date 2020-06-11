@@ -180,5 +180,69 @@
     "description": [
       "@+Han Darga Vazrak+@ is the leader of the Realm of Cibrin, the head of Clan Godak, and is said to be one of the greatest living warriors on Centhris."
     ]
+  },
+  "Ulfrica-Arnbjorg": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Ulfrica Arnbjorg",
+    "nickname": "Clan Chief Ulfrica Arnbjorg",
+    "linkingWords": ["Chief Arnbjorg"],
+    "tags": ["half-elf","noble","Realm of Lemuria"],
+    "age": "59",
+    "gender": "Female",
+    "race": "Half-Elf",
+    "occupation": "Chief of Clan Arnbjorg",
+    "affiliations": ["Realm of Lemuria"],
+    "description": [
+      "@+Clan Chief Ulfrica Arnbjorg+@ is the leader of Clan Arnbjorg and one of the ruling members of the Clan Council of Lemuria."
+    ]
+  },
+  "Torild-Sjomann": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Torild Sjomann",
+    "nickname": "Clan Chief Torild Sjomann",
+    "linkingWords": ["Chief Sjomann"],
+    "tags": ["human","noble","Realm of Lemuria"],
+    "age": "47",
+    "gender": "Male",
+    "race": "Human",
+    "occupation": "Chief of Clan Sjomann",
+    "affiliations": ["Realm of Lemuria"],
+    "description": [
+      "@+Clan Chief Torild Sjomann+@ is the leader of Clan Sjomann and one of the ruling members of the Clan Council of Lemuria."
+    ]
+  },
+  "Wuldren-Tordenfødt": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Wuldren Tordenfødt",
+    "nickname": "Clan Chief Wuldren Tordenfødt",
+    "linkingWords": ["Chief Tordenfødt"],
+    "tags": ["tiefling","noble","Realm of Lemuria"],
+    "age": "38",
+    "gender": "Male",
+    "race": "Tiefling",
+    "occupation": "Chief of Clan Tordenfødt",
+    "affiliations": ["Realm of Lemuria"],
+    "description": [
+      "@+Clan Chief Wuldren Tordenfødt+@ is the leader of Clan Tordenfødt and one of the ruling members of the Clan Council of Lemuria."
+    ]
+  },
+  "Viljar-Bjørsel": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "name": "Viljar Bjørsel",
+    "nickname": "Clan Chief Viljar Bjørsel",
+    "linkingWords": ["Chief Bjørsel"],
+    "tags": ["tiefling","noble","Realm of Lemuria"],
+    "age": "42",
+    "gender": "Male",
+    "race": "Human",
+    "occupation": "Chief of Clan Bjørsel",
+    "affiliations": ["Realm of Lemuria"],
+    "description": [
+      "@+Clan Chief Viljar Bjørsel+@ is the leader of Clan Bjørsel and one of the ruling members of the Clan Council of Lemuria."
+    ]
   }
 }

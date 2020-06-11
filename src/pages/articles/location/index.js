@@ -222,18 +222,20 @@ class Location extends Component {
 
         let districtImg = images("./Belloton.png");
 
-        // if the district has an image
-        if ( images.keys().some( img => img.includes( distData.name.replace(/\s/g,'-') ) ) ) {
-          districtImg = images( images.keys().filter( img => img.includes( distData.name.replace(/\s/g,'-') ) ) ); 
-        }
+        if (distData) {
+          // if the district has an image
+          if ( images.keys().some( img => img.includes( distData.name.replace(/\s/g,'-') ) ) ) {
+            districtImg = images( images.keys().filter( img => img.includes( distData.name.replace(/\s/g,'-') ) ) ); 
+          }
 
-        if ( distData.playerKnown === true || this.state.dmView ) {
-          return <li className="entry">
-            <Link to={`/location/${distData.name.replace(/\s/g,"-")}`}>
-              <img className="landscape" alt="" src={districtImg || ""}/>
-              <p>{distData.name}</p>
-            </Link>
-          </li>
+          if ( distData.playerKnown === true || this.state.dmView ) {
+            return <li className="entry">
+              <Link to={`/location/${distData.name.replace(/\s/g,"-")}`}>
+                <img className="landscape" alt="" src={districtImg || ""}/>
+                <p>{distData.name}</p>
+              </Link>
+            </li>
+          }
         }
 
         return undefined;
