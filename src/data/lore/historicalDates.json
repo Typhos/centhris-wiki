@@ -229,6 +229,26 @@
       "minor": []
     }
   },
+  "2C-1975": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 1975",
+    "nickname": "2C 1975",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 1975:"
+    ],
+    "articles": {
+      "Shulxaa, the Withered King, Comes to Power in Istagen": [
+        "After years of undermining the ruling nobles of the Kingdom of Istagen, the lich lord Shulxaa assumes full control of the kingdom. No longer hiding behind proxies or agents, the lich assumes the throne, having removed all actors capable of challenging him."
+      ]
+    },
+    "timeline": {
+      "major": ["The Lich Lord Shulxaa comes to power in Istagen."],
+      "minor": []
+    }
+  },
   "2C-2047": {
     "playerKnown": true,
     "hideDate": false,
@@ -428,7 +448,26 @@
       "minor": []
     }
   },
-
+  "2C-2461": {
+    "playerKnown": true,
+    "hideDate": false,
+    "name": "2C 2461",
+    "nickname": "2C 2461",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2C 2461:"
+    ],
+    "articles": {
+      "Heskur": [
+        "The Knights of the Sacred Dawn defeat Shulxaa, the Withered King, and destroy his phylactery. After the defeat of the lich lord, the knights form the Theocracy of Tovanis from the ashes of the Kingdom of Istagen."
+      ]
+    },
+    "timeline": {
+      "major": ["The Knights of the Sacred Dawn defeat Shulxaa, the Withered King and form the Theocracy of Tovanis."],
+      "minor": []
+    }
+  },
   "2C-2481": {
     "playerKnown": true,
     "hideDate": false,

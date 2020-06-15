@@ -89,7 +89,7 @@
     "hideOnCat": true,
     "name": "Shulxaa",
     "nickname": "Shulxaa, the Withered King",
-    "linkingWords": ["Shulxaa the Withered King"],
+    "linkingWords": ["Shulxaa the Withered King","Lich Lord of Istagen"],
     "tags": ["lich","realm lord","wizard","historical"],
     "birthYear": "??",
     "deathYear": "2C 2461",
@@ -98,7 +98,7 @@
     "occupation": "Realm Lord",
     "affiliations": ["Istagen"],
     "description": [
-      "@+Shulxaa, the Withered King+@, was a lich lord who reigned over the Kingdom of Istagen for several hundred years prior to his defeat by the Knights of the Sacred Dawn. Shulxaa had achieved lichdom several hundred years prior to his complete domination of the Kingdom of Istagen. He established total control around 2C 1900, though his domination of the realm had occurred slowly, lasting roughly a hundred years, as the region was twisted into a puppet state by the lich."
+      "@+Shulxaa, the Withered King+@, was a lich lord who reigned over the Kingdom of Istagen for several hundred years prior to his defeat by the Knights of the Sacred Dawn. Shulxaa had achieved lichdom several hundred years prior to his complete domination of the kingdom. He established total control around 2C 1975, though his domination of the realm had occurred slowly, lasting roughly a hundred years, as the region was twisted into a puppet state by the lich."
     ]
   }
 }
