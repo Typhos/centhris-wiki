@@ -697,5 +697,90 @@
         "text": "The void horror trains all of its innumerable eyes upon a creature it can see within 60 feet. The target must make a DC 16 Wisdom saving throw or take 12 (3d8) necrotic damage and become frightened until the end of the void horror's next turn. While frightened in this way, the creature is also paralyzed. If the target's saving throw is successful, the target is immune to the void horror's Eyes in the Dark for the next 24 hours."
       }
     ]
+  },
+  "Lesser-Lich": {
+    "playerKnown": false,
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Lesser Lich",
+    "nickname": "Counciler of the Withered King",
+    "type": "Undead",
+    "tags": ["undead","mage","wizard","lich"],
+    "description": [
+      "A @+Lesser Lich+@ is a mage who was granted the gift of undeath from another, usually more powerful, being. The lesser lich, though a powerful magic user in their own right, does not have the same mastery of life and death that a true lich has achieved.",
+      "Though generally gaunt and skeletal with withered flesh stretched tight across horribly visible bones, the appearance of lesser liches can vary greatly in appearance depending on their age. Most members of the Council appear as skeletons dressed in regal finery, but some choose to mask their true appearance with magical illusions that return them to the appearance they once had in life. Bright pinpoints of crimson light burn in the empty sockets of those whose eyes had been destroyed, or otherwise lost, or were so old they had simply rotted away. When moving, liches seeme to glide as if floating on water.",
+      "Most undead mages, depending on how long they have been undead, do not have lips or the necessary organs to produce natural speech, instead using their magical abilities to project speech from their mouths, moving the jaw (if present) to aid the illusion."
+    ],
+    "articles": {
+      "Council of the Withered King": [
+        "Shulxaa, the Withered King, was a lich lord who reigned over the Kingdom of Istagen for several hundred years prior to his defeat by the Knights of the Sacred Dawn. Having achieved lichdom several hundred years prior to his complete domination of the Kingdom of Istagen, the lich found that though many wizards publicly spoke out against the practice of magical undeath, in private they were far more willing to entertain such ideas. Thus, the lich lord slowly began to find willing mages whom he felt were worthy (and subservient) enough to join his inner circle, which would eventually grow to become known as the Council of the Withered King.",
+        "Once a wizard had accepted the terms of his dark bargain, @~Shulxaa~@ would create for them a phylactery in which the mage would transfer their life force, becoming a lich. However, the secret of the creation of such objects, as well as their individual hiding places, were never shared with his servants, as a means of control by the Lich Lord. Thus, the council members, even if they might be tempted, would never overly act against their master. Shulxaa also went to great lengths over the course of his reign over Istagen to ensure that the knowledge of how to create a phylactery was never available to his servants, as a further way to ensure their loyalty."
+      ],
+      "The Lesser Lich's Phylactery": [
+        "The process of achieving lichdom requires that the spellcaster construct a powerful magical artifact, a phylactery, in which the lich stores its life essence. As long as this phylactery is unharmed, the lich is immortal and can attempt to reassemble if it is ever vanquished (this happens within 10 days after its apparent destruction). Liches take great care in protecting their phylactery from harm, employing decoys, traps, and other defenses. Lesser liches guard their soul containers even more jealously than a true lich, if such a thing were possible, as they do not have the required knowledge create their own. Instead, they are closer to thralls, relying on the knowledge of a master lich, in order to store their soul in a phylactery."
+      ]
+    },
+    "dmArticles": {
+    },
+    "alignment": "Lawful Evil",
+    "creatureType": "Medium Undead",
+    "stats": [
+      {"name": "STR", "val": 10},
+      {"name": "DEX", "val": 14},
+      {"name": "CON", "val": 12},
+      {"name": "INT", "val": 20},
+      {"name": "WIS", "val": 15},
+      {"name": "CHA", "val": 16}
+    ],
+    "armor": "12 (15 With Mage Armor)",
+    "hitPoint": 99,
+    "hitDie": "18d8+18",
+    "speed": "30 ft.",
+    "skills": "Arcana +13, History +13",
+    "savingThrows": "Int +9, Wis +6",
+    "damageResistances": "Damage From Spells; Non Magical Bludgeoning, Piercing, And Slashing (From Stoneskin)",
+    "damageVulnerabilities": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
+    "senses": "Darkvision 60 ft.",
+    "passiveWisdom": 12,
+    "languages": "Common, Dwarven, Elven, Draconic, Infernal, Primordial",
+    "challenge": "12",
+    "abilities": [
+      {
+        "name": "Magic Resistance.",
+        "text": "The lesser lich has advantage on saving throws against spells and other magical effects."
+      },
+      {
+        "name": "Rejuvenation.",
+        "text": "If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its Hit Points and becoming active again. The new body appears within 5 feet of the phylactery."
+      },
+      {
+        "name": "Aura of Death.",
+        "text": "At the start of its turn, each non-undead creature within 10 feet of the lich must make a DC 15 Constitution saving throw against this magic, taking 14 (4d6) necrotic damage on a failed save, or half as much damage on a successful one."
+      },
+      {
+        "name": "Spellcasting.",
+        "text": "The lesser lich is an 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The lesser lich can cast disguise self and invisibility at will and has the following wizard spells prepared:",
+        "list": [
+          "Cantrips (at will): shocking grasp, mage hand, prestidigitation, ray of frost",
+          "1st level (4 slots): detect magic, shield, mage armor*, magic missile",
+          "2nd level (3 slots): detect thoughts, mirror image, misty step",
+          "3rd level (3 slots): animate dead, counterspell, fly, fireball",
+          "4th level (3 slots): banishment, blight, stoneskin*",
+          "5th level (2 slots): cone of cold, scrying",
+          "6th level (1 slot): circle of death",
+          "7th level (1 slot): teleport",
+          "8th level (1 slot): mind blank*",
+          "* The lesser lich casts these spells on itself before combat."
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Paralyzing Touch.",
+        "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (2d6) cold damage. The target must succeed on a DC 15 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      }
+    ]
   }
 }

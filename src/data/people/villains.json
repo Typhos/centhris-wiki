@@ -186,5 +186,30 @@
         "Before becoming a pirate, Jöndr was a prisoner in Duskreef, having been captured near Korasov, in the Barrier Coast, where he was raiding merchant vessels that ventured too close to rocks, which he would obscure with fog, causing them to run aground."
       ]
     }
+  },
+  "Ulfrica-Arnbjorg": {
+    "playerKnown": true,
+    "hideOnCat": false,
+    "name": "Ulfrica Arnbjorg",
+    "nickname": "Clan Chief Ulfrica Arnbjorg",
+    "linkingWords": ["Chief Arnbjorg"],
+    "tags": ["half-elf","noble","Realm of Lemuria"],
+    "age": "59",
+    "gender": "Female",
+    "race": "Half-Elf",
+    "occupation": "Chief of Clan Arnbjorg",
+    "affiliations": ["Realm of Lemuria"],
+    "description": [
+      "@+Clan Chief Ulfrica Arnbjorg+@ is the leader of Clan Arnbjorg and one of the ruling members of the Clan Council of Lemuria. Ulfrica, known as the Frost Queen, is a powerful wild sorceress who specializes in ice magic."
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+      "The Return of the Withered King": [
+        "Ulfrica has been in negotiations with the dwarves of Ankor Duraz for several years. The negotiations, which have been proceeding rather well by all accounts, never seem to lead anywhere, due to her stalling and intentional meddling at the Clan Council of Lemuria.",
+        "She intentional sabotaging the negotiations to provide cover for meetings with members of the Council of the Withered King who have taken up residence in the northern Greyleaf Pines. Ulfrica has grown tired of what she sees as the \"cycle of failed Lemurian monarchs\" and is looking for a way to return Shulxaa, as the new lord of Lemuria, to Ulfwyst in exchange for becoming a full lich herself. In order for this agreement, Ulfrica will help resurrect Shulxaa, in exchange for the knowledge to build her own phylactery."
+      ]
+    }
   }
 }

@@ -178,7 +178,12 @@ class Creatures extends Component {
         { creature.conditionImmunities &&
           <p><strong>Condition Immunities</strong> {creature.conditionImmunities}</p>
         }
-        <p><strong>Senses</strong> {creature.senses}, passive Perception {creature.passiveWisdom}</p>
+        <p>
+          <strong>Senses</strong> 
+            {creature.senses}
+            {creature.senses && creature.passiveWisdom && <React.Fragment>, </React.Fragment>} 
+            passive Perception {creature.passiveWisdom}
+        </p>
         { creature.languages &&
           <p><strong>Languages</strong> {creature.languages}</p>
         }
@@ -192,7 +197,15 @@ class Creatures extends Component {
           creature.abilities.map( ability => {
             return <React.Fragment>
               <p>
-                <strong>{ability.name}</strong> { WikiUtils.textFormatting(ability.text) }
+                <strong>{ability.name}</strong> <span className="descriptionText">{ WikiUtils.textFormatting(ability.text) }</span>
+                { ability.list && 
+                  <ul className="abilityList">
+                    { ability.list.map( (str, i) => {
+                        return <li className="abilityItem" key={ability.name + "-" + i}>{str}</li>
+                      })
+                    }
+                  </ul> 
+                }
               </p>
             </React.Fragment>
           })
