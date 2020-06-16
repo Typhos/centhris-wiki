@@ -329,7 +329,7 @@
     }
   },
   "Clan-Council-of-Lemuria": {
-    "playerKnown": false,
+    "playerKnown": true,
     "name": "Clan Council of Lemuria",
     "nickname": "Clan Council of Lemuria",
     "tags": ["lemuria","ulfwyst","elective body"],
@@ -374,7 +374,7 @@
     }
   },
   "Clan-Villdyr": {
-    "playerKnown": false,
+    "playerKnown": true,
     "name": "Clan Villdyr",
     "nickname": "Clan Villdyr",
     "tags": ["Lemuria","ulfwyst","clan"],
@@ -390,7 +390,7 @@
     }
   },
   "Clan-Sjomann": {
-    "playerKnown": false,
+    "playerKnown": true,
     "name": "Clan Sjomann",
     "nickname": "Clan Sjomann",
     "tags": ["Lemuria","ulfwyst","clan"],
@@ -406,7 +406,7 @@
     }
   },
   "Clan-Tordenfødt": {
-    "playerKnown": false,
+    "playerKnown": true,
     "name": "Clan Tordenfødt",
     "nickname": "Clan Tordenfødt",
     "tags": ["Lemuria","ulfwyst","clan"],
@@ -422,7 +422,7 @@
     }
   },
   "Clan-Arnbjorg": {
-    "playerKnown": false,
+    "playerKnown": true,
     "name": "Clan Arnbjorg",
     "nickname": "Clan Arnbjorg",
     "tags": ["Lemuria","ulfwyst","clan"],
@@ -438,7 +438,7 @@
     }
   },
   "Clan-Bjørsel": {
-    "playerKnown": false,
+    "playerKnown": true,
     "name": "Clan Bjørsel",
     "nickname": "Clan Bjørsel",
     "tags": ["Lemuria","ulfwyst","clan"],
