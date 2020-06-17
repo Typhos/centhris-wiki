@@ -1,6 +1,7 @@
 {
   "Mare-Concordis": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["region","ocean","Centhris"],
     "name": "Mare Concordis",
     "nickname": "Mare Concordis",
@@ -12,6 +13,7 @@
   },
   "Mare-Umbra": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["region","ocean","Centhris"],
     "name": "Mare Umbra",
     "nickname": "Mare Umbra",
@@ -23,6 +25,7 @@
   },
   "Mare-Dyskira": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["region","ocean","Centhris"],
     "name": "Mare Dyskira",
     "nickname": "Mare Dyskira",
@@ -34,6 +37,7 @@
   },
   "Mare-Amnatis": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["region","ocean","Centhris"],
     "name": "Mare Amnatis",
     "nickname": "Sea of Lost Souls",
@@ -45,6 +49,7 @@
   },
   "Makorian-Sea": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["sea","region","ulfwyst"],
     "name": "Makorian Sea",
     "nickname": "Makorian Sea",
@@ -56,6 +61,7 @@
   },
   "North-Lesdys-Sea": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["sea","region","ulfwyst"],
     "name": "North Lesdys Sea",
     "nickname": "North Lesdys Sea",
@@ -67,6 +73,7 @@
   },
   "Jade-Depths": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["sea","region","ulfwyst"],
     "name": "Jade Depths",
     "nickname": "Jade Depths",
@@ -78,6 +85,7 @@
   },
   "Venngar-Sea": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["sea","region","ulfwyst"],
     "name": "Venngar Sea",
     "nickname": "Venngar Sea",
@@ -89,6 +97,7 @@
   },
   "Isdrage-Bay": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["sea","region","ulfwyst"],
     "name": "Isdrage Bay",
     "nickname": "Isdrage Bay",
@@ -100,6 +109,7 @@
   },
   "Korin-Gulf": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["sea","region","ulfwyst"],
     "name": "Korin Gulf",
     "nickname": "Korin Gulf",
@@ -111,6 +121,7 @@
   },
   "Bay-of-Claws": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["sea","region","ulfwyst"],
     "name": "Bay of Claws",
     "nickname": "Bay of Claws",
@@ -127,6 +138,7 @@
   },
   "Adorra-Sound": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["sea","region","ulfwyst"],
     "name": "Adorra Sound",
     "nickname": "Adorra Sea",
@@ -143,6 +155,7 @@
   },
   "Strait-of-Krigere": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["sea","region","ulfwyst"],
     "name": "Strait of Krigere",
     "nickname": "Strait of Krigere",

@@ -1,6 +1,7 @@
 {
   "Reliquary-of-the-Castidos":{
     "playerKnown": true,
+    "path": "location",
     "tags": ["structure","barrier coast","ulfwyst","rakenburg"],
     "name": "Reliquary of the Castidos",
     "nickname": "the Castidos",
@@ -18,6 +19,7 @@
   },
   "the-Bonemill":{
     "playerKnown": true,
+    "path": "location",
     "tags": ["structure","Rythlon","ulfwyst","navolin"],
     "name": "the Bonemill",
     "nickname": "the Bonemill",
@@ -31,6 +33,7 @@
   },
   "Shrine-of-the-Agrestal-Cycle": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["building","shrine","Thornroot Forest","kelishan highlands","ulfwyst"],
     "name": "Shrine of the Agrestal Cycle",
     "nickname": "Shrine of the Agrestal Cycle",
@@ -42,6 +45,7 @@
   },
   "Tower-of-Stantorr": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["building","tower","wizard","frecyra","navolin","ulfwyst"],
     "name": "Tower of Stantorr",
     "nickname": "Stantorr",
@@ -53,6 +57,7 @@
   },
   "Seloc-Gelhyan": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["building","school","wizard","Khezrabad","Abbasyr","ulfwyst"],
     "name": "Seloc Gelhyan",
     "nickname": "the Seloc Gelhyan",
@@ -68,6 +73,7 @@
   },
   "Eikras-Auction-House":{
     "playerKnown": true,
+    "path": "location",
     "tags": ["structure","barrier coast","ulfwyst","rakenburg"],
     "name": "Eikras Auction House",
     "nickname": "the Eikras",
@@ -83,6 +89,7 @@
   },
   "Ruby-Phoenix-Guild-Hall": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["guild hall","building","rakenburg","ulfwyst","barrier coast","ruby phoenix"],
     "name": "Ruby Phoenix Guild Hall",
     "nickname": "Ruby Phoenix Guild Hall",
@@ -95,6 +102,7 @@
   },
   "Sacellum-of-the-Guardian": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["temple","building","rakenburg","ulfwyst","barrier coast","church","the guardian"],
     "name": "Sacellum of the Guardian",
     "nickname": "the Sacellum",
@@ -117,6 +125,7 @@
   },
   "The-Argentate": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["building","venbrin","ulfwyst","barrier coast","palace","fortress"],
     "name": "The Argentate",
     "nickname": "The Argentate",
@@ -135,6 +144,7 @@
   },
   "Chram-of-the-Eternal": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["temple","building","rakenburg","ulfwyst","barrier coast","church","the eternal"],
     "name": "Chram of the Eternal",
     "nickname": "the Chram",
@@ -152,6 +162,7 @@
   },
   "Hessirwynd-Palace": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["palace","building","navolin","frecyra","ulfwyst","king"],
     "name": "Hessirwynd Palace",
     "nickname": "Hessirwynd Royal Palace",
@@ -163,6 +174,7 @@
   },
   "Storsal-Helter": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["palace","building","navolin","frecyra","ulfwyst","king"],
     "name": "Storsal Helter",
     "nickname": "Grand Hall of the Clans",
@@ -175,6 +187,7 @@
   },
   "Hall-of-the-Eternal-Saints": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["temple","building","axuros","tovanis","ulfwyst"],
     "name": "Hall of the Eternal Saints",
     "nickname": "Shrine to the Eternal Saints",
@@ -185,6 +198,7 @@
   },
   "Kvenvik-Tower": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["tower","building","Zabrosk","Lemuria","ulfwyst"],
     "name": "Kvenvik Tower",
     "nickname": "Kvenvik Tower",
@@ -196,6 +210,7 @@
   },
   "Pałac-Króla": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["king's palace","building","Frecyra","Navolin","ulfwyst"],
     "name": "Pałac Króla",
     "nickname": "Pałac Króla",
@@ -207,6 +222,7 @@
   },
   "Kongir-Temple": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["Nakali Islands","ulfwyst"],
     "name": "Kongir Temple",
     "nickname": "Kongir Temple",

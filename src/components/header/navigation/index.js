@@ -1,40 +1,66 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+import Search from "components/search";
+import NavList from "components/header/navigation/navList";
+
 import 'styles/navigation.scss';
 
 class Navigation extends Component {
 
+  constructor (props) {
+    super(props);
+
+    this.state = {
+      menu: false
+    }
+
+    this.toggleMenu = this.toggleMenu.bind(this);
+    this.closeMenu = this.closeMenu.bind(this);
+  }
+
   render () {
-    const loc = window.location.pathname;
 
     return (
       <nav>
-        <div id="menuToggle">
-          <input type="checkbox" />
-          <span></span>
-          <span></span>
-          <span></span>
-          <ul id="navigationList">
-            <li className={`navigationListItem ${ (loc === '/map') ? "active" : "" }`} navid="map"><Link to="/map">Map</Link></li>
-            <li className={`navigationListItem ${ (loc === '/characters') ? "active" : "" }`} navid="characters"><Link to="/characters">Characters</Link></li>
-            <li className={`navigationListItem ${ (loc === '/people') ? "active" : "" }`} navid="people"><Link to="/people">People</Link></li>
-            <li className={`navigationListItem ${ (loc === '/places') ? "active" : "" }`} navid="places"><Link to="/places">Places</Link></li>
-            <li className={`navigationListItem ${ (loc === '/organizations') ? "active" : "" }`} navid="organizations"><Link to="/organizations">Organizations</Link></li>
-            <li className={`navigationListItem ${ (loc === '/loreCategories') ? "active" : "" }`} navid="lore"><Link to="/loreCategories">Lore</Link></li>
-            <li className={`navigationListItem ${ (loc === '/timeline') ? "active" : "" }`} navid="timeline"><Link to="/timeline">Timeline</Link></li>
-            <li className={`navigationListItem ${ (loc === '/creatureTypes') ? "active" : "" }`} navid="creatures"><Link to="/creatureTypes">Creatures</Link></li>
-            <li className={`navigationListItem ${ (loc === '/spellCategories') ? "active" : "" }`} navid="runes"><Link to="/spellCategories">Spells</Link></li>
-            <li className={`navigationListItem ${ (loc === '/miscCategories') ? "active" : "" }`} navid="misc"><Link to="/miscCategories">Misc</Link></li>
-            <li className={`navigationListItem ${ (loc === '/runes') ? "active" : "" }`} navid="runes"><Link to="/runes">Runes</Link></li>
-          </ul>
+        <div className="desktopNav">
+          <div className="alignmentShell">
+            <div className="menuHousing">
+              <input className="menuTrigger" type="checkbox" checked={this.state.menu} onChange={this.toggleMenu}/>
+              <button className="menuButton" ><span className="icon">&equiv;</span> Menu</button>
+              <div className="overlay">
+                <h3 className="navHeading">navigation</h3>
+                <NavList/>
+                <div className="closeMenu">
+                  <span onClick={this.closeMenu}>x</span>
+                </div>
+              </div>
+            </div>
+            <Search />
+          </div>
+        </div>
+
+        <div className="mobileNav">
+          <div id="menuToggle">
+            <input className="menuTrigger" type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <NavList/>
+          </div>
         </div>
       </nav>
     )
   }
 
-  navigate(e) {
+  toggleMenu(e) {
+    this.setState({menu: e.target.checked});
+  }
 
+  closeMenu() {
+    if ( this.state.menu === true ) {
+      this.setState({menu: false})
+    }
   }
 }
 

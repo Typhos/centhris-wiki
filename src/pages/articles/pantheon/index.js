@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import DataLoader from 'components/utils/dataLoader';
 import Back from 'components/back';
-import Search from 'components/search';
+import Filter from 'components/filter';
 import Page from 'components/page';
 import WikiUtils from "components/utils/wikiUtils";
 import { TitleComponent } from 'components/titleComponent.js';
@@ -48,7 +48,7 @@ class Pantheon extends Component {
     };
 
     this.checkEmptyEntry = this.checkEmptyEntry.bind(this);
-    this.handleSearch = this.handleSearch.bind(this);
+    this.handleFilter = this.handleFilter.bind(this);
     this.getGods = this.getGods.bind(this);
   }
 
@@ -71,7 +71,7 @@ class Pantheon extends Component {
       <Page.LoreCategories>
         <TitleComponent title={`Centhrian Pantheon - Centhris Wiki`} />
         <Back/>
-        <Search handleSearch={ this.handleSearch } data={this.state.combinedLore}/>
+        <Filter handleFilter={ this.handleFilter } data={this.state.combinedLore}/>
         
         <div id="categories" >
           <article className="lore" id="pantheon">
@@ -114,7 +114,7 @@ class Pantheon extends Component {
     return "";
   }
 
-  handleSearch(results) {
+  handleFilter(results) {
     this.setState({gods: results});
   }
 

@@ -1,6 +1,7 @@
 {  
   "Castle-Romont": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","kaeldrin sanctum","ulfwyst"],
     "name": "Castle Romont",
     "nickname": "Romont",
@@ -13,6 +14,7 @@
   },
   "Castle-Grinsted": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["castle","navolin","rythlon","ulfwyst"],
     "name": "Castle Grinsted",
     "nickname": "Grinsted",
@@ -25,6 +27,7 @@
   },
   "Castle-Adendorf": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","navolin","ulfwyst"],
     "name": "Castle Adendorf",
     "nickname": "Castle Adendorf",
@@ -37,6 +40,7 @@
   },
   "Castle-Bricza": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","navolin","ulfwyst"],
     "name": "Castle Bricza",
     "nickname": "Castle Bricza",
@@ -49,6 +53,7 @@
   },
   "Castle-Westerholt": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","navolin","ulfwyst"],
     "name": "Castle Westerholt",
     "nickname": "Castle Westerholt",
@@ -61,6 +66,7 @@
   },
   "Castle-Lęczyca": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","navolin","ulfwyst","abandoned"],
     "name": "Castle Lęczyca",
     "nickname": "Castle Lęczyca",
@@ -73,6 +79,7 @@
   },
   "Castle-Roznów": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","navolin","ulfwyst","abandoned"],
     "name": "Castle Roznów",
     "nickname": "Castle Roznów",
@@ -87,6 +94,7 @@
   },
   "Castle-Tykocin": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","navolin","ulfwyst"],
     "name": "Castle Tykocin",
     "nickname": "Castle Tykocin",
@@ -101,6 +109,7 @@
   },
   "Castle-Wittmund": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","navolin","ulfwyst"],
     "name": "Castle Wittmund",
     "nickname": "Castle Wittmund",
@@ -113,6 +122,7 @@
   },
   "Castle-Kollrung": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","navolin","ulfwyst"],
     "name": "Castle Kollrung",
     "nickname": "Castle Kollrung",
@@ -125,6 +135,7 @@
   },
   "Castle-Senmyr": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","navolin","ulfwyst"],
     "name": "Castle Senmyr",
     "nickname": "Castle Senmyr",
@@ -137,6 +148,7 @@
   },
   "Castle-Erstfeld": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","kaeldrin scanctum","ulfwyst"],
     "name": "Castle Erstfeld",
     "nickname": "Castle Erstfeld",
@@ -149,6 +161,7 @@
   },
   "Castle-Oltelmar": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","kaeldrin scanctum","ulfwyst"],
     "name": "Castle Oltelmar",
     "nickname": "Castle Oltelmar",
@@ -161,6 +174,7 @@
   },
   "Castle-Ferden": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","kaeldrin scanctum","ulfwyst"],
     "name": "Castle Ferden",
     "nickname": "Castle Ferden",
@@ -173,6 +187,7 @@
   },
   "Castle-Thun": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","kaeldrin sanctum","ulfwyst"],
     "name": "Castle Thun",
     "nickname": "Castle Thun",
@@ -185,6 +200,7 @@
   },
   "Castle-Zagórz": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","navolin","ulfwyst","abandoned","vampire"],
     "name": "Castle Zagórz",
     "nickname": "Castle Zagórz",
@@ -203,6 +219,7 @@
   },
   "Auburn-Castle": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["castle","navolin","rythlon","ulfwyst"],
     "name": "Auburn Castle",
     "nickname": "Auburn Castle",
@@ -216,6 +233,7 @@
   },
   "Kaer-Valvik": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["castle","navolin","rythlon","ulfwyst"],
     "name": "Kaer Valvik",
     "nickname": "Kaer Valvik",
@@ -228,18 +246,20 @@
   },
   "Var-Komarno": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","Cibrin","Clan Godak","ulfwyst"],
     "name": "Var Komarno",
     "nickname": "Var Komarno",
     "type": "Fortification",
     "location": "Torick-Vir Valley",
-    "leaders": ["Han Darga Vaburk"],
+    "leaders": ["Han Darga Crogosh"],
     "description": [
       "Var Komarno is the hill fortress of Clan Godak, one of the most powerful clans in Cibrin."
     ]
   },
   "Var-Rohoznik": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","Tovanis","ulfwyst"],
     "name": "Var Rohoznik",
     "nickname": "Var Rohoznik",
@@ -252,6 +272,7 @@
   },
   "Var-Valoska": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","Tovanis","ulfwyst"],
     "name": "Var Valoska",
     "nickname": "Var Valoska",
@@ -264,6 +285,7 @@
   },
   "Fesgart-Citadel": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","navolin","frecyra","ulfwyst"],
     "name": "Fesgart Citadel",
     "nickname": "Fesgart Citadel ",
@@ -276,6 +298,7 @@
   },
   "Dawnguard-Keep": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["castle","rakenburg","barrier coast","ulfwyst"],
     "name": "Dawnguard Keep",
     "nickname": "Dawnguard Keep",
@@ -288,6 +311,7 @@
   },
   "Kaer-Alfjall": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","lemuria","ulfwyst"],
     "name": "Kaer Alfjall",
     "nickname": "Kaer Alfjall",
@@ -300,6 +324,7 @@
   },
   "Kaer-Sundsvall": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","lemuria","ulfwyst"],
     "name": "Kaer Sundsvall",
     "nickname": "Kaer Sundsvall",
@@ -312,6 +337,7 @@
   },
   "Kaer-Uldrog": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","lemuria","ulfwyst"],
     "name": "Kaer Uldrog",
     "nickname": "Kaer Uldrog",
@@ -324,6 +350,7 @@
   },
   "Kaer-Undvik": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","lemuria","ulfwyst"],
     "name": "Kaer Undvik",
     "nickname": "Kaer Undvik",
@@ -336,6 +363,7 @@
   },
   "Kaer-Ingskar": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","lemuria","ulfwyst"],
     "name": "Kaer Ingskar",
     "nickname": "Kaer Ingskar",
@@ -348,6 +376,7 @@
   },
   "Kaer-Ramvik": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","lemuria","ulfwyst"],
     "name": "Kaer Ramvik",
     "nickname": "Kaer Ramvik",
@@ -360,6 +389,7 @@
   },
   "Kaer-Edsken": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","lemuria","ulfwyst"],
     "name": "Kaer Edsken",
     "nickname": "Kaer Edsken",
@@ -371,12 +401,13 @@
     ],
     "articles": {
       "Difters' End": [
-        "In 2C 2547, Kaer Edsken was still a ruined keep which had become the home of Usodgen, the Scourger, an adult red dragon. After years of this draconic menace terrorizing the nearby villages and towns, including Zabrosk, Niz and Borgvik, the adventuring group known as the Ruby Drifters assaulted the keep and killed Usodgen. Though they managed to rid the region of the red tyrant, only a single member of the Drifters, Belthren Ogni, survived the battle."
+        "In 2C 2542, Kaer Edsken was still a ruined keep which had become the home of Usodgen, the Scourger, an adult red dragon. After years of this draconic menace terrorizing the nearby villages and towns, including Zabrosk, Niz and Borgvik, the adventuring group known as the Ruby Drifters assaulted the keep and killed Usodgen. Though they managed to rid the region of the red tyrant, only a single member of the Drifters, Belthren Ogni, survived the battle."
       ]
     }
   },
   "Kaer-Soderhan": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","lemuria","ulfwyst"],
     "name": "Kaer Soderhan",
     "nickname": "Kaer Soderhan",
@@ -389,6 +420,7 @@
   },
   "Castle-Mignollard": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["castle","kaeldrin","ulfwyst"],
     "name": "Castle Mignollard",
     "nickname": "Castle Mignollard",

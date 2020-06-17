@@ -202,7 +202,7 @@ export default class PeopleArticle extends Component {
               {attunedItems}
             </div>
           }
-          { person.feats && 
+          { person.feats && this.state.dmView &&
             <div className="info">
               <p className="key">Feats</p>
               <div className="values">{WikiUtils.linkContent(person, person.feats)}</div>

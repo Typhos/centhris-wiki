@@ -1,6 +1,7 @@
 {
   "the-Rostamas": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["mountains","region","ulfwyst"],
     "name": "the Rostamas",
     "nickname": "Rostamas",
@@ -12,6 +13,7 @@
   },
   "Crimson-Mist-Mountains": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["mountains","forest","region","Western Koraxon"],
     "name": "Crimson Mist Mountains",
     "nickname": "Crimson Mist Mountains",
@@ -23,6 +25,7 @@
   },  
   "Jordonis-Mountains": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["mountains","region","ulfwyst"],
     "name": "Jordonis Mountains",
     "nickname": "Jordonis Mountains",
@@ -34,6 +37,7 @@
   },
   "Kazgrim-Mountains": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["mountains","region","ulfwyst"],
     "name": "Kazgrim Mountains",
     "nickname": "Kazgrim Moutains",
@@ -47,6 +51,7 @@
   },
   "Pillars-of-Amud": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["mountains","region","ulfwyst"],
     "name": "Pillars of Amud",
     "nickname": "Spires of Amud",
@@ -58,6 +63,7 @@
   },
   "Torick-Peaks": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["mountains","region","ulfwyst"],
     "name": "Torick Peaks",
     "nickname": "Torick Peaks",
@@ -69,6 +75,7 @@
   },
   "Vir-Mountains": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["mountains","region","ulfwyst"],
     "name": "Vir Mountains",
     "nickname": "Vir Mountains",
@@ -80,6 +87,7 @@
   },
   "Vesanas-Mountains": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["mountains","region","entos"],
     "name": "Vesanas Mountains",
     "nickname": "Vesanas Mountains",
@@ -92,6 +100,7 @@
   },
   "Duskspear-Peaks": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["mountains","region","entos"],
     "name": "Duskspear Peaks",
     "nickname": "Tathlok Skirrom",
@@ -104,6 +113,7 @@
   },
   "Celestial-Shards": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["mythic","region","ulfwyst","spires","Torisoda Archipelago"],
     "name": "Celestial Shards",
     "nickname": "Celestial Shards",
@@ -115,6 +125,7 @@
   },
   "Eye-of-Vel'dorin": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["region","volcano","moutain","ulfwyst"],
     "name": "Eye of Vel'dorin",
     "nickname": "Vel'dorin's Eye",
@@ -126,6 +137,7 @@
   },
   "Tashvir-Mountains": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["region","volcano","moutain","ulfwyst"],
     "name": "Tashvir Mountains",
     "nickname": "Tashvir Mountains",
@@ -137,6 +149,7 @@
   },
   "Dakshava-Heights": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["region","volcano","moutain","ulfwyst"],
     "name": "Dakshava Heights",
     "nickname": "Dakshava Heights",

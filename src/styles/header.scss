@@ -8,7 +8,6 @@
     justify-content: center;
     min-height: 8vh;
     color: #fff;
-    // text-shadow: 1px 1px 3px #111, 2px 2px 3px #114, -1px 1px 3px  rgba(#114,0.8), 1px -1px 3px rgba(#114,0.8);
     font-family: $styleText;
     font-variant: small-caps;
     letter-spacing: 0.1em;
@@ -21,7 +20,7 @@
       font-size: 3rem;
       font-weight: 400;
       text-align: center;
-      padding: 0;
+      padding: 0.25em 0;
       margin: 0;
       line-height: 1.5em;
       background: -webkit-linear-gradient($lightText, $moodGreen);

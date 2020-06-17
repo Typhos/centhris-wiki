@@ -58,7 +58,7 @@ export default class WikiUtils {
           } else if ( /^~(.*?)~$/.test(substr) ) {
 
             substr = substr.replace(/~/g, "");
-            substr = <span>{substr}</span>;
+            substr = <span key={substr}>{substr}</span>;
 
           } else if ( /^\+(.*?)\+$/.test(substr) ) {
 

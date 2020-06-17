@@ -1,6 +1,7 @@
 {
   "Qabakh": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["city","Abbasyr","port","ulfwyst","adorra sound"],
     "name": "Qabakh",
     "nickname": "Qabakh",
@@ -16,6 +17,7 @@
   },
   "Majandir": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["city","Abbasyr","ulfwyst"],
     "name": "Majandir",
     "nickname": "Majandir",
@@ -31,6 +33,7 @@
   },
   "Al-Saham": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["city","Abbasyr","port","ulfwyst"],
     "name": "Al Saham",
     "nickname": "Al Saham",
@@ -46,6 +49,7 @@
   },
   "Badra-Gassan": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["city","Abbasyr","port","ulfwyst"],
     "name": "Badra Gassan",
     "nickname": "Badra Gassan",
@@ -61,6 +65,7 @@
   },
   "Zelmar": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["city","Abbasyr","port","ulfwyst","adorra sound"],
     "name": "Zelmar",
     "nickname": "Zelmar",
@@ -88,6 +93,7 @@
   },
   "Grovstok": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["city","Abbasyr","port","ulfwyst","adorra sound"],
     "name": "Grovstok",
     "nickname": "Grovstok",
@@ -111,6 +117,7 @@
   },
   "Tarona": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["city","Abbasyr","port","ulfwyst","adorra sound"],
     "name": "Tarona",
     "nickname": "Tarona",
@@ -134,6 +141,7 @@
   },
   "Ozeresk": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["city","Lemuria","port","ulfwyst"],
     "name": "Ozeresk",
     "nickname": "Ozeresk",
@@ -154,6 +162,7 @@
   },
   "Postek": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["city","Lemuria","ulfwyst"],
     "name": "Postek",
     "nickname": "Postek",
@@ -174,6 +183,7 @@
   },
   "Ketrizyn": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["city","Lemuria","ulfwyst"],
     "name": "Ketrizyn",
     "nickname": "Ketrizyn",
@@ -194,6 +204,7 @@
   },
   "Dunndag": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["city","Lemuria","ulfwyst"],
     "name": "Dunndag",
     "nickname": "Dunndag",
@@ -214,6 +225,7 @@
   },
   "Eldskog": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["city","Lemuria","ulfwyst"],
     "name": "Eldskog",
     "nickname": "Eldskog",
@@ -234,6 +246,7 @@
   },
   "Damisul": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["city","Syrothian Empire","ulfwyst"],
     "name": "Damisul",
     "nickname": "Damisul",
@@ -254,6 +267,7 @@
   },
   "Avalo": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["city","Kaeldrin Sanctum","ulfwyst"],
     "name": "Avalo",
     "nickname": "Avalo",
@@ -274,6 +288,7 @@
   },
   "City-of-Brass": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["elemental","plane of fire","efreet","metal"],
     "name": "City of Brass",
     "nickname": "the City of Brass",

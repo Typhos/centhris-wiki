@@ -1,6 +1,7 @@
 {
   "Duskreef": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["town","Nakali Isles","port","ulfwyst","Mare Concordis"],
     "name": "Duskreef",
     "nickname": "Duskreef",
@@ -49,6 +50,7 @@
   },
   "Zabrosk": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["town","Lemuria","ulfwyst","Telarion Elentiir"],
     "name": "Zabrosk",
     "nickname": "Zabrosk",
@@ -65,6 +67,7 @@
   },
   "Wexin": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["town","Cibrin","ulfwyst"],
     "name": "Wexin",
     "nickname": "Wexin",
@@ -81,6 +84,7 @@
   },
   "Edremit": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["town","Lemuria","ulfwyst"],
     "name": "Edremit",
     "nickname": "Edremit",

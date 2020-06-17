@@ -1,46 +1,156 @@
 @import "./mixins";
 
-nav {
-  #navigationList {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    font-size: 0.85rem;
-    font-weight: 700;
-    color: #fff;
-    padding: 1rem 0;
-    background-color: #282c34;
-    margin: 0;
-    font-family: $sansText;
+.overlay {
+  display: none;
+}
 
-    .navigationListItem {
-      padding-bottom: 0.25em;
-      font-variant: small-caps;
+// DESKTOP
+@media all and (min-width: $breakpoint-mobile) {
+  nav {
+    width: 100%;
+    border-bottom: 1px solid $charcoal;
 
-      &.active {
-        border-bottom: 1px solid tomato;
-      }
+    .mobileNav {
+      display: none;
     }
 
-    a {
-      color: $lightText;
-      letter-spacing: 0.075em;
-      text-decoration: none;
+    .alignmentShell {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0.66rem 1%;
+      display: flex;
+      justify-content: space-between;
+    }
 
-      &:hover {
+    .menuHousing {
+      position: relative;
+      display: flex;
+    }
+
+    input.menuTrigger {
+      display: block;
+      width: 60px;
+      height: 32px;
+      position: absolute;
+      top: 6px;
+      left: -5px;
+      
+      cursor: pointer;
+      
+      opacity: 0; /* hide this */
+      z-index: 2; /* and place it over the menu */
+
+      -webkit-touch-callout: none;
+
+      &:hover ~ button.menuButton {
         color: $tagLink;
       }
-    }
-  }
 
-  input {
-    display: none;
+      &:checked ~ .overlay {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba($charcoal, 0.8);
+        z-index: 1000;
+
+        .navHeading {
+          position: relative;
+          display: inline-block;
+          z-index: 20;
+          line-height: 2em;
+          padding: 0.5em 0.5em;
+          padding-left: 30px;
+          font-family: $fira;
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          background-color: $tagLink;
+          color: $lightText;
+          font-weight: 400;
+          margin-left: 1px;
+          margin-top: 0;
+          width: 194px;
+        }
+
+        .closeMenu {
+          position: absolute;
+          top: 2px;
+          left: 240px;
+          color: white;
+          font-size: 2.5em;
+          width: 100%;
+          z-index: 100;
+          padding-left: 20px;
+
+          span {
+            cursor: pointer;
+          }
+        }
+
+        .navigationList {
+          transform: none;
+          position: fixed;
+          display: block;
+          margin: 0 auto;
+          padding-top: 3em;
+          padding-left: 2rem;
+          top: 0;
+          left: 0;
+          border: 1px solid $charcoal;
+
+          li.navigationListItem {
+            font-size: 1em;
+            line-height: 1.5em;
+            margin: 1.5em 0;
+            padding: 0;
+
+            &.active {
+              border-bottom: 0;
+
+              a {
+                color: $dndRed;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    button.menuButton {
+      background: none;
+      border: 0;
+      margin: 0;
+      padding: 0;
+      font-family: $fira;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      cursor: pointer;
+
+      span.icon {
+        font-weight: 700;
+        font-size: 1.3em;
+        line-height: 1.5rem;
+      }
+    }
+
+    .navigationList {
+      display: none;
+      list-style-type: none;
+      padding-bottom: 0;
+      background-color: $white;
+      position: absolute;
+      height: 100vh;
+      width: 200px;
+      z-index: 10;
+      background-color: $white;
+      text-transform: uppercase;
+    }
   }
 }
 
-
-
+// MOBILE
 @media all and (max-width: $breakpoint-mobile) {
 
   nav {
@@ -49,7 +159,48 @@ nav {
     top: 0em;
     z-index: 10;
 
-    #navigationList {
+    .desktopNav {
+      display: none;
+    }
+
+    .navigationList {
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #fff;
+      padding: 1rem 0;
+      background-color: #282c34;
+      margin: 0;
+      font-family: $sansText;
+
+      .navigationListItem {
+        padding-bottom: 0.25em;
+        font-variant: small-caps;
+
+        &.active {
+          border-bottom: 1px solid tomato;
+        }
+      }
+
+      a {
+        color: $lightText;
+        letter-spacing: 0.075em;
+        text-decoration: none;
+
+        &:hover {
+          color: $tagLink;
+        }
+      }
+    }
+
+    input {
+      display: none;
+    }
+
+    .navigationList {
       display: none;
       list-style-type: none;
       padding-bottom: 0;
@@ -89,7 +240,7 @@ nav {
 
       }
 
-      input {
+      input.menuTrigger {
         display: block;
         width: 40px;
         height: 32px;
@@ -173,7 +324,7 @@ nav {
       }
     }
 
-    #menuToggle input:checked ~ #navigationList {
+    #menuToggle input:checked ~ .navigationList {
       transform: none;
       position: fixed;
       display: block;

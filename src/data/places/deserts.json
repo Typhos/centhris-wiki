@@ -1,6 +1,7 @@
 {
   "Ur'shiid-Desert": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["desert","region","ulfwyst"],
     "name": "Ur'shiid Desert",
     "nickname": "Dunes of Ur'shiid",
@@ -12,6 +13,7 @@
   },
   "Dune-Sea-of-Manar": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["desert","region","ulfwyst"],
     "name": "Dune Sea of Manar",
     "nickname": "Manar Dunes",
@@ -23,6 +25,7 @@
   },
   "Desolate-Wastes": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["desert","region","ulfwyst"],
     "name": "Desolate Wastes",
     "nickname": "Desolate Wastes",

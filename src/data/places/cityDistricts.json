@@ -1,6 +1,7 @@
 {
   "Gullhollow": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","rakenburg","barrier coast","ulfwyst"],
     "name": "Gullhollow",
@@ -27,6 +28,7 @@
   },
   "Ghost-Orchard": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","rakenburg","barrier coast","ulfwyst"],
     "name": "Ghost Orchard",
@@ -47,6 +49,7 @@
   },
   "Murky-Reach": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","rakenburg","barrier coast","ulfwyst"],
     "name": "Murky Reach",
@@ -70,6 +73,7 @@
   },
   "Greenwood-Quarter": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","rakenburg","barrier coast","ulfwyst"],
     "name": "Greenwood Quarter",
@@ -98,6 +102,7 @@
   },
   "Embersky": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","rakenburg","barrier coast","ulfwyst"],
     "name": "Embersky",
@@ -117,6 +122,7 @@
   },
   "The-Planks": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","volikgrad","barrier coast","ulfwyst"],
     "name": "The Planks",
@@ -143,6 +149,7 @@
   },
   "Windpoint": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","volikgrad","barrier coast","ulfwyst"],
     "name": "Windpoint",
@@ -162,6 +169,7 @@
   },
   "Stewards-Row": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","volikgrad","barrier coast","ulfwyst"],
     "name": "Stewards Row",
@@ -179,6 +187,7 @@
   },
   "Foreign-Quarter": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","volikgrad","barrier coast","ulfwyst"],
     "name": "Foreign Quarter",
@@ -196,6 +205,7 @@
   },
   "The-Oakyard": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","volikgrad","barrier coast","ulfwyst"],
     "name": "The Oakyard",
@@ -213,6 +223,7 @@
   },
   "Coldwall": {
     "playerKnown": false,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Coldwall",
@@ -230,6 +241,7 @@
   },
   "Edgewater": {
     "playerKnown": false,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Edgewater",
@@ -247,6 +259,7 @@
   },
   "Hartwood-Row": {
     "playerKnown": false,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Hartwood Row",
@@ -264,6 +277,7 @@
   },
   "Timberrun": {
     "playerKnown": false,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Timberrun",
@@ -281,6 +295,7 @@
   },
   "Belloton": {
     "playerKnown": false,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Belloton",
@@ -298,6 +313,7 @@
   },
   "Drakeperch": {
     "playerKnown": false,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Drakeperch",
@@ -316,6 +332,7 @@
   },
   "The-Crowns": {
     "playerKnown": false,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "The Crowns",
@@ -334,6 +351,7 @@
   },
   "Cwynburn": {
     "playerKnown": false,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Cwynburn",
@@ -352,6 +370,7 @@
   },
   "Potter's-Reach": {
     "playerKnown": false,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Potter's Reach",
@@ -370,6 +389,7 @@
   },
   "Holford": {
     "playerKnown": false,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","navolin","ulfwyst","frecyra"],
     "name": "Holford",
@@ -387,6 +407,7 @@
   },
   "Goldhawk": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","barrier coast","venbrin","ulfwyst"],
     "name": "Goldhawk",
@@ -412,6 +433,7 @@
   },
   "Darsnel-Hill": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","barrier coast","venbrin","ulfwyst"],
     "name": "Darsnel Hill",
@@ -436,6 +458,7 @@
   },
   "Hornsend": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","barrier coast","venbrin","ulfwyst"],
     "name": "Hornsend",
@@ -462,6 +485,7 @@
   },
   "Tollis-Quay": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","barrier coast","venbrin","ulfwyst"],
     "name": "Tollis Quay",
@@ -486,6 +510,7 @@
   },
   "Rainbank":{
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","barrier coast","braxinfurt","ulfwyst"],
     "name": "Rainbank",
@@ -502,6 +527,7 @@
   },
   "Sunhook":{
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","barrier coast","braxinfurt","ulfwyst"],
     "name": "Sunhook",
@@ -518,6 +544,7 @@
   },
   "Bakerton":{
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","barrier coast","braxinfurt","ulfwyst"],
     "name": "Bakerton",
@@ -534,6 +561,7 @@
   },
   "Comar's-Ford":{
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["district","barrier coast","braxinfurt","ulfwyst"],
     "name": "Comar's Ford",

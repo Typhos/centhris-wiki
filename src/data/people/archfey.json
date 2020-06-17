@@ -1,6 +1,7 @@
 {
   "Jadartis": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Jadartis",
     "nickname": "Lord of the Green",
@@ -19,6 +20,7 @@
   },
   "Gelion": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Gelion",
     "nickname": "Good Fellow",
@@ -37,6 +39,7 @@
   },
   "Sovexis": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Sovexis",
     "nickname": "the Minstrel",
@@ -55,6 +58,7 @@
   },
   "Farhorn": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Farhorn",
     "nickname": "Prince of Harts",
@@ -73,6 +77,7 @@
   },
   "Elvyre": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Elvyre",
     "nickname": "Lady of Blossoms",
@@ -91,6 +96,7 @@
   },
   "Gyllenae": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Gyllenae",
     "nickname": "Summer Queen",
@@ -114,6 +120,7 @@
   },
   "Neráida": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Neráida",
     "nickname": "the Lady of the Wood",
@@ -132,6 +139,7 @@
   },
   "Xanyth": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Xanyth",
     "nickname": "Lord of Frost",
@@ -152,6 +160,7 @@
   },
   "Caehyssa": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Caehyssa",
     "nickname": "the Winter Witch",
@@ -170,6 +179,7 @@
   },
   "Orisanna": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Orisanna",
     "nickname": "Oracle of Fates",
@@ -188,6 +198,7 @@
   },
   "Ralmerin": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Ralmerin",
     "nickname": "Thornweaver",
@@ -206,6 +217,7 @@
   },
   "Eregdir": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Eregdir",
     "nickname": "Dream Walker",
@@ -224,6 +236,7 @@
   },
   "Arintari": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Arintari",
     "nickname": "Mistress of the Hunt",
@@ -242,6 +255,7 @@
   },
   "Váyanís": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Váyanís",
     "nickname": "Lady in the Water",
@@ -260,6 +274,7 @@
   },
   "Celebrin": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Celebrin",
     "nickname": "Silver Blade",

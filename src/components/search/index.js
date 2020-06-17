@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import WikiUtils from "components/utils/wikiUtils.js";
+import { HashLink as Link } from 'react-router-hash-link';
 import { withRouter } from 'react-router-dom';
 
 import 'styles/search.scss'
+import SearchLogic from "components/search/searchLogic";
+import dataLoader from "components/utils/dataLoader";
 
 class Search extends Component {
 
@@ -15,70 +18,83 @@ class Search extends Component {
     this.state = {
       dmView: localStorage.getItem('dmView') === 'true',
       data: this.props.data,
-      searchString: searchString
+      searchString: searchString,
+      searchResults: []
     }
 
-    if ( window.location.search.length !== 0 ) {
-      this.handleSearch(searchString);
-    }
-
+    this.updateSearchString = this.updateSearchString.bind(this);
     this.handleSearch = this.handleSearch.bind(this);
     this.clearSearch = this.clearSearch.bind(this);
   }
 
-  render() {
-    return (
-      <form id="search">
-        <input id="searchBox" placeholder="search" value={this.state.searchString} onChange={ this.handleSearch }/>
-        <span id="clearSearch" onClick={this.clearSearch}>x</span>
-      </form>
-    )
-  }
-
   clearSearch() {
-    this.handleSearch("");
+    this.setState({
+      searchResults: [],
+      searchString: ""
+    });
+    // this.handleSearch();
   }
 
-  handleSearch (e) {
-    console.log()
+  updateSearchString (e) {
     const searchTerm = (e.target) ? e.target.value.toLowerCase() : e.toLowerCase();
-    const urlParamString = ( !e || e === "" ) ? "" : "?search=" + searchTerm ;
-    let sortable = [];
-    let results = [];
 
     if (this.state.searchString !== e) this.setState({searchString: searchTerm});
+  }
 
-    this.props.history.push({
-      search: urlParamString
-    });
-
-    for (let key in this.state.data) {
-      sortable.push([key, this.state.data[key]]);
+  handleSearch(e) {
+    e.preventDefault();
+    
+    if ( this.state.searchString.length >= 3 ) {
+      this.setState({searchResults: SearchLogic(this.state.searchString, this.state.dmView) });
+    } else {
+      this.setState({searchResults: []});
     }
+  }
 
-    sortable.sort( (a,b) => {
-      if (a[1].name > b[1].name) {
-        return 1;
-      } else if (a[1].name < b[1].name) {
-        return -1;
-      } else {
-        return 0;
-      }
-    });
+  render() {
+    const data = dataLoader.all;
+    const dataKeys = Object.keys(data);
+    const searchResults = this.state.searchResults;
+    const images = require.context('img/', true);
 
-    sortable.map( ent => {
-      const key = ent[0];
-      const entry = ent[1];
+    return (
+      <div id="search">
+        <div className="container">
+          <form className="searchForm" onSubmit={this.handleSearch} onKeyUp={this.handleSearch}>
+            <input className="searchBox" placeholder="search" value={this.state.searchString} onChange={ this.updateSearchString }/>
+            {/*<span className="clearSearch" onClick={this.clearSearch}>x</span>*/}
+            <button id="searchButton"></button>
+          </form>
+        </div>
+        { searchResults.length > 0 && 
+          <div id="searchResults">
+            <ul className="results">
+              {
+                searchResults.map( res => {
+                  let path = images.keys().filter( path => path.includes( res )).filter( path => !path.includes("maps"))[0];
 
-      if ( !entry.hideOnCat && (entry.playerKnown || this.state.dmView ) && 
-        (entry.tags.some( tag => tag.toLowerCase().includes(searchTerm) ) || entry.name.toLowerCase().includes(searchTerm) || entry.nickname.toLowerCase().includes(searchTerm) || ( entry.races && entry.races.includes(searchTerm) ) ) 
-      ) {
-        results.push( key );
-      }
-      return true;
-    });
-
-    this.props.handleSearch( WikiUtils.sortByName(results) );
+                  if ( data[res].playerKnown || this.state.dmView ) {
+                    return (
+                      <li key={res}>
+                       { path &&
+                        <Link to={`/person/${res}`} className="crop" onClick={this.clearSearch} >
+                          <img className="searchImg" src={ images(path) }/>
+                        </Link>
+                       }
+                       { !path && 
+                        <div className="noImg"></div>
+                       }
+                        <Link className="textLink" to={`/${data[res].path}/${res}`} onClick={this.clearSearch} >{data[res].name}</Link>
+                      </li>
+                    )
+                  }
+                })
+              }
+            </ul>
+          </div>
+        }
+      </div>
+    )
   }
 }
 

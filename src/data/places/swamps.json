@@ -1,6 +1,7 @@
 {
   "Sullen-Fen": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["swamp","region","ulfwyst","marsh","mangroves"],
     "name": "Sullen Fen",
     "nickname": "The Sullen Fen",
@@ -13,6 +14,7 @@
   },
   "Blighted-Mire": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["swamp","region","ulfwyst"],
     "name": "Blighted Mire",
     "nickname": "The Blighted Mire",
@@ -27,6 +29,7 @@
   },
   "Galren-Moor": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["moor","marsh","region","ulfwyst"],
     "name": "Galren Moor",
     "nickname": "Galren Moor",
@@ -38,6 +41,7 @@
   },
   "Drowned-Weald": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["moor","marsh","region","ulfwyst"],
     "name": "Drowned Weald",
     "nickname": "Drowned Weald",
@@ -49,6 +53,7 @@
   },
   "Vorssav-Marshlands": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["wetland","marsh","region","ulfwyst"],
     "name": "Vorssav Marshlands",
     "nickname": "Vorssav Marshlands",
@@ -60,6 +65,7 @@
   },
   "Mire-de-Rever": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["wetland","marsh","region","entos"],
     "name": "Mire de Rever",
     "nickname": "Mire de Rever",

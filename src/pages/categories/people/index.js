@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import DataLoader from 'components/utils/dataLoader';
 import { TitleComponent } from 'components/titleComponent.js';
 
-import Search from 'components/search';
+import Filter from 'components/filter';
 import Back from 'components/back';
 import Page from 'components/page';
 import WikiUtils from "components/utils/wikiUtils.js";
@@ -37,7 +37,7 @@ class People extends Component {
       dmMode: dmView,
     };
 
-    this.handleSearch = this.handleSearch.bind(this);
+    this.handleFilter = this.handleFilter.bind(this);
     this.peopleCategory = this.peopleCategory.bind(this);
   }
 
@@ -54,7 +54,7 @@ class People extends Component {
       <Page.People>
         <TitleComponent title={`NPCs - Centhris Wiki`} />
         <Back/>
-        <Search handleSearch={ this.handleSearch } data={peopleData}/>
+        <Filter handleFilter={ this.handleFilter } data={peopleData}/>
 
         <h2 className="sectionTitle">Non-Player Characters <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
         
@@ -76,7 +76,7 @@ class People extends Component {
     )
   }
 
-  handleSearch(results) {
+  handleFilter(results) {
     console.log(results)
     this.setState({people: results})
   }

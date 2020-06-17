@@ -58,7 +58,7 @@ class SpellCategories extends Component {
       dmMode: dmView,
     };
 
-    this.handleSearch = this.handleSearch.bind(this);
+    this.handleFilter = this.handleFilter.bind(this);
     this.getSpellsByCat = this.getSpellsByCat.bind(this);
   }
 
@@ -112,7 +112,7 @@ class SpellCategories extends Component {
     )
   }
 
-  handleSearch(results) {
+  handleFilter(results) {
     this.setState({orgs: results});
   }
 

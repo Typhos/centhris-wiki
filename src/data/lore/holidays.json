@@ -1,6 +1,7 @@
 {
   "Spearmoot": {
     "playerKnown": true,
+    "path": "lore",
     "name": "Spearmoot",
     "nickname": "Spearmoot",
     "linkingWords": ["the Ruination of Centhris"],
