@@ -1,6 +1,7 @@
 {
   "Centhris": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "tags": ["continent"],
     "name": "Centhris",
@@ -20,6 +21,7 @@
   },
   "Ulfwyst": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["continent"],
     "name": "Ulfwyst",
     "nickname": "Ulfwyst",
@@ -40,6 +42,7 @@
   },
   "Entos": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["continent"],
     "name": "Entos",
     "nickname": "Entos",
@@ -51,6 +54,7 @@
   },
   "Cunascus": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["continent"],
     "name": "Cunascus",
     "nickname": "Cunascus",
@@ -62,6 +66,7 @@
   },
   "Eastern-Koraxon": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["continent"],
     "name": "Eastern Koraxon",
     "nickname": "Eastern Koraxon",
@@ -73,6 +78,7 @@
   },
   "Western-Koraxon": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["continent"],
     "name": "Western Koraxon",
     "nickname": "Western Koraxon",
@@ -84,6 +90,7 @@
   },
   "Thyra": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["continent"],
     "name": "Thyra",
     "nickname": "Thyra",

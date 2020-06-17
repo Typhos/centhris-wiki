@@ -1,6 +1,7 @@
 {
   "The-Ruination-of-Centhris": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Ruination of Centhris",
     "nickname": "the Ruination of Centhris",
     "linkingWords": ["the Ruination"],
@@ -21,6 +22,7 @@
   },
   "Descent-of-the-Shattered-God": {
     "playerKnown": false,
+    "path": "lore",
     "name": "Descent of the Shattered God",
     "nickname": "the Descent of the Shattered God",
     "linkingWords": [],
@@ -36,6 +38,7 @@
   },
   "The-Great-Betrayal": {
     "playerKnown": false,
+    "path": "lore",
     "name": "The Great Betrayal",
     "nickname": "Ascension of the Betrayer",
     "dates": ["2C 837"],
@@ -47,6 +50,7 @@
   },
   "The-First-Convergence": {
     "playerKnown": false,
+    "path": "lore",
     "name": "The First Convergence",
     "nickname": "The First Convergence",
     "linkingWords": ["First Convergence"],
@@ -59,6 +63,7 @@
   },
   "The-Second-Convergence": {
     "playerKnown": false,
+    "path": "lore",
     "name": "The Second Convergence",
     "nickname": "The Second Convergence",
     "linkingWords": ["Second Convergence"],
@@ -71,6 +76,7 @@
   },
   "Primulus-Tempus-Draconis": {
     "playerKnown": false,
+    "path": "lore",
     "name": "Primulus Tempus Draconis",
     "nickname": "Primulus Tempus Draconis",
     "linkingWords": ["Second Era of Dragons"],
@@ -83,6 +89,7 @@
   },
   "Cordus-Tempus-Draconis": {
     "playerKnown": false,
+    "path": "lore",
     "name": "Cordus Tempus Draconis",
     "nickname": "Cordus Tempus Draconis",
     "linkingWords": ["Second Era of Dragons"],
@@ -95,6 +102,7 @@
   },
   "The-Navolinian-Conquest-of-Azond": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Navolinian Conquest of Azond",
     "nickname": "the Navolinian Conquest of Azond",
     "dates": ["2C 2536","2C 2543"],
@@ -106,6 +114,7 @@
   },
   "War-of-Black-Fields": {
     "playerKnown": true,
+    "path": "lore",
     "name": "War of Black Fields",
     "nickname": "War of Black Fields",
     "dates": ["2C 2552","2C 2555"],
@@ -117,6 +126,7 @@
   },
   "The-War-of-Sellswords": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The War of Sellswords",
     "nickname": "the War of Sellswords",
     "dates": ["2C 2551","2C 2554"],
@@ -128,6 +138,7 @@
   },
   "War-of-Red-Claws": {
     "playerKnown": true,
+    "path": "lore",
     "name": "War of Red Claws",
     "nickname": "First War of Zurastian Aggression",
     "dates": ["2C 2481"],
@@ -140,6 +151,7 @@
   },
   "War-of-Five-Crowns": {
     "playerKnown": true,
+    "path": "lore",
     "name": "War of Five Crowns",
     "nickname": "War of Five Crowns",
     "dates": ["2C 2211","2C 2245"],
@@ -151,6 +163,7 @@
   },
   "The-Great-Clan-War": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Great Clan War",
     "nickname": "The Great Clan War of Lemuria",
     "linkingWords": ["the Great Clan War","the Great Clan Wars"],

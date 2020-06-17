@@ -1,6 +1,7 @@
 {
   "Imizael-Clathara": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Imizael Clathara",
     "tags": ["ranger","elf","rythlon","friend","associate","Navolin"],
@@ -20,6 +21,7 @@
   },
   "Davrik": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Davrik",
     "tags": ["human","sailor","merchant","smuggler","Rythlon"],
@@ -39,7 +41,8 @@
   },
   "Gregor": {
     "playerKnown": true,
-    "hideOnCat": false,
+    "path": "person",
+    "hideOnCat": true,
     "name": "Gregor",
     "tags": ["human","sailor","smuggler","Rythlon"],
     "nickname": "Gregor",
@@ -56,6 +59,7 @@
   },
   "Lormin-Blackmaw": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["butcher","rogue","half-orc","rythlon","navolin","friend"],
     "name": "Lormin Blackmaw",
@@ -73,6 +77,7 @@
   },
   "Edmund": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["butcher","rogue","half-orc","rythlon","navolin","friend"],
     "name": "Edmund",
@@ -89,6 +94,7 @@
   },
   "Rakas-of-Driskal": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["priest","cleric","human","rythlon","navolin","guardian"],
     "name": "Rakas of Driskal",
@@ -106,6 +112,7 @@
   },
   "Muffin": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["mule"],
     "name": "Muffin",
@@ -122,6 +129,7 @@
   },
   "Selif-Koric": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["noble","human","rythlon","navolin"],
     "name": "Selif Koric",
@@ -140,13 +148,13 @@
   },
   "Uster": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["azer","slave","the molten halls","elemental"],
     "name": "Uster",
     "nickname": "Uster",
     "race": "Azer",
     "age": "??",
-    "gender": "??",
     "affiliations": ["the Lost Shields", "the Molten Halls"],
     "description": [
       "Uster is one of two Azer slaves in the service of Akad the Magnificent in the Molten Halls. He was bound, along with Tyda, to serve as the Efreet's valets in the Mercury Vault. It was not clear exactly how long the two Azer had been left waiting in the Mercury Vault before the Lost Shields, Shia and Khazar came upon them while exploring.",
@@ -156,6 +164,7 @@
   },
   "Avelino": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Avelino",
     "tags": ["adventurer","aarakocra","barbarian","Ruby Phoenix","Rakenburg","associate"],
@@ -172,6 +181,7 @@
   },
   "Yendra-Quenn": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Yendra Quenn",
     "tags": ["adventurer","halfling","barbarian","Ruby Phoenix","Rakenburg","associate"],
@@ -188,6 +198,7 @@
   },
   "Rendis-Moon": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Rendis Moon",
     "tags": ["steward","human","Ruby Phoenix","Rakenburg"],
@@ -203,6 +214,7 @@
   },
   "Korema-zar-Halkren": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Korema zar Halkren",
     "nickname": "Korema",
@@ -226,6 +238,7 @@
   },
   "Beris-Krakhammer": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Beris Krakhammer",
     "nickname": "Beris Krakhammer",
@@ -241,6 +254,7 @@
   },
   "Mahdi-Jamshidi": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Mahdi Jamshidi",
     "nickname": "Mahdi 'the Damned' Jamshidi",
@@ -261,6 +275,7 @@
   },
   "Terrowin-Drynn": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Terrowin Drynn",
     "nickname": "Captain Terrowin Drynn",
@@ -276,6 +291,7 @@
   },
   "Brother-Leorick": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Brother Leorick",
     "nickname": "Brother Leorick",

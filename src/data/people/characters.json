@@ -1,6 +1,7 @@
 {
   "Erlinder-Bluefield": {
     "playerKnown": true,
+    "path": "player-character",
     "tags": ["adventurer","half-elf","druid","player","the Lost Shields"],
     "name": "Erlinder Bluefield",
     "nickname": "Erlinder",
@@ -31,6 +32,7 @@
   },
   "Evan-Jakob-Reinhold": {
     "playerKnown": true,
+    "path": "player-character",
     "tags": ["adventurer","human","warlock","player","the Lost Shields"],
     "name": "Evan-Jakob Reinhold",
     "nickname": "Evan-Jakob",
@@ -58,6 +60,7 @@
   },
   "Filibert-Montajay": {
     "playerKnown": true,
+    "path": "player-character",
     "tags": ["adventurer","halfling","fighter","player","the Lost Shields"],
     "name": "Filibert Montajay",
     "nickname": "Filibert",
@@ -85,6 +88,7 @@
   },
   "Murat": {
     "playerKnown": true,
+    "path": "player-character",
     "tags": ["adventurer","half-orc","monk","player","the Lost Shields"],
     "name": "Murat",
     "nickname": "Murat",
@@ -112,6 +116,7 @@
   },
   "Matthias": {
     "playerKnown": true,
+    "path": "player-character",
     "tags": ["adventurer","half-elf","bard","player","the Lost Shields"],
     "name": "Matthias",
     "nickname": "Mate",

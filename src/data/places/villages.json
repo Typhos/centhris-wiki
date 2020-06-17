@@ -1,6 +1,7 @@
 {
   "Rythlon": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["village","navolin","szary","ulfwyst"],
     "name": "Rythlon",
     "nickname": "Rythlon on Sulas",
@@ -17,6 +18,7 @@
   },
   "Blackmoor": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["village","navolin","szary","ulfwyst"],
     "name": "Blackmoor",
     "nickname": "Blackmoor",
@@ -34,6 +36,7 @@
   },
   "Blåttfelt": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["village","","ulfwyst"],
     "name": "Blåttfelt",
     "nickname": "Blåttfelt",

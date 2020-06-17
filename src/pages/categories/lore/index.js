@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import DataLoader from 'components/utils/dataLoader';
 import { TitleComponent } from 'components/titleComponent.js';
 
-import Search from 'components/search';
+import Filter from 'components/filter';
 import Back from 'components/back';
 import Page from 'components/page';
 import WikiUtils from "components/utils/wikiUtils";
@@ -47,7 +47,7 @@ class LoreCategories extends Component {
 
     this.getEntriesByCategory = this.getEntriesByCategory.bind(this);
     this.checkEmptyEntry = this.checkEmptyEntry.bind(this);
-    this.handleSearch = this.handleSearch.bind(this);
+    this.handleFilter = this.handleFilter.bind(this);
   }
 
   render () {
@@ -81,7 +81,7 @@ class LoreCategories extends Component {
       <Page.LoreCategories>
         <TitleComponent title={`Lore - Centhris Wiki`} />
         <Back/>
-        <Search handleSearch={ this.handleSearch }  data={this.state.combinedLore}/>
+        <Filter handleFilter={ this.handleFilter }  data={this.state.combinedLore}/>
 
         <h2 className="sectionGroup">Lore of Centhris <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
         <div id="categories" >
@@ -149,7 +149,7 @@ class LoreCategories extends Component {
     return "";
   }
 
-  handleSearch(results) {
+  handleFilter(results) {
     this.setState({lore: results});
   }
 

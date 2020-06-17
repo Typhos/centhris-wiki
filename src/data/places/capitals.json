@@ -1,6 +1,7 @@
 {
   "City-of-Zurast": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["ulfwyst","capital","city"],
     "name": "City of Zurast",
     "nickname": "City of Zurast",
@@ -22,6 +23,7 @@
   },
   "Frecyra": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["navolin","ulfwyst","capital","city"],
     "name": "Frecyra",
     "nickname": "Frecyra",
@@ -37,6 +39,7 @@
   },
   "Axuros": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["Tovanis","ulfwyst","capital","city"],
     "name": "Axuros",
     "nickname": "Axuros",
@@ -52,6 +55,7 @@
   },
   "Kilurus": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["lemuria","ulfwyst","capital","city"],
     "name": "Kilurus",
     "nickname": "Kilurus",
@@ -59,7 +63,7 @@
     "population": "30,900",
     "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
     "government": "Clan Council",
-    "districts": ["Ravensperch","The Boatyard","Spirit Grove","Kingsbloom","Korin Gate"],
+    "districts": ["Ravencall","The Boatyard","Spirit Grove","Kingsbloom","Korin Gate"],
     "location": "Lemuria",
     "map": "City-of-Kilurus.png",
     "description": [
@@ -89,6 +93,7 @@
   },
   "Irulek": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["kaeldrin sanctum","ulfwyst","capital","city"],
     "name": "Irulek",
     "nickname": "Irulek",
@@ -103,6 +108,7 @@
   },
   "Lyrannore": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["city","Ildroun Vale","capital","ulfwyst"],
     "name": "Lyrannore",
     "nickname": "Lyrannore",
@@ -118,6 +124,7 @@
   },
   "Enira": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["city","Ildroun Vale","capital","ulfwyst"],
     "name": "Enira",
     "nickname": "Enira",
@@ -126,13 +133,14 @@
     "races": ["human","dwarf","uklang","half-orc","half-giant"],
     "government": "Clan Chieftain",
     "location": "Realm of Cibrin",
-    "leaders": ["Han Darga Vaburk of Clan Godak"],
+    "leaders": ["Han Darga Crogosh of Clan Godak"],
     "description": [
       "Enira is the capital city of the Realm of Cibrin."
     ]
   },
   "Khezrabad": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["city","Abbasyr","capital","ulfwyst"],
     "name": "Khezrabad",
     "nickname": "Khezrabad",

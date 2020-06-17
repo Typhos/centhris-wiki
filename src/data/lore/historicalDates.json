@@ -1,6 +1,7 @@
 {
   "1C-1": {
     "playerKnown": true,
+    "path": "lore",
     "name": "1C 1",
     "nickname": "1C 1",
     "type": "",
@@ -19,6 +20,7 @@
   },
   "1C-6752":{
     "playerKnown": true,
+    "path": "lore",
     "hideDate":true,
     "name": "1C 6752",
     "nickname": "1C 6752",
@@ -38,6 +40,7 @@
   },
   "1C-6500": {
     "playerKnown": false,
+    "path": "lore",
     "hideDate": true,
     "name": "1C 6500",
     "nickname": "1C 6500",
@@ -57,6 +60,7 @@
   },
   "1C-7400":{
     "playerKnown": true,
+    "path": "lore",
     "hideDate":true,
     "name": "1C 7400",
     "nickname": "1C 7400",
@@ -76,6 +80,7 @@
   },
   "1C-8209":{
     "playerKnown": true,
+    "path": "lore",
     "hideDate":true,
     "name": "1C 8209",
     "nickname": "1C 8209",
@@ -95,6 +100,7 @@
   },
   "2C-1": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 1",
     "nickname": "2C 1",
@@ -114,6 +120,7 @@
   },
   "2C-12": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": true,
     "name": "2C 12",
     "nickname": "2C 12",
@@ -133,6 +140,7 @@
   },
   "2C-80": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": true,
     "name": "2C 80",
     "nickname": "2C 80",
@@ -152,6 +160,7 @@
   },
   "2C-110":{
     "playerKnown": true,
+    "path": "lore",
     "hideDate":true,
     "name": "2C 110",
     "nickname": "2C 110",
@@ -171,6 +180,7 @@
   },
   "2C-694": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": true,
     "name": "2C 694",
     "nickname": "2C 694",
@@ -190,6 +200,7 @@
   },
   "2C-837": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 837",
     "nickname": "2C 837",
@@ -211,6 +222,7 @@
   },
   "2C-900": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 900",
     "nickname": "2C 900",
@@ -231,6 +243,7 @@
   },
   "2C-1975": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 1975",
     "nickname": "2C 1975",
@@ -251,6 +264,7 @@
   },
   "2C-2047": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2047",
     "nickname": "2C 2047",
@@ -270,6 +284,7 @@
   },
   "2C-2062": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2062",
     "nickname": "2C 2062",
@@ -290,6 +305,7 @@
   },
   "2C-2100": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2100",
     "nickname": "2C 2100",
@@ -310,6 +326,7 @@
   },
   "2C-2103": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2103",
     "nickname": "2C 2103",
@@ -330,6 +347,7 @@
   },
   "2C-2143":{
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2143",
     "nickname": "2C 2143",
@@ -350,6 +368,7 @@
   },
   "2C-2209":{
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2209",
     "nickname": "2C 2209",
@@ -370,6 +389,7 @@
   },
   "2C-2211":{
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2211",
     "nickname": "2C 2211",
@@ -390,6 +410,7 @@
   },
   "2C-2245":{
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2245",
     "nickname": "2C 2245",
@@ -410,6 +431,7 @@
   },
   "2C-2250":{
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2250",
     "nickname": "2C 2250",
@@ -430,6 +452,7 @@
   },
   "2C-2440":{
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2440",
     "nickname": "2C 2440",
@@ -450,6 +473,7 @@
   },
   "2C-2461": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2461",
     "nickname": "2C 2461",
@@ -470,6 +494,7 @@
   },
   "2C-2481": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2481",
     "nickname": "2C 2481",
@@ -493,6 +518,7 @@
   },
   "2C-2536": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2536",
     "nickname": "2C 2536",
@@ -514,6 +540,7 @@
   },
   "2C-2541": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2541",
     "nickname": "2C 2541",
@@ -534,8 +561,32 @@
       ]
     }
   },
+  "2C-2542": {
+    "playerKnown": true,
+    "path": "lore",
+    "hideDate": false,
+    "name": "2C 2542",
+    "nickname": "2C 2542",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2542:"
+    ],
+    "articles": {
+      "Heskur": [
+        "The Ruby Drifters defeat Usodgen, the Scourger, at Kaer Edsken in Lemuria."
+      ]
+    },
+    "timeline": {
+      "major": [],
+      "minor": [
+        "The Ruby Drifters defeat Usodgen, the Scourger, at Kaer Edsken in Lemuria."
+      ]
+    }
+  },
   "2C-2543": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2543",
     "nickname": "2C 2543",
@@ -557,6 +608,7 @@
   },
   "2C-2546": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2546",
     "nickname": "2C 2546",
@@ -578,6 +630,7 @@
   },
   "2C-2549": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2549",
     "nickname": "2C 2549",
@@ -598,6 +651,7 @@
   },
   "2C-2551": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2551",
     "nickname": "2C 2551",
@@ -618,6 +672,7 @@
   },
   "2C-2554": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2554",
     "nickname": "2C 2554",
@@ -641,6 +696,7 @@
   },
   "2C-2552": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2552",
     "nickname": "2C 2552",
@@ -660,6 +716,7 @@
   },
   "2C-2555": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2555",
     "nickname": "2C 2555",
@@ -679,6 +736,7 @@
   },
   "2C-2573": {
     "playerKnown": true,
+    "path": "lore",
     "hideDate": false,
     "name": "2C 2573",
     "nickname": "2C 2573",

@@ -2,6 +2,7 @@
   
   "Grotto-of-the-Withered-Eye": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["ruins","cave","ulfwyst","rythlon","navolin"],
     "name": "Grotto of the Withered Eye",
     "nickname": "the Grotto of the Withered Eye",
@@ -25,6 +26,7 @@
   },
   "the-Molten-Halls": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["ruins","palace","ulfwyst","jordonis","efreet","barrier coast"],
     "name": "the Molten Halls",
     "nickname": "Molten Halls of Akad",
@@ -48,6 +50,7 @@
   },
   "the-Twisting-Warrens": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["ruins","labyrinth","ulfwyst","rakenburg","under-city","barrier coast"],
     "name": "the Twisting Warrens",
     "nickname": "The Twisting Warrens",
@@ -92,6 +95,7 @@
   },
   "Osed'ushang": {
     "playerKnown": true,
+    "path": "location",
     "name": "Osed'ushang",
     "nickname": "Õsed'ushang",
     "tags": ["ruins","dwarf hold","entos","ushul nok keshan"],

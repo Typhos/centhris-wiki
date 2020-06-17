@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import DataLoader from 'components/utils/dataLoader';
 import { TitleComponent } from 'components/titleComponent.js';
 
-import Search from 'components/search';
+import Filter from 'components/filter';
 import Back from 'components/back';
 import Page from 'components/page';
 import WikiUtils from "components/utils/wikiUtils";
@@ -47,7 +47,7 @@ class Places extends Component {
 
     this.getEntriesByCategory = this.getEntriesByCategory.bind(this);
     this.checkEmptyEntry = this.checkEmptyEntry.bind(this);
-    this.handleSearch = this.handleSearch.bind(this);
+    this.handleFilter = this.handleFilter.bind(this);
   }
 
   render () {
@@ -72,7 +72,7 @@ class Places extends Component {
       <Page.People>
         <TitleComponent title={`Places - Centhris Wiki`} />
         <Back/>
-        <Search handleSearch={ this.handleSearch }  data={this.state.combinedPlaces}/>
+        <Filter handleFilter={ this.handleFilter }  data={this.state.combinedPlaces}/>
         <h2 className="sectionGroup">Regions and Locales <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
         <div id="categories" >
           {categories}
@@ -119,7 +119,7 @@ class Places extends Component {
     return "";
   }
 
-  handleSearch(results) {
+  handleFilter(results) {
     this.setState({places: results});
   }
 

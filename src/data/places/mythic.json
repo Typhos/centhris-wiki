@@ -1,6 +1,7 @@
 {
   "The-Garden-of-Neshaya": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "name": "The Garden of Neshaya",
     "nickname": "Neshaya's Garden",
@@ -20,6 +21,7 @@
   },
   "The-Halls-of-Tanrilar": {
     "playerKnown": true,
+    "path": "location",
     "hideOnCat": true,
     "name": "The Halls of Tanrilar",
     "nickname": "Halls of Tanrilar",
@@ -39,6 +41,7 @@
   },
   "The-Feywild": {
     "playerKnown": false,
+    "path": "location",
     "hideOnCat": false,
     "name": "The Feywild",
     "nickname": "the Feywild",
@@ -78,6 +81,7 @@
   },
   "The-Shadowfell": {
     "playerKnown": false,
+    "path": "location",
     "hideOnCat": false,
     "name": "The Shadowfell",
     "nickname": "the Shadowfell",

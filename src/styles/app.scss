@@ -42,7 +42,7 @@ h2.sectionTitle {
   font-size: 1.1em;
   letter-spacing: 0.15em;
   width: 100%;
-  margin: 1.5em auto 1em;
+  margin: 0.5em auto 1em;
   font-family: $headingText;
   color: $blueDark;
   border-bottom: 1px solid $blueDark;
@@ -65,7 +65,7 @@ h2.sectionTitle {
     padding-bottom: 0.4em;
     padding-right: 0.5em;
     border-bottom: 1px solid $tagLink;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.5em;
     margin-right: 3em;
     cursor: pointer;
   }
@@ -108,7 +108,7 @@ img.worldMap {
   main.content {
     width: 94vw;
     position: relative;
-    top: 7.5vh;
+    top: 15.5vh;
 
     article.person,
     article.location,

@@ -5,7 +5,7 @@ import { TitleComponent } from 'components/titleComponent.js';
 
 // My Components
 import WikiUtils from "components/utils/wikiUtils";
-import Search from 'components/search';
+import Filter from 'components/filter';
 import Page from 'components/page';
 
 // STYLES
@@ -43,7 +43,7 @@ class OrganizationGroups extends Component {
       dmMode: dmView,
     };
 
-    this.handleSearch = this.handleSearch.bind(this);
+    this.handleFilter = this.handleFilter.bind(this);
   }
 
   render () {
@@ -65,7 +65,7 @@ class OrganizationGroups extends Component {
       <Page.People>
         <TitleComponent title={`Organizations - Centhris Wiki`} />
         <Back/>
-        <Search handleSearch={ this.handleSearch }  data={orgData}/>
+        <Filter handleFilter={ this.handleFilter }  data={orgData}/>
 
         <h2 className="sectionGroup">Organizations & Groups <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
         <div id="categories" >
@@ -102,7 +102,7 @@ class OrganizationGroups extends Component {
     });
   }
 
-  handleSearch(results) {
+  handleFilter(results) {
     this.setState({orgs: results});
   }
 

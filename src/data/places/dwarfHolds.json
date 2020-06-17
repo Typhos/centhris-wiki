@@ -1,6 +1,7 @@
 {
   "Ankor-Duraz": {
     "playerKnown": false,
+    "path": "location",
     "name": "Ankor Duraz",
     "nickname": "Dwarf City of Ankor Duraz",
     "linkingWords": ["Durazian"],
@@ -20,6 +21,7 @@
   },
   "Thellodur": {
     "playerKnown": false,
+    "path": "location",
     "name": "Thellodur",
     "nickname": "Dwarf Hold of Thellodur",
     "linkingWords": ["Thellodurian"],
@@ -43,6 +45,7 @@
   },
   "Felrast": {
     "playerKnown": true,
+    "path": "location",
     "name": "Felrast",
     "nickname": "Dwarf Hold of Felrast",
     "linkingWords": ["Felrastian"],
@@ -73,6 +76,7 @@
   },
   "Rul-Orodum": {
     "playerKnown": false,
+    "path": "location",
     "name": "Rul Orodum",
     "nickname": "Dwarf Hold of Rul Orodum",
     "linkingWords": ["Orodumin"],
@@ -96,6 +100,7 @@
   },
   "Lanok-Duraz": {
     "playerKnown": false,
+    "path": "location",
     "name": "Lanok Duraz",
     "nickname": "Dwarf Hold of Lanok Duraz",
     "linkingWords": ["Lanok Durazian"],
@@ -118,6 +123,7 @@
   },
   "Isidar-Hreth": {
     "playerKnown": false,
+    "path": "location",
     "name": "Isidar Hreth",
     "nickname": "Dwarf Hold of Isidar Hreth",
     "linkingWords": ["Hrethen"],
@@ -139,6 +145,7 @@
   },
   "Kazdan-Ord": {
     "playerKnown": true,
+    "path": "location",
     "name": "Kazdan Ord",
     "nickname": "Dwarf Hold of Kazdan Ord",
     "linkingWords": ["Ordian"],
@@ -161,6 +168,7 @@
   },
   "Izor-Kheluz": {
     "playerKnown": false,
+    "path": "location",
     "name": "Izor Kheluz",
     "nickname": "Dwarf Hold of Izor Kheluz",
     "linkingWords": ["Kheluzian"],
@@ -186,6 +194,7 @@
   },
   "Ezhekal": {
     "playerKnown": false,
+    "path": "location",
     "name": "Ezhekal",
     "nickname": "Dwarf Hold of Izor Kheluz",
     "linkingWords": ["Ezhekaler"],
@@ -209,6 +218,7 @@
   },
   "Rul-Undrak": {
     "playerKnown": true,
+    "path": "location",
     "name": "Rul Undrak",
     "nickname": "Dwarf Hold of Rul Undrak",
     "linkingWords": ["Undrakon"],
@@ -249,6 +259,7 @@
   },
   "Thuryn-Zul": {
     "playerKnown": false,
+    "path": "location",
     "name": "Thuryn Zul",
     "nickname": "Dwarf Hold of Thuryn Zul",
     "linkingWords": ["Thurynian"],
@@ -272,6 +283,7 @@
   },
   "Futhmer": {
     "playerKnown": false,
+    "path": "location",
     "name": "Futhmer",
     "nickname": "Dwarf Hold of Fûthmér",
     "linkingWords": ["Futhmeran"],
@@ -293,6 +305,7 @@
   },
   "Vol-Volund": {
     "playerKnown": false,
+    "path": "location",
     "name": "Vol Volund",
     "nickname": "Dwarf Hold of Vol Volund",
     "linkingWords": ["Futhmeran"],
@@ -312,6 +325,7 @@
   },
   "Kadren-Zul": {
     "playerKnown": false,
+    "path": "location",
     "name": "Kadren Zul",
     "nickname": "Dwarf Hold of Kadren Zul",
     "linkingWords": ["Kadrenin"],
@@ -331,6 +345,7 @@
   },
   "Maraz-Drul": {
     "playerKnown": false,
+    "path": "location",
     "name": "Maraz Drul",
     "nickname": "Dwarf Hold of Maraz Drul",
     "linkingWords": ["Marazian"],
@@ -352,6 +367,7 @@
   },
   "Barak-Azgal": {
     "playerKnown": false,
+    "path": "location",
     "name": "Barak Azgal",
     "nickname": "Lost Dwarf Hold of Barak Azgal",
     "linkingWords": ["Azgalian"],
@@ -370,6 +386,7 @@
   },
   "Zul-Baraz": {
     "playerKnown": false,
+    "path": "location",
     "name": "Zul Baraz",
     "nickname": "Dwarf Hold of Zul Baraz",
     "linkingWords": ["Barazian"],

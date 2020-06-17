@@ -1,6 +1,7 @@
 {
   "Kilorn-Zerem": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Kilorn Zerem",
     "nickname": "Kilorn Zerem",
@@ -16,6 +17,7 @@
   },
   "Bordin": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Bordin",
     "tags": ["human","innkeeper","Rythlon","friend","Navolin"],
@@ -33,6 +35,7 @@
   },
   "Priceli-Nezella-Philyorin": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["gnome","apothecary","rythlon","navolin","merchant"],
     "name": "Priceli Nezella Philyorin",

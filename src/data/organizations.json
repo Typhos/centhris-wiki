@@ -1,6 +1,7 @@
 {
   "The-Lost-Shields": {
     "playerKnown": true,
+    "path": "group",
     "name": "The Lost Shields",
     "nickname": "the Lost Shields",
     "tags": ["adventuring","players"],
@@ -10,7 +11,8 @@
       "Erlinder Bluefield",
       "Evan-Jakob Reinhold",
       "Filibert Montajay",
-      "Murat"
+      "Murat",
+      "Matthias"
     ],
     "description": [
       "The Lost Shields are an adventuring group which formed in the village of Rythlon in Sirngor of 2C 2573."
@@ -20,6 +22,7 @@
   },
   "Nost-Ezel’nár": {
     "playerKnown": true,
+    "path": "group",
     "name": "Nost Ezel’nár",
     "nickname": "Lodge of the Emerald Flame",
     "linkingWords": ["Nost Ezel’nár"],
@@ -44,6 +47,7 @@
   },
   "Council-of-Nine": {
     "playerKnown": false,
+    "path": "group",
     "name": "Council of Nine",
     "nickname": "Council of Nine",
     "linkingWords": ["Council of Kaeldrin"],
@@ -69,6 +73,7 @@
   },
   "Navolinian-Hussars": {
     "playerKnown": true,
+    "path": "group",
     "name": "Navolinian Hussars",
     "nickname": "Navolinian Hussars",
     "linkingWords": [],
@@ -94,6 +99,7 @@
   },
   "Knights-of-the-Righteous-Soul": {
     "playerKnown": false,
+    "path": "group",
     "name": "Knights of the Righteous Soul",
     "nickname": "Knights of the Righteous Soul",
     "linkingWords": ["Tovani Interrogators"],
@@ -113,6 +119,7 @@
   },
   "Ruby-Drifters-Mercenary-Company": {
     "playerKnown": true,
+    "path": "group",
     "name": "Ruby Drifters Mercenary Company",
     "nickname": "Ruby Drifters",
     "tags": ["adventuring group","ulfwyst"],
@@ -131,6 +138,7 @@
   },
   "The-Iron-Fangs": {
     "playerKnown": false,
+    "path": "group",
     "name": "The Iron Fangs",
     "nickname": "Iron Fangs",
     "tags": ["adventuring group","ulfwyst"],
@@ -148,6 +156,7 @@
   },
   "Ruby-Phoenix": {
     "playerKnown": true,
+    "path": "group",
     "name": "Ruby Phoenix",
     "nickname": "Ruby Phoenix Adventuring Guild",
     "tags": ["guild","rakenburg","ulfwyst","adventuring"],
@@ -167,6 +176,7 @@
   },
   "Specula-Arcanum": {
     "playerKnown": true,
+    "path": "group",
     "name": "Specula Arcanum",
     "nickname": "Specs",
     "tags": ["guild","rakenburg","ulfwyst","guards"],
@@ -188,6 +198,7 @@
   },
   "Jasper-Circle": {
     "playerKnown": true,
+    "path": "group",
     "name": "Jasper Circle",
     "nickname": "Jasper Circle",
     "tags": ["guild","rakenburg","ulfwyst","adventures"],
@@ -205,6 +216,7 @@
   },
   "Garrick's-Delvers": {
     "playerKnown": true,
+    "path": "group",
     "name": "Garrick's Delvers",
     "nickname": "Garrick's Delvers",
     "tags": ["guild","rakenburg","ulfwyst","adventures","dwarf","mercenaries"],
@@ -224,6 +236,7 @@
   },
   "The-Freeman's-League": {
     "playerKnown": true,
+    "path": "group",
     "name": "The Freeman's League",
     "nickname": "Freeman's League",
     "tags": ["guild","rakenburg","ulfwyst","naval","mercenaries"],
@@ -241,6 +254,7 @@
   },
   "Twilight-Elysium": {
     "playerKnown": true,
+    "path": "group",
     "name": "Twilight Elysium",
     "nickname": "Twilight Elysium Guild",
     "tags": ["guild","rakenburg","ulfwyst","adventures","mages"],
@@ -258,6 +272,7 @@
   },
   "Venngar-Trade-Company": {
     "playerKnown": true,
+    "path": "group",
     "name": "Venngar Trade Company",
     "nickname": "Venngar Trade Company",
     "tags": ["guild","rakenburg","ulfwyst","naval","trade"],
@@ -277,6 +292,7 @@
   },
   "Red-Moon-Order": {
     "playerKnown": true,
+    "path": "group",
     "name": "Red Moon Order",
     "nickname": "Order of the Red Moon",
     "tags": ["guild","rakenburg","ulfwyst","assassins","thieves","mercenaries"],
@@ -296,6 +312,7 @@
   },
   "Knights-of-the-Sacred-Dawn": {
     "playerKnown": false,
+    "path": "group",
     "name": "Knights of the Sacred Dawn",
     "nickname": "Holy Order of the Sacred Dawn",
     "tags": ["holy order","knights","Tovanis","ulfwyst"],
@@ -313,6 +330,7 @@
   },
   "Order-of-the-Blackened-Sun": {
     "playerKnown": false,
+    "path": "group",
     "name": "Order of the Blackened Sun",
     "nickname": "Order of the Blackened Sun",
     "tags": ["holy order","knights","desolate wastes","ulfwyst"],
@@ -330,6 +348,7 @@
   },
   "Clan-Council-of-Lemuria": {
     "playerKnown": true,
+    "path": "group",
     "name": "Clan Council of Lemuria",
     "nickname": "Clan Council of Lemuria",
     "tags": ["lemuria","ulfwyst","elective body"],
@@ -360,6 +379,7 @@
   },
   "Clan-Godak": {
     "playerKnown": false,
+    "path": "group",
     "name": "Clan Godak",
     "nickname": "Clan Godak",
     "tags": ["Cibrin","ulfwyst","clan"],
@@ -375,6 +395,7 @@
   },
   "Clan-Villdyr": {
     "playerKnown": true,
+    "path": "group",
     "name": "Clan Villdyr",
     "nickname": "Clan Villdyr",
     "tags": ["Lemuria","ulfwyst","clan"],
@@ -391,6 +412,7 @@
   },
   "Clan-Sjomann": {
     "playerKnown": true,
+    "path": "group",
     "name": "Clan Sjomann",
     "nickname": "Clan Sjomann",
     "tags": ["Lemuria","ulfwyst","clan"],
@@ -407,6 +429,7 @@
   },
   "Clan-Tordenfødt": {
     "playerKnown": true,
+    "path": "group",
     "name": "Clan Tordenfødt",
     "nickname": "Clan Tordenfødt",
     "tags": ["Lemuria","ulfwyst","clan"],
@@ -423,6 +446,7 @@
   },
   "Clan-Arnbjorg": {
     "playerKnown": true,
+    "path": "group",
     "name": "Clan Arnbjorg",
     "nickname": "Clan Arnbjorg",
     "tags": ["Lemuria","ulfwyst","clan"],
@@ -439,6 +463,7 @@
   },
   "Clan-Bjørsel": {
     "playerKnown": true,
+    "path": "group",
     "name": "Clan Bjørsel",
     "nickname": "Clan Bjørsel",
     "tags": ["Lemuria","ulfwyst","clan"],
@@ -454,7 +479,8 @@
     }
   },
   "Council-of-the-Withered-King": {
-    "playerKnown": true,
+    "playerKnown": false,
+    "path": "group",
     "name": "Council of the Withered King",
     "nickname": "Council of the Withered King",
     "tags": ["Istagen","ulfwyst","wizards"],
@@ -482,6 +508,7 @@
   },
   "Monks-of-the-Emerald-Wind": {
     "playerKnown": false,
+    "path": "group",
     "name": "Monks of the Emerald Wind",
     "nickname": "Order of the Emerald Wind",
     "tags": ["Koraxxon","monks"],
@@ -495,6 +522,7 @@
   },
   "Order-of-the-Radiant-Eye": {
     "playerKnown": false,
+    "path": "group",
     "name": "Order of the Radiant Eye",
     "nickname": "the Radiant Eye",
     "tags": ["Ulfwyst","monks"],

@@ -1,6 +1,7 @@
 {
   "Gradiorus-Golem": {
     "playerKnown": true,
+    "path": "lore",
     "hideOnCat": false,
     "showStatBlock": true,
     "name": "Gradiorus Golem",
@@ -81,6 +82,7 @@
   },
   "Icebrine-Serpent": {
     "playerKnown": true,
+    "path": "lore",
     "hideOnCat": false,
     "showStatBlock": true,
     "name": "Icebrine Serpent",
@@ -160,6 +162,7 @@
   },
   "Lurking-Abomination": {
     "playerKnown": true,
+    "path": "lore",
     "hideOnCat": false,
     "showStatBlock": true,
     "name": "Lurking Abomination",
@@ -264,6 +267,7 @@
   },
   "Magma-Behemoth": {
     "playerKnown": true,
+    "path": "lore",
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Magma Behemoth",
@@ -335,6 +339,7 @@
   },
   "Crozemgax": {
     "playerKnown": false,
+    "path": "lore",
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Crozemgax",
@@ -434,6 +439,7 @@
   },
   "Zeradrasa": {
     "playerKnown": false,
+    "path": "lore",
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Zeradrasa",
@@ -524,6 +530,7 @@
   },
   "Ithanus": {
     "playerKnown": false,
+    "path": "lore",
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Ithanus",
@@ -614,6 +621,7 @@
   },
   "Void-Horror": {
     "playerKnown": false,
+    "path": "lore",
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Void Horror",
@@ -700,6 +708,7 @@
   },
   "Lesser-Lich": {
     "playerKnown": false,
+    "path": "lore",
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Lesser Lich",

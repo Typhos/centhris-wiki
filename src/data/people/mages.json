@@ -1,6 +1,7 @@
 {
   "Vythica-Floshin": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["wizard","scholar","half-elf","Rythlon","Frecyra","Navolin","Nost Ezel'nar"],
     "name": "Vythica Floshin",
@@ -17,6 +18,7 @@
   },
   "Franziska-Straken": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Franziska Straken",
     "nickname": "Archmage Franziska Straken",
@@ -48,6 +50,7 @@
   },
   "Izolda-of-Olesko": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Izolda of Olesko",
     "nickname": "Izolda of Olesko",
@@ -69,6 +72,7 @@
   },
   "Dolmar-Coldforge": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Dolmar Coldforge",
     "nickname": "Magister Coldforge",
@@ -88,6 +92,7 @@
   },
   "Cordran-of-Avalo": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Cordran of Avalo",
     "nickname": "Magister Cordran",
@@ -107,6 +112,7 @@
   },
   "Bilros-Alleno-Valben-Miavus": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Bilros Alleno Valben Miavus",
     "nickname": "Magister Miavus",
@@ -126,6 +132,7 @@
   },
   "Winkaen-Melruth": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Winkaen Melruth",
     "nickname": "Magister Melruth",
@@ -145,6 +152,7 @@
   },
   "Olanrem-the-Gray": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Olanrem the Gray",
     "nickname": "Magister Olanrem",
@@ -164,6 +172,7 @@
   },
   "Narythas-Kluurner": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Narythas Kluurner",
     "nickname": "Magister Kluurner",
@@ -183,6 +192,7 @@
   },
   "Delshea-Telmiss": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Delshea Telmiss",
     "nickname": "Magister Telmiss",
@@ -202,6 +212,7 @@
   },
   "Isma-Hushod": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Isma Hushod",
     "nickname": "Magister Hushod",
@@ -221,6 +232,7 @@
   },
   "Pertiz-Zuvey": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Pertiz Zuvey",
     "nickname": "Magister Zuvey",

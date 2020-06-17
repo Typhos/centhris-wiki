@@ -1,6 +1,7 @@
 {
   "Janik-Malmor": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": true,
     "tags": ["noble","human","count","navolin","Frenkel","Ahburn Castle"],
     "name": "Janik Malmor",
@@ -19,6 +20,7 @@
   },
   "Archduke-Nicolai-Valken": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["noble","human","archduke","City of Zurast"],
     "name": "Archduke Nicolai Valken",
@@ -35,6 +37,7 @@
   },
   "Jeskin-Sebroski": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Jeskin Sebroski",
     "tags": ["noble","human","count","navolin","hussar","rythlon","castle grinsted"],
@@ -55,6 +58,7 @@
   },
   "King-Kzesimir-III-of-House-Czak": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "King Kzesimir III of House Czak",
     "nickname": "King Kzesimir III Czak",
@@ -71,6 +75,7 @@
   },
   "Nantar-Izorin-Sarentus": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Nantar Izorin Sarentus",
     "nickname": "Izorin Sarentus",
@@ -87,6 +92,7 @@
   },
   "Elrîs-Melhira-Sarentus": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Elrîs Melhira Sarentus",
     "nickname": "Melhira Sarentus",
@@ -103,6 +109,7 @@
   },
   "Ernil-Thabos": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Ernil Thabos",
     "nickname": "Prince Thabos",
@@ -119,6 +126,7 @@
   },
   "Prince-Ardashir": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Prince Ardashir",
     "nickname": "Ardashir ab Shahreen",
@@ -135,6 +143,7 @@
   },
   "King-Bramdur-Thundershod": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "King Bramdur Thundershod",
     "nickname": "King Bramdur Thundershod",
@@ -150,7 +159,8 @@
     ]
   },
   "High-Queen-Inga-Villdyr": {
-    "playerKnown": false,
+    "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "High Queen Inga Villdyr",
     "nickname": "High Queen Inga Villdyr",
@@ -167,6 +177,7 @@
   },
   "Han-Darga-Vazrak": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Han Darga Vazrak",
     "nickname": "Han Darga Vazrak",
@@ -183,6 +194,7 @@
   },
   "Torild-Sjomann": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Torild Sjomann",
     "nickname": "Clan Chief Torild Sjomann",
@@ -199,6 +211,7 @@
   },
   "Wuldren-Tordenfødt": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Wuldren Tordenfødt",
     "nickname": "Clan Chief Wuldren Tordenfødt",
@@ -215,6 +228,7 @@
   },
   "Viljar-Bjørsel": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Viljar Bjørsel",
     "nickname": "Clan Chief Viljar Bjørsel",
@@ -227,6 +241,23 @@
     "affiliations": ["Realm of Lemuria"],
     "description": [
       "@+Clan Chief Viljar Bjørsel+@ is the leader of Clan Bjørsel and one of the ruling members of the Clan Council of Lemuria."
+    ]
+  },
+  "Han-Darga-Crogosh": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Han Darga Crogosh",
+    "nickname": "Han Darga Crogosh",
+    "linkingWords": ["Han Darga Crogosh of Clan Godak"],
+    "tags": ["half-orc","king","noble","Realm of Cibrin"],
+    "age": "37",
+    "gender": "Male",
+    "race": "Half-Orc",
+    "occupation": "Han Darga of Cibrin",
+    "affiliations": ["Realm of Cibrin"],
+    "description": [
+      "@+Han Darga Crogosh+@ is the chieftain of Clan Godak and the Han Darga, or reigning warlord, of Cibrin. He came to power in 2C 2568 by defeating the previous Han Darga, Ovdarg of Clan Narod, in a Gijzan Temtsel."
     ]
   }
 }

@@ -1,6 +1,7 @@
 {
   "Flintlock-Pistol": {
     "playerKnown": true,
+    "path": "lore",
     "name": "Flintlock Pistol",
     "nickname": "Flintlock Pistol",
     "type": "Weapon",
@@ -22,6 +23,7 @@
   },
   "Arquebus": {
     "playerKnown": true,
+    "path": "lore",
     "name": "Arquebus",
     "nickname": "Arquebus",
     "type": "Weapon",

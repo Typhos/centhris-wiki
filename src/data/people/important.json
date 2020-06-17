@@ -1,6 +1,7 @@
 {
   "Reanold-Duplechin": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["bard","halfling","trickster","sovereign","rythlon"],
     "name": "Reanold Duplechin",
@@ -21,6 +22,7 @@
   },
   "Ithi-Ironjaw": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": true,
     "tags": ["smith","dwarf","felrast","runesmith"],
     "name": "Ithi Ironjaw",
@@ -43,6 +45,7 @@
   },
   "Vagnur-Mountainhall": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["smith","dwarf","Kazdan Ord","runesmith"],
     "name": "Vagnur Mountainhall",
@@ -59,6 +62,7 @@
   },
   "Vyslos": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["druid","elf","Sylvan Conclave","grove"],
     "name": "Vyslos",
@@ -76,6 +80,7 @@
   },
   "Cahina": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["druid","human","Sylvan Conclave","grove"],
     "name": "Cahina",
@@ -92,6 +97,7 @@
   },
   "Tekas-Woadsinger": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["druid","Sylvan Conclave","grove"],
     "name": "Tekas Woadsinger",
@@ -108,6 +114,7 @@
   },
   "Baqrin-Calosh": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["noble","lord","Venbrin","barrier coast","argentate"],
     "name": "Baqrin Calosh",
@@ -130,6 +137,7 @@
   },
   "Zaldegarion": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["dragon","Venbrin","barrier coast","argentate"],
     "name": "Zaldegarion",
@@ -150,6 +158,7 @@
   },
   "Yabtaeid": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Yabtaeid",
     "nickname": "Yabtaeid the Daring",
@@ -167,7 +176,8 @@
   },
   "Cazner-Yasir": {
     "playerKnown": true,
-    "hideOnCat": false,
+    "path": "person",
+    "hideOnCat": true,
     "name": "Cazner Yasir",
     "nickname": "Vizier Cazner Yasir",
     "linkingWords": ["Royal Vizier Cazner Yasir"],
@@ -187,6 +197,7 @@
   },
   "Didac-Jorda": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Didac Jorda",
     "nickname": "Sir Didac Jorda",

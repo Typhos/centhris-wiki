@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Search from "components/search";
 
 import 'styles/header.scss';
 
@@ -37,6 +38,10 @@ class Header extends Component {
           <h1>
             <Link className="home" to="/">The World of Centhris</Link>
           </h1>
+        </div>
+
+        <div className="mobileSearch">
+          <Search />
         </div>
       </header>
     )

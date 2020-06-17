@@ -76,5 +76,19 @@ export default class DataLoader {
   static historical = {...historicalData};
 
   static spells = {...spellData};
+
+  static all = { 
+    ...this.people, 
+    ...this.places, 
+    ...this.lore, 
+    ...this.misc, 
+    ...this.organizations, 
+    ...this.characters, 
+    ...this.gods, 
+    ...this.holidays, 
+    ...this.calendar, 
+    ...this.historical, 
+    ...this.spells, 
+    ...this.creatures};
   
 }

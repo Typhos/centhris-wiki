@@ -1,6 +1,7 @@
 {
   "Avar": {
     "playerKnown": true,
+    "path": "lore",
     "name": "Avar",
     "nickname": "Avar",
     "commonName": "Elves",
@@ -23,6 +24,7 @@
   },
   "Glan'avar": {
     "playerKnown": true,
+    "path": "lore",
     "hideOnCat": true,
     "name": "Glan'avar",
     "nickname": "Glân'avar",
@@ -36,6 +38,7 @@
   },
   "Curon'avar": {
     "playerKnown": true,
+    "path": "lore",
     "hideOnCat": true,
     "name": "Curon'avar",
     "nickname": "Cúron'avar",
@@ -49,6 +52,7 @@
   },
   "Galenas'avar": {
     "playerKnown": true,
+    "path": "lore",
     "hideOnCat": true,
     "name": "Galenas'avar",
     "nickname": "Galenâs'avar",
@@ -62,6 +66,7 @@
   },
   "Aeglos'avar": {
     "playerKnown": true,
+    "path": "lore",
     "hideOnCat": true,
     "name": "Aeglos'avar",
     "nickname": "Aeglôs'avar",
@@ -75,6 +80,7 @@
   },
   "Ziril'udor": {
     "playerKnown": true,
+    "path": "lore",
     "name": "Ziril'udor",
     "nickname": "Ziril'udór",
     "commonNames": ["Dwarves"],
@@ -89,6 +95,7 @@
   },
   "Arol'zust": {
     "playerKnown": true,
+    "path": "lore",
     "hideOnCat": true,
     "name": "Arol'zust",
     "nickname": "Arôl'zust",
@@ -101,6 +108,7 @@
   },
   "Kulin'dak": {
     "playerKnown": true,
+    "path": "lore",
     "hideOnCat": true,
     "name": "Kulin'dak",
     "nickname": "Kulin'dák",
@@ -113,6 +121,7 @@
   },
   "Omir'thunen": {
     "playerKnown": true,
+    "path": "lore",
     "hideOnCat": true,
     "name": "Omir'thunen",
     "nickname": "Omir'thunen",
@@ -125,6 +134,7 @@
   },
   "Serbonji": {
     "playerKnown": true,
+    "path": "lore",
     "name": "Serbonji",
     "nickname": "Serbonji",
     "commonName": "Lionfolk",
@@ -137,6 +147,7 @@
   },
   "Marus": {
     "playerKnown": true,
+    "path": "lore",
     "name": "Marus",
     "nickname": "Marus",
     "commonName": "Walrusfolk",
@@ -148,6 +159,7 @@
   },
   "Anubari": {
     "playerKnown": true,
+    "path": "lore",
     "name": "Anubari",
     "nickname": "Anubari",
     "commonName": "Jackalfolk",
@@ -159,6 +171,7 @@
   },
   "Uklang": {
     "playerKnown": true,
+    "path": "lore",
     "name": "Uklang",
     "nickname": "Uklang",
     "commonName": "Yakfolk",
@@ -170,6 +183,7 @@
   },
   "Zhuren": {
     "playerKnown": false,
+    "path": "lore",
     "name": "Zhuren",
     "nickname": "Zhuren",
     "commonName": "Boarfolk",
@@ -181,6 +195,7 @@
   },
   "Daxiong": {
     "playerKnown": false,
+    "path": "lore",
     "name": "Daxiong",
     "nickname": "Daxiong",
     "commonName": "Boarfolk",

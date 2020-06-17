@@ -1,6 +1,7 @@
 {
   "The-Guardian": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Guardian",
     "nickname": "The Guardian",
     "trueName": "Bahamut",
@@ -67,6 +68,7 @@
   },
   "The-Eternal": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Eternal",
     "nickname": "The Eternal",
     "trueName": "Anethos",
@@ -103,6 +105,7 @@
   },
   "The-Maker": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Maker",
     "nickname": "The Maker",
     "trueName": "Usterral",
@@ -137,6 +140,7 @@
   },
   "The-Champion": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Champion",
     "nickname": "The Champion",
     "linkingWords": ["Isilena","the Champion"],
@@ -189,6 +193,7 @@
   },
   "The-Arbiter": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Arbiter",
     "nickname": "The Arbiter",
     "trueName": "Kezolet",
@@ -230,6 +235,7 @@
   },
   "The-Maiden": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Maiden",
     "nickname": "The Maiden",
     "trueName": "Yelensa",
@@ -266,6 +272,7 @@
   },
   "The-Wanderer": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Wanderer",
     "nickname": "The Wanderer",
     "trueName": "Dhynir",
@@ -300,6 +307,7 @@
   },
   "The-Harlequin": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Harlequin",
     "nickname": "The Harlequin",
     "trueName": "Jandivar",
@@ -361,6 +369,7 @@
   },
   "The-Tempest": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Tempest",
     "nickname": "The Tempest",
     "trueName": "Ukrom",
@@ -417,6 +426,7 @@
   },
   "The-Philosopher": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Philosopher",
     "nickname": "The Philosopher",
     "linkingWords": ["Nevondria", "the Philosopher"],
@@ -447,6 +457,7 @@
   },
   "The-Sage": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Sage",
     "nickname": "The Sage",
     "trueName": "Erathī",
@@ -480,6 +491,7 @@
   },
   "The-Gravekeeper": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Gravekeeper",
     "nickname": "The Gravekeeper",
     "trueName": "Neshaya",
@@ -505,6 +517,7 @@
   },
   "The-Shadow": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Shadow",
     "nickname": "The Shadow",
     "trueName": "Ozrus",
@@ -537,9 +550,11 @@
   },
   "The-Conqueror": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Conqueror",
     "nickname": "The Conqueror",
     "trueName": "Aegeroth",
+    "linkingWords": ["the Conqueror","the Lord of War","Aegeroth","Aegeroth, the Conqueror"],
     "portfolio": [
       "War",
       "Strength",
@@ -556,11 +571,10 @@
     "worshipers": [],
     "symbol": "",
     "shrineImg": ["shrine-conqueror.png"],
-    "linkingWords": ["Veldrius","the Conqueror","the Lord of War"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful evil"],
     "description": [
-      "Aegeroth, @+the Conqueror+@, is often depicted as a tall humanoid wearing dark, heavy armor. Aegoroth's personal weapons are @+Jor`umoth+@, @*the Blazing Cleaver*@, a great flaming battleaxe made of black iron, and @+Olmoraz+@, @*the Blade of Torment*@, a serrated broad sword made from the bones of Obscalyx, the great sea serpent, whom the Iron General slew in the ancient era of the First Convergence.",
+      "Aegeroth, @+the Conqueror+@, is often depicted as a tall humanoid wearing dark, heavy armor. Aegoroth's personal weapons are @+Jor`umoth+@, @*the Blazing Cleaver*@, a flaming battleaxe made of black iron, and @+Olmoraz+@, @*the Blade of Torment*@, a serrated broad sword made from the bones of Obscalyx, the great sea serpent, whom the Iron General slew in the ancient era of the First Convergence.",
       "As the embodiment of war, conflict and strife, the Conqueror is the patron of warlords, dictators and any who seek honor or status through marshal means. He is often worshiped alongside other deities, and the faithful see him as a figure of protection, albeit a harsh one. Military commanders and marshals of knightly orders will often invoke his name before the start of a battle in the hope he will bless their side of the conflict. Those who would \"do what needs to be done for the greater good\" falls under the Conqueror's mantle. Many of his clerical servants follow Aegeroth under the belief that it takes strong will and courage to make the world a better place even if the methods are grim.",
       "Some are naturally called to his service, but many of the followers of the Conqueror come follow him after the youthful idealism of the Guardian or the Champion fail them. It is then, when the harsh reality of a dangerous world sets in, that the Cult of the Conqueror may have a point."
     ],
@@ -570,6 +584,7 @@
   },
   "The-Wyrm": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Wyrm",
     "nickname": "The Wyrm",
     "trueName": "Tiamat",
@@ -600,6 +615,7 @@
   },
   "The-Leviathan": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Leviathan",
     "nickname": "The Leviathan",
     "trueName": "Veluria",
@@ -625,6 +641,7 @@
   },
   "The-Fiend": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Fiend",
     "nickname": "The Fiend",
     "trueName": "",
@@ -669,6 +686,7 @@
   },
   "The-Master": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Master",
     "nickname": "The Master",
     "trueName": "Asmodeus",
@@ -699,6 +717,7 @@
   },
   "The-Stygian": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Stygian",
     "nickname": "The Stygian",
     "trueName": "Erèdin",
@@ -733,6 +752,7 @@
   },
   "The-Reveler": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Reveler",
     "nickname": "The Reveler",
     "trueName": "",
@@ -760,6 +780,7 @@
   },
   "The-Smiling-Lady": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Smiling Lady",
     "nickname": "The Smiling Lady",
     "trueName": "",
@@ -790,6 +811,7 @@
   },
   "The-Ember-Soul": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Ember Soul",
     "nickname": "The Ember Soul",
     "trueName": "Glist",
@@ -811,6 +833,7 @@
   },
   "The-Stag": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Stag",
     "nickname": "The Stag",
     "trueName": "",
@@ -832,6 +855,7 @@
   },
   "The-Emerald-Mist": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Emerald Mist",
     "nickname": "The Emerald Mist",
     "trueName": "",
@@ -853,6 +877,7 @@
   },
   "The-Shimmering-Sky": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Shimmering Sky",
     "nickname": "The Shimmering Sky",
     "trueName": "Auroros",
@@ -874,6 +899,7 @@
   },
   "The-Stellar-Wolf": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Stellar Wolf",
     "nickname": "The Stellar Wolf",
     "trueName": "",
@@ -895,6 +921,7 @@
   },
   "The-Grove-Keeper": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Grove Keeper",
     "nickname": "The Grove Keeper",
     "trueName": "Tythar",
@@ -916,6 +943,7 @@
   },
   "The-Stonemother": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Stonemother",
     "nickname": "The Stonemother",
     "trueName": "",
@@ -937,6 +965,7 @@
   },
   "The-Banner-Lord": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Banner Lord",
     "nickname": "The Banner Lord",
     "trueName": "",
@@ -958,6 +987,7 @@
   },
   "The-Forgelord": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Forgelord",
     "nickname": "The Forgelord",
     "trueName": "Eshtânïl",
@@ -990,6 +1020,7 @@
   },
   "The-Brewmaster": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Brewmaster",
     "nickname": "The Brewmaster",
     "trueName": "",
@@ -1011,6 +1042,7 @@
   },
   "The-Biting-Frost": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Biting Frost",
     "nickname": "The Biting Frost",
     "trueName": "Jotnoral",
@@ -1040,6 +1072,7 @@
   },
   "The-Shattered-Mind": {
     "playerKnown": false,
+    "path": "lore",
     "name": "The Shattered Mind",
     "nickname": "The Shattered Mind",
     "trueName": "Xedris",
@@ -1061,6 +1094,7 @@
   },
   "The-Soul-Thief": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Soul Thief",
     "nickname": "The Soul Thief",
     "trueName": "Doella",
@@ -1082,6 +1116,7 @@
   },
   "The-Hidden-Blade": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Hidden Blade",
     "nickname": "The Hidden Blade",
     "trueName": "",
@@ -1103,6 +1138,7 @@
   },
   "The-Dark-Queen": {
     "playerKnown": false,
+    "path": "lore",
     "name": "The Dark Queen",
     "nickname": "The Dark Queen",
     "trueName": "",
@@ -1124,6 +1160,7 @@
   },
   "The-Gold-Prince": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Gold Prince",
     "nickname": "The Gold Prince",
     "trueName": "Radagio",
@@ -1145,6 +1182,7 @@
   },
   "The-Temptress": {
     "playerKnown": false,
+    "path": "lore",
     "name": "The Temptress",
     "nickname": "The Temptress",
     "trueName": "",
@@ -1166,6 +1204,7 @@
   },
   "The-Unending-Hunger": {
     "playerKnown": false,
+    "path": "lore",
     "name": "The Unending Hunger",
     "nickname": "The Unending Hunger",
     "trueName": "Phyreus",
@@ -1187,6 +1226,7 @@
   },
   "The-Masked-Lady": {
     "playerKnown": false,
+    "path": "lore",
     "name": "The Masked Lady",
     "nickname": "The Masked Lady",
     "trueName": "Retra",
@@ -1208,6 +1248,7 @@
   },
   "The-Silver-Blade": {
     "playerKnown": true,
+    "path": "lore",
     "name": "The Silver Blade",
     "nickname": "The Silver Blade",
     "trueName": "Retra",

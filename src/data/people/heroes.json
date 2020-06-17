@@ -1,6 +1,7 @@
 {
   "Shiavalae-Amarathar": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["adventurer","elf","wizard","Ruby Phoenix","Rakenburg","bound","friend","associate"],
     "name": "Shiavalae Amarathar",
@@ -21,6 +22,7 @@
   },
   "Khazar-Thul": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Khazar Thul",
     "tags": ["adventurer","human","paladin","Ruby Phoenix","Rakenburg","bound","friend","associate"],
@@ -43,6 +45,7 @@
   },
   "Lirr-Stonebreath": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Lirr Stonebreath",
     "tags": ["cleric","dwarf","smith","adventurer","adventurer","associate","friend"],
@@ -62,6 +65,7 @@
   },
   "Roland-of-Zelmar": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Roland of Zelmar",
     "tags": ["adventurer","human","monster hunter","friend","associate"],
@@ -81,6 +85,7 @@
   },
   "Zorrakir": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Zorrakir",
     "tags": ["monk","tiefling","venbrin","friend","associate","master"],
@@ -99,6 +104,7 @@
   },
   "Belthren-Ogni": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Belthren Ogni",
     "tags": ["adventurer","human","rogue","Ruby Phoenix","Rakenburg","associate"],
@@ -116,6 +122,7 @@
   },
   "Lensa-Ogni": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Lensa Ogni",
     "tags": ["adventurer","human","sorceress","Ruby Phoenix","Rakenburg","associate"],
@@ -132,6 +139,7 @@
   },
   "Telarion-Elentiir": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Telarion Elentiir",
     "nickname": "Telarion",
@@ -226,7 +234,8 @@
     "link": "https://www.dndbeyond.com/profile/Typhos6/characters/22189989"
   },
   "Wulfgar-of-Ozeresk": {
-    "playerKnown": false,
+    "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Wulfgar of Ozeresk",
     "nickname": "Wulfgar",
@@ -234,7 +243,7 @@
     "race": "Human",
     "age": "37",
     "gender": "Male",
-    "occupation": "Personal Guard of Queen Inga",
+    "occupation": "Personal Guard to the High Queen",
     "class": "Barbarian 10",
     "subclass": "Path of the Beast",
     "background": "Soldier",
@@ -277,6 +286,7 @@
   
   "Grimsley": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Grimsley",
     "nickname": "Grimsley",
@@ -325,6 +335,7 @@
   },
   "Ellyana": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Ellyana",
     "nickname": "Ellyana",

@@ -1,6 +1,7 @@
 {
   "Kingdom-of-Navolin": {
     "playerKnown": true,
+    "path": "location",
     "name": "Kingdom of Navolin",
     "nickname": "Navolin",
     "linkingWords": ["Navolinian","Navolinians"],
@@ -116,6 +117,7 @@
   },
   "Archduchy-of-Zurast": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["archduchy","state","ulfwyst","monarchy"],
     "name": "Archduchy of Zurast",
     "nickname": "Zurast",
@@ -150,6 +152,7 @@
   },
   "Kingdom-of-Lemuria": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["kingdom","state","ulfwyst","monarchy"],
     "name": "Kingdom of Lemuria",
     "nickname": "Realm of Lemuria",
@@ -191,6 +194,7 @@
   },
   "Cibrin": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["kingdom","state","ulfwyst"],
     "name": "Cibrin",
     "nickname": "Realm of Cibrin",
@@ -202,7 +206,7 @@
     "races": ["human","dwarf","uklang","half-orc","half-giant"],
     "government": "Feudal Monarchy",
     "location": "Ulfwyst",
-    "leaders": ["Han Darga Vaburk of Clan Godak"],
+    "leaders": ["Han Darga Crogosh of Clan Godak"],
     "regions": ["Ossin River","Torick-Vir Valley","Torick Peaks","Vir Mountains","Venngar Sea"],
     "description": [
       "A mid-sized state in southern Ulfwyst, the @+Realm of Cibrin+@ is a harsh land sitting between the Torick Peaks and Vir Mountain ranges, south of the Theocracy of Tovanis. Most of the kingdom is comprised of dangerous, untamed forest and craggy hills.",
@@ -227,6 +231,7 @@
   },
   "Theocracy-of-Tovanis": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["state","ulfwyst","theocracy"],
     "name": "Theocracy of Tovanis",
     "nickname": "Tovanis",
@@ -272,6 +277,7 @@
   },
   "Syrothian-Empire": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["empire","state","ulfwyst","hobgoblins","monarchy"],
     "name": "Syrothian Empire",
     "nickname": "Syrothia",
@@ -301,6 +307,7 @@
   },
   "Kingdom-of-Abbasyr": {
     "playerKnown": false,
+    "path": "location",
     "name": "Kingdom of Abbasyr",
     "nickname": "Kingdom of Abbasyr",
     "linkingWords": ["Abbasyr","Abbasyri"],
@@ -324,6 +331,7 @@
   },
   "Kaeldrin-Sanctum": {
     "playerKnown": false,
+    "path": "location",
     "name": "Kaeldrin Sanctum",
     "nickname": "Kaeldrin",
     "linkingWords": ["the Sanctum","the Mage Sanctum"],
@@ -347,6 +355,7 @@
   },
   "Ildroun-Vale": {
     "playerKnown": false,
+    "path": "location",
     "name": "Ildroun Vale",
     "nickname": "Ildroun",
     "linkingWords": ["the Vale","the Elfin Vale"],
@@ -370,6 +379,7 @@
   },
   "Dol-Obok": {
     "playerKnown": true,
+    "path": "location",
     "name": "Dol Obok",
     "nickname": "Dwarf Kingdom of Dol Obok",
     "linkingWords": ["Amudian"],
@@ -380,8 +390,9 @@
     "population": "~540,000",
     "races": ["dwaf","human","halfling","gnome","half-elf","uklang"],
     "government": "Hereditary Monarchy",
-    "location": "Pillars of Amud",
-    "leaders": ["High King Bramdur Thundershod"],
+    "location": "Ulfwyst",
+    "regions": ["Iron Hills","Pillars of Amud"],
+    "leaders": ["King Bramdur Thundershod"],
     "cities": ["Thellodur","Felrast","Isidar Hreth","Lanok Duraz","Rul Orodum","Vol Volund","Kadren Zul"],
     "description": [
       "The Dwarf Kingdom of Dol Obok is the largest dwarven civilization in Ulfwyst. Controlling the span of the Pillars of Amud, the dwarves of the kingdom are known for their neutrality. Instead of worrying about the politics, infighting and squabbles of outsiders, the Ziril'udór focus on the exploration of the under-mountains, the crafting of great works and the edification of the art of Runeforging.",

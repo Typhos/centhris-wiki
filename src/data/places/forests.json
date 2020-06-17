@@ -1,6 +1,7 @@
 {
   "Greyleaf-Pines": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["region","ulfwyst","forest","Torick Peaks"],
     "name": "Greyleaf Pines",
     "nickname": "Greyleaf Pines",
@@ -11,6 +12,7 @@
   },
   "Thornroot-Thicket": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["region","forest","rythlon","kelishan highlands","ulfwyst","Sylvan Conclave"],
     "name": "Thornroot Thicket",
     "nickname": "Thornroot Forest",
@@ -23,6 +25,7 @@
   },
   "Drakenwald": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["region","forest","zurast","ulfwyst"],
     "name": "Drakenwald",
     "nickname": "Drakenwald Forest",
@@ -34,6 +37,7 @@
   },
   "Vel'dorin-Wood": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["region","forest","zurast","ulfwyst"],
     "name": "Vel'dorin Wood",
     "nickname": "Vel'dorin Forest",
@@ -45,6 +49,7 @@
   },
   "The-Wraithwood": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["region","forest","Navolin","ulfwyst"],
     "name": "The Wraithwood",
     "nickname": "The Wraithwood",
@@ -56,6 +61,7 @@
   },
   "Razark-Timberland": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["region","forest","Navolin","ulfwyst"],
     "name": "Razark Timberland",
     "nickname": "Razark Timberland",
@@ -67,6 +73,7 @@
   },
   "Greater-Tsaga-Forests": {
     "playerKnown": false,
+    "path": "location",
     "tags": ["region","forest","Syrothia","ulfwyst"],
     "name": "Greater Tsaga Forests",
     "nickname": "Tsaga Forests",
@@ -78,6 +85,7 @@
   },
   "Gorcien-Forests": {
     "playerKnown": true,
+    "path": "location",
     "tags": ["region","forest","Navolin","ulfwyst"],
     "name": "Gorcien Forests",
     "nickname": "Gorcien Forests",

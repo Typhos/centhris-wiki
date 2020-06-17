@@ -1,6 +1,7 @@
 {  
   "Khorohr-of-Thellodur": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": true,
     "name": "Khorohr of Thellodur",
     "nickname": "Khorohr of Thellodur",
@@ -18,6 +19,7 @@
   },
   "Bazyli-of-Camunburg": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": true,
     "name": "Bazyli of Camunburg",
     "nickname": "Bazyli of Camunburg",
@@ -35,6 +37,7 @@
   },
   "Eskra-Gradiorus": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": true,
     "name": "Eskra Gradiorus",
     "nickname": "Eskra Gradiorus",
@@ -52,6 +55,7 @@
   },
   "Gohdur-Stormbreaker": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": true,
     "name": "Gohdur Stormbreaker",
     "nickname": "Thane Gohdur Stormbreaker",
@@ -69,6 +73,7 @@
   },
   "Vësdar-Frostgem": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": true,
     "name": "Vësdar Frostgem",
     "nickname": "Vësdar Frostgem",
@@ -84,21 +89,22 @@
       "@+Vësdar Frostgem+@ was born the Utharian Empire during the era of the Great Imperial Conflicts. As a way to escape the troubles of her time, Vësdar focused on creating order from the natural chaos she found around her. Her natural inclination for organizing, recording and cataloging the natural world of Centhris led her to create a new, more accurate and rational calendar than the ones previously used by any of the world's many nation-states. The result of her work became known as the Vësdarian Calendar which is now used in most civilized parts of the world."
     ]
   },
-  "Shulxaa": {
+  "Zecele-of-Belorus": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": true,
-    "name": "Shulxaa",
-    "nickname": "Shulxaa, the Withered King",
-    "linkingWords": ["Shulxaa the Withered King","Lich Lord of Istagen"],
-    "tags": ["lich","realm lord","wizard","historical"],
-    "birthYear": "??",
-    "deathYear": "2C 2461",
-    "gender": "Male",
+    "name": "Zecele of Belorus",
+    "nickname": "Zecele of Belorus",
+    "linkingWords": ["Zecele"],
+    "tags": ["human","bard","historical"],
+    "birthYear": "2C 2508",
+    "deathYear": "2C 2542",
+    "gender": "Female",
     "race": "Human",
-    "occupation": "Realm Lord",
-    "affiliations": ["Istagen"],
+    "occupation": "Adventuring Bard",
+    "affiliations": ["Ruby Drifters"],
     "description": [
-      "@+Shulxaa, the Withered King+@, was a lich lord who reigned over the Kingdom of Istagen for several hundred years prior to his defeat by the Knights of the Sacred Dawn. Shulxaa had achieved lichdom several hundred years prior to his complete domination of the kingdom. He established total control around 2C 1975, though his domination of the realm had occurred slowly, lasting roughly a hundred years, as the region was twisted into a puppet state by the lich."
+      "@+Zecele of Belorus+@ was a human bard and adventurer who was part of the Ruby Drifters adventuring group. Before joining the Drifters, she was a well known entertainer in the Archduchy of Zurast."
     ]
   }
 }

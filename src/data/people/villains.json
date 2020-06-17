@@ -1,6 +1,7 @@
 {
   "Akad-the-Magnificent": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Akad the Magnificent",
     "nickname": "Akad",
@@ -17,8 +18,44 @@
       "While exploring the interior of the Molten Palace, Khazar, Shia and the the Lost Shields encountered the shade of Akad and were bound to his service. As part of their agreement, Akad provided the Lost Shields with the Disc of the Blazing Compact."
     ]
   },
+  "Droknac-the-Immortal": {
+    "playerKnown": true,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Droknac the Immortal",
+    "nickname": "Droknac",
+    "tags": ["syrothian emperor","hobgoblin warlord"],
+    "titles": ["the Immortal","Emperor of the Plateau","Avatar of Aegeroth"],
+    "race": "Hobgoblin",
+    "age": "??",
+    "gender": "Male",
+    "affiliations": ["Syrothian Empire","Lashkar"],
+    "quote": "\"I am the Avatar of the Conqueror, honor personified and death incarnate. None can kill me me, for I am destined to unite the world under the banner of the Black Drake.\"",
+    "description": [
+      "@+Droknac the Immortal+@ is the hobgoblin warlord of the Syrothian Empire. Claiming to be living embodiment of Aegeroth, the Conqueror, Droknac managed to unite the scattered tribes of goblins and hobgoblins of the Syrothian Plateau under his banner. He now has his sights set on a new \"divine mandate\", conquering all of Ulfwyst."
+    ]
+  },
+  "Shulxaa": {
+    "playerKnown": true,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Shulxaa",
+    "nickname": "Shulxaa, the Withered King",
+    "linkingWords": ["Shulxaa the Withered King","Lich Lord of Istagen"],
+    "tags": ["lich","realm lord","wizard","historical"],
+    "birthYear": "??",
+    "deathYear": "2C 2461",
+    "gender": "Male",
+    "race": "Human",
+    "occupation": "Realm Lord",
+    "affiliations": ["Istagen"],
+    "description": [
+      "@+Shulxaa, the Withered King+@, was a lich lord who reigned over the Kingdom of Istagen for several hundred years prior to his defeat by the Knights of the Sacred Dawn. Shulxaa had achieved lichdom several hundred years prior to his complete domination of the kingdom. He established total control around 2C 1975, though his domination of the realm had occurred slowly, lasting roughly a hundred years, as the region was twisted into a puppet state by the lich."
+    ]
+  },
   "the-Myrd'draal": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "the Myrd'draal",
     "tags": ["monk","master","villain","endless sky","azoth'xun","eladrin"],
@@ -34,6 +71,7 @@
   },
   "Rashev": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Rashev",
     "tags": ["monk","human","kongir","enemy","azoth'xun"],
@@ -52,6 +90,7 @@
   },
   "Teliril-Wasanathi": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["hag","elf","fey","rythlon","navolin","enemy","magistrate","noble"],
     "name": "Teliril Wasanathi",
@@ -71,6 +110,7 @@
   },
   "Nikodim-Tifafi-Zihan-Pilkozz": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "tags": ["sailor","captain","Volikgrad","barrier coast","smuggler","salty ferret"],
     "name": "Nikodim Tifafi Zihan Pilkozz",
@@ -90,6 +130,7 @@
   },
   "Castra-Diolanum": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": true,
     "name": "Castra Diolanum",
     "nickname": "Castra Diolanum",
@@ -140,6 +181,7 @@
   },
   "Nadia-Vernon": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Nadia Vernon",
     "nickname": "Nadia Vernon",
@@ -155,6 +197,7 @@
   },
   "Dimon-Rhym": {
     "playerKnown": false,
+    "path": "person",
     "hideOnCat": false,
     "name": "Dimon Rhym",
     "nickname": "Dimon Rhym",
@@ -170,6 +213,7 @@
   },
   "Jondr-Mistwalker": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Jondr Mistwalker",
     "nickname": "Jöndr Mistwalker",
@@ -189,6 +233,7 @@
   },
   "Ulfrica-Arnbjorg": {
     "playerKnown": true,
+    "path": "person",
     "hideOnCat": false,
     "name": "Ulfrica Arnbjorg",
     "nickname": "Clan Chief Ulfrica Arnbjorg",
