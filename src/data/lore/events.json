@@ -9,14 +9,18 @@
     "type": "Historical Event",
     "tags": ["event","cataclysm","utharian empire"],
     "description": [
-      "@+The Ruination of Centhris+@ was a major world event which marked the end of the Utharian Empire and the descent of Centhris into a long, violent dark age."
+      "@+The Ruination of Centhris+@ was a major world event which marked the end of the Utharian Empire and the descent of Centhris into a long, violent dark age. The epicenter of the event was the lost continent of Thyra, which was located where the Toridosa Archipelago exists today."
     ],
     "articles": {
-
+      "The End of a Golden Age": [
+        "Historical scholars date the Ruination of Centhris to the year 2C 837, or roughly 1,740 years ago. The cataclysm marked an abrupt end to the flourishing Utharian Empire, which was in the midst of a Golden Age of magical achievement and prosperity."
+      ]
     },
     "dmArticles": {
-      "The End of a Golden Age": [
-        "Historical scholars date the Ruination of Centhris as occurring in the year 2C 837, or roughly 1,740 years ago. It acted as a definitive end to the Utharian Empire, which, at the time, was in the midst of a Golden Age of magical achievement and prosperity."
+      "The Great Betrayal": [
+        "The ruination was incited by the Grand Magistrix of the Utharian Empire, Erèdin Esk Zarlaya. The sorcerer had spent years researching the limits of arcane theory and slowly descended into megalomania. Discontent with his own mortality and finding the possibility of elevating himself to lichdom like some of his peers, Erèdin search for a more permanent, and terrible solution. After years of research which drove him to madness, the mage found the final solution to his plight: ascend to godhood by infusing himself with the very essence of magic from which the people of the Utharian Empire drew power, the Aelsonthar.",
+        "On the 12th of Heskur, 2C 837, Erèdin entered the Sanctuary of Arcana, and cast himself into the Aelsonthar. Those in the temple at first assumed he had committed suicide, as no being could possibly survive contact with a pure, untamed source of wild magic. Erèdin, however, did not perish, for he had been studying how to absorb and contain impossibly large bursts of leyline magic for years. In one incredible moment of unthinkable avarice, the sorcerer absorbed every drop of magical essence granted by the nexus, ascending to godhood in the process. This act, unimaginably cruel, robbed his people of the very source of their power. In the moment of his ascent, Erèdin absorbed all magic granted by the Aelsonthar, killing thousands of powerful mages who drew upon the source in an instant, as he absorbed their life essence.",
+        "With his ascent complete, the new god, later to be dubbed the Stygian by scholars, left the mortal plane with a thought. The leyline nexus at the heart of Thyra, which had been completely drained, began to collapse in meer moments, creating a massive magical vortex in the void."
       ]
     }
   },
@@ -41,6 +45,7 @@
     "path": "lore",
     "name": "The Great Betrayal",
     "nickname": "Ascension of the Betrayer",
+    "linkingWords": ["the Great Betrayal"],
     "dates": ["2C 837"],
     "type": "Historical Event",
     "tags": ["event","stygian","utharian empire","god"],
