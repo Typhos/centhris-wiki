@@ -146,5 +146,36 @@
     },
     "dmArticles": {
     }
+  },
+  "Khün-Mönnas": {
+    "playerKnown": true,
+    "path": "lore",
+    "hideOnCat": false,
+    "name": "Khün Mönnas",
+    "nickname": "Khün Mönnas",
+    "linkingWords": ["Cannibal Rebirth"],
+    "type": "Centhris World Lore",
+    "tags": ["world lore","goblinoid genetics"],
+    "description": [
+      "All goblinoids share a unique genetic trait, known as @+Khün Mönnas+@, which allows them a peculiar form of immortality: so long as a dead goblin is eaten by another goblin, all its memories will be passed on to that goblin - including any memories from previous consumed goblins! Scholars debate wether this genetic trait caused goblinods to become voracious cannibals, or their innate cannibalistic tendencies developed into the ability to absorb the memories of goblinoids they consume. Most goblins remember dozens or even hundreds of lives (and deaths), and see it as little more than an inconvenience."
+    ],
+    "articles": {
+      "Goblinoid Hierarchy": [
+        "Scholars have studied the manner in which goblinoids cannibalize their dead and gain the memories of those they eat. Jokūba Kazluskas, the renowned Kaeldrin anthropologist, states in his book, @*The Biology and Culture of Highlands Goblinoids*@, that a goblin who eats another goblin gains that goblin's memories, as well as the memories of all the goblins the deceased had eaten prior.",
+        "A @+goblin+@ which consumes the corpse of a deceased @+hobgoblin+@ not only gains the memories of that hobgoblin, but will begin to grow; over the course of about a month, it will become a new hobgoblin, with the personality and memories of the deceased hobgoblin. This is why hobgoblins are always sure to keep some goblins around, despite their contempt for their inferior cousins - when a hobgoblin dies, assuming it's a hobgoblin the others still want around, they'll go grab the nearest goblin and feed the corpse to it.",
+        "Bugbears tend to be solitary and avoid one another."
+      ],
+      "Cultural Norms & Taboos": [
+        "An interesting cultural phenomena amongst goblinoids is the fact that hobgoblins will almost universally refuse to cannibalize fallen kin of any kind. Though it has been confirmed that a hobgoblin which consumes the corpse of a goblin would gain the decease's memories, hobgoblins view such actions as demeaning. The memories gained by doing so are not deemed worth the trade-off of having to lower yourself to consuming a mere goblin.",
+        "Though goblins consuming hobgoblins, to elevate themselves to the ranks of their superior cousins, is a cultural norm, it is considered taboo for a hobgoblin to consume a deceased hobgoblin. This is because the outcome of this act is a bugbear, a monstrously huge goblin that hunts and eats other goblins and hobgoblins. Only in extreme, or dire circumstances will such actions be tolerated by other goblinoids."
+      ],
+      "Bloody Frenzies": [
+        "Goblins, hobgoblins and bugbears, though cannibalistic, have been almost exclusively observed cannibalizing fallen comrades. Attacking and consuming another goblinoid when the kin has not been slain first is strangely absent from goblin culture. A pragmatic observer might assume that a goblin might attempt to kill a hobgoblin in order to attempt to enter the hobgoblin ranks. This does not seem to occur, except in extremely rare events known as blood frenzies.",
+        "When goblinoids are hopelessly outnumbered, or their social order breaks down, goblins descend into ferocious infighting. Goblins, hobgoblins and especially bugbears will begin to kill and consume any other goblins nearby. This chaotic bloodshed results in a drastic consolidation of a goblin tribe's numbers, usually into a small tribe of bugbears.",
+        "Such events are extremely rare, as hobgoblins attempt to prevent such occurrences at all costs. Hobgoblins who find themselves in such an event will begin exterminating all non-hobgoblins in order to restore order."
+      ]
+    },
+    "dmArticles": {
+    }
   }
 }
