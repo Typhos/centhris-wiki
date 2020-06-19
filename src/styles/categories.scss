@@ -4,6 +4,8 @@
   padding: 0;
   margin: 1em auto 0;
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
 
   article {
     margin-top: 0;
@@ -17,6 +19,23 @@
 
   ul.sectionList {
     padding: 0;
+  }
+
+  .category {
+    width: 100%;
+  }
+
+  &.columns {
+    .category {
+      display: inline-block;
+      width: 48%;
+      margin-right: 2%;
+      align-self:top;
+    }
+
+    li.entry {
+
+    }
   }
 
   li.entry {
@@ -34,14 +53,15 @@
 
     img {
       &.crest {
-        width: 16%;
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        top: 50%;
-        transform: translateY(-110%);
+        display: none;
+        // width: 16%;
+        // position: absolute;
+        // margin-left: auto;
+        // margin-right: auto;
+        // left: 0;
+        // right: 0;
+        // top: 50%;
+        // transform: translateY(-110%);
       }
 
       &.landscape,
@@ -99,6 +119,12 @@
   }
 
   #categories {
+
+    &.columns {
+      .category {
+        width: 100%;
+      }
+    }
 
     li.entry {
       width: 45%;

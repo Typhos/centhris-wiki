@@ -347,7 +347,7 @@
     }
   },
   "Immortal-Legions": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "group",
     "name": "Immortal Legions",
     "nickname": "Immortal Legions",
@@ -359,6 +359,12 @@
       "The Immortal Legions make up the majority of the military forces of the Syrothian Empire. The legions are comprised primarily of hobgoblins who are organized into units of highly disciplined, heavy infantry. All legions have auxiliary units of goblins, which are used as scouts, ranged skirmishers and messengers."
     ],
     "articles": {
+      "Legionnaires": [
+        "The Immortal Legions are comprised "
+      ],
+      "The Blackfire Dragoon": [
+        "The most elite soldiers of the Immortal Legions are the @*Blackfire Dragoon*@. These heavy cavalry"
+      ],
       "Goblin Auxiliaries": [
         "Every Syrothian legion maintains an auxiliary force of goblins which are held in reserve during engagements. These goblins serve in non-combat roles, generally as scouts & messengers. Their true purpose, however, is to act as reinforcements for fallen hobgoblin legionaries, thanks to the unique goblinoid genetic trait known as Khün Mönnas, colloquially known as @*Cannibal Rebirth*@."
       ]

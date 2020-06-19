@@ -1,6 +1,6 @@
 {
   "the-Rostamas": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["mountains","region","ulfwyst"],
     "name": "the Rostamas",
@@ -124,7 +124,7 @@
     ]    
   },
   "Eye-of-Vel'dorin": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["region","volcano","moutain","ulfwyst"],
     "name": "Eye of Vel'dorin",
@@ -136,7 +136,7 @@
     ]    
   },
   "Tashvir-Mountains": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["region","volcano","moutain","ulfwyst"],
     "name": "Tashvir Mountains",
@@ -148,7 +148,7 @@
     ]    
   },
   "Dakshava-Heights": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["region","volcano","moutain","ulfwyst"],
     "name": "Dakshava Heights",

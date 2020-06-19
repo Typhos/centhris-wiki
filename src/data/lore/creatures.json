@@ -791,5 +791,134 @@
         "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (2d6) cold damage. The target must succeed on a DC 15 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
       }
     ]
+  },
+  "Blackfire-Dragoon": {
+    "playerKnown": true,
+    "path": "lore",
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Blackfire Dragoon",
+    "nickname": "Blackfire Dragoon",
+    "linkingWords": ["Blackfire Dragoons"],
+    "type": "Humanoid",
+    "tags": ["humanoid","goblinoid","black drake cavalry","Immortal Legion"],
+    "description": [
+      "The @+Blackfire Dragoons+@ are the most elite troops in the Syrothian Immortal Legions. Dragoons fly into battle upon a Blackfire Drake."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    },
+    "alignment": "Lawful Evil",
+    "creatureType": "Medium Humanoid",
+    "stats": [
+      {"name": "STR", "val": 18},
+      {"name": "DEX", "val": 12},
+      {"name": "CON", "val": 16},
+      {"name": "INT", "val": 10},
+      {"name": "WIS", "val": 14},
+      {"name": "CHA", "val": 14}
+    ],
+    "armor": "17 (splintmail)",
+    "hitPoint": 128,
+    "hitDie": "17d8+51",
+    "speed": "30 ft.",
+    "skills": "Athletics +7, Insight +5, Intimidation +5, Perception +5",
+    "savingThrows": "Str +7, Con +6",
+    "damageResistances": "",
+    "damageVulnerabilities": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
+    "senses": "Darkvision 60 ft.",
+    "passiveWisdom": 12,
+    "languages": "Goblin, Common",
+    "challenge": "5",
+    "abilities": [
+      {
+        "name": "Martial Advantage.",
+        "text": "The Blackfire Dragoon has advantage on attacks made against a target grappled by its Black Drake mount."
+      },
+      {
+        "name": "Mounted Combatant.",
+        "text": "The Blackfire Dragoon typically fights from the back of a Syrothian Black Drake. The drake and the Blackfire Dragoon share an initiative in combat. If the Blackfire Dragoon is hit for 20 points of damage or more from a single attack, it must succeed on an athletics check with DC equal to half the damage of the attack or fall from its mount."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "text": "The Blackfire Dragoon makes two attacks with its blackfire halberd."
+      },
+      {
+        "name": "Blackfire Halberd.",
+        "text": "Melee Weapon Attack: +7 to hit, reach 10ft., one target. Hit: 10 (1d10 + 5) slashing damage plus 5 (1d10) fire damage."
+      }
+    ]
+  },
+  "Syrothian-Blackfire-Drake": {
+    "playerKnown": true,
+    "path": "lore",
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Syrothian Blackfire Drake",
+    "nickname": "Syrothian Blackfire Drake",
+    "linkingWords": ["Blackfire Drake"],
+    "type": "Dragon",
+    "tags": ["dragon","blackfire drake cavalry","Immortal Legion"],
+    "description": [
+      "The @+Syrothian Blackfire Drake+@ is most commonly found in the Rostamas, located in north-central Ulfwyst. These aggressive predators are prized as battle mounts for the elite Blackfire Dragoons of the Syrothian Immortal Legions. The dragon's name is derived from their unique ability to produce dark flames inside their mouth and throat. Unlike full dragons, these smaller cousins cannot project this flame as a breath weapon, instead using it to cook their prey before digesting it."
+    ],
+    "articles": {
+      "Bred for War": [
+        "Though a terrifying natural predator in its own right, Blackfire drakes do not naturally travel beyond their hunting grounds in the Rostamas. It was the hobgoblins of the Syrothian Empire who first saw the potential for the beasts as war mounts. After numerous failed attempts to tame fully grown adult drakes, it was determined that the best approach for domesticating the creatures was to raise them from birth.",
+        "After a clutch of eggs are successfully hatched (a difficult task in its own right, as a clutch of eggs must be kept just above freezing for keeps to successfully hatch) it takes a newborn drake roughly 2 years to reach maturity. During this time, they must be fed a steady diet of raw meat and be trained extensively in order to prevent them from attacking their master while mounted in the saddle.",
+        "Even with extensive battle training, these dragonkin are still too wild and savage to fight in regimented tactics of the Immortal Legions. Instead, each Blackfire Dragoon is expected to be a fully autonomous warrior, capable of fighting independently, or in small war bands, in order to avoid the drakes attacking each other, or other riders out of sheer savage aggression."
+      ]
+    },
+    "dmArticles": {
+    },
+    "alignment": "Neutral Evil",
+    "creatureType": "Large Dragon",
+    "stats": [
+      {"name": "STR", "val": 16},
+      {"name": "DEX", "val": 10},
+      {"name": "CON", "val": 16},
+      {"name": "INT", "val": 6},
+      {"name": "WIS", "val": 12},
+      {"name": "CHA", "val": 8}
+    ],
+    "armor": "15 (natural armor)",
+    "hitPoint": 45,
+    "hitDie": "5d10+15",
+    "speed": "30 ft., fly 60 ft.",
+    "skills": "Athletics +6, Intimidation +2, Perception +4",
+    "savingThrows": "Str +5, Con +5",
+    "damageResistances": "Fire",
+    "damageVulnerabilities": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
+    "senses": "",
+    "passiveWisdom": 12,
+    "languages": "",
+    "challenge": "3",
+    "abilities": [
+      {
+        "name": "Flyby Attack.",
+        "text": "The drake does not provoke an opportunity attack when it flies out of an enemy's reach."
+      },
+      {
+        "name": "Drag Off.",
+        "text": "If the drake grapples an opponent on its turn, it may use its bonus action to move an additional 15 feet, carrying the target along with it."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Bite.",
+        "text": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9 (2d6 + 3) piercing damage and the target is grappled (escape DC 14). Until the grapple ends, the target takes 6 (2d6) fire damage at the start of each of its turns."
+      },
+      {
+        "name": "Terrifying Screech.",
+        "text": "The drake unleashes an unnatural, high pitched screech. All creatures in a 30 foot cone that are not deafened must succeed on a DC 13 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the fear on a success."
+      }
+    ]
   }
 }

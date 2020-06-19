@@ -70,7 +70,7 @@ class CreatureCategories extends Component {
         <Filter handleFilter={ this.handleFilter }  data={this.state.allCreatures}/>
 
         <h2 className="sectionGroup">Creatures of Centhris <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
-        <div id="categories" >
+        <div id="categories" className="columns">
           {
             this.state.categories.map( category => {
               return (

@@ -40,7 +40,7 @@
     }
   },
   "The-Feywild": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "hideOnCat": false,
     "name": "The Feywild",
@@ -80,7 +80,7 @@
     }
   },
   "The-Shadowfell": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "hideOnCat": false,
     "name": "The Shadowfell",

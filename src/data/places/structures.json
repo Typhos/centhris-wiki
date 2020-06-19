@@ -161,15 +161,15 @@
     }
   },
   "Hessirwynd-Palace": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
-    "tags": ["palace","building","navolin","frecyra","ulfwyst","king"],
+    "tags": ["palace","building","zurast","ulfwyst","archduke"],
     "name": "Hessirwynd Palace",
     "nickname": "Hessirwynd Royal Palace",
     "type": "Structure",
-    "location": "Frecyra",
-    "leaders": ["King Kzesimir III Czak"],
+    "location": "City of Zurast",
     "description": [
+      "Hessirwynd Palace is the royal residence of the Archduke of Zurast, Nicolai Valken."
     ]    
   },
   "Storsal-Helter": {
@@ -209,7 +209,7 @@
     ] 
   },
   "Pałac-Króla": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["king's palace","building","Frecyra","Navolin","ulfwyst"],
     "name": "Pałac Króla",
@@ -221,7 +221,7 @@
     ] 
   },
   "Kongir-Temple": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["Nakali Islands","ulfwyst"],
     "name": "Kongir Temple",
@@ -232,9 +232,7 @@
       "@+Kongir Temple+@, formerly the Kongir Asylum, is a building complex in the jungles outside of Duskreef. The was formerly part of the Duskreef Prison complex, located deeper into the jungles northeast of the port town. After the fall of the prison, contact with the asylum was lost."
     ],
     "articles": {
-      "A Twisted Temple": [
-        ""
-      ]
+      
     },
     "dmArticles": {
       "After the Fall of Duskreef Prison": [
