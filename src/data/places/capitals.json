@@ -154,5 +154,21 @@
     "description": [
       "Khezrabad is the capital city of the Kingdom of Abbasyr."
     ]
+  },
+  "Utharis": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["city","Utharian","capital","Theyra"],
+    "name": "Utharis",
+    "nickname": "Utharis",
+    "type": "Capital City",
+    "population": "190,000",
+    "races": ["tiefling","human","elf","dwarf","halfling","gnome","half-elf"],
+    "government": "Magocracy",
+    "location": "Utharian Empire",
+    "description": [
+      "The mythical city of @+Utharis+@ was the capital of the Utharian Empire. Located on the lost continent of Thyra, the city was the center of Utharian religion, society, technology, law, politics, governance, warfare, art, literature, architecture, engineering and, most importantly, @*magic*@. ",
+      "The city was built around a confluence of multiple, powerful magical leylines from which the mages of the empire drew their arcane power. Upon this meeting point, the sorcerer lords built the Endanólemë, the Nexus of Wild Magic."
+    ]
   }
 }

@@ -78,7 +78,7 @@
     "nickname": "Navolinian Hussars",
     "linkingWords": [],
     "tags": ["winged riders","owl knights","frecyra","ulfwyst"],
-    "type": "Knightly Order",
+    "type": "Military Order",
     "location": "Navolin",
     "memberNumber": "~600",
     "leaders": [
@@ -104,7 +104,7 @@
     "nickname": "Knights of the Righteous Soul",
     "linkingWords": ["Tovani Interrogators"],
     "tags": ["tovanis","ulfwyst"],
-    "type": "Knightly Order",
+    "type": "Military Order",
     "location": "Realm of Tovanis",
     "memberNumber": "300",
     "leaders": [
@@ -316,7 +316,7 @@
     "name": "Knights of the Sacred Dawn",
     "nickname": "Holy Order of the Sacred Dawn",
     "tags": ["holy order","knights","Tovanis","ulfwyst"],
-    "type": "Knightly Order",
+    "type": "Military Order",
     "location": "Tovanis",
     "memberNumber": "~300",
     "leaders": [
@@ -334,7 +334,7 @@
     "name": "Order of the Blackened Sun",
     "nickname": "Order of the Blackened Sun",
     "tags": ["holy order","knights","desolate wastes","ulfwyst"],
-    "type": "Knightly Order",
+    "type": "Military Order",
     "location": "Desolate Wastes",
     "memberNumber": "~80",
     "leaders": [
@@ -344,6 +344,24 @@
       "An order of black knights who believe that one day the sun will be swallowed by the Endless Night, a dark god they worship. They seek to increase their god's power by slaughtering others in his name."
     ],
     "articles": {
+    }
+  },
+  "Immortal-Legions": {
+    "playerKnown": false,
+    "path": "group",
+    "name": "Immortal Legions",
+    "nickname": "Immortal Legions",
+    "linkingWords": ["Syrothian legions", "Syrothian legion"],
+    "tags": ["army","syrothian empire","ulfwyst"],
+    "type": "Military Order",
+    "location": "Syrothian Empire",
+    "description": [
+      "The Immortal Legions make up the majority of the military forces of the Syrothian Empire. The legions are comprised primarily of hobgoblins who are organized into units of highly disciplined, heavy infantry. All legions have auxiliary units of goblins, which are used as scouts, ranged skirmishers and messengers."
+    ],
+    "articles": {
+      "Goblin Auxiliaries": [
+        "Every Syrothian legion maintains an auxiliary force of goblins which are held in reserve during engagements. These goblins serve in non-combat roles, generally as scouts & messengers. Their true purpose, however, is to act as reinforcements for fallen hobgoblin legionaries, thanks to the unique goblinoid genetic trait known as Khün Mönnas, colloquially known as @*Cannibal Rebirth*@."
+      ]
     }
   },
   "Clan-Council-of-Lemuria": {
