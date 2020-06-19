@@ -137,7 +137,7 @@
     }
   },
   "Adorra-Sound": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["sea","region","ulfwyst"],
     "name": "Adorra Sound",
@@ -145,12 +145,9 @@
     "type": "Sea",
     "location": "Mare Concordis",
     "description": [
-      "The Adorra Sound is a large sea north of the continent of Ulfwyst, which is a sub-region of the Mare Concordis. The sound runs along most of the northern coast of Ulfwyst and connects the states of Abbasyr, the Syrothian Empire, the Kaeldrin Sanctum and Navolin."
+      "The Adorra Sound is a large sea north of the continent of Ulfwyst, which is a sub-region of the Mare Concordis. The sound runs along most of the northern coast of Ulfwyst and connects the states of Abbasyr, the Syrothian Empire, and the Kaeldrin Sanctum."
     ],
     "articles": {
-      "": [
-        ""
-      ]
     }
   },
   "Strait-of-Krigere": {

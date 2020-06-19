@@ -103,7 +103,7 @@
     }
   },
   "Jayanti-Isles": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["islands","region","ulfwyst"],
     "name": "Jayanti Isles",
@@ -170,7 +170,7 @@
     ]    
   },
   "Olgarrod-Wilds": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["region","ulfwyst","arctic forest"],
     "name": "Olgarrod Wilds",
@@ -178,10 +178,11 @@
     "type": "Region",
     "location": "Southern Ulfwyst",
     "description": [
+      "The @+Olgarrod Wilds+@ are a huge region of alpine tundra in south-central Ulfwyst. The wilds are inhabited by dangerous wild beasts, monstrous creatures and tribes of giants. Few explorers from the civilized areas of the continent have attempted to explore the region. Those that have traveled to the wilds and lived to speak of it state that it is a land of stunning beauty and incredible danger."
     ]    
   },
   "Retirim-Valley": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["region","ulfwyst","valley","Tovanis"],
     "name": "Retirim Valley",
@@ -200,7 +201,7 @@
     }
   },
   "Torick-Vir-Valley": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["region","ulfwyst","valley","Tovanis"],
     "name": "Torick-Vir Valley",

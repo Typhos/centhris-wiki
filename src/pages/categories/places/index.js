@@ -54,17 +54,21 @@ class Places extends Component {
     const numberOfArticles = Object.keys(this.state.places).length;
     const categories = this.state.categories.map( category => {
       return (
-        <div key={category} className="category">
-          { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 && category.endsWith('y') &&
-            <h2 className="sectionTitle">{category.substring(0, category.length - 1)}ies</h2>
+        <React.Fragment>
+          { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 &&
+            <div key={category} className="category">
+              { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 && category.endsWith('y') &&
+                <h2 className="sectionTitle">{category.substring(0, category.length - 1)}ies</h2>
+              }
+              { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 && !category.endsWith('y') &&
+                <h2 className="sectionTitle">{category}s</h2>
+              }
+              <ul className="sectionList">
+                {this.getEntriesByCategory(category)}
+              </ul>
+            </div>
           }
-          { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 && !category.endsWith('y') &&
-            <h2 className="sectionTitle">{category}s</h2>
-          }
-          <ul className="sectionList">
-            {this.getEntriesByCategory(category)}
-          </ul>
-        </div>
+        </React.Fragment>
       )
     });
 
@@ -74,7 +78,7 @@ class Places extends Component {
         <Back/>
         <Filter handleFilter={ this.handleFilter }  data={this.state.combinedPlaces}/>
         <h2 className="sectionGroup">Regions and Locales <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
-        <div id="categories" >
+        <div id="categories" className="columns" >
           {categories}
         </div>
       </Page.People>

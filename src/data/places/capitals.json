@@ -92,7 +92,7 @@
     }
   },
   "Irulek": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["kaeldrin sanctum","ulfwyst","capital","city"],
     "name": "Irulek",
@@ -123,7 +123,7 @@
     ]
   },
   "Enira": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["city","Ildroun Vale","capital","ulfwyst"],
     "name": "Enira",

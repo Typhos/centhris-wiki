@@ -24,7 +24,7 @@
     ]
   },
   "Desolate-Wastes": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["desert","region","ulfwyst"],
     "name": "Desolate Wastes",

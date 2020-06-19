@@ -298,7 +298,7 @@
       "Immortal Legions": [
         "Due to the strange nature of the goblinoid races, the armies of Syrothia are rarely, if ever, truly defeated. If a legion is defeated or completely annihilated, the hobgoblins that fell in battle may yet return. After a battle, any nearby goblins, either those kept in reserve by the empire, or natural inhabitants of an area, will swarms the battlefield, consuming the corpses of their fallen kin.",
         "Though the arms and armor of the legion may be broken or lost, over following month, as the goblins grow and gain the memories of those they consumed, the fallen legion returns. It is for this reason that the armies of Syrothia terrify their enemies. Entire legions will, if tactics require, throw themselves at a stronghold or into a lost cause. For the goblinoids are fully aware that while any casualties they inflict upon the enemy is permanent, the damage suffered on their end is only temporary.",
-        "The most fearsome of the Legions' number are the Winged Scourge, elite hobgoblin warriors mounted on Blackfire Drakes."
+        "The most fearsome of the Legions' number are the Blackfire Dragoons, elite hobgoblin warriors mounted on Blackfire Drakes."
       ],
       "Aggressive Expansion": [
         "The Syrothians are in the process of aggressively expanding to their east. Less than 20 years ago the completely absorbed the former state of Hestia into the empire. Now, they have turned their eyes north to the Kaeldrin Sanctum, looking to expand their naval presence and gain the rich arcane knowledge located in the magocracy's libraries."
@@ -330,7 +330,7 @@
     }
   },
   "Kaeldrin-Sanctum": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "name": "Kaeldrin Sanctum",
     "nickname": "Kaeldrin",
@@ -343,14 +343,12 @@
     "races": ["elf","human","tiefling","half-elf","gnome","halfling","dragonborn","half-orc","serbonji"],
     "government": "Oligarchic Magocracy",
     "location": "Ulfwyst",
-    "leaders": ["Archmage Nakiasha Cathdeiryn"],
+    "leaders": ["Council of Nine"],
     "regions": ["Zavalev Mountains","Sullen Fen","Jayanti Isles","Adorra Sound","Zorebrak Peninsula"],
     "description": [
+      "The Kaeldrin Sanctum is a large state located in north-central Ulfwyst. The state is famous for being ruled by a class of mages who act as a council, and do not select a single permanent leader."
     ],
     "dmArticles": {
-      "History": [
-        "The Kaeldrin Sanctum is a large state located in north-central Ulfwyst. The state is famous for being ruled by a class of mages who act as a council and do not select a single permanent leader."
-      ]
     }
   },
   "Ildroun-Vale": {
