@@ -52,11 +52,11 @@
     "path": "location",
     "tags": ["region","forest","Navolin","ulfwyst"],
     "name": "The Wraithwood",
-    "nickname": "The Wraithwood",
+    "nickname": "the Wraithwood",
     "type": "Forest",
     "location": "Navolin",
     "description": [
-      "The @+Wraithwood+@ is a wooded region in northwestern Navolin. The forest is located along the coast of the Adorra Sound and encircles the Jeziora Lakes."
+      "The @+Wraithwood+@ is a wooded region in northwestern Navolin. The forest is located south of the Bay of Osum and encircles the Jeziora Lakes."
     ]
   },
   "Razark-Timberland": {

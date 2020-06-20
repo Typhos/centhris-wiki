@@ -163,6 +163,15 @@ article.location {
     margin: 0; 
     padding: 0;
   }
+
+  ul.monsters {
+    list-style: circle;
+
+    li.monster {
+      font-family: $monoSpace;
+      line-height: 2em;
+    }
+  }
 }
 
 // MOBILE

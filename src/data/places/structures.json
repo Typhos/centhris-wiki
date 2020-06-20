@@ -123,18 +123,18 @@
       ]
     }
   },
-  "The-Argentate": {
+  "Argentate": {
     "playerKnown": true,
     "path": "location",
     "tags": ["building","venbrin","ulfwyst","barrier coast","palace","fortress"],
-    "name": "The Argentate",
-    "nickname": "The Argentate",
+    "name": "Argentate",
+    "nickname": "Argentate",
     "linkingWords": ["the Argentate"],
     "type": "Structure",
     "location": "Venbrin",
     "leaders": ["Lord Baqrin Calosh","Vizier Cazner Yasir"],
     "description": [
-      "The Argentate is the walled palace of the Lord of Venbrin, located in the north east end of the city. The palace is made of white marble quarried on the Isle of Sunheim."
+      "The @+Argentate+@ is the walled palace of Baqrin Calosh, the lord of Venbrin, located in the north-east end of the city. The palace is made of white marble quarried on the Isle of Sunheim."
     ],
     "dmArticles": {
       "History": [
@@ -232,7 +232,12 @@
       "@+Kongir Temple+@, formerly the Kongir Asylum, is a building complex in the jungles outside of Duskreef. The was formerly part of the Duskreef Prison complex, located deeper into the jungles northeast of the port town. After the fall of the prison, contact with the asylum was lost."
     ],
     "articles": {
-      
+      "Skyfall": [
+        "In 2C 2537 the sky above Ulfwyst burst into a brilliant purple glow, as hundreds of meteors rained down upon the continent. This event, known as the Night of the Shattered Sky, was seen across eastern Ulfwyst. One of the meteors that descended from the sky crashed into the left wing of Kongir Asylum."
+      ],
+      "The Order of the Endless Sky": [
+        "Some time after the fall of Duskreef and the Night of the Shattered Sky, Kongir became the home for a monastic order known as the Order of the Endless Sky. These monks, led by the strange man known as the Myrd'draal, seemed to revere the strange chunk of crystallized space rock, setting up a sanctuary for it under the temple. The order also began to recruit more followers to their order, seeking those with specific talents."
+      ]
     },
     "dmArticles": {
       "After the Fall of Duskreef Prison": [

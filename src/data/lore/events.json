@@ -24,16 +24,16 @@
       ]
     }
   },
-  "Descent-of-the-Shattered-God": {
+  "Night-of-the-Shattered-Sky": {
     "playerKnown": false,
     "path": "lore",
-    "name": "Descent of the Shattered God",
-    "nickname": "the Descent of the Shattered God",
+    "name": "Night of the Shattered Sky",
+    "nickname": "the Night of the Shattered Sky",
     "linkingWords": [],
     "type": "Historical Event",
     "tags": ["event","zurast","starfall"],
     "description": [
-      "@+The Descent of the Shattered God+@ was a historical event that took place in Zalany Marsh, now known as the Blighted Mire, 83 years ago."
+      "@+The Descent of the Shattered God+@ was a historical event that took place in Zalany Marsh, now known as the Blighted Mire in 2C 2537."
     ],
     "dmArticles": {
       "": [
