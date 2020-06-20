@@ -161,5 +161,29 @@
     "description": [
       "The Straight of Krigere is a natural waterway that divides the Korin Gulf and Isdrage Bay. The strait is controlled by vessels belonging to the various Clans of Lemuria. On the eastern shore of the straight rests the great city of Kilurus."
     ]
+  },
+  "Bay-of-Osum": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["bay","region","ulfwyst"],
+    "name": "Bay of Osum",
+    "nickname": "Bay of Osum",
+    "type": "Sea",
+    "location": "Ulfwyst",
+    "description": [
+      "The @+Bay of Osum+@ @*(O-soom)*@ is a body of water north of the continent of Ulfwyst. The bay is located directly north of the Wraithwood and leads out into the Tiderack Coast to the east."
+    ]
+  },
+  "Sea-of-Cassan": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["sea","region","ulfwyst"],
+    "name": "Sea of Cassan",
+    "nickname": "Sea of Cassan",
+    "type": "Sea",
+    "location": "Ulfwyst",
+    "description": [
+      "The @+Sea of Cassan+@ is a body of water north of the continent of Ulfwyst. The sea is located to the east of the Adorra Sound and west of the Tiderack Coast. The most prominent feature in the sea is the Jayanti Isles."
+    ]
   }
 }

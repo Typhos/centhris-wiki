@@ -197,7 +197,14 @@ class Location extends Component {
 
               { descriptionEntries }
 
-              {/* { this.personsList() } */}
+              { location.monsters && this.state.dmView &&
+                <React.Fragment>
+                  <h3 className="subjectArea">Monsters</h3>
+                  <ul className="monsters">
+                    {location.monsters.map( mon => <li className="monster" key={mon}>{mon.name} ({mon.source})</li>)}
+                  </ul>
+                </React.Fragment>
+              }
             </div>
 
           </article>

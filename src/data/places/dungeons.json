@@ -93,6 +93,41 @@
       "Skullbat": "Chaos Knight - Critter Compendium p.187"
     }
   },
+  "Temple-of-the-Falthom-Siren": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["ruins","ancient temple","ulfwyst","wraithwood"],
+    "name": "Temple of the Falthom Siren",
+    "nickname": "Temple of the Fathom Siren",
+    "type": "Dungeon",
+    "location": "Wraithwood",
+    "description": [
+      "The @+Temple of the Fathom Siren+@ is an ancient ruin located in the northern Wraithwood. It was constructed roughly 3,000 years ago by primitive humanoids in service to their elemental masters. As the power of the elemental wander during the later years of the Second Convergence, with the rising power of the giants, the temple complex was abandoned."
+    ],
+    "articles": {
+      "Monument to a Lost Age": [
+        "Constructed by worshippers of the Siren of Fathoms during the height of elemental power in the First Convergence, the temple was designed to venerate the power and beauty of elemental water. The ornate structures of the temple complex were built using large amount of rare, gray Sea Stone. This pale gray rock, covered in striations that shift between blue and green in the daylight, can only be found in the endless depths of the Plane of Water. The special property of this enchanted stone is its ability to endless produce trace amounts of water from its home plane.",
+        "After its construction, the temple complex covered almost 30 hectares of land. Having fallen into ruin nearly 2,800 years ago, nature has taken back much of the land. Surrounding vegetation has slowly overtaking the stone structures, as the wards and enchantments on the holy site fade."
+      ],
+      "Underground Rivers and Lakes": [
+        "The site of the temple was chosen due to the extensive network of underground rivers and lakes that flow north into the Bay of Osum. Using the magical nature of Sea Stone, the temple was designed in a vertical manner, creating beautiful cascading waterfalls. The temple's pathways, colonnades and stairways were all constructed around the falling water in order to always keep the central focus of the structures on the water.",
+        "The most important rooms of the temple, including treasuries, shrines and altars, were located deep below ground in the vast underground lakes. These lakes, connected by the underground rivers, were easily accessible to the elemental lords who ruled the area."
+      ]
+    },
+    "dmArticles": {
+      
+    },
+    "monsters": [
+      {"name": "Nakali Tideguard", "source": "Sahuagin - Monster Manual p.263"},
+      {"name": "Nakali Tide Sorcererss", "source": "Sahuagin Priestess - Monster Manual p.264"},
+      {"name": "Nakali Centurion", "source": "Sahuagin Baron - Monster Manual p.264"},
+      {"name": "Small Water Elemental", "source": "Nerzugal's Extended Bestiary p.41"},
+      {"name": "Water Elemental", "source": "Monster Manual p.125"},
+      {"name": "Water Elemental Myrmidon", "source": "Mordenkainen's Tome of Foes p.203"},
+      {"name": "Frost Salamander", "source": "Mordenkainen's Tome of Foes p.223"},
+      {"name": "Marid", "source": "Monster Manual p.146"}
+    ]
+  },
   "Osed'ushang": {
     "playerKnown": true,
     "path": "location",

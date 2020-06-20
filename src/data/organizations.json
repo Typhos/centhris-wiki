@@ -530,6 +530,21 @@
       ]
     }
   },
+  "Order-of-the-Endless-Sky": {
+    "playerKnown": true,
+    "path": "group",
+    "name": "Order of the Endless Sky",
+    "nickname": "Order of the Endless Sky",
+    "tags": ["Kongir","monks","Ulfwyst"],
+    "type": "Monastic Order",
+    "location": "Nakali Isles",
+    "leaders": ["the Myrd'draal"],
+    "description": [
+      "The @+Order of the Endless Sky+@ is a monastic order dedicated to the veneration of an ancient, eldritch god known as Axoth'Zun. Kongir Temple, located on the Nakali Island of Haryuma, is the primary temple of the order. The monks also maintain other, smaller temples throughout eastern Ulfwyst."
+    ],
+    "articles": {
+    }
+  },
   "Monks-of-the-Emerald-Wind": {
     "playerKnown": false,
     "path": "group",
