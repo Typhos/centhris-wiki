@@ -13,7 +13,7 @@ export default function SearchLogic (searchString, dmView) {
     let names = nameCheck(); 
     let info = informationCheck();
 
-    console.log(names)
+    // console.log(names)
 
     return orderResults(names);
   // }
