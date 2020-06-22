@@ -71,20 +71,20 @@ class Search extends Component {
             <ul className="results">
               {
                 searchResults.map( res => {
-                  let path = images.keys().filter( path => path.includes( res )).filter( path => !path.includes("maps"))[0];
+                  let path = images.keys().filter( path => path.includes( res.name )).filter( path => !path.includes("maps"))[0];
 
-                  if ( data[res].playerKnown || this.state.dmView ) {
+                  if ( res.playerKnown || this.state.dmView ) {
                     return (
-                      <li key={res}>
-                       { path &&
-                        <Link to={`/person/${res}`} className="crop" onClick={this.clearSearch} >
+                      <li key={res.name}>
+                       { res.path && path !== undefined &&
+                        <Link to={`/${res.path}/${res.name}`} className="crop" onClick={this.clearSearch} >
                           <img className="searchImg" src={ images(path) }/>
                         </Link>
                        }
-                       { !path && 
+                       { !res.path || !path &&
                         <div className="noImg"></div>
                        }
-                        <Link className="textLink" to={`/${data[res].path}/${res}`} onClick={this.clearSearch} >{data[res].name}</Link>
+                        <Link className="textLink" to={`/${res.path}/${res.name}`} onClick={this.clearSearch} >{res.displayName}</Link>
                       </li>
                     )
                   }

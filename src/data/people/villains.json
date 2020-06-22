@@ -245,15 +245,23 @@
     "occupation": "Chief of Clan Arnbjorg",
     "affiliations": ["Realm of Lemuria"],
     "description": [
-      "@+Clan Chief Ulfrica Arnbjorg+@ is the leader of Clan Arnbjorg and one of the ruling members of the Clan Council of Lemuria. Ulfrica, known as the Frost Queen, is a powerful wild sorceress who specializes in ice magic."
+      "@+Clan Chief Ulfrica Arnbjorg+@ is the leader of Clan Arnbjorg and one of the ruling members of the Clan Council of Lemuria. Ulfrica, known as the Frost Queen, is a powerful wild sorceress who specializes in ice magic.",
+      "An ardent nationalist, Ulfrica is a divisive figure on the Clan Council. She regularly calls for aggressive action against people and groups she feels are threats to Lemuria. Other members of the council are often quick to note that she regularly conflates what is good for Lemuria with what is good for Clan Arnbjorg."
     ],
     "articles": {
 
     },
     "dmArticles": {
-      "The Return of the Withered King": [
+      "Response to Criticism": [
+        "\"Nearly 500 years ago, my great grandfather, Drelnor Arnbjorg, did what was best for Lemuria by helping put an end to the Great Clan War. He gave up the greatest asset the Arnbjorgs had, Kilurus itself. To claim that I or my clan have anything but the best intentions for this kingdom is an insult to me and the greatest clan in this kingdom.\""
+      ],
+      "Current Activities": [
+        "Ulfrica is current in negotiations with the Council of the Withered King in the Greyleaf Pines. If investigators arrive at Ankor Duraz looking for her, they will find she has not been at the city for nearly a week. She will later turn up mysteriously in Postek, claiming that she had returned to the city on important clan business. This is a blatant lie, but give her rights as a chieftain, it is effective cover.",
+        "Several days after her meeting with the Lesser Liches, Kaer Edsken is set to be attacked by a force of undead Tovani soldiers."
+      ],
+      "Make Lemuria Great Again": [
         "Ulfrica has been in negotiations with the dwarves of Ankor Duraz for several years. The negotiations, which have been proceeding rather well by all accounts, never seem to lead anywhere, due to her stalling and intentional meddling at the Clan Council of Lemuria.",
-        "She intentional sabotaging the negotiations to provide cover for meetings with members of the Council of the Withered King who have taken up residence in the northern Greyleaf Pines. Ulfrica has grown tired of what she sees as the \"cycle of failed Lemurian monarchs\" and is looking for a way to return Shulxaa, as the new lord of Lemuria, to Ulfwyst in exchange for becoming a full lich herself. In order for this agreement, Ulfrica will help resurrect Shulxaa, in exchange for the knowledge to build her own phylactery."
+        "She intentional sabotaging the negotiations to provide cover for meetings with members of the Council of the Withered King who have taken up residence in the northern Greyleaf Pines. Ulfrica has grown tired of what she sees as the \"cycle of failed Lemurian monarchs\". She is looking for a way to resurrect Shulxaa and form an alliance between Lemuria (ruled by Clan Arnbjorg) and Istagen, once again under the control of the lich lord. In exchange for reviving Shulxaa, Ulfrica expects to be granted the knowledge on how to become a lich herself - the ritual for building her own phylactery. This grand plan would allow her to control the fate of Lemuria indefinitely and restore it to the glory days of her great grandfather."
       ]
     }
   }

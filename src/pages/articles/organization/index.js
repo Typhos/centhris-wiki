@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import WikiUtils from "components/utils/wikiUtils";
 import Back from 'components/back';
 import { TitleComponent } from 'components/titleComponent.js';
+import DataLoader from 'components/utils/dataLoader';
 
 import Page from 'components/page';
 import "styles/groupArticle.scss";
 
-import orgData from 'data/organizations';
-
+const orgData = DataLoader.organizations;
 
 class Organization extends Component {
 
