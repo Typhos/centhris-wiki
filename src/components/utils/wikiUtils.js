@@ -201,8 +201,10 @@ export default class WikiUtils {
       }
 
       if ( typeof dataset[i] === 'string' ) {
-        let matcher = new RegExp(name + "[\\s.,;!?\"()/':-]","g");
-        // let matcher = new RegExp(name + "\\s" + "[.,;!?\"()\':-]","g");
+
+        const test = name.concat( "[.,;!?'\":()/\\s-]" );
+        const matcher = new RegExp(test,"gm");
+
         if ( matcher.test(dataset[i]) || dataset[i] === name ) {
           let strReplace = dataset[i].replace(name, `|${name}|`).split("|").map( str => ( str === name ) ? link : str);
 

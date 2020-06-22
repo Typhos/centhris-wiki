@@ -170,5 +170,20 @@
       "The mythical city of @+Utharis+@ was the capital of the Utharian Empire. Located on the lost continent of Thyra, the city was the center of Utharian religion, society, technology, law, politics, governance, warfare, art, literature, architecture, engineering and, most importantly, @*magic*@. ",
       "The city was built around a confluence of multiple, powerful magical leylines from which the mages of the empire drew their arcane power. Upon this meeting point, the sorcerer lords built the Endanólemë, the Nexus of Wild Magic."
     ]
+  },
+  "Shangxia": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["city","Daotian","capital","Theyra"],
+    "name": "Shangxia",
+    "nickname": "Shangxia",
+    "type": "Capital City",
+    "population": "170,000",
+    "races": ["Human","Daxiong","Zhuren","Tiefling","Half-Elf","Serbonji"],
+    "government": "Imperial Bureaucracy",
+    "location": "Daotian Kingdom",
+    "description": [
+      "The city of @+Shangxia+@ is the capital of Kingdom of Daotian."
+    ]
   }
 }

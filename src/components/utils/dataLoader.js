@@ -23,10 +23,14 @@ import miscPeopleData       from 'data/people/misc';
 import archfeyData          from 'data/people/archfey';
 
 // ==== ORGANIZATION DATA IMPORTS
-import orgData  from 'data/organizations';
+import clansLemuria           from 'data/groups/clansLemuria';
+import clansCibrin            from 'data/groups/clansCibrin';
+import westernKoraxonGroups   from 'data/groups/westernKoraxon';
+import orgs                   from 'data/groups/organizations';
 
 // ==== ALL DATA IMPORTS FOR LOCATIONS
 import structures       from 'data/places/structures';
+import palaces          from 'data/places/palaces';
 import world            from 'data/places/world';
 import seas             from 'data/places/seas';
 import regions          from 'data/places/regions';
@@ -53,7 +57,7 @@ import items            from 'data/misc/items';
 
 export default class DataLoader {
 
-  static places = {...structures, ...world, ...regions, ...mountains, ...forests, ...deserts, ...swamps, ...seas, ...cityDistricts, ...cityStates, ...capitals, ...cities, ...towns, ...villages, ...dungeons, ...fortifications, ...dwarfHolds, ...politicalStates, ...mythic};
+  static places = {...structures, ...palaces, ...world, ...regions, ...mountains, ...forests, ...deserts, ...swamps, ...seas, ...cityDistricts, ...cityStates, ...capitals, ...cities, ...towns, ...villages, ...dungeons, ...fortifications, ...dwarfHolds, ...politicalStates, ...mythic};
   
   static lore = {...racesData, ...eventsData, ...loreData, ...itemData};
   
@@ -61,7 +65,7 @@ export default class DataLoader {
   
   static misc = {...ships, ...items};
 
-  static organizations = {...orgData};
+  static organizations = {...clansLemuria, ...clansCibrin, ...orgs, ...westernKoraxonGroups};
 
   static characters = {...characterData};
 

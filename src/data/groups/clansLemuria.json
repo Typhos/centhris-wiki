@@ -1,0 +1,225 @@
+{
+  "Clan-Villdyr": {
+    "playerKnown": true,
+    "path": "group",
+    "name": "Clan Villdyr",
+    "nickname": "Clan Villdyr",
+    "tags": ["Lemuria","ulfwyst","clan"],
+    "type": "Lemurian Clan",
+    "location": "Realm of Lemuria",
+    "leaders": [
+      "Inga Villdyr"
+    ],
+    "description": [
+      "Clan Villdyr is one of the major clans of Lemuria. The Clan's primary holdings are located in central Lemuria, with the clan's great hall located in the city of Dunndag."
+    ],
+    "articles": {
+    }
+  },
+  "Clan-Sjomann": {
+    "playerKnown": true,
+    "path": "group",
+    "name": "Clan Sjomann",
+    "nickname": "Clan Sjomann",
+    "tags": ["Lemuria","ulfwyst","clan"],
+    "type": "Lemurian Clan",
+    "location": "Realm of Lemuria",
+    "leaders": [
+      "Torild Sjomann"
+    ],
+    "description": [
+      "Clan Sjomann is one of the major clans of Lemuria. The Clan's primary holdings are located in the southeast of Lemuria, with the clan's great hall located in the city of Ketrizyn."
+    ],
+    "articles": {
+    }
+  },
+  "Clan-Tordenfødt": {
+    "playerKnown": true,
+    "path": "group",
+    "name": "Clan Tordenfødt",
+    "nickname": "Clan Tordenfødt",
+    "tags": ["Lemuria","ulfwyst","clan"],
+    "type": "Lemurian Clan",
+    "location": "Realm of Lemuria",
+    "leaders": [
+      "Wuldren Tordenfødt"
+    ],
+    "description": [
+      "Clan Tordenfødt is one of the major clans of Lemuria. The Clan's primary holdings are located in eastern Lemuria, with the clan's great hall located in the city of Ozeresk."
+    ],
+    "articles": {
+    }
+  },
+  "Clan-Arnbjorg": {
+    "playerKnown": true,
+    "path": "group",
+    "name": "Clan Arnbjorg",
+    "nickname": "Clan Arnbjorg",
+    "tags": ["Lemuria","ulfwyst","clan"],
+    "type": "Lemurian Clan",
+    "location": "Realm of Lemuria",
+    "leaders": [
+      "Ulfrica Arnbjorg"
+    ],
+    "description": [
+      "Clan Arnbjorg is one of the major clans of Lemuria. The Clan's primary holdings are located in western Lemuria, with the clan's great hall located in the city of Postek."
+    ],
+    "articles": {
+    }
+  },
+  "Clan-Bjørsel": {
+    "playerKnown": true,
+    "path": "group",
+    "name": "Clan Bjørsel",
+    "nickname": "Clan Bjørsel",
+    "tags": ["Lemuria","ulfwyst","clan"],
+    "type": "Lemurian Clan",
+    "location": "Realm of Lemuria",
+    "leaders": [
+      "Viljar Bjørsel"
+    ],
+    "description": [
+      "Clan Bjørsel is one of the major clans of Lemuria. The Clan's primary holdings are located in central Lemuria, with the clan's great hall located in the city of Eldskog."
+    ],
+    "articles": {
+    }
+  },
+  "Minor-Clans-of-Lemuria": {
+    "playerKnown": true,
+    "path": "group",
+    "name": "Minor Clans of Lemuria",
+    "nickname": "Minor Clans of Lemuria",
+    "tags": ["Realm of Lemuria","ulfwyst","clan"],
+    "type": "Lemurian Clan",
+    "location": "Realm of Lemuria",
+    "description": [
+      "The @+Minor Clans of Lemuria+@ are clans that lack in economic, military or political influence compared to the major clans of the Realm of Lemuria. Most minor clans are vassals of a major clan, though some are large enough to act autonomously. The term @*minor clan*@ casts a wide net, from large clans which simply lack influence in the Clan Council of Lemuria, down to extended families that live in isolated villages in the wilds of the realm."
+    ],
+    "articles": {
+      "Administration and Culture": [
+        "The official registry of clans is kept in the Storsal Helter in Kilurus. To be considered a clan, a family must simply declare themselves an independent clan with a name and banner. This laissez faire culture towards clan status means that the number of clans in Lemuria has risen and fallen dramatically over the course of the kingdom's history, as families die out or new ones declare their independent clan status.",
+        "Beyond the official record of clans, the major clans tend to keep private records of their vassals. These records are used to determine levy tithes, taxation and the expected number of prominent political positions a clan might expect within a clan council."
+      ],
+      "Independent & Vassal Clans": [
+        "A list of clans and their status is as follows:",
+        "@#Independent Minor Clans#@",
+        "• Clan Alding of Solleron",
+        "• Clan Kvalheim of Darminsk",
+        "• Clan Falklyng of Murmont",
+        "• Clan Nygard of Romlund",
+        "• Clan Völsung of Elverun",
+        "@#Vassals of Clan Arnbjorg#@",
+        "• Clan Bluefield of Blåttfelt",
+        "• Clan Hjort",
+        "• Clan Ketil",
+        "• Clan Sigvin",
+        "@#Vassals of Clan Bjørsel#@",
+        "• Clan Erlend",
+        "• Clan Hervor",
+        "@#Vassals of Clan Sjomann#@",
+        "• Clan Gyrd",
+        "• Clan Hlodvir",
+        "• Clan Jorunn",
+        "• Clan Ranveig",
+        "@#Vassals of Clan Tordenfødt#@",
+        "• Clan Alveig",
+        "• Clan Uthgir",
+        "@#Vassals of Clan Villdyr#@",
+        "• Clan Isgard",
+        "• Clan Kveld",
+        "• Clan Thyri"
+      ]
+    }
+  },
+  "Clan-Alding": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "path": "group",
+    "name": "Clan Alding",
+    "nickname": "Clan Alding",
+    "tags": ["Lemuria","ulfwyst","clan"],
+    "type": "Lemurian Clan",
+    "location": "Realm of Lemuria",
+    "leaders": [
+      "Solveig Alding"
+    ],
+    "description": [
+      "Clan Alding is one of the independent, minor clans of Lemuria. The clan's only holding is the town of Solleron."
+    ],
+    "articles": {
+    }
+  },
+  "Clan-Kvalheim": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "path": "group",
+    "name": "Clan Kvalheim",
+    "nickname": "Clan Kvalheim",
+    "tags": ["Lemuria","ulfwyst","clan"],
+    "type": "Lemurian Clan",
+    "location": "Realm of Lemuria",
+    "leaders": [
+      "Ylva Kvalheim"
+    ],
+    "description": [
+      "Clan Kvalheim is one of the independent, minor clans of Lemuria. The clan's only holding is the town of Darminsk."
+    ],
+    "articles": {
+    }
+  },
+  "Clan-Falklyng": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "path": "group",
+    "name": "Clan Falklyng",
+    "nickname": "Clan Falklyng",
+    "tags": ["Lemuria","ulfwyst","clan"],
+    "type": "Lemurian Clan",
+    "location": "Realm of Lemuria",
+    "leaders": [
+      "Halder Falklyng"
+    ],
+    "description": [
+      "Clan Falklyng is one of the independent, minor clans of Lemuria. The clan's only holding is the town of Murmont."
+    ],
+    "articles": {
+    }
+  },
+  "Clan-Nygard": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "path": "group",
+    "name": "Clan Nygard",
+    "nickname": "Clan Nygard",
+    "tags": ["Lemuria","ulfwyst","clan"],
+    "type": "Lemurian Clan",
+    "location": "Realm of Lemuria",
+    "leaders": [
+      "Halder Nygard"
+    ],
+    "description": [
+      "Clan Nygard is one of the independent, minor clans of Lemuria. The clan's only holding is the town of Romlund."
+    ],
+    "articles": {
+    }
+  },
+  "Clan-Völsung": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "path": "group",
+    "name": "Clan Völsung",
+    "nickname": "Clan Völsung",
+    "tags": ["Lemuria","ulfwyst","clan"],
+    "type": "Lemurian Clan",
+    "location": "Realm of Lemuria",
+    "leaders": [
+      "Eydis Völsung"
+    ],
+    "description": [
+      "Clan Völsung is one of the independent, minor clans of Lemuria. The clan's only holding is the town of Elverun."
+    ],
+    "articles": {
+    }
+  }
+  
+}

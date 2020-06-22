@@ -7,12 +7,13 @@ import { TitleComponent } from 'components/titleComponent.js';
 import WikiUtils from "components/utils/wikiUtils";
 import Filter from 'components/filter';
 import Page from 'components/page';
+import DataLoader from 'components/utils/dataLoader';
 
 // STYLES
 import 'styles/categories.scss';
 
 // DATA
-import orgData from 'data/organizations';
+const orgData = DataLoader.organizations;
 
 class OrganizationGroups extends Component {
 
@@ -24,8 +25,10 @@ class OrganizationGroups extends Component {
     let dmView = localStorage.getItem('dmView') === 'true';
 
     for (let [key, obj] of Object.entries(orgData)) {
-      if ( obj.playerKnown || dmView ) {
-        filteredOutput[key] = obj;
+      if ( !obj.hideOnCat ) {
+        if ( obj.playerKnown || dmView ) {
+          filteredOutput[key] = obj;
+        }
       }
     }
 
@@ -68,7 +71,7 @@ class OrganizationGroups extends Component {
         <Filter handleFilter={ this.handleFilter }  data={orgData}/>
 
         <h2 className="sectionGroup">Organizations & Groups <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
-        <div id="categories" >
+        <div id="categories" className="columns" >
           {categories}
         </div>
       </Page.People>
@@ -83,7 +86,7 @@ class OrganizationGroups extends Component {
       const current = orgData[org];
       if ( current.type === category ) {
         let imgSrc = ( images.keys().some( x => x.includes( org ) ) && images(images.keys().filter( x => x.includes( org ) ) ) ) 
-          || images('./unknown.png');
+          || allImages('./placeholder.png');
 
         if ( current.forceImg && allImages.keys().some( x => x.includes( current.forceImg )) ) {
           imgSrc = allImages( allImages.keys().filter( x => x.includes( current.forceImg ) ) );

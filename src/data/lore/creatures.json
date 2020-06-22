@@ -713,6 +713,7 @@
     "showStatBlock": false,
     "name": "Lesser Lich",
     "nickname": "Counciler of the Withered King",
+    "linkingWords": ["Lesser Liches"],
     "type": "Undead",
     "tags": ["undead","mage","wizard","lich"],
     "description": [

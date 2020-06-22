@@ -314,5 +314,20 @@
         "Slaves are obligated to bear bracelets that display their servitude and who their master is at all times. It is common for visitors to the city to become slaves by defaulting on borrowed money. In addition, this servitude can be extended by additional offenses that can add days or even years to their thralldom."
       ]
     }
+  },
+  "Huangchen": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["city","Daotian","capital"],
+    "name": "Huangchen",
+    "nickname": "Huangchen",
+    "type": "City",
+    "population": "45,000",
+    "races": ["Human","Daxiong","Zhuren","Tiefling","Half-Elf","Serbonji"],
+    "government": "Imperial Bureaucratic",
+    "location": "Daotian Kingdom",
+    "description": [
+      ""
+    ]
   }
 }

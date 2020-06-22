@@ -13,30 +13,36 @@ export default function SearchLogic (searchString, dmView) {
     let names = nameCheck(); 
     let info = informationCheck();
 
-    return names.map( x => x.replace(/\s/g,"-") ).slice(0,9);
+    console.log(names)
 
-    // return orderResults(finalResultsArray);
+    return orderResults(names);
   // }
 
   function nameCheck() {
-    let array = [];
-    let names = dataKeys.map( key => data[key].name );
-    let nicknames = dataKeys.map( key => data[key].nickname );
+    // check names, nicknames and linkingWords for matches
+    let resultsArray = dataKeys.map( entry => {
+      let checkArray = [data[entry].name, data[entry.nickname]];
+      if (data[entry].linkingWords) checkArray = [...checkArray, ...data[entry].linkingWords] 
+      
+      checkArray = checkArray.filter( n => {
+        if (n) {
+          return n.toLowerCase().includes(search) 
+        }
+      });
 
-    names = names.filter( n => {
-      if (n) {
-        return n.toLowerCase().includes(search) 
+      if (checkArray.length > 0) {
+        return {
+          "name": entry,
+          "displayName": data[entry].name,
+          "count": checkArray.length + 10,
+          "playerKnown": data[entry].playerKnown,
+          "path": data[entry].path
+        }
       }
+
     });
 
-    nicknames = nicknames.filter( n => {
-      if (n) {
-        n.toLowerCase().includes(search);
-      }
-    });
-
-    const uniqueSet = new Set( [...names, ...nicknames] );
-    return [...uniqueSet];
+    return resultsArray.filter(x => x !== undefined);
   }
 
   function informationCheck() {
@@ -46,26 +52,32 @@ export default function SearchLogic (searchString, dmView) {
       if (res) return res.join(" ");
     });
 
-    // let articles = dataKeys.map( key => {
-    //   let aObj = data[key].articles;
-    //   if ( aObj ) {
-    //     let aKeys = Object.keys(aObj);
-    //     let text = aKeys.map( a => {
-    //       if (a) {
-    //         return aObj[a];
-    //       }
-    //     });
-    //   }
-    // }).join(" ");
-
     descriptions = descriptions.filter( x => x !== undefined ).filter( x => x.toLowerCase().includes(search) );
-    // articles = articles.filter( x => articles.toLowerCase().includes(search) );
-
-    // console.log(descriptions)
-    // console.log(articles)
+    array = [...descriptions]
+    
+    return array;
   }
 
   function orderResults (arr) {
+    
+    arr.sort( (a,b) => {
+      if (a.count > b.count) {
+        return 1
+      } else if ( b.count > a.count ) {
+        return -1;
+      } else {
+
+        if ( a.name >= b.name ) {
+          return 1;
+        } else {
+          return -1;
+        }
+
+      }
+
+
+    });
+
     return arr;
   }
 }

@@ -160,7 +160,7 @@
     "type": "State",
     "currency": "Lemurian Pike",
     "capital": "Kilurus",
-    "population": "~1.8 million",
+    "population": "2,800,000",
     "races": ["human","elf","gnome","half-elf","half-orc","half-giant","marus"],
     "government": "Elective Clan Monarchy",
     "location": "Ulfwyst",
@@ -188,7 +188,7 @@
         "To the people of Lemuria, it is as important to honor the local spirits as it is the Gods. Throughout the year, various rites, festivals and holidays mark the occasions important to the animist practices. When the spring crops are sown, a village will hold a festival to honor the spirits of the fields, the orchards and the streams. When a lamb is born or an old beast of burden dies, its spirit is honored in ancient rites at a family's ritual altar."
       ],
       "Sacred Monuments":[
-        "In these sacred groves, druids and priests erect great stone circles dedicated to the spirits of the land. It is also a common tradition amongst the great clans to mark the rite of adulthood by placing a great runestone in a sacred location near the clan's hold. The head of the clan generally commissions the stone and then the clan, lead by the soon-to-be adult carry the stone to the destined location, planting the stone to mark the auspicious occasion."
+        "@&./lore/Runestones.png|An ancient runestone dedicated to a great clan chieftan.|right&@ In these sacred groves, druids and priests erect great stone circles dedicated to the spirits of the land. It is also a common tradition amongst the great clans to mark the rite of adulthood by placing a great runestone in a sacred location near the clan's hold. The head of the clan generally commissions the stone and then the clan, lead by the soon-to-be adult carry the stone to the destined location, planting the stone to mark the auspicious occasion."
       ]
     }
   },
@@ -202,7 +202,7 @@
     "type": "State",
     "currency": "Cibrinian Zul",
     "capital": "Enira",
-    "population": "~750,000",
+    "population": "~1,500,000",
     "races": ["human","dwarf","uklang","half-orc","half-giant"],
     "government": "Feudal Monarchy",
     "location": "Ulfwyst",
@@ -285,7 +285,7 @@
     "type": "State",
     "currency": "Syrothian Drake",
     "capital": "Lashkar",
-    "population": "~8.3 million",
+    "population": "~11.3 million",
     "races": ["hobgoblin","goblin","bugbear","human","tiefling","half-orc","half-giant","uklang"],
     "government": "Dictatorship",
     "location": "Ulfwyst",
@@ -315,7 +315,7 @@
     "type": "State",
     "capital": "Khezrabad",
     "currency": "Abbasyri Sphinx",
-    "population": "~4 million",
+    "population": "6,250,000",
     "races": ["tiefling","human","anubari","dragonborn","half-orc","gnome","half-elf","elf"],
     "government": "Hereditary Monarchy",
     "location": "Ulfwyst",
@@ -339,7 +339,7 @@
     "type": "State",
     "capital": "Irulek",
     "currency": "Kaeldrin Eye",
-    "population": "~5.6 million",
+    "population": "5,600,000",
     "races": ["elf","human","tiefling","half-elf","gnome","halfling","dragonborn","half-orc","serbonji"],
     "government": "Oligarchic Magocracy",
     "location": "Ulfwyst",
@@ -361,7 +361,7 @@
     "type": "State",
     "capital": "Irulek",
     "currency": "Ildroun Beetle",
-    "population": "~250,000",
+    "population": "250,000",
     "races": ["elf","human","tiefling","half-elf","gnome","halfling","dragonborn","half-orc","serbonji"],
     "government": "Hereditary Monarchy",
     "location": "Ulfwyst",
@@ -385,7 +385,7 @@
     "type": "State",
     "capital": "Thellodur",
     "currency": "Amuddurin",
-    "population": "~540,000",
+    "population": "540,000",
     "races": ["dwaf","human","halfling","gnome","half-elf","uklang"],
     "government": "Hereditary Monarchy",
     "location": "Ulfwyst",
@@ -426,6 +426,58 @@
       
     },
     "dmArticles": {
+    }
+  },
+  "Kingdom-of-Daotian": {
+    "playerKnown": false,
+    "path": "location",
+    "name": "Kingdom of Daotian",
+    "nickname": "Kingdom of Daotian",
+    "tags": ["kingdom","western koraxon"],
+    "type": "State",
+    "capital": "Shangxia",
+    "currency": "Daotian Fen",
+    "population": "14,000,000",
+    "races": ["Human","Daxiong","Zhuren","Tiefling","Half-Elf","Serbonji"],
+    "government": "Bureaucratic Monarchy",
+    "location": "Western Koraxon",
+    "leaders": ["Emperor Zhi"],
+    "description": [
+      "The largest state in Western Koraxon, the @+Kingdom of Daotian+@ is feudal society located northwest of the Crimson Mist Mountains, east of the Aoi Yoru Archipelago and north of the Three Kingdoms of Namjeon.",
+      "The Liao family founded the Xiong dynasty in 2C 2191, coming to power after a quarter century of instability following the fall of the Jing dynasty."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+      "Real World Parallels": [
+        "Daotian is the fantasy parallel to the @?Tang Dynasty|https://en.wikipedia.org/wiki/Tang_dynasty?@ of China. Historians generally regard the Tang as a high point in Chinese civilization, and a golden age of cosmopolitan culture. Tang territory, acquired through the military campaigns of its early rulers, rivaled that of the Han dynasty. The Tang capital at Chang'an was the most populous city in the world in its day."
+      ]
+    }
+  },
+  "Three-Kingdoms-of-Namjeon": {
+    "playerKnown": false,
+    "path": "location",
+    "name": "Three Kingdoms of Namjeon",
+    "nickname": "Three Kingdoms of Namjeon",
+    "tags": ["kingdom","western koraxon"],
+    "type": "State",
+    "cities": ["Chongdi","Haengwon","Bokryong"],
+    "currency": "Namjeon Don",
+    "population": "3,500,000",
+    "races": ["Human","Daxiong","Zhuren","Tiefling","Half-Elf","Gnome","Serbonji"],
+    "government": "Hereditary Monarchy",
+    "location": "Western Koraxon",
+    "leaders": ["King Hyun"],
+    "description": [
+      "The Namjeon Peninsula of Western Koraxon is home to several rival kingdoms, collectively known as the @+Three Kingdoms of Namjeon+@. All three states are feudal monarchies with similar architecture, culture, language, law, politics, governance, and religious practices. Located south of the Kingdom of Daotian, west of the Gulf of Sargin, and east of the Mare Dyskira, these rival states have been fighting a centuries-long cold war for control of the entire peninsula. The three ruling dynasties of Namjeon are the Baeshu, Jung and Hyoba families.",
+      "The peninsula was previously ruled by the Muntae dynasty, which controlled a unified kingdom from 2C 1412 to 2C 2467. It is said that the Muntae first arrived from beyond the sea and conquered the whole of the Namjeon Peninsula in less than 3 years, unifying the fractious, petty kingdoms which controlled the region before. However, the dynasty became decadent and after several peasant revolts, the political elite of the kingdom took action before anger against the ruling family cost them their own positions."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+      "Real World Parallels": [
+        "The Kingdom of Namjeon is a real world parallel to the @?Goryeo|https://en.wikipedia.org/wiki/Goryeo?@ dynasty of Korea, which was responsible for truly unifying the peninsula for the first time."
+      ]
     }
   }
 }

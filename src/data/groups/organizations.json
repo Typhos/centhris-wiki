@@ -375,6 +375,7 @@
     "path": "group",
     "name": "Clan Council of Lemuria",
     "nickname": "Clan Council of Lemuria",
+    "linkingWords": ["Clan Council"],
     "tags": ["lemuria","ulfwyst","elective body"],
     "type": "Government",
     "location": "Realm of Lemuria",
@@ -397,107 +398,6 @@
     ],
     "description": [
       ""
-    ],
-    "articles": {
-    }
-  },
-  "Clan-Godak": {
-    "playerKnown": false,
-    "path": "group",
-    "name": "Clan Godak",
-    "nickname": "Clan Godak",
-    "tags": ["Cibrin","ulfwyst","clan"],
-    "type": "Cibrinian Clan",
-    "location": "Realm of Cibrin",
-    "leaders": [
-      "Han Dagra Vazrak"
-    ],
-    "description": [
-    ],
-    "articles": {
-    }
-  },
-  "Clan-Villdyr": {
-    "playerKnown": true,
-    "path": "group",
-    "name": "Clan Villdyr",
-    "nickname": "Clan Villdyr",
-    "tags": ["Lemuria","ulfwyst","clan"],
-    "type": "Lemurian Clan",
-    "location": "Realm of Lemuria",
-    "leaders": [
-      "Inga Villdyr"
-    ],
-    "description": [
-      "Clan Villdyr is one of the major clans of Lemuria. The Clan's primary holdings are located in central Lemuria, with the clan's great hall located in the city of Dunndag."
-    ],
-    "articles": {
-    }
-  },
-  "Clan-Sjomann": {
-    "playerKnown": true,
-    "path": "group",
-    "name": "Clan Sjomann",
-    "nickname": "Clan Sjomann",
-    "tags": ["Lemuria","ulfwyst","clan"],
-    "type": "Lemurian Clan",
-    "location": "Realm of Lemuria",
-    "leaders": [
-      "Torild Sjomann"
-    ],
-    "description": [
-      "Clan Sjomann is one of the major clans of Lemuria. The Clan's primary holdings are located in the southeast of Lemuria, with the clan's great hall located in the city of Ketrizyn."
-    ],
-    "articles": {
-    }
-  },
-  "Clan-Tordenfødt": {
-    "playerKnown": true,
-    "path": "group",
-    "name": "Clan Tordenfødt",
-    "nickname": "Clan Tordenfødt",
-    "tags": ["Lemuria","ulfwyst","clan"],
-    "type": "Lemurian Clan",
-    "location": "Realm of Lemuria",
-    "leaders": [
-      "Wuldren Tordenfødt"
-    ],
-    "description": [
-      "Clan Tordenfødt is one of the major clans of Lemuria. The Clan's primary holdings are located in eastern Lemuria, with the clan's great hall located in the city of Ozeresk."
-    ],
-    "articles": {
-    }
-  },
-  "Clan-Arnbjorg": {
-    "playerKnown": true,
-    "path": "group",
-    "name": "Clan Arnbjorg",
-    "nickname": "Clan Arnbjorg",
-    "tags": ["Lemuria","ulfwyst","clan"],
-    "type": "Lemurian Clan",
-    "location": "Realm of Lemuria",
-    "leaders": [
-      "Ulfrica Arnbjorg"
-    ],
-    "description": [
-      "Clan Arnbjorg is one of the major clans of Lemuria. The Clan's primary holdings are located in western Lemuria, with the clan's great hall located in the city of Postek."
-    ],
-    "articles": {
-    }
-  },
-  "Clan-Bjørsel": {
-    "playerKnown": true,
-    "path": "group",
-    "name": "Clan Bjørsel",
-    "nickname": "Clan Bjørsel",
-    "tags": ["Lemuria","ulfwyst","clan"],
-    "type": "Lemurian Clan",
-    "location": "Realm of Lemuria",
-    "leaders": [
-      "Viljar Bjørsel"
-    ],
-    "description": [
-      "Clan Bjørsel is one of the major clans of Lemuria. The Clan's primary holdings are located in central Lemuria, with the clan's great hall located in the city of Eldskog."
     ],
     "articles": {
     }

@@ -112,29 +112,29 @@
       ]
     }
   },
-  "Gijzan-Temtsel": {
+  "Dörak'nör": {
     "playerKnown": true,
     "path": "lore",
     "hideOnCat": false,
-    "name": "Gijzan Temtsel",
+    "name": "Dörak'nör",
     "nickname": "Cibrinian Ritual Duel",
     "linkingWords": ["Cibrinian Blood Challenge"],
     "type": "Centhris World Lore",
     "tags": ["world lore","cibrinian ritual duel"],
     "description": [
-      "The @+Gijzan Temtsel+@, literally translated as \"Blood Challenge\", is an ancient orcish tradition for settling disputes between individuals or clans in the Realm of Cibrin. The custom is most commonly invoked by an individual who wishes to challenge another for a position of authority, though it has also been used to settle personal disputes, rivalries or to determine the best suitor for a marriage."
+      "The @+Dörak'nör+@, literally translated as \"Blood Challenge\", is an ancient orcish tradition for settling disputes between individuals or clans in the Realm of Cibrin. The custom is most commonly invoked by an individual who wishes to challenge another for a position of authority, though it has also been used to settle personal disputes, rivalries or to determine the best suitor for a marriage."
     ],
     "articles": {
       "History": [
-        "Although there is no official written history of the Gijzan Temtsel, the origin of the custom is said to date back to the Cordus Tempus Draconis. Most shaman claim that the first @*Blood Challenge*@ was issued by Mogoth, chieftain of Clan Vrogan, to the fire giant Výlgr.",
+        "Although there is no official written history of the Dörak'nör, the origin of the custom is said to date back to the Cordus Tempus Draconis. Most shaman claim that the first @*Blood Challenge*@ was issued by Mogoth, chieftain of Clan Vrogan, to the fire giant Výlgr.",
         "During this era, the fire giants of the southern Vir Mountains ruled over numerous orcs clans, using the orcs as an expendable labor force. Though the orc clans had revolted numerous times, they had never been successful, with the fire giants crushing each uprising with exceptional brutality.",
         "Výlgr, an exceptionally cruel fire giant commander, was in charge of overseeing Clan Vrogan as the orcs constructed a bridge over the river Ergam. The construction, which began in the month of Gonsaar, was in full swing, when the river flooded due to the spring thaw. Much of the bridge, which was not ready to withstand such an event, collapsed under the torrent of water. This setback threw Výlgr into a fit of rage, and be began to savagely beat the orc workers for what the giant viewed as shoddy construction.",
         "Mogoth, seeing his people being punished yet again for a failure they could not prevent, called out to the giant, demanding Výlgr face him in single combat instead of beating those not responsible for the bridge collapse. The fire giant, amused by the very idea of such a request, agreed and declared he would fight without his magical plate armor, as a way to the fight more entertaining. The two combatants each chose a single weapon, a black iron sword for the giant and a great stone mallet for the orc, before beginning their duel.",
         "The battle, which the orcs of Cibrin claim lasted for hours, eventually saw Mogoth fell the giant with a devastating blow of his mallet to the giant's temple, shattering his skull. Upon watching their overlord fall dead, the other fire giants at the work site descended upon the gravely wounded Mogoth, striking him down where he stood, an action of such incredible dishonor, that it drove the whole of Clan Vrogan into a fury. The orcs attacked with a savage fury unseen before by the giants.",
-        "Though the clan's revolt would eventually be put down in the following weeks, the tale of the first @*Gijzan Temtsel*@ began to spread and the fires of rebellion stoked along with it."
+        "Though the clan's revolt would eventually be put down in the following weeks, the tale of the first @*Dörak'nör*@ began to spread and the fires of rebellion stoked along with it."
       ],
       "Rules": [
-        "Since its inception, the Gijzan Temtsel has always been a duel to the death. In Cibrinian culture, it is considered a grave insult for the victor to spare their opponent, as the defeated combatant is denied an honorable death and the loss of whatever position the duel was first invoked for. Though there is no formal, written code for a duel, most clans follow the same unspoken rules. Combatants are free to set their own rules, if they so wish, but few blood challenges deviate from the standard. The following are the most common, agreed upon rules for a Gijzan Temtsel:",
+        "Since its inception, the Dörak'nör has always been a duel to the death. In Cibrinian culture, it is considered a grave insult for the victor to spare their opponent, as the defeated combatant is denied an honorable death and the loss of whatever position the duel was first invoked for. Though there is no formal, written code for a duel, most clans follow the same unspoken rules. Combatants are free to set their own rules, if they so wish, but few blood challenges deviate from the standard. The following are the most common, agreed upon rules for a Dörak'nör:",
         "• The challenged is under no obligation to accept the duel.",
         "• Each combatant is allowed one weapon.",
         "• Once dropped, a weapon cannot be retrieved by either opponent.",

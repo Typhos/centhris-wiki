@@ -100,5 +100,20 @@
         "The forests of the Gorcien Dell, the region west of the Jordonis Mountains before reaching the Kelishan Highlands, are an expansive series of woodlands which supply much of the timber used in the Kingdom of Navolin. The "
       ]
     }
+  },
+  "Xiangmu-Forest": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["region","forest","Navolin","ulfwyst"],
+    "name": "Xiangmu Forest",
+    "nickname": "Xiangmu Forest",
+    "linkingWords": [],
+    "type": "Forest",
+    "location": "Western Koraxon",
+    "description": [
+      "The @+Xiangmu Forest+@ is a supernatural forest, located in the Crimson Mist Mountains, in Western Koraxon."
+    ],
+    "articles": {
+    }
   }
 }

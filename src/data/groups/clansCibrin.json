@@ -1,0 +1,32 @@
+{  
+  "Clan-Godak": {
+    "playerKnown": false,
+    "path": "group",
+    "name": "Clan Godak",
+    "nickname": "Clan Godak",
+    "tags": ["Cibrin","ulfwyst","clan"],
+    "type": "Cibrinian Clan",
+    "location": "Realm of Cibrin",
+    "leaders": [
+      "Han Dagra Crogosh"
+    ],
+    "description": [
+    ],
+    "articles": {
+    }
+  },
+  "Lesser-Clans-of-Cibrin": {
+    "playerKnown": false,
+    "path": "group",
+    "name": "Lesser Clans of Cibrin",
+    "nickname": "Lesser Clans of Cibrin",
+    "tags": ["Realm of Cibrin","ulfwyst","clan"],
+    "type": "Cibrinian Clan",
+    "location": "Realm of Cibrin",
+    "description": [
+      "The @+Lesser Clans of Cibrin+@ are clans that lack in economic, military or political influence compared to the more powerful clans of the Realm of Cibrin."
+    ],
+    "articles": {
+    }
+  }
+}

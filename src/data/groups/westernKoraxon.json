@@ -1,0 +1,15 @@
+{
+  "Yenmu-Zhe": {
+    "playerKnown": false,
+    "path": "group",
+    "name": "Yenmu Zhe",
+    "nickname": "Yenmu Zhe",
+    "tags": ["government","vampire cabal","western koraxon"],
+    "type": "Secret Society",
+    "description": [
+      "The @+Yenmu Zhe+@, which roughly translates to @*Cabal of Eternal Blood*@, is a clandestine order of vampire lords in the Kingdom of Daotian, in Western Koraxon. Dismissed by government officials and academics as nothing more than the ravings of superstitious peasants, the Yenmu Zhe have shaped the destiny of Daotian from the shadows for centuries. Although they are self serving and extremely deadly, the vampire lords of the cabal have a strong sense of nationalistic honor, believing it is their duty to guide their kingdom into a new golden age."
+    ],
+    "articles": {
+    }
+  }
+}

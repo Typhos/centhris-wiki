@@ -246,6 +246,27 @@
       "minor": []
     }
   },
+  "2C-1412": {
+    "playerKnown": false,
+    "path": "lore",
+    "hideDate": false,
+    "name": "2C 1412",
+    "nickname": "2C 1412",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 1412:"
+    ],
+    "articles": {
+      "Muntae Dynasty is Founded": [
+        "The Muntae Dynasty of Namjeon is founded. The Muntae, a mysterious foreign family from lands beyond Western Koraxon, arrive with a small force of elite soldiers and mages. Within three years, the Muntae control the entire Namjeon Peninsula."
+      ]
+    },
+    "timeline": {
+      "age": ["Muntae Dynasty is founded."],
+      "minor": []
+    }
+  },
   "2C-1975": {
     "playerKnown": true,
     "path": "lore",
@@ -368,6 +389,27 @@
     },
     "timeline": {
       "major": ["The Congress of Adendorf occurs in Ulfwyst resulting in the foundation of the Malstein Confederation."],
+      "minor": []
+    }
+  },
+  "2C-2191":{
+    "playerKnown": false,
+    "path": "lore",
+    "hideDate": false,
+    "name": "2C 2191",
+    "nickname": "2C 2191",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2191:"
+    ],
+    "articles": {
+      "Rise of the Xiong Dynasty": [
+        "After a quarter century of instability, the Liao family founds the Xiong dynasty begins in the Kingdom of Daotian."
+      ]
+    },
+    "timeline": {
+      "era": ["The Xiong dynasty begins in the Kingdom of Daotian."],
       "minor": []
     }
   },
@@ -494,6 +536,27 @@
     },
     "timeline": {
       "major": ["The Knights of the Sacred Dawn defeat Shulxaa, the Withered King and form the Theocracy of Tovanis."],
+      "minor": []
+    }
+  },
+  "2C-2467": {
+    "playerKnown": false,
+    "path": "lore",
+    "hideDate": false,
+    "name": "2C 2467",
+    "nickname": "2C 2467",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2C 2467:"
+    ],
+    "articles": {
+      "Gonsaar": [
+        "The Muntae Dynasty was overthrown in Namjeon. The era of the Three Kingdoms of Namjeon begins, as the Baeshu, Jung and Hyoba families vie for control of the once unified kingdom."
+      ]
+    },
+    "timeline": {
+      "major": ["The Muntae Dynasty was overthrown in Namjeon."],
       "minor": []
     }
   },

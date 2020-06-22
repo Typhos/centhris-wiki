@@ -1,0 +1,18 @@
+{
+  "Tianma-Gong": {
+    "playerKnown": false,
+    "hideOnCat": true,
+    "name": "Tianma Gong",
+    "nickname": "Palace of Heavenly Horses",
+    "path": "location",
+    "tags": ["palace","","Western Koraxon"],
+    "type": "Structure",
+    "location": "",
+    "description": [
+    ],
+    "articles": [
+    ],
+    "dmArticles": [
+    ]
+  }
+}
