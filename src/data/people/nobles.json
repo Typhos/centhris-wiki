@@ -250,7 +250,7 @@
     }
   },
   "Han-Darga-Crogosh": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "person",
     "hideOnCat": false,
     "name": "Han Darga Crogosh",

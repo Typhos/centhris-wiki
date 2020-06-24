@@ -84,18 +84,23 @@
     "articles": {
     }
   },
-  "Minor-Clans-of-Lemuria": {
+  "Clans-of-Lemuria": {
     "playerKnown": true,
     "path": "group",
-    "name": "Minor Clans of Lemuria",
-    "nickname": "Minor Clans of Lemuria",
+    "name": "Clans of Lemuria",
+    "nickname": "Clans of Lemuria",
+    "linkingWords": ["Minor Clans of Lemuria","Lesser Clans of Lemuria", "Clans of Lemuria"],
     "tags": ["Realm of Lemuria","ulfwyst","clan"],
     "type": "Lemurian Clan",
     "location": "Realm of Lemuria",
     "description": [
-      "The @+Minor Clans of Lemuria+@ are clans that lack in economic, military or political influence compared to the major clans of the Realm of Lemuria. Most minor clans are vassals of a major clan, though some are large enough to act autonomously. The term @*minor clan*@ casts a wide net, from large clans which simply lack influence in the Clan Council of Lemuria, down to extended families that live in isolated villages in the wilds of the realm."
+      "@+Lemurian Clans+@ are familial, or geographic groups which give a sense of shared identity and descent to members. Clans generally identify with geographical areas originally controlled by their founders, sometimes with an ancestral castle or settlement, and clan gatherings.",
+      "It is a common misconception outside of Lemuria that every person who bears a clan's name is a lineal descendant of the chieftains. Many clansfolk, although not related to the chieftain, took the chieftain's surname as their own to either show solidarity, or to obtain basic protection, or for much needed sustenance. Most of the followers of a clan are tenants, who supply labor to the clan leaders."
     ],
     "articles": {
+      "Minor Clans of Lemuria": [
+        "The @*Minor Clans of Lemuria*@ are clans that lack in economic, military or political influence compared to the major clans of the Realm of Lemuria. Most minor clans are vassals of a larger, more influential clan, though some are large enough to act autonomously. The term @*minor clan*@ casts a wide net, from large clans which simply lack influence in the Clan Council of Lemuria, down to extended families that live in isolated villages in the wilds of the realm."
+      ],
       "Administration and Culture": [
         "The official registry of clans is kept in the Storsal Helter in Kilurus. To be considered a clan, a family must simply declare themselves an independent clan with a name and banner. This laissez faire culture towards clan status means that the number of clans in Lemuria has risen and fallen dramatically over the course of the kingdom's history, as families die out or new ones declare their independent clan status.",
         "Beyond the official record of clans, the major clans tend to keep private records of their vassals. These records are used to determine levy tithes, taxation and the expected number of prominent political positions a clan might expect within a clan council."
