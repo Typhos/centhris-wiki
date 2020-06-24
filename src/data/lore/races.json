@@ -143,6 +143,7 @@
     "type": "Race",
     "tags": ["race"],
     "description": [
+      "@+Serbonji+@, also known as @*Lionfolk*@ or @*Tigerfolk*@ depending on the region, are a race of humanoid peoples that prefer to reside in the temperate, sub-tropical and tropical regions of Centhris. First appearing after the fall of the Utharian Empire, some people claim that they are a magically created race of people. This idea is often aggressively denied by Serbonji, who feel such an idea makes them appear as little more than tools and servants to others."
     ]
   },
   "Marus": {
@@ -155,6 +156,7 @@
     "type": "Race",
     "tags": ["race"],
     "description": [
+      "@+Marus+@, also known as Walrusfolk, are a race of humanoid people that mostly live in the frigid climate of southern Centhris. Small groups of Marus are most commonly found in Lemuria, Cibrin, the Olgarrod Wilds and Sahóra Confederation."
     ]
   },
   "Anubari": {
@@ -167,7 +169,20 @@
     "type": "Race",
     "tags": ["race"],
     "description": [
-    ]
+      "The @+Anubari+@, also known as @*Jackalfolk*@, are a race of humanoid peoples who mostly live in the sub-tropical and tropical regions of Centhris, particularly in deserts and wasteland civilizations. There is some debate on the first recorded appearance of the Anubari, with some claiming they only appeared after the fall of the Utharian Empire. Anubari, however, claim they are descendants of a much older, more powerful lost empire. Numerous wealthy members of the Anubari have funded expeditions into the great deserts of Ulfwyst and Cunascus in hopes of finding definitives clues to their people's past."
+    ],
+    "articles": {
+      "Abilities": [
+        "When playing an Anubari character in the world of Centhris, the following racial abilities apply:",
+        "@+Ability Score Increases.+@ Your Dexterity, Constitution and Wisdom scores increase by 1.",
+        "@+Age.+@ Anubari mature at the same rate as humans and have lifespans similar in length to theirs.",
+        "@+Alignment.+@ Anubari are calculating and logical in their dealings, but avoid moral complications. As such, they tend towards Lawful Neutral.",
+        "@+Size.+@ Anubari are between 6 and 7 feet tall and weigh between 180 and 230 pounds. Your size is Medium.",
+        "@+Speed.+@ Your base walking speed is 35 feet.",
+        "@+Languages.+@ You can speak, read and write Common and one language of your choice.",
+        "@+Skirmisher Tactics+@. Due to their innate speed and nimbleness, Anubari prefer to fight on the move. As a reaction you may deflect any one attack of opportunity. This attack automatically misses you, to do so you must be wielding a weapon you are proficient in, or have an ability that gives unarmored defense."
+      ]
+    }
   },
   "Uklang": {
     "playerKnown": true,
@@ -179,6 +194,7 @@
     "type": "Race",
     "tags": ["race"],
     "description": [
+      "@+Uklang+@, commonly referred to as Yakfolk, are a group of humanoid peoples that live in the colder regions of Centhris. They are most commonly found in souther Ulfwyst, northern West Koraxon and northern Entos. For most of their history, herds of Uklang have preferred to maintain a nomadic, tribal society. As other groups of humanoids have encroached upon their traditional herdlands, tribal elders have chosen adapt to the numerically superior newcomers instead of risk the ravages of war upon their tribes."
     ]
   },
   "Zhuren": {
@@ -204,5 +220,230 @@
     "tags": ["race"],
     "description": [
     ]
+  },
+  "Goblins": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "Goblins",
+    "nickname": "Goblins",
+    "linkingWords": [],
+    "locations": ["Anywhere"],
+    "type": "Race",
+    "tags": ["race"],
+    "description": [
+      "@+Goblins+@ are a race of small and numerous goblinoids common throughout Centhris, often living in underground caverns near the surface known as lairs. They are often, though not always, dominated by other goblinoids, most commonly Hobgoblins. Goblins, like all goblinoids, share a unique genetic trait known as Khün Mönnas, which allows them to gain the memories of other goblinoids they cannibalize."
+    ],
+    "articles": {
+      "Physical description": [
+        "Goblins are small goblinoids that many consider little more than a nuisance. They have flat faces, hooked noses, pointed ears, and small, sharp fangs. Their foreheads sloped back, and their eyes varied in color from red to yellow. Their skin color ranges from yellow, green, grey, or even orange; usually, all members of the same tribe share the same colored skin. Goblins typically dress in dark leathers soiled by poor hygiene and colored in a similar range of tones to their skin. Most goblins stand between 3 and 4 feet and weigh about 40 to 55 pounds.",
+        "Goblins breed extremely rapidly compared with many other races, accounting for their large population."
+      ],
+      "Psychology": [
+        "Goblins, like other goblinoids, commonly have short tempers. Leaders among goblins often come to power through betrayal or aggression, rather than by more peaceful means. Goblins who turn away from evil often find it difficult to overcome this innate aggression and sense of greed. They find it difficult for them to act altruistically. Those that do manage to overcome these issues often made use of their talents as rogues or fighters."
+      ],
+      "Culture": [
+        "Goblin society is tribal by nature. Due to the nature of Cannibalistic Rebirth, goblins tend to follow the strongest, most senior leaders in a tribe, and if that leader falls, a mad scramble can occur for who can consume the former chief first.",
+        "Goblins have little concept of privacy, living and sleeping in large common areas; only the leaders may live separately in their own private chambers. As such, goblin lairs are often stinking or soiled, though easily defended when under assault. Many such lairs are layered with simple traps for when defenses are needed.",
+        "Young goblins are taught from an early age to rely only on themselves and that to survive, they needed to be aggressive and ruthless. To a goblin, it isn't seem logical to treat others as well or better than you would treat yourself. Because of the violent nature of goblin culture, it is not uncommon for goblins to come under the domination of individuals from a larger, more physically powerful culture, most typically larger goblinoids such as hobgoblins or bugbears."
+      ],
+      "Abilities": [
+        "When playing a Goblin character in the world of Centhris, the following racial abilities apply:",
+        "@+Ability Score Increases.+@ Your Dexterity score increases by 2, and your Constitution score increases by 1.",
+        "@+Age.+@ Goblins reach adulthood at age 8 and live up to 60 years.",
+        "@+Alignment.+@ Goblins are typically neutral evil, as they care only for their own needs. A few goblins might tend toward good or neutrality, but only rarely.",
+        "@+Size.+@ Goblins are between 3 and 4 feet tall and weigh between 40 and 80 pounds. Your size is Small.",
+        "@+Speed.+@ Your base walking speed is 30 feet.",
+        "@+Darkvision.+@ You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+        "@+Languages.+@ You can speak, read and write Common and Goblin.",
+        "@+Fury of the Small.+@ When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest.",
+        "@+Nimble Escape.+@ The goblin can take the Disengage or Hide action as a Bonus Action on each of its turns.",
+        "@+Cannibalistic Tendencies.+@ All goblins, even though who might attempt to fight it, feel the innate urge to cannibalize their fallen kin. If a goblin is the first goblinoid  to consume a deceased goblin, hobgoblin or bugbear, they gain the memories of the fallen goblinoid.",
+        "If the goblin consumes a hobgoblin or bugbear, they will begin to grow in size and shift in skintone to that of the consumed goblinoid. This transformation takes 1d4 + 2 weeks to occur. After the transformation is complete, the goblin loses the ability score increases, as well its @*Nimble Escape*@ and @*Fury of the Small*@ racial features. In place of these, the newly created goblinoid gains both the ability score increases and the racial features from the creature it has transitioned into.",
+        "In addition, they may gain proficiency in a skill the fallen goblinoid possessed in life. Roll a d100 and consult the chart below to determine the proficiency gained from the act of Khün Mönnas. If the outcome of the rolled is a trait already possessed by the cannibal, they gain no proficiency benefit from their deceased kin.",
+        "@+Languages+@",
+        "1-4 — Dwarvish",
+        "5-8 — Elvish",
+        "9-12 — Gnomish",
+        "13-16 — Halfling",
+        "17-20 — Giant",
+        "21-24 — Orc",
+        "25 — Abyssal",
+        "26 — Celestial",
+        "27 — Draconic",
+        "28 — Deep Speech",
+        "29 — Infernal",
+        "30 — Primordial",
+        "31 — Sylvan",
+        "32 — Undercommon",
+        "@+Instruments+@",
+        "33 — Bagpipes",
+        "34 — Drums",
+        "35 — Flute",
+        "36 — Lute",
+        "37 — Lyre",
+        "38 — Horn",
+        "39 — Pan Flute",
+        "40 — Viol",
+        "@+Weapons & Armor+@",
+        "41-43 — Martial Weapons",
+        "44-46 — Light Armor",
+        "47-50 — Medium Armor",
+        "51-54 — Heavy Armor",
+        "55-58 — Shields",
+        "@+Tools+@",
+        "59 — Thieves' Tools",
+        "60 — Navigator's Tools",
+        "61 — Alchemist’s supplies",
+        "62 — Brewer’s supplies",
+        "63 — Calligrapher's Supplies",
+        "64 — Carpenter’s tools",
+        "65 — Cartographer’s tools",
+        "66 — Cobbler’s tools",
+        "67 — Cook’s utensils",
+        "68 — Glassblower’s tools",
+        "69 — Jeweler’s tools",
+        "70 — Leatherworker’s tools",
+        "71 — Mason’s tools",
+        "72 — Painter’s supplies",
+        "73 — Potter’s tools",
+        "74 — Smith’s tools",
+        "75 — Tinker’s tools",
+        "76 — Weaver’s tools",
+        "77 — Woodcarver’s tools",
+        "@+Abilities+@",
+        "78 — Athletics",
+        "79 — Acrobatics",
+        "80 — Sleight of Hand",
+        "81— Stealth",
+        "82 — Arcana",
+        "83 — History",
+        "84 — Investigation",
+        "85 — Nature",
+        "86 — Religion",
+        "87 — Animal Handling",
+        "88 — Insight",
+        "89 — Medicine",
+        "90 — Perception",
+        "91 — Survival",
+        "92 — Deception",
+        "93 — Intimidation",
+        "94 — Performance",
+        "95 — Persuasion",
+        "96-100 — @+Roll on the Table Twice+@"
+      ]
+    }
+  },
+  "Hobgoblins": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "Hobgoblins",
+    "nickname": "Hobgoblins",
+    "linkingWords": ["Hobgoblin"],
+    "locations": ["Anywhere"],
+    "type": "Race",
+    "tags": ["race"],
+    "description": [
+      "@+Hobgoblins+@ are a race of human-sized goblinoids common throughout certain parts of Centhris. Warriors by nature, hobgoblins almost always form into warbands that follow a strict military hierarchy. Unlike their smaller, more cowardly cousins, hobgoblins are fearless, disciplined fighters who use complex military strategy. Hobgoblins, like all goblinoids, share a unique genetic trait known as Khün Mönnas, which allows them to gain the memories of other goblinoids they cannibalize."
+    ],
+    "articles": {
+      "Physical description": [
+        "Goblins are medium-sized goblinoids. They have flat faces, pointed noses and ears, and large, pronounced canines. Their skin color is almost exclusively red-brown, however in rare cases there have been instances of grey hobgoblins. Most hobgoblins stand between 5 and 6 feet and weigh about 150 to 200 pounds.",
+        "Most hobgoblins dress in military attire, including well-kept armor and weapons. When not wearing combat gear, hobgoblins tend to dress in pragmatic, simple garments of muted color."
+      ],
+      "Psychology": [
+        "By and large hobgoblins, like their kin, are considered evil creatures and often meet this expectation. While Goblinoid society is cruel and harsh, some individuals escape it to carry on lives of virtue, though due to the regimented nature of hobgoblin society, fewer hobgoblins manage to do so than true Goblins. Those few who do take this risk and succeed often meet cautious praise and acceptance from outsiders.",
+        "Those that do are, however, continuously plagued by their nature. Though hobgoblins are not necessarily evil they are prone to violence and hot tempers and find it difficult to be truly altruistic. When provoked, which is often easy, hobgoblins are vindictive creatures who take glee in causing pain to those that injured them.",
+        "The most difficult aspect of hobgoblin nature to escape and the most problematic for outsiders who accept them is the ever present siren call of Khün Mönnas. Though more disciplined and likely to resist the temptation, it is always there for every goblinoid."
+      ],
+      "Culture": [
+        "Hobgoblins are rarely found in communities where they are not in command of either goblins or bugbears, or sometimes both, and the most civilized goblinoid communities are ruled by the race. This is in large part because hobgoblin society is more industrious and less savage than that of goblins or bugbears.",
+        "Hobgoblins have a long tradition of mastering and breeding the creatures of the world into slaves of various sorts. Many, for instance, like working with wolves or worgs. Similarly, many drake breeds were first bred by hobgoblins. Some even believe hobgoblins carried this practice on within their own race, creating the goblins and bugbears in such a manner.",
+        "Hobgoblins are immensely protective of their tribe's reputation and military status, so much so that meetings between different groups can turn violent if proper protocol is not followed. However, though hobgoblin tribes are territorial and egotistical in nature they will often unite for a common purpose, such as war against non-goblinoids."
+      ],
+      "Abilities": [
+        "When playing a Hobgoblin character in the world of Centhris, the following racial abilities apply:",
+        "@+Ability Score Increases.+@ Your Constitution score increases by 2, and your Intelligence score increases by 1.",
+        "@+Age.+@ Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs.",
+        "@+Alignment.+@ Hobgoblin society is built on fidelity to a rigid, unforgiving code of conduct. As such, they tend toward lawful evil.",
+        "@+Size.+@ Hobgoblins are between 5 and 6 feet tall and weigh between 150 and 200 pounds. Your size is Medium.",
+        "@+Speed.+@ Your base walking speed is 30 feet.",
+        "@+Darkvision.+@ You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+        "@+Languages.+@ You can speak, read and write Common and Goblin.",
+        "@+Saving Face.+@ Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest.",
+        "@+Cannibalistic Tendencies.+@ All goblins, even though who might attempt to fight it, feel the innate urge to cannibalize their fallen kin. If a goblin is the first goblinoid  to consume a deceased goblin, hobgoblin or bugbear, they gain the memories of the fallen goblinoid.",
+        "If the goblin consumes a hobgoblin or bugbear, they will begin to grow in size and shift in skintone to that of the consumed goblinoid. This transformation takes 1d4 + 2 weeks to occur. After the transformation is complete, the goblin loses the ability score increases, as well its @*Nimble Escape*@ and @*Fury of the Small*@ racial features. In place of these, the newly created goblinoid gains both the ability score increases and the racial features from the creature it has transitioned into.",
+        "In addition, they may gain proficiency in a skill the fallen goblinoid possessed in life. Roll a d100 and consult the chart below to determine the proficiency gained from the act of Khün Mönnas. If the outcome of the rolled is a trait already possessed by the cannibal, they gain no proficiency benefit from their deceased kin.",
+        "@+Languages+@",
+        "1-4 — Dwarvish",
+        "5-8 — Elvish",
+        "9-12 — Gnomish",
+        "13-16 — Halfling",
+        "17-20 — Giant",
+        "21-24 — Orc",
+        "25 — Abyssal",
+        "26 — Celestial",
+        "27 — Draconic",
+        "28 — Deep Speech",
+        "29 — Infernal",
+        "30 — Primordial",
+        "31 — Sylvan",
+        "32 — Undercommon",
+        "@+Instruments+@",
+        "33 — Bagpipes",
+        "34 — Drums",
+        "35 — Flute",
+        "36 — Lute",
+        "37 — Lyre",
+        "38 — Horn",
+        "39 — Pan Flute",
+        "40 — Viol",
+        "@+Weapons & Armor+@",
+        "41-43 — Martial Weapons",
+        "44-46 — Light Armor",
+        "47-50 — Medium Armor",
+        "51-54 — Heavy Armor",
+        "55-58 — Shields",
+        "@+Tools+@",
+        "59 — Thieves' Tools",
+        "60 — Navigator's Tools",
+        "61 — Alchemist’s supplies",
+        "62 — Brewer’s supplies",
+        "63 — Calligrapher's Supplies",
+        "64 — Carpenter’s tools",
+        "65 — Cartographer’s tools",
+        "66 — Cobbler’s tools",
+        "67 — Cook’s utensils",
+        "68 — Glassblower’s tools",
+        "69 — Jeweler’s tools",
+        "70 — Leatherworker’s tools",
+        "71 — Mason’s tools",
+        "72 — Painter’s supplies",
+        "73 — Potter’s tools",
+        "74 — Smith’s tools",
+        "75 — Tinker’s tools",
+        "76 — Weaver’s tools",
+        "77 — Woodcarver’s tools",
+        "@+Abilities+@",
+        "78 — Athletics",
+        "79 — Acrobatics",
+        "80 — Sleight of Hand",
+        "81— Stealth",
+        "82 — Arcana",
+        "83 — History",
+        "84 — Investigation",
+        "85 — Nature",
+        "86 — Religion",
+        "87 — Animal Handling",
+        "88 — Insight",
+        "89 — Medicine",
+        "90 — Perception",
+        "91 — Survival",
+        "92 — Deception",
+        "93 — Intimidation",
+        "94 — Performance",
+        "95 — Persuasion",
+        "96-100 — @+Roll on the Table Twice+@"
+      ]
+    }
   }
 }

@@ -584,6 +584,26 @@
       "minor": []
     }
   },
+  "2C-2501": {
+    "playerKnown": true,
+    "path": "lore",
+    "hideDate": false,
+    "name": "2C 2501",
+    "nickname": "2C 2501",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The following historical events took place in 2C 2501:"
+    ],
+    "articles": {
+      "??": [
+        "Evan-Jakob Reinhold is born."
+      ]
+    },
+    "timeline": {
+      "minor": ["Evan-Jakob Reinhold is born."]
+    }
+  },
   "2C-2536": {
     "playerKnown": true,
     "path": "lore",
@@ -619,13 +639,13 @@
     ],
     "articles": {
       "??": [
-        "Erlinder Bluefield & Evan-Jakob Reinhold are born."
+        "Erlinder Bluefield is born."
       ]
     },
     "timeline": {
       "major": [],
       "minor": [
-        "Erlinder Bluefield & Evan-Jakob Reinhold are born."
+        "Erlinder Bluefield is born."
       ]
     }
   },

@@ -397,9 +397,15 @@
       "High Queen Inga Villdyr"
     ],
     "description": [
-      ""
+      "The @+Clan Council of Lemuria+@ is the main governmental body of the Realm of Lemuria. The council meets at the Storsal Helter in the city of Kilurus. The council is comprised of the leaders of the Clans of Lemuria."
     ],
     "articles": {
+      "Council Practices": [
+        "To an outsider, the methods and rules of a Clan Council meeting may seem chaotic, but to a Lemurian familiar with council practice, it is almost identical to a village council meeting. Topics of discussion can be proposed by any member of the council, with priority descending from those with the most political influence to those with the least.",
+        "There is no standard length for a council meeting. Depending on the number of topics and the length of debate, a meeting may require only a few hours, or several days. If a meeting requires multiple days, breaks are alloted. The only rule counter to this is that @+once debate on a topic has begun, a resolution must be found before a meeting may adjourn+@.",
+        "@#Clan Influence#@",
+        "The most important members of the council are the chieftains of the major clans, of which there are currently five: Arnbjorg, Bjørsel, Sjomann, Tordenfødt and Villdyr. These clan tend to hold permanent, influential offices in the council. They also receive priority, and extended speaking time during council debates."
+      ]
     }
   },
   "Council-of-the-Withered-King": {

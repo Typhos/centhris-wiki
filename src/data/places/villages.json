@@ -50,6 +50,16 @@
     "description": [
       "Blåttfelt, or Bluefield in Common, is a small farming village on the Svinge river in southwestern Lemuria. The village sits on the northern border of the vast Razark Timberland which stretches south all the way to the Venngar Sea.",
       "The Svinge, which flows from the hills in the west into the Isdrage Bay in the east, allows the village easy access to other parts of Lemuria for trade, military service or clan councils."
-    ]
+    ],
+    "articles": {
+        "Erlinder's Return Home": [
+            "On the 8th of Ebosk, 2C 2573, Erlinder returned home after 3 months away from the village. He found his family in good health and his children in high spirits. Erlinder's wife, Hilga, informed him that recently there have been disappearances in the village. The Thrainsson, Egilsson & Æskilssons families have gone missing. The home of each family has become wrapped in briars, either as part of, or after the disappearance."
+        ]
+    },
+    "dmArticles": {
+        "Cause of the Disappearances": [
+            "The disappearances in Blåttfelt are due to the arrival of a Bramble "
+        ]
+    }
   }
 }
