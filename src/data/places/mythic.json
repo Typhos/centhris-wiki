@@ -45,7 +45,12 @@
     "hideOnCat": false,
     "name": "The Feywild",
     "nickname": "the Feywild",
-    "linkingWords": [],
+    "linkingWords": [
+        "Court of the Blooming Vale",
+        "Bonfire Court",
+        "Court of Colors",
+        "Court of Twilight"
+    ],
     "tags": ["mythic locale","plane"],
     "type": "Plane",
     "description": [

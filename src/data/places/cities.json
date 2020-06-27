@@ -118,7 +118,7 @@
   "Tarona": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["city","Abbasyr","port","ulfwyst","adorra sound"],
+    "tags": ["city","Navolin","port","ulfwyst"],
     "name": "Tarona",
     "nickname": "Tarona",
     "linkingWords": [],
@@ -135,6 +135,28 @@
     ],
     "articles": {
       "Former Capital of Malstein": [
+        ""
+      ]
+    }
+  },
+  "Govstok": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["city","Navolin","Azond","port","ulfwyst"],
+    "name": "Govstok",
+    "nickname": "Govstok",
+    "linkingWords": [],
+    "type": "City",
+    "population": "11,310",
+    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "government": "Feudal Lord",
+    "location": "Navolin",
+    "leaders": ["Baron Vasko Hadzhiev"],
+    "description": [
+      "The Navolinian city of Govstok, previously the capital of the Kingdom of Azond, is a port city on the Tiderack Coast. The city is known for its fine textiles, exotic seafood and vast sugarcane fields."
+    ],
+    "articles": {
+      "Former Capital of Azond": [
         ""
       ]
     }
@@ -193,7 +215,8 @@
             "@+Stjärnor Clocktower+@. Located on the northern end of Fiskarplatsen, this stone clocktower was first designed in 2C 2480 by Arnbjorg engineers. Standing 4 stories tall, the tower was to be capped by a bronze spire and adorned with statues of former clan chieftains. Though the superstructure was completely 20 years ago, the clock and decorations have not been added due to a lack of funds.",
             "@+Brokki Arnbjorg Bathhouse+@. Another incomplete public work, this large wooden building sits on stilts in the Svinge river. The building itself is complete, however the necessary plumbing and enchantments to heat the baths has not been obtained. This has lead to a unique bit of local slang: @*\"to build a Brokki\"*@ is to start a project you never intend to complete.",
             "@#Shops#@",
-            "@+The Frozen Bear Inn.+@ This two-story, wooden inn is located just off of the Fiskarplatsen. The inn has been around for over 130 years and is currently being run by Streka Morningdove, a middle aged half-elf. The establishment is well known in the city for its enchanted bandstand, which has been playing the same 5 songs every night since it was first enchanted by the tavern's founder, a retired bard adventurer.",
+            "@+Frozen Bear Inn.+@ This two-story, wooden inn is located just off of the Fiskarplatsen. The inn has been around for over 130 years and is currently being run by Streka Morningdove, a middle aged half-elf. The establishment is well known in the city for its enchanted bandstand, which has been playing the same 5 songs every night since it was first enchanted by the tavern's founder, a retired bard adventurer.",
+            "@+Last Drink of the Wight.+@ This dingy, cramped tavern is a know location for smugglers, mercenaries and other, less savory elements of Postek's underbelly. The tavern is dimly lit with cramped, dark booths. The bartender, an old sailor named Oklin, and his assistant, an Uklang named Tebalu, are happy to completely ignore their patrons' activities, so long as it doesn't turn violent.",
             "@+The Primal Owlbear.+@ A small, rustic tavern known for its ales, the bar is decorated with numerous tapestries and murals, almost all of which are owlbear themed. The tavern is owned by Ygran Calauth, a friendly elf tavernkeeper who tends to avoid discussions of politics by referring to anyone in question as a \"proud and noble Lemurian\".",
             "@+Flokki's Fine Goods.+@ A well-known jewelry and clothing store run by the half-elf Flokki Brightmoon. The store sells higher end clothes to the more wealthy members of the community. Flokki also is known for buying strange items from adventurers and enchanters, including jewelry. Most of the items are simply nice to look at, but occasionally the half-elf manages to come across a magic item or two."
         ]

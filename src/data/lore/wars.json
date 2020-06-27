@@ -1,0 +1,78 @@
+{
+  "The-Navolinian-Conquest-of-Azond": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Navolinian Conquest of Azond",
+    "nickname": "the Navolinian Conquest of Azond",
+    "dates": ["2C 2536","2C 2543"],
+    "type": "Conflict",
+    "tags": ["conflict","war","battles","ulfwyst","navolin","azond"],
+    "description": [
+      "@+The Navolinian Conquest of Azond+@ was a large military conflict that began in 2C 2536 between the Kingdom of Navolin and the Kingdom of Azond. The conflict ended seven years later, in 2C 2543, with the Treaty of Yelant and the formal annexation of the entirety of Azond into the @;Kingdom of Navolin;@. "
+    ]
+  },
+  "War-of-Black-Fields": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "War of Black Fields",
+    "nickname": "War of Black Fields",
+    "dates": ["2C 2552","2C 2555"],
+    "type": "Conflict",
+    "tags": ["conflict","war","battles","ulfwyst"],
+    "description": [
+      "@+The War of Black Fields+@, also known as the @*3rd Navolinian War of Expansion*@, was a military conflict that began in 2C 2552 between the Kingdom of Navolin, the Theocracy of Tovanis and the Kingdom of Sedobia. The conflict ended three years later, in 2C 2555, @;with the Treaty of Tarona, which results in the Kingdom of Navolin formally absorbing the eastern half of Sedobia into its territory and Tovanis annexing the western half of Sedobia.;@"
+    ]
+  },
+  "The-War-of-Sellswords": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The War of Sellswords",
+    "nickname": "the War of Sellswords",
+    "dates": ["2C 2551","2C 2554"],
+    "type": "Conflict",
+    "tags": ["conflict","war","battles","ulfwyst"],
+    "description": [
+      "The War of Sellswords took place starting in 2C 2551 and ending in 2C 2554. It marked the most recent and largest expansion of the Archduchy of Zurast, which took territory from the Kingdom of Lemuria along the coast of the Mare Concordis. The majority of the fighting occurred in the Drakenwald and the Drowned Weald."
+    ]
+  },
+  "War-of-Red-Claws": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "War of Red Claws",
+    "nickname": "First War of Zurastian Aggression",
+    "dates": ["2C 2481"],
+    "type": "Conflict",
+    "tags": ["conflict","war","battles","ulfwyst"],
+    "description": [
+      "@+The First War of Zurastian Aggression+@ was a conflict taking place in 2C 2481 between the City-State of Zurast and the Kingdom of Lemuria over the Lepkar Peninsula. It marked the first formal expansion of Zurast's territory outside the City of Zurast. The conflict ended with the Treaty of Lepkar, which also marked the official declaration of Zurast as an arch-duchy instead of a city-state.",
+      "The conflict's informal name, the War of Red Claws, is derived from the bloodied water in the Bay of Claws after the largest naval battle of the conflict, the Battle of High Tide, which stained the rocky pillars of the bay near the mouth of the Sulas river red for weeks after the battle."
+    ]
+  },
+  "War-of-Five-Crowns": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "War of Five Crowns",
+    "nickname": "War of Five Crowns",
+    "dates": ["2C 2211","2C 2245"],
+    "type": "Conflict",
+    "tags": ["conflict","war","battles","ulfwyst"],
+    "description": [
+      "@+The War of Five Crowns+@ was a conflict that took place from 2C 2211 to 2C 2245 between the states of Navolin, Malstein, Dunfeld, Lezna and Khor. The war marked the official dissolution of the @*Malstein Confederation*@."
+    ]
+  },
+  "The-Great-Clan-War": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Great Clan War",
+    "nickname": "The Great Clan War of Lemuria",
+    "linkingWords": ["the Great Clan War","the Great Clan Wars"],
+    "dates": ["2C 2062","2C 2103"],
+    "type": "Conflict",
+    "tags": ["conflict","war","battles","ulfwyst","lemuria","clans"],
+    "description": [
+      "@+The Great Clan War+@ was a conflict that took place from 2C 2062 to 2C 2103 between the great houses of Lemuria. Scholars now agree that the war had been brewing for generations, with minor squabbles and family feuds between clans causing minor skirmishes and honor duels. However, the formal event that began full scale hostilities is generally agreed to be a familial dispute between Clan Arnbjorg and Clan Tordenfødt, due to claims of domestic violence against Brandur Arnbjorg, the heir to the clan chiefdom, by his wife, Nelgi Tordenfødt, sister of the ruling Tordenfødt lord, Eldmind Tordenfødt.",
+      "A series of battles between the two resulted in further hostility and the invocation of alliances and blood oaths by both sides. This spiraling conflict would see all of the great and many of the minor clans pulled into a conflict that ravaged the Realm of Lemuria and saw the clans lose their foothold over more distant holdings, including the former vassal state of Istagen and the declaration of its status as a free-city by the City of Zurast.",
+      "The war formally ended in 2C 2103 with the Grand Treaty of Kilurus, which declared the city as the seat of the newly instated Clan Council of Lemuria and its elected monarch, the High King. Clan Arnbjorg, who had previously held the city as the seat of its clan chieftain, relinquished its ownership and declared Postek as the clan's new home."
+    ]
+  }
+}

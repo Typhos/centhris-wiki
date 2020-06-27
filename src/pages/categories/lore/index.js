@@ -93,6 +93,8 @@ class LoreCategories extends Component {
 
   getEntriesByCategory(category) {
     const combinedLore = this.state.combinedLore;
+    // const images = require.context('img/lore/', true);
+    
     const loreImg = require.context('img/lore/', false);
     const creatures = require.context('img/creatures/', false);
     const gods = require.context('img/lore/gods/', false);
@@ -110,7 +112,7 @@ class LoreCategories extends Component {
           </li>
         );
       } else if ( this.state.combinedLore[lore].type === category ) {
-
+        
         return (
           <li key={lore+category} className="entry">
             <Link to={`/lore/${lore}`}>

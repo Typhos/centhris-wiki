@@ -151,12 +151,12 @@
     "type": "Structure",
     "location": "Khezrabad",
     "leaders": ["High Priestess Katayun Attar"],
-    "additionalImages": ["Chram-of-the-Eternal-exterior.png"],
+    "additionalImages": ["Chram-Halls.png"],
     "description": [
     ],
     "dmArticles": {
       "History": [
-        "The Chram of the Eternal is a the High Temple dedicated to the god of the sun. It is located in Khezbrabad, Abbasyr."
+        "The Chram of the Eternal is a the High Temple dedicated to the god of the sun. It is located in Khezrabad, Abbasyr."
       ]
     }
   },

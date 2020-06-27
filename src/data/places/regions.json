@@ -118,6 +118,22 @@
 
     }
   },
+  "Ursgal-Islands": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["islands","region","ulfwyst"],
+    "name": "Ursgal Islands",
+    "nickname": "Ursgal Islands",
+    "type": "Island",
+    "description": [
+      "The @+Ursgal Islands+@ are an island chain which separate the southern Isdrage Bay and the Venngar Sea. The islands, which are a mix of icy, barren rocks and tree-capped cays, provide a natural sailing route between eastern and western Lemuria."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+
+    }
+  },
   "Valley-of-Rud-Gilan": {
     "playerKnown": false,
     "path": "location",

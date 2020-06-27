@@ -318,7 +318,7 @@
     "location": "Lemuria",
     "leaders": ["Clan Chief Torild Sjomann"],
     "description": [
-      "Kaer Alfjall is the hill fortress located in southern Lemuria in the XYZ forest. It is the keep of Clan Sjomann."
+      "@+Kaer Alfjall+@ is the hill fortress located in southern Lemuria, guarding the entrance to Isdrage Bay. The keep is a stronghold and training center for Clan Sjomann."
     ]
   },
   "Kaer-Sundsvall": {
@@ -428,6 +428,18 @@
     "leaders": [],
     "description": [
       "Castle Mignollard is the eastern-most fortification of the Kaeldrin Sanctum. The fortress guards the roadway south into the Damali Steppe."
+    ]
+  },
+  "Var-Lozorn": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["castle","realm of tovanis","ulfwyst"],
+    "name": "Var Lozorn",
+    "nickname": "Var Lozorn",
+    "type": "Fortification",
+    "location": "Realm of Tovanis",
+    "description": [
+      "@+Var Lozorn+@ is a keep in the Realm of Tovanis on the border of the Desolate Wastes. The castle was once the location of the phylactery of Shulxaa, the Withered King before it's destruction in 2C 2461."
     ]
   }
 }

@@ -98,5 +98,56 @@
     "description": [
       "@+Edremit+@ is a town near the border between Lemuria and the Archduchy of Zurast."
     ]
+  },
+  "Murmont": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["town","Lemuria","ulfwyst"],
+    "name": "Murmont",
+    "nickname": "Murmont",
+    "linkingWords": [],
+    "type": "Town",
+    "population": "2,180",
+    "races": ["half-elf","human","elf","dwarf","uklang","half-orc","half-giant"],
+    "government": "Clan Council",
+    "location": "Realm of Lemuria",
+    "description": [
+      "@+Murmont+@ is a town on the Forsmun river, in western Lemuria. The town has been steadily growing for the last few decades under the guidance of a group of mystics who fled Istagen after the establishment of the state of Tovanis."
+    ]
+  },
+  "Thareska": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["city","Navolin","Azond","ulfwyst"],
+    "name": "Thareska",
+    "nickname": "Thareska",
+    "linkingWords": [],
+    "type": "town",
+    "population": "3,700",
+    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "government": "Feudal Lord",
+    "location": "Navolin",
+    "leaders": ["Baroness Mila Dobrev"],
+    "description": [
+      "The walled town @+Thareska+@ is a hub for local vineyards, which grow the region's famous variety of wine, the Stoyanov. The town was originally built as a hill fort to protect the mysterious \"Moon Gate\", a large arch of pearlescent white stone, which ancient residents believed was a gift from Nevondria, the Philosopher."
+    ],
+    "articles": {
+
+    }
+  },
+  "Salmas": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["town","Lemuria","ulfwyst"],
+    "name": "Salmas",
+    "nickname": "Salmas",
+    "linkingWords": [],
+    "type": "Town",
+    "population": "3,340",
+    "races": ["human","anubari","serbonji","dragonborn","half-orc","tiefling"],
+    "location": "Abbasyr",
+    "description": [
+      "@+Salmas+@ is a town in the Kingdom of Abbasyr."
+    ]
   }
 }

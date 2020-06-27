@@ -50,7 +50,7 @@
     "occupation": "Realm Lord",
     "affiliations": ["Istagen"],
     "description": [
-      "@+Shulxaa, the Withered King+@, was a lich lord who reigned over the Kingdom of Istagen for several hundred years prior to his defeat by the Knights of the Sacred Dawn. Shulxaa had achieved lichdom several hundred years prior to his complete domination of the kingdom. He established total control around 2C 1975, though his domination of the realm had occurred slowly, lasting roughly a hundred years, as the region was twisted into a puppet state by the lich."
+      "@+Shulxaa, the Withered King+@, was a lich lord who reigned over the Kingdom of Istagen for several hundred years prior to his defeat by the Knights of the Sacred Dawn at the Battle of Calfarn and the destruction of his phylactery in Var Lozorn. Shulxaa had achieved lichdom several hundred years prior to his complete domination of the kingdom. He established total control around 2C 1975, though his domination of the realm had occurred slowly, lasting roughly a hundred years, as the region was twisted into a puppet state by the lich."
     ]
   },
   "the-Myrd'draal": {
@@ -256,14 +256,41 @@
         "\"Nearly 500 years ago, my great grandfather, Drelnor Arnbjorg, did what was best for Lemuria by helping put an end to the Great Clan War. He gave up the greatest asset the Arnbjorgs had, Kilurus itself. To claim that I or my clan have anything but the best intentions for this kingdom is an insult to me and the greatest clan in this kingdom.\""
       ],
       "Current Activities": [
-        "Ulfrica is current in negotiations with the Council of the Withered King in the Greyleaf Pines. If investigators arrive at Ankor Duraz looking for her, they will find she has not been at the city for nearly a week. She will later turn up mysteriously in Postek, claiming that she had returned to the city on important clan business. This is a blatant lie, but give her rights as a chieftain, it is effective cover.",
-        "Several days after her meeting with the Lesser Liches, Kaer Edsken is set to be attacked by a force of undead Tovani soldiers."
+        "Ulfrica is current in negotiations with the Council of the Withered King in the Greyleaf Pines.",
+        "After her negotiations are complete, she plans to return to Postek before heading into the Razark Timberlands, where she has been using ancient rift portal to travel to the Feywild. If investigators arrive at Ankor Duraz looking for her, they will find she has not been at the city for nearly a week.",
+        "Several days after her meeting with the Lesser Liches, Kaer Edsken and Var Zvolt are set to be attacked by a force of undead soldiers. Each castle's siege have undead soldiers form the opposite side, making it appear to each side that the other has resorted to Necromancy."
       ],
       "Make Lemuria Great Again": [
         "Ulfrica has been in negotiations with the dwarves of Ankor Duraz for several years. The negotiations, which have been proceeding rather well by all accounts, never seem to lead anywhere, due to her stalling and intentional meddling at the Clan Council of Lemuria.",
-        "She intentional sabotaging the negotiations to provide cover for meetings with members of the Council of the Withered King who have taken up residence in the northern Greyleaf Pines. Ulfrica has grown tired of what she sees as the \"cycle of failed Lemurian monarchs\". She is looking for a way to resurrect Shulxaa and form an alliance between Lemuria (ruled by Clan Arnbjorg) and Istagen, once again under the control of the lich lord. In exchange for reviving Shulxaa, Ulfrica expects to be granted the knowledge on how to become a lich herself - the ritual for building her own phylactery. This grand plan would allow her to control the fate of Lemuria indefinitely and restore it to the glory days of her great grandfather.",
+        "She intentional sabotaging the negotiations to provide cover for meetings with members of the Court of Twilight, the Archfey of Winter. Ulfrica has grown tired of what she sees as the \"cycle of failed Lemurian monarchs\". She is looking to return the kingdom to a position of power and authority in Ulfwyst. In order to do this, she is seeking the aid from the rulers of her people's ancestral home. The Unseelie court seem to want little in exchange for their aid, though Ulfrica knows they are simply hiding their true ambitions.",
+        "In addition to gaining the aid of the Archfey, Ulfrica is gathering allies from the cast of members of the kingdoms of old. She has offered safe haven for the Council of the Withered King, in exchange for their service and the knowledge of how to build her own phylactery, allowing her to rise to the status of lich. This grand plan would allow her to control the fate of Lemuria indefinitely and restore it to the glory days of her great grandfather.",
         "In addition to her negotiations with the Council of the Withered King, Ulfrica is also colluding with the giantkin of the Svalljar. She has agreed to return the city of Dunndag, the ancestral city of the Fog Giants, to them in exchange for their help."
       ]
+    }
+  },
+  "Drelnor-Arnbjorg": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": true,
+    "name": "Drelnor Arnbjorg",
+    "nickname": "Drelnor Arnbjorg",
+    "linkingWords": ["King of Thorns"],
+    "tags": ["half-elf","noble","Realm of Lemuria"],
+    "birthYear": "2C 1963",
+    "deathYear": "2C 2124",
+    "gender": "Male",
+    "race": "Half-Elf",
+    "titles": ["Lord of Postek","King of Thorns"],
+    "occupation": ["Chieftain","Warlock"],
+    "affiliations": ["Realm of Lemuria"],
+    "description": [
+      "Clan Chieftain @+Drelnor Arnbjorg+@ was the head of Clan Arnbjorg during the Great Clan War. He is fondly remembered by history for his decision to establish Kilurus as the center of a new, centralized Lemurian state. During his lifetime, however, he was reviled as a cruel tyrant, earning himself the moniker \"the King of Thorns\".",
+      "He was buried in a barrow in the hills upriver from Postek, near the modern town of Blåttfelt. Today, the barrow is marked by a ring of runestones, marked in worn Elvish. The inscriptions read:",
+      "@*Here rests Drelnor, greatest of the chieftains of Lemuria, lord of Arnbjorg. By his might did Arnbjorg lord over those who would challenge it, and by his hand was Lemuria was spared from its age of suffering. Do not feel sorrow for his passing; feel pity for the living who now carry on without his daring, his wit and his warm smile.*@",
+      "Under the inscription on the final runestone, crudely carved graffiti reads:",
+      "@*Here lies the King of Thorns, may he rot in the hells and answer for his sins.*@"
+    ],
+    "articles": {
     }
   }
 }

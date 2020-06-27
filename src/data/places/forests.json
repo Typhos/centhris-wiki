@@ -62,13 +62,27 @@
   "Razark-Timberland": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["region","forest","Navolin","ulfwyst"],
+    "tags": ["region","forest","Lemuria","ulfwyst"],
     "name": "Razark Timberland",
     "nickname": "Razark Timberland",
+    "linkingWords": ["Razark Timberlands"],
     "type": "Forest",
     "location": "Navolin",
     "description": [
       "The @+Razark Timberland+@ is a tundra forest region in southern Lemuria. The hilly forest makes up the majority of the kingdom's south western peninsula, which juts out into the Venngar sea."
+    ]
+  },
+  "Everfrost-Woods": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["region","forest","Lemuria","ulfwyst"],
+    "name": "Everfrost Woods",
+    "nickname": "Everfrost Woods",
+    "linkingWords": ["Everfrost Wood"],
+    "type": "Forest",
+    "location": "Lemuria",
+    "description": [
+      "The @+Everfrost Woods+@ is a large, enchanted woodland in south east Lemuria. The forest is permanently in a state of winter, regardless of the season."
     ]
   },
   "Greater-Tsaga-Forests": {
@@ -81,6 +95,18 @@
     "location": "Syrothia",
     "description": [
       "The @+Greater Tsaga Forests+@, also known as the Tsaga wildlands, is an expansive wooded region west of the Pillars of Amud. The region acts as a natural southern barrier to the Syrothian Plateau, which extends hundreds of miles to the north of the forest. The forest itself covers over 250,000 km@^2^@."
+    ]
+  },
+  "Khagarsan-Forests": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["region","forest","Syrothia","ulfwyst"],
+    "name": "Khagarsan Forests",
+    "nickname": "Khagarsan Forests",
+    "type": "Forest",
+    "location": "Sahóra Confederacy",
+    "description": [
+      "The @+Khagarsan Forests+@ are a region of woodlands in south-central Ulfwyst."
     ]
   },
   "Gorcien-Forests": {

@@ -1,0 +1,14 @@
+{
+  "Battle-of-Calfarn": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "Battle of Calfarn",
+    "nickname": "the Battle of Calfarn",
+    "dates": ["2C 2461"],
+    "type": "Conflict",
+    "tags": ["conflict","battle","ulfwyst","navolin"],
+    "description": [
+      "The @+Battle of Calfarn+@ was the decisive battle in the invasion of Istagen by the Knights of the Sacred Dawn."
+    ]
+  }
+}
