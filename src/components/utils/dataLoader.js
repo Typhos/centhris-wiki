@@ -4,10 +4,12 @@ import eventsData       from 'data/lore/events';
 import godsData         from 'data/lore/gods';
 import racesData        from 'data/lore/races';
 import creaturesData    from 'data/lore/creatures';
-import holidayData     from 'data/lore/holidays';
+import holidayData      from 'data/lore/holidays';
 import calendarData     from 'data/lore/calendar';
 import itemData         from 'data/lore/items';
 import historicalData   from 'data/lore/historicalDates';
+import battles          from 'data/lore/battles';
+import wars             from 'data/lore/wars';
 
 // ==== PEOPLE DATA IMPORTS
 import characterData    from 'data/people/characters';
@@ -26,6 +28,7 @@ import archfeyData          from 'data/people/archfey';
 import clansLemuria           from 'data/groups/clansLemuria';
 import clansCibrin            from 'data/groups/clansCibrin';
 import westernKoraxonGroups   from 'data/groups/westernKoraxon';
+import militaryOrders         from 'data/groups/militaryOrders';
 import orgs                   from 'data/groups/organizations';
 
 // ==== ALL DATA IMPORTS FOR LOCATIONS
@@ -59,13 +62,13 @@ export default class DataLoader {
 
   static places = {...structures, ...palaces, ...world, ...regions, ...mountains, ...forests, ...deserts, ...swamps, ...seas, ...cityDistricts, ...cityStates, ...capitals, ...cities, ...towns, ...villages, ...dungeons, ...fortifications, ...dwarfHolds, ...politicalStates, ...mythic};
   
-  static lore = {...racesData, ...eventsData, ...loreData, ...itemData};
+  static lore = {...racesData, ...eventsData, ...loreData, ...itemData, ...wars, ...battles};
   
   static people = {...heroData,...villainData,...nobleData,...importantPeopleData,...merchantsData,...historicalPeopleData,...miscPeopleData, ...mageData, ...archfeyData};
   
   static misc = {...ships, ...items};
 
-  static organizations = {...clansLemuria, ...clansCibrin, ...orgs, ...westernKoraxonGroups};
+  static organizations = {...clansLemuria, ...clansCibrin, ...orgs, ...westernKoraxonGroups, ...militaryOrders};
 
   static characters = {...characterData};
 

@@ -88,15 +88,18 @@ class Places extends Component {
   getEntriesByCategory(category) {
     const crests = require.context('img/crests/', true);
     const images = require.context('img/places/', true);
+    const allImages = require.context('img/', true);
 
     return this.state.places.map( place => {
       if ( this.state.combinedPlaces[place].type === category ) {
+        let imgSrc = ( images.keys().some( x => x.includes( place ) ) && images( images.keys().filter( x => x.includes( place ) )[0] ) ) 
+          || allImages('./placeholder.png');
 
         return (
           <li key={place+category} className="entry">
             <Link to={`/location/${place}`}>
               { images.keys().some(x => x.includes( place )) && 
-                <img className={`landscape ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) }`} alt="" src={ images('./' + place + '.png') }/>
+                <img className={`landscape ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) }`} alt="" src={ imgSrc }/>
               }
               { crests.keys().some(x => x.includes( place )) &&  
                 <img className={`crest ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) }`} alt="" src={ crests('./' + place + '.png')  }/>
