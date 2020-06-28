@@ -131,7 +131,7 @@
     "type": "Military Order",
     "location": "Syrothian Empire",
     "description": [
-      "The Immortal Legions make up the majority of the military forces of the Syrothian Empire. The legions are comprised primarily of hobgoblins who are organized into units of highly disciplined, heavy infantry. All legions have auxiliary units of goblins, which are used as scouts, ranged skirmishers and messengers."
+      "The @+Immortal Legions+@ make up the majority of the military forces of the Syrothian Empire. The legions are comprised primarily of hobgoblins who are organized into units of highly disciplined, heavy infantry. All legions have auxiliary units of goblins, which are used as scouts, ranged skirmishers and messengers."
     ],
     "articles": {
       "Legionnaires": [
@@ -143,6 +143,22 @@
       "Goblin Auxiliaries": [
         "Every Syrothian legion maintains an auxiliary force of goblins which are held in reserve during engagements. These goblins serve in non-combat roles, generally as scouts & messengers. Their true purpose, however, is to act as reinforcements for fallen hobgoblin legionaries, thanks to the unique goblinoid genetic trait known as Khün Mönnas, colloquially known as @*Cannibal Rebirth*@."
       ]
+    }
+  },
+  "Ithron-Dagnir": {
+    "playerKnown": true,
+    "path": "group",
+    "name": "Ithron Dagnir",
+    "nickname": "Kaeldrin Mage Hunters",
+    "linkingWords": ["Wizard Slayers","Mage Slayers"],
+    "tags": ["army","syrothian empire","ulfwyst"],
+    "type": "Military Order",
+    "location": "Syrothian Empire",
+    "description": [
+      "The @+Ithron Dagnir+@, colloquially known as the @*Kaeldrin Mage Hunters*@ or @*Wizard Slayers*@, are a society of warriors sanctioned by the mages of the Kaeldrin Sanctum to hunt down renegade magic users. Members of the order are highly trained, and vetted for their ability to use both mundane and magical means of tracking, detaining, or eliminating powerful arcane threats.",
+      "Most members of the Ithron Dagnir are fighters, rangers or rogues, though the order does have several bards and warlocks. Every member of the order has the ability to control magic, a basic requirement when dealing with renegade mages."
+    ],
+    "articles": {
     }
   }
 }

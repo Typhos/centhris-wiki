@@ -10,13 +10,24 @@ export default function SearchLogic (searchString, dmView) {
 
   
     // only check search strings if there are least 2 letters to the search
-    let names = nameCheck(); 
+    finalResultsArray = [...nameCheck()];
+    let tags  = tagCheck();
     let info = informationCheck();
 
-    // console.log(names)
+    finalResultsArray = [...finalResultsArray, ...tags, ...info]
 
-    return orderResults(names);
+    return orderResults(finalResultsArray);
   // }
+
+  function searchResultObjectFomatting (entry, matchArray) {
+    return {
+      "name": entry,
+      "displayName": data[entry].name,
+      "count": matchArray.length,
+      "playerKnown": data[entry].playerKnown,
+      "path": data[entry].path
+    }
+  }
 
   function nameCheck() {
     // check names, nicknames and linkingWords for matches
@@ -31,15 +42,54 @@ export default function SearchLogic (searchString, dmView) {
       });
 
       if (checkArray.length > 0) {
-        return {
-          "name": entry,
-          "displayName": data[entry].name,
-          "count": checkArray.length + 10,
-          "playerKnown": data[entry].playerKnown,
-          "path": data[entry].path
+        return searchResultObjectFomatting(entry, checkArray);
+      }
+
+    });
+
+    return resultsArray.filter(x => x !== undefined);
+  }
+
+  function tagCheck () {
+
+    // loop through all entries
+    let resultsArray = dataKeys.map( entry => {
+      let tags = data[entry].tags;
+      let checkArray = [];
+
+      // if the entry has a tags array (which all should)
+      if (tags) {
+
+        // reduce the entry array to only the tags that include the search string.
+        // TODO: expand the search to include partial matches
+        
+        checkArray = tags.filter( e => {
+          if (e) {
+            return e.toLowerCase().includes(search);
+          }
+        });
+
+
+        // if there are matches in the data to the search string
+        if ( checkArray.length > 0 ) {
+          const match = finalResultsArray.find( x => x.displayName === data[entry].name );
+          
+          // check for entries already added to the final array. 
+          // if there was already a match, increment the count by one, otherwise make a new entry.
+
+          if ( match ) {
+            const index = finalResultsArray.findIndex( x => x.displayName === data[entry].name );
+            
+            finalResultsArray[index].count = finalResultsArray[index].count + 1;
+
+            return undefined;
+          } else {
+            return searchResultObjectFomatting(entry, checkArray);
+          }
         }
       }
 
+      return undefined;
     });
 
     return resultsArray.filter(x => x !== undefined);
