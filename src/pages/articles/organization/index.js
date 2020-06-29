@@ -77,6 +77,12 @@ class Organization extends Component {
                   <div className="values">{WikiUtils.linkContent(group, group.members)}</div>
                 </div> : "" 
               }
+              { (group.memberNumber) ? 
+                <div className="info">
+                  <p className="key">Number of Members</p>
+                  <div className="values">{WikiUtils.linkContent(group, group.memberNumber)}</div>
+                </div> : "" 
+              }
               { group.location &&
                 <div className="info">
                   <p className="key">Location</p>

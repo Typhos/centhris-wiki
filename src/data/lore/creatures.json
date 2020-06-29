@@ -170,6 +170,9 @@
     "type": "Undead",
     "tags": ["undead","construct","dark spirits"],
     "description": [
+      "@+Lurking Abominations+@ are terrifying skeletal creatures composed of the bones of numerous dead animals, people, or a combination of both. Abominations most commonly occur when numerous bodies are left to decompose in large pits or in mass graves. The lingering resentment and malice of the departed combines into a violent spectral force, which lashes out at any living who might foolishly wander too close.",
+      "When a victim does come near a corpse or bone pile, the abomination will take whatever bones it can must and form a large construct of bone. The spirits that give this shambling horror locomotion swirl around it, repairing or replacing parts of the construct that might be damaged as the abomination tears its victim to shreds.",
+      "Once it has killed the unsuspecting victim, the spirits will return the bones to their resting place, adding their latest victim to the pile, further increasing their malicious undead power."
     ],
     "articles": {
     },
@@ -275,6 +278,7 @@
     "type": "Elemental",
     "tags": ["elemental","giant"],
     "description": [
+      "Between the blistering deserts, scorching mountains and blasted wastelands of the elemental Plane of Fire there are massive seas of molten, liquid rock. Deep within these deadly magma flows live huge monstrosities of flame and stone, the @+Magma Behemoths+@. These massive elemental creatures can manipulate and control the molten rock of their home. Some enterprising wizards will summon Magma Behemoths for this very reason, as their ability to control molten rock makes them powerful siege weapons on the material plane."
     ],
     "articles": {
     },
@@ -334,6 +338,75 @@
       {
         "name": "Brine Blast (recharge 6).",
         "text": "The Icebrine Serpent opens its massive jaws and sends forth an blast of chilled sea water. All creatures in a 25 ft. cone must succeed on a DC 15 Dex save or suffer 5d8 Cold damage. Any target that succeeds its save takes half damage."
+      }
+    ]
+  },
+  "Cursebound-Knight": {
+    "playerKnown": true,
+    "path": "lore",
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Cursebound Knight",
+    "nickname": "Cursebound Knight",
+    "type": "Undead",
+    "tags": ["elemental","giant"],
+    "description": [
+      "@+Cursebound Knights+@ are undead servants of the Fell Lords, the terrifying masters of the Shadowfell. The spirits of warriors who abandoned, or betrayed their masters in life, these knights are forever bound to serve their fell masters in death. These knights wear dark, iron plate and carry large, cruel weapons. The blades of those they betrayed in life mark their large, lumbering forms and dark smoke emanates from the cracks and seams in their armor. Despite their hulking size, cursebound knights possess the martial prowess and refined skill they once honed in life. "
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    },
+    "alignment": "Chaotic Evil",
+    "creatureType": "Large Undead",
+    "stats": [
+      {"name": "STR", "val": 18},
+      {"name": "DEX", "val": 14},
+      {"name": "CON", "val": 14},
+      {"name": "INT", "val": 14},
+      {"name": "WIS", "val": 18},
+      {"name": "CHA", "val": 10}
+    ],
+    "savingThrows": "Str +8, Wis +8",
+    "skills": "Athletics +8, Arcana +6, Insight +6",
+    "passiveWisdom": 14,
+    "armor": "18 (plate armor)",
+    "hitPoint": 130,
+    "hitDie": "14d10+46",
+    "speed": "30 ft.",
+    "damageResistances": "Necrotic, slashing, piercing, and bludgeoning from non-magical sources",
+    "damageVulnerabilities": "Radiant",
+    "damageImmunities": "",
+    "conditionImmunities": "",
+    "senses": "Darkvision 60 ft.",
+    "languages": "Common",
+    "challenge": "8",
+    "abilities": [
+      {
+        "name": "Lifebane Blade",
+        "text": "The Cursebound Knight's blade is made of felliron and forged in shadowflame. Attacks made with the knight's blade deal an additional 4d6 necrotic damage (included in the attack)."
+      },
+      {
+        "name": "Summon Vengeful Spirits.",
+        "text": "The knight can summon dark spirits to his side to aid him in capturing or dispatching his quarry. At the start of combat, the knight can summon up to 6 undead of CR 1 or lower to fight along side him."
+      },
+      {
+        "name": "Shadow Chains (Recharge 4-6).",
+        "text": "As a bonus action, the knight clenches its fist in the direction of an opponent. One target within 30 feet must succeed on a DC 16 Strength saving throw or take 27 (6d8) necrotic damage and become restrained."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "The Cursebound Knight can make two attacks with its Lifebane Blade."
+      },
+      {
+        "name": "Lifebane Blade.",
+        "text": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 10 (1d10+4) slashing damage plus 14 (4d6) necrotic damage."
+      },
+      {
+        "name": "Spirit Burst.",
+        "text": "The Cursebound Knight releases tendrils of writhing shadow. Each creature within 20 feet must make a DC 16 Dexterity saving throw or take 18 (4d8) damage on a failed save, or half as much on a successful one."
       }
     ]
   },

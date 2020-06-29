@@ -127,12 +127,18 @@
       letter-spacing: 0.1em;
       text-transform: uppercase;
       cursor: pointer;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
 
-      span.icon {
-        font-weight: 700;
-        font-size: 3em;
-        top: 4px;
-        position: relative;
+      img.icon {
+        display: inline-block;
+        width: 24px;
+      }
+
+      span {
+        margin-left: 0.33em;
+        font-size: 18px;
       }
     }
 

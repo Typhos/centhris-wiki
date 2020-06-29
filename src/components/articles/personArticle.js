@@ -87,7 +87,9 @@ export default class PeopleArticle extends Component {
         <h2 className="fullName">{person.nickname}</h2>
         <aside className={`infoBox ${ this.state.dmView || ""}`}>
           <h4 className="nickname">{person.name}</h4>
-          <img className={`portrait ${ (!this.props.image) ? "fillSpace" : "" }`} alt="" src={this.props.image}/>
+          { this.props.image !== undefined && 
+            <img className={`portrait ${ (!this.props.image) ? "fillSpace" : "" }`} alt="" src={this.props.image}/>
+          }
           { person.titles &&
             <div className="info">
               <p className="key">Title(s)</p>

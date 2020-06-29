@@ -175,6 +175,9 @@ class Creatures extends Component {
         { creature.damageImmunities &&
           <p><strong>Damage Immunities</strong> {creature.damageImmunities}</p>
         }
+        { creature.damageVulnerabilities &&
+          <p><strong>Damage Vulnerabilities</strong> {creature.damageVulnerabilities}</p>
+        }
         { creature.conditionImmunities &&
           <p><strong>Condition Immunities</strong> {creature.conditionImmunities}</p>
         }

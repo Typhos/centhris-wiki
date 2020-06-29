@@ -151,7 +151,7 @@
   "Iron-Hills": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["hills","region","ulfwyst","forest","pillars of amud"],
+    "tags": ["hills","region","ulfwyst","forest","pillars of amud","dol obok"],
     "name": "Iron Hills",
     "nickname": "The Iron Hills",
     "type": "Region",
@@ -164,7 +164,7 @@
   "Tiderack-Coast": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["coast","region","ulfwyst"],
+    "tags": ["coast","region","ulfwyst","Navolin"],
     "name": "Tiderack Coast",
     "nickname": "Tiderack Coast",
     "linkingWords": ["Tiderack"],
@@ -177,13 +177,26 @@
   "Vuradel-Coast": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["coast","region","ulfwyst"],
+    "tags": ["coast","region","ulfwyst","Lemuria"],
     "name": "Vuradel Coast",
     "nickname": "Vuradel Coast",
-    "linkingWords": ["Tiderack"],
+    "linkingWords": [],
     "type": "Region",
-    "location": "Navolin",
+    "location": "Lemuria",
     "description": [
+    ]    
+  },
+  "Lepkar-Peninsula": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["coast","region","ulfwyst","Archduchy of Zurast","Lemuria"],
+    "name": "Lepkar Peninsula",
+    "nickname": "Lepkar Peninsula",
+    "linkingWords": [],
+    "type": "Region",
+    "location": "Archduchy of Zurast",
+    "description": [
+      "The @+Lepkar Peninsula+@ is a coast region along the Bay of Claws and the Korin Gulf. For most of history the region was controlled by the Realm of Lemuria. Following the War of Red Claws, the Archduchy of Zurast took control of the peninsula as part of its bid to establish itself as a regional power."
     ]    
   },
   "Olgarrod-Wilds": {
@@ -204,14 +217,15 @@
     "tags": ["region","ulfwyst","valley","Tovanis"],
     "name": "Retirim Valley",
     "nickname": "Retirim Valley",
+    "linkingWords": ["Retirim river","Retirim river valley"],
     "type": "Region",
     "location": "Tovanis",
     "description": [
-      "The Retirim Valley is the heartland of the Theocracy of Tovanis. The valley is formed by the Nascuta river, which flows from the Pillars of Amud into the Bay of Claws. The valley is responsible for much of the agricultural output of @;Tovanis;@."
+      "The Retirim Valley is the heartland of the Theocracy of Tovanis. The valley is formed by the Retirim river, which flows from the Pillars of Amud into the Bay of Claws. The valley is responsible for much of the agricultural output of @;Tovanis;@."
     ],
     "dmArticles": {
       "Heartland of Tovanis": [
-        "In an age past, this valley was known as the Nascuta Valley, named for the Nascuta river that flows through it. At the height of the Kingdom of Istagen's power, it was a thriving center of agriculture, which fed off the rich mineral deposits cascading down from the great mountains to the west.",
+        "At the height of the Kingdom of Istagen's power, it was a thriving center of agriculture, which fed off the rich mineral deposits cascading down from the great mountains to the west.",
         "When Istagen fell to the power of Shuxaa and deteriorated into a shell of its former glory, the valley became a fetid land littered with abandoned villages and towns. Travelers would prefer to take dangerous roads that went many miles out of their way to avoid the savage beasts and monsters that haunted the land.",
         "With the fall of Shulxaa and the rebirth of the land as the Theocracy of Tovanis, the valley was slowly cleansed of its many foul denizens and over the course of many years, the people of Tovanis began to rediscover the potential of the rich, arable soil."
       ]

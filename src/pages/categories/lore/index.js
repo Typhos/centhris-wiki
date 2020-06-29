@@ -93,19 +93,19 @@ class LoreCategories extends Component {
 
   getEntriesByCategory(category) {
     const combinedLore = this.state.combinedLore;
-    // const images = require.context('img/lore/', true);
-    
-    const loreImg = require.context('img/lore/', false);
-    const creatures = require.context('img/creatures/', false);
-    const gods = require.context('img/lore/gods/', false);
+    const allImages = require.context('img/', true);
 
     return this.state.lore.map( lore => {
-      if ( this.state.combinedLore[lore].type === category && combinedLore[lore].subcatLink) {
+      let imgSrc = ( allImages.keys().some( x => x.includes( lore ) ) && allImages( allImages.keys().filter( x => x.includes( lore ) )[0] ) ) 
+          || allImages('./placeholder.png');
+
+      if ( combinedLore[lore].type === category && combinedLore[lore].subcatLink ) {
+        // link to a lore subcat: ie. Pantheon
         return (
           <li key={lore+category} className="entry">
             <Link to={ {pathname: `/${combinedLore[lore].subcatLink}`, state: "update"}}>
-              { loreImg.keys().some(x => x.includes( lore )) && 
-                <img className={`landscape ${ this.checkEmptyEntry(lore)} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={ loreImg('./' + lore + '.png') }/>
+              { allImages.keys().some(x => x.includes( lore )) && 
+                <img className={`landscape ${ this.checkEmptyEntry(lore)} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={imgSrc}/>
               }
               <p>{combinedLore[lore].name}</p>
             </Link>
@@ -116,16 +116,7 @@ class LoreCategories extends Component {
         return (
           <li key={lore+category} className="entry">
             <Link to={`/lore/${lore}`}>
-              { loreImg.keys().some(x => x.includes( lore )) && 
-                <img className={`landscape ${ this.checkEmptyEntry([lore])} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={ loreImg('./' + lore + '.png') }/>
-              }
-              { creatures.keys().some(x => x.includes( lore )) && 
-                <img className={`portrait ${ this.checkEmptyEntry(combinedLore[lore]) }`} alt="" src={ creatures('./' + lore + '.png') }/>
-              }
-              {
-                !loreImg.keys().some(x => x.includes( lore )) && creatures.keys().some(x => x.includes( lore )) && gods.keys().some(x => x.includes( lore )) && 
-                <div class="imgPlaceholder"></div>
-              }
+              <img className={`landscape ${ this.checkEmptyEntry([lore])} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={ imgSrc }/>
               { !this.state.combinedLore[lore].type.toLowerCase().includes("race") &&
                 <p>{combinedLore[lore].name}</p>
               }

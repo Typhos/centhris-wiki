@@ -29,7 +29,8 @@ class Person extends Component {
     const images = require.context('img/portraits/', true);
     const peopleData = DataLoader.people;
     const person = this.state.person;
-    const imgPath = images.keys().some( x => x.includes( person )) &&  images('./' + peopleData[person].name.replace(/\s/g,"-") + '.png');
+    // const imgPath = images.keys().some( x => x.includes( person )) &&  images('./' + peopleData[person].name.replace(/\s/g,"-") + '.png');
+    let imgPath = ( images.keys().some( x => x.includes( person ) ) && images(images.keys().filter( x => x.includes( person ) ) ) );
 
     if ( !peopleData[person] ) {
       return (
@@ -41,7 +42,7 @@ class Person extends Component {
       <Page.People>
         <TitleComponent title={`${peopleData[person].name} - Centhris Wiki`} />
         <section id="people" className="article" >
-          <PersonArticle key={person} data={{peopleData}} entry={peopleData[person]} image={ imgPath || undefined } />
+          <PersonArticle key={person} data={{peopleData}} entry={peopleData[person]} image={ imgPath } />
         </section>
       </Page.People>
     )

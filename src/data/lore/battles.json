@@ -10,5 +10,17 @@
     "description": [
       "The @+Battle of Calfarn+@ was the decisive battle in the invasion of Istagen by the Knights of the Sacred Dawn."
     ]
+  },
+  "Battle-of-High-Tide": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "Battle of High Tide",
+    "nickname": "the Battle of High Tide",
+    "dates": ["2C 2481"],
+    "type": "Conflict",
+    "tags": ["conflict","battle","ulfwyst","navolin"],
+    "description": [
+      "The @+Battle of High Tide+@ was the largest naval battle in the war between the Archduchy of Zurast and the Realm of Lemuria over the Lepkar Peninsula."
+    ]
   }
 }

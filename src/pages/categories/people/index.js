@@ -10,8 +10,6 @@ import WikiUtils from "components/utils/wikiUtils.js";
 
 import 'styles/categories.scss';
 
-const images = require.context('img/portraits/', true);
-
 class People extends Component {
 
   constructor (props) {
@@ -42,10 +40,14 @@ class People extends Component {
   }
 
   render () {
+
+    const images = require.context('img/portraits/', true);
     const peopleData = this.state.peopleData;
     const numberOfArticles = Object.keys(this.state.people).length;
     const filteredOutput = this.state.people.map( person => {
-      const imgPath = images.keys().some( x => x.includes( person )) &&  images('./' + peopleData[person].name.replace(/\s/g,"-") + '.png');
+      // const imgPath = images.keys().some( x => x.includes( person )) &&  images('./' + peopleData[person].name.replace(/\s/g,"-") + '.png');
+      let imgPath = ( images.keys().some( x => x.includes( person ) ) && images(images.keys().filter( x => x.includes( person ) ) ) ) 
+          || images('./unknown.png');
 
       return this.peopleCategory(peopleData[person], imgPath);
     });
@@ -69,7 +71,7 @@ class People extends Component {
     return (
       <li key={person.name.replace(/\s/g,"-")} className="person entry" id={person.name.replace(/\s/g,"-")}>
         <Link className="personLink" to={ { pathname:`/person/${person.name.replace(/\s/g,"-")}`, state: "update" }}>
-          <img className="portrait" alt="" src={imgPath || images('./unknown.png')}/>
+          <img className="portrait" alt="" src={imgPath}/>
           <p className="name">{person.name}</p>
         </Link>
       </li>

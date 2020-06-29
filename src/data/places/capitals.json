@@ -43,15 +43,25 @@
     "tags": ["Tovanis","ulfwyst","capital","city"],
     "name": "Axuros",
     "nickname": "Axuros",
+    "linkingWords": ["Dawn's Light","Island of Hope"],
     "type": "Capital City",
-    "population": "22,000",
+    "population": "32,000",
     "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
     "government": "Elective Theocracy",
     "location": "Tovanis",
     "districts": [],
     "description": [
-      "The capital city of Tovanis, @+Axuros+@ is a religious center and a beacon of rebirth. The city is also know as \"Dawn's Light\"."
-    ]
+      " @+Axuros+@ is the capital of the Theocracy of Tovanis and home to many major religious institutions in eastern Ulfwyst.  The city is nicknamed \"Dawn's Light\" and the \"Island of Hope\". The city was founded in 2C 2463, two years after the defeat of the Lich Lord of Istagen. When the Knights of the Sacred Dawn found the historic capital of @~Istagen~@, Luzzara, in a horrid state, chose to move the capital instead of trying to rebuild. The order chose to build the new capital in a more central location, settling on the islands of Gambra and Sorsina in the Retirim river.",
+      "The city was build using traditional construction techniques, shunning the use of arcane magic to speed the building process along. Some of the construction costs were paid for with what remained of the Istagen treasury, but large sums of gold and silver were provided by religious institutions from around Ulfwyst, notably the churches of the Arbiter, the Eternal, the Guardian, and the Maker. The knights, as part of the agreement with the churches for their aid, built four cathedrals, one for each church, in key places around the city. This has, in part, been a key reason why the city has become a key religious center, a beacon of rebirth, and a bastion of religious freedom."
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+      "Real World Parallel": [
+        "Tovanis is a parallel to the Papal state during the high Middle Ages. The country is in the process of rebuilding after a devastating fall, much like the invasions of the Huns and Goths in Western Rome."
+      ]
+    }
   },
   "Kilurus": {
     "playerKnown": true,
