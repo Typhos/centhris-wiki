@@ -64,15 +64,15 @@
          "properties":{
             "id":null,
             "name":"Axuros",
-            "population":22783,
+            "population":32000,
             "type":"Tovanian Capital",
-            "info":"Known as \"Dawn's Light\", Axuros is the capital of Tovanis. The city is home to numerous temples, and is a bastion of religious freedom. Arcane pursuits, however, are banned."
+            "info":"Known as \"Dawn's Light\" and the \"Island of Hope\", Axuros is the capital of Tovanis. The city is home to numerous temples, and is a bastion of religious freedom. Arcane pursuits, however, are banned."
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
-               27.158548615121816,
-               -15.573216176297681
+               26.89635,
+               -15.533216176297681
             ]
          }
       },

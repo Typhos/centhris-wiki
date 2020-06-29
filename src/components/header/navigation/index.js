@@ -5,6 +5,7 @@ import Search from "components/search";
 import NavList from "components/header/navigation/navList";
 
 import 'styles/navigation.scss';
+import hamburger from 'img/hamburger-menu.svg';
 
 class Navigation extends Component {
 
@@ -27,7 +28,7 @@ class Navigation extends Component {
           <div className="alignmentShell">
             <div className="menuHousing">
               <input className="menuTrigger" type="checkbox" checked={this.state.menu} onChange={this.toggleMenu}/>
-              <button className="menuButton" ><span className="icon">&equiv;</span> Menu</button>
+              <button className="menuButton" ><img src={hamburger} className="icon"/><span>Menu</span></button>
               <div className="overlay">
                 <h3 className="navHeading">navigation</h3>
                 <NavList/>

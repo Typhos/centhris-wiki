@@ -306,6 +306,27 @@
     "articles": {
     }
   },
+  "Luzzara": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["city","Theocracy of Tovanis","ulfwyst"],
+    "name": "Luzzara",
+    "nickname": "Luzzara",
+    "linkingWords": [],
+    "idLinks": {
+    },
+    "type": "City",
+    "population": "7,250",
+    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "government": "Bishopric",
+    "location": "Theocracy of Tovanis",
+    "leaders": [""],
+    "description": [
+      "@+Luzzara+@ was the historic capital of Istagen. Before the fall of the Lich Lord of Istagen the city was one of the largest in central Ulfwyst, having a population of nearly 25,000 people. It is now a shadow of its former self, having lost nearly 2/3 of its residents. Much of the city still lies in ruin following the siege of the city, and the Battle of Calfarn. The people who remain are often haunted by its dark past."
+    ],
+    "articles": {
+    }
+  },
   "Avalo": {
     "playerKnown": true,
     "path": "location",

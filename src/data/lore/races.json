@@ -445,5 +445,19 @@
         "96-100 — @+Roll on the Table Twice+@"
       ]
     }
+  },
+  "Nakahi-Deepkin": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "Nakahi Deepkin",
+    "nickname": "Nakahi Deepkin",
+    "location": ["Mare Concordis","Mare Umbra","Mare Dyskira"],
+    "type": "Race",
+    "tags": ["race"],
+    "description": [
+      "@+Nakahi Deepkin+@ are a race of amphibious humanoid peoples who dwell along the coasts and under coastal oceans of Centhris. Their upper body resembles a human's, though covered in scales. Their lower body is comprised of a long, serpent-like tail. Most members of the species have a prominent doral ridge or fin, which runs from the top of their head to the end of their tail. Males tend to be large, imposing figures. Females are generally more slender and some females, most often those with magical abilities, develop an extra set of arms."
+    ],
+    "articles": {
+    }
   }
 }

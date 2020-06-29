@@ -1,67 +1,1049 @@
 {
-"type": "FeatureCollection",
-"name": "Ulfwyst Cities",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "id": null, "name": "Venbrin", "population": 4590, "type": "City-State", "info": "Located on the isles of Sunheim off the eastern coast of Ulfwyst, the city is home to a large number of temples including the High Temple of the Maiden, the Eldergrove, and the Shrine of St. Bastlen." }, "geometry": { "type": "Point", "coordinates": [ 45.964461251372128, -5.802800289111223 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Volikgrad", "population": 9520, "type": "City-State", "info": "The southern-most city on the Barrier Coast, Volikgrad is a major trade hub for merchants sailing along the coast between Navolin, Zurast and Lemuria." }, "geometry": { "type": "Point", "coordinates": [ 39.379585773793487, -12.344916835017262 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Rakenburg", "population": 26070, "type": "City-State", "info": "The largest city-state on the Barrier Coast, Rakenburg is the defacto capital of the citys-state alliance. The city is run by and for the major guilds that control it." }, "geometry": { "type": "Point", "coordinates": [ 43.626082175527422, -7.34212182932441 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Braxinfurt", "population": 11575, "type": "City-State", "info": "Braxinfurt has a long standing alliance with the dwarven hold of Ezhekal, located to the west. Through trade and shared burdens, the cities have created a unique blend of cultures." }, "geometry": { "type": "Point", "coordinates": [ 44.852729027884806, 0.955783348387289 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Korasov", "population": 6820, "type": "City-State", "info": "Once a part of Navolin, Korasov is now a member city-state of the Barrier Coast. The city is known far and wide for its exotic wares, dangerous residents and merchants of questions ethics." }, "geometry": { "type": "Point", "coordinates": [ 39.935451885537148, 5.600472301322217 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Duskreef", "population": 1230, "type": "Town", "info": "Following a major prison riot, this former fortress town for Navolinian criminals is now one of the most nutorious pirate havens in Ulfwyst." }, "geometry": { "type": "Point", "coordinates": [ 46.188945642653216, 5.450816040468164 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Tarona", "population": 7310, "type": "City", "info": "Nicknamed \"Old Ivy\", Tarona is the former capital of the Kingdom of Malstein before being conquered by Navolin. A center of arts and culture, the city is renowned for its architecture." }, "geometry": { "type": "Point", "coordinates": [ 33.585750532157761, -10.404730310373552 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Zelmar", "population": 6550, "type": "City", "info": "Known as \"the Iron Crown\", Zelmar is renown for its numerous metalworks and foundries. The city also was the first to institue an extensive, formal legal code which is now widely used in Navolin." }, "geometry": { "type": "Point", "coordinates": [ 35.140387566839422, 5.579445935254863 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Rythlon", "population": 430, "type": "Village", "info": "A Village on the Sulas river, Rythlon is a minor stop-over for travlers heading overland between Tarona and the Navolinian capital of Frecyra. " }, "geometry": { "type": "Point", "coordinates": [ 35.174512087117371, -8.538035699542121 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Blåttfelt", "population": 185, "type": "Village", "info": "Blåttfelt, or Bluefield in Common, is a small farming Village on the Svinge River. The Village, which is populated by a large number of half-elves, is known for its blueberry harvests." }, "geometry": { "type": "Point", "coordinates": [ 33.061402731638921, -27.215650592213962 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Zabrosk", "population": 960, "type": "Town", "info": "Zabrosk is a small town near the border between Lemuria and the Theocracy of Tovanis. The heavily fortified Village rests on the edge of the Greyleaf Pines, an expansive forest full of dangerous and exotic wildlife." }, "geometry": { "type": "Point", "coordinates": [ 28.971495412490729, -18.563502345399911 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Blackmoore", "population": 248, "type": "Village", "info": "Blackmoore is a small, fortified Village on the eastern shore of Lake Azajera. The Village is located near several historical battle sites, which now are marked with shrines and graveyards to ward off the threat of undead." }, "geometry": { "type": "Point", "coordinates": [ 32.963308884477421, 7.383330626004927 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Arnum", "population": 1350, "type": "Town", "info": "Arnum is a free town under the protection of the city-states of the Barrier Coast. The town primary subsists on ranching on the coastal plains and fishing." }, "geometry": { "type": "Point", "coordinates": [ 45.611584189002777, -4.48118565522961 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Herslev", "population": 730, "type": "Town", "info": "Herslev is a small ranching town on the Barrier Coast. Though the town is known for its horses, most of the ranching focuses on sheep, swine and cattle." }, "geometry": { "type": "Point", "coordinates": [ 41.627140230120652, -9.413364827297142 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Kenveld", "population": 380, "type": "Village", "info": "Kenveld is a Village on the Velte River. The majority of the Village business involves processing minerals and ore mined from camps located upriver in the Jordonis Mountains." }, "geometry": { "type": "Point", "coordinates": [ 39.98967394527034, -10.536542856716537 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Romlund", "population": 1420, "type": "Town", "info": "Romlund is a farming hub located on the Gudena River. The town is built around a sacred pool that is said to allow diviners to greatly enhance their powers during their rituals." }, "geometry": { "type": "Point", "coordinates": [ 41.828383460506679, -22.077928120735081 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Tånum", "population": 1370, "type": "Town", "info": "Tånum is a fishing town on the Vuradel Coast. The town buildings were constructed using a dull red stone taken from numerous nearby ruins of unknown origin." }, "geometry": { "type": "Point", "coordinates": [ 45.627924451299087, -21.362396634918127 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Ozeresk", "population": 3720, "type": "City", "info": "Ozeresk is the ancestral home of Clan Tordenfødt. The city is renowned for its expert shipwrights built from the nearby Starrek Forest." }, "geometry": { "type": "Point", "coordinates": [ 46.217893921576042, -19.527127174902073 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Postek", "population": 5130, "type": "City", "info": "Postek is the ancestral home of Clan Arnbjorg located on the Svinge river. Numerous canals allow the residents to travel and move goods over water." }, "geometry": { "type": "Point", "coordinates": [ 34.492465703272828, -27.600936776884623 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Dunndag", "population": 2940, "type": "City", "info": "Dunndag is the ancestral home of Clan Villdyr, located on the Langerak river. The city's major export is hardwood from the vast Razark Timberlands to the west and both sides of the river are lined with lumbermills. " }, "geometry": { "type": "Point", "coordinates": [ 37.423392750946064, -30.598084887548147 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Ketrizyn", "population": 3400, "type": "City", "info": "Ketrizyn is the set of Clan Sjomann. The city is surrounded by the forboding Everfrost Woodlands and is regulary raided by orc tribes or dangerous beasts which call the forest their home." }, "geometry": { "type": "Point", "coordinates": [ 47.191429548913469, -27.683498102171178 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Eldskog", "population": 2250, "type": "City", "info": "Eldskog is the seat of Clan Bjørsel. The city acts as the gateway into the ancient, sacred Eldskog Forest. The forest is one of the most sacred sites for followers of the Maiden. The city has a abnormally high number of lycanthropes, which is generally seen as a holy blessing by members of clan Bjørsel." }, "geometry": { "type": "Point", "coordinates": [ 36.645940271164186, -22.064167899853921 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Rastholm", "population": 760, "type": "Town", "info": "Rastholm is a large farming community with an abnormally high population of Tieflings. The town is governed by a council of elders, whose bizarre laws and decrees are commonly ignored." }, "geometry": { "type": "Point", "coordinates": [ 43.393608585731187, -19.269123033381476 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Elverun", "population": 1940, "type": "Town", "info": "Elverun is built in the shadow of an ancient, six-sided keep which is said to be haunted by the warriors who failed to defend it from Cibrinian raiders centuries ago. It is also home to the Skald's Odeum, the most famous bardic college in Lemuria." }, "geometry": { "type": "Point", "coordinates": [ 30.803006479529138, -20.596984348407151 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Vorska", "population": 2110, "type": "Town", "info": "Vorska is a quiet farming town on the Plavatten river. The town is known for its exotic pottery which glows in the dark due to minerals deposited by the river, likely coming from the Kazgrim Mountains." }, "geometry": { "type": "Point", "coordinates": [ 37.726117610330121, -20.96507025697645 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Relysburg", "population": 840, "type": "Town", "info": "Relysburg is a small town in the Szkania Lowlands. Acting as a hub for local farming communities, it is one of the few fortified settlements in the region." }, "geometry": { "type": "Point", "coordinates": [ 37.120667891561915, -11.432677241597794 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Govstok", "population": 11310, "type": "City", "info": "The Navolinian city of Govstok, previously the capital of the Kingdom of Azond, is a port city on the Tiderack Coast. The city is known for its fine textiles, exotic seafood and vast sugarcane fields." }, "geometry": { "type": "Point", "coordinates": [ 39.285322638919155, 8.826524628765558 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Yelant", "population": 1850, "type": "Town", "info": "Yelant is a farming town located upriver from the city of Govstok. It was the site of the treaty signing that ended the Navolinian Conquest of Azond." }, "geometry": { "type": "Point", "coordinates": [ 37.948287843306069, 8.060538999717924 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Kerhoven", "population": 1400, "type": "Town", "info": "Kerhoven is a sleepy, river-side town on the Sulas river. The last settlment on the road towards the Blighted Mire, the town boasts an unusually high number of inns and taverns which play host to overland travelers stopping off before heading into the bog." }, "geometry": { "type": "Point", "coordinates": [ 33.890360482635309, -16.832656145077788 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Zagora", "population": 1270, "type": "Town", "info": "Zagora is the home to the largest olive groves in Ulfwyst. The town is controlled by a cartel of plantation owners who claim to have ruled the area since before the Cordus Tempus Draconis." }, "geometry": { "type": "Point", "coordinates": [ 35.592973725478437, 8.549414201826124 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Tivat", "population": 840, "type": "Town", "info": "Tivat is a coast fishing town on Zaliv Bay. The town is dominated by its ancient lighthouse and a nearby library run by the Radiant Eye." }, "geometry": { "type": "Point", "coordinates": [ 39.157146571219656, 10.061809824066231 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Thareska", "population": 3700, "type": "Town", "info": "A hub town for local vinyards, Thareska was built around the mysterious \"Moon Gate\", a large arch of pearlescent white stone. " }, "geometry": { "type": "Point", "coordinates": [ 36.699389731220087, 9.378694421455075 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Celnor", "population": 840, "type": "Town", "info": "An idyllic town built into the hillside above the sea, Celnor is the home of House of Masks, a bardic college dedicated to the Harlequin." }, "geometry": { "type": "Point", "coordinates": [ 38.157999131813305, 11.199525156528942 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Mirista", "population": 1930, "type": "Town", "info": "A coastal town built around an ancient temple to an unknown god, decorated with bright lamps and golden inscriptions. In recent times the temple has been repurposed into a shrine to the Wanderer." }, "geometry": { "type": "Point", "coordinates": [ 35.510623069736617, 10.168774513443068 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Leskov", "population": 480, "type": "Village", "info": "Leskov is a small village known throughout the Wyrzek Peninsula for its Summertide Festival, a month-long event involving music, dancing and colorful costumes." }, "geometry": { "type": "Point", "coordinates": [ 36.582700979172628, 10.873769057063123 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Ostruda", "population": 1760, "type": "Town", "info": "A walled town located on the twin hills of Lida and Pinsk, Ostruda overlooks Lake Vozera to the south and the Damali Steppe to the north. The town has a rich riding and ranching culture, with many prominent families owning multiple stables of horses." }, "geometry": { "type": "Point", "coordinates": [ 30.266922274603989, -0.031767228038845 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Antopa", "population": 1300, "type": "Town", "info": "The town of Antopa rests on the edge of Lake Talovi. Most travelers to the town come to visit the Oculus of the Night, a stone dome with a central opening, supported by caryatid columns. The sky seen through the oculus is said to be dazzling, with magically enhanced constellations moving across the sky." }, "geometry": { "type": "Point", "coordinates": [ 25.351408594604855, -1.303188422222597 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Strysta", "population": 1480, "type": "Town", "info": "A small town at the northern crossroads of the Kelishan Highlands, Strysta was once a much larger settlement. When a cult of demon worshipers was discovered to be in control of the town council, a large-scale witch hunt began, overseen by the Royal Order of Monster Hunters." }, "geometry": { "type": "Point", "coordinates": [ 34.832369698460766, -5.935488776939886 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Gresk", "population": 650, "type": "Village", "info": "Gresk is a large, logging village on the border of the Gorcien Forests. Numerous logging companies keep their headquarters in town." }, "geometry": { "type": "Point", "coordinates": [ 39.358920871635057, -2.506541177711998 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Borac", "population": 725, "type": "Town", "info": "A coastal fishing village, Borac was the birthplace of prominent astrologer, architect and engineer Edvard Jindra Sedlák." }, "geometry": { "type": "Point", "coordinates": [ 14.772008255172342, 12.903716994365874 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Oplanic", "population": 1410, "type": "Town", "info": "Oplanic sits on the cliffs above the Adorra Sound. The town has numerous olive and date groves as well as a rich tradition of cultivating herbs for use in alchemy and herbal remidies." }, "geometry": { "type": "Point", "coordinates": [ 16.565391541375689, 13.95100637831862 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Zivica", "population": 935, "type": "Town", "info": "Zivica was founded millenia ago and served as an ancient sea port. For many years it was one of the pirate capitals of the Adorra Sound. " }, "geometry": { "type": "Point", "coordinates": [ 20.612248008214998, 14.157773282199697 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Majurn", "population": 2460, "type": "Town", "info": "Majurn is a large town near several monastries and convents. The town is well known for its exotic birds which winter in the cliffs near the town." }, "geometry": { "type": "Point", "coordinates": [ 23.318728138708906, 12.941201879018596 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Latibor", "population": 1600, "type": "Town", "info": "Latibor is a mining town and produces the majority of the finer metal wares in the Kaeldrin Sanctum. It is also the home of the nation's mint and precious metal stores." }, "geometry": { "type": "Point", "coordinates": [ 26.01343303706259, 14.020192989258446 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Draca", "population": 3180, "type": "Town", "info": "Draca is the largest town in the Zorebrak Peninsula. Most of the buildings in town have a unified style, white walls with blue, tiled roofs. The center of Draca is comprised of a large bazaar where all manner of goods can be found." }, "geometry": { "type": "Point", "coordinates": [ 26.892568070187476, 13.030712635593972 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Grosnika", "population": 1140, "type": "Town", "info": "Grosnika was once the home of a doomsday cult of the Eternal dedicated to the setting sun, known as the Lord of Last Light. After the cult was dispursed by Kaeldrin forces, it was deemed necessary to keep a regular military presence in the town to maintain order and prevent further issues." }, "geometry": { "type": "Point", "coordinates": [ 27.496314609711067, 13.505216506223981 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Berat", "population": 735, "type": "Town", "info": "Berat is a small fort-town on the Bay of Osum. Built on a hill overlooking the water, the town is composed of tall, narrow town houses in order to avoid having to expand beyond its ancient walls." }, "geometry": { "type": "Point", "coordinates": [ 30.457344230683894, 9.168431477205411 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Lyriak", "population": 430, "type": "Village", "info": "Lyriak is a village located near the ruins of an ancient temple complex dedicated to the Elemental Lord Azuris." }, "geometry": { "type": "Point", "coordinates": [ 29.506285323873236, 10.395790507354203 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Elbasik", "population": 1670, "type": "Town", "info": "Elbasik is a lake-side town known for its colorful pottery. The town has three large temples dedicated to the Maiden, the Maker and the Wanderer." }, "geometry": { "type": "Point", "coordinates": [ 29.525458060641846, 10.765020002667443 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Veluska", "population": 1525, "type": "Town", "info": "The region surrounding Veluska was once ruled by tribal clans who venerated the Smiling Lady, the goddess of Luck and Beauty. The town is known for its extravagant weddings and parades." }, "geometry": { "type": "Point", "coordinates": [ 28.372699042957699, 11.048994799704053 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Kazhina", "population": 860, "type": "Town", "info": "A small town on the coast of the Sea of Cassan, Kazhina is mostly a human town, however several dwarven clans have established rum distilleries here due to the high quality sugarcane grown in the region." }, "geometry": { "type": "Point", "coordinates": [ 29.143091228516681, 11.759821166554126 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Borgvik", "population": 1635, "type": "Town", "info": "Borgvik is a quiet town on the Skoga river. The town has several watermills which are used by nearby villages to mill excess grain." }, "geometry": { "type": "Point", "coordinates": [ 28.171539322649995, -18.999033994313194 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Nordmark", "population": 635, "type": "Village", "info": "A fishing village on the Bay of Claws, Nordmark produces unique, shimmering pottery using the unusual local clay." }, "geometry": { "type": "Point", "coordinates": [ 30.141345728488584, -18.606576904083653 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Runsas", "population": 480, "type": "Village", "info": "Runsas was once a prosperous mining town which produced much of Lemuria's silver. When no further silver veins could be found, not even by dwarven miners from Ankor Duraz, the town's prosperity, and many of the residents, left." }, "geometry": { "type": "Point", "coordinates": [ 29.557488887917323, -19.65301519083684 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Niz", "population": 550, "type": "Village", "info": "Niz is a sleepy village on the Skoga river. Located off the main trade roads and far from important political centers, the villagers rarely interact with outsiders." }, "geometry": { "type": "Point", "coordinates": [ 27.48669443564096, -18.991342108833987 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Murmont", "population": 2180, "type": "Town", "info": "A town on the Forsmun river, Murmont has been steadily growing for the last few decades under the guidance of a group of mystics who fled Istagen after the fall of Shulxaa and the establishment of the state of Tovanis." }, "geometry": { "type": "Point", "coordinates": [ 29.589826856453008, -22.993857450652495 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Solleron", "population": 3850, "type": "Town", "info": "Solleron is a large town built on the ruins of a much older city. The majority of the contemporary settlement is build around a great temple to the Wanderer, which has been restored by clerics to the deity. The ruins around the town suggest this was once a city of at least 50,000 people in a long forgotten age." }, "geometry": { "type": "Point", "coordinates": [ 33.652509835797986, -24.362671204379961 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Dalstuga", "population": 700, "type": "Village", "info": "Dalstuga is a fortified village, primarily populated by Uklang who chose to leave their people's nomadic traditions behind. The village's only exports are rare herbs and potions brewed from plants found in the dangerous Everfrost Woodlands." }, "geometry": { "type": "Point", "coordinates": [ 42.390947555647926, -28.244395455709697 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Kusoon", "population": 275, "type": "Village", "info": "Kusoon is a border village between Lemuria and Zurast. Too small to be of economic or military value, both states have largely ignored the village for now." }, "geometry": { "type": "Point", "coordinates": [ 35.440901698185492, -20.531998281860592 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Bjurmar", "population": 1135, "type": "Town", "info": "Bjurmar is a logging town on the Plavatten river. The town provides timber to Kaer Sevhrad, as well as the town of Vorska which sits futher downriver. " }, "geometry": { "type": "Point", "coordinates": [ 37.439424476479893, -20.098517802408423 ] } }
-]
+  "type":"FeatureCollection",
+  "name":"Ulfwyst Cities",
+  "crs":{
+    "type":"name",
+    "properties":{
+      "name":"urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features":[
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Venbrin",
+        "population":4590,
+        "type":"City-State",
+        "info":"Located on the isles of Sunheim off the eastern coast of Ulfwyst, the city is home to a large number of temples including the High Temple of the Maiden, the Eldergrove, and the Shrine of St. Bastlen."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          45.964461251372128,
+          -5.802800289111223
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Volikgrad",
+        "population":9520,
+        "type":"City-State",
+        "info":"The southern-most city on the Barrier Coast, Volikgrad is a major trade hub for merchants sailing along the coast between Navolin, Zurast and Lemuria."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          39.379585773793487,
+          -12.344916835017262
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Rakenburg",
+        "population":26070,
+        "type":"City-State",
+        "info":"The largest city-state on the Barrier Coast, Rakenburg is the defacto capital of the citys-state alliance. The city is run by and for the major guilds that control it."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          43.626082175527422,
+          -7.34212182932441
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Braxinfurt",
+        "population":11575,
+        "type":"City-State",
+        "info":"Braxinfurt has a long standing alliance with the dwarven hold of Ezhekal, located to the west. Through trade and shared burdens, the cities have created a unique blend of cultures."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          44.852729027884806,
+          0.955783348387289
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Korasov",
+        "population":6820,
+        "type":"City-State",
+        "info":"Once a part of Navolin, Korasov is now a member city-state of the Barrier Coast. The city is known far and wide for its exotic wares, dangerous residents and merchants of questions ethics."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          39.935451885537148,
+          5.600472301322217
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Duskreef",
+        "population":1230,
+        "type":"Town",
+        "info":"Following a major prison riot, this former fortress town for Navolinian criminals is now one of the most nutorious pirate havens in Ulfwyst."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          46.188945642653216,
+          5.450816040468164
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Tarona",
+        "population":7310,
+        "type":"City",
+        "info":"Nicknamed \"Old Ivy\", Tarona is the former capital of the Kingdom of Malstein before being conquered by Navolin. A center of arts and culture, the city is renowned for its architecture."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          33.585750532157761,
+          -10.404730310373552
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Zelmar",
+        "population":6550,
+        "type":"City",
+        "info":"Known as \"the Iron Crown\", Zelmar is renown for its numerous metalworks and foundries. The city also was the first to institue an extensive, formal legal code which is now widely used in Navolin."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          35.140387566839422,
+          5.579445935254863
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Rythlon",
+        "population":430,
+        "type":"Village",
+        "info":"A Village on the Sulas river, Rythlon is a minor stop-over for travlers heading overland between Tarona and the Navolinian capital of Frecyra. "
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          35.174512087117371,
+          -8.538035699542121
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Blåttfelt",
+        "population":185,
+        "type":"Village",
+        "info":"Blåttfelt, or Bluefield in Common, is a small farming Village on the Svinge River. The Village, which is populated by a large number of half-elves, is known for its blueberry harvests."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          33.061402731638921,
+          -27.215650592213962
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Zabrosk",
+        "population":960,
+        "type":"Town",
+        "info":"Zabrosk is a small town near the border between Lemuria and the Theocracy of Tovanis. The heavily fortified Village rests on the edge of the Greyleaf Pines, an expansive forest full of dangerous and exotic wildlife."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          28.971495412490729,
+          -18.563502345399911
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Blackmoore",
+        "population":248,
+        "type":"Village",
+        "info":"Blackmoore is a small, fortified Village on the eastern shore of Lake Azajera. The Village is located near several historical battle sites, which now are marked with shrines and graveyards to ward off the threat of undead."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          32.963308884477421,
+          7.383330626004927
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Arnum",
+        "population":1350,
+        "type":"Town",
+        "info":"Arnum is a free town under the protection of the city-states of the Barrier Coast. The town primary subsists on ranching on the coastal plains and fishing."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          45.611584189002777,
+          -4.48118565522961
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Herslev",
+        "population":730,
+        "type":"Town",
+        "info":"Herslev is a small ranching town on the Barrier Coast. Though the town is known for its horses, most of the ranching focuses on sheep, swine and cattle."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          41.627140230120652,
+          -9.413364827297142
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Kenveld",
+        "population":380,
+        "type":"Village",
+        "info":"Kenveld is a Village on the Velte River. The majority of the Village business involves processing minerals and ore mined from camps located upriver in the Jordonis Mountains."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          39.98967394527034,
+          -10.536542856716537
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Romlund",
+        "population":1420,
+        "type":"Town",
+        "info":"Romlund is a farming hub located on the Gudena River. The town is built around a sacred pool that is said to allow diviners to greatly enhance their powers during their rituals."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          41.828383460506679,
+          -22.077928120735081
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Tånum",
+        "population":1370,
+        "type":"Town",
+        "info":"Tånum is a fishing town on the Vuradel Coast. The town buildings were constructed using a dull red stone taken from numerous nearby ruins of unknown origin."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          45.627924451299087,
+          -21.362396634918127
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Ozeresk",
+        "population":3720,
+        "type":"City",
+        "info":"Ozeresk is the ancestral home of Clan Tordenfødt. The city is renowned for its expert shipwrights built from the nearby Starrek Forest."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          46.217893921576042,
+          -19.527127174902073
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Postek",
+        "population":5130,
+        "type":"City",
+        "info":"Postek is the ancestral home of Clan Arnbjorg located on the Svinge river. Numerous canals allow the residents to travel and move goods over water."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          34.492465703272828,
+          -27.600936776884623
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Dunndag",
+        "population":2940,
+        "type":"City",
+        "info":"Dunndag is the ancestral home of Clan Villdyr, located on the Langerak river. The city's major export is hardwood from the vast Razark Timberlands to the west and both sides of the river are lined with lumbermills. "
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          37.423392750946064,
+          -30.598084887548147
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Ketrizyn",
+        "population":3400,
+        "type":"City",
+        "info":"Ketrizyn is the set of Clan Sjomann. The city is surrounded by the forboding Everfrost Woodlands and is regulary raided by orc tribes or dangerous beasts which call the forest their home."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          47.191429548913469,
+          -27.683498102171178
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Eldskog",
+        "population":2250,
+        "type":"City",
+        "info":"Eldskog is the seat of Clan Bjørsel. The city acts as the gateway into the ancient, sacred Eldskog Forest. The forest is one of the most sacred sites for followers of the Maiden. The city has a abnormally high number of lycanthropes, which is generally seen as a holy blessing by members of clan Bjørsel."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          36.645940271164186,
+          -22.064167899853921
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Rastholm",
+        "population":760,
+        "type":"Town",
+        "info":"Rastholm is a large farming community with an abnormally high population of Tieflings. The town is governed by a council of elders, whose bizarre laws and decrees are commonly ignored."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          43.393608585731187,
+          -19.269123033381476
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Elverun",
+        "population":1940,
+        "type":"Town",
+        "info":"Elverun is built in the shadow of an ancient, six-sided keep which is said to be haunted by the warriors who failed to defend it from Cibrinian raiders centuries ago. It is also home to the Skald's Odeum, the most famous bardic college in Lemuria."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          30.803006479529138,
+          -20.596984348407151
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Vorska",
+        "population":2110,
+        "type":"Town",
+        "info":"Vorska is a quiet farming town on the Plavatten river. The town is known for its exotic pottery which glows in the dark due to minerals deposited by the river, likely coming from the Kazgrim Mountains."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          37.726117610330121,
+          -20.96507025697645
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Relysburg",
+        "population":840,
+        "type":"Town",
+        "info":"Relysburg is a small town in the Szkania Lowlands. Acting as a hub for local farming communities, it is one of the few fortified settlements in the region."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          37.120667891561915,
+          -11.432677241597794
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Govstok",
+        "population":11310,
+        "type":"City",
+        "info":"The Navolinian city of Govstok, previously the capital of the Kingdom of Azond, is a port city on the Tiderack Coast. The city is known for its fine textiles, exotic seafood and vast sugarcane fields."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          39.285322638919155,
+          8.826524628765558
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Yelant",
+        "population":1850,
+        "type":"Town",
+        "info":"Yelant is a farming town located upriver from the city of Govstok. It was the site of the treaty signing that ended the Navolinian Conquest of Azond."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          37.948287843306069,
+          8.060538999717924
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Kerhoven",
+        "population":1400,
+        "type":"Town",
+        "info":"Kerhoven is a sleepy, river-side town on the Sulas river. The last settlment on the road towards the Blighted Mire, the town boasts an unusually high number of inns and taverns which play host to overland travelers stopping off before heading into the bog."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          33.890360482635309,
+          -16.832656145077788
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Zagora",
+        "population":1270,
+        "type":"Town",
+        "info":"Zagora is the home to the largest olive groves in Ulfwyst. The town is controlled by a cartel of plantation owners who claim to have ruled the area since before the Cordus Tempus Draconis."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          35.592973725478437,
+          8.549414201826124
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Tivat",
+        "population":840,
+        "type":"Town",
+        "info":"Tivat is a coast fishing town on Zaliv Bay. The town is dominated by its ancient lighthouse and a nearby library run by the Radiant Eye."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          39.157146571219656,
+          10.061809824066231
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Thareska",
+        "population":3700,
+        "type":"Town",
+        "info":"A hub town for local vinyards, Thareska was built around the mysterious \"Moon Gate\", a large arch of pearlescent white stone. "
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          36.699389731220087,
+          9.378694421455075
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Celnor",
+        "population":840,
+        "type":"Town",
+        "info":"An idyllic town built into the hillside above the sea, Celnor is the home of House of Masks, a bardic college dedicated to the Harlequin."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          38.157999131813305,
+          11.199525156528942
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Mirista",
+        "population":1930,
+        "type":"Town",
+        "info":"A coastal town built around an ancient temple to an unknown god, decorated with bright lamps and golden inscriptions. In recent times the temple has been repurposed into a shrine to the Wanderer."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          35.510623069736617,
+          10.168774513443068
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Leskov",
+        "population":480,
+        "type":"Village",
+        "info":"Leskov is a small village known throughout the Wyrzek Peninsula for its Summertide Festival, a month-long event involving music, dancing and colorful costumes."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          36.582700979172628,
+          10.873769057063123
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Ostruda",
+        "population":1760,
+        "type":"Town",
+        "info":"A walled town located on the twin hills of Lida and Pinsk, Ostruda overlooks Lake Vozera to the south and the Damali Steppe to the north. The town has a rich riding and ranching culture, with many prominent families owning multiple stables of horses."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          30.266922274603989,
+          -0.031767228038845
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Antopa",
+        "population":1300,
+        "type":"Town",
+        "info":"The town of Antopa rests on the edge of Lake Talovi. Most travelers to the town come to visit the Oculus of the Night, a stone dome with a central opening, supported by caryatid columns. The sky seen through the oculus is said to be dazzling, with magically enhanced constellations moving across the sky."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          25.351408594604855,
+          -1.303188422222597
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Strysta",
+        "population":1480,
+        "type":"Town",
+        "info":"A small town at the northern crossroads of the Kelishan Highlands, Strysta was once a much larger settlement. When a cult of demon worshipers was discovered to be in control of the town council, a large-scale witch hunt began, overseen by the Royal Order of Monster Hunters."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          34.832369698460766,
+          -5.935488776939886
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Gresk",
+        "population":650,
+        "type":"Village",
+        "info":"Gresk is a large, logging village on the border of the Gorcien Forests. Numerous logging companies keep their headquarters in town."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          39.358920871635057,
+          -2.506541177711998
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Borac",
+        "population":725,
+        "type":"Town",
+        "info":"A coastal fishing village, Borac was the birthplace of prominent astrologer, architect and engineer Edvard Jindra Sedlák."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          14.772008255172342,
+          12.903716994365874
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Oplanic",
+        "population":1410,
+        "type":"Town",
+        "info":"Oplanic sits on the cliffs above the Adorra Sound. The town has numerous olive and date groves as well as a rich tradition of cultivating herbs for use in alchemy and herbal remidies."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          16.565391541375689,
+          13.95100637831862
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Zivica",
+        "population":935,
+        "type":"Town",
+        "info":"Zivica was founded millenia ago and served as an ancient sea port. For many years it was one of the pirate capitals of the Adorra Sound. "
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          20.612248008214998,
+          14.157773282199697
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Majurn",
+        "population":2460,
+        "type":"Town",
+        "info":"Majurn is a large town near several monastries and convents. The town is well known for its exotic birds which winter in the cliffs near the town."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          23.318728138708906,
+          12.941201879018596
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Latibor",
+        "population":1600,
+        "type":"Town",
+        "info":"Latibor is a mining town and produces the majority of the finer metal wares in the Kaeldrin Sanctum. It is also the home of the nation's mint and precious metal stores."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          26.01343303706259,
+          14.020192989258446
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Draca",
+        "population":3180,
+        "type":"Town",
+        "info":"Draca is the largest town in the Zorebrak Peninsula. Most of the buildings in town have a unified style, white walls with blue, tiled roofs. The center of Draca is comprised of a large bazaar where all manner of goods can be found."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          26.892568070187476,
+          13.030712635593972
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Grosnika",
+        "population":1140,
+        "type":"Town",
+        "info":"Grosnika was once the home of a doomsday cult of the Eternal dedicated to the setting sun, known as the Lord of Last Light. After the cult was dispursed by Kaeldrin forces, it was deemed necessary to keep a regular military presence in the town to maintain order and prevent further issues."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          27.496314609711067,
+          13.505216506223981
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Berat",
+        "population":735,
+        "type":"Town",
+        "info":"Berat is a small fort-town on the Bay of Osum. Built on a hill overlooking the water, the town is composed of tall, narrow town houses in order to avoid having to expand beyond its ancient walls."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          30.457344230683894,
+          9.168431477205411
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Lyriak",
+        "population":430,
+        "type":"Village",
+        "info":"Lyriak is a village located near the ruins of an ancient temple complex dedicated to the Elemental Lord Azuris."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          29.506285323873236,
+          10.395790507354203
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Elbasik",
+        "population":1670,
+        "type":"Town",
+        "info":"Elbasik is a lake-side town known for its colorful pottery. The town has three large temples dedicated to the Maiden, the Maker and the Wanderer."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          29.525458060641846,
+          10.765020002667443
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Veluska",
+        "population":1525,
+        "type":"Town",
+        "info":"The region surrounding Veluska was once ruled by tribal clans who venerated the Smiling Lady, the goddess of Luck and Beauty. The town is known for its extravagant weddings and parades."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          28.372699042957699,
+          11.048994799704053
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Kazhina",
+        "population":860,
+        "type":"Town",
+        "info":"A small town on the coast of the Sea of Cassan, Kazhina is mostly a human town, however several dwarven clans have established rum distilleries here due to the high quality sugarcane grown in the region."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          29.143091228516681,
+          11.759821166554126
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Borgvik",
+        "population":1635,
+        "type":"Town",
+        "info":"Borgvik is a quiet town on the Skoga river. The town has several watermills which are used by nearby villages to mill excess grain."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          28.171539322649995,
+          -18.999033994313194
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Nordmark",
+        "population":635,
+        "type":"Village",
+        "info":"A fishing village on the Bay of Claws, Nordmark produces unique, shimmering pottery using the unusual local clay."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          30.141345728488584,
+          -18.606576904083653
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Runsas",
+        "population":480,
+        "type":"Village",
+        "info":"Runsas was once a prosperous mining town which produced much of Lemuria's silver. When no further silver veins could be found, not even by dwarven miners from Ankor Duraz, the town's prosperity, and many of the residents, left."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          29.557488887917323,
+          -19.65301519083684
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Niz",
+        "population":550,
+        "type":"Village",
+        "info":"Niz is a sleepy village on the Skoga river. Located off the main trade roads and far from important political centers, the villagers rarely interact with outsiders."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          27.48669443564096,
+          -18.991342108833987
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Murmont",
+        "population":2180,
+        "type":"Town",
+        "info":"A town on the Forsmun river, Murmont has been steadily growing for the last few decades under the guidance of a group of mystics who fled Istagen after the fall of Shulxaa and the establishment of the state of Tovanis."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          29.589826856453008,
+          -22.993857450652495
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Solleron",
+        "population":3850,
+        "type":"Town",
+        "info":"Solleron is a large town built on the ruins of a much older city. The majority of the contemporary settlement is build around a great temple to the Wanderer, which has been restored by clerics to the deity. The ruins around the town suggest this was once a city of at least 50,000 people in a long forgotten age."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          33.652509835797986,
+          -24.362671204379961
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Dalstuga",
+        "population":700,
+        "type":"Village",
+        "info":"Dalstuga is a fortified village, primarily populated by Uklang who chose to leave their people's nomadic traditions behind. The village's only exports are rare herbs and potions brewed from plants found in the dangerous Everfrost Woodlands."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          42.390947555647926,
+          -28.244395455709697
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Kusoon",
+        "population":275,
+        "type":"Village",
+        "info":"Kusoon is a border village between Lemuria and Zurast. Too small to be of economic or military value, both states have largely ignored the village for now."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          35.440901698185492,
+          -20.531998281860592
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Bjurmar",
+        "population":1135,
+        "type":"Town",
+        "info":"Bjurmar is a logging town on the Plavatten river. The town provides timber to Kaer Sevhrad, as well as the town of Vorska which sits futher downriver. "
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          37.439424476479893,
+          -20.098517802408423
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Luzzara",
+        "population":7250,
+        "type":"City",
+        "info":"Luzzara was the historic capital of Istagen, before the fall of Shulxaa. It is now a shadow of its former self, having less than a third of the city's population at the height of Shulxaa's reign. Much of the city still lies in ruin, haunted by its dark past."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          27.5121389635,
+          -11.70233216
+        ]
+      }
+    }
+  ]
 }
