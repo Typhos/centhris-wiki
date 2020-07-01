@@ -37,6 +37,7 @@ export default class WikiUtils {
     // H4            =   @# string #@
     // super         =   @^ string ^@
     // colorize      =   @; string ;@
+    // HR            =   @---@
     // external link =   @? string | url ?@
     // inline img    =   @& imgurl | caption &@
 
@@ -74,6 +75,11 @@ export default class WikiUtils {
             
             substr = substr.replace(/#/g, "");
             substr = <h4 className="subheading" key={substr}>{substr}</h4>;
+          
+          } else if ( /^---$/.test(substr) ) {
+            
+            substr = substr.replace(/-/g, "");
+            substr = <hr className="hRule"/>;
           
           } else if ( /^;(.*?);$/.test(substr) ) {
             

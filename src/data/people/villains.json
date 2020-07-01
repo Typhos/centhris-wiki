@@ -285,12 +285,43 @@
     "affiliations": ["Realm of Lemuria"],
     "description": [
       "Clan Chieftain @+Drelnor Arnbjorg+@ was the head of Clan Arnbjorg during the Great Clan War. He is fondly remembered by history for his decision to establish Kilurus as the center of a new, centralized Lemurian state. During his lifetime, however, he was reviled as a cruel tyrant, earning himself the moniker \"the King of Thorns\".",
-      "He was buried in a barrow in the hills upriver from Postek, near the modern town of Blåttfelt. Today, the barrow is marked by a ring of runestones, marked in worn Elvish. The inscriptions read:",
+      "He was buried in a barrow mound in the hills upriver from Postek, known as the Barrowdowns, near the modern village of Blåttfelt. Today, the barrow is marked by a ring of runestones, marked in worn Elvish. The inscriptions read:",
       "@*Here rests Drelnor, greatest of the chieftains of Lemuria, lord of Arnbjorg. By his might did Arnbjorg lord over those who would challenge it, and by his hand was Lemuria was spared from its age of suffering. Do not feel sorrow for his passing; feel pity for the living who now carry on without his daring, his wit and his warm smile.*@",
       "Under the inscription on the final runestone, crudely carved graffiti reads:",
       "@*Here lies the King of Thorns, may he rot in the hells and answer for his sins.*@"
     ],
     "articles": {
+    },
+    "dmArticles": {
+      "Artifacts of Power": [
+        "Drelnor was buried with 3 artifacts of great power, the Moonshadow Crown, the Talisman of Solitude, and the Lament of Autumn. After her deal was struck with the Lord of Frost, Ulfrica was told to retrieve the relics of her forefather from his tomb by the Thornweaver.",
+        "The crown was taken by Ulfrica Arnbjorg, while the amulet was taken by Balder Arnbjorg. The Lament of Autumn was left behind when the two had to flee the tomb before the wrath of the Barrow Lord consumed them. The risen spirit of the warlock, enraged at his own kin desecrating his tomb, declared a curse upon the bloodline for its treachery."
+      ]
+    }
+  },
+  "Balder-Arnbjorg": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": true,
+    "name": "Balder Arnbjorg",
+    "nickname": "Balder Arnbjorg",
+    "tags": ["half-elf","noble","Realm of Lemuria"],
+    "age": "42",
+    "gender": "Male",
+    "race": "Half-Elf",
+    "titles": ["Lord of Valldalen"],
+    "occupation": ["Chief"],
+    "affiliations": ["Realm of Lemuria","Clan Arnbjorg"],
+    "description": [
+      "@+Balder Arnbjorg+@ is a nobleman, Arnbjorg clan chief and commander of Arnbjorg forces when the levy is summoned to war by the High Queen of Lemuria. He is 3rd in line to the title of Clan Chieftain and trusted advisor of Ulfrica Arnbjorg."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+      "Artifacts of Power": [
+        "Drelnor was buried with 3 artifacts of great power, the Moonshadow Crown, the Talisman of Solitude, and the Lament of Autumn. After her deal was struck with the Lord of Frost, Ulfrica was told to retrieve the relics of her forefather from his tomb by the Thornweaver.",
+        "The crown was taken by Ulfrica Arnbjorg, while the amulet was taken by Balder Arnbjorg. The Lament of Autumn was left behind when the two had to flee the tomb before the wrath of the Barrow Lord consumed them. The risen spirit of the warlock, enraged at his own kin desecrating his tomb, declared a curse upon the bloodline for its treachery."
+      ]
     }
   }
 }

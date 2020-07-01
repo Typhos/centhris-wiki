@@ -39,7 +39,7 @@
     "path": "location",
     "tags": ["village","","ulfwyst"],
     "name": "Blåttfelt",
-    "nickname": "Blåttfelt",
+    "nickname": "Blattfelt",
     "type": "Village",
     "population": "185",
     "races": ["half-elf","human","elf","gnome"],
@@ -48,17 +48,31 @@
     "nation": "Realm of Lemuria",
     "location": "Razark Timberland",
     "description": [
-      "Blåttfelt, or Bluefield in Common, is a small farming village on the Svinge river in southwestern Lemuria. The village sits on the northern border of the vast Razark Timberland which stretches south all the way to the Venngar Sea.",
+      "Blåttfelt, or Bluefield in Common, is a small farming village on the Svinge river in southwestern Lemuria. The village sits on the northern border of the vast Razark Timberland which stretches south all the way to the Venngar Sea. Located roughly 50 miles upriver from the city of Postek, the seat of Clan Arnbjorg, many of the peasants take their harvest to market in the city by boat, hoping to get the best prices for their produce.",
       "The Svinge, which flows from the hills in the west into the Isdrage Bay in the east, allows the village easy access to other parts of Lemuria for trade, military service or clan councils."
     ],
     "articles": {
+        "Farming Village": [
+            "Blåttfelt is a village of peasant farmers, with almost no centralized infrastructure to speak of. Many families own their homesteads, a common occurrence in the kingdom, giving the village a large number of Karls, a low level, land-owning noble in the Lemurian system.",
+            "The village rarely has visitors or travelers who pass through, as it is not located on any major trade routes or roads. The few travelers that might pass through are generally adventurers heading towards the Barrowdowns, located to the northwest, hoping to delve into an ancient dungeon, or dispatch a dangerous monster in return for a reward from nobility in Postek."
+        ],
         "Erlinder's Return Home": [
-            "On the 8th of Ebosk, 2C 2573, Erlinder returned home after 3 months away from the village. He found his family in good health and his children in high spirits. Erlinder's wife, Hilga, informed him that recently there have been disappearances in the village. The Thrainsson, Egilsson & Æskilssons families have gone missing. The home of each family has become wrapped in briars, either as part of, or after the disappearance."
+            "On the 8th of Ebosk, 2C 2573, Erlinder returned home after 3 months away from the village. He found his family in good health and his children in high spirits. Erlinder's wife, Hilga, informed him that recently there have been disappearances in the village. The Thrainsson, Egilsson & Æskilssons families have gone missing. The home of each family has become wrapped in briars, either as part of, or after the disappearance.",
+            "Upon further investigation, it seemed that all 3 families have gone missing. Each estate seems to have been engulfed in briars and all signed pointed to the thorny vines having come from the Barrowdowns in the northwest. It was noted that all three families seem to be bloodline relations to Clan Arnbjorg, instead of vassal members. Erlinder engaged in a brief conversation with Guthrum Hallvardsson, who was not a blood relative of the Arnbjorgs. It was determined that the vines had chosen not to attack the Hallvardsson estate, even though they were in the path of a briar vine."
+        ],
+        "Families of Blåttfelt": [
+            "Blåttfelt is spread across a large area, with each homestead settled away from other farms, instead of a centralized, defensible village. The following are some of the nearly 40 families that reside in the village:",
+            "Folkmar Æskilssons, family of 3 (@*missing*@).",
+            "Erlinder Bluefield, family of 6.",
+            "Asvard Egilsson, family of 5 (@*missing*@).",
+            "Guthrum Hallvardsson, family of 5.",
+            "Iric Thrainsson, family of 4 (@*missing*@).",
+            "Kveldulf Wengosson, family of 6."
         ]
     },
     "dmArticles": {
         "Cause of the Disappearances": [
-            "The disappearances in Blåttfelt, which were shared with Erlinder upon his return to the village, are due to the awakening of the Barrow Lord, the undead remains of the King of Thorns. The king has awaken in his barrow thanks to the magic of the Thornweaver, who has been instructed by the Lord of Frost to begin sowing havoc in Lemuria as part of his deal with Ulfrica Arnbjorg."
+            "The disappearances in Blåttfelt, which were shared with Erlinder upon his return to the village, are due to the awakening of the King of Thorns in the Barrowdowns. The king has awoken after his tomb was sacked and the Moonshadow Crown was taken by his Great Great Granddaughter, Ulfrica Arnbjorg and her lieutenant, clan chief Balder Arnbjorg."
         ]
     }
   }

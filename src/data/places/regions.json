@@ -199,6 +199,20 @@
       "The @+Lepkar Peninsula+@ is a coast region along the Bay of Claws and the Korin Gulf. For most of history the region was controlled by the Realm of Lemuria. Following the War of Red Claws, the Archduchy of Zurast took control of the peninsula as part of its bid to establish itself as a regional power."
     ]    
   },
+  "Barrowdowns": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["hills","ulfwyst","burial ground","Lemuria"],
+    "name": "Barrowdowns",
+    "nickname": "the Barrowdowns",
+    "linkingWords": [],
+    "type": "Region",
+    "location": "Lemuria",
+    "description": [
+      "The @+Barrowdowns+@ is a region of humanoid-made hills in the Rikedal Lowlands of the Kingdom of Lemuria. Until around 2C 2250 this region was where the lords of Clan Arnbjorg were buried, most famously Drelnor Arnbjorg. The great barrow mounds of the region are capped with great cairns and runestones to commemorate those who were buried here. The more cairns, runestones and other commemorative decorations were placed on a mound, the more important the tomb. Is is customary for a clan noble to receive a single runestone and cairn. Clan chiefs generally are marked with 2 cairns and a runestone, while chieftains are marked with 2 cairns and 2 runestones. Very few lords of Arnbjorg were ever granted any more prominent barrow caps, though Drelnor Arnbjorg's barrow mound was marked with 3 cairns and 2 runestones, proving that the practice is not unheard of.",
+      "In the current era, Lemurians do not bury their dead, as the practice of cremating a body on a pyre is preferred to avoid the possibility of undeath. Only those who explicitly request a traditional burial (and can afford the cost of barrow or mausoleum construction) are entombed, and generally such locations are consecrated to avoid issues later."
+    ]    
+  },
   "Olgarrod-Wilds": {
     "playerKnown": true,
     "path": "location",

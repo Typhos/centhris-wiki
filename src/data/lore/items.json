@@ -24,5 +24,154 @@
         "One possible solution is to have Telarion create a teleportation circle, leaving the sigil behind as everyone teleports to another location. The detonation could not follow through the teleport. The downside is that the contract would not be fulfilled and thus the players would be hunted by "
       ]
     }
+  },
+  "Lament-of-Autumn": {
+    "playerKnown": false,
+    "path": "lore",
+    "hideOnCat": false,
+    "name": "Lament of Autumn",
+    "nickname": "Lament of Autumn",
+    "linkingWords": [""],
+    "type": "Magic Item",
+    "tags": ["magic item","magical sword","magical scimitar"],
+    "description": [
+      "@*Weapon (scimitar), very rare (requires attunement)*@",
+      "@---@",
+      "This enchanted scimitar is made of a single, masterfully carved piece of ironwood with exquisite, beautiful details covering the blade. The sword has no cross-guard, and the hilt is covered in soft, yet tough strands of ivy which form the grip before dangling from the pommel.",
+      "Numerous items of Fey origin which have found their way into the mortal world since the Second Convergence. Many of these items traveled with the Eladrin when they first crossed between worlds, some were gifted to champions of the Archfey, while others simply vanished with their masters over the ages, lost to time. This blade was most recently the property of Drelnor Arnbjorg and following his death, was laid to rest along side him in his tomb in the Barrowdowns.",
+
+      "The @*Lament of Autumn*@ was carved as a weapon for use by champions of the Archfey. The sword chooses its bearer and remains bonded to that person for life. If the bearer dies, another heir can claim the blade. If no worthy heir exists, the sword lies dormant. It functions like a normal scimitar until a worthy soul finds it and lays claim to its power.",
+
+      "The @*Lament of Autumn*@ refuses to serve anyone it regards as craven, erratic, treacherous, or weak willed though it cares not for its bearer's alignment, having served members on both sides of the delicate dance of the fey courts. If the blade rejects you, you make ability checks, attack rolls, and saving throws with disadvantage for 24 hours. If the blade accepts you, you become attuned to it and remain attuned to the weapon until you die, or the weapon is destroyed.",
+      "@---@",
+
+      "You gain a +2 bonus to attack and damage rolls made with this magic weapon, but attack rolls made against fey, eladrin, elves or half-elves with this weapon have disadvantage. A devil hit by this weapon takes an extra 1d6 cold damage.",
+
+      "@+Harvest Boon.+@ When you critically strike with the @*Lament of Autumn*@, you gain a number of temporary hit points equal to the damage + your Constitution modifier.",
+
+      "@+Biting Winds.+@ When you critically fail on an attack roll with the @*Lament of Autumn*@, you feel the biting winds of winter, dealing 3d4 cold damage to the wielder.",
+
+      "@+Finesse.+@ When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.",
+      "@+Light.+@ A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+    ],
+    "articles": {
+      
+    },
+    "dmArticles": {
+    }
+  },
+  "Talisman-of-Solitude": {
+    "playerKnown": false,
+    "path": "lore",
+    "hideOnCat": false,
+    "name": "Talisman of Solitude",
+    "nickname": "Talisman of Solitude",
+    "linkingWords": [""],
+    "type": "Magic Item",
+    "tags": ["magic item","magical necklace"],
+    "imgFolder": "items",
+    "description": [
+
+    ],
+    "articles": {
+      
+    },
+    "dmArticles": {
+      
+    }
+  },
+  "Resonant-Aegis": {
+    "playerKnown": true,
+    "path": "lore",
+    "hideOnCat": false,
+    "name": "Resonant Aegis",
+    "nickname": "Resonant Aegis",
+    "linkingWords": [""],
+    "type": "Magic Item",
+    "tags": ["magic item","magical necklace"],
+    "imgFolder": "items",
+    "description": [
+      "@*Shield, uncommon*@",
+      "@---@",
+      "The center of this round, metal shield contains a Blazing Sun, the symbol of the Knights of the Sacred Dawn. Around the edge of the shield, an inscription reads \"Mens justi custodia ordinis Custodial vile iudicium ferat.\"",
+      "While you have this shield equipped, any creature that makes a melee attack against you and misses takes 1d4 force damage."
+    ],
+    "articles": {
+      
+    },
+    "dmArticles": {
+      
+    }
+  },
+  "Heartwood-Scepter": {
+    "playerKnown": true,
+    "path": "lore",
+    "hideOnCat": false,
+    "name": "Heartwood Scepter",
+    "nickname": "Heartwood Scepter",
+    "linkingWords": [""],
+    "type": "Magic Item",
+    "tags": ["magic item","magical healing scepter"],
+    "imgFolder": "items",
+    "description": [
+      "@*Rod, uncommon (requires attunement by a bard, cleric or druid)*@",
+      "@---@",
+      "This scepter has 5 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spellcasting ability modifier:",
+      "@?Cure Wounds|https://dnd5e.info/spellcasting/spell/cure-wounds/?@ (1 charge per spell level, up to 3rd)",
+      "@?Lesser Restoration|https://dnd5e.info/spellcasting/spell/lesser-restoration/?@ (2 charges)",
+      "The scepter regains 1d4+1 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the scepter vanishes in a flash of light, lost forever."
+    ],
+    "articles": {
+      
+    },
+    "dmArticles": {
+      
+    }
+  },
+  "Hellion-Cuirass": {
+    "playerKnown": true,
+    "path": "lore",
+    "hideOnCat": false,
+    "name": "Hellion Cuirass",
+    "nickname": "Hellion Cuirass",
+    "linkingWords": [""],
+    "type": "Magic Item",
+    "tags": ["magic item","magical armor"],
+    "imgFolder": "items",
+    "description": [
+      "@*Half Plate, uncommon (requires attunement)*@",
+      "@---@",
+      "@*This suit of half plate has a collar lined with white fur. The chest piece is embossed with an emblem of a winged fiend.*@",
+      "Once per day, as an action, the wearer can choose to imbue themselves with fiendish guile, granting @*advantage*@ on either @*Intelligence*@ or @*Wisdom*@ checks for the next hour. The armor regains this ability every day at dawn."
+    ],
+    "articles": {
+      
+    },
+    "dmArticles": {
+      
+    }
+  },
+  "Moonshadow-Crown": {
+    "playerKnown": false,
+    "path": "lore",
+    "hideOnCat": false,
+    "name": "Moonshadow Crown",
+    "nickname": "Moonshadow Crown",
+    "linkingWords": [""],
+    "type": "Magic Item",
+    "tags": ["magic item","magical armor"],
+    "imgFolder": "items",
+    "description": [
+      "@*Crown, very rare (requires attunement)*@",
+      "@---@",
+      ""
+    ],
+    "articles": {
+      
+    },
+    "dmArticles": {
+      
+    }
   }
+
 }
