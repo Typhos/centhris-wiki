@@ -1,7 +1,7 @@
 {
   "Gradiorus-Golem": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "creature",
     "hideOnCat": false,
     "showStatBlock": true,
     "name": "Gradiorus Golem",
@@ -82,7 +82,7 @@
   },
   "Icebrine-Serpent": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "creature",
     "hideOnCat": false,
     "showStatBlock": true,
     "name": "Icebrine Serpent",
@@ -162,7 +162,7 @@
   },
   "Lurking-Abomination": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "creature",
     "hideOnCat": false,
     "showStatBlock": true,
     "name": "Lurking Abomination",
@@ -270,7 +270,7 @@
   },
   "Magma-Behemoth": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "creature",
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Magma Behemoth",
@@ -343,7 +343,7 @@
   },
   "Cursebound-Knight": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "creature",
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Cursebound Knight",
@@ -371,28 +371,28 @@
     "skills": "Athletics +8, Arcana +6, Insight +6",
     "passiveWisdom": 14,
     "armor": "18 (plate armor)",
-    "hitPoint": 130,
-    "hitDie": "14d10+46",
+    "hitPoint": 120,
+    "hitDie": "16d10+32",
     "speed": "30 ft.",
-    "damageResistances": "Necrotic, slashing, piercing, and bludgeoning from non-magical sources",
+    "damageResistances": "Slashing, Piercing, and Bludgeoning From Non-Magical Attacks",
+    "damageImmunities": "Necrotic, Poison",
     "damageVulnerabilities": "Radiant",
-    "damageImmunities": "",
-    "conditionImmunities": "",
+    "conditionImmunities": "Exhausted, Frightened, Poisoned",
     "senses": "Darkvision 60 ft.",
     "languages": "Common",
-    "challenge": "8",
+    "challenge": "6",
     "abilities": [
       {
-        "name": "Lifebane Blade",
-        "text": "The Cursebound Knight's blade is made of felliron and forged in shadowflame. Attacks made with the knight's blade deal an additional 4d6 necrotic damage (included in the attack)."
+        "name": "Lifebane Longsword.",
+        "text": "The Cursebound Knight's longsword is made of felliron and forged in shadowflame. Attacks made with the knight's longsword deal an additional 3d6 necrotic damage (included in the attack)."
       },
       {
         "name": "Summon Vengeful Spirits.",
-        "text": "The knight can summon dark spirits to his side to aid him in capturing or dispatching his quarry. At the start of combat, the knight can summon up to 6 undead of CR 1 or lower to fight along side him."
+        "text": "The knight can summon dark spirits to his side to aid him in capturing or dispatching his quarry. At the start of combat, the knight can summon up to 6 undead of CR 1/2 or lower to fight along side him."
       },
       {
-        "name": "Shadow Chains (Recharge 4-6).",
-        "text": "As a bonus action, the knight clenches its fist in the direction of an opponent. One target within 30 feet must succeed on a DC 16 Strength saving throw or take 27 (6d8) necrotic damage and become restrained."
+        "name": "Shadow Chains.",
+        "text": "As a bonus action, the knight clenches its fist in the direction of an opponent. One target within 30 feet must succeed on a DC 15 Strength saving throw become restrained."
       }
     ],
     "actions": [
@@ -401,18 +401,18 @@
         "text": "The Cursebound Knight can make two attacks with its Lifebane Blade."
       },
       {
-        "name": "Lifebane Blade.",
-        "text": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 10 (1d10+4) slashing damage plus 14 (4d6) necrotic damage."
+        "name": "Lifebane Longsword.",
+        "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10+4) slashing damage plus 10 (3d6) necrotic damage."
       },
       {
-        "name": "Spirit Burst.",
-        "text": "The Cursebound Knight releases tendrils of writhing shadow. Each creature within 20 feet must make a DC 16 Dexterity saving throw or take 18 (4d8) damage on a failed save, or half as much on a successful one."
+        "name": "Spirit Burst (Recharge 5-6).",
+        "text": "The Cursebound Knight releases tendrils of writhing shadow. Each creature within 15 feet must make a DC 15 Dexterity saving throw or take 14 (3d8) necrotic damage on a failed save, or half as much on a successful one."
       }
     ]
   },
   "Crozemgax": {
     "playerKnown": false,
-    "path": "lore",
+    "path": "creature",
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Crozemgax",
@@ -512,7 +512,7 @@
   },
   "Zeradrasa": {
     "playerKnown": false,
-    "path": "lore",
+    "path": "creature",
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Zeradrasa",
@@ -603,7 +603,7 @@
   },
   "Ithanus": {
     "playerKnown": false,
-    "path": "lore",
+    "path": "creature",
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Ithanus",
@@ -694,7 +694,7 @@
   },
   "Void-Horror": {
     "playerKnown": false,
-    "path": "lore",
+    "path": "creature",
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Void Horror",
@@ -781,7 +781,7 @@
   },
   "Lesser-Lich": {
     "playerKnown": false,
-    "path": "lore",
+    "path": "creature",
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Lesser Lich",
@@ -868,7 +868,7 @@
   },
   "Blackfire-Dragoon": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "creature",
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Blackfire Dragoon",
@@ -930,7 +930,7 @@
   },
   "Syrothian-Blackfire-Drake": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "creature",
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Syrothian Blackfire Drake",
@@ -997,7 +997,7 @@
   },
   "Azoth'Xun": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "creature",
     "hideOnCat": false,
     "showStatBlock": false,
     "name": "Azoth'Xun",

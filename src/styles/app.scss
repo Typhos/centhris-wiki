@@ -103,6 +103,11 @@ img.worldMap {
   max-width: 1200px;
 }
 
+hr.hRule {
+  border: 0;
+  border-bottom: 1px solid $charcoal;
+}
+
 @media all and (max-width: $breakpoint-mobile) {
 
   main.content {
