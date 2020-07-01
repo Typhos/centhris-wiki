@@ -98,15 +98,11 @@ class Places extends Component {
         return (
           <li key={place+category} className="entry">
             <Link to={`/location/${place}`}>
-              { images.keys().some(x => x.includes( place )) && 
+              { imgSrc && 
                 <img className={`landscape ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) }`} alt="" src={ imgSrc }/>
               }
               { crests.keys().some(x => x.includes( place )) &&  
                 <img className={`crest ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) }`} alt="" src={ crests('./' + place + '.png')  }/>
-              }
-              {
-                !images.keys().some(x => x.includes( place )) && 
-                <div className="imgPlaceholder"></div>
               }
               <p>{this.state.combinedPlaces[place].name}</p>
             </Link>

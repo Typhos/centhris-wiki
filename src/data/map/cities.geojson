@@ -811,6 +811,23 @@
       "type":"Feature",
       "properties":{
         "id":null,
+        "name":"Avalo",
+        "population":15600,
+        "type":"Town",
+        "info":"Avalo is the 2nd largest city in the Kaeldrin Sanctum. The city is a trading port with a large population of elves, dwarves and gnomes, creating a unique, cosmopolitan culture."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates": [ 
+          29.4615193358927103, 
+          7.9851687057799 
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
         "name":"Lyriak",
         "population":430,
         "type":"Village",
