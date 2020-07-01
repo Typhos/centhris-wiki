@@ -49,6 +49,19 @@
       "Centuries ago, dwarves from other parts of Ulfwyst set out, seeking new sites to establish outposts and forge new thanedoms. Most of these expeditions were doomed to failure. The harsh weather of the region, along with numerous threats that inhabit the mountains, such as chimeras, wyverns, giant, ogres, and trolls resulted in numerous camps and fledgling holds being sacked. However, eventually the persistence (and some would say suicidal stubbornness) of the dwarven people defied the odds, and the fortress of Rul Undrak was established under Mount Ulzanos on the northern end of the Kazgrim range."
     ]
   },
+  "Zavalev-Mountains": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["mountains","region","ulfwyst"],
+    "name": "Zavalev Mountains",
+    "nickname": "Zavalev Mountains",
+    "linkingWords": ["Zavalevs"],
+    "type": "Mountain Range",
+    "location": "Ulfwyst",
+    "description": [
+      "The Zavalev Mountains are a small series of peaks situated in north-central Ulfwyst."
+    ]
+  },
   "Pillars-of-Amud": {
     "playerKnown": true,
     "path": "location",

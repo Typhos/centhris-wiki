@@ -72,6 +72,7 @@ class Search extends Component {
               {
                 searchResults.map( res => {
                   let path = images.keys().filter( path => path.includes( res.name )).filter( path => !path.includes("maps"))[0];
+                  if ( !path && dataLoader.all[res.name].forceImg ) path = images.keys().filter( path => path.includes( dataLoader.all[res.name].forceImg )).filter( path => !path.includes("maps"))[0];
 
                   if ( res.playerKnown || this.state.dmView ) {
                     return (

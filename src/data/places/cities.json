@@ -337,13 +337,13 @@
     "idLinks": {
     },
     "type": "City",
-    "population": "7,300",
+    "population": "15,600",
     "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
     "government": "",
     "location": "Kaeldrin Sanctum",
     "leaders": [""],
     "description": [
-      "Avalo is a major city in Kaeldrin Sanctum."
+      "Avalo is the second largest city in the Kaeldrin Sanctum. The city is located on the western end of the Bay of Osum, and is the largest trading port in the magocracy. Located only 100 miles east of Thuryn Zul, the city has a large population of dwarves from the Zavalev Mountains, along with sizable enclaves of elves and gnomes. This mixture of peoples has created a unique, cosmopolitan culture and driven the city into an exciting era of artistic and magical creativity."
     ],
     "articles": {
     }

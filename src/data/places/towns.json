@@ -115,6 +115,22 @@
       "@+Murmont+@ is a town on the Forsmun river, in western Lemuria. The town has been steadily growing for the last few decades under the guidance of a group of mystics who fled Istagen after the establishment of the state of Tovanis."
     ]
   },
+  "Solleron": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["town","Lemuria","ulfwyst"],
+    "name": "Solleron",
+    "nickname": "Solleron",
+    "linkingWords": [],
+    "type": "Town",
+    "population": "3,850",
+    "races": ["half-elf","human","elf","dwarf","uklang","half-orc","half-giant"],
+    "government": "Clan Council",
+    "location": "Realm of Lemuria",
+    "description": [
+      "@+Solleron+@ is a large town built on the ruins of a much older city. The majority of the contemporary settlement is build around a great temple to the Wanderer, which has been restored by clerics to the deity. The ruins around the town suggest this was once a city of at least 50,000 people in a long forgotten age."
+    ]
+  },
   "Thareska": {
     "playerKnown": true,
     "path": "location",
@@ -122,7 +138,7 @@
     "name": "Thareska",
     "nickname": "Thareska",
     "linkingWords": [],
-    "type": "town",
+    "type": "Town",
     "population": "3,700",
     "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
     "government": "Feudal Lord",
