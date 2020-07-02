@@ -66,37 +66,59 @@
     ]
   },
   "The-First-Convergence": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "lore",
     "name": "The First Convergence",
     "nickname": "The First Convergence",
     "linkingWords": ["First Convergence"],
     "dates": "unknown",
-    "type": "Era",
-    "tags": ["era","elementals","planes","planar"],
+    "type": "Epoch",
+    "tags": ["Epoch","elementals","planes","planar"],
     "description": [
-      "The First Convergence was a historical era in the history of the world of Centhris."
+      "The First Convergence was a historical epoch in the history of the world of Centhris."
     ]
   },
   "The-Second-Convergence": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "lore",
     "name": "The Second Convergence",
     "nickname": "The Second Convergence",
     "linkingWords": ["Second Convergence"],
     "dates": ["2C 1","2C 12"],
-    "type": "Era",
-    "tags": ["era","feywild","planes","planar"],
+    "type": "Epoch",
+    "tags": ["epoch","feywild","planes","planar"],
     "description": [
-      "The Second Convergence was a historical era in the history of the world of Centhris."
-    ]
+      "The @+Second Convergence+@ was an astrological and planar event which marked the beginning of the third epoch of @*Centhrisian*@ history. It was proceeded by the epochs of the First Convergence and the Mornaug Ragoth (Age of Titans). The term \"@*Second Convergence*@\" applies to both the specific event, the planar cross-over of the Feywild with the Prime Material Plane, and the age of history which followed the planar event. The convergence marked a major shift in the power dynamics between the mortal peoples of @~Centhris~@ and the earlier dominant species of the world, specifically elementals, extra-planar beings, dragons, and giants.",
+      "The Second Convergence lasted for 11 years, starting in 2C 1 and ending in 2C 12. @~During decade-long period, the barriers between the material plane and the Feywild were nearly non-existent, with numerous rifts between the planes opening for years at a time. Mortals from both Centhris and the feywild were able to cross between the planes freely. Though some peoples from the material plane did cross into the Feywild, the dangers of the wild realm quickly proved too dangerous for extensive exploration or settlement. Residents of the Feywild, however, did migrate in large numbers from the Feywild to Centhris~@. Fey creatures, such as pixies, hags, sprites, centaurs, satyrs, trolls, dryads and all manner of other fey beings entered the material world for the first time. Mortal peoples, too, migrated into the world, including gnomes and eladrin, who would become known as the Avar."
+    ],
+    "articles": {
+      "Ages of the Second Convergence": [
+        "The Second Convergence has spanned over 2,500 years and numerous events have shaped the world during the epoch. These ages are generally agreed upon by historical scholars, though the dates may vary depending on the location and how events unfolded in a specific region of Centhris.",
+        "@#Age of Arcane Empires#@",
+        "@*2C 1 - 2C 836*@",
+        "With the coming of the Fey peoples, the mortal world moved from an age of fear and isolation into an one of prosperity, unity, and discovery fueled by the alliance of the Elves, Humans and Tieflings. Mortal empires began to form and great cities would rise as the mortal races of the world discovered and harnessed the arcane power that lie dormant in the Arcane Leylines.",
+        "In Thyra, the Utharian Empire unified the entire continent in less than 50 years. As its power grew, the empire's mage-lords built incredible cities, harness unimaginable magical power and crossed the sea to establish colonial outposts.",
+        "The great Melkong Empire of western Ulfwyst spread to cover the entire Dyskira Rim, mastering the waves and harnessing the power of lightning in never before imagined ways.",
+        "In Cunascus, the Kingdom of Bangasu built some of the greatest architectural wonders in the world, and settled lands considered inhospitable to mortal races through their control of weather and gravity magic.",
+        "The Harangpur Empire of Eastern Koraxon, comprised of an alliance of Elves, Humans and Tabaxi, built a vast empire of temple cities dedicated to the Five Pillars, a pantheon of prime gods who they viewed as dominant over all others.",
+        "@#The Ruination#@",
+        "@*2C 837 - 2C 899*@",
+        "The Ruination of Centhris was the shortest of the ages of the Second Convergence, but the changes it wrought forever changed the face of the mortal world.",
+        "@#Cordus Tempus Draconis#@",
+        "@*2C 860 - 2C 2100*@",
+        "The Cordus Tempus Draconis, colloquially known as the @*Second Age of Dragons*@, occurred following the devastating events of @~the Ruination~@. With the various empires of mortals in ruins, the dragons that had previously been kept in check were able to once again assert their dominance over the \"lesser races\". Many regions of the world came under the control of tyrannical dragon lords, such as Aedigarr, Kerathax, Mandrasath, Senferion, and Tiragon.",
+        "@#Age of Rediscovery#@",
+        "@*2C 2100 - Present*@",
+        "After the fall of the great arcane empires and the reemergence of the tyrannical dragon lord, the mortal races of the world retreated into isolated settlements and focused only on survival. Eventually, through the work of dedicated groups and exceptional individuals, the lost arts of magic, engineering and architecture were slowly rediscovered. Mortal warlords formed petty kingdoms and as power began to re-centralize, the age of dragons waned. This age of rediscovery is still ongoing, with many lost secrets, arcane wonders and ancient dangers still waiting to be discovered in the vast, untamed wilderness."
+      ]
+    }
   },
   "Primulus-Tempus-Draconis": {
     "playerKnown": false,
     "path": "lore",
     "name": "Primulus Tempus Draconis",
     "nickname": "Primulus Tempus Draconis",
-    "linkingWords": ["Second Era of Dragons"],
+    "linkingWords": ["First Age of Dragons"],
     "dates": ["1C 7400","2C 110"],
     "type": "Era",
     "tags": ["era","era of dragons"],
@@ -105,16 +127,17 @@
     ]
   },
   "Cordus-Tempus-Draconis": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "lore",
     "name": "Cordus Tempus Draconis",
     "nickname": "Cordus Tempus Draconis",
-    "linkingWords": ["Second Era of Dragons"],
-    "dates": ["2C 900","2C 2100"],
+    "linkingWords": ["Second Age of Dragons"],
+    "dates": ["2C 860","2C 2100"],
     "type": "Era",
     "tags": ["era","era of dragons"],
     "description": [
-      "Cordus Tempus Draconis was a historical era in the history of the world of Centhris."
+      "Cordus Tempus Draconis was a historical age in the history of the world of Centhris. It was proceeded by the Ruination of Centhris and was followed by the Age of Rediscovery.",
+      "The dragons, who had once controlled much of Centhris during the Primulus Tempus Draconis, reemerged after the fall of the great empires of the pre-ruination age, known as the Age of Arcane Empires. With most of the world's arcane spellcasters killed and infrastructure in ruins, little stood to stop the great wyrms from establishing their dominance. The chromatic dragon lords were the first to reemerge from hiding, and within thirty years many of the great imperial cities had become lairs for these new, draconic overlords. Even the metallic dragons, though benevolent compared to their chromatic kin, relish in the opportunity to reassert themselves. While the chromatic dragon lords ruled large domains out of fear, coercion and manipulation, the metallic dragon lords became shepherds to their flocks, offering protection to mortals in exchange for veneration."
     ]
   }
 }

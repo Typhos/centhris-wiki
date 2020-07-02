@@ -36,12 +36,15 @@ export default function SearchLogic (searchString, dmView) {
         if (n) {
           return n.toLowerCase().includes(search) 
         }
+
+        return undefined;
       });
 
       if (checkArray.length > 0) {
         return searchResultObjectFomatting(entry, checkArray);
       }
 
+      return undefined;
     });
 
     return resultsArray.filter(x => x !== undefined);
@@ -64,6 +67,8 @@ export default function SearchLogic (searchString, dmView) {
           if (e) {
             return e.toLowerCase().includes(search);
           }
+
+          return undefined;
         });
 
 
@@ -93,7 +98,6 @@ export default function SearchLogic (searchString, dmView) {
   }
 
   function informationCheck() {
-    let array = [];
 
     let descriptions = dataKeys.map( entry => {
       let checkArray = [];
@@ -116,6 +120,8 @@ export default function SearchLogic (searchString, dmView) {
           }
         }
       }
+
+      return undefined;
     });
 
     

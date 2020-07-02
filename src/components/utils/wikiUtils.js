@@ -45,36 +45,36 @@ export default class WikiUtils {
 
     if ( Array.isArray(entryData) ) {
 
-      entryData = entryData.map( string => {
+      entryData = entryData.map( (string, i) => {
 
         // split the string by the @ marker to ensure proper replacements
-        return string.split(/@(.*?)@/).map( substr => {
+        return string.split(/@(.*?)@/).map( (substr, j) => {
 
           // Test for various markers only at the start and end of each string
           if ( /^\*(.*?)\*$/.test(substr) ) {
 
             substr = substr.replace(/\*/g,"");
-            substr = <i key={substr}>{substr}</i>;
+            substr = <i key={substr+j}>{substr}</i>;
 
           } else if ( /^~(.*?)~$/.test(substr) ) {
 
             substr = substr.replace(/~/g, "");
-            substr = <span key={substr}>{substr}</span>;
+            substr = <span key={substr+j}>{substr}</span>;
 
           } else if ( /^\+(.*?)\+$/.test(substr) ) {
 
             substr = substr.replace(/\+/g, "");
-            substr = <strong key={substr}>{substr}</strong>;
+            substr = <strong key={substr+j}>{substr}</strong>;
 
           } else if ( /^\^(.*?)\^$/.test(substr) ) {
 
             substr = substr.replace(/\^/g, "");
-            substr = <sup key={substr}>{substr}</sup>;
+            substr = <sup key={substr+j}>{substr}</sup>;
           
           } else if ( /^#(.*?)#$/.test(substr) ) {
             
             substr = substr.replace(/#/g, "");
-            substr = <h4 className="subheading" key={substr}>{substr}</h4>;
+            substr = <h4 className="subheading" key={substr+j}>{substr}</h4>;
           
           } else if ( /^---$/.test(substr) ) {
             
@@ -84,7 +84,7 @@ export default class WikiUtils {
           } else if ( /^;(.*?);$/.test(substr) ) {
             
             substr = substr.replace(/;/g, "");
-            substr = <span className="colorize" key={substr}>{substr}</span>;
+            substr = <span className="colorize" key={substr+j}>{substr}</span>;
           
           } else if ( /^\?(.*?)\?$/.test(substr) ) {
             
@@ -92,7 +92,7 @@ export default class WikiUtils {
             const text = substr.split(/\|/)[0];
             const url = substr.split(/\|/)[1];
 
-            substr = <a href={url} className="externalLink">{text}</a>;
+            substr = <a href={url} key={substr+j} className="externalLink">{text}</a>;
           
           } else if ( /^&(.*?)&$/.test(substr) ) {
             
@@ -102,7 +102,7 @@ export default class WikiUtils {
             const position = substr.split(/\|/)[2];
             const inlineImg = images.keys().filter(x => x === path);
 
-            substr = <figure className={`articleImgBox ${ (position) ? position : ""}`}>
+            substr = <figure className={`articleImgBox ${ (position) ? position : ""}`} key={substr+j}>
                       <a href={`${images(`${inlineImg}`)}`} target="_blank" rel="noopener noreferrer">
                         <img src={`${images(`${inlineImg}`)}`} className="articleImg" alt={caption} onClick={this.expandedImageModal} />
                       </a>

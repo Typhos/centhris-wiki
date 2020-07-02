@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import WikiUtils from "components/utils/wikiUtils.js";
 import { HashLink as Link } from 'react-router-hash-link';
 import { withRouter } from 'react-router-dom';
 
@@ -52,8 +51,6 @@ class Search extends Component {
   }
 
   render() {
-    const data = dataLoader.all;
-    const dataKeys = Object.keys(data);
     const searchResults = this.state.searchResults;
     const images = require.context('img/', true);
 
@@ -62,8 +59,7 @@ class Search extends Component {
         <div className="container">
           <form className="searchForm" onSubmit={this.handleSearch} onKeyUp={this.handleSearch}>
             <input className="searchBox" placeholder="search" value={this.state.searchString} onChange={ this.updateSearchString }/>
-            {/*<span className="clearSearch" onClick={this.clearSearch}>x</span>*/}
-            <button id="searchButton"></button>
+            <button className="searchButton"></button>
           </form>
         </div>
         { searchResults.length > 0 && 
@@ -79,16 +75,18 @@ class Search extends Component {
                       <li key={res.name}>
                        { res.path && path !== undefined &&
                         <Link to={`/${res.path}/${res.name}`} className="crop" onClick={this.clearSearch} >
-                          <img className="searchImg" src={ images(path) }/>
+                          <img className="searchImg" alt="" src={ images(path) }/>
                         </Link>
                        }
-                       { !res.path || !path &&
+                       { ( !res.path || !path ) &&
                         <div className="noImg"></div>
                        }
                         <Link className="textLink" to={`/${res.path}/${res.name}`} onClick={this.clearSearch} >{res.displayName}</Link>
                       </li>
                     )
                   }
+
+                  return undefined;
                 })
               }
             </ul>

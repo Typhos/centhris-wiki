@@ -4,6 +4,7 @@ import eventsData       from 'data/lore/events';
 import godsData         from 'data/lore/gods';
 import racesData        from 'data/lore/races';
 import creaturesData    from 'data/lore/creatures';
+import dragons          from 'data/lore/dragons';
 import holidayData      from 'data/lore/holidays';
 import calendarData     from 'data/lore/calendar';
 import itemData         from 'data/lore/items';
@@ -72,7 +73,7 @@ export default class DataLoader {
 
   static characters = {...characterData};
 
-  static creatures = { ...creaturesData};
+  static creatures = { ...creaturesData, ...dragons};
 
   static gods = {...godsData};
 
