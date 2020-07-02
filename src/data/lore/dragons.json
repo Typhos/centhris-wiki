@@ -1,0 +1,285 @@
+{
+
+  "Kerathax": {
+    "playerKnown": false,
+    "path": "creature",
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Kerathax",
+    "nickname": "Kerathax, the Lord of Ash",
+    "type": "Dragon",
+    "tags": ["jordonis mountains","ancient red dragon","predator"],
+    "description": [
+      "@+Kerathax+@ (crow-ZEM-gax), the Lord of Ash, was a legendary, ancient red dragon that, in the centuries following the Ruination of Centhris, slowly became the tyrannical ruler of a huge area in the shadow of the northern Jordonis Mountains. The dragon, which matured and rose to power in the chaotic vacuum of the post-Ruination era, was able to carved out an extensive domain in the shadow of Ashspire Peak following the Utharian Empire's destruction."
+    ],
+    "articles": {
+      "Demesne of Cinders": [
+        "Kerathax is theorized to have been part of a clutch of eggs birthed several hundred years after the @;Ruination of Centhris;@ by another dragon of legend, Zethostria the Voidfury. According to followers of the Kerathax, the wyrm was the strongest of its clutch and quickly disposed of most of its weaker kin.",
+        "As he grew, the red dragon began to amass followers. At first this only amounted to a small band of kobolds, but over time, the wyrm began to gather other, more powerful subjects. By 2C 1700, Kerathax, now nearly 900 years old, had claimed dominion over numerous towns, castles and even a dwarven hold. Numerous cults to the red wyrm had formed, with followers of numerous humanoid races. Though some worshiped the dragon out of awe and respect, most did so out of fear for its terrible wrath, which it brought down with little warning when displeased."
+      ],
+      "Assault on Frecyra": [
+        "As the various kingdoms in the Kelishan Highlands, Galren Moor and Tidewrack Coast began to transition from spare, desperate settlements into expansive, complex societies, they slowly began to come into conflict with the red dragon and its followers. At first, the dragon saw this as an amusing attempt by lesser begins to challenge the draconic masters of the Tempus Draconis, but as other great wyrms fell, Kerathax grew angry.",
+        "In 2C 2130, the red wyrm struck an unexpected blow. Setting out from its lair at Ashspire Peak, the dragon attempted to raze Frecyra, the Fortress City of the Galren Moor, to the ground in a single night. Though the dragon did incredible damage, it was ultimately unsuccessful due to intervention of an organization it had grossly underestimated, the Nost Ezel'nar. The ancient dragon retreated back to its lair to plan its next move."
+      ],
+      "Battle of Ashspire Peak": [
+        "In the aftermath of the sudden aggression of the elder dragon, the leaders of the nearby kingdoms, Azond, Dunfeld, Malstein, Navolin and Vacelin, gathered to determine a course of action. After much debate, the decision was reached to strike directly at the dragon's lair. Thus, the Ashbreaker Coalition was formed.",
+        "As the armies of @;Azond, Dunfeld, Malstein, Navolin, Vacelin;@ and the other, smaller grand duchies and city-states of the region gathered, "
+      ]
+    },
+    "dmArticles": {
+    },
+    "alignment": "chaotic evil",
+    "creatureType": "Gargantuan dragon",
+    "stats": [
+      {"name": "STR", "val": 30},
+      {"name": "DEX", "val": 10},
+      {"name": "CON", "val": 29},
+      {"name": "INT", "val": 18},
+      {"name": "WIS", "val": 15},
+      {"name": "CHA", "val": 23}
+    ],
+    "savingThrows": "Dex +7, Con +16, Wis +9, Cha +13",
+    "skills": "Perception +16, Stealth +7",
+    "passiveWisdom": 26,
+    "armor": "22 (Natural Armor)",
+    "hitPoint": 546,
+    "hitDie": "28d20+252",
+    "speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "damageImmunities": "Fire",
+    "senses": "Blindsight 60 Ft., Darkvision 120 Ft.",
+    "languages": "Common, Draconic",
+    "challenge": "24",
+    "abilities": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "text": "If Kerathax fails a saving throw, it can choose to succeed instead."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "Kerathax can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+      },
+      {
+        "name": "Bite.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: (2d10 + 10) piercing damage plus (4d6)fire damage."
+      },
+      {
+        "name": "Claw.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: (2d6 + 10) slashing damage."
+      },
+      {
+        "name": "Tail.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: (2d8 + 10) bludgeoning damage."
+      },
+      {
+        "name": "Fightful Presence.",
+        "text": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+      },
+      {
+        "name": "Fire Breath (Recharge 5-6).",
+        "text": "The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
+      }
+    ],
+    "legendary": [
+      {
+        "name": "description",
+        "text": "Ancient Red Dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Ancient Red Dragon regains spent legendary actions at the start of their turn."
+      },
+      {
+        "name": "Detect.",
+        "text": "The dragon makes a Wisdom (Perception) check."
+      },
+      {
+        "name": "Tail Attack.",
+        "text": "The dragon makes a tail attack."
+      },
+      {
+        "name": "Wing Attack (Costs 2 Actions).",
+        "text": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+      }
+    ]
+  },
+  "Zeradrasa": {
+    "playerKnown": false,
+    "path": "creature",
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Zeradrasa",
+    "nickname": "Zeradrasa, the Gilded Queen",
+    "type": "Dragon",
+    "tags": ["jordonis mountains","ancient red dragon","predator"],
+    "description": [
+      "@+Zeradrasa+@ (Zera-matoo), the Gilded Queen, is a legendary green dragon who resides somewhere in the Drakenwald. Though her domain technically falls inside the Realm of Lemuria, no clan dares to claim this region of the forest for fear of retribution from the Gilded Queen."
+    ],
+    "articles": {
+      "": [
+        ""
+      ]
+    },
+    "dmArticles": {
+    },
+    "alignment": "chaotic evil",
+    "creatureType": "Gargantuan dragon",
+    "stats": [
+      {"name": "STR", "val": 30},
+      {"name": "DEX", "val": 10},
+      {"name": "CON", "val": 29},
+      {"name": "INT", "val": 18},
+      {"name": "WIS", "val": 15},
+      {"name": "CHA", "val": 23}
+    ],
+    "savingThrows": "Dex +7, Con +16, Wis +9, Cha +13",
+    "skills": "Perception +16, Stealth +7",
+    "passiveWisdom": 26,
+    "armor": "22 (Natural Armor)",
+    "hitPoint": 546,
+    "hitDie": "28d20+252",
+    "speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "damageImmunities": "Fire",
+    "senses": "Blindsight 60 Ft., Darkvision 120 Ft.",
+    "languages": "Common, Draconic",
+    "challenge": "24",
+    "abilities": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "text": "If Kerathax fails a saving throw, it can choose to succeed instead."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "Kerathax can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+      },
+      {
+        "name": "Bite.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: (2d10 + 10) piercing damage plus (4d6)fire damage."
+      },
+      {
+        "name": "Claw.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: (2d6 + 10) slashing damage."
+      },
+      {
+        "name": "Tail.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: (2d8 + 10) bludgeoning damage."
+      },
+      {
+        "name": "Fightful Presence.",
+        "text": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+      },
+      {
+        "name": "Fire Breath (Recharge 5-6).",
+        "text": "The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
+      }
+    ],
+    "legendary": [
+      {
+        "name": "description",
+        "text": "Ancient Red Dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Ancient Red Dragon regains spent legendary actions at the start of their turn."
+      },
+      {
+        "name": "Detect.",
+        "text": "The dragon makes a Wisdom (Perception) check."
+      },
+      {
+        "name": "Tail Attack.",
+        "text": "The dragon makes a tail attack."
+      },
+      {
+        "name": "Wing Attack (Costs 2 Actions).",
+        "text": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+      }
+    ]
+  },
+  "Ithanus": {
+    "playerKnown": false,
+    "path": "creature",
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Ithanus",
+    "nickname": "Ithanus, the Looming Dread",
+    "type": "Dragon",
+    "tags": ["jordonis mountains","ancient red dragon","predator"],
+    "description": [
+      "@+Ithanus+@ (Zera-matoo), sometimes known as the Looming Dread, is a legendary black dragon."
+    ],
+    "articles": {
+      "": [
+        ""
+      ]
+    },
+    "dmArticles": {
+    },
+    "alignment": "chaotic evil",
+    "creatureType": "Gargantuan dragon",
+    "stats": [
+      {"name": "STR", "val": 30},
+      {"name": "DEX", "val": 10},
+      {"name": "CON", "val": 29},
+      {"name": "INT", "val": 18},
+      {"name": "WIS", "val": 15},
+      {"name": "CHA", "val": 23}
+    ],
+    "savingThrows": "Dex +7, Con +16, Wis +9, Cha +13",
+    "skills": "Perception +16, Stealth +7",
+    "passiveWisdom": 26,
+    "armor": "22 (Natural Armor)",
+    "hitPoint": 546,
+    "hitDie": "28d20+252",
+    "speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "damageImmunities": "Fire",
+    "senses": "Blindsight 60 Ft., Darkvision 120 Ft.",
+    "languages": "Common, Draconic",
+    "challenge": "24",
+    "abilities": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "text": "If Kerathax fails a saving throw, it can choose to succeed instead."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "Kerathax can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+      },
+      {
+        "name": "Bite.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: (2d10 + 10) piercing damage plus (4d6)fire damage."
+      },
+      {
+        "name": "Claw.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: (2d6 + 10) slashing damage."
+      },
+      {
+        "name": "Tail.",
+        "text": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: (2d8 + 10) bludgeoning damage."
+      },
+      {
+        "name": "Fightful Presence.",
+        "text": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+      },
+      {
+        "name": "Fire Breath (Recharge 5-6).",
+        "text": "The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
+      }
+    ],
+    "legendary": [
+      {
+        "name": "description",
+        "text": "Ancient Red Dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Ancient Red Dragon regains spent legendary actions at the start of their turn."
+      },
+      {
+        "name": "Detect.",
+        "text": "The dragon makes a Wisdom (Perception) check."
+      },
+      {
+        "name": "Tail Attack.",
+        "text": "The dragon makes a tail attack."
+      },
+      {
+        "name": "Wing Attack (Costs 2 Actions).",
+        "text": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+      }
+    ]
+  }
+}

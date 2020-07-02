@@ -225,16 +225,16 @@
       "minor": []
     }
   },
-  "2C-900": {
+  "2C-860": {
     "playerKnown": true,
     "path": "lore",
     "hideDate": false,
-    "name": "2C 900",
-    "nickname": "2C 900",
+    "name": "2C 860",
+    "nickname": "2C 860",
     "type": "",
     "tags": ["year","events"],
     "description": [
-      "The following historical events took place in 2C 900:"
+      "The following historical events took place in 2C 860:"
     ],
     "articles": {
       "Cordus Tempus Draconis Begins": [

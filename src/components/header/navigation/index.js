@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 import Search from "components/search";
 import NavList from "components/header/navigation/navList";
@@ -28,7 +27,7 @@ class Navigation extends Component {
           <div className="alignmentShell">
             <div className="menuHousing">
               <input className="menuTrigger" type="checkbox" checked={this.state.menu} onChange={this.toggleMenu}/>
-              <button className="menuButton" ><img src={hamburger} className="icon"/><span>Menu</span></button>
+              <button className="menuButton" ><img src={hamburger} alt="hamburger" className="icon"/><span>Menu</span></button>
               <div className="overlay">
                 <h3 className="navHeading">navigation</h3>
                 <NavList/>

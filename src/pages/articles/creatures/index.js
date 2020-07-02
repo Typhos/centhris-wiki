@@ -154,11 +154,9 @@ class Creatures extends Component {
       <div className="grouping stats">
         {
           creature.stats.map( stat => {
-            return <React.Fragment>
-              <p class="block">
-                <strong>{stat.name}</strong> <p class="numerical">{stat.val} <small>({this.getMod(stat.val)})</small></p>
-              </p>
-            </React.Fragment>
+            return <p className="block" key={stat.name}>
+              <strong>{stat.name}</strong> <span className="numerical">{stat.val} <small>({this.getMod(stat.val)})</small></span>
+            </p>
           })
         }
       </div>
@@ -198,19 +196,17 @@ class Creatures extends Component {
       <div className="grouping abilities">
         {
           creature.abilities.map( ability => {
-            return <React.Fragment>
-              <p>
-                <strong>{ability.name}</strong> <span className="descriptionText">{ WikiUtils.textFormatting(ability.text) }</span>
-                { ability.list && 
-                  <ul className="abilityList">
-                    { ability.list.map( (str, i) => {
-                        return <li className="abilityItem" key={ability.name + "-" + i}>{str}</li>
-                      })
-                    }
-                  </ul> 
-                }
-              </p>
-            </React.Fragment>
+            return <p key={ability.name}>
+              <strong>{ability.name}</strong> <span className="descriptionText">{ WikiUtils.textFormatting(ability.text) }</span>
+              { ability.list && 
+                <ul className="abilityList">
+                  { ability.list.map( (str, i) => {
+                      return <li className="abilityItem" key={ability.name + "-" + i}>{str}</li>
+                    })
+                  }
+                </ul> 
+              }
+            </p>
           })
         }
       </div>
@@ -218,11 +214,9 @@ class Creatures extends Component {
         <h4 className="heading">Actions</h4>
         {
           creature.actions.map( action => {
-            return <React.Fragment>
-              <p>
-                <strong>{action.name}</strong> { WikiUtils.textFormatting(action.text) }
-              </p>
-            </React.Fragment>
+            return <p key={action.name}>
+              <strong>{action.name}</strong> { WikiUtils.textFormatting(action.text) }
+            </p>
           })
         }
       </div>
@@ -231,7 +225,7 @@ class Creatures extends Component {
           <h4 className="heading">Bonus Actions</h4>
           {
             creature.bonusActions.map( bonus => {
-              return <React.Fragment>
+              return <React.Fragment key={bonus}>
                 <p>
                   <strong>{bonus.name}</strong> { WikiUtils.textFormatting(bonus.text) }
                 </p>
@@ -245,7 +239,7 @@ class Creatures extends Component {
           <h4 className="heading">Reactions</h4>
           {
             creature.reactions.map( reaction => {
-              return <React.Fragment>
+              return <React.Fragment key={reaction}>
                 <p>
                   <strong>{reaction.name}</strong> { WikiUtils.textFormatting(reaction.text) }
                 </p>
@@ -259,7 +253,7 @@ class Creatures extends Component {
           <h4 className="heading">Villain Actions</h4>
           {
             creature.villainActions.map( actions => {
-              return <React.Fragment>
+              return <React.Fragment key={actions}>
                 <p>
                   <strong>{actions.order}{actions.name}</strong> { WikiUtils.textFormatting(actions.text) }
                 </p>
@@ -274,14 +268,14 @@ class Creatures extends Component {
           {
             creature.legendary.map( legendary => {
               if ( legendary.name === 'description' ) {
-                return <React.Fragment>
+                return <React.Fragment key={legendary.text}>
                   <p>
                     {legendary.text}
                   </p>
                 </React.Fragment>
               }
 
-              return <React.Fragment>
+              return <React.Fragment key={legendary.name}>
                 <p>
                   <strong>{legendary.name}</strong> { WikiUtils.textFormatting(legendary.text) }
                 </p>

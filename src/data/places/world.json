@@ -6,6 +6,7 @@
     "tags": ["continent"],
     "name": "Centhris",
     "nickname": "Centhris",
+    "linkingWords": ["Centhrisian","Prime Material Plane"],
     "type": "Plane",
     "regions": [
       "Cunascus",
