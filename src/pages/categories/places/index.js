@@ -54,7 +54,7 @@ class Places extends Component {
     const numberOfArticles = Object.keys(this.state.places).length;
     const categories = this.state.categories.map( category => {
       return (
-        <React.Fragment>
+        <React.Fragment key={category}>
           { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 &&
             <div key={category} className="category">
               { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 && category.endsWith('y') &&
@@ -92,8 +92,13 @@ class Places extends Component {
 
     return this.state.places.map( place => {
       if ( this.state.combinedPlaces[place].type === category ) {
+        
         let imgSrc = ( images.keys().some( x => x.includes( place ) ) && images( images.keys().filter( x => x.includes( place ) )[0] ) ) 
           || allImages('./placeholder.png');
+
+        if ( this.state.combinedPlaces[place].forceImg && allImages.keys().some( x => x.includes( this.state.combinedPlaces[place].forceImg )) ) {
+          imgSrc = allImages( allImages.keys().filter( x => x.includes( this.state.combinedPlaces[place].forceImg ) ) );
+        }
 
         return (
           <li key={place+category} className="entry">
@@ -115,9 +120,14 @@ class Places extends Component {
 
   checkEmptyEntry(entry) {
     // check if the entry is empty to mark it for future writing
+    let string = entry.description.join(" ");
+
     // if ( entry.description.length <= 0 && this.state.dmView ) {
-      // return "empty";
-    // }
+    if (this.state.dmView) {
+      if ( ( string.match(/\./g) && string.match(/\./g).length <= 2 ) && string.length < 200 ) {
+        return "empty";
+      }
+    }
 
     return "";
   }

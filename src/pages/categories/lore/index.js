@@ -133,10 +133,16 @@ class LoreCategories extends Component {
   }
 
   checkEmptyEntry(entry) {
-    entry = this.state.combinedLore[entry];
+    entry = DataLoader.all[entry];
+
     // check if the entry is empty to mark it for future writing
-    if ( (!entry.description || entry.description.length <= 0) && this.state.dmView ) {
-      return "empty";
+    let string = entry.description.join(" ");
+
+    // if ( entry.description.length <= 0 && this.state.dmView ) {
+    if (this.state.dmView) {
+      if ( ( string.match(/\./g) && string.match(/\./g).length <= 2 ) || string.length < 30 ) {
+        return "empty";
+      }
     }
 
     return "";

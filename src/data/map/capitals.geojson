@@ -47,7 +47,7 @@
          "properties":{
             "id":null,
             "name":"Frecyra",
-            "population":61145,
+            "population":91145,
             "type":"Navolinian Capital",
             "info":"The capital of the Kingdom of Navolin, Frecyra was built around the mysterious Tower of Stantorr. It is the center of Navolinian cultural, political and military traditions."
          },
@@ -81,9 +81,9 @@
          "properties":{
             "id":null,
             "name":"Enira",
-            "population":null,
+            "population": 14530,
             "type":"Cibrinian Capital",
-            "info":"The capital of Cibrin, Enira is the stronghold of Clan Godak. More of a stronghold than a city, it is said that no army has ever breached Enira's walls."
+            "info":"Enira is the walled, capital city and stronghold of Clan Godak located on the western bank of the Volga river. Situated in the middle of the densely forested Torick-Vir Valley, the city maintains a professional guard comprised of members of the clan to ensure it does not come under attack from giants, dragons or other monstrous residents of the vale."
          },
          "geometry":{
             "type":"Point",
@@ -98,7 +98,7 @@
          "properties":{
             "id":null,
             "name":"Irulek",
-            "population":31620,
+            "population":61620,
             "type":"Kaeldrin Capital",
             "info":"The capital of the Kaeldrin Sanctum, Irulek spans the Ponerno river just south of the Sullen Fen. From here the magisters of the Kaeldrin debate philosophy and explore the wonders of arcane magicks."
          },

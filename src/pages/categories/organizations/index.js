@@ -43,10 +43,11 @@ class OrganizationGroups extends Component {
     this.state = {
       orgs: WikiUtils.sortByName( Object.keys(filteredOutput) ),
       categories: WikiUtils.sortByName(categories),
-      dmMode: dmView,
+      dmView: dmView,
     };
 
     this.handleFilter = this.handleFilter.bind(this);
+    this.checkEmptyEntry = this.checkEmptyEntry.bind(this);
   }
 
   render () {
@@ -95,7 +96,7 @@ class OrganizationGroups extends Component {
         return (
           <li key={org} className="entry">
             <Link to={`/group/${org}`}>
-              <img className="landscape" alt="" src={ imgSrc }/>
+              <img className={`landscape ${ this.checkEmptyEntry(current) }`} alt="" src={ imgSrc }/>
               <p>{current.name}</p>
             </Link>
           </li>
@@ -107,6 +108,20 @@ class OrganizationGroups extends Component {
 
   handleFilter(results) {
     this.setState({orgs: results});
+  }
+
+  checkEmptyEntry(entry) {
+    // check if the entry is empty to mark it for future writing
+    let string = entry.description.join(" ");
+
+    // // if ( entry.description.length <= 0 && this.state.dmView ) {
+    if (this.state.dmView) {
+      if ( ( string.match(/\./g) && string.match(/\./g).length <= 2 ) || string.length < 30 ) {
+        return "empty";
+      }
+    }
+
+    return "";
   }
 
 }

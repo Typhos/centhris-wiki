@@ -136,10 +136,10 @@ export default class WikiUtils {
 
       const dataGroupsObj = {
         "person": this.peopleData,
-        "player-character": this.characterData,  
+        "player-character": this.characterData,
+        "location": this.combinedPlaces, 
         "lore": {...DataLoader.lore, ...DataLoader.gods},
-        "group": this.orgData,
-        "location": this.combinedPlaces,      
+        "group": this.orgData,     
         "creature": DataLoader.creatures,
         "history": this.historical
         

@@ -45,12 +45,20 @@ class Location extends Component {
       )
     }
 
+    const allImages = require.context('img/', true);
     const images = require.context('img/places/', true);
     const crests = require.context('img/crests/', true);
     const maps = require.context('img/maps/', true);
     const currency = require.context('img/currency/', false);
 
     const location = this.state.location;
+
+    let imgSrc = ( images.keys().some( x => x.includes( this.state.location.name.replace(/\s/g,"-") ) ) && images( images.keys().filter( x => x.includes( this.state.location.name.replace(/\s/g,"-") ) )[0] ) ) 
+      || allImages('./placeholder.png');
+
+    if ( this.state.location.forceImg && allImages.keys().some( x => x.includes( this.state.location.forceImg )) ) {
+      imgSrc = allImages( allImages.keys().filter( x => x.includes( this.state.location.forceImg ) ) );
+    }
 
     // const races = location.races && location.races.map( race => <span className="race commaSeparated">{ WikiUtils.linkContent(location, race) }</span> );
     const additionalImages = location.additionalImages && location.additionalImages.map( image => {
@@ -92,14 +100,13 @@ class Location extends Component {
             <h2 className="fullName">{location.name}</h2>
             <aside className="infoBox">
               { nickname() }          
-              { images.keys().some(x => x.includes( location.name.replace(/\s/g,"-") )) &&
+              
+              { 
                 <div className="container">
-                  <img className="portrait" alt="" src={ images( images.keys().filter( name => name.replace(/\s/g,"-").includes(location.name.replace(/\s/g,"-")))[0] ) }/>
-                  { crests.keys().some(x => x.includes( location.name.replace(/\s/g,"-") )) &&
-                    <img className="crest" alt="" src={ crests('./' + location.name.replace(/\s/g,"-") + '.png') }/>
-                  }
+                  <img className="portrait" alt="" src={ imgSrc }/>
                 </div>
               }
+
               { location.type &&  
                 <div className="info">
                   <p className="key">Type</p>

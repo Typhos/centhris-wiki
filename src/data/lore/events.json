@@ -139,5 +139,31 @@
       "Cordus Tempus Draconis was a historical age in the history of the world of Centhris. It was proceeded by the Ruination of Centhris and was followed by the Age of Rediscovery.",
       "The dragons, who had once controlled much of Centhris during the Primulus Tempus Draconis, reemerged after the fall of the great empires of the pre-ruination age, known as the Age of Arcane Empires. With most of the world's arcane spellcasters killed and infrastructure in ruins, little stood to stop the great wyrms from establishing their dominance. The chromatic dragon lords were the first to reemerge from hiding, and within thirty years many of the great imperial cities had become lairs for these new, draconic overlords. Even the metallic dragons, though benevolent compared to their chromatic kin, relish in the opportunity to reassert themselves. While the chromatic dragon lords ruled large domains out of fear, coercion and manipulation, the metallic dragon lords became shepherds to their flocks, offering protection to mortals in exchange for veneration."
     ]
+  },
+  "Age-of-Arcane-Empires": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "Age of Arcane Empires",
+    "nickname": "Age of Arcane Empires",
+    "linkingWords": [],
+    "dates": ["2C 1","2C 837"],
+    "type": "Era",
+    "tags": ["era","era of empires"],
+    "description": [
+      ""
+    ]
+  },
+  "Age-of-Rediscovery": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "Age of Rediscovery",
+    "nickname": "Age of Rediscovery",
+    "linkingWords": [],
+    "dates": ["2C 2100","Present"],
+    "type": "Era",
+    "tags": ["era","era of rediscovery"],
+    "description": [
+      ""
+    ]
   }
 }

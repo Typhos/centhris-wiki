@@ -286,7 +286,7 @@
     "path": "location",
     "name": "Futhmer",
     "nickname": "Dwarf Hold of Fûthmér",
-    "linkingWords": ["Futhmeran"],
+    "linkingWords": ["Futhmeran","Fûthmér"],
     "tags": ["dwarf hold","zavalev mountains","ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Kaeldrin Eye",

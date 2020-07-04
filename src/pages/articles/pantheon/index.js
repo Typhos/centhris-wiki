@@ -53,7 +53,7 @@ class Pantheon extends Component {
   }
 
   render () {
-    const pantheonLore = DataLoader.lore["The-Centhrian-Pantheon"];
+    const pantheonLore = DataLoader.lore["Centhrian-Pantheon"];
     const categories = this.state.categories.map( category => {
       return (
         <div key={category} className={`category gods ${category.replace(/\s/g,"-")}`}>
