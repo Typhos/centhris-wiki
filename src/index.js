@@ -5,6 +5,7 @@ import Header from "components/header";
 import Footer from "components/footer";
 
 import ScrollToTop from 'components/scrollToTop';
+import Accountability from 'components/accountability';
 
 import App from './components/app';
 import {Characters} from './pages/categories/characters/index';
@@ -33,11 +34,13 @@ import {VesdarianCalendar} from './pages/articles/calendar/index';
 // import * as serviceWorker from './components/serviceWorker';
 // serviceWorker.unregister();
 
-if ( localStorage.getItem('dmView') === true ) {
+if ( localStorage.getItem('dmView') === "true" ) {
   console.log(
     '%c Warning: You are currently in the Dungeon Master view. All content is linked, even if players cannot see it. \n To revert to standard view, clear the dmView property in your localStorage.',
     'background: #222; color: #bada55; line-height: 20px; padding: 1.5em 25px;'
   );
+
+  Accountability();
 }
 
 const dmCode = ["ArrowUp","ArrowUp","ArrowDown","ArrowDown","ArrowLeft","ArrowRight","ArrowLeft","ArrowRight"];

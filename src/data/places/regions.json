@@ -199,6 +199,19 @@
       "The @+Lepkar Peninsula+@ is a coast region along the Bay of Claws and the Korin Gulf. For most of history the region was controlled by the Realm of Lemuria. Following the War of Red Claws, the Archduchy of Zurast took control of the peninsula as part of its bid to establish itself as a regional power."
     ]    
   },
+  "Rikedal-Lowlands": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["lowlands","ulfwyst","valley","Lemuria"],
+    "name": "Rikedal Lowlands",
+    "nickname": "Rikedal Lowlands",
+    "linkingWords": [],
+    "type": "Region",
+    "location": "Lemuria",
+    "description": [
+      "The @+Rikedal Lowlands+@ are a region in western Lemuria created by the Svinge and Ruunan rivers. The lowlands sit west of Isdrage Bay, east of the Greyleaf Pines and north of the Razark Timberlands. The region serves as one of the most fertile farming regions in the Kingdom of Lemuria. It, along with the Trädgård Plain, provide the vast majority of grain and produce for the kingdom. Many farming villages dot the lowlands, creating a patchwork of colorful fields as far as the eye can see."
+    ]    
+  },
   "Barrowdowns": {
     "playerKnown": false,
     "path": "location",

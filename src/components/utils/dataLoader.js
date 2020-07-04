@@ -93,8 +93,7 @@ export default class DataLoader {
     ...this.organizations, 
     ...this.characters, 
     ...this.gods, 
-    ...this.holidays, 
-    ...this.calendar, 
+    ...this.holidays,
     ...this.historical, 
     ...this.spells, 
     ...this.creatures};
