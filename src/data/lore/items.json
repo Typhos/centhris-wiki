@@ -45,11 +45,11 @@
       "The @*Lament of Autumn*@ refuses to serve anyone it regards as craven, erratic, treacherous, or weak willed though it cares not for its bearer's alignment, having served members on both sides of the delicate dance of the fey courts. If the blade rejects you, you make ability checks, attack rolls, and saving throws with disadvantage for 24 hours. If the blade accepts you, you become attuned to it and remain attuned to the weapon until you die, or the weapon is destroyed.",
       "@---@",
 
-      "You gain a +2 bonus to attack and damage rolls made with this magic weapon, but attack rolls made against fey, eladrin, elves or half-elves with this weapon have disadvantage. A devil hit by this weapon takes an extra 1d6 cold damage.",
+      "You gain a +2 bonus to attack and damage rolls made with this magic weapon, but attack rolls made against fey, eladrin, elves or half-elves with this weapon have disadvantage.",
 
       "@+Harvest Boon.+@ When you critically strike with the @*Lament of Autumn*@, you gain a number of temporary hit points equal to the damage + your Constitution modifier.",
 
-      "@+Biting Winds.+@ When you critically fail on an attack roll with the @*Lament of Autumn*@, you feel the biting winds of winter, dealing 3d4 cold damage to the wielder.",
+      "@+Biting Winds.+@ When you make a successful attack with the @*Lament of Autumn*@, you may roll an additional d6 cold damage. If this roll is higher than the previous damage roll, you may add it to the total damage. You may do this as many times as you wish, so long as each subsequent roll is higher than the previous damage roll. If a new damage roll is lower than, or the same as the previous roll, the attack misses and you receive half of the total damage rolled (including the last roll which caused the attack to miss) as cold damage.",
 
       "@+Finesse.+@ When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.",
       "@+Light.+@ A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
@@ -60,18 +60,24 @@
     "dmArticles": {
     }
   },
-  "Talisman-of-Solitude": {
+  "Talisman-of-the-Forest-Lords": {
     "playerKnown": false,
     "path": "lore",
     "hideOnCat": false,
-    "name": "Talisman of Solitude",
-    "nickname": "Talisman of Solitude",
+    "name": "Talisman of the Forest Lords",
+    "nickname": "Talisman of the Forest Lords",
     "linkingWords": [""],
     "type": "Magic Item",
     "tags": ["magic item","magical necklace"],
     "imgFolder": "items",
     "description": [
-
+      "@*Amulet, very rare (requires attunement)*@",
+      "@---@",
+      "This amulet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the amulet, you can use an action to expend charges to cast one of the following spells. Each spell may only be cast from the amulet once per day.",
+      "- @?Barkskin|http://dnd5e.wikidot.com/spell:barkskin?@ (1 charge)",
+      "- @?Summon Phantom Steed|http://dnd5e.wikidot.com/spell:phantom-steed?@, @*Stag*@ (2 charges)",
+      "- @?Tree Stride|http://dnd5e.wikidot.com/spell:tree-stride?@ (3 charges)",
+      "- @?Plane Shift|http://dnd5e.wikidot.com/spell:plane-shift?@, @*Feywild and Material planes only*@ (3 charges)"
     ],
     "articles": {
       
@@ -151,20 +157,23 @@
       
     }
   },
-  "Moonshadow-Crown": {
+  "Crown-of-Fey-Dominion": {
     "playerKnown": false,
     "path": "lore",
     "hideOnCat": false,
-    "name": "Moonshadow Crown",
-    "nickname": "Moonshadow Crown",
+    "name": "Crown of Fey Dominion",
+    "nickname": "Crown of Fey Dominion",
     "linkingWords": [""],
     "type": "Magic Item",
-    "tags": ["magic item","magical armor"],
+    "tags": ["magic item","magical crown"],
     "imgFolder": "items",
     "description": [
       "@*Crown, very rare (requires attunement)*@",
       "@---@",
-      ""
+      "The @+Crown of Fey Dominion+@ is an circlet forged by an eladrin smith for an unknown archfey of the Court of Colors. The crown is comprised of an ornate mithril band set with a gem only found in the Feywild known as a Moonshard Sapphire. While wearing the crown, you gain the following benefits:",
+      "You can speak Sylvan fluently.",
+      "You have advantage on saving throws against Illusion and Enchantment spells.",
+      "You can use an action to cast the @?Suggestion|https://dnd5e.info/spellcasting/spell/suggestion/?@ spell (save DC 17) through the crown. You don’t need to concentrate on this Suggestion to maintain it during its duration. Once used, the suggestion power of the crown can’t be used again until the next dawn."
     ],
     "articles": {
       
