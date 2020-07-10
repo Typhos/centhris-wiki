@@ -1,0 +1,83 @@
+{
+  "Gradiorus-Golem": {
+    "playerKnown": true,
+    "path": "creature",
+    "hideOnCat": false,
+    "showStatBlock": true,
+    "name": "Gradiorus Golem",
+    "nickname": "Gradiorus",
+    "type": "Construct",
+    "tags": ["construct","golem","arcane","magical"],
+    "imgFolder": "creatures",
+    "affiliations": ["Rakenburg","Specula Arcanum"],
+    "description": [
+      "Gradiorus Golems are arcane constructs that safeguard the city of Rakenburg. The golems stand roughly 9 feet tall and weight upwards of 400 kg (900 lbs). The golems outer hull is made of a magically-infused iron, while the inside contains numerous magical seals, mechanisms and foci to help power and control the construct.",
+      "When activated, the golems give off a faint violet glow from the inside as the magical energy that tethers their limbs to the core dances and sparks."
+    ],
+    "articles": {
+      "Sentinels of the Specula Arcanum": [
+        "The golems serve the city of Rakenburg as arcane sentinels as part of the Specula Arcanum, the Rakenburg guild responsible for the protection of the city. The Specs operate in small patrol teams and it is common for a single iron golem to accompany each team. Each team's golem is controlled by the patrol leader, who is given a magical device that lets them command the golem vocally. Should the squad become incapacitated, the Gradiorus can be controlled by the guild remotely in order to prevent hostile actors from taking control of one of the city's most powerful defensive tools."
+      ]
+    },
+    "dmArticles": {
+      "Relics of a Forgotten Age": [
+        "The Gradiorus Golems are reclaimed arcane technology of the Utharian Empire, first discovered in the Twisting Warrens by the settlers who reclaimed Rakenburg hundreds of years ago. Eskra Gradiorus, the tiefling artificer, was the first to take an interest in the constructs and through extensive research and reverse-engineering, she was able to activate and reprogram the golems to serve the city."
+      ]
+    },
+    "alignment": "Unaligned",
+    "creatureType": "Large Construct",
+    "stats": [
+      {"name": "STR", "val": 24},
+      {"name": "DEX", "val": 9},
+      {"name": "CON", "val": 20},
+      {"name": "INT", "val": 3},
+      {"name": "WIS", "val": 11},
+      {"name": "CHA", "val": 1}
+    ],
+    "skills": "",
+    "passiveWisdom": 10,
+    "savingThrows": "",
+    "armor": 18,
+    "hitPoint": 140,
+    "hitDie": "22d8+41",
+    "damageResistances": "Bludgeoning, Piercing, and Slashing From Nonmagical Attacks",
+    "damageImmunities": "Fire, Poison, Psychic",
+    "conditionImmunities": "Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned",
+    "senses": "Darkvision 120 ft.",
+    "speed": "20 ft.",
+    "languages": "Understands the languages of its creator and can respond with information from the Arcanum archives",
+    "challenge": "7",
+    "abilities": [
+      {
+        "name": "Illumination.",
+        "text": "A Gradiorus Golem sheds dim, purple light in a 10-foot radius."
+      },
+      {
+        "name": "Magic Resistance.",
+        "text": "The golem has advantage on Saving Throws against Spells and other magical Effects."
+      },
+      {
+        "name": "Immutable Form.",
+        "text": "The golem is immune to any spell or effect that would alter its form."
+      },
+      {
+        "name": "Magic Weapons.",
+        "text": "The golem's weapon attacks are magical."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "A golem makes two melee attacks."
+      },
+      {
+        "name": "Slam.",
+        "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (1d8 + 7) bludgeoning damage."
+      },
+      {
+        "name": "Suppression Pulse (Recharge 5-6)",
+        "text": "The golem unleashes a pulse of arcane, electrical energy in a 15-foot radius centered on itself. Each creature in that area must make a DC 15 Constitution saving throw, taking 22 (5d8) lightning damage on a failed save, or half as much damage on a successful one."
+      }
+    ]
+  }
+}

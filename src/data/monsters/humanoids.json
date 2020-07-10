@@ -1,0 +1,65 @@
+{
+  
+  "Blackfire-Dragoon": {
+    "playerKnown": true,
+    "path": "creature",
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Blackfire Dragoon",
+    "nickname": "Blackfire Dragoon",
+    "linkingWords": ["Blackfire Dragoons"],
+    "type": "Humanoid",
+    "tags": ["humanoid","goblinoid","black drake cavalry","Immortal Legion"],
+    "description": [
+      "The @+Blackfire Dragoons+@ are the most elite troops in the Syrothian Immortal Legions. Dragoons fly into battle upon a Blackfire Drake."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    },
+    "alignment": "Lawful Evil",
+    "creatureType": "Medium Humanoid",
+    "stats": [
+      {"name": "STR", "val": 18},
+      {"name": "DEX", "val": 12},
+      {"name": "CON", "val": 16},
+      {"name": "INT", "val": 10},
+      {"name": "WIS", "val": 14},
+      {"name": "CHA", "val": 14}
+    ],
+    "armor": "17 (splintmail)",
+    "hitPoint": 128,
+    "hitDie": "17d8+51",
+    "speed": "30 ft.",
+    "skills": "Athletics +7, Insight +5, Intimidation +5, Perception +5",
+    "savingThrows": "Str +7, Con +6",
+    "damageResistances": "",
+    "damageVulnerabilities": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
+    "senses": "Darkvision 60 ft.",
+    "passiveWisdom": 12,
+    "languages": "Goblin, Common",
+    "challenge": "5",
+    "abilities": [
+      {
+        "name": "Martial Advantage.",
+        "text": "The Blackfire Dragoon has advantage on attacks made against a target grappled by its Black Drake mount."
+      },
+      {
+        "name": "Mounted Combatant.",
+        "text": "The Blackfire Dragoon typically fights from the back of a Syrothian Black Drake. The drake and the Blackfire Dragoon share an initiative in combat. If the Blackfire Dragoon is hit for 20 points of damage or more from a single attack, it must succeed on an athletics check with DC equal to half the damage of the attack or fall from its mount."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "text": "The Blackfire Dragoon makes two attacks with its blackfire halberd."
+      },
+      {
+        "name": "Blackfire Halberd.",
+        "text": "Melee Weapon Attack: +7 to hit, reach 10ft., one target. Hit: 10 (1d10 + 5) slashing damage plus 5 (1d10) fire damage."
+      }
+    ]
+  }
+}

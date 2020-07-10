@@ -26,7 +26,7 @@
     }
   },
   "Lament-of-Autumn": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "lore",
     "hideOnCat": false,
     "name": "Lament of Autumn",
@@ -38,7 +38,7 @@
       "@*Weapon (scimitar), very rare (requires attunement)*@",
       "@---@",
       "This enchanted scimitar is made of a single, masterfully carved piece of ironwood with exquisite, beautiful details covering the blade. The sword has no cross-guard, and the hilt is covered in soft, yet tough strands of ivy which form the grip before dangling from the pommel.",
-      "Numerous items of Fey origin which have found their way into the mortal world since the Second Convergence. Many of these items traveled with the Eladrin when they first crossed between worlds, some were gifted to champions of the Archfey, while others simply vanished with their masters over the ages, lost to time. This blade was most recently the property of Drelnor Arnbjorg and following his death, was laid to rest along side him in his tomb in the Barrowdowns.",
+      "Numerous items of Fey origin have found their way into the mortal world since the Second Convergence. Many of these items traveled with the Eladrin when they first crossed between worlds, some were gifted to champions of the Archfey, while others simply vanished with their masters over the ages, lost to time. This blade was most recently the property of Drelnor Arnbjorg and following his death, was laid to rest along side him in his tomb in the Barrowdowns.",
 
       "The @*Lament of Autumn*@ was carved as a weapon for use by champions of the Archfey. The sword chooses its bearer and remains bonded to that person for life. If the bearer dies, another heir can claim the blade. If no worthy heir exists, the sword lies dormant. It functions like a normal scimitar until a worthy soul finds it and lays claim to its power.",
 
@@ -172,7 +172,7 @@
       "@---@",
       "The @+Crown of Fey Dominion+@ is an circlet forged by an eladrin smith for an unknown archfey of the Court of Colors. The crown is comprised of an ornate mithril band set with a gem only found in the Feywild known as a Moonshard Sapphire. While wearing the crown, you gain the following benefits:",
       "You can speak Sylvan fluently.",
-      "You have advantage on saving throws against Illusion and Enchantment spells.",
+      "You have advantage on saving throws against Enchantment spells.",
       "You can use an action to cast the @?Suggestion|https://dnd5e.info/spellcasting/spell/suggestion/?@ spell (save DC 17) through the crown. You don’t need to concentrate on this Suggestion to maintain it during its duration. Once used, the suggestion power of the crown can’t be used again until the next dawn."
     ],
     "articles": {

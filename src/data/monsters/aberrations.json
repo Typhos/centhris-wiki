@@ -1,0 +1,167 @@
+{
+  "Azoth'Xun": {
+    "playerKnown": true,
+    "path": "creature",
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Azoth'Xun",
+    "nickname": "He Who Walks Behind",
+    "linkingWords": ["the Shattered God","the Fallen God"],
+    "type": "Aberration",
+    "tags": ["abberation","eldritch god"],
+    "description": [
+      "@+Azoth'Xun+@, also known as @*He Who Walks Behind*@, is a eldritch aberration from the Far Realm of immense cosmic power. Having dwelt in the realm beyond for unknown eons, few beings ever became aware of its existence, and those that did rarely managed to maintain their grip on reality after encountering it.",
+      "In the year 2C 2533, while defending Castle Eisentor in the Kingdom of Sennhoff from assault, Evan-Jakob Reinhold fell from fortifications of the keep. While falling to his inevitable doom, the sergeant cried out in desperation, only to be answered by the most unexpected source. Transported to a strange dark space, the soldier floated in an infinite void surrounded by an endless sea of stars. After an unknowable length of time the stars turned to eyes, and then shifted once again into mouths which spoke in unison. The old one known as Azoth'Xun offered Evan-Jakob a bargain: become its herald, announcing its arrival to the world of Centhris, and it would spare him from a most grisly demise.",
+      "Seeing no other option, Evan-Jakob agreed and was granted a incredibly small fraction of the old god's power. The bargain decided, Evan-Jakob, now a warlock in the service of this Great Old One, was hurled back into the prime reality. As he returned, he found himself falling again, but only for a few seconds before landing in the damp mud of the Blighted Mire, half way across the world from the alpine hills of Sennhoff."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    },
+    "alignment": "Chaotic Evil",
+    "creatureType": "Gargantuan Abberation",
+    "stats": [
+      {"name": "STR", "val": 26},
+      {"name": "DEX", "val": 10},
+      {"name": "CON", "val": 20},
+      {"name": "INT", "val": 22},
+      {"name": "WIS", "val": 20},
+      {"name": "CHA", "val": 18}
+    ],
+    "armor": "20 (natural armor)",
+    "hitPoint": 460,
+    "hitDie": "29d20+145",
+    "speed": "30 ft., fly 60 ft.",
+    "skills": "Arcana +9, Deception +8, Intimidation +8",
+    "savingThrows": "Str +12, Con +9",
+    "damageResistances": "Necrotic, Cold, Attacks from non-magical weapons",
+    "damageVulnerabilities": "",
+    "damageImmunities": "Psychic",
+    "conditionImmunities": "Paralyzed, Poisoned, Prone, Stun, Unconscious",
+    "senses": "Blindsight 100 ft.",
+    "passiveWisdom": 19,
+    "languages": "Telepathy 300 ft.",
+    "challenge": "25",
+    "abilities": [
+      {
+        "name": "Unnatural Insight.",
+        "text": "The terror beast learns a creature’s deepest fears simply by looking at them."
+      },
+      {
+        "name": "Magic Resistance.",
+        "text": "Azoth'Xun has advantage on saving throws against spells and other magical effects."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "Azoth'Xun can use its frightful presence, and then make three attacks with its tentacles."
+      },
+      {
+        "name": "Tentacle.",
+        "text": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 56 (8d12 + 8) bludgeoning damage."
+      },
+      {
+        "name": "Frightful Presence.",
+        "text": "Each creature of Ak'Vanezh's choice that is within 120 feet of the Lord and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to its Frightful Presence for the next 24 hours."
+      },
+      {
+        "name": "Worst Nightmares (Recharge 5-6).",
+        "text": "Azoth'Xun unleashes a torrent of nightmarish illusions against its enemies. Each creature within 30 feet of the eldritch entity must make a DC 20 Wisdom saving throw, taking 48 (8d12) psychic damage and becoming paralyzed with fear until the end of their next turn on a failed save, or half as much damage and not paralyzed on a successful one. If a creature is reduced to 0 hit points from this attack, Azoth'Xun regains 20 hit points."
+      }
+    ],
+    "villainActions": [
+      {
+        "name": "Dark Reflection.",
+        "text": "When Azoth'Xun takes damage which brings it below half its maximum hit points, it lets out a reality shattering scream. Azoth'Xun sends every creature within 120 feet to a pocket dimension where a dark reflection of themselves awaits. These shadowy beings represent the very worst aspects of their true self. These reflections have 1/4 of their real counterpart's hit points, but carry the same weapons, armor and any other items in the real person's possession."
+      }
+    ]
+  },
+  "Void-Horror": {
+    "playerKnown": false,
+    "path": "creature",
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Void Horror",
+    "nickname": "Void Horror",
+    "type": "Aberration",
+    "tags": ["shadowfell","aberration","predator"],
+    "description": [
+      "@+Void Horrors+@ are horrible, twisted monstrosities that stalk the shadow plane beyond the veil of the mortal world."
+    ],
+    "articles": {
+      "Night Stalkers": [
+        ""
+      ]
+    },
+    "dmArticles": {
+    },
+    "alignment": "Chaotic Evil",
+    "creatureType": "Huge aberration",
+    "stats": [
+      {"name": "STR", "val": 20},
+      {"name": "DEX", "val": 10},
+      {"name": "CON", "val": 18},
+      {"name": "INT", "val": 16},
+      {"name": "WIS", "val": 13},
+      {"name": "CHA", "val": 14}
+    ],
+    "savingThrows": "Str +9, Con +8, Int +7, Cha +6",
+    "conditionImmunities": "Frightened, Unconscious",
+    "skills": "Perception +9, Stealth +4",
+    "passiveWisdom": 11,
+    "armor": "17 (Natural Armor)",
+    "hitPoint": 189,
+    "hitDie": "18d12+72",
+    "speed": "40 ft., burrow 20 ft., fly 80 ft.",
+    "senses": "Blindsight 30 ft., Darkvision 120 ft.",
+    "languages": "Deep Speech, Draconic, telepathy 120 ft.",
+    "challenge": "9",
+    "abilities": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "text": "If the void horror fails a saving throw, it can choose to succeed instead."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "The void horror makes two attacks: one with its tentacles and one with its claws."
+      },
+      {
+        "name": "Tentacles.",
+        "text": "Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage plus 13 (3d6 + 3) psychic damage."
+      },
+      {
+        "name": "Claw.",
+        "text": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 23 (4d8 + 5) slashing damage."
+      },
+      {
+        "name": "Tail.",
+        "text": "Melee Weapon Attack: +7 to hit, reach 20 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage."
+      },
+      {
+        "name": "Wave of Despair (Recharge 4-6).",
+        "text": "The void horror emits a psychic wave of despair in a 60-foot cube. Each creature in that area must make a DC 16 Constitution saving throw. On a failed save, a creature takes 28 (8d6) psychic damage and suffers 1 level of exhaustion. On a successful save, it takes half damage."
+      }
+    ],
+    "legendary": [
+      {
+        "name": "description",
+        "text": "The void horror can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The void horror regains spent legendary actions at the start of their turn."
+      },
+      {
+        "name": "Detect.",
+        "text": "The void horror makes a Wisdom (Perception) check."
+      },
+      {
+        "name": "Tail Attack.",
+        "text": "The void horror makes a tail attack."
+      },
+      {
+        "name": "Eyes in the Dark.",
+        "text": "The void horror trains all of its innumerable eyes upon a creature it can see within 60 feet. The target must make a DC 16 Wisdom saving throw or take 12 (3d8) necrotic damage and become frightened until the end of the void horror's next turn. While frightened in this way, the creature is also paralyzed. If the target's saving throw is successful, the target is immune to the void horror's Eyes in the Dark for the next 24 hours."
+      }
+    ]
+  }
+}

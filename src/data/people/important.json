@@ -202,13 +202,31 @@
     "name": "Didac Jorda",
     "nickname": "Sir Didac Jorda",
     "linkingWords": [],
-    "tags": ["human","","venbrin"],
+    "tags": ["human","Axuros","Realm of Tovanis"],
     "race": "Human",
-    "occupation": "Grand Marshal",
+    "occupation": "Grand Master",
     "gender": "Male",
     "affiliations": ["Knights of the Righteous Soul"],
     "description": [
       "@+Sir Didac Jorda+@ is the Grand Master of the Knights of the Righteous Soul, the clandestine order of mage hunters dedicated to keeping the Realm of Tovanis safe from the unchecked scourge of arcane magic."
+    ],
+    "articles": {
+    }
+  },
+  "Bertalan-Tóth": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Bertalan Tóth",
+    "nickname": "Lord Bertalan Tóth",
+    "linkingWords": [],
+    "tags": ["human","Frecyra","Kingdom of Navolin"],
+    "race": "Human",
+    "occupation": "Lord Marshal",
+    "gender": "Male",
+    "affiliations": ["Knights of Relos"],
+    "description": [
+      "@+Lord Bertalan Tóth+@ is the Lord Marshal of the Knights of Relos, the royal guard of King Kzesimir III of Navolin."
     ],
     "articles": {
     }

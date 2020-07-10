@@ -1,0 +1,26 @@
+{
+  "Utharian-Empire": {
+    "playerKnown": true,
+    "path": "location",
+    "name": "Utharian Empire",
+    "nickname": "Utharian Empire",
+    "tags": ["empire","tiefling","magocracy","state","Thyra","ancient empire"],
+    "type": "State",
+    "capital": "Utharis",
+    "currency": "Utharian Domari",
+    "population": "63,000,000",
+    "races": ["tiefling","human","elf","dwarf","halfling","gnome","half-elf"],
+    "government": "Magocracy",
+    "location": "Thyra",
+    "leaders": ["Erèdin Esk Zarlaya","Castra Diolanum"],
+    "description": [
+      "The @+Utharian Empire+@ was an ancient civilization located primarily on the lost continent of Thyra. The empire took its name from the city of Utharis, which functioned as the central hub of all official imperial matters.",
+      "The empire, which was founded during the early years of the Second Convergence, was comprised primarily of tieflings, humans and the newly arrived eladrin of the Feywild."
+    ],
+    "articles": {
+      
+    },
+    "dmArticles": {
+    }
+  }
+}
