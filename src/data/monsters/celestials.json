@@ -1,0 +1,56 @@
+{
+  "Sentinel-of-Acheron": {
+    "playerKnown": false,
+    "path": "creature",
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Sentinel of Acheron",
+    "nickname": "Sentinel of Acheron",
+    "type": "Celestial",
+    "tags": ["celestial","cavalry"],
+    "description": [
+      "@+Sentinels of Acheron+@ are otherworldly beings of cosmic energy that live in the divine realm of the Astral Sea and Elysium."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    },
+    "alignment": "Lawful Good",
+    "creatureType": "Large celestial",
+    "stats": [
+      {"name": "STR", "val": 18},
+      {"name": "DEX", "val": 15},
+      {"name": "CON", "val": 16},
+      {"name": "INT", "val": 10},
+      {"name": "WIS", "val": 12},
+      {"name": "CHA", "val": 18}
+    ],
+    "savingThrows": "Str +8, Cha +8",
+    "conditionImmunities": "Poisoned, Unconscious",
+    "skills": "Athletics +8, Religion +4, Persuasion +8",
+    "passiveWisdom": 11,
+    "armor": "18 (Natural Armor)",
+    "hitPoint": 102,
+    "hitDie": "12d10+36",
+    "speed": "50 ft., fly 50 ft.",
+    "senses": "Darkvision 60 ft.",
+    "languages": "Celestial",
+    "challenge": "9",
+    "abilities": [
+      {
+        "name": "Legendary Resistance (3/Day)",
+        "text": "If the void horror fails a saving throw, it can choose to succeed instead."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "The Sentinel of Acheron makes two attacks with its lance."
+      },
+      {
+        "name": "Lance.",
+        "text": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) radiant damage."
+      }
+    ]
+  }
+}

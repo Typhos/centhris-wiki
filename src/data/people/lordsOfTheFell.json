@@ -1,0 +1,220 @@
+{
+  "Mordiley": {
+    "name": "Mordiley",
+    "nickname": "the Flayed Matron",
+    "tags": ["fell lord","shadowfell"],
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "titles": ["Lord of the Fell", "Aspect of Pain"],
+    "affiliations": ["Shadowfell"],
+    "description": [
+      "@+Mordiley+@, the Flayed Matron, is one of the Lords of the Fell. She is the Aspect of Pain, reflecting the pain and suffering inflicted upon mortals by their own kind, most commonly by torture or execution. Her domain, known as the Flayed Wastes, is a vast, scorched badland of jagged rock and twisted, barren tress covered in jagged gashes; all bark stripped from their trunks. "
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+      "Symbolic Aspect": [
+        "The Flayed Matron is the patron of suffering and torture in the Shadowfell."
+      ],
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Maksura": {
+    "name": "Maksura",
+    "nickname": "the Lord of Madness",
+    "tags": ["fell lord","shadowfell"],
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "titles": ["Lord of the Fell"],
+    "affiliations": ["Shadowfell"],
+    "description": [
+      ""
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+      "Symbolic Aspect": [
+        "Maksura is the aspect of madness. He seeks out those destroyed by their own ambition."
+      ],
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Baron-Stelkov": {
+    "name": "Baron Stelkov",
+    "nickname": "Lord of Sorrow",
+    "tags": ["fell lord","shadowfell"],
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "titles": ["Lord of the Fell"],
+    "affiliations": ["Shadowfell"],
+    "description": [
+      ""
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+      "Symbolic Aspect": [
+        "Baron Stelkov is the aspect of sorrow and regret. His domain is filled with the spirits of those who spent their lives forever in anguish over their misdeeds."
+      ],
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Karolina-Radka": {
+    "name": "Karolina Radka",
+    "nickname": "Lady of Despair",
+    "tags": ["fell lord","shadowfell"],
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "titles": ["Lord of the Fell"],
+    "affiliations": ["Shadowfell"],
+    "description": [
+      ""
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+      "Symbolic Aspect": [
+        "Karolina Radka is the aspect of despair. Her domain is a drowning marshland filled with creatures that seek to drag unsuspecting victims to their doom."
+      ],
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Rozkladu": {
+    "name": "Rozkladu",
+    "nickname": "Lord of Malady",
+    "tags": ["fell lord","shadowfell"],
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "titles": ["Lord of the Fell"],
+    "affiliations": ["Shadowfell"],
+    "description": [
+      ""
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+      "Symbolic Aspect": [
+        "Rozkladu is the aspect of malady and illness. His domain is a stinking mire filled with undead, unnaturally large insects and carrion feeders."
+      ],
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Tasus": {
+    "name": "Tasus",
+    "nickname": "Lord of Cruelty",
+    "tags": ["fell lord","shadowfell"],
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "titles": ["Lord of the Fell"],
+    "affiliations": ["Shadowfell"],
+    "description": [
+      ""
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+      "Symbolic Aspect": [
+        "Tasus is the aspect of tyrannical cruelty. His domain is a cold, rocky land filled with ruined castles and dark, twisted citadels ruled by his death knight servants."
+      ],
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Vasen-Zapal": {
+    "name": "Vasen Zapal",
+    "nickname": "Lord of Spite",
+    "tags": ["fell lord","shadowfell"],
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "titles": ["Lord of the Fell"],
+    "affiliations": ["Shadowfell"],
+    "description": [
+      ""
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+      "Symbolic Aspect": [
+        "Vasen Zapal is the aspect of contempt. His domain is filled with ragged, rocky peaks and deep ravines filled with swirling black mist."
+      ],
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Olos": {
+    "name": "Olos",
+    "nickname": "Lord of Hubris",
+    "tags": ["fell lord","shadowfell"],
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "titles": ["Lord of the Fell"],
+    "affiliations": ["Shadowfell"],
+    "description": [
+      ""
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+      "Symbolic Aspect": [
+        "Olos is the aspect of arrogance. His domain is an expansive, pale forest of weeping willows and beautiful flowering trees.",
+        "Once an Archfey of winter, he believed himself more akin to a god than a master of the wild and attempted to expand his control beyond the Feywild. Eventually, during his attempts to expand his power, Olos traveled to the Shadowfell, where he found willing servants who lauded his every word and deed, telling him of his brilliance. The very world around him did as he commanded.",
+        "Eventually, the archfey grew tired of this and attempted to return to the Court of Twilight. To his shock and horror, he was unable to leave, having bound himself to the Shadofell as a Lord of the Fell."
+      ],
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Szebasztian-Grigorescu": {
+    "name": "Szebasztian Grigorescu",
+    "nickname": "Lord of Desire",
+    "tags": ["fell lord","shadowfell"],
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "titles": ["Lord of the Fell"],
+    "affiliations": ["Shadowfell"],
+    "description": [
+      ""
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+      "Symbolic Aspect": [
+        "Count Szebasztian Grigorescu is the aspect of selfish desire. His domain is one of the few populated areas of the Shadowfell, akin to a small feudal state."
+      ],
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  }
+}

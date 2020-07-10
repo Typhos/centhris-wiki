@@ -1,5 +1,151 @@
-{
-
+{  
+  "Syrothian-Blackfire-Drake": {
+    "playerKnown": true,
+    "path": "creature",
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Syrothian Blackfire Drake",
+    "nickname": "Syrothian Blackfire Drake",
+    "linkingWords": ["Blackfire Drake"],
+    "type": "Dragon",
+    "tags": ["dragon","blackfire drake cavalry","Immortal Legion"],
+    "description": [
+      "The @+Syrothian Blackfire Drake+@ is most commonly found in the Rostamas, located in north-central Ulfwyst. These aggressive predators are prized as battle mounts for the elite Blackfire Dragoons of the Syrothian Immortal Legions. The dragon's name is derived from their unique ability to produce dark flames inside their mouth and throat. Unlike full dragons, these smaller cousins cannot project this flame as a breath weapon, instead using it to cook their prey before digesting it."
+    ],
+    "articles": {
+      "Bred for War": [
+        "Though a terrifying natural predator in its own right, Blackfire drakes do not naturally travel beyond their hunting grounds in the Rostamas. It was the hobgoblins of the Syrothian Empire who first saw the potential for the beasts as war mounts. After numerous failed attempts to tame fully grown adult drakes, it was determined that the best approach for domesticating the creatures was to raise them from birth.",
+        "After a clutch of eggs are successfully hatched (a difficult task in its own right, as a clutch of eggs must be kept just above freezing for keeps to successfully hatch) it takes a newborn drake roughly 2 years to reach maturity. During this time, they must be fed a steady diet of raw meat and be trained extensively in order to prevent them from attacking their master while mounted in the saddle.",
+        "Even with extensive battle training, these dragonkin are still too wild and savage to fight in regimented tactics of the Immortal Legions. Instead, each Blackfire Dragoon is expected to be a fully autonomous warrior, capable of fighting independently, or in small war bands, in order to avoid the drakes attacking each other, or other riders out of sheer savage aggression."
+      ]
+    },
+    "dmArticles": {
+    },
+    "alignment": "Neutral Evil",
+    "creatureType": "Large Dragon",
+    "stats": [
+      {"name": "STR", "val": 16},
+      {"name": "DEX", "val": 10},
+      {"name": "CON", "val": 16},
+      {"name": "INT", "val": 6},
+      {"name": "WIS", "val": 12},
+      {"name": "CHA", "val": 8}
+    ],
+    "armor": "15 (natural armor)",
+    "hitPoint": 45,
+    "hitDie": "5d10+15",
+    "speed": "30 ft., fly 60 ft.",
+    "skills": "Athletics +6, Intimidation +2, Perception +4",
+    "savingThrows": "Str +5, Con +5",
+    "damageResistances": "Fire",
+    "damageVulnerabilities": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
+    "senses": "",
+    "passiveWisdom": 12,
+    "languages": "",
+    "challenge": "3",
+    "abilities": [
+      {
+        "name": "Flyby Attack.",
+        "text": "The drake does not provoke an opportunity attack when it flies out of an enemy's reach."
+      },
+      {
+        "name": "Drag Off.",
+        "text": "If the drake grapples an opponent on its turn, it may use its bonus action to move an additional 15 feet, carrying the target along with it."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Bite.",
+        "text": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9 (2d6 + 3) piercing damage and the target is grappled (escape DC 14). Until the grapple ends, the target takes 6 (2d6) fire damage at the start of each of its turns."
+      },
+      {
+        "name": "Terrifying Screech.",
+        "text": "The drake unleashes an unnatural, high pitched screech. All creatures in a 30 foot cone that are not deafened must succeed on a DC 13 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the fear on a success."
+      }
+    ]
+  },
+  "Icebrine-Serpent": {
+    "playerKnown": true,
+    "path": "creature",
+    "hideOnCat": false,
+    "showStatBlock": true,
+    "name": "Icebrine Serpent",
+    "nickname": "Icebrine Serpent",
+    "type": "Dragon",
+    "tags": ["venngar sea","ocean","sea serpent","predator","dragon"],
+    "description": [
+      "Native to the Venngar Sea, Icebrine Serpents are a species of aggressive, deep sea predators. These aquatic dragons are covered in large, hard scales that range from deep blue to pale green. They have a single pair of clawed arms a third of the way down their body that end in three razor-sharp talons. They feel most at home among the ice flows and icebergs of the frigid, arctic oceans of Centhris.",
+      "Icebrine Serpents hold a legendary reputation among the cold-water seafaring nations of the world, such as Cibrin, Lemuria and Talhurst. Many sailors tell harrowing tales of horrific monsters that stalk ships for days, waiting for an opportune moment to strike, such as rough seas or a sudden maelstrom. When an Icebrine Serpent strikes, it will attempt to break a ship's hull with its jaws and claws, blast sailors from the deck with a jet of briny water, or knock sailors overboard with its tail."
+    ],
+    "articles": {
+      "Legendary Beasts of the Frozen Sea": [
+        "Icebrine Serpents have been the subject of skalds' poems and songs for millenia. Numerous tales of mythic heroes, such as the legendary Lemurian hero Stolkar Wyrmbreaker, involve battles with a serpent. Such is the reputation of these beasts that their true nature and capabilities have been lost among the uneducated masses. Common folk will regularly attribute abilities or supernatural powers to Icebrine Serpents that they are not capable of, simply out of ignorance or the increasing tall tales of a local tavern."
+      ]
+    },
+    "dmArticles": {
+      "": [
+        ""
+      ]
+    },
+    "alignment": "Neutral Evil",
+    "creatureType": "Huge Dragon",
+    "stats": [
+      {"name": "STR", "val": 21},
+      {"name": "DEX", "val": 15},
+      {"name": "CON", "val": 18},
+      {"name": "INT", "val": 7},
+      {"name": "WIS", "val": 13},
+      {"name": "CHA", "val": 14}
+    ],
+    "savingThrows": "Str +9, Dex +6, Con +8",
+    "skills": "Athletics +9, Perception +5",
+    "passiveWisdom": 10,
+    "armor": "15 (natural armor)",
+    "hitPoint": 118,
+    "hitDie": "10d12+46",
+    "speed": "30 ft., swim 60ft.",
+    "damageResistances": "Fire",
+    "damageVulnerabilities": "Lightning",
+    "damageImmunities": "Cold",
+    "conditionImmunities": "Paralyzed, Prone, Stun, Unconscious",
+    "senses": "Darkvision 60 ft.",
+    "languages": "Aquan, Draconic",
+    "challenge": "8",
+    "abilities": [
+      {
+        "name": "Icy Barbs",
+        "text": "The entire body of an Icebrine Serpent is covered in small, jagged shards of ice which protrude from the monster's scales. Any creature that begins its turn within 5 feet of the Icebrine Serpent takes 1d6+2 points of cold damage."
+      },
+      {
+        "name": "Coiling Maneuver.",
+        "text": "When the Icebrine Serpent is hit with an attack in melee, it may attempt to grapple the attacker. The target must make a DC 15 Strength saving throw or be grappled."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "A Icebrine Serpent attacks once with its tail and either bites or uses its Brine Blast."
+      },
+      {
+        "name": "Bite.",
+        "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (1d10+5) piercing damage plus 7 (2d6) cold damage. The target of the bite attack must make a DC 15 Strength saving throw or be grappled and restrained. If the target is already grappled by a previous bite attack, the target may may still make another save to attempt to break the grapple."
+      },
+      {
+        "name": "Tail Slap.",
+        "text": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 11 (2d6+4) bludgeoning damage. A target hit by a tail slap is pushed 10 feet away from the Icebrine Serpent."
+      },
+      {
+        "name": "Throw.",
+        "text": "If the Icebrine Serpent has a creature grappled from a Bite attack or from its Coiling Maneuver, it may throw the target. The throw may target another creature within 30 ft. The target must succeed a DC 14 Dexterity save or suffer 10 (3d6) bludgeoning damage. The thrown target automatically suffers 10 (3d6) damage."
+      },
+      {
+        "name": "Brine Blast (recharge 6).",
+        "text": "The Icebrine Serpent opens its massive jaws and sends forth an blast of chilled sea water. All creatures in a 25 ft. cone must succeed on a DC 15 Dex save or suffer 5d8 Cold damage. Any target that succeeds its save takes half damage."
+      }
+    ]
+  },
   "Kerathax": {
     "playerKnown": false,
     "path": "creature",

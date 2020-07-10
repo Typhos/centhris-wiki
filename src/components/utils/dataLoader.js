@@ -1,81 +1,42 @@
 // ==== LORE DATA IMPORTS
-import loreData         from 'data/lore/lore';
-import eventsData       from 'data/lore/events';
-import godsData         from 'data/lore/gods';
-import racesData        from 'data/lore/races';
-import creaturesData    from 'data/lore/creatures';
-import dragons          from 'data/lore/dragons';
-import holidayData      from 'data/lore/holidays';
-import calendarData     from 'data/lore/calendar';
-import itemData         from 'data/lore/items';
-import historicalData   from 'data/lore/historicalDates';
-import battles          from 'data/lore/battles';
-import wars             from 'data/lore/wars';
+import {allLore, creatures, historicalData, holidayData, pantheon, calendarData} from "data/lore/allLore";
 
 // ==== PEOPLE DATA IMPORTS
-import characterData    from 'data/people/characters';
+import playerCharacters  from 'data/people/characters';
+import allPeople         from "data/people/allPeople";
 
-import heroData             from 'data/people/heroes';
-import villainData          from 'data/people/villains';
-import nobleData            from 'data/people/nobles';
-import importantPeopleData  from 'data/people/important';
-import merchantsData        from 'data/people/merchants';
-import historicalPeopleData from 'data/people/historical';
-import mageData             from 'data/people/mages';
-import miscPeopleData       from 'data/people/misc';
-import archfeyData          from 'data/people/archfey';
+
+import allMonsters       from "data/monsters/allMonsters";
 
 // ==== ORGANIZATION DATA IMPORTS
-import clansLemuria           from 'data/groups/clansLemuria';
-import clansCibrin            from 'data/groups/clansCibrin';
-import westernKoraxonGroups   from 'data/groups/westernKoraxon';
-import militaryOrders         from 'data/groups/militaryOrders';
-import orgs                   from 'data/groups/organizations';
+import allGroups         from "data/groups/allGroups";
 
 // ==== ALL DATA IMPORTS FOR LOCATIONS
-import structures       from 'data/places/structures';
-import palaces          from 'data/places/palaces';
-import world            from 'data/places/world';
-import seas             from 'data/places/seas';
-import regions          from 'data/places/regions';
-import mountains        from 'data/places/mountains';
-import forests          from 'data/places/forests';
-import deserts          from 'data/places/deserts';
-import swamps           from 'data/places/swamps';
-import politicalStates  from 'data/places/nationStates';
-import cityDistricts    from 'data/places/cityDistricts';
-import cityStates       from 'data/places/cityStates';
-import capitals         from 'data/places/capitals';
-import cities           from 'data/places/cities';
-import towns            from 'data/places/towns';
-import villages         from 'data/places/villages';
-import dungeons         from 'data/places/dungeons';
-import fortifications   from 'data/places/fortifications';
-import dwarfHolds       from 'data/places/dwarfHolds';
-import mythic           from 'data/places/mythic';
+import allPlaces         from "data/places/allPlaces";
 
-import spellData        from 'data/spells';
+import spellData         from 'data/spells';
+  
+import ships             from 'data/misc/ships';
+import items             from 'data/misc/items';
 
-import ships            from 'data/misc/ships';
-import items            from 'data/misc/items';
 
 export default class DataLoader {
 
-  static places = {...structures, ...palaces, ...world, ...regions, ...mountains, ...forests, ...deserts, ...swamps, ...seas, ...cityDistricts, ...cityStates, ...capitals, ...cities, ...towns, ...villages, ...dungeons, ...fortifications, ...dwarfHolds, ...politicalStates, ...mythic};
+  static places = {...allPlaces};
   
-  static lore = {...racesData, ...eventsData, ...loreData, ...itemData, ...wars, ...battles};
+  static lore = {...allLore};
   
-  static people = {...heroData,...villainData,...nobleData,...importantPeopleData,...merchantsData,...historicalPeopleData,...miscPeopleData, ...mageData, ...archfeyData};
+  static people = {...allPeople};
   
   static misc = {...ships, ...items};
 
-  static organizations = {...clansLemuria, ...clansCibrin, ...orgs, ...westernKoraxonGroups, ...militaryOrders};
+  static organizations = {...allGroups};
 
-  static characters = {...characterData};
+  static characters = {...playerCharacters};
 
-  static creatures = { ...creaturesData, ...dragons};
+  static creatures = { ...allMonsters};
 
-  static gods = {...godsData};
+  static gods = {...pantheon};
 
   static holidays = {...holidayData};
 
@@ -96,6 +57,7 @@ export default class DataLoader {
     ...this.holidays,
     ...this.historical, 
     ...this.spells, 
-    ...this.creatures};
-  
+    ...this.creatures
+  };
+
 }

@@ -1,4 +1,5 @@
 {
+  
   "Kingdom-of-Navolin": {
     "playerKnown": true,
     "path": "location",
@@ -43,9 +44,9 @@
         "For generations the only thought of the people of the region was survival, with most of their time and resources spent on the expanded of food sources and maintenance of arms. Eventually, as the echoes of the disaster dissipated, the strongest of these enclaves began to expand their influence. Various petty kingdoms took shape, with leaders looking to assert control. The largest of these resulting kingdoms were Azond, Dunfeld, Malstein, Navolin, Sedobia, and Vacelin, with numerous smaller vassal states including Borov, Camunburg, Grekhov, Khor, Kobryn, Lezna, Orud, Razdol, Tarona, Vucin and Zelmar.",
         "@#Confederation and Conquest#@",
         "Following the fall of Kerathax, the Lord of Ash, the Congress of Adendorf (convened in 2C 2143) founded the Malstein Confederation, a loose league of 11 sovereign states. The appointment of King Spiridon Jugovac of Malstein as the permanent @*Princeps*@ of the Confederation reflected the Congress's failure to accept Navolin's rising influence in the region, and acerbated the long-standing competition between the Czak and Jugovac family interests. Disagreement within the courts of several of the confederation members led to skirmishes between roving bands of renegade soldiers and landed knights loyal to prominent noble lines.",
-        "@&./lore/War-of-Five-Crowns.png|An oil painting of a battle during the War of Five Crowns|right&@ The failure of the Malstein Confederation to effectively handle the outbreak of an epidemic of lycanthropy, known as the @*Savage Contagion*@, in 2C 2209 would only further strain relations between the member states. With tensions rising due to the perceived ineffectiveness of the confederation, King Velibor I of Navolin declared the dissolution of the confederation unilaterally, which was soundly rejected by the Kingdom of Malstein and its allies.",
+        "@&./lore/wars/War-of-Five-Crowns.png|An oil painting of a battle during the War of Five Crowns|right&@ The failure of the Malstein Confederation to effectively handle the outbreak of an epidemic of lycanthropy, known as the @*Savage Contagion*@, in 2C 2209 would only further strain relations between the member states. With tensions rising due to the perceived ineffectiveness of the confederation, King Velibor I of Navolin declared the dissolution of the confederation unilaterally, which was soundly rejected by the Kingdom of Malstein and its allies.",
         "In 2C 2211, after several years of bickering and border disputes due to the failures of the Malstein Confederation, Navolin invaded the neighboring kingdom of Dunfeld, an ally of the Kingdom of Malstein. The Jugovac dynasty, unwilling to be seen as timorous, came to the aid of Dunfeld, resulting in the War of Five Crowns. The war left the entire region devastated, with casualties of nearly 2.5 million people across all the region over the course of 34 years. With the conclusion of the war in 2C 2245, King Velibor I of Navolin was declared the sovereign of Dunfeld, officially annexing the territory, as well as claiming the Principality of Khor as a vassal-state.",
-        "@&./maps/Political-Map-of-Ulfwyst-2C-2450.png|A political map of eastern Ulfwyst ca. 2C 2450&@ Over the next two centuries a series of conflicts, know as the Wars of Dominion, would continue to scar the region. Many distant powers, previously uninvolved in regional conflicts, including Lemuria, Kaeldrin and Istagen, would become embroiled in this cascading series of wars as the ramifications of a consolidated power in Kelishan, Galren and Tiderack became a growing concern within other nation-states. These kindgoms had formed an unspoken understanding of non-intervention in the constant infighting of the smaller states prior to the War of Five Crowns. The squabbles of the kingdoms and duchies of the region tangentially ensured their own stability, as the more powerful states in the region did not turn their eyes to external conquest.",
+        "@&./maps/Political-Map-of-Ulfwyst-2C-2450.png|A political map of eastern Ulfwyst ca. 2C 2450&@ Over the next two centuries a series of conflicts, know as the Wars of Dominion, would continue to scar the region. Many distant powers, previously uninvolved in regional conflicts, including Lemuria, Kaeldrin and Istagen, would become embroiled in this cascading series of wars as the ramifications of a consolidated power in Kelishan, Galren and Tiderack became a growing concern within other nation-states. These kingdoms had formed an unspoken understanding of non-intervention in the constant infighting of the smaller states prior to the War of Five Crowns. The squabbles of the kingdoms and duchies of the region tangentially ensured their own stability, as the more powerful states in the region did not turn their eyes to external conquest.",
         "The Wars of Dominion would result in a extensive unification of noble families under the central control of the Czak dynasty of Frecyra. By the turn of 2C 2400, most of the smaller, regional kingdoms had been absorbed into an ever-growing Navolin. Vacelin, Grekhov, Razdol, Orud, Vucin, Zelmar, and Kobryn no longer claimed external sovereignty, and any noble families that did not fall in line with the rule of the Czak monarchy found themselves removed from power, often violently.",
         "By 2C 2440, the consolidation of the smaller kingdoms of eastern Ulfwyst would slow to a relative peace, as the last great annexation, the Navolinian Subjugation of Malstein, would bring the Wars of Dominion to a close. Several, relatively smaller, conflicts would occur over the following century, such as the War of Black Fields and the Navolinian Conquest of Azond, would see the realms of Sedobia and Azond, respectively, brought under the control of Czak dynasty. These wars, though important, were not nearly as long, or as devastating as those of the previous 300 years."
       ],
@@ -58,7 +59,12 @@
         "Navolin is a highly structured, rigid, feudal society. Most everyone who lives here knows their place and few dare to challenge the tenuous order, lest it come crashing down like so many times in history before. The court of the King Kzesimir III is located in Frecyra, the capital and largest city in the kingdom, where various dukes, counts and barons vie for position in an endless political power struggle.",
         "@#Nobility#@",
         "Most members of the nobility in the kingdom tend to be members of prestigious families. Most prominent among these are Brzezick, Czak, Kaluza, Kosmatka, Ostrowski, Sebroski and Sokol lines, though smaller families regularly elevate themselves to court through the army or magical traditions.",
-        "Outside the capital, the rule of each fiefdom is left to the administration of its title holder and their direct vassals. This highly decentralized form of rule allows for each lord to determine what is best for their domain. Some regions, such as the Tiderack Coast (formerly the Kingdom of Azond) are ruled with an iron grip to ensure order is maintained, while other regions, such as the County of Szary, ruled by Count Jeskin Sebroski, in the south are ruled with a lighter touch under the desire to promote commerce. As with any hereditary, feudal system, these approaches can shift drastically after a chance in rulers."
+        "Outside the capital, the rule of each fiefdom is left to the administration of its title holder and their direct vassals. This highly decentralized form of rule allows for each lord to determine what is best for their domain. Some regions, such as the Tiderack Coast (formerly the Kingdom of Azond) are ruled with an iron grip to ensure order is maintained, while other regions, such as the County of Szary, ruled by Count Jeskin Sebroski, in the south are ruled with a lighter touch under the desire to promote commerce. As with any hereditary, feudal system, these approaches can shift drastically after a chance in rulers.",
+        "@#Estates, Factions and Holdings#@",
+        "There are three estates, or factions of important political groups, in Navolin: the nobility, the clergy and the burghers. Each estate has its own interests and wields political influence in the politics of the kingdom. The @*noble estate*@ encompasses all of the landed gentry, mostly commonly those who own manors, or rule a territory from a castle. The @*clergy estate*@ is comprised of the members of the clergy of the most influential major religions of Navolin, the churches of the Guardian, the Arbiter, the Maiden, the Wanderer and the Philosopher. Other religions do wield influence, but either lack the capital or the following to be considered a major vested interest. The @*burgher estate*@ is comprised of the wealthy, or influential families of the cities and towns of the kingdom. In order to be considered a member of the burgher estate, proof of ownership of a property in a town is required.",
+        "Some groups in the kingdom feel there is an unstated fourth estate, mages. Unfortunately, it is extremely difficult to determine the influence of magic users on state politics based solely on holdings, as mages tend to wield out-sized influence due to their arcane abilities, and the tendency of wizards, sorcerers and bards to keep minimal physical properties which are augmented with magical spaces that do not exist in the physical reality. While the royal court did attempt to bring the idea of taxing wizards for both their physical holdings and their extra-dimensional holdings, it was quickly shouted down by members of the Nost Ezel’nár. They deemed the idea impractical, since tax collectors would not be given access to a wizard's personal sanctum to assess its value; for safety reasons, of course.",
+        "Land in the kingdom is divided among these three estates, and the crown. Land owned directly by the king or his family is referred to as @*crownland*@. Under the laws of the kingdom, any land which is not directly controlled by one of the estates is considered part of the crown's holdings. This often means the amount of estate-held territory fluctuates considerably, and thus their influence over the ruler.",
+        "As of 2C 2570, the breakdown of land controlled by the estates was estimated to be as follows: @+37% crownland+@, @+24% nobility+@, @+21% clergy+@, @+13% burgher+@ and @+5% mages+@."
       ],
       "Economy":[
         "Navolin is, relative to its neighbors, an economically poor country. Though rich with natural resources, much of its economic attention has been placed on the maintenance of its vast territorial holding and the defense of its borders. Roughly half of all economic activity in the kingdom revolves around the growing of food to feed the populace, with another quarter of its production going directly towards the military and noble classes. The remaining production is spread among the mercantile, artisan and freemen classes. The outlying element of the country's economic power are those of magical talent and adventuring mercenaries, however neither can be relied upon for sustained economic generation on a consistent basis, year over year.",
@@ -402,82 +408,6 @@
       ]
     },
     "dmArticles": {
-    }
-  },
-  "Utharian-Empire": {
-    "playerKnown": true,
-    "path": "location",
-    "name": "Utharian Empire",
-    "nickname": "Utharian Empire",
-    "tags": ["empire","tiefling","magocracy","state","Thyra","ancient empire"],
-    "type": "State",
-    "capital": "Utharis",
-    "currency": "Utharian Domari",
-    "population": "63,000,000",
-    "races": ["tiefling","human","elf","dwarf","halfling","gnome","half-elf"],
-    "government": "Magocracy",
-    "location": "Thyra",
-    "leaders": ["Erèdin Esk Zarlaya","Castra Diolanum"],
-    "description": [
-      "The @+Utharian Empire+@ was an ancient civilization located primarily on the lost continent of Thyra. The empire took its name from the city of Utharis, which functioned as the central hub of all official imperial matters.",
-      "The empire, which was founded during the early years of the Second Convergence, was comprised primarily of tieflings, humans and the newly arrived eladrin of the Feywild."
-    ],
-    "articles": {
-      
-    },
-    "dmArticles": {
-    }
-  },
-  "Kingdom-of-Daotian": {
-    "playerKnown": false,
-    "path": "location",
-    "name": "Kingdom of Daotian",
-    "nickname": "Kingdom of Daotian",
-    "tags": ["kingdom","western koraxon"],
-    "type": "State",
-    "capital": "Shangxia",
-    "currency": "Daotian Fen",
-    "population": "14,000,000",
-    "races": ["Human","Daxiong","Zhuren","Tiefling","Half-Elf","Serbonji"],
-    "government": "Bureaucratic Monarchy",
-    "location": "Western Koraxon",
-    "leaders": ["Emperor Zhi"],
-    "description": [
-      "The largest state in Western Koraxon, the @+Kingdom of Daotian+@ is feudal society located northwest of the Crimson Mist Mountains, east of the Aoi Yoru Archipelago and north of the Three Kingdoms of Namjeon.",
-      "The Liao family founded the Xiong dynasty in 2C 2191, coming to power after a quarter century of instability following the fall of the Jing dynasty."
-    ],
-    "articles": {
-    },
-    "dmArticles": {
-      "Real World Parallels": [
-        "Daotian is the fantasy parallel to the @?Tang Dynasty|https://en.wikipedia.org/wiki/Tang_dynasty?@ of China. Historians generally regard the Tang as a high point in Chinese civilization, and a golden age of cosmopolitan culture. Tang territory, acquired through the military campaigns of its early rulers, rivaled that of the Han dynasty. The Tang capital at Chang'an was the most populous city in the world in its day."
-      ]
-    }
-  },
-  "Three-Kingdoms-of-Namjeon": {
-    "playerKnown": false,
-    "path": "location",
-    "name": "Three Kingdoms of Namjeon",
-    "nickname": "Three Kingdoms of Namjeon",
-    "tags": ["kingdom","western koraxon"],
-    "type": "State",
-    "cities": ["Chongdi","Haengwon","Bokryong"],
-    "currency": "Namjeon Don",
-    "population": "3,500,000",
-    "races": ["Human","Daxiong","Zhuren","Tiefling","Half-Elf","Gnome","Serbonji"],
-    "government": "Hereditary Monarchy",
-    "location": "Western Koraxon",
-    "leaders": ["King Hyun"],
-    "description": [
-      "The Namjeon Peninsula of Western Koraxon is home to several rival kingdoms, collectively known as the @+Three Kingdoms of Namjeon+@. All three states are feudal monarchies with similar architecture, culture, language, law, politics, governance, and religious practices. Located south of the Kingdom of Daotian, west of the Gulf of Sargin, and east of the Mare Dyskira, these rival states have been fighting a centuries-long cold war for control of the entire peninsula. The three ruling dynasties of Namjeon are the Baeshu, Jung and Hyoba families.",
-      "The peninsula was previously ruled by the Muntae dynasty, which controlled a unified kingdom from 2C 1412 to 2C 2467. It is said that the Muntae first arrived from beyond the sea and conquered the whole of the Namjeon Peninsula in less than 3 years, unifying the fractious, petty kingdoms which controlled the region before. However, the dynasty became decadent and after several peasant revolts, the political elite of the kingdom took action before anger against the ruling family cost them their own positions."
-    ],
-    "articles": {
-    },
-    "dmArticles": {
-      "Real World Parallels": [
-        "The Kingdom of Namjeon is a real world parallel to the @?Goryeo|https://en.wikipedia.org/wiki/Goryeo?@ dynasty of Korea, which was responsible for truly unifying the peninsula for the first time."
-      ]
     }
   }
 }

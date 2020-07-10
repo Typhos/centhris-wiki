@@ -377,6 +377,24 @@
       ]
     }
   },
+  "Gloomwrought": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["mythic","shadowfell","lords of the fell"],
+    "name": "Gloomwrought",
+    "nickname": "Gloomwrought",
+    "type": "City",
+    "races": ["human","shadar kai","sentient undead"],
+    "government": "Lords of the Fell",
+    "location": "Shadowfell",
+    "leaders": [],
+    "quote": "\"I think back to my days in the muddy streets of Frecyra. How quickly I would wish again to be surrounded by its pigeons. I only realize now how much I preferred them to the colonies of bats.\" -Anders Góralski",
+    "description": [
+      "One of the few cities of the Shadowfell, @+Gloomwrought+@ is the defacto capital of the realm of nightmares. Those who call this dark, twisted city home are either native creatures of the fell, or those who find themselves trapped here, unable to escape back to the safety of the Prime Materium. Gloomwrought is the only place in the @~Shadowfell~@ where the Lords of the Fell are able to interact, as it does not belong to any individual dark power." 
+    ],
+    "articles": {
+    }
+  },
   "Huangchen": {
     "playerKnown": false,
     "path": "location",

@@ -28,7 +28,13 @@
       "Erlinder shows care to his appearance regardless of his simple cloths.  He wears a blue tunic that may have been a much darker color but is now faded from the sun.  His pack is almost over loaded with all manner of traveling gear and cookware.",  
       "His blue Tunic is covered in leather armor that seems to have been made for a larger person, but modified to fit his much smaller frame.  The blue almost matches the paint on his wooden shield which is decorated with a intricate knotted pattern using geometric vines.  He keeps his beard as well trimmed as he can and peaking barley noticeable from his long dirty blond hair are his pointed ears.  His light blue eyes betray a kindness hidden in his determined expression.",
       "Having learned of his newfound powers while at his home, Bluefield Farm in Lemuria, Erlinder was told of a great destiny awaiting him and was sent off into the world to find it. He traveled from his home to the village of Rythlon, Navolin where he would become one of the founding members of the Lost Shields."
-    ]
+    ],
+    "articles": {
+      "Family": [
+        "Immediate Family: Hilga (Wife), Siggy (Daughter), Trosten (Son), Froya (Daughter), Ubbe (Son), Bjorn (Son).",
+        "Extended Family: Hosvir (Uncle)"
+      ]
+    }
   },
   "Evan-Jakob-Reinhold": {
     "playerKnown": true,

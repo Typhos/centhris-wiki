@@ -1,13 +1,13 @@
 {
   "The-Garden-of-Neshaya": {
-    "playerKnown": true,
+    "playerKnown": false,
     "path": "location",
-    "hideOnCat": true,
+    "hideOnCat": false,
     "name": "The Garden of Neshaya",
     "nickname": "Neshaya's Garden",
     "linkingWords": ["Garden of the Dead"],
     "tags": ["mythic locale","death","garden","the gravekeeper","graveyard"],
-    "type": "Mythic Locale",
+    "type": "Plane",
     "location": "Shadowfell",
     "description": [
       "The Garden of Neshaya is the resting place of the souls of mortals who are not called to the hall of a specific deity. This is the fate of most, for being called to the hall of patron deity is rare and the greatest, or most vile, of heroes receive such an honor."
@@ -20,15 +20,15 @@
     }
   },
   "The-Halls-of-Tanrilar": {
-    "playerKnown": true,
+    "playerKnown": false,
     "path": "location",
-    "hideOnCat": true,
+    "hideOnCat": false,
     "name": "The Halls of Tanrilar",
     "nickname": "Halls of Tanrilar",
     "linkingWords": ["Grand Hall of the Gods"],
     "tags": ["mythic locale","gods","hall"],
     "location": "Astra Sea",
-    "type": "Mythic Locale",
+    "type": "Plane",
     "description": [
       "The Halls of Tanrilar are said to be the gathering place of the gods of Centhris. The halls are said to be an enormous palace floating in the Astra Sea with no fixed location. It is said that at times, the gods have been come together in Tanrilar to engage in debates or resolve disputes among their kin. "
     ],
@@ -39,11 +39,11 @@
 
     }
   },
-  "The-Feywild": {
+  "Feywild": {
     "playerKnown": true,
     "path": "location",
     "hideOnCat": false,
-    "name": "The Feywild",
+    "name": "Feywild",
     "nickname": "the Feywild",
     "linkingWords": [
         "Court of the Blooming Vale",
@@ -54,7 +54,7 @@
     "tags": ["mythic locale","plane"],
     "type": "Plane",
     "description": [
-      "The Feywild is a plane located in the Astral Sea. It is, cosmologically, relatively close to the Prime Material Plane and it is not uncommon to find locations where to the two planes cross into each other, allowing peoples to travel between the two realms."
+      "The @+Feywild+@ is an inner plane of the universal cosmology. Much like the Shadowfell, it is a reflection of the Prime Material plane, specifically of the natural world, and it is not uncommon to find locations where to the two planes cross into each other, allowing peoples to travel between the two realms."
     ],
     "articles": {
         "Land of Four Seasons": [
@@ -84,17 +84,97 @@
         ]
     }
   },
-  "The-Shadowfell": {
+  "Shadowfell": {
     "playerKnown": true,
     "path": "location",
     "hideOnCat": false,
-    "name": "The Shadowfell",
+    "name": "Shadowfell",
     "nickname": "the Shadowfell",
     "linkingWords": [],
     "tags": ["mythic locale","plane"],
     "type": "Plane",
     "description": [
-      "The Shadowfell is a plane located in the Astral Sea. It is, cosmologically, relatively close to the Prime Material Plane and it is not uncommon to find locations where to the two planes cross into each other, allowing peoples to travel between the two realms."
+      "The @+Shadowfell+@ is an inner plane of the universal cosmology, sometimes referred to as the Negative Plane. Much like the Feywild, it is a reflection of the Prime Material plan and it is not uncommon to find locations where to the two planes cross into each other, allowing peoples to travel between the two realms. The Shadowfell reflects the dark, hidden or negative aspects of the mortal world. Few enter this place by choice, as they quickly discover it is a realm of paranoia, misery and dread.",
+      "The Shadowfell is a reflection of the mortal world, though not always in an expected way. Where on Centhris a keep stands, in the Shadowfell you might find a shattered ruin or a grand, dark tower. A verdant forest might reflect as a vast, nightmarish wood filled with vicious, savage predators, or a long-dead forest of ruined trees.",
+      "The plane is ruled over by the dangerous and capricious Lords of the Fell, sometimes referred to as Aspects. The exact nature of these beings is unknown, as they seem to exhibit almost god-like power in their own domain, but are completely unable to affect areas outside it. These places of power, of which each lords controls only one, are personal domains where they have absolute power. These dark masters almost never interact with each other, as they are essentially unable to leave their own domains; the exception to this seems to be the city of Gloomwrought, where all the denizens of the Shadowfell may tread. It is extremely rare to see a fell lord in @~Gloomwrought~@, even if they are able to travel to it, since they are at their weakest when in the City of Shadow. Only the most important or enticing scenarios manage to attract a dark master to the city."
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+
+    }
+  },
+  "Astra-Sea": {
+    "playerKnown": true,
+    "path": "location",
+    "hideOnCat": false,
+    "name": "Astra Sea",
+    "nickname": "the Astra Sea",
+    "linkingWords": [],
+    "tags": ["mythic locale","plane"],
+    "type": "Plane",
+    "quote": "\"It is the space between everything. It is the road that goes everywhere. It is where you are when you aren't anywhere else.\"",
+    "description": [
+      "The @+Astra Sea+@ is an outer plane in universal cosmology and the domain of raw elemental energy and matter. It is considered the opposite of its elemental counterpart, the Elemental Chaos. It is described as being \"above\" the Prime Material plane and its reflections, the Feywild and the Shadowfell.",
+      "Time in the Astral flows at the same rate as on a Prime Material plane but the effects of time are slowed almost to a stop ― a thousand years in the Astral plane feels like only a day to its denizens. Creatures do not go hungry, nor do they age while in the Astral plane. For that reason, its mortal inhabitants need to return to the Material Plane in order to have children, or to reach adulthood."
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+
+    }
+  },
+  "Elemental-Chaos": {
+    "playerKnown": true,
+    "path": "location",
+    "hideOnCat": false,
+    "name": "Elemental Chaos",
+    "nickname": "the Elemental Chaos",
+    "linkingWords": [],
+    "tags": ["mythic locale","plane"],
+    "type": "Plane",
+    "description": [
+      "The @+Elemental Chaos+@ is an outer plane in universal cosmology and the domain of raw elemental energy and matter. It is considered the opposite of its divine counterpart, the Astral Sea."
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+
+    }
+  },
+  "Abyss": {
+    "playerKnown": true,
+    "path": "location",
+    "hideOnCat": false,
+    "name": "Abyss",
+    "nickname": "the Abyss",
+    "linkingWords": [],
+    "tags": ["mythic locale","plane"],
+    "type": "Plane",
+    "description": [
+      "The @+Abyss+@ is the infinitely deep, endlessly shifting pit which is the home of all demons. The plane is located at the bottom of the Elemental Chaos."
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+
+    }
+  },
+  "Nine-Hells": {
+    "playerKnown": true,
+    "path": "location",
+    "hideOnCat": false,
+    "name": "Nine Hells",
+    "nickname": "the Nine Hells",
+    "linkingWords": [],
+    "tags": ["mythic locale","plane"],
+    "type": "Plane",
+    "description": [
+      "The @+Nine Hells+@ is a plane of sinister evil and institutional cruelty located in the Astral Sea. The hells are organized into nine different infinite layers which are connected via barriers. Thus the lowest point of one layer manifests as the highest point of the one below it. It is definitely the home of all cosmic Lawful Evil and is ruled by the Master."
     ],
     "articles": {
 
