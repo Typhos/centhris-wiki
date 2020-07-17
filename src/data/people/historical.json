@@ -130,12 +130,12 @@
       "Einarr would remain working at his forge in Thol'goród for the rest of his days. Though none are truely sure of his fate, the last confirmed accounts of the first master runesmith were of him defending the forges of Thol'goród during the fall of the city. "
     ]
   },
-  "Erèdin-Esk-Zarlaya": {
+  "Eredin-Esk-Zarlaya": {
     "playerKnown": false,
     "path": "person",
     "hideOnCat": true,
-    "name": "Erèdin Esk Zarlaya",
-    "nickname": "Eredin Esk Zarlaya",
+    "name": "Eredin Esk Zarlaya",
+    "nickname": "Erèdin Esk Zarlaya",
     "linkingWords": [],
     "tags": ["half-elf","mage","traitor","historical"],
     "birthYear": "2C 620",
