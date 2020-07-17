@@ -205,7 +205,7 @@
     "name": "Cursebound Knight",
     "nickname": "Cursebound Knight",
     "type": "Undead",
-    "tags": ["elemental","giant"],
+    "tags": ["undead knight","lord of the fell servant"],
     "description": [
       "@+Cursebound Knights+@ are undead servants of the Fell Lords, the terrifying masters of the Shadowfell. The spirits of warriors who abandoned, or betrayed their masters in life, these knights are forever bound to serve their fell masters in death. These knights wear dark, iron plate and carry large, cruel weapons. The blades of those they betrayed in life mark their large, lumbering forms and dark smoke emanates from the cracks and seams in their armor. Despite their hulking size, cursebound knights possess the martial prowess and refined skill they once honed in life. "
     ],
@@ -263,6 +263,76 @@
       {
         "name": "Spirit Burst (Recharge 5-6).",
         "text": "The Cursebound Knight releases tendrils of writhing shadow. Each creature within 15 feet must make a DC 15 Dexterity saving throw or take 14 (3d8) necrotic damage on a failed save, or half as much on a successful one."
+      }
+    ]
+  },
+
+  "Pale-Collector": {
+    "playerKnown": true,
+    "path": "creature",
+    "hideOnCat": false,
+    "showStatBlock": false,
+    "name": "Pale Collector",
+    "nickname": "Pale Collector",
+    "type": "Undead",
+    "tags": ["undead","fey"],
+    "description": [
+      "@+Pale Collectors+@ are the undead spirits of those who have perished in the wild forests of the world. These gaunt, haunting figures protect forests from those who would seek to harm the wilderness, collecting the skulls of defilers, poachers, bandits and trespassers of sacred spaces. Once the collector has killed the subject of its ire, it displays the body, either hanging from tree branches or impaled against a tree trunk, as a warning to others who might think about committing similar acts.",
+      "Though undead, people of the frigid places of the world generally consider pale collectors as guardian spirits of the woods instead of abominations. They are generally relegated to folklore, with few ever coming into contact with such spirits; they are the ghost stories used to keep children out of the woods and safe from more common predators of the wild lands of the world."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    },
+    "alignment": "Lawful Neutral",
+    "creatureType": "Medium undead",
+    "stats": [
+      {"name": "STR", "val": 12},
+      {"name": "DEX", "val": 18},
+      {"name": "CON", "val": 12},
+      {"name": "INT", "val": 11},
+      {"name": "WIS", "val": 22},
+      {"name": "CHA", "val": 9}
+    ],
+    "savingThrows": "Con +4, Wis +10",
+    "skills": "Insight +10, Surivival +10, Perception +10",
+    "passiveWisdom": 20,
+    "armor": "16 (studded leather)",
+    "hitPoint": 154,
+    "hitDie": "28d8+28",
+    "speed": "30 ft.",
+    "senses": "Darkvision 60 ft.",
+    "languages": "Understands the languages it knew in life, cannot speak but can write",
+    "challenge": "7",
+    "abilities": [
+      {
+        "name": "Turn Immunity.",
+        "text": "The pale collector is immune to effects that turn undead."
+      },
+      {
+        "name": "Innate Spellcasting.",
+        "text": ["The pale collector's spellcasting ability is Wisdom (spell save DC 18, spell attack bonus +10). The pale collector can innately cast the following spells, requiring only somatic components: ",
+          "@+At will+@: @*dancing lights, entangle, faerie fire*@ ",
+          "@+1/day each+@: @*vampiric touch, contagion*@"
+        ]
+      },
+      {
+        "name": "Mount.",
+        "text": "A Pale Collector will often bewitch a mount from among the beasts of the forest. This mount has the same statistics as a @+Cave Bear+@, @+Owlbear+@, @+Giant Elk+@, or @+Giant Boar+@, and acts as an independent mount, except that it instinctively knows and unquestioningly obeys the wishes of the pale collector, and its attacks deal an extra 2d8 necrotic damage."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "text": "The pale collector makes two attacks with its Staff of Reaping."
+      },
+      {
+        "name": "Staff of Reaping.",
+        "text": "Melee weapon attack: +9 to hit, reach 5ft, one target. Hit: 5 (1d6+1) bludgeoning damage plus 18 (4d8) necrotic damage."
+      },
+      {
+        "name": "Raise Collector.",
+        "text": "The pale collector touches one corpse killed by exposure to a cold environment that is no more than one year and one day old. The corpse becomes a Pale Collector, with half its hit point maximum, regenerating to full health after one day. A pale collector may make this action once, after which it will die after a period of 1d4+3 years."
       }
     ]
   }

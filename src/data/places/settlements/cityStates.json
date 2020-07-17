@@ -78,6 +78,7 @@
     "population": "~5000",
     "races": ["human","tiefling","dwarf","dragonborn","tortle"],
     "government": "Elective Monarchy",
+    "leaders": ["Lord Mayor Mertien Sarstina"],
     "currency": "Barrier Coast Hull",
     "location": "Barrier Coast",
     "description": [

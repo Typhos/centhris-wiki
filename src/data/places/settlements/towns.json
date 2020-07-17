@@ -165,5 +165,37 @@
     "description": [
       "@+Salmas+@ is a town in the Kingdom of Abbasyr."
     ]
+  },
+  "Reykrang": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["town","Dol Obok","ulfwyst"],
+    "name": "Reykrang",
+    "nickname": "Reykrang",
+    "linkingWords": [],
+    "type": "Town",
+    "population": "1,280",
+    "races": ["dwarf","human","half-orc","gnome"],
+    "location": "Iron Hills",
+    "leaders": "Serthri Caskmantle",
+    "description": [
+      "@+Reykrang+@ is a town in the Iron Hills which holds alliegance to the Kingdom of Dol Obok."
+    ]
+  },
+  "Aurvangr": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["town","Dol Obok","ulfwyst"],
+    "name": "Aurvangr",
+    "nickname": "Aurvangr",
+    "linkingWords": [],
+    "type": "Town",
+    "population": "960",
+    "races": ["dwarf","human","gnome","tiefling"],
+    "location": "Damali Steppe",
+    "leaders": "Ungri Steelhammer",
+    "description": [
+      "@+Aurvangr+@ is a town located in the western Damali Steppe, in the foothills of the Zavalev Mountains. The town is independent, but has close ties with the dwarves of Fûthmér."
+    ]
   }
 }

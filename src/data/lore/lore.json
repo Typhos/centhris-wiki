@@ -2,8 +2,8 @@
   "Centhrian-Pantheon": {
     "subcatLink": "pantheon",
     "playerKnown": true,
-    "path": "lore",
-    "hideOnCat": false,
+    "path": "pantheon",
+    "hideOnCat": true,
     "name": "Centhrian Pantheon",
     "nickname": "The Centhrian Pantheon",
     "linkingWords": [
@@ -91,7 +91,7 @@
   "The-Vesdarian-Calendar": {
     "playerKnown": true,
     "path": "lore",
-    "hideOnCat": false,
+    "hideOnCat": true,
     "doNotClipCatImg": true,
     "name": "The Vesdarian Calendar",
     "nickname": "The Vësdarian Calendar",
@@ -194,5 +194,25 @@
     },
     "dmArticles": {
     }
+  },
+  
+  "Cosmos": {
+    "subcatLink": "cosmos",
+    "playerKnown": false,
+    "path": "cosmos",
+    "hideOnCat": true,
+    "name": "Cosmos",
+    "nickname": "Universal Cosmology",
+    "linkingWords": [
+      "the Planes",
+      "the Realms",
+      "Planes of Existence",
+      "Realms of Existence"
+    ],
+    "type": "Centhris World Lore",
+    "tags": ["world lore","cosmos","planes of existence","outer planes","inner planes"],
+    "description": [
+      "@+Universal Cosmology+@, sometimees referred to as the study of the Realms of Existence, is the study of the cosmos. The composition of the realms is always under scholarly debate, with common points of contention being the organization, number and alignment of the realms. There are many other planes of existence, some very much like the Material world and some so alien that they almost defied description. Other planes can overlap, surround, or penetrate the Prime Material plane, or they might be connected by some mystic avenue, often requiring magic to explore. The most well known instances of such planar interconnections are the First Convergence and the Second Convergence."
+    ]
   }
 }

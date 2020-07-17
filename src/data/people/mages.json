@@ -249,5 +249,24 @@
     },
     "dmArticles": {
     }
+  },
+  "Hesen-Attar": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Hesen Attar",
+    "nickname": "Hesen Attar",
+    "linkingWords": [],
+    "tags": ["human","mage","council of kaeldrin"],
+    "race": "Human",
+    "gender": "Male",
+    "age": "unknown",
+    "titles": ["Archmage of Time","the Chronomancer"],
+    "description": [
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    }
   }
 }

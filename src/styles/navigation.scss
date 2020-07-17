@@ -63,15 +63,15 @@
           line-height: 2em;
           padding: 0.5em 0.5em;
           padding-left: 30px;
-          font-family: $fira;
+          font-family: $headingText;
           text-transform: uppercase;
           letter-spacing: 0.1em;
-          background-color: $tagLink;
-          color: $lightText;
+          background-color: $charcoal;
+          color: $moodGreen;
           font-weight: 400;
           margin-left: 1px;
           margin-top: 0;
-          width: 194px;
+          width: 192px;
         }
 
         .closeMenu {
@@ -153,6 +153,14 @@
       z-index: 10;
       background-color: $white;
       text-transform: uppercase;
+
+      hr {
+        width: 90%;
+        position: relative;
+        left: -10%;
+        border: 0;
+        border-top: 1px solid $charcoal;
+      }
     }
   }
 }
@@ -182,6 +190,10 @@
       background-color: #282c34;
       margin: 0;
       font-family: $sansText;
+
+      hr {
+        width: 60%;
+      }
 
       .navigationListItem {
         padding-bottom: 0.25em;

@@ -35,7 +35,7 @@
     "description": [
       "The Desolate Wastes are a region of arid badlands in central Ulfwyst. The wastes are located east of the Pillars of Amud, and west of the Kelishan Highlands. They act as a natural northern border to the Theocracy of Tovanis, and a southern border to the Ildroun Vale. On the eastern end of the wastes sits the Crimson Loch to the north and Lake Droknog to the south, near the Eye of Vel'dorin."
     ],
-    "dmArticles": {
+    "articles": {
       "History": [
         "The Desolate Wastes is a region with a cyclical pattern, alternating between a verdant grassland and a parched, broken badland. This cycle generally shifts every ten to twenty thousand years, with the next shift likely to occur in another six thousand years from now. The previous cyclical change was accelerated by the First Convergence, which saw a great number of fire and wind elementals descend upon the region. The presence of the elementals, and their ensuing battles over the region, dried the region and had lasting impact on Lake Droknog.",
         "@#Lake Droknog, the Silt Sea#@",

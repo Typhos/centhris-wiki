@@ -12,9 +12,10 @@
     "races": ["dwarf","human","uklang","half-orc"],
     "government": "Hereditary Monarchy",
     "location": "Torick Peaks",
-    "leaders": ["Thane Vigdis Elderbeard"],
+    "leaders": ["Thane Valbrand Grǫnhárr"],
     "description": [
-        "The city of @+Ankor Duraz+@ is located under Mount Certunsk in the Torick Peaks. The expansive mines under the city have made it one of the richest dwarven holds in Ulfwyst. This wealth, and the independent status of the city have put it at odds with both the Realm of Cibrin and the dwarven kingdom of Dol Obok. The city's refusal to ally with Cibrin has resulted in numerous sieges of Mount Certunsk, none of which have managed to breach the city's defenses. High King Bramdur Thundershod of Dol Obok wishes to bring the city into his realm with promises of protection and common dwarf heritage, but to no avail."
+        "The city of @+Ankor Duraz+@ is located under Mount Certunsk in the Torick Peaks. The expansive mines under the city have made it one of the richest dwarven holds in Ulfwyst. This wealth, and the independent status of the city have put it at odds with both the Realm of Cibrin and the dwarven kingdom of Dol Obok. The city's refusal to ally with Cibrin has resulted in numerous sieges of Mount Certunsk, none of which have managed to breach the city's defenses.",
+        "The hold and the Kingdom of Dol Obok have extensive trade agreements. Merchants from each state can be found throughout the southern reaches of Ulfwyst, trading dwarven wares in most city markets. King Bramdur Thundershod wishes to bring the city into his realm due to common heritage, protection and proximity, but Thane Valbrand Grǫnhárr has publicly stated that his people have no need of outside protection, especially not at the loss of their autonomy. "
     ],
     "dmArticles": {
     }
@@ -400,7 +401,7 @@
     "nation": "Dol Obok",
     "leaders": ["Thane Jorstaal Bazgryn"],
     "description": [
-        "The dwarven fortress of Zul Baraz guards Black Dragon Pass, one of the few natural passages into the Pillars of Amud. "
+        "The dwarven fortress of Zul Baraz guards the Sámgar Skála, known in common as Black Dragon Pass, one of the few natural passages into the Pillars of Amud. "
     ],
     "dmArticles": {
     }

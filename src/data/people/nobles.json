@@ -265,5 +265,22 @@
     "description": [
       "@+Han Darga Crogosh+@ is the chieftain of Clan Godak and the Han Darga, or reigning warlord, of Cibrin. He came to power in 2C 2568 by defeating the previous Han Darga, Ovdarg of Clan Narod, in Dörak'nör. Crogosh is a legendary warrior, rivaling the greatest living warriors on Centhris."
     ]
+  },
+  "Mertien-Sarstina": {
+    "playerKnown": true,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Mertien Sarstina",
+    "nickname": "Lord Mayor Mertien Sarstina",
+    "linkingWords": [],
+    "tags": ["human","lord mayor","noble","Free City of Korasov"],
+    "age": "33",
+    "gender": "Male",
+    "race": "Human",
+    "occupation": "Lord Mayor",
+    "affiliations": ["Korasov"],
+    "description": [
+      "@+Mertien Sarstina+@ is the lord mayor of the free city-state of Korasov."
+    ]
   }
 }

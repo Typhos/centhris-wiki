@@ -106,5 +106,51 @@
     "description": [
       "@+Zecele of Belorus+@ was a human bard and adventurer who was part of the Ruby Drifters adventuring group. Before joining the Drifters, she was a well known entertainer in the Archduchy of Zurast."
     ]
+  },
+  "Einarr-Nýridja": {
+    "playerKnown": true,
+    "path": "person",
+    "hideOnCat": true,
+    "name": "Einarr Nýridja",
+    "nickname": "Einarr Nyridja",
+    "linkingWords": [],
+    "tags": ["dwarf","runesmith","historical"],
+    "birthYear": "2C 974",
+    "deathYear": "2C 1351",
+    "gender": "Male",
+    "race": "Dwarf",
+    "occupation": "Master Runesmith",
+    "affiliations": ["Osed'ushang"],
+    "description": [
+      "@+Einarr Nýridja+@ was a dwarven smith and cleric of the the Forgelord, the dwarven society's understanding of the Maker. Legend states that Einarr was the first runesmith, blessed by the gods with the insight to create the first dwarven runes. Einarr was born into a small, minor clan in the Kingdom of Ushal Keshan. Finding his calling at a young age, he trained as a cleric of the forge, learning the arts of blacksmithing and silversmithing from the venerable elder smiths of his hold.",
+      "After completing his apprenticeship, which lasted roughly 60 years, the young dwarf set off to Osed'ushang, the great hold carved into the heart of Mount Thundermane. There, in the deep forges of Thol'goród, did the Forgelord speak to Einarr, whispering the secrets of a new, dwarven craft. Surging with divine inspiration, the cleric commissioned a new, private workshop, spending every last coin he could. He spent months isolated in the heart of the mountain, working tirelessly to understand his visions.",
+      "Finally, in the year 2C 1127, after nearly five months of isolation, Einarr completely his first runic work, a simple, steel hammer which he named Hósvindr. Overjoyed, he immediately set off to the temple of the @~Forgelord~@, Hyrrhǫrgr to donate the tool. The priests of the smithing god were confused at first, for they had never seen such an item. To them, it appeared to be only a simple hammer with a large, glowing rune engraved on the head. However, once the excited smith was able to explain how and why he was able to create such an object, the priests became overjoyed and word quickly spread of a young smith who had created an entirely new smithing artform.",
+      "@~It did not take long for the dwarves of Osed'ushang to hail Einarr as a prophet of the Forgelord.~@ The young smith soon began to find dwarves on his doorstep, hoping to be taken in as an apprentice. Over the next century, Einarr would split his time between teaching this new art to those interested and perfecting his own craft. Within two decades, his workshop had grown from a single forge into a space large enough to house fourty full-time artisans, all practicing runesmithing.",
+      "Dwarves from other holds would soon arrive as well and a formal system of apprenticeship was established, with basic training lasting two decades. These dwarves would then head home to start runeforges of their own. Thus, Einarr's legend, and the art of runesmithing itself spread across the world.",
+      "Einarr would remain working at his forge in Thol'goród for the rest of his days. Though none are truely sure of his fate, the last confirmed accounts of the first master runesmith were of him defending the forges of Thol'goród during the fall of the city. "
+    ]
+  },
+  "Erèdin-Esk-Zarlaya": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": true,
+    "name": "Erèdin Esk Zarlaya",
+    "nickname": "Eredin Esk Zarlaya",
+    "linkingWords": [],
+    "tags": ["half-elf","mage","traitor","historical"],
+    "birthYear": "2C 620",
+    "gender": "Male",
+    "race": "Half-Elf",
+    "occupation": ["Archmage","Grand Magistrix"],
+    "affiliations": ["Utharian Empire"],
+    "description": [
+      "@+Erèdin Esk Zarlaya+@ was a powerful sorcerer and archmage of the Utharian Empire, serving as Grand Magistrix on eight separate ocassions. Though a well-regarded and successful politician, his desire for power grew beyond imagining. On the 12th of Heskur, 2C 837, Erèdin entered the Sanctuary of Arcana, and cast himself into the Endanólemë. In doing so, the sorcerer ascended to godhood as the Stygian, @*the Great Betrayer*@."
+    ],
+    "articles": {
+      "Early Life": [
+        "Erèdin was born into a long, wealthy, aristocratic line of elven and human mages. From a young age, he was singled out in aristocratic circles as an incredibly gift arcanist and was approached by multiple prominent sorcerers hoping to have him as their apprentice by the age of 15. He would eventually choose, after much pressure from his parents, to study under the renowned sorceress Zenya Syldi, who had just finished her first term as Grand Magistrix. His parents hoped that under the guidance of such a prominent and well-connected mage, their son would soar to unseen heights in the Utharian noble circles.",
+        "Erèdin entered into the dangerous world of Utharian politics by the age of 24 and quickly found himself elected to important administrative posts. At age 38 he was elected to the role of Grand Magistrix, the supreme executive mage of the empire, for the first time. After finishing his five year term, the sorcerer took a leave of absence to study and improve his magical skill. In a pattern he would repeat numerous times, Erèdin secluded himself for nearly ten years before returning to Utharis to stand for election.After each term, he would once again go into seclusion."
+      ]
+    }
   }
 }

@@ -221,6 +221,7 @@ class Lore extends Component {
               }
             </aside>
             <div className="mainContent">
+              { WikiUtils.stubCheck(lore) }
               { (lore.quote) ? <i className="quote">{lore.quote}</i> : ""}
 
               {descriptionEntries}

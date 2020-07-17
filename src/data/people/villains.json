@@ -328,5 +328,25 @@
         "The crown was taken by Ulfrica Arnbjorg, while the amulet was taken by Balder Arnbjorg. The Lament of Autumn was left behind when the two had to flee the tomb before the wrath of the Barrow Lord consumed them. The risen spirit of the warlock, enraged at his own kin desecrating his tomb, declared a curse upon the bloodline for its treachery."
       ]
     }
+  },
+  "Drekaash": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": true,
+    "name": "Drekaash",
+    "nickname": "Drekaash",
+    "tags": ["half-giant","assassin"],
+    "gender": "Male",
+    "race": "Half-Giant",
+    "titles": ["He of a Thousand Blades"],
+    "occupation": ["Assassin"],
+    "affiliations": ["Realm of Lemuria","Clan Arnbjorg"],
+    "description": [
+      "@+Drekaash+@, better known in circles that seek his services as @*He of a Thousand Blades*@, is a master assassin from the Desolate Wastes. Dispite his great size, Drekaash has become one of the most widely regarded killers-for-hire in Eastern Ulfwyst. Instead of relying on stealth, guile and cunning, Drekaash relies entirely on speed, shock, and brute force to ensure his target's demise before leaving the premise. Those that seek him out do not care that people know their target was targeted for assassination, they simply want to ensure that the job is completed."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    }
   }
 }

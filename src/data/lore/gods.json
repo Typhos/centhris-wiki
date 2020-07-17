@@ -223,8 +223,9 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful neutral","Knowledge","Civilization","Law"],
     "description": [
-      "Kezolet, @+the Arbiter+@, is depicted as a graceful, otherworldly figure clad in robes and ornamental jewelry. The Arbiter is generally portrayed as having an inhuman form, with multiple sets of arms and a face devoid of features. They are depicted with as a tranquil god, serene and detached; not allowing outside forces effect sway their judgments. They embody the ideals of civilized order, including law, order, construction, roads and the crafting of items used in everyday life, such as glassware, pottery, leather work, and jewelry.",
-      "The Church of the Arbiter is often associated with legal systems, civil infrastructure and fortifications. Many clerics of the Arbiter are skilled engineers or legal scholars. Many temples to the Lord of Order double as court houses, town halls or other civic buildings. "
+      "Kezolet, @+the Arbiter+@, is depicted as a graceful, otherworldly figure clad in robes and ornamental jewelry. The Arbiter is generally portrayed as having an inhuman form, possibly with multiple sets of arms, a face devoid of features or a featureless mask obscuring their visage. They are depicted with as a tranquil god, serene and detached; not allowing outside forces effect sway their judgments. They embody the ideals of civilized order, including law, order, construction, roads and the crafting of items used in everyday life, such as glassware, pottery, leather work, and jewelry.",
+      "The Church of the Arbiter is often associated with legal systems, civil infrastructure and fortifications. Many clerics of the Arbiter are skilled engineers or legal scholars. Many temples to the Lord of Order double as court houses, town halls or other civic buildings.",
+      "Shrines to the god of order most often come in the form of tall, square pillars. Most often the outside of the shrine is covered in the legal code for the area, or is used as a prominent place to display edicts or decrees."
     ],
     "articles": {
 
@@ -574,7 +575,8 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful evil"],
     "description": [
-      "Aegeroth, @+the Conqueror+@, is often depicted as a tall humanoid wearing dark, heavy armor. Aegoroth's personal weapons are @+Jor`umoth+@, @*the Blazing Cleaver*@, a flaming battleaxe made of black iron, and @+Olmoraz+@, @*the Blade of Torment*@, a serrated broad sword made from the bones of Obscalyx, the great sea serpent, whom the Iron General slew in the ancient era of the First Convergence.",
+      "Aegeroth, @+the Conqueror+@, is often depicted as a tall humanoid wearing red, heavy armor. The Conqueror is often depicted having dull, ashy, gray skin and hair, and dons a golden laurel wreath. It is said tha the god of war has a pleasant, even jovial, demanor and is second, only to Jandivar, among the gods to partake in jest. It is said that he enjoys all that life has to offer, and encourages his followers to do so as well, for those that live by the sword die just as quickly by it.",
+      "Aegoroth's personal weapons are @+Jor`umoth+@, @*the Blazing Spear*@, a flaming longspear made of black iron, and @+Olmoraz+@, @*the Blade of Torment*@, a serrated broad sword made from the bones of Obscalyx, the great sea serpent, whom the Iron General slew in the ancient era of the First Convergence.",
       "As the embodiment of war, conflict and strife, the Conqueror is the patron of warlords, dictators and any who seek honor or status through marshal means. He is often worshiped alongside other deities, and the faithful see him as a figure of protection, albeit a harsh one. Military commanders and marshals of knightly orders will often invoke his name before the start of a battle in the hope he will bless their side of the conflict. Those who would \"do what needs to be done for the greater good\" falls under the Conqueror's mantle. Many of his clerical servants follow Aegeroth under the belief that it takes strong will and courage to make the world a better place even if the methods are grim.",
       "Some are naturally called to his service, but many of the followers of the Conqueror come follow him after the youthful idealism of the Guardian or the Champion fail them. It is then, when the harsh reality of a dangerous world sets in, that the Cult of the Conqueror may have a point."
     ],
@@ -582,32 +584,36 @@
 
     }
   },
-  "The-Wyrm": {
+  "The-Dragon-Below": {
     "playerKnown": true,
     "path": "lore",
-    "name": "The Wyrm",
-    "nickname": "The Wyrm",
+    "name": "The Dragon Below",
+    "nickname": "The Dragon Below",
     "trueName": "Tiamat",
     "portfolio": [
       "Death",
-      "Blood",
+      "Greed",
       "Zeal"
     ],
     "alignment": "Neutral Evil",
     "gender": "Feminine",
     "titles": [
-
+      "the Wyrm",
+      "Dragon Queen",
+      "Scaled Tyrant",
+      "the Chained Serpent"
     ],
     "worshipers": [
 
     ],
     "symbol": "",
     "shrineImg": ["shrine-wyrm.png"],
-    "linkingWords": ["the Wyrm"],
+    "linkingWords": ["the Wyrm","Tiamat"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic evil","chaos","dragons"],
     "description": [
-
+      "@*Tiamat*@, the @+Dragon Below+@, is the goddess of greed, and the god-queen of all chromatic dragons. Tiamat is depicted as a enormous, five-headed dragon with one for each primary color of the most common species of the chromatic dragon (black, blue, green, red and white). Each head is able to operate entirely independently of the others and has the powers of the respective race of dragonkind. The dragon queen's body shares much in common with that of a wyvern, including a large, poisonous stinger.",
+      "Tiamat's ancient enemy is the Guardian, Bahamut."
     ],
     "articles": {
 
@@ -691,19 +697,20 @@
     "nickname": "The Master",
     "trueName": "Asmodeus",
     "portfolio": [
-      "Knowledge",
-      "Ambition"
+      "Ambition",
+      "Darkness",
+      "Knowledge",     
+      "Law"
     ],
     "alignment": "Lawful Evil",
     "gender": "Masculine",
     "titles": [
-      "Lord of Lies",
-      "Prince of Evil",
+      "The Cloven",
       "Lord of Nessus",
-      "Supreme Master of the Nine Hells"
+      "Master of the Nine Hells"
     ],
     "worshipers": [],
-    "symbol": "Three inverted triangles arranged in a long triangle",
+    "symbol": "Black ram's head",
     "shrineImg": ["shrine-master.png"],
     "linkingWords": ["Asmodeus","the Master"],
     "type": "Greater Deity",
@@ -954,7 +961,7 @@
     "worshipers": [],
     "symbol": "",
     "linkingWords": [""],
-    "type": "Lesser Deity",
+    "type": "Dwarven Deity",
     "tags": ["Lesser Deity","dwarves","dwarf"],
     "description": [
 
@@ -976,7 +983,7 @@
     "worshipers": [],
     "symbol": "",
     "linkingWords": [""],
-    "type": "Lesser Deity",
+    "type": "Dwarven Deity",
     "tags": ["Lesser Deity","dwarves","dwarf"],
     "description": [
 
@@ -1009,7 +1016,7 @@
     ],
     "symbol": "horned dwarf face",
     "linkingWords": ["Eshtânïl","the Forgelord","Runegiver"],
-    "type": "Lesser Deity",
+    "type": "Dwarven Deity",
     "tags": ["Lesser Deity","dwarves","dwarf"],
     "description": [
 
@@ -1031,7 +1038,7 @@
     "worshipers": [],
     "symbol": "",
     "linkingWords": [""],
-    "type": "Lesser Deity",
+    "type": "Dwarven Deity",
     "tags": ["Lesser Deity","dwarves","dwarf"],
     "description": [
 

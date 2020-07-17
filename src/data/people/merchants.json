@@ -48,5 +48,26 @@
       "Priceli is a female gnome apothecary who runs the the Trusty Elixir, the local herbalist shop in Rythlon. She is of average height, with bright red hair. Her usual attire is bright clothing and various pieces of gold jewelry. She is an excitable woman, as gnomes tend to be, and is happy to engage other villagers or travelers in lively discussions, especially on the topics of plants, herbs and elixirs.",
       "She is friends with Rakas and Lormin, whom she regularly has drinks with at the Moody Acrobat. She also provides Bordin, the innkeeper, with spices for the food at the inn."
     ]
+  },
+  "Dúrnir": {
+    "playerKnown": true,
+    "path": "person",
+    "hideOnCat": false,
+    "tags": ["gnome","apothecary","rythlon","navolin","merchant"],
+    "name": "Dúrnir",
+    "nickname": "Durnir",
+    "race": "Dwarf",
+    "gender": "Male",
+    "occupation": "Traveling Merchant",
+    "description": [
+      "@+Dúrnir+@ is a traveling dwarven merchant who buys and sells all manner of goods. He travels with his @*Giant Boar*@ companion, Sutri, who serves as a pack and guard animal. Dúrnir has a slightly surly demeanor, but is a fair an honest businessdwarf. He does regular business with the dwarf holds of Dol Obok, the Realm of Cibrin, the Realm of Lemuria, the Kingdom of Navolin and the Archduchy of Zurast.",
+      "@&./creatures/Giant-Boar.png|The Giant Boar Sutri, the traveling companion of Dúrnir.&@Along with his traveling supplies, goods for sale, and personal belongings, Dúrnir keeps a fully functional, magically expanding forge in his possession. He, like so many other dwarves, is a natural smith. He is willing to repair, upgrade, or enchant customer's arms and armor if they have the coin. ",
+      "Dúrnir either does not have a clan name, or refuses to provide it when asked."
+    ],
+    "dmArticles": {
+      "Avatar of the Maker": [
+        "In actuality, Dúrnir is an avatar of Usterral, the Maker, the god of creation. He magically traverses the world, looking for worthy individuals to help with his craft. He is a master armor smith, weapon smith, rune smith, and cook."
+      ]
+    }
   }
 }

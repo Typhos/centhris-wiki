@@ -1,15 +1,15 @@
 {
-  "Sentinel-of-Acheron": {
+  "Sentinel-of-Arcadia": {
     "playerKnown": false,
     "path": "creature",
     "hideOnCat": false,
     "showStatBlock": false,
-    "name": "Sentinel of Acheron",
-    "nickname": "Sentinel of Acheron",
+    "name": "Sentinel of Arcadia",
+    "nickname": "Sentinel of Arcadia",
     "type": "Celestial",
     "tags": ["celestial","cavalry"],
     "description": [
-      "@+Sentinels of Acheron+@ are otherworldly beings of cosmic energy that live in the divine realm of the Astral Sea and Elysium."
+      "@+Sentinels of Arcadia+@ are otherworldly beings of cosmic energy that live in the divine realm of the Astral Sea and Elysium."
     ],
     "articles": {
     },
@@ -37,15 +37,11 @@
     "languages": "Celestial",
     "challenge": "9",
     "abilities": [
-      {
-        "name": "Legendary Resistance (3/Day)",
-        "text": "If the void horror fails a saving throw, it can choose to succeed instead."
-      }
     ],
     "actions": [
       {
         "name": "Multiattack.",
-        "text": "The Sentinel of Acheron makes two attacks with its lance."
+        "text": "The Sentinel of Arcadia makes two attacks with its lance."
       },
       {
         "name": "Lance.",

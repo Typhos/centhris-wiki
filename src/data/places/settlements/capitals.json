@@ -7,7 +7,7 @@
     "nickname": "City of Zurast",
     "linkingWords": ["city of Zurast"],
     "type": "Capital City",
-    "population": "22,000",
+    "population": "37,100",
     "races": ["human","elf","gnome","half-elf","half-orc","halfling"],
     "government": "Hereditary Monarchy",
     "leaders": ["Archduke Nicolai Valken"],
@@ -18,6 +18,20 @@
     "articles": {
       "Location": [
         "@~Zurast~@ is situated on the Sulas river, which flows south from the Kelishan Highlands into the Bay of Claws. Located roughly 8 miles from upriver from the Bay of Claws, the city is one of the most important ports in southern Ulfwyst. Even before expanding into a regional power, the city-state served as a major hub of trade and culture in the region, linking the states of Navolin, Istagen, Cibrin, Lemuria and Sedobia."
+      ],
+      "Legal Code": [
+        "The city uses a fairly standard legal code, similar to others used by cities in Eastern Ulfwyst. "
+      ]
+    },
+    "dmArticles": {
+      "Factions": [
+        "There are numerous factional groups in the city. Each faction is comprised of people with aligning interests, and many factions can be further grouped into those with similar interests, though these groups do occasionally break from their bloc.",
+        "@#Elites#@",
+        "The upper class of the city is generally broken down into 4 groups: the nobility, the officers of the Zurastian military, the clergy of the Church of the Eternal and the Court of the Masquerade.",
+        "@#Common Folk#@",
+        "The working class of the city started to organize as early as 2C 2340, understanding the power of their numbers and targeted strikes. The factions of the working class are the Tradesman's guild, the Mason's guild, the enchanter's guild, and the dwarven mercenary guilds.",
+        "@#Underbelly#@",
+        "Though not as influential, the underbelly of @~Zurast~@ has a diverse mixture of peoples. Included in this bloc are the crime lords, the street gangs, and the assassins of the Weeping Eye."
       ]
     }
   },

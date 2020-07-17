@@ -48,6 +48,14 @@
     justify-content: center;
     text-align: center;
 
+    p.hidden {
+      &:after {
+        content: "👁";
+        display: block;
+        color: $susiePurple;
+      }
+    }
+
     img {
       &.crest {
         display: none;
@@ -104,6 +112,29 @@
     p.name {
       width: 100%;
     }
+  }
+}
+
+ul.pinnedList {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-top: 3em;
+
+  li {
+    overflow: hidden;
+    width: 30%;
+    height: 4em;
+    padding-bottom: 6em;
+    align-content: center;
+    text-align: center;
+    clip-path: polygon(7.5% 0%, 100% 0%, 92.5% 100%, 0% 100%);
+  }
+
+  img {
+    box-sizing: content-box;
+    position: relative;
+    width: 500px;    
   }
 }
 

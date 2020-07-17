@@ -11,6 +11,7 @@ import 'styles/categories.scss';
 import 'styles/pantheon.scss';
 
 import godsData from 'data/lore/gods';
+import banner from "img/lore/banners/pantheon-banner.png";
 
 class Pantheon extends Component {
 
@@ -71,11 +72,23 @@ class Pantheon extends Component {
       <Page.LoreCategories>
         <TitleComponent title={`Centhrian Pantheon - Centhris Wiki`} />
         <Back/>
-        <Filter handleFilter={ this.handleFilter } data={this.state.combinedLore}/>
+        {/* <Filter handleFilter={ this.handleFilter } data={this.state.combinedLore}/> */}
         
+
+        <h2 className="fullName">The Centhrian Pantheon</h2>
+        <div style={{
+          display: "block",
+          height:"100px",
+          width: "100%",
+          marginBottom: "2em",
+          opacity: "90%",
+          backgroundImage:`url(${banner})`,
+          backgroundPosition: "center 20%"
+
+        }}></div>
+
         <div id="categories" >
           <article className="lore" id="pantheon">
-            <h2 className="fullName">The Centhrian Pantheon</h2>
             {WikiUtils.linkContent( {...DataLoader.gods, ...pantheonLore}, WikiUtils.textFormatting( pantheonLore.description ) )}
           </article>
           {categories}
@@ -106,8 +119,7 @@ class Pantheon extends Component {
   }
 
   checkEmptyEntry(entry) {
-    // check if the entry is empty to mark it for future writing
-    if ( (!entry.description || entry.description.length <= 0) && this.state.dmView ) {
+    if (this.state.dmView && WikiUtils.stubCheck(entry) ) {
       return "empty";
     }
 
