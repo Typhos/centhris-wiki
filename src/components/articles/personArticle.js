@@ -237,6 +237,7 @@ export default class PeopleArticle extends Component {
           }
         </aside>
         <div className="mainContent">
+          {WikiUtils.stubCheck(person)}
           { person.quote && <i className="quote">{person.quote}</i> }
           {descriptionEntries}
         </div>

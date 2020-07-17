@@ -386,7 +386,7 @@
     "path": "location",
     "name": "Dol Obok",
     "nickname": "Dwarf Kingdom of Dol Obok",
-    "linkingWords": ["Amudian"],
+    "linkingWords": ["Amudian","Kingdom of Dol Obok"],
     "tags": ["kingdom","dwarf","state","ulfwyst","monarchy"],
     "type": "State",
     "capital": "Thellodur",

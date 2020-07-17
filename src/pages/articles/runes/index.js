@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import dwarfRunes from 'data/dwarfRunes';
+import WikiUtils from 'components/utils/wikiUtils';
 import Page from 'components/page';
+import Back from 'components/back';
 import { TitleComponent } from 'components/titleComponent.js';
+
+import banner from "img/lore/banners/runesmithing-banner.png";
 
 const images = require.context('img/runes/', true);
 
@@ -10,7 +14,7 @@ class Runes extends Component {
   constructor (props) {
     super(props);
     this.state = {
-      activeRuneType: null,
+      activeRuneType: "rules",
       activeRuneList: null,
       runeGroups: Object.keys(dwarfRunes),
       itemRunes: [],
@@ -115,25 +119,46 @@ class Runes extends Component {
     return (
       <Page.Runes>
         <TitleComponent title="Runes - Centhris Wiki" />
-        <div className="dwarfRunes">
-          <section className="runeGroups">
-            <form id="runeType">
-              <label key="rules" className={`rules ${ (this.state.activeRuneType === "rules") ? "active" : "" }`}>
-                The Rules of Forging
-                <input type="radio" name="runeType" className="choiceBtn"  value="rules" onClick={this.showRules} />
-              </label>
-              { 
-                this.state.runeGroups.map( x => {
-                  return (
-                    <label key={x} className={ (this.state.activeRuneType === x ) ? 'active' : '' }>{x}<input type="radio" name="runeType" className="choiceBtn"  value={x} onChange={this.getRuneList} /></label>
-                  )
-                })
-              }              
-            </form>
-          </section>
+        <article className="dwarfRunes lore" >
+          <Back/>
+          <h2 className="fullName">Dwarven Runes</h2>
+          <div style={{
+            display: "block",
+            height:"100px",
+            width: "100%",
+            marginBottom: "2em",
+            backgroundImage:`url(${banner})`,
+            backgroundPosition: "center bottom"
 
-          {section}
-        </div>
+          }}></div>
+
+          <div className="mainContent">
+            {
+              WikiUtils.linkContent(dwarfRunes.entry, WikiUtils.textFormatting(dwarfRunes.entry.description) )
+            }
+            <h3 className="subjectArea">Rules and Runes</h3>
+            <p></p>
+            <section className="runeGroups">
+              <form id="runeType">
+                <label key="rules" className={`rules ${ (this.state.activeRuneType === "rules") ? "active" : "" }`}>
+                  The Rules of Forging
+                  <input type="radio" name="runeType" className="choiceBtn"  value="rules" onClick={this.showRules} />
+                </label>
+                { 
+                  this.state.runeGroups.map( x => {
+                    if ( x !== "entry" ) {
+                      return (
+                        <label key={x} className={ (this.state.activeRuneType === x ) ? 'active' : '' }>{x}<input type="radio" name="runeType" className="choiceBtn"  value={x} onChange={this.getRuneList} /></label>
+                      )
+                    }
+                  })
+                }              
+              </form>
+            </section>
+
+            {section}
+          </div>
+        </article>
       </Page.Runes>
     );
   }

@@ -99,6 +99,7 @@ class Organization extends Component {
               }
             </aside>
             <div className="mainContent">
+              {WikiUtils.stubCheck(group)}
               { (group.quote) ? <i className="quote">{group.quote}</i> : ""}
 
               {descriptionEntries}

@@ -124,16 +124,16 @@
       "The Duskspear Peaks, or Tathlok Skirrom as they are referred to in Dwarvish, are a large mountain range in the northwest Entos. The range is highly volcanic and contains numerous valleys, calderas and snow-capped peaks. The mountain range forms a peninsula that makes up the entire northwest area of the continent.  is home to a wide variety of "
     ]
   },
-  "Celestial-Shards": {
+  "Shards-of-Elysium": {
     "playerKnown": false,
     "path": "location",
     "tags": ["mythic","region","ulfwyst","spires","Torisoda Archipelago"],
-    "name": "Celestial Shards",
-    "nickname": "Celestial Shards",
+    "name": "Shards of Elysium",
+    "nickname": "Shards of Elysium",
     "type": "Mountain Range",
     "location": "Isle of Mizera, Torisoda Archipelago",
     "description": [
-      "The Celestial Shards are a mysterious geographic feature of the the Isle of Mizera in the Torisoda Archipelago. The spires are enormous, brilliant shards of white stone which extend from rocky bases of sculpted earth. The spires themselves are comprised of a strange, luminous material which is innately magical and defies the laws of the material realm. Some of the spires no longer have earthen bases, or have been shattered, but instead of falling to the ground, they now float in the sky, piercing the clouds above."
+      "The Shards of Elysium are a mysterious geographic feature of the the Isle of Mizera in the Torisoda Archipelago. The spires are enormous, brilliant shards of white stone which extend from rocky bases of sculpted earth. The spires themselves are comprised of a strange, luminous material which is innately magical and defies the laws of the material realm. Some of the spires no longer have earthen bases, or have been shattered, but instead of falling to the ground, they now float in the sky, piercing the clouds above."
     ]    
   },
   "Eye-of-Vel'dorin": {

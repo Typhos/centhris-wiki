@@ -273,5 +273,31 @@ export default class WikiUtils {
     });
 
   }
+
+  static stubCheck (entry) {
+    const quote = entry.quote || "";
+    const description = entry.description.join(" ");
+    const articles = entry.articles;
+    let articleStr = "";
+
+    if ( articles ) {
+      articleStr = Object.keys(articles).map( key => {
+        let ar = articles[key];
+
+        return key.concat(" ", ar.join(" "));
+      }).join(" ");
+    }
+
+    if ( quote.length + description.length + articleStr.length <= 750 ) {
+      return (
+        <p className="stub">
+          <h3>This article is a stub</h3>
+          <span>If you feel it requires an update to help with your understanding of the world, please let the GM know.</span>
+        </p>
+      );
+    } else {
+      return false;
+    }
+  }
   
 }

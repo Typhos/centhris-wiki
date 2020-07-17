@@ -9,6 +9,7 @@ import Accountability from 'components/accountability';
 
 import App from './components/app';
 import {Characters} from './pages/categories/characters/index';
+import {Cosmos} from './pages/articles/cosmos/index';
 import {Creatures} from './pages/articles/creatures/index';
 import {CreatureCategories} from './pages/categories/creatures/index';
 import {Error404} from './pages/404/index';
@@ -83,6 +84,7 @@ const routing = (
         <Route path="/lore/The-Vesdarian-Calendar" component={VesdarianCalendar} />
         <Route path="/player-character" component={Player} />
         <Route path="/characters" component={Characters} />
+        <Route path="/cosmos/" component={Cosmos} />
         <Route path="/creature" component={Creatures} />
         <Route path="/creatureTypes/" component={CreatureCategories} />
         <Route path="/history/" component={History} />

@@ -9,6 +9,10 @@ import Page from 'components/page';
 import WikiUtils from "components/utils/wikiUtils";
 import 'styles/categories.scss';
 
+import calendarImg from "img/lore/banners/calendar-banner.png";
+import pantheonImg from "img/lore/banners/pantheon-banner.png";
+import cosmosImg from "img/lore/banners/cosmos-banner.png";
+
 class LoreCategories extends Component {
 
   constructor (props) {
@@ -77,6 +81,8 @@ class LoreCategories extends Component {
       )
     });
 
+    const allImages = require.context('img/', true);
+
     return (
       <Page.LoreCategories>
         <TitleComponent title={`Lore - Centhris Wiki`} />
@@ -84,6 +90,30 @@ class LoreCategories extends Component {
         <Filter handleFilter={ this.handleFilter }  data={this.state.combinedLore}/>
 
         <h2 className="sectionGroup">Lore of Centhris <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
+
+        <div id="pinnedLore">
+          <ul className="pinnedList">
+            <li className="entry">
+              <Link to={ {pathname: `/pantheon`, state: "update"}}>
+                <img className="landscape" alt="" src={pantheonImg} />
+                <p>Pantheon</p>
+              </Link>
+            </li>
+            <li className="entry">
+              <Link to={ {pathname: `/lore/The-Vesdarian-Calendar`, state: "update"}}>
+                <img className="landscape" alt="" src={calendarImg} />
+                <p>Vesdarian Calendar</p>
+              </Link>
+            </li>
+            <li className="entry">
+              <Link to={ {pathname: `/cosmos`, state: "update"}}>
+                <img className="landscape" alt="" src={cosmosImg} />
+                <p>Universal Cosmology</p>
+              </Link>
+            </li>
+          </ul>
+        </div>
+
         <div id="categories" >
           {categories}
         </div>

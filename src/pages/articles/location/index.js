@@ -113,6 +113,14 @@ class Location extends Component {
                   <p className="values">{location.type}</p>
                 </div>
               }
+
+              { location.alignment &&  
+                <div className="info">
+                  <p className="key">Alignment</p>
+                  <p className="values">{location.alignment}</p>
+                </div>
+              }
+
               { location.population && 
                 <div className="info">
                   <p className="key">Population</p>
@@ -200,6 +208,7 @@ class Location extends Component {
               }
             </aside>
             <div className="mainContent">
+              { WikiUtils.stubCheck(location) }
               { (location.quote) ? <i className="quote">{location.quote}</i> : ""}
 
               { descriptionEntries }
@@ -222,7 +231,7 @@ class Location extends Component {
 
   districtList () {
     const location = this.state.location;
-    const images = require.context('img/places/', false);
+    const images = require.context('img/places/', true);
     let list;
 
     if ( location.districts ) {
@@ -234,7 +243,7 @@ class Location extends Component {
           ( x.linkingWords && x.linkingWords.some( words => words.includes(district) ) ) 
         )[0];
 
-        let districtImg = images("./Belloton.png");
+        let districtImg = images("./districts/Belloton.png");
 
         if (distData) {
           // if the district has an image
@@ -327,8 +336,6 @@ class Location extends Component {
   getArticles(articles) {
     const location = this.state.location;
     let content = [WikiUtils.linkContent(location, WikiUtils.textFormatting(location.description) )];
-
-    content.push(this.districtList());
 
     if (location.articles) {
       for ( let [heading, array] of Object.entries(articles) ) {

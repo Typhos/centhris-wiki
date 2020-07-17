@@ -32,11 +32,12 @@ class People extends Component {
     this.state = {
       peopleData: filteredOutput,
       people: WikiUtils.sortByName( Object.keys(filteredOutput) ),
-      dmMode: dmView,
+      dmView: dmView,
     };
 
     this.handleFilter = this.handleFilter.bind(this);
     this.peopleCategory = this.peopleCategory.bind(this);
+    this.checkEmptyEntry = this.checkEmptyEntry.bind(this);
   }
 
   render () {
@@ -71,7 +72,7 @@ class People extends Component {
     return (
       <li key={person.name.replace(/\s/g,"-")} className="person entry" id={person.name.replace(/\s/g,"-")}>
         <Link className="personLink" to={ { pathname:`/person/${person.name.replace(/\s/g,"-")}`, state: "update" }}>
-          <img className="portrait" alt="" src={imgPath}/>
+          <img className={`portrait ${this.checkEmptyEntry(person)}`} alt="" src={imgPath}/>
           <p className="name">{person.name}</p>
         </Link>
       </li>
@@ -81,6 +82,14 @@ class People extends Component {
   handleFilter(results) {
     console.log(results)
     this.setState({people: results})
+  }
+
+  checkEmptyEntry(entry) {
+    if (this.state.dmView && WikiUtils.stubCheck(entry) ) {
+      return "empty";
+    }
+
+    return "";
   }
 
 }

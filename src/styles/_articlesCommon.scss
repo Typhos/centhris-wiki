@@ -52,6 +52,26 @@ a.externalLink {
 main.content {
   padding: 0 1%;
 
+  div.mainContent p.stub {
+    background-color: rgba($susiePurple, 0.15);
+    padding: 1em 2em;
+    margin-right: 1em;
+    font-family: $headingText;
+    width: 60%;
+
+    h3 {
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 1.25px;
+      margin-bottom: 0.66em;
+    }
+
+    span {
+      font-family: $fira;
+      letter-spacing: 0.75px;
+    }
+  }
+
   aside.infoBox {
     .info {
       align-items: flex-start;
@@ -208,6 +228,11 @@ main.content {
   main.content {
     h2.sectionGroup {
       margin-top: 0;
+    }
+
+    
+    div.mainContent p.stub {
+      width: 85%;
     }
   
     nav.subNav {

@@ -86,30 +86,31 @@ class Places extends Component {
   }
 
   getEntriesByCategory(category) {
+    const places = this.state.combinedPlaces;
     const crests = require.context('img/crests/', true);
     const images = require.context('img/places/', true);
     const allImages = require.context('img/', true);
 
     return this.state.places.map( place => {
-      if ( this.state.combinedPlaces[place].type === category ) {
+      if ( places[place].type === category ) {
         
         let imgSrc = ( images.keys().some( x => x.includes( place ) ) && images( images.keys().filter( x => x.includes( place ) )[0] ) ) 
           || allImages('./placeholder.png');
 
-        if ( this.state.combinedPlaces[place].forceImg && allImages.keys().some( x => x.includes( this.state.combinedPlaces[place].forceImg )) ) {
-          imgSrc = allImages( allImages.keys().filter( x => x.includes( this.state.combinedPlaces[place].forceImg ) ) );
+        if ( places[place].forceImg && allImages.keys().some( x => x.includes( places[place].forceImg )) ) {
+          imgSrc = allImages( allImages.keys().filter( x => x.includes( places[place].forceImg ) ) );
         }
 
         return (
           <li key={place+category} className="entry">
             <Link to={`/location/${place}`}>
               { imgSrc && 
-                <img className={`landscape ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) }`} alt="" src={ imgSrc }/>
+                <img className={`landscape ${ this.checkEmptyEntry(places[place]) }`} alt="" src={ imgSrc }/>
               }
               { crests.keys().some(x => x.includes( place )) &&  
-                <img className={`crest ${ this.checkEmptyEntry(this.state.combinedPlaces[place]) }`} alt="" src={ crests('./' + place + '.png')  }/>
+                <img className={`crest ${ this.checkEmptyEntry(places[place]) }`} alt="" src={ crests('./' + place + '.png')  }/>
               }
-              <p>{this.state.combinedPlaces[place].name}</p>
+              <p className={ (this.state.dmView && !places[place].playerKnown) ? "hidden": "" }>{places[place].name}</p>
             </Link>
           </li>
         )
@@ -119,14 +120,8 @@ class Places extends Component {
   }
 
   checkEmptyEntry(entry) {
-    // check if the entry is empty to mark it for future writing
-    let string = entry.description.join(" ");
-
-    // if ( entry.description.length <= 0 && this.state.dmView ) {
-    if (this.state.dmView) {
-      if ( ( string.match(/\./g) && string.match(/\./g).length <= 2 ) && string.length < 200 ) {
-        return "empty";
-      }
+    if (this.state.dmView && WikiUtils.stubCheck(entry) ) {
+      return "empty";
     }
 
     return "";
