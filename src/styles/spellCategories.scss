@@ -40,3 +40,22 @@
   }
 }
 
+
+@media all and (max-width: $breakpoint-mobile) {
+  .subNav.spells {
+    button.sortButton {
+      display: block;
+      margin: 1em 0;
+    }  
+  }
+
+  #categories.spells {
+    li.entry {
+      min-width: 0;
+      max-width: none;
+      width: 20%;
+      line-height: 1.5em;
+      font-size: 0.9em;
+    }
+  }
+}

@@ -17,8 +17,15 @@
       "materialComponent": "a small, humanoid-shaped doll",
       "classes": ["Sorcerer","Warlock","Wizard"],
       "description": [
-        "You magically binds the fate of @;two creatures;@ by ethereal strings visible only to you. All @;damage;@ and @;magical effects;@ that affect one creature affects the other as well. Each creature that is the target of this spell must make a @;Wisdom saving throw;@. A creature that fails its saving throw has its ethereal threads of fate bound by the caster.",
-        "If @;both creatures;@ fail their saving throws, the spell takes effect immediately. If @;only one creature;@ fails its save, that creature has its fate bound by the spell and the caster may attempt to bind a new creature other than the original targets as a @;bonus action;@ so long as concentration of the spell is maintained. A @;willing creature;@ does not need to make a save against the spell effect.",
+        "You magically bind the fate of @;two creatures;@ by ethereal strings visible only to you. Each creature that is the target of this spell must make a @;Wisdom saving throw;@. A creature that fails its saving throw has its ethereal threads of fate bound by the caster.",
+        
+        "If @;both creatures;@ fail their saving throws, the spell takes effect immediately. If @;only one creature;@ fails its save, that creature has its fate bound by the spell and the caster may attempt to bind a new creature other than the original targets as a @;bonus action;@ so long as concentration of the spell is maintained. If a target under the effect of this spell is @;killed;@, the caster may attempt to bind a new target as a @;bonus action;@. A creature which has passed its saving throw against this spell may not be targeted by it again for @;24 hours;@.",
+        
+        "All @;damage;@ and @;magical effects;@ that affect one creature affects the other as well. If one creature is hit with an effect that does damage, both bound creatures take the same amount of damage, with the shared damage is considered @;force damage;@. If a bound creature is targeted by a spell that requires a save, only the targeted creatures must make the save, but all bound creatures are affected by the outcome. The total amount of damage shared is determined after @;vulnerabilities;@, @;resistances;@ and @;immunities;@ are applied.",
+
+        "If the creatures are targeted by the same @;spell effect;@, all creatures must make the required saves and all damage is combined between them. If both creatures are targeted by a spell with an effect, such as @;faerie fire;@ or @;bane;@, all targets are effected if any of them fail their saving throw.",
+        
+        "A @;willing creature;@ does not need to make a save against the spell effect.",
         "@+At Higher Levels.+@ When you cast this spell using a spell slot of 5th level or higher, the caster may choose an additional target."
       ]
     }
