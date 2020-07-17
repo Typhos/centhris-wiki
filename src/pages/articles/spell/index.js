@@ -46,7 +46,19 @@ class Spell extends Component {
 
             <h2 className="fullName">{spell.nickname}</h2>
             <aside className="infoBox">
-              <h4 className="nickname">{spell.name}</h4>
+              <h4 className="nickname">
+                {spell.name}
+                { (spell.concentration || spell.ritual) &&
+                  <div className="iconContainer">
+                    { spell.concentration && 
+                      <span className="spellIcon">C</span>
+                    }
+                    { spell.ritual && 
+                      <span className="spellIcon">R</span>
+                    }
+                  </div>
+                }
+              </h4>
               { images.keys().some(x => x.includes( spell.school.replace(/\s/g,"-") )) && 
                 <figure className="imgBox">
                   <img className="portrait spellSchool" alt="" src={ images('./' + spell.school.replace(/\s/g,"-") + '.png') }/>
@@ -55,7 +67,12 @@ class Spell extends Component {
               { spell.school &&
                 <div className="info">
                   <p className="key">School</p>
-                  <p className="values">{spell.school}</p>
+                  <p className="values">
+                    {spell.school}
+                    { spell.ritual && 
+                      <span> (ritual)</span>
+                    }
+                  </p>
                 </div>
               }
               { spell.level &&

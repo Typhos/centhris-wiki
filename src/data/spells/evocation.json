@@ -1,0 +1,71 @@
+{ 
+  "Biting-Hoarfrost": {
+    "playerKnown": true,
+    "concentration": false,
+    "ritual": false,
+    "name": "Biting Hoarfrost",
+    "nickname": "Biting Hoarfrost",
+    "tags": ["evocation","druid","cleric","ranger"],
+    "level": "2nd",
+    "castingTime": "1 Action",
+    "range": "Self (30 ft cone)",
+    "components": ["verbal","somatic","material"],
+    "duration": "Instantaneous",
+    "school": "Evocation",
+    "attackOrSave": "CON Save",
+    "damageEffect": "Cold",
+    "materialComponent": "a handful of snow or chalk dust",
+    "classes": ["Cleric","Druid","Ranger"],
+    "description": [
+      "You blow the white powder from your hand, turning your breath into a chilling blast of arctic wind.",
+      "@;Each creature;@ in a @;30-foot cone;@ must make a @;Constitution;@ saving throw. On a failed save, a target takes @;2d6 cold damage;@ and is @;restrained;@ in ice. On a successful save, the target takes half damage and is not restrained.",
+      "To break out, the restrained target can use its action to make a @;Strength check;@ against your spell save DC. On a success, the target escapes and is no longer restrained by the ice.",
+      "@+At Higher Levels.+@ When you cast this spell using a spell slot of 3rd level or higher, the size of the cone increases by 10 feet and the cold damage increases by 1d6 for each slot above 2nd."
+    ]
+  },
+  "Forked-Lightning": {
+    "playerKnown": true,
+    "concentration": false,
+    "ritual": false,
+    "name": "Forked Lightning",
+    "nickname": "Forked Lightning",
+    "tags": ["evocation","sorcerer","wizard","artificer","warlock"],
+    "level": "2nd",
+    "castingTime": "1 Action",
+    "range": "60 ft",
+    "components": ["verbal","somatic"],
+    "duration": "Instantaneous",
+    "school": "Evocation",
+    "attackOrSave": "Ranged Spell Attack",
+    "damageEffect": "Lightning",
+    "materialComponent": "",
+    "classes": ["Artificer","Sorcerer","Warlock","Wizard"],
+    "description": [
+      "You create two arcs of lightning that streak towards @;two different targets;@. Make a @;ranged spell attack;@ roll for each arc. On a hit, the target takes @;2d8 lightning;@ damage. If both targets are hit and within @;30 feet of each other;@, another arc of lightning forms between them, and they each take an extra @;1d8 lightning;@ damage.",
+      "@+At Higher Levels.+@ When you cast this spell using a spell slot of 3rd level or higher, the damage of each initial arc increases by @;1d8;@ for each slot level above 2nd."
+    ]
+  },
+  "Storm-Hammer": {
+    "playerKnown": true,
+    "concentration": false,
+    "ritual": false,
+    "name": "Storm Hammer",
+    "nickname": "Storm Hammer",
+    "tags": ["evocation","sorcerer","wizard","cleric","warlock"],
+    "level": "5th",
+    "castingTime": "1 Action",
+    "range": "150 ft",
+    "components": ["verbal","somatic","material"],
+    "duration": "Instantaneous",
+    "school": "Evocation",
+    "attackOrSave": "DEX Save",
+    "damageEffect": "Lightning",
+    "materialComponent": "A hammer made of metal",
+    "classes": ["Cleric","Sorcerer","Warlock","Wizard"],
+    "description": [
+      "You pull your hand down, causing a colossal hammer of lightning to crash down upon a location within @;150 feet;@. All creatures in @;20 foot radius;@ of the point of impact must make a @;Dexterity;@ saving throw or take @;4d8 bludgeoning damage;@ and @;4d8 lightning damage;@, or half as much on a success.",
+      "The area affected by the spell becomes scorched and unstable, counting as @;difficult terrain;@ for the next month. This spell deals double damage against objects and structures.",
+      "@+At Higher Levels.+@ When you cast this spell using a spell slot of 6th level or higher, the @;lightning damage;@ increases by @;1d8;@ for each slot level above 6th."
+    ]
+  }
+}
