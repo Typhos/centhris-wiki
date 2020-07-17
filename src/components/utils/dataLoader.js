@@ -14,7 +14,7 @@ import allGroups         from "data/groups/allGroups";
 // ==== ALL DATA IMPORTS FOR LOCATIONS
 import allPlaces         from "data/places/allPlaces";
 
-import spellData         from 'data/spells';
+import spellData         from 'data/spells/allSpells';
   
 import ships             from 'data/misc/ships';
 import items             from 'data/misc/items';
