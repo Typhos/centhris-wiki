@@ -169,6 +169,16 @@
       }
     }
 
+    #ruleSection {
+      ul {
+        li {
+          margin-left: auto;
+          margin-right: auto;
+          width: 90%;
+        }
+      }
+    }
+
     ul.runeList {
       padding: 0;
       justify-content: space-evenly;

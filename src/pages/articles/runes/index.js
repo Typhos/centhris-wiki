@@ -80,11 +80,7 @@ class Runes extends Component {
         <article className="dwarfRunes lore" >
           <Back/>
           <h2 className="fullName">Dwarven Runes</h2>
-          <div style={{
-            display: "block",
-            height:"100px",
-            width: "100%",
-            marginBottom: "2em",
+          <div className="pageBanner" style={{
             backgroundImage:`url(${banner})`,
             backgroundPosition: "center bottom"
           }}></div>

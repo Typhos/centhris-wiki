@@ -76,12 +76,7 @@ class Pantheon extends Component {
         
 
         <h2 className="fullName">The Centhrian Pantheon</h2>
-        <div style={{
-          display: "block",
-          height:"100px",
-          width: "100%",
-          marginBottom: "2em",
-          opacity: "90%",
+        <div className="pageBanner" style={{
           backgroundImage:`url(${banner})`,
           backgroundPosition: "center 20%"
 
