@@ -93,7 +93,7 @@
 
     ],
     "memberNumber": "15",
-    "forceImg": "/places/Storsal-Helter",
+    "forceImg": "Storsal-Helter",
     "leaders": [
       "High Queen Inga Villdyr"
     ],
@@ -138,10 +138,11 @@
     }
   },
   "Cult-of-the-Dread-King": {
-    "playerKnown": true,
+    "playerKnown": false,
     "path": "group",
     "name": "Cult of the Dread King",
     "nickname": "Cult of the Dread King",
+    "linkingWords": ["Dark Cult"],
     "tags": ["demon cult","chaotic evil","Ulfwyst"],
     "type": "Secret Society",
     "location": "Ulfwyst",
