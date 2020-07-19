@@ -25,6 +25,30 @@
     }
   }
 
+  .linksGroup {
+    display: flex;
+    align-content: top;
+    justify-content: space-evenly;
+
+    a.runeGroupLink {
+      display: inline-block;
+      width: 20%;
+      text-align: center;
+    }
+
+    img.runeImg {
+      height: 5em;
+      margin: 2em 0 1em;
+    }
+
+    p {
+      font-family: $runic;
+      font-size: 1.5em;
+    }
+  }
+
+  
+
   li.rune {
     display: grid;
     max-width: 90%;
@@ -91,20 +115,24 @@
 
     ul {
       padding: 0;
-      max-width: 90%;
+      max-width: 100%;
       align-self: center;
+      display: flex;
+      flex-wrap: wrap;
 
       li {
         list-style-type: none;
         margin-bottom: 2rem;
         line-height: 1.75em;
         text-align: left;
+        width: 45%;
+        margin-right: 5%;
 
         h3 {
           padding: 0 0 0.5em;
           border-bottom: 1px solid $blue;
-          font-family: $styleText;
-          font-size: 1.2em;
+          font-family: $runic;
+          font-size: 1.5em;
           font-variant: small-caps;
           letter-spacing: 0.1em;
           word-spacing: 0.25em;
@@ -112,6 +140,8 @@
 
         p {
           margin: 1em 0 1em;
+          line-height: 2em;
+          font-family: $fira;
         }
 
         small {

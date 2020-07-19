@@ -3,7 +3,7 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Guardian",
-    "nickname": "The Guardian",
+    "nickname": "Bahamut, the Guardian",
     "trueName": "Bahamut",
     "portfolio": [
       "Life",
@@ -70,7 +70,7 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Eternal",
-    "nickname": "The Eternal",
+    "nickname": "Anethos, the Eternal",
     "trueName": "Anethos",
     "portfolio": [
       "Life",
@@ -107,7 +107,7 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Maker",
-    "nickname": "The Maker",
+    "nickname": "Usterral, the Maker",
     "trueName": "Usterral",
     "portfolio": [
       "Forge",
@@ -142,7 +142,7 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Champion",
-    "nickname": "The Champion",
+    "nickname": "Isilena, the Champion",
     "linkingWords": ["Isilena","the Champion"],
     "trueName": "Isilena",
     "portfolio": [
@@ -195,7 +195,7 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Arbiter",
-    "nickname": "The Arbiter",
+    "nickname": "Kezolet, the Arbiter",
     "trueName": "Kezolet",
     "portfolio": [
       "Order",
@@ -238,7 +238,7 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Maiden",
-    "nickname": "The Maiden",
+    "nickname": "Yelensa, the Maiden",
     "trueName": "Yelensa",
     "portfolio": [
       "Light",
@@ -275,7 +275,7 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Wanderer",
-    "nickname": "The Wanderer",
+    "nickname": "Dhynir, the Wanderer",
     "trueName": "Dhynir",
     "portfolio": [
       "Trickery",
@@ -310,7 +310,7 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Harlequin",
-    "nickname": "The Harlequin",
+    "nickname": "Jandivar, the Harlequin",
     "trueName": "Jandivar",
     "portfolio": [
       "Trickery",
@@ -372,7 +372,7 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Tempest",
-    "nickname": "The Tempest",
+    "nickname": "Ukrom, the Tempest",
     "trueName": "Ukrom",
     "portfolio": [
       "Tempest",
@@ -429,8 +429,11 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Philosopher",
-    "nickname": "The Philosopher",
-    "linkingWords": ["Nevondria", "the Philosopher"],
+    "nickname": "Nevondria, the Philosopher",
+    "linkingWords": [
+      "Nevondria", 
+      "the Philosopher"
+    ],
     "trueName": "Nevondria",
     "portfolio": [
       "Knowledge",
@@ -460,8 +463,8 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Sage",
-    "nickname": "The Sage",
-    "trueName": "Erathī",
+    "nickname": "Herathī, the Sage",
+    "trueName": "Herathī",
     "portfolio": [
       "Nature",
       "Life"
@@ -494,7 +497,7 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Gravekeeper",
-    "nickname": "The Gravekeeper",
+    "nickname": "Neshaya, the Gravekeeper",
     "trueName": "Neshaya",
     "portfolio": [
       "Grave",
@@ -520,7 +523,7 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Shadow",
-    "nickname": "The Shadow",
+    "nickname": "Ozrus, the Shadow",
     "trueName": "Ozrus",
     "portfolio": [
       "Trickery",
@@ -553,9 +556,13 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Conqueror",
-    "nickname": "The Conqueror",
+    "nickname": "Aegeroth, the Conqueror",
     "trueName": "Aegeroth",
-    "linkingWords": ["the Conqueror","the Lord of War","Aegeroth","Aegeroth, the Conqueror"],
+    "linkingWords": [
+      "the Conqueror",
+      "the Lord of War",
+      "Aegeroth"
+    ],
     "portfolio": [
       "War",
       "Strength",
@@ -588,7 +595,7 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Dragon Below",
-    "nickname": "The Dragon Below",
+    "nickname": "Tiamat, The Dragon Below",
     "trueName": "Tiamat",
     "portfolio": [
       "Death",
@@ -623,7 +630,7 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Leviathan",
-    "nickname": "The Leviathan",
+    "nickname": "Veluria, the Leviathan",
     "trueName": "Veluria",
     "portfolio": [
       "Tempest",
@@ -694,7 +701,7 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Master",
-    "nickname": "The Master",
+    "nickname": "Asmodeus, the Master",
     "trueName": "Asmodeus",
     "portfolio": [
       "Ambition",
@@ -726,7 +733,7 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Stygian",
-    "nickname": "The Stygian",
+    "nickname": "Erèdin, the Stygian",
     "trueName": "Erèdin",
     "portfolio": [
       "Grave",

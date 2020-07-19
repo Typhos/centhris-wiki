@@ -18,7 +18,9 @@
     "classes": ["Druid","Ranger","Nature Domain","Oath of the Ancients"],
     "description": [
       "You reach out an touch a @;living tree;@ that is @;your size or larger;@, melding into the trunk. While melded, the tree becomes an @?awakened tree|https://5e.tools/bestiary/awakened-tree-mm.html?@ that obeys your commands. You are physically subsumed within the tree, allowing you to see through its senses and use its actions, and granting you @;total cover;@ within it. You can use your class features while melded with the tree, and spells you cast while melded treat the tree as the spell's point of origin. You may only cast spells with verbal and sematic components.",
+
       "You can use your action to emerge from the tree, ending the melding and returning the tree to normal. If the tree is @;reduced to 0 hit points;@ while you are melded with it, it explodes in a burst of magical flame. All creatures within @;10 feet;@ of the tree must make a @;Dexterity saving throw;@, taking @;4d6 fire damage;@ on a failed save or half as much on a successful one. You automatically fail this save.",
+      
       "@+At Higher Levels.+@ When you cast this spell using a spell slot of 5th level or higher, the tree becomes a @?wood woad|https://5e.tools/bestiary/wood-woad-vgm.html?@ that obeys your commands."
     ]
   }

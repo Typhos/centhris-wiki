@@ -1,0 +1,181 @@
+{
+  "masterRuneOfTheSkylord":{
+      "name":"Master Rune of the Skylord",
+      "type": "weaponRune",
+      "found": false,
+      "repeatable":false,
+      "svg":[
+        22
+      ],
+      "baseCost":2500,
+      "effects":[
+        "A weapon engraved with this rune can be activated with the command word (Anriz). Upon activation, the wielder gains flying speed of 60ft for 1 hour. If the weapon leaves the wielder's hand during the effect, the user immediately loses the ability to fly. The rune cannot be used again for 1d12 hours."
+      ]
+  },
+  "masterRuneOfSwiftness":{
+      "name": "Master Rune of Swiftness",
+      "type": "weaponRune",
+      "found": false,
+      "repeatable":false,
+      "svg":[
+        76
+      ],
+      "baseCost":5000,
+      "effects":[
+        "A weapon engraved with this rune can make one attack with it as a bonus action on each of your turns."
+      ]
+  },
+  "masterRuneofSundering":{
+      "name":"Master Rune of Sundering",
+      "type": "weaponRune",
+      "found": false,
+      "repeatable":false,
+      "svg":[
+        25
+      ],
+      "baseCost":5000,
+      "effects":[
+        "A weapon engraved with rune can be activated with the command word (Imgoz). The user then strikes the ground, sundering the earth and sending forth a cascade of jagged, earthen spikes in a 30 foot line. Each creature in the line must make a Strength saving throw. On a failed save, a creature takes Character Level / 2 (round up) d6 Piercing damage and is restrainted. On a successful save, it takes half as much damage and isn't restrainted by the effect. A creature restrained by this effect makes another Strength saving throw at the end of each of its turns. On a successful save, it is no longer restrained. The rune cannot be activated again until the next dawn."
+      ]
+  },
+  "masterRuneofStorms":{
+      "name":"Master Rune of Storms",
+      "type": "weaponRune",
+      "found": false,
+      "repeatable":false,
+      "svg":[
+        26
+      ],
+      "baseCost":5000,
+      "effects":[
+        ""
+      ]
+  },
+  "masterRuneofGlory":{
+      "name":"Master Rune of Glory",
+      "type": "weaponRune",
+      "found": false,
+      "repeatable":false,
+      "svg":[
+        27
+      ],
+      "baseCost":5000,
+      "effects":[
+        ""
+      ]
+  },
+  "runeofStrength":{
+      "name":"Rune of Strength",
+      "type": "weaponRune",
+      "found": false,
+      "repeatable":false,
+      "svg":[
+        34
+      ],
+      "baseCost":2500,
+      "effects":[
+        ""
+      ]
+  },
+  "runeOfFrost":{
+      "name": "Rune of Frost",
+      "type": "weaponRune",
+      "found": true,
+      "repeatable":true,
+      "svg":[
+        6,
+        49,
+        40
+      ],
+      "baseCost":250,
+      "maxTiers":3,
+      "effects":[
+        "This rune has 2 charges. The power contained within the rune may be expended to add an additional 1d6 points of Cold damage to a damage roll. You may expend all charges at once, or each charge individually. The charges held in the rune are regained after a long rest.",
+        "This rune has 3 charges. The power contained within the rune may be expended to add an additional 2d6 points of Cold damage to a damage roll. You may expend all charges at once, or each charge individually. The charges held in the rune are regained after a long rest.",
+        "This rune has 4 charges. The power contained within the rune may be expended to add an additional 3d6 points of Cold damage to a damage roll. You may expend all charges at once, or each charge individually. The charges held in the rune are regained after a long rest."
+      ]
+  },
+  "runeOfStriking":{
+      "name": "Rune of Striking",
+      "type": "weaponRune",
+      "found": true,
+      "repeatable":true,
+      "svg":[
+        7,
+        43,
+        29
+      ],
+      "baseCost":250,
+      "maxTiers":3,
+      "effects":[
+        "A weapon engraved with this rune has a +1 bonus to attack and damage rolls.",
+        "A weapon engraved with this rune has a +2 bonus to attack and damage rolls.",
+        "A weapon engraved with this rune has a +3 bonus to attack and damage rolls."
+      ]
+  },
+  "runeOfWarning":{
+      "name": "Rune of Warning",
+      "type": "weaponRune",
+      "found": false,
+      "repeatable":false,
+      "svg":[
+        16,
+        11,
+        33
+      ],
+      "baseCost":500,
+      "maxTiers":1,
+      "effects":[
+        "While a weapon engraved with this rune is on your person, you have advantage on initiative rolls."
+      ]
+  },
+  "runeOfTheAncestors":{
+      "name": "Rune of the Ancestors",
+      "type": "weaponRune",
+      "found": true,
+      "repeatable":true,
+      "svg":[
+        50,
+        22,
+        10
+      ],
+      "baseCost":250,
+      "maxTiers":3,
+      "effects":[
+        "When a weapon engraved with this rune scores a critical hit, the bearer regains hit points as if the had spent a Hit Die during a short rest (roll Hit Dice + Con modifier). This effect does not consume the Hit Die.",
+        "When a weapon engraved with this rune scores a critical hit, the bearer regains hit points as if the had spent 2 Hit Dice during a short rest (roll Hit Dice + Con modifier). This effect does not consume the Hit Dice.",
+        "When a weapon engraved with this rune scores a critical hit, the bearer regains hit points as if the had spent 3 Hit Dice during a short rest (roll Hit Dice + Con modifier). This effect does not consume the Hit Dice."
+      ]
+  },
+  "runeOfTheWind":{
+      "name": "Rune of the Wind",
+      "type": "weaponRune",
+      "found": false,
+      "repeatable":true,
+      "svg":[
+        1,
+        12,
+        44
+      ],
+      "baseCost":750,
+      "maxTiers":2,
+      "effects":[
+        "This rune has 1 charge that can be used to cast misty step. The range of the misty step spell is centered on the last projectile fired by this weapon. The weapon regains the lost charge on a long rest.",
+        "This rune has 3 charge that can be used to cast misty step. The range of the misty step spell is centered on the last projectile fired by this weapon. The weapon regains the lost charge on a long rest."
+      ]
+  },
+  "runeOfBinding":{
+      "name": "Rune of Binding",
+      "type": "weaponRune",
+      "found": true,
+      "repeatable":false,
+      "svg":[
+        4
+      ],
+      "baseCost":250,
+      "maxTiers":1,
+      "effects":[
+        "A weapon engraved with this rune is bound to the wielder. The owner may use a bonus action to summon the weapon to their hand from a distance of up to 500 feet."
+      ]
+  }
+}

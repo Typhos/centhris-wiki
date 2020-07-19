@@ -6,7 +6,11 @@
     "tags": ["continent"],
     "name": "Centhris",
     "nickname": "Centhris",
-    "linkingWords": ["Centhrisian","Prime Material Plane"],
+    "linkingWords": [
+      "Centhrisian",
+      "Prime Material Plane",
+      "Prime Material plane"
+    ],
     "type": "Plane",
     "regions": [
       "Cunascus",
@@ -86,7 +90,7 @@
     "type": "Continent",
     "location": "Centhris",
     "description": [
-      "Western Koraxon is a continent in the northwest hemisphere of Centhris, covering roughly 4.3 million square miles."
+      "@+Western Koraxon+@ is a continent in the northwest hemisphere of Centhris, covering roughly 4.3 million square miles."
     ]
   },
   "Thyra": {
@@ -98,7 +102,39 @@
     "type": "Continent",
     "location": "Centhris",
     "description": [
-      "Thyra was a continent located centrally in Centhris, covering roughly 1.7 million square miles. It was almost completely destroyed during the Ruination. The remnants of the continent now make up the Toridosa Archipelago."
+      "@+Thyra+@ was a continent located centrally in Centhris, covering roughly 1.7 million square miles. It was almost completely destroyed during the Ruination. The remnants of the continent now make up the Toridosa Archipelago."
     ]
+  },
+  "Idrothea": {
+    "playerKnown": true,
+    "hideOnCat": true,
+    "name": "Idrothea",
+    "nickname": "Idrothea",
+    "path": "location",
+    "tags": ["moon","dragonborn"],
+    "linkingWords": [
+      "the Amber Moon of Idrothea",
+      "Idrothea, the Amber Moon",
+      "the amber moon",
+      "the Amber Moon"
+    ],
+    "type": "Moon",
+    "location": "Prime Material plane",
+    "description": [
+      "@+Idrothea+@ is an astronomical body orbiting Centhris, and the largest of three natural satellites. It is commonly referred to as the @*Amber Moon*@ due to its pale yellow color. After Anethos, it is the second brightest object in the night sky. Idrothea has long captured the imagination of the various peoples of the Prime Material plane, inspiring numerous folk stories, legends and even holding a place in the pantheons of the world.",
+      "The amber moon has a standard lunar cycle of 26 days, with lunar phases lasting about 3 days each. The moon has a @?supersynchronous orbit|https://en.wikipedia.org/wiki/Supersynchronous_orbit?@, meaning it orbits the planet slower than the rotation of the planet itself. Idrothea's apparent size in the night sky is almost the same as that of the sun. Therefore, Idrothea covers the sun nearly precisely during a total solar eclipse."
+    ],
+    "articles": {
+
+    },
+    "dmArticles": {
+      "Home of the Dragonborn": [
+        "The dragonborn, who refer to themselves in Draconic as the Idrothari, are not native to the world of Centhris. In ages long past dragonborn could only be found on Idrothea. It was on the amber moon, under the guidance of their twin gods of Bahamut and Tiamat, that two great civilizations arose: the Akosshir and the Vexthal."
+      ],
+      "The Desert Moon": [
+        "Though it appears to be simply a pale yellow moon from Centhris, the surface of Idrothea is not barren, lifeless rock. Most of Idrothea is covered in large, dry deserts, canyons, mesas and arid wastelands. Water is scarce on the moon's harsh landscape, with the few natural sources coming from wellsprings deep under the moon's surface. This lack of water has shaped the societies of the moon, resulting in a reverence for water unseen in most societies in the @~Prime Material plane~@.",
+        "Spread across the arid landscape are numerous cities of the two dragonborn peoples of the moon. Many of these settlements are built using the natural terrain, with entire towns and cities built into mountain sides or spanning gorges. The two largest cities on Idrothea are Thadarsh, the capital of the Akosshir, and Laraek, capital of the Vexthal."
+      ]
+    }
   }
 }
