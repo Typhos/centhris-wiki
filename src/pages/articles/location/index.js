@@ -53,8 +53,8 @@ class Location extends Component {
 
     const location = this.state.location;
 
-    let imgSrc = ( images.keys().some( x => x.includes( this.state.location.name.replace(/\s/g,"-") ) ) && images( images.keys().filter( x => x.includes( this.state.location.name.replace(/\s/g,"-") ) )[0] ) ) 
-      || allImages('./placeholder.png');
+    let imgSrc = ( images.keys().some( x => x.includes( this.state.location.name.replace(/\s/g,"-") ) ) && images( images.keys().filter( x => x.includes( this.state.location.name.replace(/\s/g,"-") ) )[0] ) );
+      // || allImages('./placeholder.png');
 
     if ( this.state.location.forceImg && allImages.keys().some( x => x.includes( this.state.location.forceImg )) ) {
       imgSrc = allImages( allImages.keys().filter( x => x.includes( this.state.location.forceImg ) ) );

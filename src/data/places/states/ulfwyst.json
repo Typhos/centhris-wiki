@@ -1,10 +1,10 @@
 {
   
-  "Kingdom-of-Navolin": {
+  "Navolin": {
     "playerKnown": true,
     "path": "location",
-    "name": "Kingdom of Navolin",
-    "nickname": "Navolin",
+    "name": "Navolin",
+    "nickname": "Kingdom of Navolin",
     "linkingWords": ["Navolinian","Navolinians"],
     "idLinks": {
       "Navolinian History": "History",
@@ -121,12 +121,12 @@
     "dmArticles": {
     }
   },
-  "Archduchy-of-Zurast": {
+  "Zurast": {
     "playerKnown": true,
     "path": "location",
     "tags": ["archduchy","state","ulfwyst","monarchy"],
-    "name": "Archduchy of Zurast",
-    "nickname": "Zurast",
+    "name": "Zurast",
+    "nickname": "Archduchy of Zurast",
     "linkingWords": ["Zurastan"],
     "type": "State",
     "population": "~320,000",
@@ -156,11 +156,11 @@
       ]
     }
   },
-  "Kingdom-of-Lemuria": {
+  "Lemuria": {
     "playerKnown": true,
     "path": "location",
     "tags": ["kingdom","state","ulfwyst","monarchy"],
-    "name": "Kingdom of Lemuria",
+    "name": "Lemuria",
     "nickname": "Realm of Lemuria",
     "linkingWords": ["Lemuria","Lemurian","Lemurians"],
     "type": "State",
@@ -235,12 +235,12 @@
       ]
     }
   },
-  "Theocracy-of-Tovanis": {
+  "Tovanis": {
     "playerKnown": true,
     "path": "location",
     "tags": ["state","ulfwyst","theocracy"],
-    "name": "Theocracy of Tovanis",
-    "nickname": "Tovanis",
+    "name": "Tovanis",
+    "nickname": "Theocracy of Tovanis",
     "linkingWords": ["Tovani","Realm of Tovanis","Kingdom of Istagen","Istagen","Realm of Shulxaa"],
     "type": "State",
     "currency": "Tovani Blade",
@@ -311,10 +311,10 @@
       ]
     }
   },
-  "Kingdom-of-Abbasyr": {
-    "playerKnown": false,
+  "Abbasyr": {
+    "playerKnown": true,
     "path": "location",
-    "name": "Kingdom of Abbasyr",
+    "name": "Abbasyr",
     "nickname": "Kingdom of Abbasyr",
     "linkingWords": ["Abbasyr","Abbasyri"],
     "tags": ["kingdom","Abbasyr","state","ulfwyst","monarchy"],
@@ -361,7 +361,7 @@
     "playerKnown": false,
     "path": "location",
     "name": "Ildroun Vale",
-    "nickname": "Ildroun",
+    "nickname": "Elven Kingdom of Ildroun",
     "linkingWords": ["the Vale","the Elfin Vale"],
     "tags": ["state","ulfwyst","hereditary monarchy","kingdom"],
     "type": "State",
@@ -406,6 +406,66 @@
       "Clan Connections": [
         "The dwarven kingdom of Dol Obok is comprised of numerous cities, fortresses and towns throughout the Pillars of Amud. Other dwarven holds in Ulfwyst have close ties or are direct offshoots of the kingdom, as many dwarven clans set out from their ancestral homeland to seek new places to enrich their kin. Most of these new fortresses and cities choose to remain independent, not bowing to the High King, however they still acknowledge a common ancestry and kinship."
       ]
+    },
+    "dmArticles": {
+    }
+  },
+  "Nemetia": {
+    "playerKnown": true,
+    "path": "location",
+    "name": "Nemetia",
+    "nickname": "Kingdom of Nemetia",
+    "linkingWords": ["Nemetia"],
+    "tags": ["kingdom","human","state","ulfwyst","monarchy"],
+    "type": "State",
+    "capital": "Hankadin",
+    "currency": "Nemeti Blossom",
+    "population": "2,200,000",
+    "races": ["human","dwaf","half-elf","halfling","elf","gnome","serbonji"],
+    "government": "Hereditary Monarchy",
+    "location": "Ulfwyst",
+    "regions": [],
+    "leaders": ["Queen Kasattri"],
+    "cities": [],
+    "description": [
+      "The @+Kingdom of Nemetia+@ is a nation-state on the north-western coast of Ulfwyst. The kingdom is located north of the Tashvir Mountains and north of the Kayula Woods. The majority of the country is covered by the lush, tropical rainforests of the Hutan Cala Jungle."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    }
+  },
+  "Solician-League": {
+    "playerKnown": true,
+    "path": "location",
+    "name": "Solician League",
+    "nickname": "Solician League",
+    "linkingWords": [
+      "Solician",
+      "Solicia",
+      "League of Solician States"
+    ],
+    "tags": ["league","human","state","ulfwyst","monarchy"],
+    "type": "State",
+    "capital": "Xanthir",
+    "currency": "Solician Ram",
+    "population": "4,650,000",
+    "races": ["human","dwaf","half-elf","halfling","elf","gnome","serbonji"],
+    "government": "Merchant Princes",
+    "location": "Ulfwyst",
+    "regions": [],
+    "leaders": [
+      "Enómos Kostas Stavros",
+      "Enómos Thekla Samaras",
+      "Enómos Diomidis Pachis",
+      "Enómos Irida Katsaros",
+      "Enómos Emilios Spyros"
+    ],
+    "cities": [],
+    "description": [
+      "The @+Solician League+@ is a nation-state on the north coast of Ulfwyst."
+    ],
+    "articles": {
     },
     "dmArticles": {
     }

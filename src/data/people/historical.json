@@ -71,6 +71,24 @@
       "None have seen the mythical dwarven thane since the fall of his mighty hold, though some still believe he wanders the wild places of the Duskspear Peaks, a hooded figure protecting travelers and holds in their time of need."
     ]
   },
+  "Skeggi-Sjomann": {
+    "playerKnown": true,
+    "path": "person",
+    "hideOnCat": true,
+    "name": "Skeggi Sjomann",
+    "nickname": "High King Skeggi Sjomann",
+    "linkingWords": [],
+    "tags": ["high king of lemuria"],
+    "birthYear": "2C 2407",
+    "deathYear": "2C 2490",
+    "gender": "Male",
+    "race": "Human",
+    "occupation": "Ruler",
+    "affiliations": ["Lemuria"],
+    "description": [
+      "@+High King Skeggi Sjomann+@ was the ruler of the Kingdom of Lemuria during from 2C 2447 to 2C 2490."
+    ]
+  },
   "Vësdar-Frostgem": {
     "playerKnown": true,
     "path": "person",

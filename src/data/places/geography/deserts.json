@@ -23,6 +23,54 @@
       "The Dune Sea of Manar is a large peninsula in northwest Cunascus and one of the largest deserts on Centhris. Once a verdant jungle, much of the topography that made up the landscape was irrevocably altered during the Ruination of Centhris and the land became nearly uninhabitable."
     ]
   },
+  "Akheva-Badlands": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["desert","region","idrothea"],
+    "name": "Akheva Badlands",
+    "nickname": "Akheva Badlands",
+    "type": "Desert",
+    "location": "Idrothea",
+    "description": [
+      "The @+Akheva Badlands+@ are a large, arid region in the western hemisphere of Idrothea. The landscape of the badlands is composed of deep gorges and low, rugged mesas."
+    ]
+  },
+  "Ghoros-Dunes": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["desert","region","idrothea"],
+    "name": "Ghoros Dunes",
+    "nickname": "Ghoros Dunes",
+    "type": "Desert",
+    "location": "Idrothea",
+    "description": [
+      "The @+Ghoros Dunes+@ are a vast region of sand dunes which spans the eastern and western hemispheres of Idrothea. The desert is the largest region on the moon and a defining aspect of lunar culture among the dragonborn of the Akosshiri and Vexthal."
+    ]
+  },
+  "Velgadin-Wastes": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["desert","region","idrothea"],
+    "name": "Velgadin Wastes",
+    "nickname": "Velgadin Wastes",
+    "type": "Desert",
+    "location": "Idrothea",
+    "description": [
+      "The @+Velgadin Wastes+@ are a vast region of jagged rock and scorched earth in the eastern hemisphere of Idrothea. The wastes are home to some of the most dangerous creatures on the amber moon and, as such, are dotted with numerous hunting lodges and castes of the Ajagar."
+    ]
+  },
+  "Darastrix-Necropolis": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["desert","region","idrothea"],
+    "name": "Darastrix Necropolis",
+    "nickname": "Darastrix Necropolis",
+    "type": "Desert",
+    "location": "Idrothea",
+    "description": [
+      "The @+Darastrix Necropolis+@ is the only volcanic region of Idrothea, located in the eastern hemisphere of the moon. The region is littered with an unknown number of a large, ornate burial grounds which house the bodies of both the Vexthalin elite and dragons which have died on the moon."
+    ]
+  },
   "Desolate-Wastes": {
     "playerKnown": true,
     "path": "location",

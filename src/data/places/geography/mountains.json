@@ -171,5 +171,17 @@
     "description": [
       "The @+Dakshava Heights+@ are a series of small to mid-sized mountains that run along the south western edge of the continent of Ulfwyst."
     ]    
+  },
+  "Paludak-Highlands": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["region","volcano","moutain","ulfwyst"],
+    "name": "Paludak Highlands",
+    "nickname": "Paludak Highlands",
+    "type": "Mountain Range",
+    "location": "Ulfwyst",
+    "description": [
+      "The @+Paludak Highlands+@ are a region of arid mountains in the western hemisphere of Idrothea. The region has an abnormally high amount of vegetation compared to other parts of the moon, making it more densely populated than other regions."
+    ]    
   }
 }

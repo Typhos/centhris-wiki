@@ -1,0 +1,67 @@
+{
+  "masterRuneofDuty":{
+      "name":"Master Rune of Duty",
+      "type": "armorRune",
+      "found": false,
+      "repeatable":false,
+      "svg":[
+        31
+      ],
+      "baseCost":5000,
+      "effects":[
+        ""
+      ]
+  },
+  "masterRuneofArdor":{
+      "name":"Master Rune of Ardor",
+      "type": "armorRune",
+      "found": false,
+      "repeatable":false,
+      "svg":[
+        37
+      ],
+      "baseCost":5000,
+      "effects":[
+        ""
+      ]
+  },
+  "masterRuneofthePhantom":{
+      "name":"Master Rune of the Phantom",
+      "type": "armorRune",
+      "found": true,
+      "repeatable":false,
+      "svg":[
+        41
+      ],
+      "baseCost":750,
+      "effects":[
+        "Armor forged with this rune becomes cloaked in mists and shadows. Any armor that would typically have disadvantage on Stealth checks loses that penalty. If the type of armor forged already did not have a penalty, the armor instead grants Advantage on Stealth checks."
+      ]
+  },
+  "runeOfBarbs":{
+      "name":"Rune of Barbs",
+      "type": "armorRune",
+      "found": false,
+      "repeatable":false,
+      "svg":[
+        39
+      ],
+      "baseCost":5000,
+      "effects":[
+        ""
+      ]
+  },
+  "runeOfResilience":{
+      "name":"Rune of Resilience",
+      "type": "armorRune",
+      "found": false,
+      "repeatable":false,
+      "svg":[
+        43
+      ],
+      "baseCost":5000,
+      "effects":[
+        ""
+      ]
+  }
+}

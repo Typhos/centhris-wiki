@@ -1,0 +1,46 @@
+{
+  "Akosshir": {
+    "playerKnown": false,
+    "path": "location",
+    "name": "Akosshir",
+    "nickname": "Akosshir",
+    "linkingWords": ["Akosshiri"],
+    "tags": ["state","Idrothea","magocracy"],
+    "type": "State",
+    "capital": "Thadarsh",
+    "currency": "Golden Idro",
+    "population": "510,000",
+    "races": ["dragonborn"],
+    "government": "Oligarchic Magocracy",
+    "location": "Idrothea",
+    "leaders": [],
+    "regions": ["Akheva Badlands","Ghoros Dunes","Paludak Highlands"],
+    "description": [
+      "@+Akosshir+@ is one of two civilizations on the Amber Moon of Idrothea. The Akosshiri people are the favored civilization of Tiamat and, like their sister civilization of Vexthal, have a population exclusively comprised of dragonborn."
+    ],
+    "dmArticles": {
+    }
+  },
+  "Vexthal": {
+    "playerKnown": false,
+    "path": "location",
+    "name": "Vexthal",
+    "nickname": "Vexthal",
+    "linkingWords": ["Vexthalin"],
+    "tags": ["state","Idrothea","caste system","warrior society"],
+    "type": "State",
+    "capital": "Laraek",
+    "currency": "Golden Idro",
+    "population": "640,000",
+    "races": ["dragonborn"],
+    "government": "Warrior Caste",
+    "location": "Idrothea",
+    "leaders": [],
+    "regions": ["Darastrix Necropolis","Ghoros Dunes","Velgadin Wastes"],
+    "description": [
+      "@+Vexthal+@ is one of two civilizations on the Amber Moon of Idrothea. The Vexthalin people are the favored civilization of Bahamut and, like their sister civilization of Akosshir, have a population exclusively comprised of dragonborn. The Vexthal are a highly structured, caste-based society with the ruling caste comprised of warriors dedicated to the Guardian, known as the Ajagar."
+    ],
+    "dmArticles": {
+    }
+  }
+}
