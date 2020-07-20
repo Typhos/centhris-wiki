@@ -1,20 +1,22 @@
 import React, { Component } from 'react';
+
 import { Link } from 'react-router-dom';
-import DataLoader from 'components/utils/dataLoader';
 import { TitleComponent } from 'components/titleComponent.js';
+import DataLoader from 'components/utils/dataLoader';
 
 import Filter from 'components/filter';
 import Back from 'components/back';
 import Page from 'components/page';
 import WikiUtils from "components/utils/wikiUtils";
+
 import 'styles/categories.scss';
 
-class MiscellaneousCategories extends Component {
+class ItemsCategories extends Component {
 
   constructor (props) {
     super(props);
 
-    const data = DataLoader.misc;
+    const data = DataLoader.items;
 
     // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
     let filteredOutput = {};
@@ -151,5 +153,5 @@ class MiscellaneousCategories extends Component {
 
 }
 
-export { MiscellaneousCategories };
+export { ItemsCategories };
 

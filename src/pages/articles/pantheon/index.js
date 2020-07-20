@@ -71,9 +71,7 @@ class Pantheon extends Component {
     return (
       <Page.LoreCategories>
         <TitleComponent title={`Centhrian Pantheon - Centhris Wiki`} />
-        <Back/>
-        {/* <Filter handleFilter={ this.handleFilter } data={this.state.combinedLore}/> */}
-        
+        <Back/>        
 
         <h2 className="fullName">The Centhrian Pantheon</h2>
         <div className="pageBanner" style={{
@@ -86,6 +84,7 @@ class Pantheon extends Component {
           <article className="lore" id="pantheon">
             {WikiUtils.linkContent( {...DataLoader.gods, ...pantheonLore}, WikiUtils.textFormatting( pantheonLore.description ) )}
           </article>
+          <Filter handleFilter={ this.handleFilter } data={this.state.combinedLore}/>
           {categories}
         </div>
       </Page.LoreCategories>

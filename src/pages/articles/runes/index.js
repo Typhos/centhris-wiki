@@ -153,21 +153,11 @@ class Runes extends Component {
   }
 
   showRules() {
-
     this.setState({
       activeRuneType: "rules",
       activeRuneList: null
     });
 
-  }
-
-  getRuneList (e) {
-    const runeType = e.target.value;
-
-    // this.setState({
-    //   activeRuneType: runeType,
-    //   activeRuneList: dwarfRunes[runeType]      
-    // });
   }
 
   addRuneToItem (e) {

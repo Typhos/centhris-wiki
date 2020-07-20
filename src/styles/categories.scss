@@ -50,9 +50,25 @@
 
     p.hidden {
       &:after {
-        content: "👁";
+        content: "👁️";
         display: block;
         color: $susiePurple;
+      }
+    }
+
+    img.empty + p {
+      &:after {
+        content: "✍🏼";
+        display: block;
+        color: $susiePurple;
+      }
+
+      &.hidden {
+        &:after {
+          content: "👁️ ✍🏼";
+          display: block;
+          color: $susiePurple;
+        }
       }
     }
 
@@ -78,9 +94,9 @@
           clip-path: none;
         }
 
-        &.empty {
-          border: 10px solid tomato;
-        }
+        // &.empty {
+        //   border: 10px solid tomato;
+        // }
       }
 
       &.landscape {

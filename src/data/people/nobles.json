@@ -282,5 +282,22 @@
     "description": [
       "@+Mertien Sarstina+@ is the lord mayor of the free city-state of Korasov."
     ]
+  },
+  "Queen-Kasattri": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Queen Kasattri",
+    "nickname": "Queen Kasattri",
+    "linkingWords": [],
+    "tags": ["human","queen","noble","Nemetia"],
+    "age": "40",
+    "gender": "Female",
+    "race": "Human",
+    "occupation": "Monarch",
+    "affiliations": ["Nemetia"],
+    "description": [
+      "@+Queen Terana-Sezim+@ is the feudal monarch of the Kingdom of Nemetia."
+    ]
   }
 }

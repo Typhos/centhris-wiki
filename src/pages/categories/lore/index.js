@@ -81,8 +81,6 @@ class LoreCategories extends Component {
       )
     });
 
-    const allImages = require.context('img/', true);
-
     return (
       <Page.LoreCategories>
         <TitleComponent title={`Lore - Centhris Wiki`} />
@@ -135,9 +133,9 @@ class LoreCategories extends Component {
           <li key={lore+category} className="entry">
             <Link to={ {pathname: `/${combinedLore[lore].subcatLink}`, state: "update"}}>
               { allImages.keys().some(x => x.includes( lore )) && 
-                <img className={`landscape ${ this.checkEmptyEntry(lore)} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={imgSrc}/>
+                <img className={`landscape ${ this.checkEmptyEntry(combinedLore[lore])} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={imgSrc}/>
               }
-              <p>{combinedLore[lore].name}</p>
+              <p className={`name ${(this.state.dmView && !combinedLore[lore].playerKnown) ? "hidden": ""}`}>{combinedLore[lore].name}</p>
             </Link>
           </li>
         );
@@ -146,12 +144,12 @@ class LoreCategories extends Component {
         return (
           <li key={lore+category} className="entry">
             <Link to={`/lore/${lore}`}>
-              <img className={`landscape ${ this.checkEmptyEntry([lore])} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={ imgSrc }/>
+              <img className={`landscape ${ this.checkEmptyEntry(combinedLore[lore])} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={ imgSrc }/>
               { !this.state.combinedLore[lore].type.toLowerCase().includes("race") &&
-                <p>{combinedLore[lore].name}</p>
+                <p className={`name ${(this.state.dmView && !combinedLore[lore].playerKnown) ? "hidden": ""}`}>{combinedLore[lore].name}</p>
               }
               { combinedLore[lore].type.toLowerCase().includes("race") &&
-                <p>{combinedLore[lore].nickname}</p>
+                <p className={`name ${(this.state.dmView && !combinedLore[lore].playerKnown) ? "hidden": ""}`}>{combinedLore[lore].nickname}</p>
               }
             </Link>
           </li>
@@ -163,16 +161,8 @@ class LoreCategories extends Component {
   }
 
   checkEmptyEntry(entry) {
-    entry = DataLoader.all[entry];
-
-    // check if the entry is empty to mark it for future writing
-    let string = entry.description.join(" ");
-
-    // if ( entry.description.length <= 0 && this.state.dmView ) {
-    if (this.state.dmView) {
-      if ( ( string.match(/\./g) && string.match(/\./g).length <= 2 ) || string.length < 30 ) {
-        return "empty";
-      }
+    if (this.state.dmView && WikiUtils.stubCheck(entry) ) {
+      return "empty";
     }
 
     return "";

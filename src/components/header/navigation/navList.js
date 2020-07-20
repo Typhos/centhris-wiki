@@ -12,8 +12,8 @@ export default class NavList extends Component {
         <hr/>
         <li className={`navigationListItem ${ (loc === '/creatureTypes') ? "active" : "" }`} navid="creatures"><Link to="/creatureTypes">Creatures</Link></li>
         <li className={`navigationListItem ${ (loc === '/characters') ? "active" : "" }`} navid="characters"><Link to="/characters">Characters</Link></li>
+        <li className={`navigationListItem ${ (loc === '/items') ? "active" : "" }`} navid="misc"><Link to="/items">Items & Vehicles</Link></li>
         <li className={`navigationListItem ${ (loc === '/loreCategories') ? "active" : "" }`} navid="lore"><Link to="/loreCategories">Lore</Link></li>
-        <li className={`navigationListItem ${ (loc === '/miscCategories') ? "active" : "" }`} navid="misc"><Link to="/miscCategories">Miscellaneous</Link></li>
         <li className={`navigationListItem ${ (loc === '/organizations') ? "active" : "" }`} navid="organizations"><Link to="/organizations">Organizations</Link></li>
         <li className={`navigationListItem ${ (loc === '/people') ? "active" : "" }`} navid="people"><Link to="/people">People</Link></li>
         <li className={`navigationListItem ${ (loc === '/places') ? "active" : "" }`} navid="places"><Link to="/places">Places</Link></li>
