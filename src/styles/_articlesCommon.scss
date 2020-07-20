@@ -58,6 +58,13 @@ a.externalLink {
 
 main.content {
   padding: 0 1%;
+  font-size: 0.85em;
+
+  .linkedContent {
+    margin: 0;
+    line-height: 1.75em;
+    font-size: 1em;
+  }
 
   div.mainContent p.stub {
     background-color: rgba($susiePurple, 0.15);

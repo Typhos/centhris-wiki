@@ -207,11 +207,24 @@
     "titles": ["Thornweaver"],
     "affiliations": ["Feywild"],
     "description": [
-      "@+Ralmerin+@ is an archfey that resides in the Realm of Autumn in the Feywild."
+      "@+Ralmerin+@, also known as the @*Thornweaver*@, is an archfey that resides in the Realm of Autumn in the Feywild. He is a member of the Court of Colors and the Unseelie Court, the subjects of the Lord of Frost. Ralmerin is, like most of the Unseelie, not of pure fey ancestry and his appearance combines the delicate, graceful features of the fey with twisted, jagged briars and thorny protrusions. The Thornweaver has a pale olive complexion, marked with swirling, pale facial markings. He has faded, olive eyes and mid-length, dull, amber hair that is swept back to rest on a large, collar-like crest of rigid thorns that protrudes from his shoulders.",
+      "In the Court of Colors, he is most known for his decadent and cruel nature. He has a love for suffering, sorrow and blood. Among the Unseelie he is one of the fey most likely to take interest in mortals, bringing them back to the court as victims of ridicule, scorn or even as combatants in bloodsport. He favors contests of which there can be no winner, and enjoys sowing strife among petty mortals in hopes of inciting feuds and violence.",
+      "Ralmerin is an archfey of growth and the forest, but is considered by many druid orders to be a great nuisance. Though he brings fertility and renewal, things grown under his watch as invasive and malign, strangling and consuming other forms of plant life around them. Only a severely debased druid finds the Thornweaver’s practices acceptable, but he is happy to reward them for their services, usually with fey beasts or consorts."
     ],
+    "articles": {
+      "Legends": [
+        "The people of the Ildroun Vale have several cautionary tales involving the Thornweaver, usually as a mythic figure who appears before a lost, weary traveler offering them shelter and something to eat, in exchange for a simple offering. The archfey is said to then whisk the traveler off into his realm, never for the victim to return.",
+
+        "Other tales speak of two dueling minstrels who sought out the fey in hopes having them decide who was better. Ralmerin agreed to judge their contest, but as the musicians played, they found their notes caused physical harm to their opponent, much to the amusement of the cruel judge. The victor, in the end, was the minstrel who was willing to put his ego ahead of his concern for his fellow troubadour, claiming his victory at the cost of his friend's life."
+      ]
+    },
     "dmArticles": {
       "Goals and Schemes": [
-        ""
+        "While exploring an ancient ruin in a forest, swamp, or jungle, the Thornweaver takes an interest in it either shortly before or shortly after you start your exploration, turning your conflict there into a three-way fight. The Thornweaver always wants more out of the situation than you’re willing to give – if you are fine with surrendering the ruin to him after you’re done, instead he wants you to stay for drinks. Perhaps he will offer you a chance to win back the ruins from him, if you are willing to battle a great beast he has captured. Or possibly, if you have already found a valuable treasure, he is willing to return it, assuming of course that you are willing to battle each other so that only one is left alive to claim the prize.",
+
+        "Everyone knows that a sorcerer’s power is bound in the blood. Only the Thornweaver takes the next step of that logic and introduces sorcerous blood into non-sorcerous individuals – first as an experiment, then as a way to create a force of arcane spellcasters who are deeply in his debt. Where did he get the blood in the first place? Maybe there’s a green dragon who slumbered too long in a forest that the Thornweaver took over, and now it is ensnared in his vines.",
+
+        "If you’re obsessed with blood and decadence, there’s only one thing that can complete your collection: the skull of someone really important, as your drinking-vessel. Maybe that means hiring people to rob a royal crypt. Or maybe the prince has been called to a tryst with his lover in the forest, and brings the PCs along to make sure he gets there and back safely and discreetly – only to reveal that his beloved was never there, and it was all an Unseelie ruse to claim his skull."
       ]
     }
   },

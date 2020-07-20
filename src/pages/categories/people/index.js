@@ -73,7 +73,7 @@ class People extends Component {
       <li key={person.name.replace(/\s/g,"-")} className="person entry" id={person.name.replace(/\s/g,"-")}>
         <Link className="personLink" to={ { pathname:`/person/${person.name.replace(/\s/g,"-")}`, state: "update" }}>
           <img className={`portrait ${this.checkEmptyEntry(person)}`} alt="" src={imgPath}/>
-          <p className="name">{person.name}</p>
+          <p className={`name ${(this.state.dmView && !person.playerKnown) ? "hidden": ""}`}>{person.name}</p>
         </Link>
       </li>
     )

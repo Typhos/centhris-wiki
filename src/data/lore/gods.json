@@ -31,7 +31,7 @@
         "Sacellum of the Guardian"
     ],
     "shrineImg": ["shrine-guardian.png"],
-    "tags": ["Greater Deity","dragons","good","lawful","life","justice","protection","knight","paladin"],
+    "tags": ["Greater Deity","dragons","lawful good","life","justice","protection","knight","paladin"],
     "description": [
         "@+The Guardian+@, Bahamut, is the God-King of all good dragons and the protector of mortals. Bahamut is one of the the most renowned gods among mortal races of Centhris, and is said to command a deep respect within the Pantheon, even from those who would view him as an enemy. The Guardian and his worshipers value life, and do not harm other creatures needlessly. In battle, his servants follow a strict code of martial conduct, and generally are unwilling to harm an opponent that is unable to defend itself.",
         "The Guardian is said to be proud beyond reproach. His canon states that pride is necessary for any creature to be magnanimous; one has to believe in standards for themselves, and strive to surpass them, before standards can be applied to others. Many followers adhere to this ideal, often resulting other viewing his church as haughty and aloof."
@@ -95,7 +95,7 @@
     "shrineImg": ["shrine-eternal.png"],
     "linkingWords": ["the Eternal","Sun God","Anethos"],
     "type": "Greater Deity",
-    "tags": ["Greater Deity","good","neutral","Life","Light","Rebirth","Glory"],
+    "tags": ["Greater Deity","neutral good","Life","Light","Rebirth","Glory"],
     "description": [
 
     ],
@@ -130,7 +130,7 @@
     "shrineImg": ["shrine-maker.png"],
     "linkingWords": ["the Maker","World Smith","Usterral"],
     "type": "Greater Deity",
-    "tags": ["Greater Deity","good","lawful","Forge","Valor","War","Knowledge"],
+    "tags": ["Greater Deity","lawful good","Forge","Valor","War","Knowledge"],
     "description": [
 
     ],
@@ -262,7 +262,7 @@
     "shrineImg": ["shrine-maiden.png"],
     "linkingWords": ["Yelensa","the Maiden","the Maiden's Oculus"],
     "type": "Greater Deity",
-    "tags": ["Greater Deity",""],
+    "tags": ["Greater Deity","chaotic good","chaos","moons","nature","arcana","magic","light"],
     "description": [
       "@+The Maiden+@, Yelensa, is most often depicted as a young, pale, beautiful woman with dark hair. Every culture tends to depict Yelensa slightly differently, depending on their own interpretation of how a young woman should dress and act. She is the patron of the mariners and night watchmen. Many female spellcasters, good and neutral lycanthropes also worship her as their patron deity. She is the keeper of the Three Sisters and is referred to as the Mother of the Three. She is said to appear to lost or weary souls on nights when Idrothea, the Amber Moon, is full, offering guidance and comfort. As the patron of the moons of Centhris, the Maiden is associated with the tides of the oceans of the world, as well as with the night sky. She is seen as the keeper of other celestial gods, such as the Stellar Wolf and the Shimmering Sky.",
       "Clerics of the Dreamweaver are dedicated to shedding light in dark places. In towns and cities, temples to the Maiden are often lighthouses or watchtowers that are lit as beacons. In the wilderness, disciples of Yelensa will establish watchtowers or outposts to act as safe places to rest for the evening and guard against dangerous creatures. In some parts of the world, lycanthropy is considerd the goddess' blessing and some radical sects will spread lycanthropy among their members, or seek out less vicious forms of lycanthropy to prove their dedication to the goddess."
@@ -298,7 +298,7 @@
     "shrineImg": ["shrine-wanderer.png"],
     "linkingWords": ["Dhynir","the Wanderer"],
     "type": "Greater Deity",
-    "tags": ["Greater Deity","true neutral"],
+    "tags": ["Greater Deity","true neutral","money","rider","traveler"],
     "description": [
 
     ],
@@ -335,7 +335,7 @@
     "shrineImg": ["shrine-harlequin.png"],
     "linkingWords": ["Jandivar","God of Many Faces","the Harlequin"],
     "type": "Greater Deity",
-    "tags": ["Greater Deity","chaotic neutral"],
+    "tags": ["Greater Deity","chaotic neutral","chaos","bards","music","jester","masquerade"],
     "description": [
       "@+The Harlequin+@, Jandivar, is the trickster god and the patron god of artists, bards, entertainers, and diplomats. The Harlequin has many aspects, and at times what they represent can be synonymous or contradictory. The Harlequin is a consummate performer above all else, with a playful, debonair personality. They are said to possess an impeccable memory about any piece of lore, person or place they encounter. It is said that so perfect is the Harlequin's mimicry of even their fellow gods that on numerous occasions the Harlequin has impersonated other divines without their fellow deities being aware.",
       "The Harlequin is said to be egotistical, and adores being the center of attention. They cannot stand the idea of not receiving adoration for their clever pranks and would grow easily bored if they were not showered with accolades. The Harlequin is said to be an irreverent philanderer, and has been said to flirt with both mortals and gods alike."
@@ -451,7 +451,7 @@
     "symbol": "Outline of a face with three eyes",
     "shrineImg": ["shrine-philosopher.png"],
     "type": "Greater Deity",
-    "tags": ["Greater Deity","lawful neutral"],
+    "tags": ["Greater Deity","lawful neutral","magic","knowledge","arcana"],
     "description": [
 
     ],
@@ -511,7 +511,7 @@
     "shrineImg": ["shrine-gravekeeper.png"],
     "linkingWords": ["the Gravekeeper","Neshaya"],
     "type": "Greater Deity",
-    "tags": ["Greater Deity","true neutral"],
+    "tags": ["Greater Deity","true neutral","death","graveyards"],
     "description": [
 
     ],
@@ -544,7 +544,7 @@
     "linkingWords": ["Ozrus","the Night Stalker","Shadefingers","the King of Thieves"],
     "shrineImg": ["shrine-shadow.png"],
     "type": "Greater Deity",
-    "tags": ["Greater Deity","chaotic neutral","chaos"],
+    "tags": ["Greater Deity","chaotic neutral","chaos","thieves","night","darkness"],
     "description": [
 
     ],
@@ -580,7 +580,7 @@
     "symbol": "",
     "shrineImg": ["shrine-conqueror.png"],
     "type": "Greater Deity",
-    "tags": ["Greater Deity","lawful evil"],
+    "tags": ["Greater Deity","lawful evil","war","death","strength","battle"],
     "description": [
       "Aegeroth, @+the Conqueror+@, is often depicted as a tall humanoid wearing red, heavy armor. The Conqueror is often depicted having dull, ashy, gray skin and hair, and dons a golden laurel wreath. It is said tha the god of war has a pleasant, even jovial, demanor and is second, only to Jandivar, among the gods to partake in jest. It is said that he enjoys all that life has to offer, and encourages his followers to do so as well, for those that live by the sword die just as quickly by it.",
       "Aegoroth's personal weapons are @+Jor`umoth+@, @*the Blazing Spear*@, a flaming longspear made of black iron, and @+Olmoraz+@, @*the Blade of Torment*@, a serrated broad sword made from the bones of Obscalyx, the great sea serpent, whom the Iron General slew in the ancient era of the First Convergence.",
@@ -644,7 +644,7 @@
     "shrineImg": ["shrine-leviathan.png"],
     "linkingWords": ["the Leviathan","Veluria"],
     "type": "Greater Deity",
-    "tags": ["Greater Deity","neutral evil"],
+    "tags": ["Greater Deity","chaotic evil","chaos","sea","ocean","sailors","nature","storms"],
     "description": [
 
     ],

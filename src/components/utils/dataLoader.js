@@ -1,5 +1,5 @@
 // ==== LORE DATA IMPORTS
-import {allLore, creatures, historicalData, holidayData, pantheon, calendarData} from "data/lore/allLore";
+import {allLore, historicalData, holidayData, pantheon, calendarData} from "data/lore/allLore";
 
 // ==== PEOPLE DATA IMPORTS
 import playerCharacters  from 'data/people/characters';
@@ -16,8 +16,7 @@ import allPlaces         from "data/places/allPlaces";
 
 import spellData         from 'data/spells/allSpells';
   
-import ships             from 'data/misc/ships';
-import items             from 'data/misc/items';
+import allItems          from 'data/items/allItems';
 
 
 export default class DataLoader {
@@ -28,7 +27,7 @@ export default class DataLoader {
   
   static people = {...allPeople};
   
-  static misc = {...ships, ...items};
+  static items = {...allItems};
 
   static organizations = {...allGroups};
 
@@ -50,7 +49,7 @@ export default class DataLoader {
     ...this.people, 
     ...this.places, 
     ...this.lore, 
-    ...this.misc, 
+    ...this.items, 
     ...this.organizations, 
     ...this.characters, 
     ...this.gods, 
