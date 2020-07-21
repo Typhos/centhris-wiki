@@ -1,7 +1,7 @@
 {
   "Disc-of-the-Blazing-Compact": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "item",
     "hideOnCat": true,
     "name": "Disc of the Blazing Compact",
     "nickname": "Disc of the Blazing Compact",
@@ -27,12 +27,14 @@
   },
   "Lament-of-Autumn": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "item",
     "hideOnCat": false,
     "name": "Lament of Autumn",
     "nickname": "Lament of Autumn",
     "linkingWords": [""],
     "type": "Magic Item",
+    "rarity": "Very Rare",
+    "attunement": true,
     "tags": ["magic item","magical sword","magical scimitar"],
     "description": [
       "@*Weapon (scimitar), very rare (requires attunement)*@",
@@ -62,12 +64,14 @@
   },
   "Talisman-of-the-Forest-Lords": {
     "playerKnown": false,
-    "path": "lore",
+    "path": "item",
     "hideOnCat": false,
     "name": "Talisman of the Forest Lords",
     "nickname": "Talisman of the Forest Lords",
     "linkingWords": [""],
     "type": "Magic Item",
+    "rarity": "Very Rare",
+    "attunement": true,
     "tags": ["magic item","magical necklace"],
     "imgFolder": "items",
     "description": [
@@ -88,12 +92,14 @@
   },
   "Resonant-Aegis": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "item",
     "hideOnCat": false,
     "name": "Resonant Aegis",
     "nickname": "Resonant Aegis",
     "linkingWords": [""],
     "type": "Magic Item",
+    "rarity": "Uncommon",
+    "attunement": false,
     "tags": ["magic item","magical necklace"],
     "imgFolder": "items",
     "description": [
@@ -111,12 +117,14 @@
   },
   "Heartwood-Scepter": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "item",
     "hideOnCat": false,
     "name": "Heartwood Scepter",
     "nickname": "Heartwood Scepter",
     "linkingWords": [""],
     "type": "Magic Item",
+    "rarity": "Uncommon",
+    "attunement": true,
     "tags": ["magic item","magical healing scepter"],
     "imgFolder": "items",
     "description": [
@@ -136,12 +144,14 @@
   },
   "Hellion-Cuirass": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "item",
     "hideOnCat": false,
     "name": "Hellion Cuirass",
     "nickname": "Hellion Cuirass",
     "linkingWords": [""],
     "type": "Magic Item",
+    "rarity": "Uncommon",
+    "attunement": true,
     "tags": ["magic item","magical armor"],
     "imgFolder": "items",
     "description": [
@@ -159,12 +169,14 @@
   },
   "Crown-of-Fey-Dominion": {
     "playerKnown": false,
-    "path": "lore",
+    "path": "item",
     "hideOnCat": false,
     "name": "Crown of Fey Dominion",
     "nickname": "Crown of Fey Dominion",
     "linkingWords": [""],
     "type": "Magic Item",
+    "rarity": "Very Rare",
+    "attunement": true,
     "tags": ["magic item","magical crown"],
     "imgFolder": "items",
     "description": [

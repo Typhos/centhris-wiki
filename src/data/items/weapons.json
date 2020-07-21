@@ -1,7 +1,7 @@
 {
   "Flintlock-Pistol": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "item",
     "name": "Flintlock Pistol",
     "nickname": "Flintlock Pistol",
     "type": "Black Powder Weapon",
@@ -23,7 +23,7 @@
   },
   "Arquebus": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "item",
     "name": "Arquebus",
     "nickname": "Arquebus",
     "type": "Black Powder Weapon",

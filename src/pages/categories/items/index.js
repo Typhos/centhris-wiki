@@ -111,7 +111,7 @@ class ItemsCategories extends Component {
 
         return (
           <li key={lore+category} className="entry">
-            <Link to={`/lore/${lore}`}>
+            <Link to={{pathname: `/${combinedLore[lore].path}/${lore}`, state: "update"}}>
               { imgs.keys().some(x => x.includes( lore )) && 
                 <img 
                   className={`landscape ${ this.checkEmptyEntry([lore])} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} 
