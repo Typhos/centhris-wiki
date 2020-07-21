@@ -210,5 +210,72 @@
     "description": [
       "@+Universal Cosmology+@, sometimees referred to as the study of the Realms of Existence, is the study of the cosmos. The composition of the realms is always under scholarly debate, with common points of contention being the organization, number and alignment of the realms. There are many other planes of existence, some very much like the Material world and some so alien that they almost defied description. Other planes can overlap, surround, or penetrate the Prime Material plane, or they might be connected by some mystic avenue, often requiring magic to explore. The most well known instances of such planar interconnections are the First Convergence and the Second Convergence."
     ]
+  },
+  "Courts-of-the-Feywild": {
+    "playerKnown": true,
+    "path": "lore",
+    "hideOnCat": false,
+    "name": "Courts of the Feywild",
+    "nickname": "Fey Courts",
+    "linkingWords": [
+      "Court of the Blooming Vale",
+      "Bonfire Court",
+      "Court of Colors",
+      "Court of Twilight"
+    ],
+    "type": "Centhris World Lore",
+    "tags": ["world lore"],
+    "description": [
+      "The @+Fey Courts+@ are highly selective courts comprised of fey creatures. The most common understanding of fey politics breaks the allegiances of the fey into the Seelie and Unseelie courts. The Seelie Court is comprised of the more benevolent, though still dangerous and unpredictable, fey of Spring and Summer. Directly opposed to the Seelie Court is the Unseelie Court, which finds its members in the more malicious, twisted fey of Autumn and Winter.",
+
+      "The Seelie Court is ruled by the Titania, the Summer Queen. The fey of the fair court are most powerful during the spring and summer months when the natural order of the planes favors them. Members of the Seelie Court are some of the most graceful, glamorous and beautify creatures in all the realms — a result of the court's self-imposed restriction on members being of pure blooded fey, or those of fey heritage who prove themselves of exceptional grace, beauty or skill. The location of the court is ever changing, as it moves wherever the @~Summer Queen~@ chooses to travel. Meetings of the court often take place in forest groves, fields of flowers or enchanted meadows. Fey commonly found in and around the court are brownies, dryads, faeries, faerie dragons, pixies and satyrs.",
+
+      "The Unseelie Court is an organization of fey creatures politically opposed to the fey of the Seelie Court. These darkly-inclined fey are ruled by Xanrian, the Prince of Frost. Fey of the somber court are most powerful during the autumn and winter months. Much like their fairer counterparts, the Unseelie are creatures of grace and beauty, though often in untraditional and twisted ways. Where the Seelie are pure-blooded fey, many members of the Unseelie Court have mixed parentage, often with dramatic, striking physical appearances that insinuate their diverse lineages. Fey creatures commonly found in and around the court are darklings, pesties, quicklings, spriggans, redcaps and yeth hounds.",
+
+      "There are many fey creatures that are not aligned or accepted by either court, most notably boggles, blights, fomorians, meenlocks, and hags. The Unseelie Court is willing to interact and work with hags, as they value their wisdom and cunning, though they do not let hags join the court itself. The Seelie Court finds the very natures of hags abhorrent and would never consider working or interacting with hags — their grotesque nature is something the Seelie fundamentally cannot endure."
+    ],
+    "articles": {
+      "Court of the Blooming Vale": [
+        "The Realm of Spring is the land of rebirth. It is a colorful, vibrant region which is eternally in full bloom, as a natural representation of the cycle beginning anew. The Spring Realm is the realm of joy and mirth. Those who reside in this realm delight in all aspects of nature. This region is where the Eladrin that would become the Cúron'avar hailed from.",
+        "The Realm of Spring is ruled over by the Council of the Blooming Vale, led by the Lord of the Green, and his courtiers, the Minstrel, the Good Fellow and the Lady of Blossoms."
+      ],
+
+      "Bonfire Court": [
+        "The Realm of Summer is a supernatural representation of the glory of nature and the bounty it provides. It is a bright, energetic region which towering trees and plentiful resources. This is the realm from which the Eladrin that would become the Glân'avar hail. In this realm and it's glorious, endless wonder, reside haughty entities who exemplify the proud, refined visage of nature.",
+        "The Realm of Summer is ruled by the Bonfire Court, led by the illustrious Summer Queen, and her courtiers, the Silver Blade, the Prince of Harts, and the Lady of the Wood."
+      ],
+
+      "Court of Colors": [
+        "The Realm of Autumn is a place of endless change and instability, drifting from the glory of summer into the sorrow of winter. The beings of this realm stand as a supernatural representation of the fear of aging,  and the inevitability of change. It is from this realm that the eladrin of the autumn entered the Prime Materium and slowly became the elves known as the Galenâs'avar.",
+        "The Realm of Autumn is the realm of fear and dread, ruled by the Court of Colors, led by the enigmatic Oracle of Fates, and her courtiers, the Thornweaver, the Dream Walker and the Mistress of the Hunt."
+      ],
+      
+      "Court of the Twilight": [
+        "The Realm of Winter is a dark, frozen land. It is the home realm of the Aeglôs'avar and a land of endless sorrow and longing. Any beings who reside here, or unwisely visit for too long are slowly drained of any sense of humor, cheer or comfort. As such, the denizens of this realm seek to gain this lost sense of joy by taking it from other beings, either through force or trickery. An endless sense of dread and looming malice haunt this land, as all who reside here seek to break free of its continual torment.",
+        "The Realm of Winter is ruled by the Court of Twilight, led by the dreaded Prince of Frost, and his courtiers, the Lady in the Water and the Winter Witch."
+      ]
+    },
+    "dmArticles": {
+    }
+  },
+  
+  "Cosmos": {
+    "subcatLink": "cosmos",
+    "playerKnown": false,
+    "path": "cosmos",
+    "hideOnCat": true,
+    "name": "Cosmos",
+    "nickname": "Universal Cosmology",
+    "linkingWords": [
+      "the Planes",
+      "the Realms",
+      "Planes of Existence",
+      "Realms of Existence"
+    ],
+    "type": "Centhris World Lore",
+    "tags": ["world lore","cosmos","planes of existence","outer planes","inner planes"],
+    "description": [
+      "@+Universal Cosmology+@, sometimees referred to as the study of the Realms of Existence, is the study of the cosmos. The composition of the realms is always under scholarly debate, with common points of contention being the organization, number and alignment of the realms. There are many other planes of existence, some very much like the Material world and some so alien that they almost defied description. Other planes can overlap, surround, or penetrate the Prime Material plane, or they might be connected by some mystic avenue, often requiring magic to explore. The most well known instances of such planar interconnections are the First Convergence and the Second Convergence."
+    ]
   }
 }

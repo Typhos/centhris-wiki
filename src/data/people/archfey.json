@@ -1,16 +1,16 @@
 {
-  "Jadartis": {
+  "Oberon": {
     "playerKnown": false,
     "path": "person",
     "hideOnCat": false,
-    "name": "Jadartis",
+    "name": "Oberon",
     "nickname": "Lord of the Green",
     "tags": ["archfey","feywild"],
     "race": "Archfey",
     "titles": ["Lord of the Green"],
     "affiliations": ["Feywild"],
     "description": [
-      "@+Jadartis+@ is an archfey that resides in the Realm of Spring in the Feywild."
+      "@+Oberon+@ is an archfey that resides in the Realm of Spring in the Feywild."
     ],
     "dmArticles": {
       "Goals and Schemes": [
@@ -94,18 +94,26 @@
       ]
     }
   },
-  "Gyllenae": {
+  "Titania": {
     "playerKnown": false,
     "path": "person",
     "hideOnCat": false,
-    "name": "Gyllenae",
+    
+    "name": "Titania",
     "nickname": "Summer Queen",
+    "linkingWords": [
+      "Titania, the Summer Queen",
+      "Seelie Queen",
+      "Faerie Queen"
+    ],
+
     "tags": ["archfey","feywild"],
     "race": "Archfey",
     "titles": ["the Summer Queen"],
     "affiliations": ["Feywild"],
     "description": [
-      "@+Gyllenae+@ is an archfey that resides in the Realm of Summer in the Feywild. She is one of the most ancient and powerful fey in existence. It is unclear the extent of her power, and some followers consider her a god, or demi-god of nature in her own right. This has led many religious scholars who become aware of her existence to question her relationship with the Sage, with some postulating that she might even be the Sage herself, an avatar of the goddess, or possibly that the two are in conflict over the dominion of nature."
+      "@+Titania+@ is one of the most powerful archfey of the Feywild and the ruler of the Seelie Court. She commands the Bonfire Court and rules the Seelie Fey with her husband Oberon, the Lord of the Green. She is one of the most ancient and powerful fey in existence. It is unclear the extent of her power, and some followers consider her a demi-god, or even a god, of nature in her own right. This has led many religious scholars who become aware of her existence to question her relationship with the Sage, with some postulating that she might even be the Sage herself, an avatar of the goddess, or possibly that the two are in conflict over the dominion of nature.",
+      "Titania's consort is Oberon, the Lord of the Green, with whom she has a tempestuous, torrid relationship. The couple have three children Elromil, Lythea and Shalynn."
     ],
     "dmArticles": {
       "Ideals": [
@@ -137,24 +145,29 @@
       ]
     }
   },
-  "Xanyth": {
+  "Xanrian": {
     "playerKnown": false,
     "path": "person",
     "hideOnCat": false,
-    "name": "Xanyth",
-    "nickname": "Lord of Frost",
+    
+    "name": "Xanrian",
+    "nickname": "Prince of Frost",
+    "linkingWords": [
+      "Xanrian, the Prince of Frost"
+    ],
+
     "tags": ["archfey","feywild"],
     "race": "Archfey",
-    "titles": ["Lord of Frost"],
+    "titles": ["Prince of Frost"],
     "affiliations": ["Feywild"],
     "description": [
-      "@+Xanyth+@ is an archfey that resides in the Realm of Winter in the Feywild. He is the monarch of the Unseelie, the fey of Autumn and Winter. Fear and passion guide the Unseelie as much as truth and beauty do the Seelie. The Lord of Frost rules the fey for half the year, but finds the transfer of power back to his counterpart even more objectionable than the Summer Queen does. While the Seelie are more invested in the high and courtly traditions, the Unseelie prize ambition and will engage in treachery when it suits their needs."
+      "@+Xanrian+@ is an archfey that resides in the Realm of Winter in the Feywild. He is the monarch of the Unseelie, the fey of Autumn and Winter. Fear and passion guide the Unseelie as much as truth and beauty do the Seelie. The Prince of Frost rules the fey for half the year, but finds the transfer of power back to his counterpart even more objectionable than the Summer Queen does. While the Seelie are more invested in the high and courtly traditions, the Unseelie prize ambition and will engage in treachery when it suits their needs."
     ],
     "dmArticles": {
       "Goals and Schemes": [
-        "The Lord's primary goal is to convince mortals that he is the true, benevolent ruler of the fey. Any who capture his attention are treated as welcome guests and ensnared in his charming, yet terrifying, company. Those who reject him or seek to uncover the true, cruel nature are cast out, and become the subject of bitter revenge.",
-        "The Lord of Frost profits by dividing his enemies and setting them against one another. This could be as simple as telling mortals of the powerful magic items that a Seelie fey possess, or something impossibly byzantine involving capturing three stable-boys (one of which has a latent sorcerous talent), invoking the curse of deadly nightshade on the princess whose parents snubbed His Darkly Imperious Majesty, or leading mortals into the Feywild simply to delight in their terror upon realizing they have been trapped in the Wild Lands.",
-        "While cruel, the Lord of Frost is not overly evil. He does good in his own, chaotic way. He is more than happy to take in young children who arrive in his realm unannounced, alone and frightened, and teach them the ways of fey so that they might act as his agents in the future."        
+        "The Prince's primary goal is to convince mortals that he is the true, benevolent ruler of the fey. Any who capture his attention are treated as welcome guests and ensnared in his charming, yet terrifying, company. Those who reject him or seek to uncover the true, cruel nature are cast out, and become the subject of bitter revenge.",
+        "The Prince of Frost profits by dividing his enemies and setting them against one another. This could be as simple as telling mortals of the powerful magic items that a Seelie fey possess, or something impossibly byzantine involving capturing three stable-boys (one of which has a latent sorcerous talent), invoking the curse of deadly nightshade on the princess whose parents snubbed His Darkly Imperious Majesty, or leading mortals into the Feywild simply to delight in their terror upon realizing they have been trapped in the Wild Lands.",
+        "While cruel, the Prince of Frost is not overly evil. He does good in his own, chaotic way. He is more than happy to take in young children who arrive in his realm unannounced, alone and frightened, and teach them the ways of fey so that they might act as his agents in the future."        
       ]
     }
   },
@@ -207,9 +220,9 @@
     "titles": ["Thornweaver"],
     "affiliations": ["Feywild"],
     "description": [
-      "@+Ralmerin+@, also known as the @*Thornweaver*@, is an archfey that resides in the Realm of Autumn in the Feywild. He is a member of the Court of Colors and the Unseelie Court, the subjects of the Lord of Frost. Ralmerin is, like most of the Unseelie, not of pure fey ancestry and his appearance combines the delicate, graceful features of the fey with twisted, jagged briars and thorny protrusions. The Thornweaver has a pale olive complexion, marked with swirling, pale facial markings. He has faded, olive eyes and mid-length, dull, amber hair that is swept back to rest on a large, collar-like crest of rigid thorns that protrudes from his shoulders.",
-      "In the Court of Colors, he is most known for his decadent and cruel nature. He has a love for suffering, sorrow and blood. Among the Unseelie he is one of the fey most likely to take interest in mortals, bringing them back to the court as victims of ridicule, scorn or even as combatants in bloodsport. He favors contests of which there can be no winner, and enjoys sowing strife among petty mortals in hopes of inciting feuds and violence.",
-      "Ralmerin is an archfey of growth and the forest, but is considered by many druid orders to be a great nuisance. Though he brings fertility and renewal, things grown under his watch as invasive and malign, strangling and consuming other forms of plant life around them. Only a severely debased druid finds the Thornweaver’s practices acceptable, but he is happy to reward them for their services, usually with fey beasts or consorts."
+      "@+Ralmerin+@, also known as the @*Thornweaver*@, is an archfey that resides in the Realm of Autumn in the Feywild. He is a member of the Court of Colors and the Unseelie Court, the subjects of the Prince of Frost. Ralmerin is, like most of the Unseelie, not of pure fey ancestry and his appearance combines the delicate, graceful features of the fey with twisted, jagged briars and thorny protrusions. The Thornweaver has a pale olive complexion, marked with swirling, pale facial markings. He has faded, olive eyes and mid-length, dull, amber hair that is swept back to rest on a large, collar-like crest of rigid thorns that protrudes from his shoulders.",
+      "In the Court of Colors, he is most known for his decadent and cruel nature. He has a love for suffering, sorrow and blood. Among the Unseelie he is one of the archfey most likely to take interest in mortals, bringing them back to the court as victims of ridicule, scorn or even as combatants in bloodsport. He favors contests of which there can be no winner, and enjoys sowing strife among petty mortals in hopes of inciting feuds and violence.",
+      "Ralmerin is an archfey of growth and the forest, but is considered by many druid orders to be a great nuisance. Though he brings fertility and renewal, things grown under his watch are invasive and malign, strangling and consuming other forms of plant life around them. Only a severely debased druid finds the Thornweaver’s practices acceptable, but he is happy to reward them for their services, usually with fey beasts or consorts."
     ],
     "articles": {
       "Legends": [
@@ -297,6 +310,72 @@
     "affiliations": ["Feywild"],
     "description": [
       "@+Celebrin+@ is an archfey that resides in the Realm of Spring in the Feywild."
+    ],
+    "dmArticles": {
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Lythea": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Lythea",
+    "nickname": "Verdant Princess",
+    "tags": ["archfey","feywild","erlinder's mother"],
+    "race": "Archfey",
+    "titles": ["Verdant Princess"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Lythea+@ is one of Titania and Oberon's children, and an archfey of the Feywild. She spends equal time in the courts of Spring and Summer. She is young, by fey standards, having been born roughly 900 years ago. As a member of the royal family of the Feywild, she is blessed with divine beauty, impeccable grace and charm. She is the patron of faeries, dryads and slyphs.",
+      "A young, idealistic fey by standards of the elder kin, Lythea still finds mortals charming and quaint. She regularly leaves the Feywild to spend time among mortals. She takes great pleasure in spreading natural beauty and there are numerous folktales of a beautiful maiden who appears at festivals and weddings, giving the bride a magical blessing and elevating the event with her charm.",
+      "Like all archfey, Lythea is capricious and vain. Obsessed with outward appearance, she constantly seeks out compliments and admiration. When slighted or scorned, she is quick to anger. Her most common reprisal for a slight is to curse the unsuspecting mortal with worts, blemishes, unnatural body hair or bad teeth."
+    ],
+    "dmArticles": {
+      "Secrets": [
+        "Lythea is the mother of Erlinder Bluefield. Nearly 50 years ago she began an affair with Sven Arnbjorg, a minor karl from the city of Postek. After several years of visitng Sven in the mortal world, she brought him back to the Feywild and the lovers spend nearly two decades together in the Fey realm. However, time is strange in the Feywild and what seemed like years in the wild lands was only three years in the Prime Material plane. When Sven returned from the Feywild, he did so with a half-elven baby in his arms.",
+
+        "Lythea was heartbroken to give up her only son, but did so to spare both Sven and her son. Affairs with mortals are not uncommon among the archfey, but they rarely result in offspring. Sven, who appeared completely human had an incredibly small amount of fey lineage from the very early days of the Second Convergence, which was enough to result in the birth of a child. Thus, Erlinder is an extremely rare breed – half human, half pure-blooded fey. As he was not born of the mortal world and officially a bastard by clan standards, Erlinder was not permitted to carry the Arnbjorg name, and later took the surname Bluefield.",
+
+        "Only two Archfey are aware of Erlinder's existence, the Good Fellow, Lythea's closest ally in the Court of the Blooming Vale and the Winter Witch, who uses her powerful magic to keep tabs on the business of all the archfey in order to extort them if the need arises."
+      ],
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Shalynn": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Shalynn",
+    "nickname": "Queen of Unicorns",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["Queen of Unicorns"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Shalynn+@ is one of Titania and Oberon's children, and an archfey of the Feywild. She spends most of her time in the court of Spring. She the eldest of the Seelie monarch's offspring, having been born roughly 1,500 years ago. She is the queen of unicorns and pegasi. She is also the fey patron of healing, protection and compassion."
+    ],
+    "dmArticles": {
+      "Goals and Schemes": [
+        ""
+      ]
+    }
+  },
+  "Elromil": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Elromil",
+    "nickname": "Green Knight",
+    "tags": ["archfey","feywild"],
+    "race": "Archfey",
+    "titles": ["Green Knight"],
+    "affiliations": ["Feywild"],
+    "description": [
+      "@+Elromil+@ is one of Titania and Oberon's children, and an archfey of the Feywild. He is known more commonly to mortals as the @*Green Knight*@ and often appears to mortals as a spectral, emerald knight riding a ghostly steed. He spends most of his time in the court of Summer. He is the second of the Seelie monarch's offspring, having been born roughly 1,100 years ago. He is the patron of treants, and the self-proclaimed protector of woodland realms. He is revered by paladins who take the Oath of the Ancients and has been known to seek out promising young elves, half-elves and gnomes who he can persuade to join his cause."
     ],
     "dmArticles": {
       "Goals and Schemes": [

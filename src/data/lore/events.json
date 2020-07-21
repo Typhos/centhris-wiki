@@ -65,6 +65,19 @@
       "The @+Rise of the Withered King+@ was a centuries long series of events which lead to the Kingdom of Istagen falling under the inflence of the lich lord Shulxaa. Though manipulation, coercion, assassination and decades of planning, Shulxaa weakened the political elite of the kingdom, until the kingdom was no longer able to properly function without his influence. The lich operated for quite some time from the shadows as a puppet ruler before tossing away the ruse in 2C 1993, declaring himself the immortal king of Istagen."
     ]
   },
+  "Mornaug-Ragoth": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "Mornaug Ragoth",
+    "nickname": "Age of Titans",
+    "linkingWords": ["First Convergence"],
+    "dates": "unknown",
+    "type": "Epoch",
+    "tags": ["Epoch","elementals","planes","planar"],
+    "description": [
+      "The @+Mornaug Ragoth+@, more commonly referred to as the Age of Titans, was the first known epoch in the history of the world of Centhris. This ancient, mythical era was a time when the great primordials, titans and colossal beasts roamed across the world. The gods, still  ."
+    ]
+  },
   "The-First-Convergence": {
     "playerKnown": true,
     "path": "lore",
@@ -75,7 +88,7 @@
     "type": "Epoch",
     "tags": ["Epoch","elementals","planes","planar"],
     "description": [
-      "The First Convergence was a historical epoch in the history of the world of Centhris."
+      "The @+First Convergence+@ was a historical epoch in the history of the world of Centhris."
     ]
   },
   "The-Second-Convergence": {
@@ -88,7 +101,7 @@
     "type": "Epoch",
     "tags": ["epoch","feywild","planes","planar"],
     "description": [
-      "The @+Second Convergence+@ was an astrological and planar event which marked the beginning of the third epoch of @*Centhrisian*@ history. It was proceeded by the epochs of the First Convergence and the Mornaug Ragoth (Age of Titans). The term \"@*Second Convergence*@\" applies to both the specific event, the planar cross-over of the Feywild with the Prime Material Plane, and the age of history which followed the planar event. The convergence marked a major shift in the power dynamics between the mortal peoples of @~Centhris~@ and the earlier dominant species of the world, specifically elementals, extra-planar beings, dragons, and giants.",
+      "The @+Second Convergence+@ was an astrological and planar event which marked the beginning of the third epoch of @*Centhrisian*@ history. It was proceeded by the epochs of the First Convergence and the Mornaug Ragoth @~(the Age of Titans)~@. The term \"@*Second Convergence*@\" applies to both the specific event, the planar cross-over of the Feywild with the Prime Material Plane, and the age of history which followed the planar event. The convergence marked a major shift in the power dynamics between the mortal peoples of @~Centhris~@ and the earlier dominant species of the world, specifically elementals, extra-planar beings, dragons, and giants.",
       "The Second Convergence lasted for 11 years, starting in 2C 1 and ending in 2C 12. @~During decade-long period, the barriers between the material plane and the Feywild were nearly non-existent, with numerous rifts between the planes opening for years at a time. Mortals from both Centhris and the feywild were able to cross between the planes freely. Though some peoples from the material plane did cross into the Feywild, the dangers of the wild realm quickly proved too dangerous for extensive exploration or settlement. Residents of the Feywild, however, did migrate in large numbers from the Feywild to Centhris~@. Fey creatures, such as pixies, hags, sprites, centaurs, satyrs, trolls, dryads and all manner of other fey beings entered the material world for the first time. Mortal peoples, too, migrated into the world, including gnomes and eladrin, who would become known as the Avar."
     ],
     "articles": {

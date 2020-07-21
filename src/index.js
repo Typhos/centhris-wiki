@@ -18,6 +18,7 @@ import {Location} from './pages/articles/location/index';
 import {Lore} from './pages/articles/lore/index';
 import {LoreCategories} from './pages/categories/lore/index';
 import {InteractiveMap} from './pages/articles/map/index';
+import {ItemArticle} from './pages/articles/items/index';
 import {ItemsCategories} from './pages/categories/items/index';
 import {Organization} from './pages/articles/organization/index';
 import {OrganizationGroups} from './pages/categories/organizations/index';
@@ -92,6 +93,7 @@ const routing = (
         <Route path="/lore/" component={Lore} />
         <Route path="/loreCategories" component={LoreCategories} />
         <Route path="/map" component={InteractiveMap} />
+        <Route path="/item" component={ItemArticle} />
         <Route path="/items" component={ItemsCategories} />
         <Route path="/group" component={Organization} />
         <Route path="/organizations" component={OrganizationGroups} />

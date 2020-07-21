@@ -1,7 +1,7 @@
 { 
   "Salty-Ferret": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "item",
     "name": "Salty Ferret",
     "nickname": "Salty Ferret",
     "type": "Ship",
@@ -27,7 +27,7 @@
   },
   "The-Sidon": {
     "playerKnown": true,
-    "path": "lore",
+    "path": "item",
     "name": "The Sidon",
     "nickname": "The Sidon",
     "type": "Ship",

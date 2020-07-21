@@ -6,36 +6,20 @@
     "name": "Feywild",
     "nickname": "the Feywild",
     "linkingWords": [
-        "Court of the Blooming Vale",
-        "Bonfire Court",
-        "Court of Colors",
-        "Court of Twilight"
     ],
     "tags": ["mythic locale","plane"],
     "type": "Plane",
+    "leaders": "Courts of the Feywild",
     "description": [
-      "The @+Feywild+@ is an inner plane of the universal cosmology. Much like the Shadowfell, it is a reflection of the Prime Material plane, specifically of the natural world, and it is not uncommon to find locations where to the two planes cross into each other, allowing peoples to travel between the two realms. The Feywild is the manifestation of mortal emotions, specifically dream, imagination and faith."
+      "The @+Feywild+@ is an inner plane of the universal cosmology. Much like the Shadowfell, it is a reflection of the Prime Material plane, specifically of the natural world and the manifestation of mortal emotions, specifically dream, imagination and faith. ",
+
+      "It is not uncommon to find locations where to the two planes cross into each other, allowing peoples to travel between the two realms."
     ],
     "articles": {
         "Land of Four Seasons": [
-            "The Feywild is a supernatural reflection of the natural world, mimicking the prime material plane, but creating an exaggerated, wondrous reflection of Centhris.",
-            "The plane is divided between the four realms, each representing an aspect of the natural cycle of seasons. Each realm is ruled by powerful beings, known as Archfey, who rule over their domain not through force like the rulers of Centhris, but almost as a natural extension of the Feywild itself.",
+            "The Feywild is a supernatural reflection of the natural world, mimicking the Prime Material plane, but creating an exaggerated, wondrous reflection of it. This most often manifests as towering, enchanted forests, fields of vibrant wildflowers and majestic, rolling hills.",
 
-            "@#Court of the Blooming Vale#@",
-            "The Realm of Spring is the land of rebirth. It is a colorful, vibrant region which is eternally in full bloom, as a natural representation of the cycle beginning anew. The Spring Realm is the realm of joy and mirth. Those who reside in this realm delight in all aspects of nature. This region is where the Eladrin that would become the Cúron'avar hailed from.",
-            "The Realm of Spring is ruled over by the Council of the Blooming Vale, led by the Lord of the Green, and his courtiers, the Minstrel, the Good Fellow and the Lady of Blossoms.",
-           
-            "@#Bonfire Court#@",
-            "The Realm of Summer is a supernatural representation of the glory of nature and the bounty it provides. It is a bright, energetic region which towering trees and plentiful resources. This is the realm from which the Eladrin that would become the Glân'avar hail. In this realm and it's glorious, endless wonder, reside haughty entities who exemplify the proud, refined visage of nature.",
-            "The Realm of Summer is ruled by the Bonfire Court, led by the illustrious Summer Queen, and her courtiers, the Silver Blade, the Prince of Harts, and the Lady of the Wood.",
-            
-            "@#Court of Colors#@",
-            "The Realm of Autumn is a place of endless change and instability, drifting from the glory of summer into the sorrow of winter. The beings of this realm stand as a supernatural representation of the fear of aging,  and the inevitability of change. It is from this realm that the eladrin of the autumn entered the Prime Materium and slowly became the elves known as the Galenâs'avar.",
-            "The Realm of Autumn is the realm of fear and dread, ruled by the Court of Colors, led by the enigmatic Oracle of Fates, and her courtiers, the Thornweaver, the Dream Walker and the Mistress of the Hunt.",
-            
-            "@#Court of the Twilight#@",
-            "The Realm of Winter is a dark, frozen land. It is the home realm of the Aeglôs'avar and a land of endless sorrow and longing. Any beings who reside here, or unwisely visit for too long are slowly drained of any sense of humor, cheer or comfort. As such, the denizens of this realm seek to gain this lost sense of joy by taking it from other beings, either through force or trickery. An endless sense of dread and looming malice haunt this land, as all who reside here seek to break free of its continual torment.",
-            "The Realm of Winter is ruled by the Court of Twilight, led by the dreaded Lord of Frost, and his courtiers, the Lady in the Water and the Winter Witch."
+            "The plane is divided between the four realms, each representing an aspect of the natural cycle of seasons. Each realm is ruled by powerful beings, known as Archfey, who rule over their domain not through force like the rulers of Centhris, but almost as a natural extension of the Feywild itself. These powerful, otherworldly beings align themselves into political blocs based on their fundamental nature, known as the Courts of the Feywild."
         ]
     },
     "dmArticles": {
