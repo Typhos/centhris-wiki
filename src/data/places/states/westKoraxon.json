@@ -30,6 +30,7 @@
     "path": "location",
     "name": "Three Kingdoms of Namjeon",
     "nickname": "Three Kingdoms of Namjeon",
+    "linkingWords": ["Namjeon"],
     "tags": ["kingdom","western koraxon"],
     "type": "State",
     "cities": ["Chongdi","Haengwon","Bokryong"],

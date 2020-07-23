@@ -1,0 +1,163 @@
+@import "./mixins";
+
+
+
+.statsShell {
+  width: 95%;
+  margin: 3em auto 0;
+  display: inline-block;
+
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    border: 1px solid $charcoal;
+    width: 100%;
+    height: 0.33rem;
+    background-color: $dndGold;
+  }
+}
+
+#statBlock {
+  background-color: $statSheet;
+  display: block;
+  font-size: 0.9em;
+  line-height: 1.4em;
+  font-family: $fira;
+  column-count: 2;
+  column-span: all;
+  padding: 1em 0;
+
+  h3 {
+    font-size: 1.66em;
+    margin: 0.5rem 0 0;
+    color: $dndRed;
+    letter-spacing: 0.075em;
+  }
+
+  h4 {
+    font-size: 1.66em;
+    margin: 1em 0 0;
+    color: $dndRed;
+    letter-spacing: 0.075em;
+    border-bottom: 1px solid $dndRed;
+  }
+
+  .grouping {
+    margin: 0 1.5em;
+    border-bottom: 2px solid $dndRed;
+    break-inside: avoid;
+
+    &:last-of-type {
+      border-bottom: 0;
+    }
+
+    p {
+      margin: 0.5em 0;
+
+      strong {
+        color: $dndRed;
+        margin-right: 0.25em;
+      }
+    }
+
+    &.basics,
+    &.general {
+      p {
+        color: $dndRed;
+      }
+    }
+
+    &.stats {
+      .block {
+        text-align: center;
+        display: inline-block;
+        margin: 0.66em 1em;
+
+        .numerical {
+          font-size: 1.15em;
+
+          small {
+            font-size: 0.85em;
+          }
+        }
+
+        strong {
+          display: block;
+        }
+      }
+    }
+
+    &.abilities,
+    &.actions,
+    &.reactions {
+      border-bottom: 0;
+
+      strong {
+        color: $charcoal;
+        font-style: italic;
+      }
+    }
+  }
+}
+
+// MOBILE
+@media all and (max-width: $breakpoint-mobile) {
+  article.creature {
+    width: 96%;
+    margin: 0 2% 2em;
+
+    div.mainContent {
+      i.quote {
+        padding: 0;
+      }
+    }
+
+    h2.fullName {
+      display: none;
+    }
+
+    aside.infoBox {
+      width: 100%;
+      max-width: 100%;
+      display: block;
+      margin: 0 auto 3em;
+      float: none;
+
+      img.portrait {
+        border-top: 0;
+      }
+    }
+
+    #statBlock {
+      column-count: 1;
+
+      .grouping {
+        margin: 0 0.75em;
+
+        &.stats {
+          .block {
+            width: 15%;
+            margin: 0.66em 0.75%;
+          }
+        }
+      }
+    }
+  }
+
+  ul#creature {
+    li.creature {
+      img.portrait {
+        height: 10em;
+      }
+
+      p.name {
+      }
+    }
+  }
+}
+
+// DESKTOP
+@media all and (min-width: $breakpoint-mobile) {
+
+}

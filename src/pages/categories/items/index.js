@@ -44,7 +44,7 @@ class ItemsCategories extends Component {
     const numberOfArticles = Object.keys(this.state.articles).length;
 
     return (
-      <Page.LoreCategories>
+      <Page.Default>
         <TitleComponent title={`Lore - Centhris Wiki`} />
         <Back/>
         <Filter handleFilter={ this.handleFilter }  data={this.state.pageData}/>
@@ -57,7 +57,7 @@ class ItemsCategories extends Component {
             })
           }
         </div>
-      </Page.LoreCategories>
+      </Page.Default>
     )
   }
 

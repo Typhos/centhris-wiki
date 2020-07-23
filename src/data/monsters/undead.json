@@ -4,7 +4,6 @@
     "playerKnown": true,
     "path": "creature",
     "hideOnCat": false,
-    "showStatBlock": true,
     "name": "Lurking Abomination",
     "nickname": "Lurking Abomination",
     "type": "Undead",
@@ -18,102 +17,104 @@
     },
     "dmArticles": {
     },
-    "alignment": "Chaotic Evil",
-    "creatureType": "Large Undead",
-    "stats": [
-      {"name": "STR", "val": 16},
-      {"name": "DEX", "val": 15},
-      {"name": "CON", "val": 15},
-      {"name": "INT", "val": 9},
-      {"name": "WIS", "val": 11},
-      {"name": "CHA", "val": 11}
-    ],
-    "savingThrows": "Str +5, Con +4, Wis +2",
-    "passiveWisdom": 10,
-    "armor": "16 (natural armor)",
-    "hitPoint": 74,
-    "hitDie": "14d8+18",
-    "speed": "30 ft., climb 30 ft.",
-    "damageResistances": "Cold; Piercing and Slashing from Nonmagical Attacks that aren't Silvered",
-    "damageVulnerabilities": "",
-    "damageImmunities": "Necrotic, Poison",
-    "conditionImmunities": "Poisoned",
-    "senses": "Darkvision 120 ft.",
-    "languages": "Those it knew in life, but cannot speak.",
-    "challenge": "3",
-    "abilities": [
-      {
-        "name": "Abomination's Sight",
-        "text": "Magical darkness does not impede the abomination's darkvision."
-      },
-      {
-        "name": "Magic Resistance.",
-        "text": "The abomination has advantage on saving throws against spells and other magical effects."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack.",
-        "text": "A Lurking Abomination makes two attacks: one with its claw and one with its hook."
-      },
-      {
-        "name": "Sickening Claw.",
-        "text": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage. The target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target cannot regain hit points. The target can repeat the saving throw at the end of its turns, ending the poison effect on a success."
-      },
-      {
-        "name": "Grisly Hook.",
-        "text": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10+3) slashing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 12 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to an festering wound. Each time the abomination hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing."
-      }
-    ],
-    "bonusActions": [
-      {
-        "name": "Shamble.",
-        "text": "The abomination moves 10 ft in a line. Any creature it moves through must make a DC 12 Dexterity saving throw or lose 5 (1d4+3) hit points."
-      },
-      {
-        "name": "Engulf.",
-        "text": "The abomination attempts to place a creature inside its form. The target must make a DC 12 Dexterity saving throw or become restrained inside the abomination. A creature that begins its turn inside the abomination takes 8 (2d8) necrotic damage."
-      }
-    ],
-    "reactions": [
-      {
-        "name": "Consume.",
-        "text": "When a creature enters melee with the abomination and no other creature is inside it, the abomination can attempt to use Engulf on it."
-      },
-      {
-        "name": "Ghostly Wail.",
-        "text": "When struck in melee, the abomination may release a haunting lament. Any creature within 15ft of the abomination must make a DC 12 Wisdom saving throw or become frightened."
-      }
-    ],
-    "villainActions": [
-      {
-        "order": "1. ",
-        "name": "Emerge.",
-        "text": "An abomination forms with a whirling torrent of bones. Anyone within 10ft of a bone pile must succeed on a DC 12 Dexterity saving throw or be knocked prone."
-      },
-      {
-        "order": "2. ",
-        "name": "Call Spirits.",
-        "text": "An abomination calls upon the spirits of the restless dead who haunt the piles of bone nearby. If the Lurking Abomination begins or ends its turn within 10 ft of a pile of bone, spirits fly through the abomination, healing it for 2d8 hit points and causing ranged attacks to have disadvantage."
-      },
-      {
-        "order": "3. ",
-        "name": "Whirling Death.",
-        "text": "When surrounded, an abomination uses it’s jagged body as a weapon, swinging around in a torrent of razor-sharp bone. All creatures within 10 feet of the Lurking Abomination must make a DC 14 Dexterity saving throw or take 2d8 slashing damage. Half damage on a successful save."
-      },
-      {
-        "order": "(Death) ",
-        "name": "Spirit Nova.",
-        "text": "As an abomination is destroyed, it releases an explosion of necrotic energy as the malign magics that kept it bound to this place burst forth. Anyone within 20 ft must succeed a DC 12 Dexterity saving throw or take 2d6 necrotic damage. Half damage on successful save."
-      }
-    ]
+    "statBlock": {
+      "show": true,
+      "alignment": "Chaotic Evil",
+      "creatureType": "Large Undead",
+      "stats": [
+        {"name": "STR", "val": 16},
+        {"name": "DEX", "val": 15},
+        {"name": "CON", "val": 15},
+        {"name": "INT", "val": 9},
+        {"name": "WIS", "val": 11},
+        {"name": "CHA", "val": 11}
+      ],
+      "savingThrows": "Str +5, Con +4, Wis +2",
+      "passiveWisdom": 10,
+      "armor": "16 (natural armor)",
+      "hitPoint": 74,
+      "hitDie": "14d8+18",
+      "speed": "30 ft., climb 30 ft.",
+      "damageResistances": "Cold; Piercing and Slashing from Nonmagical Attacks that aren't Silvered",
+      "damageVulnerabilities": "",
+      "damageImmunities": "Necrotic, Poison",
+      "conditionImmunities": "Poisoned",
+      "senses": "Darkvision 120 ft.",
+      "languages": "Those it knew in life, but cannot speak.",
+      "challenge": "3",
+      "abilities": [
+        {
+          "name": "Abomination's Sight",
+          "text": "Magical darkness does not impede the abomination's darkvision."
+        },
+        {
+          "name": "Magic Resistance.",
+          "text": "The abomination has advantage on saving throws against spells and other magical effects."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack.",
+          "text": "A Lurking Abomination makes two attacks: one with its claw and one with its hook."
+        },
+        {
+          "name": "Sickening Claw.",
+          "text": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage. The target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target cannot regain hit points. The target can repeat the saving throw at the end of its turns, ending the poison effect on a success."
+        },
+        {
+          "name": "Grisly Hook.",
+          "text": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10+3) slashing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 12 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to an festering wound. Each time the abomination hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing."
+        }
+      ],
+      "bonusActions": [
+        {
+          "name": "Shamble.",
+          "text": "The abomination moves 10 ft in a line. Any creature it moves through must make a DC 12 Dexterity saving throw or lose 5 (1d4+3) hit points."
+        },
+        {
+          "name": "Engulf.",
+          "text": "The abomination attempts to place a creature inside its form. The target must make a DC 12 Dexterity saving throw or become restrained inside the abomination. A creature that begins its turn inside the abomination takes 8 (2d8) necrotic damage."
+        }
+      ],
+      "reactions": [
+        {
+          "name": "Consume.",
+          "text": "When a creature enters melee with the abomination and no other creature is inside it, the abomination can attempt to use Engulf on it."
+        },
+        {
+          "name": "Ghostly Wail.",
+          "text": "When struck in melee, the abomination may release a haunting lament. Any creature within 15ft of the abomination must make a DC 12 Wisdom saving throw or become frightened."
+        }
+      ],
+      "villainActions": [
+        {
+          "order": "1. ",
+          "name": "Emerge.",
+          "text": "An abomination forms with a whirling torrent of bones. Anyone within 10ft of a bone pile must succeed on a DC 12 Dexterity saving throw or be knocked prone."
+        },
+        {
+          "order": "2. ",
+          "name": "Call Spirits.",
+          "text": "An abomination calls upon the spirits of the restless dead who haunt the piles of bone nearby. If the Lurking Abomination begins or ends its turn within 10 ft of a pile of bone, spirits fly through the abomination, healing it for 2d8 hit points and causing ranged attacks to have disadvantage."
+        },
+        {
+          "order": "3. ",
+          "name": "Whirling Death.",
+          "text": "When surrounded, an abomination uses it’s jagged body as a weapon, swinging around in a torrent of razor-sharp bone. All creatures within 10 feet of the Lurking Abomination must make a DC 14 Dexterity saving throw or take 2d8 slashing damage. Half damage on a successful save."
+        },
+        {
+          "order": "(Death) ",
+          "name": "Spirit Nova.",
+          "text": "As an abomination is destroyed, it releases an explosion of necrotic energy as the malign magics that kept it bound to this place burst forth. Anyone within 20 ft must succeed a DC 12 Dexterity saving throw or take 2d6 necrotic damage. Half damage on successful save."
+        }
+      ]
+    }
   },
 
   "Lesser-Lich": {
     "playerKnown": false,
     "path": "creature",
     "hideOnCat": false,
-    "showStatBlock": false,
     "name": "Lesser Lich",
     "nickname": "Counciler of the Withered King",
     "linkingWords": ["Lesser Liches"],
@@ -135,73 +136,75 @@
     },
     "dmArticles": {
     },
-    "alignment": "Lawful Evil",
-    "creatureType": "Medium Undead",
-    "stats": [
-      {"name": "STR", "val": 10},
-      {"name": "DEX", "val": 14},
-      {"name": "CON", "val": 12},
-      {"name": "INT", "val": 20},
-      {"name": "WIS", "val": 15},
-      {"name": "CHA", "val": 16}
-    ],
-    "armor": "12 (15 With Mage Armor)",
-    "hitPoint": 99,
-    "hitDie": "18d8+18",
-    "speed": "30 ft.",
-    "skills": "Arcana +13, History +13",
-    "savingThrows": "Int +9, Wis +6",
-    "damageResistances": "Damage From Spells; Non Magical Bludgeoning, Piercing, And Slashing (From Stoneskin)",
-    "damageVulnerabilities": "",
-    "damageImmunities": "",
-    "conditionImmunities": "",
-    "senses": "Darkvision 60 ft.",
-    "passiveWisdom": 12,
-    "languages": "Common, Dwarven, Elven, Draconic, Infernal, Primordial",
-    "challenge": "12",
-    "abilities": [
-      {
-        "name": "Magic Resistance.",
-        "text": "The lesser lich has advantage on saving throws against spells and other magical effects."
-      },
-      {
-        "name": "Rejuvenation.",
-        "text": "If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its Hit Points and becoming active again. The new body appears within 5 feet of the phylactery."
-      },
-      {
-        "name": "Aura of Death.",
-        "text": "At the start of its turn, each non-undead creature within 10 feet of the lich must make a DC 15 Constitution saving throw against this magic, taking 14 (4d6) necrotic damage on a failed save, or half as much damage on a successful one."
-      },
-      {
-        "name": "Spellcasting.",
-        "text": "The lesser lich is an 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The lesser lich can cast disguise self and invisibility at will and has the following wizard spells prepared:",
-        "list": [
-          "Cantrips (at will): shocking grasp, mage hand, prestidigitation, ray of frost",
-          "1st level (4 slots): detect magic, shield, mage armor*, magic missile",
-          "2nd level (3 slots): detect thoughts, mirror image, misty step",
-          "3rd level (3 slots): animate dead, counterspell, fly, fireball",
-          "4th level (3 slots): banishment, blight, stoneskin*",
-          "5th level (2 slots): cone of cold, scrying",
-          "6th level (1 slot): circle of death",
-          "7th level (1 slot): teleport",
-          "8th level (1 slot): mind blank*",
-          "* The lesser lich casts these spells on itself before combat."
-        ]
-      }
-    ],
-    "actions": [
-      {
-        "name": "Paralyzing Touch.",
-        "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (2d6) cold damage. The target must succeed on a DC 15 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-      }
-    ]
+    "statBlock": {
+      "show": false,
+      "alignment": "Lawful Evil",
+      "creatureType": "Medium Undead",
+      "stats": [
+        {"name": "STR", "val": 10},
+        {"name": "DEX", "val": 14},
+        {"name": "CON", "val": 12},
+        {"name": "INT", "val": 20},
+        {"name": "WIS", "val": 15},
+        {"name": "CHA", "val": 16}
+      ],
+      "armor": "12 (15 With Mage Armor)",
+      "hitPoint": 99,
+      "hitDie": "18d8+18",
+      "speed": "30 ft.",
+      "skills": "Arcana +13, History +13",
+      "savingThrows": "Int +9, Wis +6",
+      "damageResistances": "Damage From Spells; Non Magical Bludgeoning, Piercing, And Slashing (From Stoneskin)",
+      "damageVulnerabilities": "",
+      "damageImmunities": "",
+      "conditionImmunities": "",
+      "senses": "Darkvision 60 ft.",
+      "passiveWisdom": 12,
+      "languages": "Common, Dwarven, Elven, Draconic, Infernal, Primordial",
+      "challenge": "12",
+      "abilities": [
+        {
+          "name": "Magic Resistance.",
+          "text": "The lesser lich has advantage on saving throws against spells and other magical effects."
+        },
+        {
+          "name": "Rejuvenation.",
+          "text": "If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its Hit Points and becoming active again. The new body appears within 5 feet of the phylactery."
+        },
+        {
+          "name": "Aura of Death.",
+          "text": "At the start of its turn, each non-undead creature within 10 feet of the lich must make a DC 15 Constitution saving throw against this magic, taking 14 (4d6) necrotic damage on a failed save, or half as much damage on a successful one."
+        },
+        {
+          "name": "Spellcasting.",
+          "text": "The lesser lich is an 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The lesser lich can cast disguise self and invisibility at will and has the following wizard spells prepared:",
+          "list": [
+            "Cantrips (at will): shocking grasp, mage hand, prestidigitation, ray of frost",
+            "1st level (4 slots): detect magic, shield, mage armor*, magic missile",
+            "2nd level (3 slots): detect thoughts, mirror image, misty step",
+            "3rd level (3 slots): animate dead, counterspell, fly, fireball",
+            "4th level (3 slots): banishment, blight, stoneskin*",
+            "5th level (2 slots): cone of cold, scrying",
+            "6th level (1 slot): circle of death",
+            "7th level (1 slot): teleport",
+            "8th level (1 slot): mind blank*",
+            "* The lesser lich casts these spells on itself before combat."
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "name": "Paralyzing Touch.",
+          "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (2d6) cold damage. The target must succeed on a DC 15 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        }
+      ]
+    }
   },
 
   "Cursebound-Knight": {
     "playerKnown": true,
     "path": "creature",
     "hideOnCat": false,
-    "showStatBlock": false,
     "name": "Cursebound Knight",
     "nickname": "Cursebound Knight",
     "type": "Undead",
@@ -213,65 +216,67 @@
     },
     "dmArticles": {
     },
-    "alignment": "Chaotic Evil",
-    "creatureType": "Large Undead",
-    "stats": [
-      {"name": "STR", "val": 18},
-      {"name": "DEX", "val": 14},
-      {"name": "CON", "val": 14},
-      {"name": "INT", "val": 14},
-      {"name": "WIS", "val": 18},
-      {"name": "CHA", "val": 10}
-    ],
-    "savingThrows": "Str +8, Wis +8",
-    "skills": "Athletics +8, Arcana +6, Insight +6",
-    "passiveWisdom": 14,
-    "armor": "18 (plate armor)",
-    "hitPoint": 120,
-    "hitDie": "16d10+32",
-    "speed": "30 ft.",
-    "damageResistances": "Slashing, Piercing, and Bludgeoning From Non-Magical Attacks",
-    "damageImmunities": "Necrotic, Poison",
-    "damageVulnerabilities": "Radiant",
-    "conditionImmunities": "Exhausted, Frightened, Poisoned",
-    "senses": "Darkvision 60 ft.",
-    "languages": "Common",
-    "challenge": "6",
-    "abilities": [
-      {
-        "name": "Lifebane Longsword.",
-        "text": "The Cursebound Knight's longsword is made of felliron and forged in shadowflame. Attacks made with the knight's longsword deal an additional 3d6 necrotic damage (included in the attack)."
-      },
-      {
-        "name": "Summon Vengeful Spirits.",
-        "text": "The knight can summon dark spirits to his side to aid him in capturing or dispatching his quarry. At the start of combat, the knight can summon up to 6 undead of CR 1/2 or lower to fight along side him."
-      },
-      {
-        "name": "Shadow Chains.",
-        "text": "As a bonus action, the knight clenches its fist in the direction of an opponent. One target within 30 feet must succeed on a DC 15 Strength saving throw become restrained."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack.",
-        "text": "The Cursebound Knight can make two attacks with its Lifebane Blade."
-      },
-      {
-        "name": "Lifebane Longsword.",
-        "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10+4) slashing damage plus 10 (3d6) necrotic damage."
-      },
-      {
-        "name": "Spirit Burst (Recharge 5-6).",
-        "text": "The Cursebound Knight releases tendrils of writhing shadow. Each creature within 15 feet must make a DC 15 Dexterity saving throw or take 14 (3d8) necrotic damage on a failed save, or half as much on a successful one."
-      }
-    ]
+    "statBlock": {
+      "show": false,
+      "alignment": "Chaotic Evil",
+      "creatureType": "Large Undead",
+      "stats": [
+        {"name": "STR", "val": 18},
+        {"name": "DEX", "val": 14},
+        {"name": "CON", "val": 14},
+        {"name": "INT", "val": 14},
+        {"name": "WIS", "val": 18},
+        {"name": "CHA", "val": 10}
+      ],
+      "savingThrows": "Str +8, Wis +8",
+      "skills": "Athletics +8, Arcana +6, Insight +6",
+      "passiveWisdom": 14,
+      "armor": "18 (plate armor)",
+      "hitPoint": 120,
+      "hitDie": "16d10+32",
+      "speed": "30 ft.",
+      "damageResistances": "Slashing, Piercing, and Bludgeoning From Non-Magical Attacks",
+      "damageImmunities": "Necrotic, Poison",
+      "damageVulnerabilities": "Radiant",
+      "conditionImmunities": "Exhausted, Frightened, Poisoned",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common",
+      "challenge": "6",
+      "abilities": [
+        {
+          "name": "Lifebane Longsword.",
+          "text": "The Cursebound Knight's longsword is made of felliron and forged in shadowflame. Attacks made with the knight's longsword deal an additional 3d6 necrotic damage (included in the attack)."
+        },
+        {
+          "name": "Summon Vengeful Spirits.",
+          "text": "The knight can summon dark spirits to his side to aid him in capturing or dispatching his quarry. At the start of combat, the knight can summon up to 6 undead of CR 1/2 or lower to fight along side him."
+        },
+        {
+          "name": "Shadow Chains.",
+          "text": "As a bonus action, the knight clenches its fist in the direction of an opponent. One target within 30 feet must succeed on a DC 15 Strength saving throw become restrained."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack.",
+          "text": "The Cursebound Knight can make two attacks with its Lifebane Blade."
+        },
+        {
+          "name": "Lifebane Longsword.",
+          "text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10+4) slashing damage plus 10 (3d6) necrotic damage."
+        },
+        {
+          "name": "Spirit Burst (Recharge 5-6).",
+          "text": "The Cursebound Knight releases tendrils of writhing shadow. Each creature within 15 feet must make a DC 15 Dexterity saving throw or take 14 (3d8) necrotic damage on a failed save, or half as much on a successful one."
+        }
+      ]
+    }
   },
 
   "Pale-Collector": {
     "playerKnown": true,
     "path": "creature",
     "hideOnCat": false,
-    "showStatBlock": false,
     "name": "Pale Collector",
     "nickname": "Pale Collector",
     "type": "Undead",
@@ -284,56 +289,59 @@
     },
     "dmArticles": {
     },
-    "alignment": "Lawful Neutral",
-    "creatureType": "Medium undead",
-    "stats": [
-      {"name": "STR", "val": 12},
-      {"name": "DEX", "val": 18},
-      {"name": "CON", "val": 12},
-      {"name": "INT", "val": 11},
-      {"name": "WIS", "val": 22},
-      {"name": "CHA", "val": 9}
-    ],
-    "savingThrows": "Con +4, Wis +10",
-    "skills": "Insight +10, Surivival +10, Perception +10",
-    "passiveWisdom": 20,
-    "armor": "16 (studded leather)",
-    "hitPoint": 154,
-    "hitDie": "28d8+28",
-    "speed": "30 ft.",
-    "senses": "Darkvision 60 ft.",
-    "languages": "Understands the languages it knew in life, cannot speak but can write",
-    "challenge": "7",
-    "abilities": [
-      {
-        "name": "Turn Immunity.",
-        "text": "The pale collector is immune to effects that turn undead."
-      },
-      {
-        "name": "Innate Spellcasting.",
-        "text": ["The pale collector's spellcasting ability is Wisdom (spell save DC 18, spell attack bonus +10). The pale collector can innately cast the following spells, requiring only somatic components: ",
-          "@+At will+@: @*dancing lights, entangle, faerie fire*@ ",
-          "@+1/day each+@: @*vampiric touch, contagion*@"
-        ]
-      },
-      {
-        "name": "Mount.",
-        "text": "A Pale Collector will often bewitch a mount from among the beasts of the forest. This mount has the same statistics as a @+Cave Bear+@, @+Owlbear+@, @+Giant Elk+@, or @+Giant Boar+@, and acts as an independent mount, except that it instinctively knows and unquestioningly obeys the wishes of the pale collector, and its attacks deal an extra 2d8 necrotic damage."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack.",
-        "text": "The pale collector makes two attacks with its Staff of Reaping."
-      },
-      {
-        "name": "Staff of Reaping.",
-        "text": "Melee weapon attack: +9 to hit, reach 5ft, one target. Hit: 5 (1d6+1) bludgeoning damage plus 18 (4d8) necrotic damage."
-      },
-      {
-        "name": "Raise Collector.",
-        "text": "The pale collector touches one corpse killed by exposure to a cold environment that is no more than one year and one day old. The corpse becomes a Pale Collector, with half its hit point maximum, regenerating to full health after one day. A pale collector may make this action once, after which it will die after a period of 1d4+3 years."
-      }
-    ]
+    "statBlock": {
+      "show": false,
+      "alignment": "Lawful Neutral",
+      "creatureType": "Medium undead",
+      "stats": [
+        {"name": "STR", "val": 12},
+        {"name": "DEX", "val": 18},
+        {"name": "CON", "val": 12},
+        {"name": "INT", "val": 11},
+        {"name": "WIS", "val": 22},
+        {"name": "CHA", "val": 9}
+      ],
+      "savingThrows": "Con +4, Wis +10",
+      "skills": "Insight +10, Surivival +10, Perception +10",
+      "passiveWisdom": 20,
+      "armor": "16 (studded leather)",
+      "hitPoint": 154,
+      "hitDie": "28d8+28",
+      "speed": "30 ft.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Understands the languages it knew in life, cannot speak but can write",
+      "challenge": "7",
+      "abilities": [
+        {
+          "name": "Turn Immunity.",
+          "text": "The pale collector is immune to effects that turn undead."
+        },
+        {
+          "name": "Innate Spellcasting.",
+          "text": ["The pale collector's spellcasting ability is Wisdom (spell save DC 18, spell attack bonus +10). The pale collector can innately cast the following spells, requiring only somatic components: ",
+            "@+At will+@: @*dancing lights, entangle, faerie fire*@ ",
+            "@+1/day each+@: @*vampiric touch, contagion*@"
+          ]
+        },
+        {
+          "name": "Mount.",
+          "text": "A Pale Collector will often bewitch a mount from among the beasts of the forest. This mount has the same statistics as a @+Cave Bear+@, @+Owlbear+@, @+Giant Elk+@, or @+Giant Boar+@, and acts as an independent mount, except that it instinctively knows and unquestioningly obeys the wishes of the pale collector, and its attacks deal an extra 2d8 necrotic damage."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack.",
+          "text": "The pale collector makes two attacks with its Staff of Reaping."
+        },
+        {
+          "name": "Staff of Reaping.",
+          "text": "Melee weapon attack: +9 to hit, reach 5ft, one target. Hit: 5 (1d6+1) bludgeoning damage plus 18 (4d8) necrotic damage."
+        },
+        {
+          "name": "Raise Collector.",
+          "text": "The pale collector touches one corpse killed by exposure to a cold environment that is no more than one year and one day old. The corpse becomes a Pale Collector, with half its hit point maximum, regenerating to full health after one day. A pale collector may make this action once, after which it will die after a period of 1d4+3 years."
+        }
+      ]
+    }
   }
 }

@@ -210,7 +210,20 @@
     "type": "Region",
     "location": "Lemuria",
     "description": [
-      "The @+Rikedal Lowlands+@ are a region in western Lemuria created by the Svinge and Ruunan rivers. The lowlands sit west of Isdrage Bay, east of the Greyleaf Pines and north of the Razark Timberlands. The region serves as one of the most fertile farming regions in the Kingdom of Lemuria. It, along with the Trädgård Plain, provide the vast majority of grain and produce for the kingdom. Many farming villages dot the lowlands, creating a patchwork of colorful fields as far as the eye can see."
+      "The @+Rikedal Lowlands+@ are a region in western Lemuria created by the Svinge and Ruunan rivers. The lowlands sit west of Isdrage Bay, east of the Greyleaf Pines and north of the Razark Timberlands. The region serves as one of the most fertile farming regions in the Realm of Lemuria. It, along with the Trädgård Plain, provide the vast majority of grain and produce for the kingdom. Many farming villages dot the lowlands, creating a patchwork of colorful fields as far as the eye can see."
+    ]    
+  },
+  "Trädgård-Plain": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["lowlands","ulfwyst","valley","Lemuria"],
+    "name": "Trädgård Plain",
+    "nickname": "Trädgård Plains",
+    "linkingWords": ["Tradgard Plain","Tradgard Plains"],
+    "type": "Region",
+    "location": "Lemuria",
+    "description": [
+      "The @+Trädgård Plain+@ is a region in eastern Lemuria. The region is the most fertile farming region in the Realm of Lemuria. It, along with the Rikedal Lowlands, provide the vast majority of grain and produce for the kingdom. The heartland of this legion is dotted with numerous ponds, lakes and streams which provide the necessary water for the numerous farming villages that are spread across the landscape."
     ]    
   },
   "Barrowdowns": {

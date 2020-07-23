@@ -43,7 +43,7 @@ class History extends Component {
     const descriptionEntries = this.getArticles(dates.articles);
 
     return (
-      <Page.Lore>
+      <Page.Default>
         <TitleComponent title={`${dates.name} - Centhris Wiki`} />
         <section id="lore" className="article" >
           <article className="lore" id={dates.name.replace(/\s/g,"-")}>
@@ -57,7 +57,7 @@ class History extends Component {
 
           </article>
         </section>
-      </Page.Lore>
+      </Page.Default>
     )
   }
 

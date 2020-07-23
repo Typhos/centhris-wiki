@@ -119,32 +119,5 @@ hr.hRule {
     width: 94vw;
     position: relative;
     top: 15.5vh;
-
-    article.person,
-    article.location,
-    article.group {
-      width: 96%;
-      margin: 0 2% 3em;
-
-      h2.fullName {
-        display: none;
-      }
-
-      div.mainContent {
-        i.quote {
-          padding: 0;
-        }
-      }
-
-      aside.infoBox {
-        width: 100%;
-        max-width: 100%;
-        margin-bottom: 2em;
-
-        h4.nickname {
-
-        }
-      }
-    }
   }
 }

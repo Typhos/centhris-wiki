@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
+import { Redirect } from "react-router-dom";
+import { TitleComponent } from 'components/titleComponent.js';
+
 import DataLoader from 'components/utils/dataLoader';
 import WikiUtils from 'components/utils/wikiUtils';
 import Back from 'components/back';
 import Page from 'components/page';
-import { TitleComponent } from 'components/titleComponent.js';
-import { Redirect } from "react-router-dom";
+import StatBlock from 'components/articles/statBlock';
 
-import "styles/creatureArticle.scss";
+import "styles/articles.scss";
 
 class Creatures extends Component {
 
@@ -21,8 +23,6 @@ class Creatures extends Component {
 
     this.getArticles = this.getArticles.bind(this);
     this.hiddenStats = this.hiddenStats.bind(this);
-    this.getStatBlock = this.getStatBlock.bind(this);
-    this.getMod = this.getMod.bind(this);
   }
 
   UNSAFE_componentWillReceiveProps(nextProps){
@@ -81,9 +81,7 @@ class Creatures extends Component {
           </div>
 
           { ( this.state.dmView || creature.showStatBlock ) &&
-            <div className="statsShell">
-              {this.getStatBlock(creature)}
-            </div>
+            <StatBlock entry={creature}/>
           }
         </article>
       </Page.Default>
@@ -91,17 +89,19 @@ class Creatures extends Component {
   }
 
   hiddenStats(creature) {
+    const stats = creature.statBlock;
+
     return <React.Fragment>
-      { creature.challenge && 
+      { stats.challenge && 
         <div className="info">
           <p className="key">Challenge</p>
-          <p className="values">{creature.challenge}</p>
+          <p className="values">{stats.challenge}</p>
         </div>
       }
-      { creature.alignment && this.state.dmView && 
+      { stats.alignment && this.state.dmView && 
         <div className="info">
           <p className="key">Alignment</p>
-          <p className="values">{creature.alignment}</p>
+          <p className="values">{stats.alignment}</p>
         </div>
       }
     </React.Fragment>
@@ -133,159 +133,6 @@ class Creatures extends Component {
     }
 
     return content;
-  }
-
-  getMod(score) {
-    const num = Math.round( (10.5 - score ) * -1 / 2 );
-    return ( num >= 0 ) ? `+${num}` : `${num}`;
-  }
-
-  getStatBlock(creature) {
-    return <section id="statBlock">
-      <div className="grouping heading">
-        <h3 className="creatureName">{creature.name}</h3>
-        <p>{WikiUtils.textFormatting( `@*${creature.creatureType}*@` )}, {WikiUtils.textFormatting(`@*${creature.alignment}*@`)}</p>
-      </div>
-      <div className="grouping basics">
-        <p><strong>Armor Class</strong> {creature.armor}</p>
-        <p><strong>Hit Points</strong> {creature.hitPoint} ({creature.hitDie})</p>
-        <p><strong>Speed</strong> {creature.speed}</p>
-      </div>
-      <div className="grouping stats">
-        {
-          creature.stats.map( stat => {
-            return <p className="block" key={stat.name}>
-              <strong>{stat.name}</strong> <span className="numerical">{stat.val} <small>({this.getMod(stat.val)})</small></span>
-            </p>
-          })
-        }
-      </div>
-      <div className="grouping general">
-        { creature.savingThrows &&
-          <p><strong>Saving Throws</strong> {creature.savingThrows}</p>
-        }
-        { creature.skills &&
-          <p><strong>Skills</strong> {creature.skills}</p>
-        }
-        { creature.damageResistances &&
-          <p><strong>Damage Resistances</strong> {creature.damageResistances}</p>
-        }
-        { creature.damageImmunities &&
-          <p><strong>Damage Immunities</strong> {creature.damageImmunities}</p>
-        }
-        { creature.damageVulnerabilities &&
-          <p><strong>Damage Vulnerabilities</strong> {creature.damageVulnerabilities}</p>
-        }
-        { creature.conditionImmunities &&
-          <p><strong>Condition Immunities</strong> {creature.conditionImmunities}</p>
-        }
-        <p>
-          <strong>Senses</strong> 
-            {creature.senses}
-            {creature.senses && creature.passiveWisdom && <React.Fragment>, </React.Fragment>} 
-            passive Perception {creature.passiveWisdom}
-        </p>
-        { creature.languages &&
-          <p><strong>Languages</strong> {creature.languages}</p>
-        }
-        { !creature.languages &&
-          <p><strong>Languages</strong> &mdash; </p>
-        }
-        <p><strong>Challenge</strong> {creature.challenge}</p>
-      </div>
-      <div className="grouping abilities">
-        {
-          creature.abilities.map( ability => {
-            return <p key={ability.name}>
-              <strong>{ability.name}</strong> <span className="descriptionText">{ WikiUtils.textFormatting(ability.text) }</span>
-              { ability.list && 
-                <ul className="abilityList">
-                  { ability.list.map( (str, i) => {
-                      return <li className="abilityItem" key={ability.name + "-" + i}>{str}</li>
-                    })
-                  }
-                </ul> 
-              }
-            </p>
-          })
-        }
-      </div>
-      <div className="grouping actions">
-        <h4 className="heading">Actions</h4>
-        {
-          creature.actions.map( action => {
-            return <p key={action.name}>
-              <strong>{action.name}</strong> { WikiUtils.textFormatting(action.text) }
-            </p>
-          })
-        }
-      </div>
-      { creature.bonusActions && 
-        <div className="grouping reactions">
-          <h4 className="heading">Bonus Actions</h4>
-          {
-            creature.bonusActions.map( bonus => {
-              return <React.Fragment key={bonus}>
-                <p>
-                  <strong>{bonus.name}</strong> { WikiUtils.textFormatting(bonus.text) }
-                </p>
-              </React.Fragment>
-            })
-          }
-        </div>
-      }
-      { creature.reactions && 
-        <div className="grouping reactions">
-          <h4 className="heading">Reactions</h4>
-          {
-            creature.reactions.map( reaction => {
-              return <React.Fragment key={reaction}>
-                <p>
-                  <strong>{reaction.name}</strong> { WikiUtils.textFormatting(reaction.text) }
-                </p>
-              </React.Fragment>
-            })
-          }
-        </div>
-      }
-      { creature.villainActions &&
-        <div className="grouping villain">
-          <h4 className="heading">Villain Actions</h4>
-          {
-            creature.villainActions.map( actions => {
-              return <React.Fragment key={actions}>
-                <p>
-                  <strong>{actions.order}{actions.name}</strong> { WikiUtils.textFormatting(actions.text) }
-                </p>
-              </React.Fragment>
-            })
-          }
-        </div>
-      }
-      { creature.legendary &&
-        <div className="grouping legendary">
-          <h4 className="heading">Legendary Actions</h4>
-          {
-            creature.legendary.map( legendary => {
-              if ( legendary.name === 'description' ) {
-                return <React.Fragment key={legendary.text}>
-                  <p>
-                    {legendary.text}
-                  </p>
-                </React.Fragment>
-              }
-
-              return <React.Fragment key={legendary.name}>
-                <p>
-                  <strong>{legendary.name}</strong> { WikiUtils.textFormatting(legendary.text) }
-                </p>
-              </React.Fragment>
-            })
-          }
-        </div>
-      }
-      
-    </section>
   }
 }
 

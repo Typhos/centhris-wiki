@@ -173,27 +173,34 @@
     "leaders": ["High Queen Inga Villdyr"],
     "regions": ["Korin Gulf","Strait of Krigere","Amber Grove","Torick Peaks","Mösöngol Tundra","Ursgal Islands","Venngar Sea","Mare Concordis"],
     "description": [
-      "One of the largest states in eastern Ulfwyst, the clans of Lemuria control the frigid lands that surround the tempestuous Korin Gulf. Lemuria is a harsh and dangerous land, full of savage beasts, perilous terrain and volatile weather. The people who live here are large, willful, and daring. Over the millennia amongst the crags, glaciers, ice flows and howling woods, the people have developed an understanding with the land they inhabit."
+      "One of the largest states in eastern Ulfwyst, the clans of Lemuria control the frigid lands that surround the tempestuous Korin Gulf. Lemuria is a harsh and dangerous land, full of savage beasts, perilous terrain and volatile weather. The people who live here are large, willful, and daring. Over the millennia amongst the crags, glaciers, ice flows and howling woods, the people have developed an understanding with the land they inhabit.",
+
+      "Lemuria is governed by an elective clan monarchy, controlled by the Clans of Lemuria. These clans are led by the five Great Clans — Arnbjorg, Bjørsel, Sjomann, Tordenfødt and Villdyr."
     ],
     "articles":{
-      "Society": [],
-      "Military": [],
-      "People of the Land": [
+      "Society": [
+        "@#People of the Land#@",
         "Due to the vast amount of natural wilderness that exists in this remote region of Ulfwyst, there is an innate connection in Lemuria with the Feywild. Many people claim to see fey spirits roaming the hills or dancing in the ancient forests.",
-        "With this fey connection comes a peculiar phenomena: Lemuria has the highest concentration of half-elves in all of Ulfwyst, possibly in all of Centhris. It is not uncommon for a man or woman to disappear for years at a time, only to return from some far off place with a child in tow, a reminder of fleeting tryst with a fey from beyond the mortal realms. Half-elves are viewed as normal, or in some eyes, blessed people who have been touched by the realms beyond."
+        "With this fey connection comes a peculiar phenomena: Lemuria has the highest concentration of half-elves in all of Ulfwyst, possibly in all of Centhris. It is not uncommon for a man or woman to disappear for years at a time, only to return from some far off place with a child in tow, a reminder of fleeting tryst with a fey from beyond the mortal realms. Half-elves are viewed as normal, or in some eyes, blessed people who have been touched by the realms beyond.",
+        "@#Masters of the Sea#@",
+        "Many towns in Lemuria are located along a river or on the coast. The people of this land have a healthy respect and a deep bond with the sea. Any person worth their salt knows how to handle a boat and can sail on a river, at the very least. Due to this cultural expectation, Lemurians are generally considered the most skilled sailors in Ulfwyst and it is common to find a merchant vessel in cities such as Volikgrad or Braxinfurt being commanded by a Lemurian captain."
+      ],
+      "Military": [
+        "The military of Lemuria is comprised of levied soldiers from the various Clans of Lemuria. Each clan is expected to provide an adequate levy of warriors based on their status in the Clan Council. How a clan provides its forces is up to the clan leadership. Most clans choose to followed a model of mixed recruitment, with professional, noble born soldiers at the ready if they are required, and a larger, conscripted body of militia soldiers pulled from the karls and unlanded peasantry.",
+        "Common practice among the clans is to have their forces reviewed by their respective clan chiefs on a regular basis in order to ensure they are able to meet their levy quota. Failing to provide a proper levy during wartime is a great stain upon the offending clan."
       ],
       "Settlements":[
-        "Most of the people of Lemuria live in isolated, fortified villages and towns located at defendable positions in the landscape. Frotified hill-towns, sea-side ports located on the sides of cliffs and walled villages located deep in forests are typical fare for the people of Lemuria."
-      ],
-      "Masters of the Sea":[
-        "Many towns in Lemuria are located along a river or on the coast. The people of this land have a healthy respect and a deep bond with the sea. Any person worth their salt knows how to handle a boat and can sail on a river, at the very least. Due to this cultural expectation, Lemurians are generally considered the most skilled sailors in Ulfwyst and it is common to find a merchant vessel in cities such as Volikgrad or Braxinfurt being commanded by a Lemurian captain."
+        "The Realm of Lemuria is vast and its people live in a wide variety of communities often dependent on local pressures, climate and proximity to clan resources and fortifications.",
+
+        "The majority of Lemurians live in small farming communities spread throughout the realm's two large, arable regions: the Rikedal Lowlands and the Trädgård Plain. Many of these communities are not fortified, due to their central location and distance from obvious external threats. When called upon to defense themselves, most villages can muster a sizable levy.",
+
+        "Lemurians who live in isolated locations, such as the the frozen forest and tundra of the far south live in fortified villages or towns located at defensible positions in the landscape. Frotified hill-towns, sea-side ports located on the sides of cliffs and walled villages located deep in forests are typical fare for the people who live in the harshest regions of Lemuria."
       ],
       "Religion":[
         "Lemuria is an ancient and mystical land, full of haunted woods, deadly mires and frozen peaks. The people have mixed the traditional gods of Ulfwyst and their own, more ancient traditions.",
         "Almost every village and town in the kingdom has a temple dedicated to the gods, and also a sacred grove dedicated to the spirits of the land. This animist practice honors the spirits of the forest, rocks, river, mountains and sea with which the people of this place share a sacred bond. The people of Lemuria believe that though the gods hold supreme power over the world, their day to day lives are more influenced by the natural spirits all around them.",
-        "To the people of Lemuria, it is as important to honor the local spirits as it is the Gods. Throughout the year, various rites, festivals and holidays mark the occasions important to the animist practices. When the spring crops are sown, a village will hold a festival to honor the spirits of the fields, the orchards and the streams. When a lamb is born or an old beast of burden dies, its spirit is honored in ancient rites at a family's ritual altar."
-      ],
-      "Sacred Monuments":[
+        "To the people of Lemuria, it is as important to honor the local spirits as it is the Gods. Throughout the year, various rites, festivals and holidays mark the occasions important to the animist practices. When the spring crops are sown, a village will hold a festival to honor the spirits of the fields, the orchards and the streams. When a lamb is born or an old beast of burden dies, its spirit is honored in ancient rites at a family's ritual altar.",
+        "@#Sacred Monuments#@",
         "@&./lore/Runestones.png|An ancient runestone dedicated to a great clan chieftan.|right&@ In these sacred groves, druids and priests erect great stone circles dedicated to the spirits of the land. It is also a common tradition amongst the great clans to mark the rite of adulthood by placing a great runestone in a sacred location near the clan's hold. The head of the clan generally commissions the stone and then the clan, lead by the soon-to-be adult carry the stone to the destined location, planting the stone to mark the auspicious occasion."
       ]
     }
