@@ -1,0 +1,107 @@
+{
+  
+  "Council-of-Nine": {
+    "playerKnown": false,
+    "path": "group",
+    "name": "Council of Nine",
+    "nickname": "Council of Nine",
+    "linkingWords": ["Council of Kaeldrin"],
+    "tags": ["mages","kaeldrin sanctum","ulfwyst"],
+    "type": "Government",
+    "location": "Kaeldrin Sanctum",
+    "memberNumber": "9",
+    "members": [
+      "Magister Coldforge",
+      "Magister Cordran",
+      "Magister Miavus",
+      "Magister Melruth",
+      "Magister Olanrem",
+      "Magister Kluurner",
+      "Magister Telmiss",
+      "Magister Hushod",
+      "Magister Zuvey"
+    ],
+    "description": [
+    ],
+    "articles": {
+    }
+  },
+  "Clan-Council-of-Lemuria": {
+    "playerKnown": true,
+    "path": "group",
+    "name": "Clan Council of Lemuria",
+    "nickname": "Clan Council of Lemuria",
+    "linkingWords": ["Clan Council"],
+    "tags": ["lemuria","ulfwyst","elective body"],
+    "type": "Government",
+    "location": "Realm of Lemuria",
+    "members": [
+      "Torild Sjomann",
+      "Ulfrica Arnbjorg",
+      "Wuldren Tordenfødt",
+      "Viljar Bjørsel",
+      "Solveig Alding",
+      "Ylva Kvalheim",
+      "Halder Falklyng",
+      "Dagny Nygard",
+      "Eydis Völsung"
+
+    ],
+    "memberNumber": "15",
+    "forceImg": "Storsal-Helter",
+    "leaders": [
+      "High Queen Inga Villdyr"
+    ],
+    "description": [
+      "The @+Clan Council of Lemuria+@ is the main governmental body of the Realm of Lemuria. The council meets at the Storsal Helter in the city of Kilurus. The council is comprised of the leaders of the Clans of Lemuria."
+    ],
+    "articles": {
+      "Council Practices": [
+        "To an outsider, the methods and rules of a Clan Council meeting may seem chaotic, but to a Lemurian familiar with council practice, it is almost identical to a village council meeting. Topics of discussion can be proposed by any member of the council, with priority descending from those with the most political influence to those with the least.",
+        "There is no standard length for a council meeting. Depending on the number of topics and the length of debate, a meeting may require only a few hours, or several days. If a meeting requires multiple days, breaks are alloted. The only rule counter to this is that @+once debate on a topic has begun, a resolution must be found before a meeting may adjourn+@.",
+        "@#Clan Influence#@",
+        "The most important members of the council are the chieftains of the major clans, of which there are currently five: Arnbjorg, Bjørsel, Sjomann, Tordenfødt and Villdyr. These clan tend to hold permanent, influential offices in the council. They also receive priority, and extended speaking time during council debates."
+      ]
+    }
+  },
+  "Council-of-the-Withered-King": {
+    "playerKnown": true,
+    "path": "group",
+    "name": "Council of the Withered King",
+    "nickname": "Council of the Withered King",
+    "tags": ["Istagen","ulfwyst","wizards"],
+    "type": "Magic Order",
+    "location": "Kingdom of Istagen",
+    "leaders": [
+      "Shulxaa the Withered King"
+    ],
+    "members": [
+      "Akrozad",
+      "Ekar the Harvester",
+      "Istivos",
+      "Mexaura",
+      "Ozudrem",
+      "Rubrum Magnus",
+      "Shabea",
+      "Vidrem Wastewalker",
+      "Zoltheraz"
+    ],
+    "description": [
+      "The @+Council of the Withered King+@ was a group of liches that were subservient to Shulxaa, the Withered King.",
+      "The Lich Lord of Istagen reigned over the Kingdom of Istagen for several hundred years prior to his defeat by the Knights of the Sacred Dawn. Having achieved lichdom hundreds of years prior to his complete domination of the Kingdom of Istagen, he found that though many wizards publicly spoke out against the practice of magical undeath, in private they were far more willing to entertain such ideas. Thus, @~Shulxaa~@ slowly began to find willing mages whom he felt were worthy (and subservient) enough to join his inner circle, which would eventually grow to become known as the Council of the Withered King.",
+      "Once a wizard had accepted the terms of his dark bargain, Shulxaa would create for them a phylactery in which the mage would transfer their life force, becoming a lich. However, the secret of the creation of such objects, as well as their individual hiding places, were never shared with his servants, as a means of control by the Lich Lord. Thus, the council members, even if they might be tempted, would never overly act against their master. Shulxaa also went to great lengths over the course of his reign over Istagen to ensure that the knowledge of how to create a phylactery was never available to his servants, as a further way to ensure their loyalty."
+    ],
+    "articles": {
+      
+    },
+    "dmArticles": {
+      "The Council Dispersed": [
+        "Though many members of the Council of the Withered King were kill, only some of their phylacteries were discovered and destroyed during the liberation of Istagen. Many members of the council, whose soul vessels were dispersed to ensure their survival, went into hiding in order to avoid the Knights of the Sacred Dawn. Though there were whispers of strange wizards among the peasants, the banishment of arcane practitioners from Tovanis forced the mages to flee out of the kingdom in order to avoid easy detection, should they use large-scale magic.",
+        "Though some of the knights wished to hunt down and destroy the remaining liches, the decision was made to instead focus on rebuilding the realm and help the former subjects of the lich lord instead of chasing shadows. Thus, the council vanished into the wilds of Ulfwyst, only to be remembered in historical records, and the long memory of those driven to enact revenge against their reign of terror."
+      ],
+      "Lesser Liches": [
+        "Mechanically, each member of the Council of the Withered King is considered a Lesser Lich. None of the mages who make up the council were ever powerful, nor resourceful, enough to become full-blown liches. Instead, their undeath was bestowed upon them by Shulxaa during his reign."
+      ]
+    }
+  }
+}

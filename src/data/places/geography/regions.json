@@ -171,11 +171,11 @@
     "type": "Region",
     "location": "Navolin",
     "description": [
-      "The @+Tiderack Coast+@ is a tropical, coastal region Ulfwyst located on the north east corner of the continent. The region encompasses the area north of the Barrier Coast and east of the Sea of Cassan. Historically, the coast was controlled by the Kingdom of Azond. With the conquest of Azond, the region is now under the control of the Kingdom of Navolin."
+      "The @+Tiderack Coast+@ is a tropical, coastal region of Ulfwyst located on the north east corner of the continent. The region encompasses the area north of the Barrier Coast and east of the Sea of Cassan. Historically, the coast was controlled by the Kingdom of Azond. With the conquest of Azond, the region is now under the control of the Kingdom of Navolin."
     ]    
   },
   "Vuradel-Coast": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["coast","region","ulfwyst","Lemuria"],
     "name": "Vuradel Coast",
@@ -184,10 +184,11 @@
     "type": "Region",
     "location": "Lemuria",
     "description": [
+      "The @+Vuradel Coast+@ a temperate, coastal region of the Mare Concordis located along the south-east corner of Ulfwyst. The region encompasses the area south of the Barrier Coast and north of the Venngar Sea. Historically, the coast was controlled by the Realm of Lemuria, though following the War of Sellswords, the coastline is shared with the Archduchy of Zurast."
     ]    
   },
   "Lepkar-Peninsula": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["coast","region","ulfwyst","Archduchy of Zurast","Lemuria"],
     "name": "Lepkar Peninsula",
@@ -200,7 +201,7 @@
     ]    
   },
   "Rikedal-Lowlands": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["lowlands","ulfwyst","valley","Lemuria"],
     "name": "Rikedal Lowlands",
@@ -213,7 +214,7 @@
     ]    
   },
   "Barrowdowns": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["hills","ulfwyst","burial ground","Lemuria"],
     "name": "Barrowdowns",

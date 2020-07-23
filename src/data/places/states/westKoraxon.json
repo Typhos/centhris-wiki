@@ -1,8 +1,8 @@
 {
-  "Kingdom-of-Daotian": {
+  "Daotian": {
     "playerKnown": false,
     "path": "location",
-    "name": "Kingdom of Daotian",
+    "name": "Daotian",
     "nickname": "Kingdom of Daotian",
     "tags": ["kingdom","western koraxon"],
     "type": "State",

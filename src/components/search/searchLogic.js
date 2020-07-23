@@ -15,11 +15,11 @@ export default function SearchLogic (searchString, dmView) {
     return orderResults(finalResultsArray);
   // }
 
-  function searchResultObjectFomatting (entry, matchArray) {
+  function searchResultObjectFomatting (entry, matchArray, weight) {
     return {
       "name": entry,
       "displayName": data[entry].name,
-      "count": matchArray.length + 1,
+      "count": matchArray.length + 1 + ( weight || 0 ),
       "playerKnown": data[entry].playerKnown,
       "path": data[entry].path
     }
@@ -41,7 +41,7 @@ export default function SearchLogic (searchString, dmView) {
       });
 
       if (checkArray.length > 0) {
-        return searchResultObjectFomatting(entry, checkArray);
+        return searchResultObjectFomatting(entry, checkArray, 5);
       }
 
       return undefined;

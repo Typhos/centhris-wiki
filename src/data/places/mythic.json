@@ -7,7 +7,7 @@
     "nickname": "Neshaya's Garden",
     "linkingWords": ["Garden of the Dead"],
     "tags": ["mythic locale","death","garden","the gravekeeper","graveyard"],
-    "type": "Mythic",
+    "type": "Mythic Locale",
     "location": "Shadowfell",
     "description": [
       "The Garden of Neshaya is the resting place of the souls of mortals who are not called to the hall of a specific deity. This is the fate of most, for being called to the hall of patron deity is rare and the greatest, or most vile, of heroes receive such an honor."
@@ -28,7 +28,7 @@
     "linkingWords": ["Grand Hall of the Gods"],
     "tags": ["mythic locale","gods","hall"],
     "location": "Astra Sea",
-    "type": "Mythic",
+    "type": "Mythic Locale",
     "description": [
       "The @+Halls of Tanrilar+@ are said to be the gathering place of the gods of Centhris. The halls are said to be an enormous palace floating in the Astra Sea with no fixed location. It is said that at times, the gods have been come together in Tanrilar to engage in debates or resolve disputes among their kin. "
     ],

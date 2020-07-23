@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import Back from 'components/back';
 import { TitleComponent } from 'components/titleComponent.js';
 
 // My Components
 import WikiUtils from "components/utils/wikiUtils";
+import Back from 'components/back';
 import Filter from 'components/filter';
 import Page from 'components/page';
 import DataLoader from 'components/utils/dataLoader';
+import CategoryGroup  from 'components/categories/categoryGroup';
 
 // STYLES
 import 'styles/categories.scss';
@@ -20,102 +20,60 @@ class OrganizationGroups extends Component {
   constructor (props) {
     super(props);
 
-    // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
+    const data = DataLoader.organizations;
+    const dmView = localStorage.getItem('dmView') === 'true';
     let filteredOutput = {};
-    let dmView = localStorage.getItem('dmView') === 'true';
 
-    for (let [key, obj] of Object.entries(orgData)) {
-      if ( !obj.hideOnCat ) {
-        if ( obj.playerKnown || dmView ) {
-          filteredOutput[key] = obj;
-        }
+    // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.    
+    for (let [key, obj] of Object.entries(data)) {
+      if ( !obj.hideOnCat && ( obj.playerKnown || dmView ) ) {
+        filteredOutput[key] = obj;
       }
     }
 
-    const orgs = WikiUtils.sortByName( Object.keys(filteredOutput) );
-
-    let categories = orgs.map( org => {
-      return orgData[org].type;
-    });
-    const uniqueSet = new Set(categories);
-    categories = [...uniqueSet];
+    // Get all categories from the category group, compile them into a big array, then use Set to eliminate duplicates
+    let categories = Object.keys(filteredOutput).map(entry => data[entry].type);
+    categories = WikiUtils.sortByName( [...(new Set(categories))] );
 
     this.state = {
-      orgs: WikiUtils.sortByName( Object.keys(filteredOutput) ),
-      categories: WikiUtils.sortByName(categories),
       dmView: dmView,
+      pageData: data,
+      categories: categories,
+      articles: WikiUtils.sortByName( Object.keys(filteredOutput) )
     };
 
     this.handleFilter = this.handleFilter.bind(this);
-    this.checkEmptyEntry = this.checkEmptyEntry.bind(this);
   }
 
   render () {
-    const numberOfArticles = Object.keys(this.state.orgs).length;
-    const categories = this.state.categories.map( category => {
-      return (
-        <div key={category} className="category">
-          { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 &&
-            <h2 className="sectionTitle">{category}s</h2>
-          }
-          <ul className="sectionList">
-            {this.getEntriesByCategory(category)}
-          </ul>
-        </div>
-      )
-    });
+    const numberOfArticles = Object.keys(this.state.articles).length;
 
     return (
       <Page.People>
         <TitleComponent title={`Organizations - Centhris Wiki`} />
         <Back/>
-        <Filter handleFilter={ this.handleFilter }  data={orgData}/>
+        <Filter handleFilter={ this.handleFilter }  data={this.state.pageData}/>
 
         <h2 className="sectionGroup">Organizations & Groups <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
         <div id="categories" className="columns" >
-          {categories}
+          {
+            this.state.categories.map( category => {
+              return <CategoryGroup key={category} articles={this.state.articles} category={category} pageData={this.state.pageData}/>
+            })
+          }
         </div>
       </Page.People>
     )
   }
 
-  getEntriesByCategory(category) {
-    const images = require.context('img/organizations', true);
-    const allImages = require.context('img/', true);
-
-    return this.state.orgs.map( org => {
-      const current = orgData[org];
-      if ( current.type === category ) {
-        let imgSrc = ( images.keys().some( x => x.includes( org ) ) && images(images.keys().filter( x => x.includes( org ) ) ) ) 
-          || allImages('./placeholder.png');
-
-        if ( current.forceImg && allImages.keys().some( x => x.includes( current.forceImg )) ) {
-          imgSrc = allImages( allImages.keys().filter( x => x.includes( current.forceImg ) ) );
-        }
-
-        return (
-          <li key={org} className="entry">
-            <Link to={`/group/${org}`}>
-              <img className={`landscape ${ this.checkEmptyEntry(current) }`} alt="" src={ imgSrc }/>
-              <p>{current.name}</p>
-            </Link>
-          </li>
-        )
-      }
-      return undefined;
-    });
-  }
-
   handleFilter(results) {
-    this.setState({orgs: results});
-  }
+    let categories = results.map(entry => this.state.pageData[entry].type);
+    categories = WikiUtils.sortByName( [...(new Set(categories))] );
 
-  checkEmptyEntry(entry) {
-    if (this.state.dmView && WikiUtils.stubCheck(entry) ) {
-      return "empty";
-    }
-
-    return "";
+    this.setState({
+      articles: results,
+      categories: categories
+    });
   }
 
 }

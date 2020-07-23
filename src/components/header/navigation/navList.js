@@ -8,6 +8,7 @@ export default class NavList extends Component {
 
     return (
       <ul className="navigationList">
+        <li className={`navigationListItem ${ (loc === '/curated-links') ? "active" : "" }`} navid="curated"><Link to="/curated-links">Campaign Links</Link></li>
         <li className={`navigationListItem ${ (loc === '/map') ? "active" : "" }`} navid="map"><Link to="/map">Map</Link></li>
         <hr/>
         <li className={`navigationListItem ${ (loc === '/creatureTypes') ? "active" : "" }`} navid="creatures"><Link to="/creatureTypes">Creatures</Link></li>

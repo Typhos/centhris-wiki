@@ -268,5 +268,25 @@
     },
     "dmArticles": {
     }
+  },
+  "Phabras": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Phabras",
+    "nickname": "Phabras",
+    "linkingWords": [],
+    "tags": ["human","mage","hermit"],
+    "race": "Human",
+    "gender": "Male",
+    "age": "unknown",
+    "titles": ["the Hermit"],
+    "description": [
+        "@+Phabras+@ is a eccentric archmage and hermit who lives at Erdőben Tower in the Torick Peaks. "
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    }
   }
 }

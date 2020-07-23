@@ -61,7 +61,7 @@
     "occupation": "Traveling Merchant",
     "description": [
       "@+Dúrnir+@ is a traveling dwarven merchant who buys and sells all manner of goods. He travels with his @*Giant Boar*@ companion, Sutri, who serves as a pack and guard animal. Dúrnir has a slightly surly demeanor, but is a fair an honest businessdwarf. He does regular business with the dwarf holds of Dol Obok, the Realm of Cibrin, the Realm of Lemuria, the Kingdom of Navolin and the Archduchy of Zurast.",
-      "@&./creatures/Giant-Boar.png|The Giant Boar Sutri, the traveling companion of Dúrnir.&@Along with his traveling supplies, goods for sale, and personal belongings, Dúrnir keeps a fully functional, magically expanding forge in his possession. He, like so many other dwarves, is a natural smith. He is willing to repair, upgrade, or enchant customer's arms and armor if they have the coin. ",
+      "@&Giant-Boar|The Giant Boar Sutri, the traveling companion of Dúrnir.&@Along with his traveling supplies, goods for sale, and personal belongings, Dúrnir keeps a fully functional, magically expanding forge in his possession. He, like so many other dwarves, is a natural smith. He is willing to repair, upgrade, or enchant customer's arms and armor if they have the coin. ",
       "Dúrnir either does not have a clan name, or refuses to provide it when asked."
     ],
     "dmArticles": {

@@ -1,0 +1,48 @@
+{
+  "people": [
+    "Telarion Elentiir",
+    "Ulfrica Arnbjorg",
+    "Inga Villdyr",
+    "Thornweaver",
+    "Drelnor Arnbjorg",
+    "Torild Sjo",
+    "Wuldren Tordenfodt",
+    "Viljar Bjorsel",
+    "Lythea",
+    "Tasus",
+    "Balder Arnbjorg",
+    "Sigird Arnbjorg",
+    "Phabras"
+  ],
+  "groups": [
+    "Council of the Withered King",
+    "Clans of Lemuria",
+    "Knights of the Sacred Dawn"
+  ],
+  "countries": [
+    "Tovanis",
+    "Realm of Lemuria"
+  ],
+  "places": [
+    "Kilurus",
+    "Postek",
+    "Blattfelt",
+    "Kaer Edsken",
+    "Razark Timberlands",
+    "Greyleaf Pines",
+    "Ankor Duraz",
+    "Hall of the Clans",
+    "Var Zvolt"
+  ],
+  "lore": [
+    "Courts of the Feywild",
+    "Great Clan War",
+    "War of Sellswords"
+  ],
+  "items": [
+    "Lament of Autumn",
+    "Bracer of Altered Reality",
+    "Crown of Fey Dominion",
+    "Talisman of the Forest"
+  ]
+}

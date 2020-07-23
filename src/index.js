@@ -12,6 +12,7 @@ import {Characters} from './pages/categories/characters/index';
 import {Cosmos} from './pages/articles/cosmos/index';
 import {Creatures} from './pages/articles/creatures/index';
 import {CreatureCategories} from './pages/categories/creatures/index';
+import {Curated} from './pages/campaign-links/index';
 import {Error404} from './pages/404/index';
 import {History} from './pages/articles/history/index';
 import {Location} from './pages/articles/location/index';
@@ -26,7 +27,6 @@ import {Pantheon} from './pages/articles/pantheon/index';
 import {People} from './pages/categories/people/index';
 import {Person} from './pages/articles/person/index';
 import {Places} from './pages/categories/places/index';
-import {Player} from './pages/articles/player/index';
 import {Runes} from './pages/articles/runes/index';
 import {Spell} from './pages/articles/spell/index';
 import {SpellCategories} from './pages/categories/spells/index';
@@ -37,8 +37,8 @@ import {VesdarianCalendar} from './pages/articles/calendar/index';
 // serviceWorker.unregister();
 
 if ( localStorage.getItem('dmView') === "true" ) {
-  console.log(
-    '%c Warning: You are currently in the Dungeon Master view. All content is linked, even if players cannot see it. \n To revert to standard view, clear the dmView property in your localStorage.',
+  console.info(
+    '%c You are currently in the Dungeon Master view. All content is linked, even if players cannot see it. \n To revert to standard view, clear the dmView property in your localStorage.',
     'background: #222; color: #bada55; line-height: 20px; padding: 1.5em 25px;'
   );
 
@@ -83,11 +83,12 @@ const routing = (
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/lore/The-Vesdarian-Calendar" component={VesdarianCalendar} />
-        <Route path="/player-character" component={Player} />
+        <Route path="/player-character" component={Person} />
         <Route path="/characters" component={Characters} />
         <Route path="/cosmos/" component={Cosmos} />
         <Route path="/creature" component={Creatures} />
         <Route path="/creatureTypes/" component={CreatureCategories} />
+        <Route path="/curated-links/" component={Curated} />
         <Route path="/history/" component={History} />
         <Route path="/location" component={Location} />
         <Route path="/lore/" component={Lore} />

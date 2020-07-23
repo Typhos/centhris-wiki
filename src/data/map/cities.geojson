@@ -355,13 +355,30 @@
         "name":"Ketrizyn",
         "population":3400,
         "type":"City",
-        "info":"Ketrizyn is the set of Clan Sjomann. The city is surrounded by the forboding Everfrost Woodlands and is regulary raided by orc tribes or dangerous beasts which call the forest their home."
+        "info":"Ketrizyn is the seat of Clan Sjomann. The city is surrounded by the forboding Everfrost Woodlands and is regulary raided by orc tribes or dangerous beasts which call the forest their home."
       },
       "geometry":{
         "type":"Point",
         "coordinates":[
           47.191429548913469,
           -27.683498102171178
+        ]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "id":null,
+        "name":"Sønnborg",
+        "population":1480,
+        "type":"Town",
+        "info":"Sønnborg is a port town on the Vuradel Coast. Originally a small fishing village, the town slowly expanded as trade along the eastern coast of Ulfwyst became more frequent. The primary Lemurian office of the Venngar Trading Company is located in the town."
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          44.06742,
+          -25.109368
         ]
       }
     },

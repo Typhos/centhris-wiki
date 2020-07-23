@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 import WikiUtils from "components/utils/wikiUtils";
 import DataLoader from 'components/utils/dataLoader';
 import Back from 'components/back';
@@ -7,6 +6,8 @@ import { TitleComponent } from 'components/titleComponent.js';
 import { Redirect } from "react-router-dom";
 
 import Page from 'components/page';
+import getImgPath from "components/utils/getImgPath.js";
+
 import "styles/locationArticle.scss";
 
 class Location extends Component {
@@ -24,7 +25,7 @@ class Location extends Component {
     }
 
     this.getArticles = this.getArticles.bind(this);
-    this.personsList = this.personsList.bind(this);
+    // this.personsList = this.personsList.bind(this);
   }
 
   UNSAFE_componentWillReceiveProps(nextProps){
@@ -45,22 +46,9 @@ class Location extends Component {
       )
     }
 
-    const allImages = require.context('img/', true);
-    const images = require.context('img/places/', true);
-    const crests = require.context('img/crests/', true);
-    const maps = require.context('img/maps/', true);
-    const currency = require.context('img/currency/', false);
-
+    const images = require.context('img/location/', true);
     const location = this.state.location;
 
-    let imgSrc = ( images.keys().some( x => x.includes( this.state.location.name.replace(/\s/g,"-") ) ) && images( images.keys().filter( x => x.includes( this.state.location.name.replace(/\s/g,"-") ) )[0] ) );
-      // || allImages('./placeholder.png');
-
-    if ( this.state.location.forceImg && allImages.keys().some( x => x.includes( this.state.location.forceImg )) ) {
-      imgSrc = allImages( allImages.keys().filter( x => x.includes( this.state.location.forceImg ) ) );
-    }
-
-    // const races = location.races && location.races.map( race => <span className="race commaSeparated">{ WikiUtils.linkContent(location, race) }</span> );
     const additionalImages = location.additionalImages && location.additionalImages.map( image => {
       const img = images.keys().filter( name => name.includes(image) );
       return (
@@ -70,10 +58,11 @@ class Location extends Component {
       )
     });
 
-    const map = location.map && maps.keys().filter( name => name.includes(location.map)) && 
+    const map = location.map && 
         <div className="info mapBox">
-          <a href={ maps( maps.keys().filter( name => name.includes(location.map)) ) }>
-            <img alt="map" className="map" src={ maps( maps.keys().filter( name => name.includes(location.map)) ) }/>
+          <a href={ new getImgPath(location.map).src }>
+            <img alt="map" className="map" src={ new getImgPath(location.map.replace(/\s/g,"-") ).src }/>
+            {/*<img alt="map" className="map" src={ maps( maps.keys().filter( name => name.includes(location.map)) ) }/>*/}
           </a>
         </div>      
 
@@ -103,7 +92,7 @@ class Location extends Component {
               
               { 
                 <div className="container">
-                  <img className="portrait" alt="" src={ imgSrc }/>
+                  <img className="portrait" alt="" src={ new getImgPath(location.name.replace(/\s/g,"-"), location ).src }/>
                 </div>
               }
 
@@ -137,9 +126,7 @@ class Location extends Component {
                 <div className="info currency">
                   <p className="key">Currency</p>
                   <p className="values">{location.currency}</p>
-                  { currency.keys().some(x => x.includes( location.currency.replace(/\s/g,"-") )) &&
-                      <img className="coinImage" alt="" src={ currency('./' + location.currency.replace(/\s/g,"-") + '.png') }/>    
-                  }
+                  <img className="coinImage" alt="" src={ new getImgPath(location.currency.replace(/\s/g,"-")).src }/>
                 </div>
               }
               { location.capital && 
@@ -229,109 +216,109 @@ class Location extends Component {
     )
   }
 
-  districtList () {
-    const location = this.state.location;
-    const images = require.context('img/places/', true);
-    let list;
+  // districtList () {
+  //   const location = this.state.location;
+  //   const images = require.context('img/location/', true);
+  //   let list;
 
-    if ( location.districts ) {
-      let listItems = location.districts.map( district => {
-        const places = DataLoader.places;
-        const distData = Object.values(places).filter( x => 
-          district === x.name || 
-          district === x.nickname || 
-          ( x.linkingWords && x.linkingWords.some( words => words.includes(district) ) ) 
-        )[0];
+  //   if ( location.districts ) {
+  //     let listItems = location.districts.map( district => {
+  //       const places = DataLoader.places;
+  //       const distData = Object.values(places).filter( x => 
+  //         district === x.name || 
+  //         district === x.nickname || 
+  //         ( x.linkingWords && x.linkingWords.some( words => words.includes(district) ) ) 
+  //       )[0];
 
-        let districtImg = images("./districts/Belloton.png");
+  //       let districtImg = images("./districts/Belloton.png");
 
-        if (distData) {
-          // if the district has an image
-          if ( images.keys().some( img => img.includes( distData.name.replace(/\s/g,'-') ) ) ) {
-            districtImg = images( images.keys().filter( img => img.includes( distData.name.replace(/\s/g,'-') ) ) ); 
-          }
+  //       if (distData) {
+  //         // if the district has an image
+  //         if ( images.keys().some( img => img.includes( distData.name.replace(/\s/g,'-') ) ) ) {
+  //           districtImg = images( images.keys().filter( img => img.includes( distData.name.replace(/\s/g,'-') ) ) ); 
+  //         }
 
-          if ( distData.playerKnown === true || this.state.dmView ) {
-            return <li className="entry">
-              <Link to={`/location/${distData.name.replace(/\s/g,"-")}`}>
-                <img className="landscape" alt="" src={districtImg || ""}/>
-                <p>{distData.name}</p>
-              </Link>
-            </li>
-          }
-        }
+  //         if ( distData.playerKnown === true || this.state.dmView ) {
+  //           return <li className="entry">
+  //             <Link to={`/location/${distData.name.replace(/\s/g,"-")}`}>
+  //               <img className="landscape" alt="" src={districtImg || ""}/>
+  //               <p>{distData.name}</p>
+  //             </Link>
+  //           </li>
+  //         }
+  //       }
 
-        return undefined;
-      });
+  //       return undefined;
+  //     });
 
-      if ( listItems.filter( x => x !== undefined ).length > 0 ) {
+  //     if ( listItems.filter( x => x !== undefined ).length > 0 ) {
 
-        list = 
-        <div id="categories">
-          <div className="category">
-            <h3 className="subjectArea">Districts</h3>
-            <ul className="sectionList">
-            {
-              listItems
-            }
-            </ul>
-          </div>
-        </div>
+  //       list = 
+  //       <div id="categories">
+  //         <div className="category">
+  //           <h3 className="subjectArea">Districts</h3>
+  //           <ul className="sectionList">
+  //           {
+  //             listItems
+  //           }
+  //           </ul>
+  //         </div>
+  //       </div>
 
-      }
-    }
+  //     }
+  //   }
 
-    return list;
-  }
+  //   return list;
+  // }
 
-  personsList () {
-    const location = this.state.location;
-    const dmView = this.state.dmView;
-    const peopleImgs = require.context('img', true);
-    let array = [];
+  // personsList () {
+  //   const location = this.state.location;
+  //   const dmView = this.state.dmView;
+  //   const peopleImgs = require.context('img', true);
+  //   let array = [];
 
-    const peoples = {...DataLoader.people, ...DataLoader.characters};
+  //   const peoples = {...DataLoader.people, ...DataLoader.characters};
 
-    for ( let [key, values] of Object.entries( peoples ) ) {
-      Object.entries(values).forEach( entry => {
-        let entryVal = entry[1];
-        if ( Array.isArray( entryVal ) && entryVal.some( x => x.toLowerCase().includes( location.name.toLowerCase() ) || x.toLowerCase().includes( location.nickname.toLowerCase() ) ) ) {
-          if ( !array.some( x => x === key ) && ( values.playerKnown || dmView ) ) {
-            array.push( key );
-          }
-        }
-      });
-    }
+  //   for ( let [key, values] of Object.entries( peoples ) ) {
+  //     Object.entries(values).forEach( entry => {
+  //       let entryVal = entry[1];
+  //       if ( Array.isArray( entryVal ) && entryVal.some( x => x.toLowerCase().includes( location.name.toLowerCase() ) || x.toLowerCase().includes( location.nickname.toLowerCase() ) ) ) {
+  //         if ( !array.some( x => x === key ) && ( values.playerKnown || dmView ) ) {
+  //           array.push( key );
+  //         }
+  //       }
+  //     });
+  //   }
 
-    const lis = array.sort().map( result => {
-      let imgSrc = 
-        ( peopleImgs.keys().some(x => x.includes( peoples[result].name.replace(/\s/g,"-") ) ) ) 
-          ? peopleImgs( peopleImgs.keys().filter( x => x.includes( peoples[result].name.replace(/\s/g,"-") ) ) ) 
-          : peopleImgs("./portraits/unknown.png");
+  //   const lis = array.sort().map( result => {
+  //     let imgSrc = 
+  //       ( peopleImgs.keys().some(x => x.includes( peoples[result].name.replace(/\s/g,"-") ) ) ) 
+  //         ? peopleImgs( peopleImgs.keys().filter( x => x.includes( peoples[result].name.replace(/\s/g,"-") ) ) ) 
+  //         : peopleImgs("./portraits/unknown.png");
 
-      let path = ( Object.keys(DataLoader.characters).some(c => c === result) ) ? `/player-character/${result}` :  `/person/${result}`;
+  //     let path = ( Object.keys(DataLoader.characters).some(c => c === result) ) ? `/player-character/${result}` :  `/person/${result}`;
 
-      return (
-        <li className="person entry" id={result} key={Math.random()}>
-          <Link className="personLink" to={path}>
-            <img className="portrait" alt="" src={imgSrc}/>
-            <p className="name">{peoples[result].name}</p>
-          </Link>
-        </li>
-      )
-    })
+  //     return (
+  //       <li className="person entry" id={result} key={Math.random()}>
+  //         <Link className="personLink" to={path}>
+  //           <img className="portrait" alt="" src={imgSrc}/>
+  //           <p className="name">{peoples[result].name}</p>
+  //         </Link>
+  //       </li>
+  //     )
+  //   })
 
-    if ( lis.length > 0 ) {
-      return (
-        <React.Fragment>
-          <h3 className="subjectArea">Related People</h3>
-          <ul id="categories" className="articleList" key={Math.random()}>
-            {lis}
-          </ul>
-        </React.Fragment>
-      )
-    }
-  }
+  //   if ( lis.length > 0 ) {
+  //     return (
+  //       <React.Fragment>
+  //         <h3 className="subjectArea">Related People</h3>
+  //         <ul id="categories" className="articleList" key={Math.random()}>
+  //           {lis}
+  //         </ul>
+  //       </React.Fragment>
+  //     )
+  //   }
+  // }
 
   getArticles(articles) {
     const location = this.state.location;

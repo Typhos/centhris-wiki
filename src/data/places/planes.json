@@ -49,18 +49,18 @@
 
     }
   },
-  "Astra-Sea": {
+  "Astral-Sea": {
     "playerKnown": true,
     "path": "location",
     "hideOnCat": true,
-    "name": "Astra Sea",
-    "nickname": "the Astra Sea",
+    "name": "Astral Sea",
+    "nickname": "the Astral Sea",
     "linkingWords": [],
     "tags": ["mythic locale","plane"],
     "type": "Plane",
     "quote": "\"It is the space between everything. It is the road that goes everywhere. It is where you are when you aren't anywhere else.\"",
     "description": [
-      "The @+Astra Sea+@ is an outer plane in universal cosmology and the domain of raw elemental energy and matter. It is considered the opposite of its elemental counterpart, the Elemental Chaos. It is described as being \"above\" the Prime Material plane and its reflections, the Feywild and the Shadowfell.",
+      "The @+Astral Sea+@ is an outer plane in universal cosmology and the domain of raw elemental energy and matter. It is considered the opposite of its elemental counterpart, the Elemental Chaos. It is described as being \"above\" the Prime Material plane and its reflections, the Feywild and the Shadowfell.",
       "Time in the Astral flows at the same rate as on a Prime Material plane but the effects of time are slowed almost to a stop ― a thousand years in the Astral plane feels like only a day to its denizens. Creatures do not go hungry, nor do they age while in the Astral plane. For that reason, its mortal inhabitants need to return to the Material Plane in order to have children, or to reach adulthood."
     ],
     "articles": {

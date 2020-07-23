@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import DataLoader from 'components/utils/dataLoader';
 import { TitleComponent } from 'components/titleComponent.js';
 
@@ -7,6 +6,7 @@ import Filter from 'components/filter';
 import Back from 'components/back';
 import Page from 'components/page';
 import WikiUtils from "components/utils/wikiUtils.js";
+import ListItem from 'components/categories/listItem';
 
 import 'styles/categories.scss';
 
@@ -15,13 +15,13 @@ class People extends Component {
   constructor (props) {
     super(props);
 
-    const peopleData = DataLoader.people;
-
-    // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
     let filteredOutput = {};
     let dmView = localStorage.getItem('dmView') === 'true';
 
-    for (let [key, obj] of Object.entries(peopleData)) {
+    // Filter out all of the player unknown characters.
+    // TODO: When making an API endpoint, refactor to just not send the hidden characters instead.
+
+    for (let [key, obj] of Object.entries( DataLoader.people )) {
       if ( !obj.hideOnCat ) {
         if (obj.playerKnown || dmView) {
           filteredOutput[key] = obj;
@@ -36,60 +36,32 @@ class People extends Component {
     };
 
     this.handleFilter = this.handleFilter.bind(this);
-    this.peopleCategory = this.peopleCategory.bind(this);
-    this.checkEmptyEntry = this.checkEmptyEntry.bind(this);
   }
 
   render () {
-
-    const images = require.context('img/portraits/', true);
-    const peopleData = this.state.peopleData;
     const numberOfArticles = Object.keys(this.state.people).length;
-    const filteredOutput = this.state.people.map( person => {
-      // const imgPath = images.keys().some( x => x.includes( person )) &&  images('./' + peopleData[person].name.replace(/\s/g,"-") + '.png');
-      let imgPath = ( images.keys().some( x => x.includes( person ) ) && images(images.keys().filter( x => x.includes( person ) ) ) ) 
-          || images('./unknown.png');
-
-      return this.peopleCategory(peopleData[person], imgPath);
-    });
 
     return (
       <Page.People>
         <TitleComponent title={`NPCs - Centhris Wiki`} />
         <Back/>
-        <Filter handleFilter={ this.handleFilter } data={peopleData}/>
+        <Filter handleFilter={ this.handleFilter } data={ DataLoader.people }/>
 
         <h2 className="sectionTitle">Non-Player Characters <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
         
         <ul id="categories" >
-          {filteredOutput}
+          {
+            this.state.people.map( person => {
+              return <ListItem key={person} entry={ DataLoader.people[person] } imgStyle="portrait" />
+            })
+          }
         </ul>
       </Page.People>
     )
   }
 
-  peopleCategory (person, imgPath = "") {
-    return (
-      <li key={person.name.replace(/\s/g,"-")} className="person entry" id={person.name.replace(/\s/g,"-")}>
-        <Link className="personLink" to={ { pathname:`/person/${person.name.replace(/\s/g,"-")}`, state: "update" }}>
-          <img className={`portrait ${this.checkEmptyEntry(person)}`} alt="" src={imgPath}/>
-          <p className={`name ${(this.state.dmView && !person.playerKnown) ? "hidden": ""}`}>{person.name}</p>
-        </Link>
-      </li>
-    )
-  }
-
   handleFilter(results) {
-    console.log(results)
     this.setState({people: results})
-  }
-
-  checkEmptyEntry(entry) {
-    if (this.state.dmView && WikiUtils.stubCheck(entry) ) {
-      return "empty";
-    }
-
-    return "";
   }
 
 }
