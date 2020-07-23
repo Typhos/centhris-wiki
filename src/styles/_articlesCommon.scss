@@ -66,10 +66,10 @@ main.content {
     font-size: 1em;
   }
 
-  div.mainContent p.stub {
+  div.mainContent .stub {
     background-color: rgba($susiePurple, 0.15);
     padding: 1em 2em;
-    margin-right: 1em;
+    margin: 1em 1em 1.5em 0;
     font-family: $headingText;
     width: 60%;
 
@@ -225,6 +225,14 @@ main.content {
             width: 100%;
             height: auto;
           }
+        }
+      }
+    }
+
+    &#item {
+      .infoBox {
+        .portrait {
+          background-color: #fff;
         }
       }
     }

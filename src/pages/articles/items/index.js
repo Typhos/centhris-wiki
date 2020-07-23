@@ -26,7 +26,7 @@ class ItemArticle extends Component {
     if ( this.state.pathname !== nextProps.location.pathname) {
       this.setState({
         pathname: nextProps.location.pathname,
-        creature: decodeURI(window.location.pathname.split('/item/')[1])
+        item: decodeURI(window.location.pathname.split('/item/')[1])
       });
     }
   }

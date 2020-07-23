@@ -87,7 +87,7 @@
     }
   },
   "Knights-of-the-Sacred-Dawn": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "group",
     "name": "Knights of the Sacred Dawn",
     "nickname": "Holy Order of the Sacred Dawn",
@@ -99,7 +99,9 @@
       "Gergely Vastagh"
     ],
     "description": [
-      "Holy Order of the Eternal"
+      "The @+Knights of the Sacred Dawn+@ are a militant, holy order that have pledged their lives in the service of the Eternal. The knights' most famous achievement was the invasion of Istagen and the defeat of Shulxaa, the Withered King. Though comprised mainly of humans, the knights have no racial, social or political requirements, so long as their members pledge to live their lives in the service of others, and evangelize Anethos as the savior of mortals.",
+
+      "After the founding of the Theocracy of Tovanis, the knights split into two different factions. The more militant members of the order choosing to remain as questing paladins and retained the order's name. The knights more concerned with the restoration and governing of the new state formed the Atrium Fidelium."
     ],
     "articles": {
     }
@@ -178,12 +180,34 @@
       "Tools of the Trade": [
         "With the exception of their Halthîr, each member of the order is expected to procure their own equipment for tasks they are given. Many members spend their time after their initiation as members of adventuring groups, honing their skills and seeking out magical artifacts that can increase their effectiveness in their true profession.",
         "@#The Halthîr#@",
-        "@&./lore/items/Halthîr.png|The Halthîr warn by the Mage Hunter known as \"Pale Sorrow\".&@ Designed by one of the first members of the order, known to archival records only as the Bronze Basilisk, the unique masks of the Ithron Dagnir are highly prized, powerful magical items. Every mask is unique, but all are given the same enchantments.",
+        "@&Halthîr|The Halthîr warn by the Mage Hunter known as \"Pale Sorrow\".&@ Designed by one of the first members of the order, known to archival records only as the Bronze Basilisk, the unique masks of the Ithron Dagnir are highly prized, powerful magical items. Every mask is unique, but all are given the same enchantments.",
         "Each mask is enchanted with magical properties that enhance the wearer's anonymity. The Halthîr hides the wearer's eyes in complete darkness, changes the wearer's voice to a neutral tone of the appropriate gender, and provides protection from magic which would effect the wearer's mind, such as charm effects and telepathic intrusion. The mask also allows the users to cast a limited amount of spells from the mask without needing to have learned the spell personally.",
         "In terms of game mechanics, a Halthîr provides the following:",
         "• Resistance on saving throws against charm effects and spells or spell-like abilities to telepathically probe the wearer's mind.",
         "• The mask has 3 charges. While wearing it, you can use an action and expend one charge to cast @?Silence|https://www.dnd-spells.com/spell/silence-ritual?@, or two charges to cast @?Dispel Magic|https://www.dnd-spells.com/spell/dispel-magic?@ (Intelligence spellcasting ability modifier) from it. The Halthîr regains 1d3 expended charges daily at dawn."
       ]
+    }
+  },
+  "Empyrean-Rangers": {
+    "playerKnown": true,
+    "path": "group",
+    "name": "Empyrean Rangers",
+    "nickname": "Kaeldrin Empyrean Rangers",
+    "linkingWords": [],
+    "tags": ["air cavalry","kaeldrin sanctum","military","ulfwyst"],
+    "type": "Military Order",
+    "leaders": [
+      "Brigadier Tarkreg Stonebranch"
+    ],
+    "location": "Kaeldrin Sanctum",
+    "memberNumber": "2,000",
+    "description": [
+      "The @+Kaeldrin Empyrean Rangers+@ are a branch of the professional military of the Kaeldrin Sanctum. These elite troops are responsible for patrolling and defending the skies above the sanctum from airborne threats both mundane and magical. Like all divisions of the Kaeldrin military, the Empyrean Rangers have an unusually high number of magic users among their ranks, most commonly in the form of Eldritch Knights.",
+      "Ranger units are generally deployed in 50-person detachments called @*Eskades*@ which are lead by a Ranger-Captain. Each Eskade is usually comprised of 5 squads made up of 10 soldiers each. Each squad is assigned to a magically-assisted flying platform known as a Skyrig. These balloon-airship hybrids are able to house, feed and arm the squad for extended deployments in the air. SKyrigs are held aloft by large, balloons which are inflated by elemental servants of the ship's navigator, usually a wizard who has specialized in conjuration magic.",
+      "When engaging a threat, rangers will attach themselves to their skyrig via long tethers before diving off the platform. As a safety precaution, all rangers are issued enchanted armor, known as an Empyrean Harness, which is designed to prevent a ranger from falling to their death, should their tether be severed."
+    ],
+    "articles": {
+      
     }
   }
 }

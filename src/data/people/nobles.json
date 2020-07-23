@@ -207,7 +207,7 @@
     "hideOnCat": false,
     "name": "Wuldren Tordenfødt",
     "nickname": "Clan Chief Wuldren Tordenfødt",
-    "linkingWords": ["Chief Tordenfødt"],
+    "linkingWords": ["Chieftain Tordenfødt","Chieftain Viljar Tordenfødt","Chieftain Tordenfodt","Wuldren Tordenfodt"],
     "tags": ["tiefling","noble","Realm of Lemuria"],
     "age": "38",
     "gender": "Male",
@@ -231,7 +231,7 @@
     "hideOnCat": false,
     "name": "Viljar Bjørsel",
     "nickname": "Clan Chief Viljar Bjørsel",
-    "linkingWords": ["Chief Bjørsel"],
+    "linkingWords": ["Chieftain Bjørsel","Chieftain Viljar Bjørsel","Chieftain Bjorsel","Viljar Bjorsel"],
     "tags": ["tiefling","noble","Realm of Lemuria"],
     "age": "42",
     "gender": "Male",
@@ -247,6 +247,27 @@
         "Clan Bjørsel, which has many devout followers of the Dreamweaver, has a known practice of gifting its champions the boon of lycanthropy, specifically the curse of the werebear. This strain of the curse was purposefully chosen because werebears can temper themselves and reject their hysterical bloodlust. These champions, once chosen and cursed, leave the clan and enter the Eldskog forest, guarding the ancient temples that lie within.",
         "Viljar has been dealing with a large outbreak of unwanted lycanthropy on @*Eldskog Isle*@. It seems a renegade champion has begun to spread the curse of the werebear among clan members against the ancient tradition of the clan. Viljar has opted to keep the reason for his return to Eldskog a secret, not wanting to raise concerns about his clan's ability to deal with its internal problems. If the clan's ancient practice of intentionally cursing its warriors with lycanthropy to guard its lands were to become well known, it could lead to a loss of their position on the Clan Council of Lemuria."
       ]
+    }
+  },
+  "Hafr-Sjomann": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Hafr Sjomann",
+    "nickname": "Huskarl Hafr Sjomann",
+    "linkingWords": [],
+    "tags": ["half-elf","noble","Realm of Lemuria","Clan Sjomann"],
+    "age": "72",
+    "birthYear": "2C 2501",
+    "gender": "Male",
+    "race": "Half-Elf",
+    "occupation": "",
+    "affiliations": ["Realm of Lemuria","Clan Arnbjorg","Clan Sjomann"],
+    "description": [
+      "Huskarl @+Hafr Sjomann+@ is a member of Clan Sjomann of Lemuria, the husband of Ulfrica Arnbjorg and the cousin of Torild Sjomann. The couple have one son, Sigird Arnbjorg. He is one of the huskarls, the personal retinue, of the Sjomann Clan Chieftain and a highly accomplished soldier. His marriage to Ulfrica was an arranged, political matter rather than a romantic relationship. The riddersman was born and raised in the port town of Sønnborg in the eastern half of the kingdom.",
+      "Hafr is rarely at his wife's side in Kilurus, preferring to reside either in Postek, or with the noble-born riddersman that accompany the kingdom's levied armies. He is popular among the levied, peasant soldiers for his light-hearted demeanor and willingness to join the common soldiers at their fires in camp. He is commonly referred to by the nickname \"Huggorm\" (@*adder*@) due to his distinctive fighting style."
+    ],
+    "dmArticles": {
     }
   },
   "Han-Darga-Crogosh": {
@@ -265,6 +286,40 @@
     "description": [
       "@+Han Darga Crogosh+@ is the chieftain of Clan Godak and the Han Darga, or reigning warlord, of Cibrin. He came to power in 2C 2568 by defeating the previous Han Darga, Ovdarg of Clan Narod, in Dörak'nör. Crogosh is a legendary warrior, rivaling the greatest living warriors on Centhris."
     ]
+  },
+  "Sigird-Arnbjorg": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": true,
+    "name": "Sigird Arnbjorg",
+    "nickname": "Sigird Arnbjorg",
+    "tags": ["half-elf","noble","Realm of Lemuria"],
+    "age": "28",
+    "birthYear": "2C 2545",
+    "gender": "Male",
+    "race": "Half-Elf",
+    "titles": ["Tanist"],
+    "affiliations": ["Realm of Lemuria","Clan Arnbjorg"],
+    "description": [
+      "@+Sigird Arnbjorg+@ is the Tanist, or heir-apparent, to the title of Chieftain of Clan Arnbjorg. He is the only child of Ulfrica Arnbjorg and Hafr Sjomann. Like his mother, Sigird is a powerful sorcerer. From a young age, both due to his innate magical abilities and his social class, Sigird has been tutored in the arts of etiquette, statecraft, and magic by some of the finest minds in the realm. Among the political elite of the kingdom, he is seen as the most eligible bachelor in Lemuria, and is regularly spoken of as a possible future High King.",
+      "He has personally studied under Telarion Elentiir for 7 years, regularly traveling with the court mage to delegations with foreign officials and to Kvenvik Tower. Sigird ended his apprenticeship 2 years ago of his own accord, choosing to study under other mages to expand his arcane knowledge."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+      "Personality": [
+        "Due to his mother's influence, Sigird believes he is destined to rule Lemuria as High King. He has been explicitly been left in the dark about what is going on by his mother, and prefers to spend his time as a socialite and playboy."
+      ],
+      "Influence of Phabras the Hermit": [
+        "Sigird ended his apprenticeship with Telarion in 2C 2571, stating that while learned an incredible amount from the archmage, he wished to branch out and learn from other mages in Lemuria as well. Telarion was never told who Sigird would study under, but has not asked around, knowing that in doing so he might appear jealous that his most well-regarded pupil chose to move on.",
+
+        "In reality, Sigird was introduced to Phabras, a strange mystic from the former kingdom of Hestia, by his mother. The eccentric wizard took the young sorcerer under his guidance at Erdőben Tower, located in far northern end of the Torick Peaks. Under the old man's guidance, Sigird has learned numerous necromancies, transmutations and enchantments, spells Telarion felt were not necessary for Sigird to learn in preparation for his future as a leading member of the kingdom."
+      ],
+      "Artifacts of Power": [
+        "Drelnor was buried with 3 artifacts of great power, the Crown of Fey Dominion, the Talisman of the Forest Lords, and the Lament of Autumn. After her deal was struck with the Lord of Frost, Ulfrica was told to retrieve the relics of her forefather from his tomb by the Thornweaver.",
+        "The crown was taken by Ulfrica Arnbjorg, while the amulet was taken by Sigird Arnbjorg. The Lament of Autumn was left behind when the two had to flee the tomb before the wrath of the Barrow Lord consumed them. The risen spirit of the warlock, enraged at his own kin desecrating his tomb, declared a curse upon the bloodline for its treachery."
+      ]
+    }
   },
   "Mertien-Sarstina": {
     "playerKnown": true,

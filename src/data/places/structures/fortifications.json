@@ -226,7 +226,7 @@
     "location": "Kelishan Highlands",
     "leaders": ["Baron Janik Malmor"],
     "description": [
-      "Auburn Castle is a border keep along the border of Navolin and Tovanis in central Ulfwyst. Is the home castle and seat of Baron Janik Malmor.",
+      "@+Auburn Castle+@ is a border keep along the border of Navolin and Tovanis in central Ulfwyst. Is the home castle and seat of Baron Janik Malmor.",
       "The castle manor is the home of numerous families of humans and halflings, including the Montajay family. Prior to the arrival of Roland of Zelmar and Lirr Stonebreath, and the events that transpired in the woodlands near the castle, it was also the home of Filibert Montajay."
     ]
   },
@@ -240,7 +240,20 @@
     "location": "Kelishan Highlands",
     "leaders": ["Marshal Dianna van Alrin"],
     "description": [
-      "Kaer Valvik is a border-keep located at the eastern border of the Archduchy of Zurast, on the edge of the Barrier Coast and Navolin. The castle was constructed to guard the eastern expansion of the archduchy after it claimed the territory during the War of Sellswords."
+      "@+Kaer Valvik+@ is a border-keep located at the eastern border of the Archduchy of Zurast, on the edge of the Barrier Coast and Navolin. The castle was constructed to guard the eastern expansion of the archduchy after it claimed the territory during the War of Sellswords."
+    ]
+  },
+  "Var-Zvolt": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["castle","Cibrin","Clan Godak","ulfwyst"],
+    "name": "Var Zvolt",
+    "nickname": "Var Zvolt",
+    "type": "Fortification",
+    "location": "Torick-Vir Valley",
+    "leaders": ["Han Darga Crogosh"],
+    "description": [
+      "@+Var Zvolt+@ is the castle that guards the southern border of the Theocracy of Tovanis. Originally built under the rule of the Withered King when the region was known as the Kingdom of Istagen, the keep was renovated by the Knights of the Sacred Dawn in 2C 2559 following the War of Black Fields."
     ]
   },
   "Var-Komarno": {
@@ -387,7 +400,7 @@
     ]
   },
   "Kaer-Edsken": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["castle","lemuria","ulfwyst"],
     "name": "Kaer Edsken",

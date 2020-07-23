@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+
 import DataLoader from 'components/utils/dataLoader';
 import Back from 'components/back';
 import Filter from 'components/filter';
 import Page from 'components/page';
 import WikiUtils from "components/utils/wikiUtils";
 import { TitleComponent } from 'components/titleComponent.js';
+import ListItem from 'components/categories/listItem';
 
 import 'styles/categories.scss';
-import 'styles/pantheon.scss';
 
 import godsData from 'data/lore/gods';
 import banner from "img/lore/banners/pantheon-banner.png";
@@ -92,19 +92,12 @@ class Pantheon extends Component {
   }
 
   getGods (category) {
-    const imgs = require.context('img/lore/gods/', false);
 
     return this.state.gods.map( god => {
       if ( godsData[god].type === category ) {
-          return (
-          <li key={god} className="entry">
-            <Link to={`/lore/${god}`}>
-              { imgs.keys().some(x => x.includes( god )) && 
-                <img className={`portrait ${ this.checkEmptyEntry(godsData[god]) }`} alt="" src={ imgs('./' + god + '.png') }/>
-              }
-              <p>{godsData[god].name}</p>
-            </Link>
-          </li>
+        return (
+
+          <ListItem key={DataLoader.gods[god].name} entry={ DataLoader.gods[god] } imgStyle="portrait" />
         )
       }
 
@@ -127,4 +120,3 @@ class Pantheon extends Component {
 }
 
 export { Pantheon };
-

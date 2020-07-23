@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import DataLoader from 'components/utils/dataLoader';
 import { TitleComponent } from 'components/titleComponent.js';
+import { Link } from 'react-router-dom';
 
 import Filter from 'components/filter';
 import Back from 'components/back';
 import Page from 'components/page';
 import WikiUtils from "components/utils/wikiUtils";
+import CategoryGroup  from 'components/categories/categoryGroup';
+
 import 'styles/categories.scss';
 
 import calendarImg from "img/lore/banners/calendar-banner.png";
@@ -18,68 +20,45 @@ class LoreCategories extends Component {
   constructor (props) {
     super(props);
 
-    const combinedLore = DataLoader.lore;
-
-    // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.
-    let filteredOutput = {};
+    const data = DataLoader.lore;
     const dmView = localStorage.getItem('dmView') === 'true';
+    let filteredOutput = {};
 
-    for (let [key, obj] of Object.entries(combinedLore)) {
-      if ( !obj.hideOnCat ) {
-        if ( obj.playerKnown || dmView ) {
-          filteredOutput[key] = obj;
-        }
+    // filter out all of the player unknown characters. When making an API endpoint, refactor to just not send the hidden characters instead.    
+    for (let [key, obj] of Object.entries(data)) {
+      if ( !obj.hideOnCat && ( obj.playerKnown || dmView ) ) {
+        filteredOutput[key] = obj;
       }
     }
 
-    const lore = WikiUtils.sortByName( Object.keys(filteredOutput) );
-
-    // Create a list of unique location categories. eg. Cities, regions, nations, continents
-    let categories = lore.map( entry => {
-      return combinedLore[entry].type;
-    });
-    const uniqueSet = new Set(categories);
-    categories = [...uniqueSet];
+    // Get all categories from the category group, compile them into a big array, then use Set to eliminate duplicates
+    let categories = Object.keys(filteredOutput).map(entry => data[entry].type);
+    categories = WikiUtils.sortByName( [...(new Set(categories))] );
 
     this.state = {
-      active: "All",
       dmView: dmView,
-      combinedLore: combinedLore,
-      lore: lore,
-      categories: WikiUtils.sortByName(categories),
+      pageData: data,
+      categories: categories,
+      articles: WikiUtils.sortByName( Object.keys(filteredOutput) )
     };
 
-    this.getEntriesByCategory = this.getEntriesByCategory.bind(this);
-    this.checkEmptyEntry = this.checkEmptyEntry.bind(this);
     this.handleFilter = this.handleFilter.bind(this);
   }
 
   render () {
-    const numberOfArticles = Object.keys(this.state.lore).length;
+    const numberOfArticles = Object.keys(this.state.articles).length;
+
     const plural = function( category ) {
       if ( category === "World Lore" ) {
-         return <h2 className="sectionTitle">{category}</h2>
+         return category;
       } else if ( category.toLowerCase().includes("deity") ) {
-        return <h2 className="sectionTitle">{category.split(/\s/g)[0]} Deities</h2>
+        return category.split(/\s/g)[0] + " Deities";
       } else if (category.toLowerCase().includes("world lore") ) {
-        return <h2 className="sectionTitle">World Lore</h2>
+        return "World Lore";
       }
-      
-      return <h2 className="sectionTitle">{category}s</h2>
+            
+      return category + "s";
     }
-
-    const categories = this.state.categories.map( category => {
-      return (
-        <div key={category} className={`category ${category.replace(/\s/g,"-")}`}>
-          { this.getEntriesByCategory(category).filter( el => el !== undefined ).length !== 0 &&
-            plural(category)
-          }
-          <ul className="sectionList">
-            {this.getEntriesByCategory(category)}
-          </ul>
-        </div>
-      )
-    });
 
     return (
       <Page.LoreCategories>
@@ -87,7 +66,9 @@ class LoreCategories extends Component {
         <Back/>
         <Filter handleFilter={ this.handleFilter }  data={this.state.combinedLore}/>
 
-        <h2 className="sectionGroup">Lore of Centhris <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
+        <h2 className="sectionGroup">
+          Lore of Centhris <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small>
+        </h2>
 
         <div id="pinnedLore">
           <ul className="pinnedList">
@@ -113,63 +94,25 @@ class LoreCategories extends Component {
         </div>
 
         <div id="categories" >
-          {categories}
+          {
+            this.state.categories.map( category => {
+              const heading = plural(category);
+              return <CategoryGroup key={category} articles={this.state.articles} category={category} heading={heading} pageData={this.state.pageData}/>
+            })
+          }
         </div>
       </Page.LoreCategories>
     )
   }
 
-  getEntriesByCategory(category) {
-    const combinedLore = this.state.combinedLore;
-    const allImages = require.context('img/', true);
-
-    return this.state.lore.map( lore => {
-      let imgSrc = ( allImages.keys().some( x => x.includes( lore ) ) && allImages( allImages.keys().filter( x => x.includes( lore ) )[0] ) ) 
-          || allImages('./placeholder.png');
-
-      if ( combinedLore[lore].type === category && combinedLore[lore].subcatLink ) {
-        // link to a lore subcat: ie. Pantheon
-        return (
-          <li key={lore+category} className="entry">
-            <Link to={ {pathname: `/${combinedLore[lore].subcatLink}`, state: "update"}}>
-              { allImages.keys().some(x => x.includes( lore )) && 
-                <img className={`landscape ${ this.checkEmptyEntry(combinedLore[lore])} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={imgSrc}/>
-              }
-              <p className={`name ${(this.state.dmView && !combinedLore[lore].playerKnown) ? "hidden": ""}`}>{combinedLore[lore].name}</p>
-            </Link>
-          </li>
-        );
-      } else if ( this.state.combinedLore[lore].type === category ) {
-        
-        return (
-          <li key={lore+category} className="entry">
-            <Link to={`/lore/${lore}`}>
-              <img className={`landscape ${ this.checkEmptyEntry(combinedLore[lore])} ${(combinedLore[lore].doNotClipCatImg ) ? "noTilt" : ""}`} alt="" src={ imgSrc }/>
-              { !this.state.combinedLore[lore].type.toLowerCase().includes("race") &&
-                <p className={`name ${(this.state.dmView && !combinedLore[lore].playerKnown) ? "hidden": ""}`}>{combinedLore[lore].name}</p>
-              }
-              { combinedLore[lore].type.toLowerCase().includes("race") &&
-                <p className={`name ${(this.state.dmView && !combinedLore[lore].playerKnown) ? "hidden": ""}`}>{combinedLore[lore].nickname}</p>
-              }
-            </Link>
-          </li>
-        )
-      }
-
-      return undefined;
-    });
-  }
-
-  checkEmptyEntry(entry) {
-    if (this.state.dmView && WikiUtils.stubCheck(entry) ) {
-      return "empty";
-    }
-
-    return "";
-  }
-
   handleFilter(results) {
-    this.setState({lore: results});
+    let categories = results.map(entry => this.state.pageData[entry].type);
+    categories = WikiUtils.sortByName( [...(new Set(categories))] );
+
+    this.setState({
+      articles: results,
+      categories: categories
+    });
   }
 
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import DataLoader from 'components/utils/dataLoader';
-// import Modal from 'components/utils/modal';
+import getImgPath from "components/utils/getImgPath.js";
 
 export default class WikiUtils {
 
@@ -27,7 +27,6 @@ export default class WikiUtils {
   }
 
   static textFormatting(entryData) {
-    const images = require.context('img', true);
 
     // This function allows for content entries to be formatted before linking. 
     // Text in entries must be wrapped with a specific indicator in order to receive the following formatting:
@@ -39,7 +38,7 @@ export default class WikiUtils {
     // colorize      =   @; string ;@
     // HR            =   @---@
     // external link =   @? string | url ?@
-    // inline img    =   @& imgurl | caption &@
+    // inline img    =   @& image name | caption &@
 
     if (typeof entryData === "string") entryData = [entryData];
 
@@ -97,17 +96,19 @@ export default class WikiUtils {
           } else if ( /^&(.*?)&$/.test(substr) ) {
             
             substr = substr.replace(/&/g, "");
+
             const path = substr.split(/\|/)[0];
             const caption = substr.split(/\|/)[1];
             const position = substr.split(/\|/)[2];
-            const inlineImg = images.keys().filter(x => x === path);
+            const imgSrc = new getImgPath(path).src;
 
-            substr = <figure className={`articleImgBox ${ (position) ? position : ""}`} key={substr+j}>
-                      <a href={`${images(`${inlineImg}`)}`} target="_blank" rel="noopener noreferrer">
-                        <img src={`${images(`${inlineImg}`)}`} className="articleImg" alt={caption} onClick={this.expandedImageModal} />
-                      </a>
-                      <figcaption className="imgCaption">{caption}</figcaption>
-                    </figure>;
+            substr = 
+              <figure className={`articleImgBox ${ (position) ? position : ""}`} key={substr+j}>
+                <a href={imgSrc} target="_blank" rel="noopener noreferrer">
+                  <img src={ imgSrc } className="articleImg" alt={caption} onClick={this.expandedImageModal} />
+                </a>
+                <figcaption className="imgCaption">{caption}</figcaption>
+              </figure>;
 
           }
 
@@ -275,10 +276,16 @@ export default class WikiUtils {
   }
 
   static stubCheck (entry) {
+    const ignored = ["spell","item","rune"]
+
     const quote = entry.quote || "";
     const description = entry.description.join(" ");
     const articles = entry.articles;
     let articleStr = "";
+
+    if ( ignored.some( cat => cat === entry.path ) ) {
+      return false;
+    }
 
     if ( articles ) {
       articleStr = Object.keys(articles).map( key => {
@@ -290,10 +297,10 @@ export default class WikiUtils {
 
     if ( quote.length + description.length + articleStr.length <= 750 ) {
       return (
-        <p className="stub">
+        <div className="stub">
           <h3>This article is a stub</h3>
           <span>If you feel it requires an update to help with your understanding of the world, please let the GM know.</span>
-        </p>
+        </div>
       );
     } else {
       return false;

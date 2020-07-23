@@ -18,6 +18,7 @@
 
   ul.sectionList {
     padding: 0;
+    width: 100%;
   }
 
   .category {
@@ -173,8 +174,8 @@ ul.pinnedList {
       }
     }
 
-    li.entry {
-      width: 45%;
+    li.entry  {
+      width: 30%;
       height: auto;
       max-width: none;
       

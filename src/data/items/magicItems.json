@@ -75,19 +75,21 @@
     "tags": ["magic item","magical necklace"],
     "imgFolder": "items",
     "description": [
-      "@*Amulet, very rare (requires attunement)*@",
-      "@---@",
-      "This amulet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the amulet, you can use an action to expend charges to cast one of the following spells. Each spell may only be cast from the amulet once per day.",
-      "- @?Barkskin|http://dnd5e.wikidot.com/spell:barkskin?@ (1 charge)",
-      "- @?Summon Phantom Steed|http://dnd5e.wikidot.com/spell:phantom-steed?@, @*Stag*@ (2 charges)",
-      "- @?Tree Stride|http://dnd5e.wikidot.com/spell:tree-stride?@ (3 charges)",
-      "- @?Plane Shift|http://dnd5e.wikidot.com/spell:plane-shift?@, @*Feywild and Material planes only*@ (3 charges)"
+      
     ],
     "articles": {
       
     },
     "dmArticles": {
-      
+      "hidden stats": [
+        "@*Amulet, very rare (requires attunement)*@",
+        "@---@",
+        "This amulet has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the amulet, you can use an action to expend charges to cast one of the following spells. Each spell may only be cast from the amulet once per day.",
+        "- @?Barkskin|http://dnd5e.wikidot.com/spell:barkskin?@ (1 charge)",
+        "- @?Summon Phantom Steed|http://dnd5e.wikidot.com/spell:phantom-steed?@, @*Stag*@ (2 charges)",
+        "- @?Tree Stride|http://dnd5e.wikidot.com/spell:tree-stride?@ (3 charges)",
+        "- @?Plane Shift|http://dnd5e.wikidot.com/spell:plane-shift?@, @*Feywild and Material planes only*@ (3 charges)"
+      ]
     }
   },
   "Resonant-Aegis": {
@@ -180,18 +182,50 @@
     "tags": ["magic item","magical crown"],
     "imgFolder": "items",
     "description": [
-      "@*Crown, very rare (requires attunement)*@",
-      "@---@",
-      "The @+Crown of Fey Dominion+@ is an circlet forged by an eladrin smith for an unknown archfey of the Court of Colors. The crown is comprised of an ornate mithril band set with a gem only found in the Feywild known as a Moonshard Sapphire. While wearing the crown, you gain the following benefits:",
-      "You can speak Sylvan fluently.",
-      "You have advantage on saving throws against Enchantment spells.",
-      "You can use an action to cast the @?Suggestion|https://dnd5e.info/spellcasting/spell/suggestion/?@ spell (save DC 17) through the crown. You don’t need to concentrate on this Suggestion to maintain it during its duration. Once used, the suggestion power of the crown can’t be used again until the next dawn."
     ],
     "articles": {
       
     },
     "dmArticles": {
+      "hidden stats": [
+        "@*Crown, very rare (requires attunement)*@",
+        "@---@",
+        "The @+Crown of Fey Dominion+@ is an circlet forged by an eladrin smith for an unknown archfey of the Court of Colors. The crown is comprised of an ornate mithril band set with a gem only found in the Feywild known as a Moonshard Sapphire. While wearing the crown, you gain the following benefits:",
+        "You can speak Sylvan fluently.",
+        "You have advantage on saving throws against Enchantment spells.",
+        "You can use an action to cast the @?Suggestion|https://dnd5e.info/spellcasting/spell/suggestion/?@ spell (save DC 17) through the crown. You don’t need to concentrate on this Suggestion to maintain it during its duration. Once used, the suggestion power of the crown can’t be used again until the next dawn."
+      ]
+    }
+  },
+  "Bracer-of-Altered-Reality": {
+    "playerKnown": true,
+    "path": "item",
+    "hideOnCat": false,
+    "name": "Bracer of Altered Reality",
+    "nickname": "Bracer of Altered Reality",
+    "linkingWords": [""],
+    "type": "Magic Item",
+    "rarity": "Rare",
+    "attunement": true,
+    "tags": ["magic item","magical bracer","shard of the fallen god"],
+    "imgFolder": "items",
+    "description": [
+      "@*Bracer, rare (requires attunement)*@",
+
+      "@---@",
+
+      "@*These bracers allow the user to alter the very fabric of realty by infusing mystical energy into the crystaline shard place in it.*@",
+
+      "At the cost of a 2nd level spell slot, or 2 ki points, the wearer can transition between planes of existence for a moment. The user shifts into the Astral Sea for 30 seconds, allowing the wearer to pass through the Prime Material plane unhindered, as if the user was Ethereal.",
+
+      "At the cost of a 3rd level spell slot, or 4 ki points, the wearer can cast the @?Haste|http://dnd5e.wikidot.com/spell:haste?@ spell upon themselves.",
+
+      "Each spell-like ability can be used once per day. These abilities resets every day at dawn."
+    ],
+    "articles": {
       
+    },
+    "dmArticles": {
     }
   }
 

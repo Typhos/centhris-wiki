@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import DataLoader from 'components/utils/dataLoader';
-import Page from 'components/page';
-import CharactersList from 'components/articles/charactersList';
-import WikiUtils from "components/utils/wikiUtils";
 import { TitleComponent } from 'components/titleComponent.js';
+import WikiUtils from "components/utils/wikiUtils";
+import DataLoader from 'components/utils/dataLoader';
+import ListItem from 'components/categories/listItem';
+import Page from 'components/page';
+import Back from 'components/back';
 
 import 'styles/characters.scss';
-
-const images = require.context('img/characters/', true);
 
 class Characters extends Component {
 
@@ -23,24 +22,26 @@ class Characters extends Component {
     }
 
     this.state = {
-      characterData: characterData,
       characters: WikiUtils.sortByName( Object.keys(filteredOutput) ),
     };
   }
 
   render () {
-    const characterData = this.state.characterData;
-    const characters = this.state.characters.map( person => {
-      return <CharactersList key={person} data={{characterData}} entry={characterData[person]} image={ images('./' + characterData[person].name.replace(/\s/g,"-") + '.png') }/>
-    });
 
     return (
       <Page.Characters>
         <TitleComponent title={`Player Characters - Centhris Wiki`} />
+        <Back/>
         <h2 className="sectionTitle">Player Characters</h2>
 
-        <ul id="characters" >
-          {characters}
+        <ul id="categories" >
+          {
+            // TODO: For multiple player character parties, group the characters by person.party
+            
+            this.state.characters.map( person => {
+              return <ListItem key={person} entry={DataLoader.characters[person]} imgStyle="portrait" />
+            })
+          }
         </ul>
       </Page.Characters>
     )

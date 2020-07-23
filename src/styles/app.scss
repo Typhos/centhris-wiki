@@ -20,6 +20,10 @@ body {
   margin: 0;
   background-color: $charcoal;
   color: $moodGreen;
+  
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 
 h2.sectionGroup {
@@ -46,6 +50,7 @@ h2.sectionTitle {
   font-family: $headingText;
   color: $blueDark;
   border-bottom: 1px solid $blueDark;
+  text-transform: capitalize;
 
   small {
     font-size: 0.75em;

@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import WikiUtils from "components/utils/wikiUtils";
-import DataLoader from 'components/utils/dataLoader';
-import Back from 'components/back';
-import { TitleComponent } from 'components/titleComponent.js';
 
 import Page from 'components/page';
+import DataLoader from 'components/utils/dataLoader';
+import WikiUtils from "components/utils/wikiUtils";
+
+import { TitleComponent } from 'components/titleComponent.js';
+import getImgPath from "components/utils/getImgPath.js";
+import Back from 'components/back';
 
 import "styles/spells.scss";
 
@@ -61,7 +63,7 @@ class Spell extends Component {
               </h4>
               { images.keys().some(x => x.includes( spell.school.replace(/\s/g,"-") )) && 
                 <figure className="imgBox">
-                  <img className="portrait spellSchool" alt="" src={ images('./' + spell.school.replace(/\s/g,"-") + '.png') }/>
+                  <img className="portrait spellSchool" alt="" src={ new getImgPath(spell.school.replace(/\s/g,"-")).src }/>
                 </figure>
               }
               { spell.school &&

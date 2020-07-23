@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import WikiUtils from "components/utils/wikiUtils";
 import Back from '../../components/back';
+import getImgPath from "components/utils/getImgPath.js";
 
 import "styles/personArticle.scss";
 
@@ -77,19 +78,18 @@ export default class PeopleArticle extends Component {
     }
 
     const attunedItems = person.attunedItems && person.attunedItems.map( item => <li className="item" key={item}>{item}</li>);
+    const id = person.name.replace(/\s/g,"-");
 
     return (
 
-      <article className="person" id={person.name.replace(/\s/g,"-")}>
+      <article className="person" id={id}>
 
         <Back/>
 
         <h2 className="fullName">{person.nickname}</h2>
         <aside className={`infoBox ${ this.state.dmView || ""}`}>
           <h4 className="nickname">{person.name}</h4>
-          { this.props.image !== undefined && 
-            <img className={`portrait ${ (!this.props.image) ? "fillSpace" : "" }`} alt="" src={this.props.image}/>
-          }
+          <img className={`portrait ${ (!this.props.image) ? "fillSpace" : "" }`} alt="" src={ new getImgPath(id, this.props.entry, "portrait").src }/>
           { person.titles &&
             <div className="info">
               <p className="key">Title(s)</p>

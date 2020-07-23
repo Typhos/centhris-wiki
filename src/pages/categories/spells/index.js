@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Back from 'components/back';
-import DataLoader from 'components/utils/dataLoader';
 import { TitleComponent } from 'components/titleComponent.js';
 
 // My Components
 import WikiUtils from "components/utils/wikiUtils";
 import Page from 'components/page';
+import getImgPath from "components/utils/getImgPath.js";
+import DataLoader from 'components/utils/dataLoader';
+import Back from 'components/back';
 
 // STYLES
 import 'styles/categories.scss';
@@ -118,18 +119,15 @@ class SpellCategories extends Component {
 
   getSpellsByCat(category, val) {
     const allSpells = DataLoader.spells;
-    const images = require.context('img/spellSchools/', false);
 
     return <ul className="sectionList">
         { Object.keys( allSpells ).map( spell => {
           if ( allSpells[spell][category] === val ) {
             return <li className="entry" key={spell}>
               <Link to={`/spell/${spell}`}>
-                { images.keys().some(x => x.includes( allSpells[spell].school )) && 
-                  <figure className="imgBox">
-                    <img className="landscape noTilt spellSchool" alt="" src={ images('./' + allSpells[spell].school + '.png') }/>
-                  </figure>
-                }
+                <figure className="imgBox">
+                  <img className="landscape noTilt spellSchool" alt="" src={ new getImgPath( allSpells[spell].school ).src }/>
+                </figure>
                 { allSpells[spell].name }
               </Link>
             </li>

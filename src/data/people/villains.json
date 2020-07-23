@@ -240,21 +240,25 @@
     "linkingWords": ["Chief Arnbjorg"],
     "tags": ["half-elf","noble","Realm of Lemuria"],
     "age": "59",
+    "birthYear": "2C 2526",
     "gender": "Female",
     "race": "Half-Elf",
     "occupation": "Chief of Clan Arnbjorg",
     "affiliations": ["Realm of Lemuria"],
+    "quote": "\"Nearly 500 years ago, my great grandfather, Drelnor Arnbjorg, did what was best for Lemuria by helping put an end to the Great Clan War. He gave up the greatest asset the Arnbjorgs had, Kilurus itself. To claim that I or my clan have anything but the best intentions for this kingdom is an insult to me and the greatest clan in the realm.\"",
     "description": [
-      "@+Clan Chief Ulfrica Arnbjorg+@ is the leader of Clan Arnbjorg and one of the ruling members of the Clan Council of Lemuria. Ulfrica, known as the Frost Queen, is a powerful wild sorceress who specializes in ice magic.",
+      "Clan Chieftain @+Ulfrica Arnbjorg+@ is the leader of Clan Arnbjorg and one of the ruling members of the Clan Council of Lemuria. Ulfrica, sometimes referred to as the @*Frost Queen*@ behind her back, is a powerful sorceress who specializes in ice magic. She is married to Hafr Sjomann, and has one son, Sigird Arnbjorg. She spends most of her time in the capital city of Kilurus, where she keeps a residence in the Spirit Grove quarter.",
+
       "An ardent nationalist, Ulfrica is a divisive figure on the Clan Council. She regularly calls for aggressive action against people and groups she feels are threats to Lemuria. Other members of the council are often quick to note that she regularly conflates what is good for Lemuria with what is good for Clan Arnbjorg."
     ],
     "articles": {
+      "Seasoned Diplomat": [
+        "As a senior stateswoman of the realm, Ulfrica is regularly called upon to act as a diplomatic envoy to foreign states, where she is able to put her quick whit, silver tongue and shrewd intellect to good use. Most recently she was asked to lead a delegation to the dwarf hold of Ankor Duraz in hopes of gaining dwarven mercenary regiments in exchange for trade concessions. The negotiations ended without an agreement, and the half-elf was forced to return to Kilurus due to developments on the Tovani border.",
 
+        "She was the chief negotiator at the Council of Sevhrad, which resulted in the treaty that ended the War of Sellswords. After returning from the negotiations, she was not seen in the Storsal Helter for nearly a year, sending Arnbjorg clan chiefs as her proxy, either too ashamed with the concessions given in the treaty, or too enraged with the other clan chieftains for their political and military decisions during the war to face them."
+      ]
     },
     "dmArticles": {
-      "Response to Criticism": [
-        "\"Nearly 500 years ago, my great grandfather, Drelnor Arnbjorg, did what was best for Lemuria by helping put an end to the Great Clan War. He gave up the greatest asset the Arnbjorgs had, Kilurus itself. To claim that I or my clan have anything but the best intentions for this kingdom is an insult to me and the greatest clan in this kingdom.\""
-      ],
 
       "Beliefs, Motivations, and Values": [
         ""
@@ -277,7 +281,7 @@
     }
   },
   "Drelnor-Arnbjorg": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "person",
     "hideOnCat": true,
     "name": "Drelnor Arnbjorg",
@@ -308,28 +312,28 @@
     }
   },
   "Balder-Arnbjorg": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "person",
     "hideOnCat": true,
     "name": "Balder Arnbjorg",
     "nickname": "Balder Arnbjorg",
     "tags": ["half-elf","noble","Realm of Lemuria"],
-    "age": "42",
+    "age": "53",
     "gender": "Male",
     "race": "Half-Elf",
     "titles": ["Lord of Valldalen"],
     "occupation": ["Chief"],
     "affiliations": ["Realm of Lemuria","Clan Arnbjorg"],
     "description": [
-      "@+Balder Arnbjorg+@ is a nobleman, Arnbjorg clan chief and commander of Arnbjorg forces when the levy is summoned to war by the High Queen of Lemuria. He is 3rd in line to the title of Clan Chieftain and trusted advisor of Ulfrica Arnbjorg."
+      "@+Balder Arnbjorg+@ is a nobleman, Arnbjorg clan chief and commander of Arnbjorg forces when the levy is summoned to war by the High Queen of Lemuria. He is 3rd in line to the title of Clan Chieftain and trusted advisor of Ulfrica Arnbjorg. Balder is Ulfrica's cousin and Sigird Arnbjorg's first cousin once removed.",
+      
+      "For a half-elf, Balder has an imposing figure. He has pale skin due to his mother being an Aeglos'avar and a large, bushy beard which serves as evidence of his human father. Like many dark elves who inhabit Lemuria, the biting winters of the realm do not bother the nobleman, and he can regularly be found outside in mid-winter without a shirt while drilling his huskarl.",
+
+      "As Ulfrica Arnbjorg's lieutenant and trusted advisor, he is often at her side during important meetings, or overseeing tasks she does not wish to leave to chance. He is also responsible for the management and defense of the Träskhåll, the fortress of Postek, where he spends much of his time in the dungeon working on his personal specialty, @*aggressive interrogations*@."
     ],
     "articles": {
     },
     "dmArticles": {
-      "Artifacts of Power": [
-        "Drelnor was buried with 3 artifacts of great power, the Moonshadow Crown, the Talisman of Solitude, and the Lament of Autumn. After her deal was struck with the Lord of Frost, Ulfrica was told to retrieve the relics of her forefather from his tomb by the Thornweaver.",
-        "The crown was taken by Ulfrica Arnbjorg, while the amulet was taken by Balder Arnbjorg. The Lament of Autumn was left behind when the two had to flee the tomb before the wrath of the Barrow Lord consumed them. The risen spirit of the warlock, enraged at his own kin desecrating his tomb, declared a curse upon the bloodline for its treachery."
-      ]
     }
   },
   "Drekaash": {
@@ -348,6 +352,91 @@
       "@+Drekaash+@, better known in circles that seek his services as @*Cold Death*@, is a master assassin from the Desolate Wastes. Dispite his great size, Drekaash has become one of the most widely regarded killers-for-hire in Eastern Ulfwyst. Instead of relying on stealth, guile and cunning, Drekaash relies entirely on speed, shock, and brute force to ensure his target's demise before leaving the premise. Those that seek him out do not care that people know their target was targeted for assassination, they simply want to ensure that the job is completed."
     ],
     "articles": {
+    },
+    "dmArticles": {
+    }
+  },
+  "Akrozad": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Akrozad",
+    "nickname": "Akrozad",
+    "tags": ["lich","Council of the Withered King"],
+    "gender": "Male",
+    "race": "Undead (Human)",
+    "titles": [],
+    "occupation": ["Lich Councilor"],
+    "affiliations": ["Kingdom of Istagen","Council of the Withered King"],
+    "description": [
+      "@+Akrozad+@ was a lich and a councilor to Shulxaa during his reign over the Kingdom of Istagen."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    }
+  },
+  "Ozudrem": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Ozudrem",
+    "nickname": "Ozudrem Frostbeard",
+    "tags": ["lich","Council of the Withered King"],
+    "gender": "Male",
+    "race": "Undead (Dwarf)",
+    "titles": [],
+    "occupation": ["Lich Councilor"],
+    "affiliations": ["Kingdom of Istagen","Council of the Withered King"],
+    "description": [
+      "@+Ozudrem Frostbeard+@ was a rare, dwarven lich and a councilor to Shulxaa during his reign over the Kingdom of Istagen. "
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    }
+  },
+  "Rubrum-Magnus": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Rubrum Magnus",
+    "nickname": "Rubrum Magnus",
+    "tags": ["lich","Council of the Withered King"],
+    "gender": "Male",
+    "race": "Undead (Tiefling)",
+    "titles": [],
+    "occupation": ["Lich Councilor"],
+    "affiliations": ["Kingdom of Istagen","Council of the Withered King"],
+    "description": [
+      "@+Rubrum Magnus+@ was a lich and the prime councilor to Shulxaa during his reign over the Kingdom of Istagen. Though the lich lord has many advisors, Rubrum stood above all others as his favorite."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    }
+  },
+  "Zoltheraz": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Zoltheraz",
+    "nickname": "Zoltheraz the Ghoul King",
+    "tags": ["lich","Council of the Withered King"],
+    "gender": "Male",
+    "race": "Undead (Human)",
+    "titles": ["the Ghoul King"],
+    "occupation": ["Lich Councilor"],
+    "affiliations": ["Kingdom of Istagen","Council of the Withered King"],
+    "description": [
+      "@+Zoltheraz+@, better known in historical archives as @*the Ghoul King*@, was a lich and councilor to Shulxaa during his reign over the Kingdom of Istagen. Born Ivak of Dardon, the lich would spend nearly 50 years as a renowned eldritch knight and defender of the borderlands along the Desolate Wastes."
+    ],
+    "articles": {
+      "Rise to Lichdom": [
+        "In 2C 2082, Ivak came across a strange old man wandering the roads north of Luzzara who immediately recognized the knight's talent for the arcane. The old man challenged the knight to a duel, which Ivak immediately dismissed. The proud knight had no intention of dueling an old, feeble man along the road. To this response, the old man simply laughed and called the cavalier a coward, and declared himself the victor by forfeit. Ivak, unwilling to withstand the bitter barbs, agreed and announced he would put the old man in his place.",
+        "With the challenge accepted, the traveler suddenly flew through the air, hurly a barrage of dark magic at the knight, who used his own magic to protect him. The elder then cast off his tattered robes, revealing himself as the lich Shulxaa and in a horrible display of power, unleashed a deadly bleam of arcane energy which burst through the knight's chest.",
+        "As he lay dying on the ground, Ivak spat curses at the undead wizard for his treachery and vowed revenge. At this, Shulxaa simply laughed yet again and declared that if Ivak wished to get his revenge, he would allow him all the time he required. Shulxaa explained his pact with Ivak, who was so consumed with the desire for revenge he agreed, not considering the true nature of his choice. With a bargain struck, the lic lord placed the knight's soul into a vessel of his own design, and plunged Sir Ivak to the ranks of the undead. His newest councilor risen, the lich declared that the knight could attempt to take his revenge whenever and as often he wished, but only if the knight followed him back to his study for tea."
+      ]
     },
     "dmArticles": {
     }
