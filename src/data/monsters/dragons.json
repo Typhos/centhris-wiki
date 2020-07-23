@@ -3,7 +3,6 @@
     "playerKnown": true,
     "path": "creature",
     "hideOnCat": false,
-    "showStatBlock": false,
     "name": "Syrothian Blackfire Drake",
     "nickname": "Syrothian Blackfire Drake",
     "linkingWords": ["Blackfire Drake"],
@@ -21,56 +20,59 @@
     },
     "dmArticles": {
     },
-    "alignment": "Neutral Evil",
-    "creatureType": "Large Dragon",
-    "stats": [
-      {"name": "STR", "val": 16},
-      {"name": "DEX", "val": 10},
-      {"name": "CON", "val": 16},
-      {"name": "INT", "val": 6},
-      {"name": "WIS", "val": 12},
-      {"name": "CHA", "val": 8}
-    ],
-    "armor": "15 (natural armor)",
-    "hitPoint": 45,
-    "hitDie": "5d10+15",
-    "speed": "30 ft., fly 60 ft.",
-    "skills": "Athletics +6, Intimidation +2, Perception +4",
-    "savingThrows": "Str +5, Con +5",
-    "damageResistances": "Fire",
-    "damageVulnerabilities": "",
-    "damageImmunities": "",
-    "conditionImmunities": "",
-    "senses": "",
-    "passiveWisdom": 12,
-    "languages": "",
-    "challenge": "3",
-    "abilities": [
-      {
-        "name": "Flyby Attack.",
-        "text": "The drake does not provoke an opportunity attack when it flies out of an enemy's reach."
-      },
-      {
-        "name": "Drag Off.",
-        "text": "If the drake grapples an opponent on its turn, it may use its bonus action to move an additional 15 feet, carrying the target along with it."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Bite.",
-        "text": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9 (2d6 + 3) piercing damage and the target is grappled (escape DC 14). Until the grapple ends, the target takes 6 (2d6) fire damage at the start of each of its turns."
-      },
-      {
-        "name": "Terrifying Screech.",
-        "text": "The drake unleashes an unnatural, high pitched screech. All creatures in a 30 foot cone that are not deafened must succeed on a DC 13 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the fear on a success."
-      }
-    ]
+
+    "statBlock": {
+      "show": false,
+      "alignment": "Neutral Evil",
+      "creatureType": "Large Dragon",
+      "stats": [
+        {"name": "STR", "val": 16},
+        {"name": "DEX", "val": 10},
+        {"name": "CON", "val": 16},
+        {"name": "INT", "val": 6},
+        {"name": "WIS", "val": 12},
+        {"name": "CHA", "val": 8}
+      ],
+      "armor": "15 (natural armor)",
+      "hitPoint": 45,
+      "hitDie": "5d10+15",
+      "speed": "30 ft., fly 60 ft.",
+      "skills": "Athletics +6, Intimidation +2, Perception +4",
+      "savingThrows": "Str +5, Con +5",
+      "damageResistances": "Fire",
+      "damageVulnerabilities": "",
+      "damageImmunities": "",
+      "conditionImmunities": "",
+      "senses": "",
+      "passiveWisdom": 12,
+      "languages": "",
+      "challenge": "3",
+      "abilities": [
+        {
+          "name": "Flyby Attack.",
+          "text": "The drake does not provoke an opportunity attack when it flies out of an enemy's reach."
+        },
+        {
+          "name": "Drag Off.",
+          "text": "If the drake grapples an opponent on its turn, it may use its bonus action to move an additional 15 feet, carrying the target along with it."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Bite.",
+          "text": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9 (2d6 + 3) piercing damage and the target is grappled (escape DC 14). Until the grapple ends, the target takes 6 (2d6) fire damage at the start of each of its turns."
+        },
+        {
+          "name": "Terrifying Screech.",
+          "text": "The drake unleashes an unnatural, high pitched screech. All creatures in a 30 foot cone that are not deafened must succeed on a DC 13 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the fear on a success."
+        }
+      ]
+    }
   },
   "Icebrine-Serpent": {
     "playerKnown": true,
     "path": "creature",
     "hideOnCat": false,
-    "showStatBlock": true,
     "name": "Icebrine Serpent",
     "nickname": "Icebrine Serpent",
     "type": "Dragon",
@@ -85,72 +87,71 @@
       ]
     },
     "dmArticles": {
-      "": [
-        ""
-      ]
     },
-    "alignment": "Neutral Evil",
-    "creatureType": "Huge Dragon",
-    "stats": [
-      {"name": "STR", "val": 21},
-      {"name": "DEX", "val": 15},
-      {"name": "CON", "val": 18},
-      {"name": "INT", "val": 7},
-      {"name": "WIS", "val": 13},
-      {"name": "CHA", "val": 14}
-    ],
-    "savingThrows": "Str +9, Dex +6, Con +8",
-    "skills": "Athletics +9, Perception +5",
-    "passiveWisdom": 10,
-    "armor": "15 (natural armor)",
-    "hitPoint": 189,
-    "hitDie": "18d12+72",
-    "speed": "30 ft., swim 60ft.",
-    "damageResistances": "Fire",
-    "damageVulnerabilities": "Lightning",
-    "damageImmunities": "Cold",
-    "conditionImmunities": "Paralyzed, Prone, Stun, Unconscious",
-    "senses": "Darkvision 60 ft.",
-    "languages": "Aquan, Draconic",
-    "challenge": 7,
-    "abilities": [
-      {
-        "name": "Icy Barbs",
-        "text": "The entire body of an Icebrine Serpent is covered in small, jagged shards of ice which protrude from the monster's scales. Any creature that begins its turn within 5 feet of the Icebrine Serpent takes 1d6+2 points of cold damage."
-      },
-      {
-        "name": "Coiling Maneuver.",
-        "text": "When the Icebrine Serpent is hit with an attack in melee, it may attempt to grapple the attacker. The target must make a DC 15 Strength saving throw or be grappled."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack.",
-        "text": "A Icebrine Serpent attacks once with its tail and either bites or uses its Brine Blast."
-      },
-      {
-        "name": "Bite.",
-        "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8+5) piercing damage plus 9 (2d8) cold damage. The target of the bite attack must make a DC 15 Strength saving throw or be grappled and restrained. If the target is already grappled by a previous bite attack, the target may may still make another save to attempt to break the grapple."
-      },
-      {
-        "name": "Tail Slap.",
-        "text": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 12 (2d6+5) bludgeoning damage. A target hit by a tail slap is pushed 10 feet away from the Icebrine Serpent."
-      },
-      {
-        "name": "Throw.",
-        "text": "If the Icebrine Serpent has a creature grappled from a Bite attack or from its Coiling Maneuver, it may throw the target. The throw may target another creature within 30 ft. The target must succeed a DC 14 Dexterity save or suffer 10 (3d6) bludgeoning damage. The thrown target automatically suffers 10 (3d6) damage."
-      },
-      {
-        "name": "Brine Blast (recharge 6).",
-        "text": "The Icebrine Serpent opens its massive jaws and sends forth an blast of chilled sea water. All creatures in a 25 ft. cone must succeed on a DC 15 Dex save or suffer 23 (5d8) Cold damage. Any target that succeeds its save takes half damage."
-      }
-    ]
+    "statBlock": {
+      "show": false,
+      "alignment": "Neutral Evil",
+      "creatureType": "Huge Dragon",
+      "stats": [
+        {"name": "STR", "val": 21},
+        {"name": "DEX", "val": 15},
+        {"name": "CON", "val": 18},
+        {"name": "INT", "val": 7},
+        {"name": "WIS", "val": 13},
+        {"name": "CHA", "val": 14}
+      ],
+      "savingThrows": "Str +9, Dex +6, Con +8",
+      "skills": "Athletics +9, Perception +5",
+      "passiveWisdom": 10,
+      "armor": "15 (natural armor)",
+      "hitPoint": 189,
+      "hitDie": "18d12+72",
+      "speed": "30 ft., swim 60ft.",
+      "damageResistances": "Fire",
+      "damageVulnerabilities": "Lightning",
+      "damageImmunities": "Cold",
+      "conditionImmunities": "Paralyzed, Prone, Stun, Unconscious",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Aquan, Draconic",
+      "challenge": 7,
+      "abilities": [
+        {
+          "name": "Icy Barbs",
+          "text": "The entire body of an Icebrine Serpent is covered in small, jagged shards of ice which protrude from the monster's scales. Any creature that begins its turn within 5 feet of the Icebrine Serpent takes 1d6+2 points of cold damage."
+        },
+        {
+          "name": "Coiling Maneuver.",
+          "text": "When the Icebrine Serpent is hit with an attack in melee, it may attempt to grapple the attacker. The target must make a DC 15 Strength saving throw or be grappled."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack.",
+          "text": "A Icebrine Serpent attacks once with its tail and either bites or uses its Brine Blast."
+        },
+        {
+          "name": "Bite.",
+          "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8+5) piercing damage plus 9 (2d8) cold damage. The target of the bite attack must make a DC 15 Strength saving throw or be grappled and restrained. If the target is already grappled by a previous bite attack, the target may may still make another save to attempt to break the grapple."
+        },
+        {
+          "name": "Tail Slap.",
+          "text": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 12 (2d6+5) bludgeoning damage. A target hit by a tail slap is pushed 10 feet away from the Icebrine Serpent."
+        },
+        {
+          "name": "Throw.",
+          "text": "If the Icebrine Serpent has a creature grappled from a Bite attack or from its Coiling Maneuver, it may throw the target. The throw may target another creature within 30 ft. The target must succeed a DC 14 Dexterity save or suffer 10 (3d6) bludgeoning damage. The thrown target automatically suffers 10 (3d6) damage."
+        },
+        {
+          "name": "Brine Blast (recharge 6).",
+          "text": "The Icebrine Serpent opens its massive jaws and sends forth an blast of chilled sea water. All creatures in a 25 ft. cone must succeed on a DC 15 Dex save or suffer 23 (5d8) Cold damage. Any target that succeeds its save takes half damage."
+        }
+      ]
+    }
   },
   "Kerathax": {
     "playerKnown": false,
     "path": "creature",
     "hideOnCat": false,
-    "showStatBlock": false,
     "name": "Kerathax",
     "nickname": "Kerathax, the Lord of Ash",
     "type": "Dragon",
@@ -174,83 +175,85 @@
     },
     "dmArticles": {
     },
-    "alignment": "chaotic evil",
-    "creatureType": "Gargantuan dragon",
-    "stats": [
-      {"name": "STR", "val": 30},
-      {"name": "DEX", "val": 10},
-      {"name": "CON", "val": 29},
-      {"name": "INT", "val": 18},
-      {"name": "WIS", "val": 15},
-      {"name": "CHA", "val": 23}
-    ],
-    "savingThrows": "Dex +7, Con +16, Wis +9, Cha +13",
-    "skills": "Perception +16, Stealth +7",
-    "passiveWisdom": 26,
-    "armor": "22 (Natural Armor)",
-    "hitPoint": 546,
-    "hitDie": "28d20+252",
-    "speed": "40 ft., climb 40 ft., fly 80 ft.",
-    "damageImmunities": "Fire",
-    "senses": "Blindsight 60 Ft., Darkvision 120 Ft.",
-    "languages": "Common, Draconic",
-    "challenge": "24",
-    "abilities": [
-      {
-        "name": "Legendary Resistance (3/Day)",
-        "text": "If Kerathax fails a saving throw, it can choose to succeed instead."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack.",
-        "text": "Kerathax can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
-      },
-      {
-        "name": "Bite.",
-        "text": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: (2d10 + 10) piercing damage plus (4d6)fire damage."
-      },
-      {
-        "name": "Claw.",
-        "text": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: (2d6 + 10) slashing damage."
-      },
-      {
-        "name": "Tail.",
-        "text": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: (2d8 + 10) bludgeoning damage."
-      },
-      {
-        "name": "Fightful Presence.",
-        "text": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
-      },
-      {
-        "name": "Fire Breath (Recharge 5-6).",
-        "text": "The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
-      }
-    ],
-    "legendary": [
-      {
-        "name": "description",
-        "text": "Ancient Red Dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Ancient Red Dragon regains spent legendary actions at the start of their turn."
-      },
-      {
-        "name": "Detect.",
-        "text": "The dragon makes a Wisdom (Perception) check."
-      },
-      {
-        "name": "Tail Attack.",
-        "text": "The dragon makes a tail attack."
-      },
-      {
-        "name": "Wing Attack (Costs 2 Actions).",
-        "text": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-      }
-    ]
+    "statBlock": {
+      "show": false,
+      "alignment": "chaotic evil",
+      "creatureType": "Gargantuan dragon",
+      "stats": [
+        {"name": "STR", "val": 30},
+        {"name": "DEX", "val": 10},
+        {"name": "CON", "val": 29},
+        {"name": "INT", "val": 18},
+        {"name": "WIS", "val": 15},
+        {"name": "CHA", "val": 23}
+      ],
+      "savingThrows": "Dex +7, Con +16, Wis +9, Cha +13",
+      "skills": "Perception +16, Stealth +7",
+      "passiveWisdom": 26,
+      "armor": "22 (Natural Armor)",
+      "hitPoint": 546,
+      "hitDie": "28d20+252",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "damageImmunities": "Fire",
+      "senses": "Blindsight 60 Ft., Darkvision 120 Ft.",
+      "languages": "Common, Draconic",
+      "challenge": "24",
+      "abilities": [
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": "If Kerathax fails a saving throw, it can choose to succeed instead."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack.",
+          "text": "Kerathax can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+        },
+        {
+          "name": "Bite.",
+          "text": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: (2d10 + 10) piercing damage plus (4d6)fire damage."
+        },
+        {
+          "name": "Claw.",
+          "text": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: (2d6 + 10) slashing damage."
+        },
+        {
+          "name": "Tail.",
+          "text": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: (2d8 + 10) bludgeoning damage."
+        },
+        {
+          "name": "Fightful Presence.",
+          "text": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+        },
+        {
+          "name": "Fire Breath (Recharge 5-6).",
+          "text": "The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
+        }
+      ],
+      "legendary": [
+        {
+          "name": "description",
+          "text": "Ancient Red Dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Ancient Red Dragon regains spent legendary actions at the start of their turn."
+        },
+        {
+          "name": "Detect.",
+          "text": "The dragon makes a Wisdom (Perception) check."
+        },
+        {
+          "name": "Tail Attack.",
+          "text": "The dragon makes a tail attack."
+        },
+        {
+          "name": "Wing Attack (Costs 2 Actions).",
+          "text": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+        }
+      ]
+    }
   },
   "Zeradrasa": {
     "playerKnown": false,
     "path": "creature",
     "hideOnCat": false,
-    "showStatBlock": false,
     "name": "Zeradrasa",
     "nickname": "Zeradrasa, the Gilded Queen",
     "type": "Dragon",
@@ -265,83 +268,85 @@
     },
     "dmArticles": {
     },
-    "alignment": "chaotic evil",
-    "creatureType": "Gargantuan dragon",
-    "stats": [
-      {"name": "STR", "val": 30},
-      {"name": "DEX", "val": 10},
-      {"name": "CON", "val": 29},
-      {"name": "INT", "val": 18},
-      {"name": "WIS", "val": 15},
-      {"name": "CHA", "val": 23}
-    ],
-    "savingThrows": "Dex +7, Con +16, Wis +9, Cha +13",
-    "skills": "Perception +16, Stealth +7",
-    "passiveWisdom": 26,
-    "armor": "22 (Natural Armor)",
-    "hitPoint": 546,
-    "hitDie": "28d20+252",
-    "speed": "40 ft., climb 40 ft., fly 80 ft.",
-    "damageImmunities": "Fire",
-    "senses": "Blindsight 60 Ft., Darkvision 120 Ft.",
-    "languages": "Common, Draconic",
-    "challenge": "24",
-    "abilities": [
-      {
-        "name": "Legendary Resistance (3/Day)",
-        "text": "If Kerathax fails a saving throw, it can choose to succeed instead."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack.",
-        "text": "Kerathax can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
-      },
-      {
-        "name": "Bite.",
-        "text": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: (2d10 + 10) piercing damage plus (4d6)fire damage."
-      },
-      {
-        "name": "Claw.",
-        "text": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: (2d6 + 10) slashing damage."
-      },
-      {
-        "name": "Tail.",
-        "text": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: (2d8 + 10) bludgeoning damage."
-      },
-      {
-        "name": "Fightful Presence.",
-        "text": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
-      },
-      {
-        "name": "Fire Breath (Recharge 5-6).",
-        "text": "The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
-      }
-    ],
-    "legendary": [
-      {
-        "name": "description",
-        "text": "Ancient Red Dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Ancient Red Dragon regains spent legendary actions at the start of their turn."
-      },
-      {
-        "name": "Detect.",
-        "text": "The dragon makes a Wisdom (Perception) check."
-      },
-      {
-        "name": "Tail Attack.",
-        "text": "The dragon makes a tail attack."
-      },
-      {
-        "name": "Wing Attack (Costs 2 Actions).",
-        "text": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-      }
-    ]
+    "statBlock": {
+      "show": false,
+      "alignment": "chaotic evil",
+      "creatureType": "Gargantuan dragon",
+      "stats": [
+        {"name": "STR", "val": 30},
+        {"name": "DEX", "val": 10},
+        {"name": "CON", "val": 29},
+        {"name": "INT", "val": 18},
+        {"name": "WIS", "val": 15},
+        {"name": "CHA", "val": 23}
+      ],
+      "savingThrows": "Dex +7, Con +16, Wis +9, Cha +13",
+      "skills": "Perception +16, Stealth +7",
+      "passiveWisdom": 26,
+      "armor": "22 (Natural Armor)",
+      "hitPoint": 546,
+      "hitDie": "28d20+252",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "damageImmunities": "Fire",
+      "senses": "Blindsight 60 Ft., Darkvision 120 Ft.",
+      "languages": "Common, Draconic",
+      "challenge": "24",
+      "abilities": [
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": "If Kerathax fails a saving throw, it can choose to succeed instead."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack.",
+          "text": "Kerathax can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+        },
+        {
+          "name": "Bite.",
+          "text": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: (2d10 + 10) piercing damage plus (4d6)fire damage."
+        },
+        {
+          "name": "Claw.",
+          "text": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: (2d6 + 10) slashing damage."
+        },
+        {
+          "name": "Tail.",
+          "text": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: (2d8 + 10) bludgeoning damage."
+        },
+        {
+          "name": "Fightful Presence.",
+          "text": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+        },
+        {
+          "name": "Fire Breath (Recharge 5-6).",
+          "text": "The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
+        }
+      ],
+      "legendary": [
+        {
+          "name": "description",
+          "text": "Ancient Red Dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Ancient Red Dragon regains spent legendary actions at the start of their turn."
+        },
+        {
+          "name": "Detect.",
+          "text": "The dragon makes a Wisdom (Perception) check."
+        },
+        {
+          "name": "Tail Attack.",
+          "text": "The dragon makes a tail attack."
+        },
+        {
+          "name": "Wing Attack (Costs 2 Actions).",
+          "text": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+        }
+      ]
+    }
   },
   "Ithanus": {
     "playerKnown": false,
     "path": "creature",
     "hideOnCat": false,
-    "showStatBlock": false,
     "name": "Ithanus",
     "nickname": "Ithanus, the Looming Dread",
     "type": "Dragon",
@@ -356,76 +361,79 @@
     },
     "dmArticles": {
     },
-    "alignment": "chaotic evil",
-    "creatureType": "Gargantuan dragon",
-    "stats": [
-      {"name": "STR", "val": 30},
-      {"name": "DEX", "val": 10},
-      {"name": "CON", "val": 29},
-      {"name": "INT", "val": 18},
-      {"name": "WIS", "val": 15},
-      {"name": "CHA", "val": 23}
-    ],
-    "savingThrows": "Dex +7, Con +16, Wis +9, Cha +13",
-    "skills": "Perception +16, Stealth +7",
-    "passiveWisdom": 26,
-    "armor": "22 (Natural Armor)",
-    "hitPoint": 546,
-    "hitDie": "28d20+252",
-    "speed": "40 ft., climb 40 ft., fly 80 ft.",
-    "damageImmunities": "Fire",
-    "senses": "Blindsight 60 Ft., Darkvision 120 Ft.",
-    "languages": "Common, Draconic",
-    "challenge": "24",
-    "abilities": [
-      {
-        "name": "Legendary Resistance (3/Day)",
-        "text": "If Kerathax fails a saving throw, it can choose to succeed instead."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack.",
-        "text": "Kerathax can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
-      },
-      {
-        "name": "Bite.",
-        "text": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: (2d10 + 10) piercing damage plus (4d6)fire damage."
-      },
-      {
-        "name": "Claw.",
-        "text": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: (2d6 + 10) slashing damage."
-      },
-      {
-        "name": "Tail.",
-        "text": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: (2d8 + 10) bludgeoning damage."
-      },
-      {
-        "name": "Fightful Presence.",
-        "text": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
-      },
-      {
-        "name": "Fire Breath (Recharge 5-6).",
-        "text": "The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
-      }
-    ],
-    "legendary": [
-      {
-        "name": "description",
-        "text": "Ancient Red Dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Ancient Red Dragon regains spent legendary actions at the start of their turn."
-      },
-      {
-        "name": "Detect.",
-        "text": "The dragon makes a Wisdom (Perception) check."
-      },
-      {
-        "name": "Tail Attack.",
-        "text": "The dragon makes a tail attack."
-      },
-      {
-        "name": "Wing Attack (Costs 2 Actions).",
-        "text": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-      }
-    ]
+    "statBlock": {
+      "show": false,
+      "alignment": "chaotic evil",
+      "creatureType": "Gargantuan dragon",
+      "stats": [
+        {"name": "STR", "val": 30},
+        {"name": "DEX", "val": 10},
+        {"name": "CON", "val": 29},
+        {"name": "INT", "val": 18},
+        {"name": "WIS", "val": 15},
+        {"name": "CHA", "val": 23}
+      ],
+      "savingThrows": "Dex +7, Con +16, Wis +9, Cha +13",
+      "skills": "Perception +16, Stealth +7",
+      "passiveWisdom": 26,
+      "armor": "22 (Natural Armor)",
+      "hitPoint": 546,
+      "hitDie": "28d20+252",
+      "speed": "40 ft., climb 40 ft., fly 80 ft.",
+      "damageImmunities": "Fire",
+      "senses": "Blindsight 60 Ft., Darkvision 120 Ft.",
+      "languages": "Common, Draconic",
+      "challenge": "24",
+      "abilities": [
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": "If Kerathax fails a saving throw, it can choose to succeed instead."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack.",
+          "text": "Kerathax can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+        },
+        {
+          "name": "Bite.",
+          "text": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: (2d10 + 10) piercing damage plus (4d6)fire damage."
+        },
+        {
+          "name": "Claw.",
+          "text": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: (2d6 + 10) slashing damage."
+        },
+        {
+          "name": "Tail.",
+          "text": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: (2d8 + 10) bludgeoning damage."
+        },
+        {
+          "name": "Fightful Presence.",
+          "text": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+        },
+        {
+          "name": "Fire Breath (Recharge 5-6).",
+          "text": "The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
+        }
+      ],
+      "legendary": [
+        {
+          "name": "description",
+          "text": "Ancient Red Dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Ancient Red Dragon regains spent legendary actions at the start of their turn."
+        },
+        {
+          "name": "Detect.",
+          "text": "The dragon makes a Wisdom (Perception) check."
+        },
+        {
+          "name": "Tail Attack.",
+          "text": "The dragon makes a tail attack."
+        },
+        {
+          "name": "Wing Attack (Costs 2 Actions).",
+          "text": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+        }
+      ]
+    }
   }
 }

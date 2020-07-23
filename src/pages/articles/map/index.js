@@ -131,14 +131,14 @@ class InteractiveMap extends Component {
   render () {
 
     return (
-      <Page.Location>
+      <Page.Default>
         <TitleComponent title={`Map of Ulfwyst`} />
         {/*<div className='sidebarStyle'>
           <div>Longitude: {this.state.lng} | Latitude: {this.state.lat} | Zoom: {this.state.zoom}</div>
         </div>*/}
         <div ref={el => this.mapContainer = el}  className="mapContainer" />
         <div id="distance" className="distanceContainer"></div>
-      </Page.Location>
+      </Page.Default>
     );
   }
 

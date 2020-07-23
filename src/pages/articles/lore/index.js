@@ -67,7 +67,7 @@ class Lore extends Component {
     });
 
     return (
-      <Page.Lore>
+      <Page.Default>
         <TitleComponent title={`${lore.name} - Centhris Wiki`} />
         <section id="lore" className="article" >
           <article className="lore" id={lore.name.replace(/\s/g,"-")}>
@@ -229,7 +229,7 @@ class Lore extends Component {
 
           </article>
         </section>
-      </Page.Lore>
+      </Page.Default>
     )
   }
 

@@ -49,7 +49,7 @@ class OrganizationGroups extends Component {
     const numberOfArticles = Object.keys(this.state.articles).length;
 
     return (
-      <Page.People>
+      <Page.Default>
         <TitleComponent title={`Organizations - Centhris Wiki`} />
         <Back/>
         <Filter handleFilter={ this.handleFilter }  data={this.state.pageData}/>
@@ -62,7 +62,7 @@ class OrganizationGroups extends Component {
             })
           }
         </div>
-      </Page.People>
+      </Page.Default>
     )
   }
 

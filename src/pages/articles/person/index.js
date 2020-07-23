@@ -40,12 +40,12 @@ class Person extends Component {
     }
 
     return (
-      <Page.People>
+      <Page.Default>
         <TitleComponent title={`${peopleData[person].name} - Centhris Wiki`} />
         <section id="people" className="article" >
           <PersonArticle key={person} data={{peopleData}} entry={peopleData[person]}/>
         </section>
-      </Page.People>
+      </Page.Default>
     )
   }
 }

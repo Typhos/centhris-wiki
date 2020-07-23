@@ -1,0 +1,21 @@
+{
+  "Pellios": {
+    "name": "Pellios",
+    "nickname": "Kingdom of Pellios",
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["kingdom","state","entos","monarchy"],
+    "linkingWords": ["Pellion"],
+    "type": "State",
+    "currency": "",
+    "capital": "",
+    "population": "4,200,000",
+    "races": ["human","elf","gnome","half-elf","half-orc","half-giant","marus"],
+    "government": "Military Dictatorship",
+    "location": "Entos",
+    "leaders": [],
+    "regions": [],
+    "description": [
+    ]
+  }
+}

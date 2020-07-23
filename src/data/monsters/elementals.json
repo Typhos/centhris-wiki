@@ -4,7 +4,6 @@
     "playerKnown": true,
     "path": "creature",
     "hideOnCat": false,
-    "showStatBlock": false,
     "name": "Magma Behemoth",
     "nickname": "Magma Behemoth",
     "type": "Elemental",
@@ -16,61 +15,64 @@
     },
     "dmArticles": {
     },
-    "alignment": "Neutral Evil",
-    "creatureType": "Huge Elemental",
-    "stats": [
-      {"name": "STR", "val": 21},
-      {"name": "DEX", "val": 15},
-      {"name": "CON", "val": 18},
-      {"name": "INT", "val": 7},
-      {"name": "WIS", "val": 13},
-      {"name": "CHA", "val": 14}
-    ],
-    "savingThrows": "Str +9, Dex +6, Con +8",
-    "skills": "Athletics +9, Perception +5",
-    "passiveWisdom": 10,
-    "armor": "15 (natural armor)",
-    "hitPoint": 118,
-    "hitDie": "10d12+46",
-    "speed": "30 ft., swim 60ft.",
-    "damageResistances": "Fire",
-    "damageVulnerabilities": "Lightning",
-    "damageImmunities": "Cold",
-    "conditionImmunities": "Paralyzed, Prone, Stun, Unconscious",
-    "senses": "Darkvision 60 ft.",
-    "languages": "Aquan, Draconic",
-    "challenge": "8",
-    "abilities": [
-      {
-        "name": "Icy Barbs",
-        "text": "The entire body of an Icebrine Serpent is covered in small, jagged shards of ice which protrude from the monster's scales. Any creature that begins its turn within 5 feet of the Icebrine Serpent takes 1d6+2 points of cold damage."
-      },
-      {
-        "name": "Coiling Maneuver.",
-        "text": "When the Icebrine Serpent is hit with an attack in melee, it may attempt to grapple the attacker. The target must make a DC 15 Strength saving throw or be grappled."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack.",
-        "text": "A Icebrine Serpent attacks once with its tail and either bites or uses its Brine Blast."
-      },
-      {
-        "name": "Bite.",
-        "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (1d10+5) piercing damage plus 7 (2d6) cold damage. The target of the bite attack must make a DC 15 Strength saving throw or be grappled and restrained. If the target is already grappled by a previous bite attack, the target may may still make another save to attempt to break the grapple."
-      },
-      {
-        "name": "Tail Slap.",
-        "text": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 11 (2d6+4) bludgeoning damage. A target hit by a tail slap is pushed 10 feet away from the Icebrine Serpent."
-      },
-      {
-        "name": "Throw.",
-        "text": "If the Icebrine Serpent has a creature grappled from a Bite attack or from its Coiling Maneuver, it may throw the target. The throw may target another creature within 30 ft. The target must succeed a DC 14 Dexterity save or suffer 10 (3d6) bludgeoning damage. The thrown target automatically suffers 10 (3d6) damage."
-      },
-      {
-        "name": "Brine Blast (recharge 6).",
-        "text": "The Icebrine Serpent opens its massive jaws and sends forth an blast of chilled sea water. All creatures in a 25 ft. cone must succeed on a DC 15 Dex save or suffer 5d8 Cold damage. Any target that succeeds its save takes half damage."
-      }
-    ]
+    "statBlock": {
+      "show": false,
+      "alignment": "Neutral Evil",
+      "creatureType": "Huge Elemental",
+      "stats": [
+        {"name": "STR", "val": 21},
+        {"name": "DEX", "val": 15},
+        {"name": "CON", "val": 18},
+        {"name": "INT", "val": 7},
+        {"name": "WIS", "val": 13},
+        {"name": "CHA", "val": 14}
+      ],
+      "savingThrows": "Str +9, Dex +6, Con +8",
+      "skills": "Athletics +9, Perception +5",
+      "passiveWisdom": 10,
+      "armor": "15 (natural armor)",
+      "hitPoint": 118,
+      "hitDie": "10d12+46",
+      "speed": "30 ft., swim 60ft.",
+      "damageResistances": "Fire",
+      "damageVulnerabilities": "Lightning",
+      "damageImmunities": "Cold",
+      "conditionImmunities": "Paralyzed, Prone, Stun, Unconscious",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Aquan, Draconic",
+      "challenge": "8",
+      "abilities": [
+        {
+          "name": "Icy Barbs",
+          "text": "The entire body of an Icebrine Serpent is covered in small, jagged shards of ice which protrude from the monster's scales. Any creature that begins its turn within 5 feet of the Icebrine Serpent takes 1d6+2 points of cold damage."
+        },
+        {
+          "name": "Coiling Maneuver.",
+          "text": "When the Icebrine Serpent is hit with an attack in melee, it may attempt to grapple the attacker. The target must make a DC 15 Strength saving throw or be grappled."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack.",
+          "text": "A Icebrine Serpent attacks once with its tail and either bites or uses its Brine Blast."
+        },
+        {
+          "name": "Bite.",
+          "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (1d10+5) piercing damage plus 7 (2d6) cold damage. The target of the bite attack must make a DC 15 Strength saving throw or be grappled and restrained. If the target is already grappled by a previous bite attack, the target may may still make another save to attempt to break the grapple."
+        },
+        {
+          "name": "Tail Slap.",
+          "text": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 11 (2d6+4) bludgeoning damage. A target hit by a tail slap is pushed 10 feet away from the Icebrine Serpent."
+        },
+        {
+          "name": "Throw.",
+          "text": "If the Icebrine Serpent has a creature grappled from a Bite attack or from its Coiling Maneuver, it may throw the target. The throw may target another creature within 30 ft. The target must succeed a DC 14 Dexterity save or suffer 10 (3d6) bludgeoning damage. The thrown target automatically suffers 10 (3d6) damage."
+        },
+        {
+          "name": "Brine Blast (recharge 6).",
+          "text": "The Icebrine Serpent opens its massive jaws and sends forth an blast of chilled sea water. All creatures in a 25 ft. cone must succeed on a DC 15 Dex save or suffer 5d8 Cold damage. Any target that succeeds its save takes half damage."
+        }
+      ]
+    }
   }
 }

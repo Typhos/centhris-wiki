@@ -39,7 +39,7 @@ class Spell extends Component {
     const spell = this.state.spell;
 
     return (
-      <Page.Group>
+      <Page.Default>
         <TitleComponent title={`${spell.name} - Centhris Wiki`} />
         <section id="spell" className="article" >
           <article className="group" id={spell.name.replace(/\s/g,"-")}>
@@ -150,7 +150,7 @@ class Spell extends Component {
 
           </article>
         </section>
-      </Page.Group>
+      </Page.Default>
     )
   }
 }

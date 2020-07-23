@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ListItem from 'components/categories/listItem';
 
+import "styles/categories.scss";
+
 class categoryGroup extends Component {
 
   constructor (props) {

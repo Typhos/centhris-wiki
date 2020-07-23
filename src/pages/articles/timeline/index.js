@@ -106,8 +106,10 @@ class Timeline extends Component {
         ( 
           ( data.timeline.major && data.timeline.major.length > 0) || 
           ( data.timeline.minor && data.timeline.minor.length > 0) || 
-          ( data.timeline.era && data.timeline.era.length > 0) || 
+          ( data.timeline.epoch && data.timeline.epoch.length > 0) || 
+          ( data.timeline.gov && data.timeline.gov.length > 0) || 
           ( data.timeline.age && data.timeline.age.length > 0) || 
+          ( data.timeline.players && data.timeline.players.length > 0) || 
           ( data.timeline.war && data.timeline.war.length > 0 )
         )
 
@@ -130,14 +132,24 @@ class Timeline extends Component {
                 return <div key={event} title="Major Event" className="">{WikiUtils.linkContent( date, event )}</div>
               })
             }
-            { data.timeline.era && 
-              data.timeline.era.map( event => {
-                return <div key={event} title="Era" className="era">{WikiUtils.linkContent( date, event )}</div>
+            { data.timeline.epoch && 
+              data.timeline.epoch.map( event => {
+                return <div key={event} title="Epoch" className="epoch">{WikiUtils.linkContent( date, event )}</div>
               })
             }
             { data.timeline.age && 
               data.timeline.age.map( event => {
                 return <div key={event} title="Age" className="age">{WikiUtils.linkContent( date, event )}</div>
+              })
+            }
+            { data.timeline.players && 
+              data.timeline.players.map( event => {
+                return <div key={event} title="Age" className="pcs">{WikiUtils.linkContent( date, event )}</div>
+              })
+            }
+            { data.timeline.gov && 
+              data.timeline.gov.map( event => {
+                return <div key={event} title="Age" className="gov">{WikiUtils.linkContent( date, event )}</div>
               })
             }
             { data.timeline.war && 

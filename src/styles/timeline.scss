@@ -53,7 +53,7 @@ ul#datesLine {
 
     p {
       &:before {
-        content: "\1F76A";
+        content: "🔺";
         color: $susiePurple;
         padding-right: 0.5em;
         font-size: 1.33em;
@@ -62,28 +62,42 @@ ul#datesLine {
 
     .age {
       p:before {
-        content: "\1F738";
+        content: "⏳";
         color: $blue;
       }
     }
 
-    .era {
+    .gov {
       p:before {
-        content: "\1F71B";
+        content: "👑";
+        color: $blue;
+      }
+    }
+
+    .epoch {
+      p:before {
+        content: "🌐";
         color: $blue;
       }
     }
 
     .war {
       p:before {
-        content: "\1F74D";
+        content: "⚔️";
         color: $blue;
       }
     }
 
     .minor {
       p:before {
-        content: "\1F754";
+        content: "🔹";
+        color: $blue;
+      }
+    }
+
+    .pcs {
+      p:before {
+        content: "♟️";
         color: $blue;
       }
     }

@@ -1,0 +1,53 @@
+{
+  "Wulfgar-of-Ozeresk": {
+    "playerKnown": true,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Wulfgar of Ozeresk",
+    "nickname": "Wulfgar",
+    "linkingWords": ["Första Vakten"],
+    "tags": ["human","lemuria","bodyguard"],
+    "race": "Human",
+    "age": "37",
+    "gender": "Male",
+    "occupation": "Personal Guard to the High Queen",
+    "class": "Barbarian 10",
+    "subclass": "Path of the Beast",
+    "background": "Soldier",
+    "hp": 105,
+    "stats": {
+      "STR": 21,
+      "INT": 10,
+      "DEX": 12,
+      "WIS": 14,
+      "CON": 16,
+      "CHA": 9
+    },
+    "skills": {
+      "Animal Handling": 6,
+      "Athletics": 8,
+      "Intimidation": 3,
+      "Perception": 6,
+      "Survival": 6
+    },
+    "passiveWisdom": 21,
+    "saves": {
+      "STR": 8,
+      "CON": 7
+    },
+    "ac": "17",
+    "attacks": {
+      "Attacks Per Action": 2,
+      "Claws": "2 attacks @ +8 1d6+5 slashing"
+    },
+    "languages": ["Common, Giant"],
+    "attunedItems": [
+      "Half Plate +1",
+      "Belt of Hill Giant Strength"
+    ],
+    "feats": ["Observant"],
+    "description": [
+      "@+Wulfgar of Ozeresk+@ is the personal bodyguard of the High King or Queen of Lemuria, currently Inga Villdyr, and the commander of the royal guard, the Lemurian Einherjar. He is not a member of any clan, having been born to a family of exiles from western Ulfwyst. His primary duty is to safeguard the legitimately elected high king or queen, and is honor-bound to defend them, regardless of his personal relationship to the monarch. Wulfgar has held this post since he was 26, when he was appointed by the previous High King, Ubbe Bjørsel. "
+    ]
+  }
+}

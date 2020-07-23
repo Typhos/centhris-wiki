@@ -78,7 +78,7 @@ class Location extends Component {
     const descriptionEntries = this.getArticles(location.articles);
 
     return (
-      <Page.Location>
+      <Page.Default>
         <TitleComponent title={`${location.name} - Centhris Wiki`} />
         <section id="location" className="article" >
 
@@ -212,7 +212,7 @@ class Location extends Component {
 
           </article>
         </section>
-      </Page.Location>
+      </Page.Default>
     )
   }
 

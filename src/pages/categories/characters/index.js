@@ -6,8 +6,6 @@ import ListItem from 'components/categories/listItem';
 import Page from 'components/page';
 import Back from 'components/back';
 
-import 'styles/characters.scss';
-
 class Characters extends Component {
 
   constructor (props) {
@@ -29,7 +27,7 @@ class Characters extends Component {
   render () {
 
     return (
-      <Page.Characters>
+      <Page.Default>
         <TitleComponent title={`Player Characters - Centhris Wiki`} />
         <Back/>
         <h2 className="sectionTitle">Player Characters</h2>
@@ -43,7 +41,7 @@ class Characters extends Component {
             })
           }
         </ul>
-      </Page.Characters>
+      </Page.Default>
     )
   }
 

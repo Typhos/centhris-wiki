@@ -203,8 +203,142 @@
     "memberNumber": "2,000",
     "description": [
       "The @+Kaeldrin Empyrean Rangers+@ are a branch of the professional military of the Kaeldrin Sanctum. These elite troops are responsible for patrolling and defending the skies above the sanctum from airborne threats both mundane and magical. Like all divisions of the Kaeldrin military, the Empyrean Rangers have an unusually high number of magic users among their ranks, most commonly in the form of Eldritch Knights.",
-      "Ranger units are generally deployed in 50-person detachments called @*Eskades*@ which are lead by a Ranger-Captain. Each Eskade is usually comprised of 5 squads made up of 10 soldiers each. Each squad is assigned to a magically-assisted flying platform known as a Skyrig. These balloon-airship hybrids are able to house, feed and arm the squad for extended deployments in the air. SKyrigs are held aloft by large, balloons which are inflated by elemental servants of the ship's navigator, usually a wizard who has specialized in conjuration magic.",
+      "Ranger units are generally deployed in 50-person detachments called @*Eskades*@ which are lead by a Ranger-Captain. Each Eskade is usually comprised of 5 squads made up of 10 soldiers each. Each squad is assigned to a magically-assisted flying platform known as a Skyrig. These balloon-airship hybrids are able to house, feed and arm the squad for extended deployments in the air. Skyrigs are held aloft by large balloons which are maintained by elemental servants summoned by the ship's navigator, usually a wizard who has specialized in conjuration magic.",
       "When engaging a threat, rangers will attach themselves to their skyrig via long tethers before diving off the platform. As a safety precaution, all rangers are issued enchanted armor, known as an Empyrean Harness, which is designed to prevent a ranger from falling to their death, should their tether be severed."
+    ],
+    "articles": {
+      
+    },
+    "statBlock": {
+      "show": false,
+      "alignment": "Neutral Good",
+      "creatureType": "Medium Humanoid",
+      "stats": [
+        {"name": "STR", "val": 15},
+        {"name": "DEX", "val": 14},
+        {"name": "CON", "val": 14},
+        {"name": "INT", "val": 16},
+        {"name": "WIS", "val": 12},
+        {"name": "CHA", "val": 11}
+      ],
+      "savingThrows": "Str +6, Con +7",
+      "conditionImmunities": "",
+      "skills": "Athletics +7, Insight +4, Perception +4",
+      "passiveWisdom": 14,
+      "armor": "15 (Chain shirt)",
+      "hitPoint": 46,
+      "hitDie": "7d8+14",
+      "speed": "30 ft.",
+      "senses": "",
+      "languages": "Humanoid",
+      "challenge": 1,
+      "abilities": [
+        {
+          "name": "Dragoon.",
+          "text": "All rangers are trained to be proficient in aerial combat. When making an attack while diving at the target, the ranger makes their any attack with advantage."
+        },
+        {
+          "name": "Empyrean Harness",
+          "text": "Once per day, the ranger can use this magical harness to cast @?Fly?@ on themself. If the ranger gets within 200 feet of the ground, the harness automatically casts @?Slow Fall?@ upon the wearer."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Greatsword.",
+          "text": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage."
+        },
+        {
+          "name": "Arcane Bolt.",
+          "text": "Ranged Weapon Attack: +5 to hit, range 100 ft., one target. Hit: 9 (2d8) force damage."
+        }
+      ]
+    }
+  },
+  "Lemurian-Einherjar": {
+    "playerKnown": true,
+    "path": "group",
+    "name": "Lemurian Einherjar",
+    "nickname": "Einherjar",
+    "linkingWords": [],
+    "tags": ["Lemuria","military","royal guard","ulfwyst"],
+    "type": "Military Order",
+    "leaders": ["Wulfgar of Ozeresk"],
+    "location": "Realm of Lemuria",
+    "memberNumber": "30",
+    "description": [
+      "The @+Lemurian Einherjar+@ are the royal guard of the Realm of Lemuria under direct authority of the High King or Queen. The einherjar are commanded by the Första Vakten, the monarch's personal bodyguard. As the personal guard of the monarch, the einherjar must renounce all loyalties to their own clan. "
+    ],
+    "articles": {
+      
+    },
+    "statBlock": {
+      "show": false,
+      "alignment": "Lawful Neutral",
+      "creatureType": "Medium Humanoid",
+      "stats": [
+        {"name": "STR", "val": 16},
+        {"name": "DEX", "val": 14},
+        {"name": "CON", "val": 18},
+        {"name": "INT", "val": 12},
+        {"name": "WIS", "val": 14},
+        {"name": "CHA", "val": 12}
+      ],
+      "savingThrows": "Str +6, Con +7",
+      "conditionImmunities": "",
+      "skills": "Athletics +7, Insight +4, Perception +4",
+      "passiveWisdom": 14,
+      "armor": "16 (Scale mail)",
+      "hitPoint": 85,
+      "hitDie": "10d8 + 20",
+      "speed": "30 ft.",
+      "senses": "",
+      "languages": "Humanoid",
+      "challenge": 3,
+      "abilities": [
+        {
+          "name": "Brave.",
+          "text": "The Guard has advantage on saving throws against being frightened."
+        },
+        {
+          "name": "Resilience.",
+          "text": "The einherjar has advantage on resisting getting pushed or getting pulled."
+        },
+        {
+          "name": "Pack Tactics.",
+          "text": "The royal guard has advantage on an attack roll against a creature if at least one of the royal guard's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack.",
+          "text": "The einherjar makes two attacks with its glaive."
+        },
+        {
+          "name": "Glaive.",
+          "text": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 3) slashing damage."
+        }
+      ],
+      "reactions": [
+        {
+          "name": "Parry.",
+          "text": "The Guard adds 3 to its AC against one melee attack that would hit it, OR add 3 to an ally's AC against one melee attack that would hit it. To do so, the Guard must see the attacker and be wielding a melee weapon."
+        }
+      ]
+    }
+  },
+  "Pellion-Hoplites": {
+    "playerKnown": false,
+    "path": "group",
+    "name": "Pellion Hoplites",
+    "nickname": "Pellion Hoplites",
+    "linkingWords": [],
+    "tags": ["infantry","Pellios","military","entos"],
+    "type": "Military Order",
+    "leaders": [],
+    "location": "Kingdom of Pellios",
+    "memberNumber": "50,000",
+    "description": [
+      
     ],
     "articles": {
       

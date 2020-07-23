@@ -61,7 +61,7 @@ class LoreCategories extends Component {
     }
 
     return (
-      <Page.LoreCategories>
+      <Page.Default>
         <TitleComponent title={`Lore - Centhris Wiki`} />
         <Back/>
         <Filter handleFilter={ this.handleFilter }  data={this.state.combinedLore}/>
@@ -101,7 +101,7 @@ class LoreCategories extends Component {
             })
           }
         </div>
-      </Page.LoreCategories>
+      </Page.Default>
     )
   }
 

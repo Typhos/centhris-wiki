@@ -42,7 +42,7 @@ class People extends Component {
     const numberOfArticles = Object.keys(this.state.people).length;
 
     return (
-      <Page.People>
+      <Page.Default>
         <TitleComponent title={`NPCs - Centhris Wiki`} />
         <Back/>
         <Filter handleFilter={ this.handleFilter } data={ DataLoader.people }/>
@@ -56,7 +56,7 @@ class People extends Component {
             })
           }
         </ul>
-      </Page.People>
+      </Page.Default>
     )
   }
 

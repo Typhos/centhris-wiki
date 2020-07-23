@@ -3,7 +3,6 @@
     "playerKnown": true,
     "path": "creature",
     "hideOnCat": false,
-    "showStatBlock": true,
     "name": "Gradiorus Golem",
     "nickname": "Gradiorus",
     "type": "Construct",
@@ -24,60 +23,63 @@
         "The Gradiorus Golems are reclaimed arcane technology of the Utharian Empire, first discovered in the Twisting Warrens by the settlers who reclaimed Rakenburg hundreds of years ago. Eskra Gradiorus, the tiefling artificer, was the first to take an interest in the constructs and through extensive research and reverse-engineering, she was able to activate and reprogram the golems to serve the city."
       ]
     },
-    "alignment": "Unaligned",
-    "creatureType": "Large Construct",
-    "stats": [
-      {"name": "STR", "val": 24},
-      {"name": "DEX", "val": 9},
-      {"name": "CON", "val": 20},
-      {"name": "INT", "val": 3},
-      {"name": "WIS", "val": 11},
-      {"name": "CHA", "val": 1}
-    ],
-    "skills": "",
-    "passiveWisdom": 10,
-    "savingThrows": "",
-    "armor": 18,
-    "hitPoint": 140,
-    "hitDie": "22d8+41",
-    "damageResistances": "Bludgeoning, Piercing, and Slashing From Nonmagical Attacks",
-    "damageImmunities": "Fire, Poison, Psychic",
-    "conditionImmunities": "Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned",
-    "senses": "Darkvision 120 ft.",
-    "speed": "20 ft.",
-    "languages": "Understands the languages of its creator and can respond with information from the Arcanum archives",
-    "challenge": "7",
-    "abilities": [
-      {
-        "name": "Illumination.",
-        "text": "A Gradiorus Golem sheds dim, purple light in a 10-foot radius."
-      },
-      {
-        "name": "Magic Resistance.",
-        "text": "The golem has advantage on Saving Throws against Spells and other magical Effects."
-      },
-      {
-        "name": "Immutable Form.",
-        "text": "The golem is immune to any spell or effect that would alter its form."
-      },
-      {
-        "name": "Magic Weapons.",
-        "text": "The golem's weapon attacks are magical."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack.",
-        "text": "A golem makes two melee attacks."
-      },
-      {
-        "name": "Slam.",
-        "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (1d8 + 7) bludgeoning damage."
-      },
-      {
-        "name": "Suppression Pulse (Recharge 5-6)",
-        "text": "The golem unleashes a pulse of arcane, electrical energy in a 15-foot radius centered on itself. Each creature in that area must make a DC 15 Constitution saving throw, taking 22 (5d8) lightning damage on a failed save, or half as much damage on a successful one."
-      }
-    ]
+    "statBlock": {
+      "show": true,
+      "alignment": "Unaligned",
+      "creatureType": "Large Construct",
+      "stats": [
+        {"name": "STR", "val": 24},
+        {"name": "DEX", "val": 9},
+        {"name": "CON", "val": 20},
+        {"name": "INT", "val": 3},
+        {"name": "WIS", "val": 11},
+        {"name": "CHA", "val": 1}
+      ],
+      "skills": "",
+      "passiveWisdom": 10,
+      "savingThrows": "",
+      "armor": 18,
+      "hitPoint": 140,
+      "hitDie": "22d8+41",
+      "damageResistances": "Bludgeoning, Piercing, and Slashing From Nonmagical Attacks",
+      "damageImmunities": "Fire, Poison, Psychic",
+      "conditionImmunities": "Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned",
+      "senses": "Darkvision 120 ft.",
+      "speed": "20 ft.",
+      "languages": "Understands the languages of its creator and can respond with information from the Arcanum archives",
+      "challenge": "7",
+      "abilities": [
+        {
+          "name": "Illumination.",
+          "text": "A Gradiorus Golem sheds dim, purple light in a 10-foot radius."
+        },
+        {
+          "name": "Magic Resistance.",
+          "text": "The golem has advantage on Saving Throws against Spells and other magical Effects."
+        },
+        {
+          "name": "Immutable Form.",
+          "text": "The golem is immune to any spell or effect that would alter its form."
+        },
+        {
+          "name": "Magic Weapons.",
+          "text": "The golem's weapon attacks are magical."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack.",
+          "text": "A golem makes two melee attacks."
+        },
+        {
+          "name": "Slam.",
+          "text": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (1d8 + 7) bludgeoning damage."
+        },
+        {
+          "name": "Suppression Pulse (Recharge 5-6)",
+          "text": "The golem unleashes a pulse of arcane, electrical energy in a 15-foot radius centered on itself. Each creature in that area must make a DC 15 Constitution saving throw, taking 22 (5d8) lightning damage on a failed save, or half as much damage on a successful one."
+        }
+      ]
+    }
   }
 }

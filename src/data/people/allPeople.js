@@ -6,7 +6,20 @@ import merchantsData        from 'data/people/merchants';
 import historicalPeopleData from 'data/people/historical';
 import mageData             from 'data/people/mages';
 import miscPeopleData       from 'data/people/misc';
+import soldiers       from 'data/people/soldiers';
 import archfeyData          from 'data/people/archfey';
 import lordsOfTheFell       from 'data/people/lordsOfTheFell';
 
-export default {...heroData,...villainData,...nobleData,...importantPeopleData,...merchantsData,...historicalPeopleData,...miscPeopleData, ...mageData, ...archfeyData, ...lordsOfTheFell};
+export default {
+  ...heroData,
+  ...villainData,
+  ...nobleData,
+  ...importantPeopleData,
+  ...merchantsData,
+  ...historicalPeopleData,
+  ...miscPeopleData, 
+  ...mageData, 
+  ...soldiers,
+  ...archfeyData, 
+  ...lordsOfTheFell
+};

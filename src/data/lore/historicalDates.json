@@ -1,4 +1,20 @@
 {
+  "1C-0": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "1C 0",
+    "nickname": "1C 0",
+    "type": "",
+    "tags": ["year","events"],
+    "description": [
+      "The Age of Titans, known as the Mornaug Ragoth, comes to an end as the Elemental Planes begin to converge with the Prime Material plane."
+    ],
+    "articles": {
+    },
+    "timeline": {
+      "epoch": ["The Mornaug Ragoth ends."]
+    }
+  },
   "1C-1": {
     "playerKnown": true,
     "path": "lore",
@@ -15,7 +31,7 @@
       ]
     },
     "timeline": {
-      "era": ["The First Convergence begins."]
+      "epoch": ["The First Convergence begins."]
     }
   },
   "1C-6752":{
@@ -91,11 +107,11 @@
     ],
     "articles": {
       "End of an Age": [
-        "The final year of the Era known as the First Convergence. The next year in historical record is referred to as 2C 1, or the first year of the Second Convergence."
+        "The final year of the Epoch known as the First Convergence. The next year in historical record is referred to as 2C 1, or the first year of the Second Convergence."
       ]
     },
     "timeline": {
-      "era": ["The final year of the Era known as the First Convergence."]
+      "epoch": ["The final year of the First Convergence."]
     }
   },
   "2C-1": {
@@ -115,7 +131,7 @@
       ]
     },
     "timeline": {
-      "era": ["The Second Convergence begins."]
+      "epoch": ["The Second Convergence begins."]
     }
   },
   "2C-12": {
@@ -131,11 +147,11 @@
     ],
     "articles": {
       "Convergence Ends": [
-        "In 2C 12, the Second Convergence comes to a close with the Feywild returning to its natural existence as a mirror plane of the material world."
+        "In 2C 12, the planar events of the Second Convergence comes to a close with the Feywild returning to its natural existence as a mirror plane of the material world."
       ]
     },
     "timeline": {
-      "era": ["The Second Convergence ends."]
+      "major": ["The planar phenomena of the Second Convergence ends."]
     }
   },
   "2C-80": {
@@ -155,7 +171,7 @@
       ]
     },
     "timeline": {
-      "major": ["Founding of the Utharian Empire."]
+      "gov": ["Founding of the Utharian Empire."]
     }
   },
   "2C-110":{
@@ -263,7 +279,7 @@
       ]
     },
     "timeline": {
-      "age": ["Muntae Dynasty is founded."],
+      "gov": ["Muntae Dynasty is founded."],
       "minor": []
     }
   },
@@ -284,7 +300,7 @@
       ]
     },
     "timeline": {
-      "major": ["The Lich Lord Shulxaa comes to power in Istagen."],
+      "gov": ["The Lich Lord Shulxaa comes to power in Istagen."],
       "minor": []
     }
   },
@@ -556,7 +572,7 @@
       ]
     },
     "timeline": {
-      "major": ["The Muntae Dynasty was overthrown in Namjeon."],
+      "gov": ["The Muntae Dynasty was overthrown in Namjeon."],
       "minor": []
     }
   },
@@ -601,7 +617,7 @@
       ]
     },
     "timeline": {
-      "minor": ["Evan-Jakob Reinhold is born."]
+      "players": ["Evan-Jakob Reinhold is born."]
     }
   },
   "2C-2536": {
@@ -644,7 +660,7 @@
     },
     "timeline": {
       "major": [],
-      "minor": [
+      "players": [
         "Erlinder Bluefield is born."
       ]
     }
@@ -734,7 +750,7 @@
     },
     "timeline": {
       "major": [],
-      "minor": ["Filibert Montajay is born."]
+      "players": ["Filibert Montajay is born."]
     }
   },
   "2C-2551": {
@@ -779,7 +795,7 @@
     },
     "timeline": {
       "war": ["The War of Sellswords ends."],
-      "minor": ["Murat is born."]
+      "players": ["Murat is born."]
     }
   },
   "2C-2552": {
@@ -841,7 +857,7 @@
     },
     "timeline": {
       "major": [],
-      "minor": ["The Lost Shields form in the village of Rythlon, Navolin."]
+      "players": ["The Lost Shields form in the village of Rythlon, Navolin."]
     }
   }
 }

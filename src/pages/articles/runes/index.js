@@ -14,6 +14,8 @@ import weaponRune       from 'img/runes/6.svg';
 import armorRune        from 'img/runes/2.svg';
 import talismanRune     from 'img/runes/41.svg';
 
+import "styles/runes.scss"
+
 const images = require.context('img/runes/', true);
 
 class Runes extends Component {
@@ -32,7 +34,7 @@ class Runes extends Component {
       dmView: dmView
     };
 
-    this.getRuneList = this.getRuneList.bind(this);
+    // this.getRuneList = this.getRuneList.bind(this);
     this.addRuneToItem = this.addRuneToItem.bind(this);
     this.showRules = this.showRules.bind(this);
   }
@@ -75,7 +77,7 @@ class Runes extends Component {
       </section>
 
     return (
-      <Page.Runes>
+      <Page.Default>
         <TitleComponent title="Runes - Centhris Wiki" />
         <article className="dwarfRunes lore" >
           <Back/>
@@ -148,7 +150,7 @@ class Runes extends Component {
             </section>
           </div>
         </article>
-      </Page.Runes>
+      </Page.Default>
     );
   }
 

@@ -54,7 +54,7 @@ class VesdarianCalendar extends Component {
     const dmEntries = this.getArticles(lore.articles, "DM");
 
     return (
-      <Page.Lore>
+      <Page.Default>
         <TitleComponent title={`${lore.name} - Centhris Wiki`} />
         <section id="lore" className="article" >
           <article className="lore" id={lore.name.replace(/\s/g,"-")}>
@@ -251,7 +251,7 @@ class VesdarianCalendar extends Component {
 
           </article>
         </section>
-      </Page.Lore>
+      </Page.Default>
     )
   }
 

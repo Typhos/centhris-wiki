@@ -133,7 +133,7 @@
     "nickname": "Primulus Tempus Draconis",
     "linkingWords": ["First Age of Dragons"],
     "dates": ["1C 7400","2C 110"],
-    "type": "Era",
+    "type": "Age",
     "tags": ["era","era of dragons"],
     "description": [
       "Primulus Tempus Draconis was a historical era in the history of the world of Centhris."
@@ -146,7 +146,7 @@
     "nickname": "Cordus Tempus Draconis",
     "linkingWords": ["Second Age of Dragons"],
     "dates": ["2C 860","2C 2100"],
-    "type": "Era",
+    "type": "Age",
     "tags": ["era","era of dragons"],
     "description": [
       "Cordus Tempus Draconis was a historical age in the history of the world of Centhris. It was proceeded by the Ruination of Centhris and was followed by the Age of Rediscovery.",
@@ -160,7 +160,7 @@
     "nickname": "Age of Arcane Empires",
     "linkingWords": [],
     "dates": ["2C 1","2C 837"],
-    "type": "Era",
+    "type": "Age",
     "tags": ["era","era of empires"],
     "description": [
       ""
@@ -173,7 +173,7 @@
     "nickname": "Age of Rediscovery",
     "linkingWords": [],
     "dates": ["2C 2100","Present"],
-    "type": "Era",
+    "type": "Age",
     "tags": ["era","era of rediscovery"],
     "description": [
       ""
