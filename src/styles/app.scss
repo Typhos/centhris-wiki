@@ -110,7 +110,7 @@ img.worldMap {
 
 hr.hRule {
   border: 0;
-  border-bottom: 1px solid $charcoal;
+  border-bottom: 1px solid rgba($charcoal, 0.66);
 }
 
 @media all and (max-width: $breakpoint-mobile) {

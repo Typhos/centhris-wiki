@@ -1,4 +1,3 @@
-
 import loreData         from 'data/lore/lore';
 import eventsData       from 'data/lore/events';
 import racesData        from 'data/lore/races';
@@ -10,6 +9,12 @@ import wars             from 'data/lore/wars';
 
 import pantheon         from 'data/lore/gods';
 
-const allLore = {...racesData, ...eventsData, ...loreData, ...wars, ...battles};
+const allLore = {
+  ...racesData, 
+  ...eventsData, 
+  ...loreData, 
+  ...wars, 
+  ...battles
+};
 
 export {allLore, historicalData, holidayData, pantheon, calendarData};

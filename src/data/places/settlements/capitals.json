@@ -114,6 +114,17 @@
         "Almost every neighborhood in the city has shops and stands dedicated to spiritual guidance. Many of these practitioners hail from Clan Tordenfødt. This clan, comprised of a mix of humans and tieflings, are regarded with a mix of reverence and fear by the rest of the populace. Their unnatural appearance and uncanny affinity for spiritual matters tends to unnerve most people.",
         "Smithing and metalworking, once a prominent industry in the city, has fallen into decline in recent decades. Clan Villdyr, which owned much of the forges and smithies in the city has turned to banking to replace their previous economic power. This has drawn the ire of the other clans, who view money lending as a business unbecoming of great warriors and masters of the sea."
       ]
+    },
+    "dmArticles": {
+      "Taverns of Kilurus": [
+        "Burning Oak",
+        "Clumsy Porter Taphouse",
+        "Hysterical Fox",
+        "Grumpy Bass",
+        "Cowardly Devil Public House",
+        "Brass Sealion",
+        "Dueling Bards Ale House"
+      ]
     }
   },
   "Irulek": {

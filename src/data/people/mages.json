@@ -288,5 +288,101 @@
     },
     "dmArticles": {
     }
+  },
+  "Jonas-Andresiak": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Jonas Andresiak",
+    "nickname": "Jonas Andresiak",
+    "linkingWords": [],
+    "tags": ["human","mage","Nost Ezel’nár"],
+    "race": "Human",
+    "gender": "Male",
+    "age": "67",
+    "titles": ["the "],
+    "description": [
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    },
+    "art": {
+      "credit": "Ross Tran",
+      "creditLink": "https://designyoutrust.com/2018/06/through-fire-and-water-the-superb-concept-artworks-of-ross-tran/"
+    },
+    "art": {
+      "credit": "unknown",
+      "link": "https://sv.bagoum.com/cards/101332010"
+    }
+  },
+  "Alzura-of-Zelmar": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Alzura of Zelmar",
+    "nickname": "Alzura of Zelmar",
+    "linkingWords": [],
+    "tags": ["human","mage","Nost Ezel’nár"],
+    "race": "Human",
+    "gender": "Female",
+    "age": "28",
+    "titles": [],
+    "description": [
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    },
+    "art": {
+      "credit": "Ross Tran",
+      "link": "https://designyoutrust.com/2018/06/through-fire-and-water-the-superb-concept-artworks-of-ross-tran/"
+    }
+  },
+  "Bazyli-Bogdan": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Bazyli Bogdan",
+    "nickname": "Bazyli Bogdan",
+    "linkingWords": [],
+    "tags": ["human","mage","Nost Ezel’nár"],
+    "race": "Human",
+    "gender": "Male",
+    "age": "34",
+    "titles": [],
+    "description": [
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    },
+    "art": {
+      "credit": "unknown",
+      "link": ""
+    }
+  },
+  "Ernestas-Dubanow": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Ernestas Dubanow",
+    "nickname": "Ernestas the Conjurer",
+    "linkingWords": [],
+    "tags": ["human","mage","Nost Ezel’nár"],
+    "race": "Human",
+    "gender": "Male",
+    "age": "53",
+    "titles": [],
+    "description": [
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    },
+    "art": {
+      "credit": "unknown",
+      "link": ""
+    }
   }
 }

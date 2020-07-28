@@ -1,0 +1,26 @@
+{
+  "Magebane": {
+    "name": "Magebane",
+    "nickname": "Dazotinal Grasax",
+    "playerKnown": true,
+    "hideOnCat": false,
+    "path": "item",
+    "linkingWords": [],
+    "type": "Elixir/Poison",
+    "tags": ["poison","magebane","assassins"],
+    "description": [
+      "Dazotinal Grasax, more commonly referred to by the name \"@+Magebane+@\", is an exceptionally potent toxin which prevents humanoids from being able to harness arcane magical energy.",
+      "The poison appears as a grey-colored, oily substance with the consistency of a common cooking oil. When moved under direct light, the liquid appears to have bands of blues, browns and pinks which shift and swirl as it is moved. In the presence of sources of arcane magic, the poison transitions rapidly from grey to pitch black, and enters a gaseous state. In order to begin taking effect, the toxin must be ingested, or injected directly into the bloodstream. Depending on the amount and how it is introduced into the body, the toxin can usually take effect within minutes.",
+      "The most common visible effect of exposure is the presence of dark, spiderweb-like veins which appear near the point of exposure. When the toxin is ingested, this most often appears around the mouth or on the victim's neck. The long-term effects of exposure to Midnight Tears are the inability for the victim to harness or control arcane energy, rendering them nearly incapable of casting spells of any kind, as well as numbness, and vomiting. For this reason, it is the ideal poison those wishing to kill or subdue powerful arcane spellcasters, as it renders them no more dangerous than a common peasant.",
+      "@#Magebane#@ (Ingested or Injury)",
+      "@---@",
+      "A creature subjected to @*Dazotinal Grasax*@ must make a DC 17 Constitution saving throw. On a failed save, the creature is unable to cast spells, use spell-like abilities or spell-based Class Features, and is considered poisoned. In addition, on a failed save, any concentration spells end, however lasting effects cast by the mage, such as Mage Armor, remain for their full duration. The effects last until the target consumes an antidote, or is subject to the @?Greater Restoration|https://5e.tools/spells.html#greater%20restoration_phb?@ spell. Creatures which are immune to the poison condition are not effected by @*Magebane*@.",
+      "@+Requires+@: Alchemist's Tools. DC 20 (Intelligence)",
+      "@+Reagent Cost+@: 750gp per dose",
+      "@+Reagents+@: essence of arcane wyrm (@*very rare*@), moon petal (flower), astrunder powder (mineral) & powdered harpy talon distilled in diluted sap of the eviric tree",
+      "@+Antidote+@: akkivil root / witch's mint (@*rare*@), ground ginger & goodberry extract distilled in diluted sap of the eviric tree",
+      "@---@",
+      "Reference: Poisons and Elixirs"
+    ]
+  }
+}

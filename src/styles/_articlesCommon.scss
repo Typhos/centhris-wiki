@@ -23,7 +23,7 @@ h3.subjectArea {
   letter-spacing: 0.05em;
   margin-top: 2em;
   line-height: 1.33em;
-  border-bottom: 1px solid rgba($charcoal,0.66);
+  border-bottom: 1px solid rgba($charcoal, 0.66);
   overflow: hidden;
 }
 
@@ -299,11 +299,7 @@ main.content {
 
         &.small {
           width: 80%;
-        }
-
-        img.articleImg {
-
-        }        
+        }      
       }
 
       aside.infoBox {
@@ -311,6 +307,11 @@ main.content {
         margin: 1em auto 2em;
         max-width: none;
         float: none;
+
+        img.portrait {
+          width: 90%;
+          padding: 2em 5%;
+        }  
       }
     }
   }
