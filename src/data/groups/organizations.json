@@ -28,17 +28,19 @@
     "linkingWords": ["Nost Ezel’nár"],
     "tags": ["mages","frecyra","ulfwyst"],
     "type": "Magic Order",
-    "location": "Navolin",
     "memberNumber": "~60",
     "leaders": [
       "Jonas Andresiak",
-      "Alzur of Zelmar",
+      "Alzura of Zelmar",
       "Franziska Straken",
       "Bazyli Bogdan",
       "Ernestas Dubanow",
-      "Izolda of Olesko",
+      "Izolda of Olesko"
+    ],
+    "members": [
       "Vythica Floshin"
     ],
+    "location": "Frecyra, Navolin ",
     "description": [
       "An ancient order of mages, Nost Ezel’nár was established at the Tower of Stantorr around 2C 1350 by the Archmage Xarrut Vandilid."
     ],

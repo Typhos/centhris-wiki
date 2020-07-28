@@ -4,7 +4,7 @@ import Back from '../../components/back';
 import StatBlock from 'components/articles/statBlock';
 import getImgPath from "components/utils/getImgPath.js";
 
-import "styles/personArticle.scss";
+import "styles/articles.scss";
 
 export default class PeopleArticle extends Component {
 
@@ -83,7 +83,7 @@ export default class PeopleArticle extends Component {
 
     return (
 
-      <article className="person" id={id}>
+      <article className="person article" id={id}>
 
         <Back/>
 
