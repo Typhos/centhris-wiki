@@ -288,7 +288,7 @@
     ]
   },
   "Sigird-Arnbjorg": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "person",
     "hideOnCat": true,
     "name": "Sigird Arnbjorg",
