@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import WikiUtils from "components/utils/wikiUtils";
 import Back from '../../components/back';
+import StatBlock from 'components/articles/statBlock';
 import getImgPath from "components/utils/getImgPath.js";
 
 import "styles/personArticle.scss";
@@ -240,8 +241,12 @@ export default class PeopleArticle extends Component {
           {WikiUtils.stubCheck(person)}
           { person.quote && <i className="quote">{person.quote}</i> }
           {descriptionEntries}
+          
+          { ( this.state.dmView || person.showStatBlock ) &&
+            <StatBlock entry={person}/>
+          }
         </div>
-        <div className="clear"></div>
+
       </article>
     )
   }

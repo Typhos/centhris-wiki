@@ -57,12 +57,14 @@
     "linkingWords": [],
     "type": "Town",
     "population": "960",
-    "races": ["human","elf","gnome","half-elf","uklang"],
+    "races": ["human","half-elf","elf","gnome","uklang"],
     "government": "Council",
     "location": "Realm of Lemuria",
-    "leaders": ["Olaug Arnbjorg"],
+    "leaders": ["Chief Olaug Hjort"],
     "description": [
-      "@+Zabrosk+@ is a small town near the border between Lemuria and the Theocracy of Tovanis. Though relatively remote, it is the primary home of the mage Telarion Elentiir, who prefers to reside at Kvenvik Tower when he is able."
+      "@+Zabrosk+@ is a small town near the border of the Realm of Lemuria and the Theocracy of Tovanis. The town has an elegant, ornate appearance. With its yew wood rooftops, spruce wood walls and luscious gardens, Zabrosk has a charming, quaint atmosphere. The town square and the local abodes around it have worn, paved streets which give way to dirt roads after a few blocks. Located within a day's ride of Kaer Edsken and far away from natural dangers, Zabrosk has no walls. The main attractions of the town are Kvenvik Tower, the local shrine of the Wanderer and the local beer hall, the @*Trout & Fig*@. The town has a healthy economy, which is mainly supported by herbalism, fletching and fishing. With the reconstruction of @~Kaer Edsken~@ in recent years, there has also been a high demand for the town's masons. This has caused construction of larger, stone buildings in town to stop.",
+
+      "Though relatively remote, it is the primary home of the mage Telarion Elentiir, who prefers to reside at Kvenvik Tower when not required for official business in Kilurus. The tower itself stands on the north end of town, overlooking the Skoga river to the west and the Bay of Claws to the north and east."
     ]
   },
   "Wexin": {

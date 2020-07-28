@@ -197,7 +197,7 @@
     ]    
   },
   "Kvenvik-Tower": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "location",
     "tags": ["tower","building","Zabrosk","Lemuria","ulfwyst"],
     "name": "Kvenvik Tower",
@@ -205,8 +205,45 @@
     "type": "Structure",
     "location": "Zabrosk",
     "description": [
-      "Kvenvik Tower is the home of Telarion Elentiir, located in Zabrosk, Lemuria."
-    ] 
+      "Kvenvik Tower is the home of Telarion Elentiir, located in Zabrosk, Lemuria. The tower, which stands roughly 80 feet tall, is located just north-west of the town square. The tower has a large balcony 60 feet up its northern face which holds a teleportation sigil. Most people in town are aware that the tower belongs to a local mage, however most residents do not know him by name and are unable to describe him in great detail.",
+      "Like many wizard's towers, Kvenvik is much larger on the inside than it appears, having at least 8 rooms inside what is ostensibly a 5-story building. The main entrance of the building is located at street level and faces south towards the town square."
+    ],
+    "articles": {
+      "Tower Rooms": [
+        "1F - Parlor & Washroom",
+        "2F - Guest Rooms",
+        "3F - Room of Reflections, the Villa & the Classroom",
+        "4F - Gardens",
+        "5F - Laboratory & Reagent Storage",
+        "6F - Kitchen & Vault",
+        "7F - Living Room & the Owl Room",
+        "8F - Library & Teleportation Balcony",
+        "9F - Master Bedroom"
+      ]
+    },
+    "dmArticles": {
+      "3F Rooms":[
+        "@#Room of Reflection#@",
+        "The room of reflection is a small room filled with numerous standing mirrors. Each mirror holds a reflection of Telarion who is about to be killed. When spoken to, the mirror responds to the speaker explaining the manner of death and what the wizard could have done differently to avoid his grizzly end.",
+        "Telarion uses this room to remind himself he is mortal and needs to be cautious, lest he end up like one of these alternate versions of himself.",
+        "@#Villa at Badra Gassan#@",
+        "This doorway opens up into a space larger than it should. Inside are the hallways and rooms of a ivory colored home, complete with a courtyard which leads to a study, and kitchen. In the kitchen is an illusory image of an eladrin woman who is usually working on preparing a meal. She is Telarion's mother, Valanthe. Telarion's father, Osmiran, can be found in the study.",
+        "@#Classroom of Seloc Gelhyan#@",
+        "This doorway opens up into a large classroom, complete with desks, a chalk board, large windows overlooking a garden garden. The desks are empty, but seated behind the teacher's desk is a hunched, black dragonborn wearing spectacles and a gray, modest, formal suit. This is an illusory recreation of Telarion's favorite teacher from his days at the Seloc Gelhyan, Professor Trynnicus Iziros."
+      ],
+      "4F Gardens": [
+        "This level of the tower is comprised of a series of \"open air\" gardens filled with trees, flowers and local wildlife from several different regions of Ulfwyst. The various biomes are separated by invisible, magical barriers which cannot be passed through. The doorways between the gardens are marked by stone archways. Each garden is roughly 1 acre in size.",
+        "The gardens are as follows: ",
+        "• Center: Temperate hedge garden of Navolin.", 
+        "• North: Tropical garden of Kaeldrin.", 
+        "• East: Coastal garden of Rakenburg.",
+        "• South: Lemurian winter forest.", 
+        "• West: Arid, dry garden of Abbasyr."
+      ],
+      "7F Owl Room": [
+        "The @*Owl Room*@ is a room with twelve taxidermied owls, each sitting on a perch labeled with a language. Anything said in a foreign language in the presence of the proper owl will result in the owl responding with a translation in common. Languages: @+Abyssal, Celestial, Deep Speech, Dwarven, Giant, Gnomish, Goblin, Infernal, Orcish, Primordial, Undercommon & Utharian+@."
+      ]
+    }
   },
   "Pillar-of-Nevondria": {
     "playerKnown": true,
