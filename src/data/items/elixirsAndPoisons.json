@@ -15,12 +15,10 @@
       "@#Magebane#@ (Ingested or Injury)",
       "@---@",
       "A creature subjected to @*Dazotinal Grasax*@ must make a DC 15 Constitution saving throw. On a failed save, the creature is unable to cast spells, use spell-like abilities or spell-based Class Features, and is considered poisoned. In addition, on a failed save, any concentration spells end, however lasting effects cast by the mage, such as Mage Armor, remain for their full duration. The effects last until the target consumes an antidote, or is subject to the @?Greater Restoration|https://5e.tools/spells.html#greater%20restoration_phb?@ spell. Creatures which are immune to the poison condition are not effected by @*Magebane*@.",
-      "@+Requires+@: Alchemist's Tools. DC 20 (Intelligence)",
+      "@+Requires+@: Poisoner's Kit. DC 20 (Intelligence)",
       "@+Reagent Cost+@: 750gp per dose",
       "@+Reagents+@: essence of aether wyrm (@*very rare*@), moon petal (flower), astrunder powder (mineral) & powdered harpy talon distilled in diluted sap of the eviric tree",
-      "@+Antidote+@: akkivil root / witch's mint (@*rare*@), ground ginger & goodberry extract distilled in diluted sap of the eviric tree",
-      "@---@",
-      "Reference: Poisons and Elixirs"
+      "@+Antidote+@: akkivil root / witch's mint (@*rare*@), ground ginger & goodberry extract distilled in diluted sap of the eviric tree"
     ]
   }
 }
