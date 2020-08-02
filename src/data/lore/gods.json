@@ -849,11 +849,11 @@
 
     }
   },
-  "The-Stag": {
+  "The-Wild-Hart": {
     "playerKnown": true,
     "path": "lore",
-    "name": "The Stag",
-    "nickname": "The Stag",
+    "name": "The Wild Hart",
+    "nickname": "The Wild Hart",
     "trueName": "",
     "portfolio": [],
     "alignment": "",
@@ -1059,13 +1059,50 @@
 
     }
   },
+  "The-Molten-King": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Molten King",
+    "nickname": "The Molten King",
+    "trueName": "Surtur",
+    "portfolio": [
+      "Fire",
+      "Strength",
+      "Volcanoes"
+    ],
+    "alignment": "Neutral Evil",
+    "gender": "Masculine",
+    "titles": [
+        "The Lord in Flame",
+        "Heart of the Mountain"
+    ],
+    "worshipers": [
+        "Giants",
+        "Bheurs",
+        "Druids",
+        "Inhabitants of volcanic regions"
+    ],
+    "symbol": "Flaming sword",
+    "linkingWords": [],
+    "type": "Giant Deity",
+    "tags": ["Giant Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
   "The-Biting-Frost": {
     "playerKnown": true,
     "path": "lore",
     "name": "The Biting Frost",
     "nickname": "The Biting Frost",
     "trueName": "Jotnoral",
-    "portfolio": ["Winter","War"],
+    "portfolio": [
+      "Winter",
+      "War"
+    ],
     "alignment": "Neutral Evil",
     "gender": "Masculine",
     "titles": [
@@ -1080,8 +1117,8 @@
     ],
     "symbol": "Six-pointed snowflake",
     "linkingWords": ["the Biting Frost","the Giant King","Winter's Chill"],
-    "type": "Lesser Deity",
-    "tags": ["Lesser Deity"],
+    "type": "Giant Deity",
+    "tags": ["Giant Deity"],
     "description": [
 
     ],
@@ -1089,11 +1126,12 @@
 
     }
   },
-  "The-Shattered-Mind": {
+  "The-Frayed": {
     "playerKnown": false,
     "path": "lore",
-    "name": "The Shattered Mind",
-    "nickname": "The Shattered Mind",
+    "name": "The Frayed",
+    "nickname": "The Frayed One",
+    "linkingWords": ["Shattered Mind"],
     "trueName": "Xedris",
     "portfolio": [],
     "alignment": "",
@@ -1227,17 +1265,28 @@
     "name": "The Unending Hunger",
     "nickname": "The Unending Hunger",
     "trueName": "Phyreus",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
+    "portfolio": [
+      "Feasts",
+      "Death",
+      "War"
+    ],
+    "alignment": "Chaotic Evil",
+    "gender": "Agender",
+    "titles": [
+      "Devourer",
+      "Living Flame"
+    ],
+    "worshipers": [
+      "bugbears",
+      "goblins",
+      "hobgoblins"
+    ],
+    "symbol": "flaming maw",
     "linkingWords": [""],
     "type": "Lesser Deity",
     "tags": ["Lesser Deity"],
     "description": [
-
+      "Phyreus, the @+Unending Hunger+@, is the goblinoid deity of feasts, cannibalism, war and death. They are most often depicted as a huge, fiery, three-eyed goblinoid, usually surrounded by the bodies of their slain foes."
     ],
     "articles": {
 
