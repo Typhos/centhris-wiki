@@ -110,12 +110,20 @@ class Location extends Component {
                 </div>
               }
 
+              { location.area && 
+                <div className="info">
+                  <p className="key">Area</p>
+                  <p className="values">{location.area}</p>
+                </div> 
+              }
+
               { location.population && 
                 <div className="info">
                   <p className="key">Population</p>
                   <p className="values">{location.population}</p>
                 </div> 
               }
+
               { location.government &&
                 <div className="info">
                   <p className="key">Government</p>

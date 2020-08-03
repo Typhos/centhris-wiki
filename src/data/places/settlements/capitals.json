@@ -42,7 +42,7 @@
     "name": "Frecyra",
     "nickname": "Frecyra",
     "type": "Capital City",
-    "population": "91,145",
+    "population": "55,145",
     "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
     "government": "Hereditary Monarchy",
     "location": "Navolin",
@@ -172,8 +172,28 @@
     "location": "Realm of Cibrin",
     "leaders": ["Han Darga Crogosh of Clan Godak"],
     "description": [
-      "Enira is the walled, capital city and stronghold of Clan Godak located on the western bank of the Volga river. The city is located roughly 130 km (80 miles) upriver from Venngar Sea. Situated in the middle of the densely forested Torick-Vir Valley, the city maintains a professional guard comprised of members of @~Clan Godak~@ to ensure it does not come under attack from giants, dragons or other monstrous residents of the vale."
+      "@+Enira+@ is the walled, capital city and stronghold of Clan Godak located on the western bank of the Volga river. The city is located roughly 130 km (80 miles) upriver from Venngar Sea. Situated in the middle of the densely forested Torick-Vir Valley, the city maintains a professional guard comprised of members of @~Clan Godak~@ to ensure it does not come under attack from giants, dragons or other monstrous residents of the vale."
     ]
+  },
+  "Lashkar": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["city","syrothian empire","capital","ulfwyst"],
+    "name": "Lashkar",
+    "nickname": "Lashkar",
+    "type": "Capital City",
+    "population": "72,650",
+    "races": ["hobgoblin","goblin","human","bugbear","half-elf","half-orc","dwarf","elf","gnome","half-giant"],
+    "government": "Divine Military Dictatorship",
+    "location": "Syrothian Empire",
+    "leaders": ["Droknac the Immortal"],
+    "description": [
+      "@+Lashkar+@ is sprawling capital of the Syrothian Empire."
+    ],
+    "art": {
+      "artist": "Munkhjin Otgonbayar",
+      "link": "https://www.artstation.com/artwork/VKo4N"
+    }
   },
   "Khezrabad": {
     "playerKnown": false,
@@ -183,13 +203,13 @@
     "nickname": "Khezrabad",
     "linkingWords": ["Khezrabadi"],
     "type": "Capital City",
-    "population": "25,000",
-    "races": ["dragonborn","human","half-orc","tiefling"],
+    "population": "39,680",
+    "races": ["human","tiefling","dragonborn","half-elf","elf","half-orc","dwarf"],
     "government": "Hereditary Monarchy",
     "location": "Abbasyr",
     "leaders": ["Sultana Safa Abbasyr"],
     "description": [
-      "Khezrabad is the capital city of the Kingdom of Abbasyr."
+      "@+Khezrabad+@ is the capital city of the Kingdom of Abbasyr."
     ]
   },
   "Utharis": {
@@ -215,7 +235,7 @@
     "name": "Xanthir",
     "nickname": "Xanthir",
     "type": "Capital City",
-    "population": "26,000",
+    "population": "30,180",
     "races": ["human","dwaf","half-elf","halfling","elf","gnome","serbonji"],
     "government": "Merchant Princes",
     "location": "Solician League",
