@@ -322,7 +322,7 @@
     }
   },
   "Mertien-Sarstina": {
-    "playerKnown": true,
+    "playerKnown": false,
     "path": "person",
     "hideOnCat": false,
     "name": "Mertien Sarstina",
