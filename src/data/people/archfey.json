@@ -19,7 +19,7 @@
     }
   },
   "Gelion": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "person",
     "hideOnCat": false,
     "name": "Gelion",
@@ -29,7 +29,7 @@
     "titles": ["the Good Fellow"],
     "affiliations": ["Feywild"],
     "description": [
-      "@+Gelion+@ is an archfey that resides in the Realm of Spring in the Feywild."
+      "@+Gelion+@, also known as the @*Good Fellow*@, is an archfey that resides in the Realm of Spring in the Feywild."
     ],
     "dmArticles": {
       "Goals and Schemes": [
@@ -210,7 +210,7 @@
     }
   },
   "Ralmerin": {
-    "playerKnown": false,
+    "playerKnown": true,
     "path": "person",
     "hideOnCat": false,
     "name": "Ralmerin",
