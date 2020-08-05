@@ -12,9 +12,6 @@ import CategoryGroup  from 'components/categories/categoryGroup';
 // STYLES
 import 'styles/categories.scss';
 
-// DATA
-const orgData = DataLoader.organizations;
-
 class OrganizationGroups extends Component {
 
   constructor (props) {

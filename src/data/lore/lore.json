@@ -66,6 +66,48 @@
       ]
     }
   },
+  "Ilon-Tunsem": {
+    "playerKnown": false,
+    "path": "lore",
+    "hideOnCat": false,
+    "name": "Ilon Tunsem",
+    "nickname": "Moon Gates",
+    "linkingWords": [
+      "Idrothean Moon Gates",
+      "Gateways of the Moon",
+      "Lunar Gateways"
+    ],
+    "type": "Centhris World Lore",
+    "tags": ["world lore","dragonborn","moons","idrothea"],
+    "description": [
+      "The lunar gateways of the Idrothari, known in their native draconic as @+Ilon Tunsem+@, are massive, ancient portals which connect Centhris to its largest moon, Idrothea. The location and total number of Moon Gates that exist is unknown. When active, gates do not remain open for long, and what trigger actives them is unknown. Those that have encountered active portals state that they seem to lead to a vast, barren desert or yellow sand and grey rock.",
+
+      "Each gateway is unique in its material composition and design, though they all share certain characteristics. Each has been between 50 feet and 75 feet wide, and at least 100 feet tall and are marked with an inscription in draconic which reads:",
+      
+      "@dr putole nomeno ifni okarthel nkyorlic dr@"
+    ],
+    "articles": {
+      "Known Gateways": [
+        "There are numerous lunar gateways located across the world. Rare few are in well-known locations, while others have never been found, their locations lost or a guarded secret. The following is a list of the known gates, based on their continent:",
+        "@#Cunascus#@",
+        "• Olobahle, Kuyamanza ",
+        "@#Entos#@",
+        "• Eynnora, Tor Aragil ",
+        "@#Eastern Koraxon#@",
+        "• N/A",
+        "@#Western Koraxon#@",
+        "• N/A",
+        "@#Ulfwyst#@",
+        "• Muscurah, Abbasyr ",
+        "• Thareska, Navolin "        
+      ]
+    },
+    "dmArticles": {
+      "Doorway Inscription": [
+        "The inscription on all Lunar Gateways reads: \"putole nomeno ifni okarthel nkyorlic\", which translates to \"Beyond this doorway, home awaits\"."
+      ]
+    }
+  },
   "Night-of-the-Bloody-Moon": {
     "playerKnown": true,
     "path": "lore",

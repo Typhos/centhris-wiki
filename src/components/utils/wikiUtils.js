@@ -92,7 +92,13 @@ export default class WikiUtils {
             const url = substr.split(/\|/)[1];
 
             substr = <a href={url} key={substr+j} className="externalLink">{text}</a>;
-          
+
+          } else if ( /^dr(.*?)dr$/.test(substr) ) {
+            // draconic font
+
+            substr = substr.replace(/(^dr)|(dr$)/g, "");
+            substr = <span className="draconic" key={substr+j}>{substr}</span>;
+            
           } else if ( /^&(.*?)&$/.test(substr) ) {
             
             substr = substr.replace(/&/g, "");
