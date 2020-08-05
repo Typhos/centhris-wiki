@@ -76,6 +76,7 @@ class Location extends Component {
     }
 
     const descriptionEntries = this.getArticles(location.articles);
+    const currencyImg = location.currency && new getImgPath(location.currency.replace(/\s/g,"-")).src;
 
     return (
       <Page.Default>
@@ -134,7 +135,9 @@ class Location extends Component {
                 <div className="info currency">
                   <p className="key">Currency</p>
                   <p className="values">{location.currency}</p>
-                  <img className="coinImage" alt="" src={ new getImgPath(location.currency.replace(/\s/g,"-")).src }/>
+                  { !currencyImg.includes("placeholder") && 
+                    <img className="coinImage" alt="" src={ currencyImg }/>
+                  }
                 </div>
               }
               { location.capital && 

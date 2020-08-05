@@ -113,6 +113,14 @@ hr.hRule {
   border-bottom: 1px solid rgba($charcoal, 0.66);
 }
 
+// D&D language fonts
+span.draconic {
+  font-family: $draconic;
+  font-size: 30px;
+  line-height: 1.6em;
+  letter-spacing: 0.1em;
+}
+
 @media all and (max-width: $breakpoint-mobile) {
 
   main.content {

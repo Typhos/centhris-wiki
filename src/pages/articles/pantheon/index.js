@@ -10,7 +10,6 @@ import CategoryGroup  from 'components/categories/categoryGroup';
 
 import 'styles/categories.scss';
 
-import godsData from 'data/lore/gods';
 import banner from "img/lore/banners/pantheon-banner.png";
 
 class Pantheon extends Component {

@@ -261,7 +261,7 @@
   "Shangxia": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["city","Daotian","capital","Theyra"],
+    "tags": ["city","Daotian","capital","Western Koraxon"],
     "name": "Shangxia",
     "nickname": "Shangxia",
     "type": "Capital City",
@@ -271,6 +271,36 @@
     "location": "Daotian Kingdom",
     "description": [
       "The city of @+Shangxia+@ is the capital of Kingdom of Daotian."
+    ]
+  },
+  "Selan-Aserin": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["city","Tor Aragil","capital","Entos"],
+    "name": "Selan Aserin",
+    "nickname": "Selan Aserin",
+    "type": "Capital City",
+    "population": "69,260",
+    "races": ["elf","half-elf","human","gnome","tiefling","dragonborn"],
+    "government": "Elective Monarchy",
+    "location": "Tor Aragil",
+    "description": [
+      "The city of @+Selan Aserin+@ is the capital of High Elf Kingdom of Tor Aragil."
+    ]
+  },
+  "Merenheim": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["city","Sennhoff","capital","Entos"],
+    "name": "Merenheim",
+    "nickname": "Merenheim",
+    "type": "Capital City",
+    "population": "44,843",
+    "races": ["human","half-orc","dwarf","half-elf","elf","halfling","gnome","tiefling"],
+    "government": "Feudal Monarchy",
+    "location": "Kingdom of Sennhoff",
+    "description": [
+      "The city of @+Merenheim+@ is the capital of the Kingdom of Sennhoff."
     ]
   }
 }
