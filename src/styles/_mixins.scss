@@ -1,4 +1,4 @@
-@import url('//fonts.googleapis.com/css?family=Ubuntu+Mono|Fira+Sans|Gochi+Hand|Oswald|Caesar+Dressing|Libre+Baskerville&display=swap');
+@import url('//fonts.googleapis.com/css?family=Ubuntu+Mono|Fira+Sans|Gochi+Hand|Oswald|Caesar+Dressing|Merriweather|Cinzel+Decorative&display=swap');
 
 @font-face {
   font-family: "Iokharic";
@@ -29,14 +29,17 @@ $dndGold: #E59A28;
 
 $breakpoint-mobile: 768px;
 
-$monoSpace: "Ubuntu Mono", monospace !important;
-$runic: "Caesar Dressing", cursive;
 $headingText: "Oswald", sans-serif;
 $sansText: "Century Gothic", sans-serif;
-$serifText: "Libre Baskerville", "Times New Roman", serif;
+$serifText: "Merriweather", "Times New Roman", serif;
 $fira: "Fira Sans", sans-serif;
+$monoSpace: "Ubuntu Mono", monospace !important;
+
+// decorative fonts
+$decorative: "Cinzel Decorative", serif;
 $handwriting: "Gochi Hand", sans-serif;
 $draconic: "Iokharic", "Caesar Dressing", "Times New Roman", serif;
+$runic: "Caesar Dressing", cursive;
 
 body {
   margin: 0;

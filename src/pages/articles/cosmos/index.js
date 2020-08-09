@@ -6,7 +6,6 @@ import { TitleComponent } from 'components/titleComponent.js';
 
 import Page from 'components/page';
 import ListItem from 'components/categories/listItem';
-import "styles/locationArticle.scss";
 
 import banner from "img/lore/banners/cosmos-banner.png";
 

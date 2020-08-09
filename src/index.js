@@ -7,7 +7,7 @@ import Footer from "components/footer";
 import ScrollToTop from 'components/scrollToTop';
 import Accountability from 'components/accountability';
 
-import App from './components/app';
+import HomePage from './pages/homepage';
 import {Characters} from './pages/categories/characters/index';
 import {Cosmos} from './pages/articles/cosmos/index';
 import {Creatures} from './pages/articles/creatures/index';
@@ -81,7 +81,7 @@ const routing = (
       { localStorage.getItem('dmView') === 'true' && <div id="dmFlag">DM MODE</div>}
       <Header/>
       <Switch>
-        <Route exact path="/" component={App} />
+        <Route exact path="/" component={HomePage} />
         <Route path="/lore/The-Vesdarian-Calendar" component={VesdarianCalendar} />
         <Route path="/player-character" component={Person} />
         <Route path="/characters" component={Characters} />

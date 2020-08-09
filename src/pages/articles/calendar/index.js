@@ -3,6 +3,7 @@ import WikiUtils from "components/utils/wikiUtils";
 import DataLoader from 'components/utils/dataLoader';
 import Back from 'components/back';
 import Page from 'components/page';
+import getImgPath from "components/utils/getImgPath.js";
 import { TitleComponent } from 'components/titleComponent.js';
 
 import "styles/loreArticle.scss";
@@ -65,10 +66,10 @@ class VesdarianCalendar extends Component {
               { imgs.keys().some(x => x.includes( lore.name.replace(/\s/g,"-") )) && 
                 <img className="portrait" alt="" src={ imgs( imgs.keys().filter(x => x.includes( lore.name.replace(/\s/g,"-") )) )}/>
               }
-              <div className="info">
-                <p className="key">
-                  <a href={imgs( imgs.keys().filter(x => x.includes( lore.name.replace(/\s/g,"-") )) )} target="_blank"  rel="noopener noreferrer">Full Size Image</a>
-                </p>
+              <div className="info mapBox">
+                <a href={ new getImgPath("Vesdarian-Wheel").src } target="_blank"  rel="noopener noreferrer">
+                  <img alt="Vesdarian Wheel" className="additional" src={new getImgPath("Vesdarian-Wheel").src}/>  
+                </a>
               </div>
               { lore.type && 
                 <div className="info">

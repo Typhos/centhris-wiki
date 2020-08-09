@@ -7,8 +7,6 @@ import Page from 'components/page';
 import Back from 'components/back';
 import StatBlock from 'components/articles/statBlock';
 
-import "styles/groupArticle.scss";
-
 const orgData = DataLoader.organizations;
 
 class Organization extends Component {
