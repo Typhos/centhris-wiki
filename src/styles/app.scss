@@ -5,6 +5,10 @@ body {
   font-size: 15px;
 }
 
+* {
+  // border: 1px solid tomato;
+}
+
 .App {
   display: block;
   margin-bottom: 200px;
@@ -126,7 +130,8 @@ span.draconic {
 @media all and (max-width: $breakpoint-mobile) {
 
   main.content {
-    width: 94vw;
+    width: 90vw;
+    margin: 0 auto;
     position: relative;
     top: 15.5vh;
   }

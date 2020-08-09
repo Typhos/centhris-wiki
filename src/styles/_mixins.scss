@@ -1,4 +1,4 @@
-@import url('//fonts.googleapis.com/css?family=Ubuntu+Mono|Fira+Sans|Gochi+Hand|Oswald|Caesar+Dressing|Merriweather|Cinzel+Decorative&display=swap');
+@import url('//fonts.googleapis.com/css?family=Ubuntu+Mono|Gochi+Hand|Oswald|Caesar+Dressing|EB+Garamond|Cinzel+Decorative&display=swap');
 
 @font-face {
   font-family: "Iokharic";
@@ -29,10 +29,10 @@ $dndGold: #E59A28;
 
 $breakpoint-mobile: 768px;
 
+// standard fonts
 $headingText: "Oswald", sans-serif;
-$sansText: "Century Gothic", sans-serif;
-$serifText: "Merriweather", "Times New Roman", serif;
-$fira: "Fira Sans", sans-serif;
+$sansText: Helvetica, sans-serif;
+$serifText: "EB Garamond", Georgia, Times, serif;
 $monoSpace: "Ubuntu Mono", monospace !important;
 
 // decorative fonts
