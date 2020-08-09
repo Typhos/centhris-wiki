@@ -6,8 +6,6 @@ import Page from 'components/page';
 import { TitleComponent } from 'components/titleComponent.js';
 import { Redirect } from "react-router-dom";
 
-import "styles/loreArticle.scss";
-
 class Lore extends Component {
 
   constructor(props) {
@@ -94,25 +92,25 @@ class Lore extends Component {
               { lore.alignment && 
                   <div className="info">
                     <p className="key">Alignment</p>
-                    <p className="values big">{lore.alignment}</p>
+                    <p className="values">{lore.alignment}</p>
                   </div>
               }
               { lore.trueName && 
                   <div className="info">
                     <p className="key">True Name</p>
-                    <p className="values big">{lore.trueName}</p>
+                    <p className="values">{lore.trueName}</p>
                   </div>
               }
               { lore.gender && 
                   <div className="info">
                     <p className="key">Gender</p>
-                    <p className="values big">{lore.gender}</p>
+                    <p className="values">{lore.gender}</p>
                   </div>
               }
               { lore.symbol && 
                   <div className="info">
                     <p className="key">Symbol(s)</p>
-                    <p className="values big">{lore.symbol}</p>
+                    <p className="values">{lore.symbol}</p>
                   </div>
               }
               { lore.portfolio && 

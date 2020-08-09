@@ -1,8 +1,13 @@
-@import './mixins', "./articlesCommon";
+@import "./mixins", "./articlesCommon", "./aside";
 
 body {
   font-family: $sansText;
   font-size: 15px;
+}
+
+.App {
+  display: block;
+  margin-bottom: 200px;
 }
 
 ::spelling-error {
@@ -13,12 +18,13 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  line-height: 1.2em;
+  line-height: 2em;
   font-family: $headingText;
-  font-size: 1.2em;
+  font-size: 12px;
   padding: 0;
   margin: 0;
   background-color: $charcoal;
+  border-bottom: 1px solid $moodGreen;
   color: $moodGreen;
   
   position: fixed;
@@ -87,12 +93,8 @@ a {
 
 main.content {
   max-width: 1200px;
+  min-height: 1200px;
   margin: 0.5em auto 0;
-
-  p.linkedContent {
-    font-size: 1em;
-    font-family: $sansText;
-  }
 }
 
 article.description {

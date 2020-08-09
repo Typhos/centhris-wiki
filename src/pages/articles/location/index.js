@@ -8,8 +8,6 @@ import { Redirect } from "react-router-dom";
 import Page from 'components/page';
 import getImgPath from "components/utils/getImgPath.js";
 
-import "styles/locationArticle.scss";
-
 class Location extends Component {
 
   constructor(props) {
@@ -53,14 +51,16 @@ class Location extends Component {
       const img = images.keys().filter( name => name.includes(image) );
       return (
         <div className="info mapBox" key={image}>
+          <a className="link" href={ images(img) }>
             <img alt="" className="additional" src={images(img)}/>
+          </a>
         </div>
       )
     });
 
     const map = location.map && 
         <div className="info mapBox">
-          <a href={ new getImgPath(location.map).src }>
+          <a href={ new getImgPath(location.map.replace(/\s/g,"-") ).src }>
             <img alt="map" className="map" src={ new getImgPath(location.map.replace(/\s/g,"-") ).src }/>
             {/*<img alt="map" className="map" src={ maps( maps.keys().filter( name => name.includes(location.map)) ) }/>*/}
           </a>
@@ -134,10 +134,12 @@ class Location extends Component {
               { location.currency && 
                 <div className="info currency">
                   <p className="key">Currency</p>
-                  <p className="values">{location.currency}</p>
-                  { !currencyImg.includes("placeholder") && 
-                    <img className="coinImage" alt="" src={ currencyImg }/>
-                  }
+                  <p className="values">
+                    {location.currency}
+                    { !currencyImg.includes("placeholder") && 
+                      <img className="coinImage" alt="" src={ currencyImg }/>
+                    }
+                  </p>
                 </div>
               }
               { location.capital && 
