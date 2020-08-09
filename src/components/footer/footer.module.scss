@@ -1,0 +1,13 @@
+@import "../../styles/mixins";
+
+.footer {
+  margin: 5em 0 0;
+  padding: 0.5em 0;
+  background-color: $charcoal;
+  border-top: 1px solid $moodGreen;
+
+  color: $lightText;
+  font-family: $sansText;
+  font-size: 0.66em;
+  text-align: center;
+}

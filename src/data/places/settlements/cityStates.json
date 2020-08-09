@@ -12,7 +12,6 @@
     "government": "Merchant Oligarchy",
     "currency": "Barrier Coast Hull",
     "location": "Barrier Coast",
-    "map": "Volikgrad",
     "description": [
       "The Free City of Volikgrad is a city-state in the Barrier Coast region of Ulfwyst. It is the southern-most city on the barrier coast and a major trade hub for merchants and travelers heading towards the southern regions of the Kingdom of Navolin or the Archduchy of Zurast.",
       "The primary attractions of the city are the Twin Arches Market, the Eikras Auction House, and the Moongate, a grand temple to the Maiden."
@@ -32,7 +31,6 @@
     "currency": "Barrier Coast Hull",
     "location": "Barrier Coast",
     "districts": ["Embersky","Ghost Orchard","the Greenwood Quarter","Gullhollow","Murky Reach"],
-    "map": "Rakenburg",
     "description": [
       "The Free City of Rakenburg is a city-state in the Barrier Coast region of Ulfwyst. It is the largest city in the region and the defacto capital of the city-state alliance. The city is a common point for merchants and travelers moving through the region to resupply, due to its central location. The city is surrounded on all sides by a large, stone wall which is 12 meters tall on the north side of the Kamsby river and 15 meters high south of the river. The citadel, Dawnguard Keep, is located on the western end of the city, just beyond the Ghost Orchard District.",
       "Rakenburg is a city built on top of several previous settlements, though the exact number of settlements that existed before is not widely known. Most of the city's current construction used existing building material and re-purposed it. It is not known exactly when the current incarnation of the city was founded, though scholars speculate that the upper city was resettled around 900 years ago.",
