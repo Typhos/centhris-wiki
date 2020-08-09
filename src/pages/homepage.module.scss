@@ -52,7 +52,8 @@
 
 @media all and (max-width: $breakpoint-mobile) {
   .homepage {
-    width: 100vw;
+    width: 90vw;
+    margin: 0 auto;
   }
 
   .globe {
