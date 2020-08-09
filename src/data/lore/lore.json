@@ -217,7 +217,7 @@
     }
   },
   "Lemurian-Longship": {
-    "playerKnown": true,
+    "playerKnown": false,
     "path": "lore",
     "hideOnCat": false,
     "name": "Lemurian Longship",

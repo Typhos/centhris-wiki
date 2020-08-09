@@ -67,7 +67,7 @@ export default class getImgPath {
     }
 
     if ( !imgPath ) {
-      imgPath = (this.style === "portrait") ? './portraits/unknown.png' : './placeholder.png';
+      imgPath = (this.style === "portrait") ? './portraits/unknown.jpg' : './placeholder.png';
     }
 
     return images(imgPath);

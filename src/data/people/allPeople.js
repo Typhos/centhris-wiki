@@ -9,6 +9,7 @@ import miscPeopleData       from 'data/people/misc';
 import soldiers       from 'data/people/soldiers';
 import archfeyData          from 'data/people/archfey';
 import lordsOfTheFell       from 'data/people/lordsOfTheFell';
+import witheredCouncil       from 'data/people/councilOfTheWitheredKing';
 
 export default {
   ...heroData,
@@ -21,5 +22,6 @@ export default {
   ...mageData, 
   ...soldiers,
   ...archfeyData, 
-  ...lordsOfTheFell
+  ...lordsOfTheFell,
+  ...witheredCouncil
 };
