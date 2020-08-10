@@ -1,0 +1,67 @@
+{
+  "The-Endless-Hunger": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Endless Hunger",
+    "nickname": "The Endless Hunger",
+    "trueName": "Malkir",
+    "portfolio": [
+      "Feasts",
+      "Death",
+      "War"
+    ],
+    "alignment": "Chaotic Evil",
+    "gender": "Male",
+    "titles": [
+      "Devourer",
+      "Corpulent One"
+    ],
+    "worshipers": [
+      "bugbears",
+      "goblins",
+      "hobgoblins"
+    ],
+    "symbol": "black chalice",
+    "linkingWords": [""],
+    "type": "Goblinoid Deity",
+    "tags": ["Goblinoid Deity"],
+    "description": [
+      "Malkir, the @+Unending Hunger+@, is the goblinoid deity of feasts and cannibalism. He are most often depicted as a horned, pale-skinned, corpulent goblinoid seated upon a throne. Often, in more elaborate depictions, he is seated in front of a long table covered with all manner of food and drink."
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Warmaster": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Warmaster",
+    "nickname": "The Warmaster",
+    "trueName": "Phyreus",
+    "portfolio": [
+      "Death",
+      "War"
+    ],
+    "alignment": "Chaotic Evil",
+    "gender": "Agender",
+    "titles": [
+      "Demon General",
+      "Living Flame"
+    ],
+    "worshipers": [
+      "bugbears",
+      "goblins",
+      "hobgoblins"
+    ],
+    "symbol": "flaming maw",
+    "linkingWords": [""],
+    "type": "Goblinoid Deity",
+    "tags": ["Goblinoid Deity"],
+    "description": [
+      "Phyreus, the @+Warmaster+@, is the goblinoid deity of war and death. They are most often depicted as a huge, fiery, three-eyed goblinoid, usually surrounded by the bodies of their slain foes."
+    ],
+    "articles": {
+
+    }
+  }
+}

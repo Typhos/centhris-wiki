@@ -1,0 +1,134 @@
+{
+  "The-Wild-Hart": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Wild Hart",
+    "nickname": "The Wild Hart",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Elven Deity",
+    "tags": ["Elven Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Emerald-Mist": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Emerald Mist",
+    "nickname": "The Emerald Mist",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Elven Deity",
+    "tags": ["Elven Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Shimmering-Sky": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Shimmering Sky",
+    "nickname": "The Shimmering Sky",
+    "trueName": "Auroros",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": ["the Shimmering Sky", "Shimmering Sky", "the Aurora Owl", "Father Owl"],
+    "type": "Elven Deity",
+    "tags": ["Elven Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Stellar-Wolf": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Stellar Wolf",
+    "nickname": "The Stellar Wolf",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": ["the Stellar Wolf","the Stellar Hound"],
+    "type": "Elven Deity",
+    "tags": ["Elven Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Grove-Keeper": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Grove Keeper",
+    "nickname": "The Grove Keeper",
+    "trueName": "Tythar",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Elven Deity",
+    "tags": ["Elven Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Silver-Blade": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Silver Blade",
+    "nickname": "The Silver Blade",
+    "trueName": "Retra",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Elven Deity",
+    "tags": ["Elven Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "The-Gravekeeper": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Gravekeeper",
+    "nickname": "Neshaya, the Gravekeeper",
+    "trueName": "Neshaya",
+    "portfolio": [
+      "Grave",
+      "Death"
+    ],
+    "alignment": "True Neutral",
+    "gender": "Feminine",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "shrineImg": ["shrine-gravekeeper.png"],
+    "linkingWords": ["the Gravekeeper","Neshaya"],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity","true neutral","death","graveyards"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Reveler": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Reveler",
+    "nickname": "The Reveler",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [
+
+    ],
+    "worshipers": [
+      "tavern keepers",
+      "hedonists",
+      "revelers"
+    ],
+    "symbol": "Grape vine on a tray",
+    "linkingWords": [],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Smiling-Lady": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Smiling Lady",
+    "nickname": "The Smiling Lady",
+    "trueName": "",
+    "portfolio": ["Beauty","Luck","Love"],
+    "alignment": "Chaotic Good",
+    "gender": "Feminine",
+    "titles": [
+      "The Mistress of Love",
+      "Lady Passion",
+      "Lady Luck"
+    ],
+    "worshipers": [
+      "romantics",
+      "gamblers",
+      "hedonists",
+      "adventurers"
+    ],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Ember-Soul": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Ember Soul",
+    "nickname": "The Ember Soul",
+    "trueName": "Glist",
+    "portfolio": [],
+    "alignment": "Lawful Good",
+    "gender": "Feminine",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": ["the Ember Soul","Dragon Consort"],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity","dragons","Dragon Consort"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  
+  "The-Frayed": {
+    "playerKnown": false,
+    "path": "lore",
+    "name": "The Frayed",
+    "nickname": "The Frayed One",
+    "linkingWords": ["Shattered Mind"],
+    "trueName": "Xedris",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Soul-Thief": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Soul Thief",
+    "nickname": "The Soul Thief",
+    "trueName": "Doella",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Hidden-Blade": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Hidden Blade",
+    "nickname": "The Hidden Blade",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Dark-Queen": {
+    "playerKnown": false,
+    "path": "lore",
+    "name": "The Dark Queen",
+    "nickname": "The Dark Queen",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Gold-Prince": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Gold Prince",
+    "nickname": "The Gold Prince",
+    "trueName": "Radagio",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Temptress": {
+    "playerKnown": false,
+    "path": "lore",
+    "name": "The Temptress",
+    "nickname": "The Temptress",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "A goblet pouring wine",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Masked-Lady": {
+    "playerKnown": false,
+    "path": "lore",
+    "name": "The Masked Lady",
+    "nickname": "The Masked Lady",
+    "trueName": "Retra",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  }
+}
