@@ -1,0 +1,103 @@
+{
+  
+  "The-Stonemother": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Stonemother",
+    "nickname": "The Stonemother",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Dwarven Deity",
+    "tags": ["Lesser Deity","dwarves","dwarf"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Banner-Lord": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Banner Lord",
+    "nickname": "The Banner Lord",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Dwarven Deity",
+    "tags": ["Lesser Deity","dwarves","dwarf"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Forge-Lord": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Forge Lord",
+    "nickname": "The Forge Lord",
+    "linkingWords": ["Forgelord"],
+    "trueName": "Eshtânïl",
+    "portfolio": [
+      "Forge",
+      "Knowledge"
+    ],
+    "alignment": "Neutral Good",
+    "gender": "Masculine",
+    "titles": [
+      "Deep King",
+      "Runegiver",
+      "Horned Dwarf"
+    ],
+    "worshipers": [
+      "dwarf smiths",
+      "architects",
+      "engineers"
+    ],
+    "symbol": "horned dwarf face",
+    "linkingWords": ["Eshtânïl","the Forgelord","Runegiver"],
+    "type": "Dwarven Deity",
+    "tags": ["Lesser Deity","dwarves","dwarf"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Brewmaster": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Brewmaster",
+    "nickname": "The Brewmaster",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": [""],
+    "type": "Dwarven Deity",
+    "tags": ["Lesser Deity","dwarves","dwarf"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  }
+}

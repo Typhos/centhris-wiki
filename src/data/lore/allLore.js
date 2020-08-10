@@ -7,7 +7,12 @@ import calendarData     from 'data/lore/calendar';
 import battles          from 'data/lore/battles';
 import wars             from 'data/lore/wars';
 
-import pantheon         from 'data/lore/gods';
+import majorGods        from 'data/lore/gods/major';
+import minorGods        from 'data/lore/gods/minor';
+import dwarvenGods      from 'data/lore/gods/dwarven';
+import elvenGods        from 'data/lore/gods/elven';
+import goblinGods       from 'data/lore/gods/goblinoid';
+import giantGods        from 'data/lore/gods/giant';
 
 const allLore = {
   ...racesData, 
@@ -16,5 +21,14 @@ const allLore = {
   ...wars, 
   ...battles
 };
+
+const pantheon = {
+  ...majorGods,
+  ...minorGods,
+  ...dwarvenGods,
+  ...elvenGods,
+  ...goblinGods,
+  ...giantGods
+}
 
 export {allLore, historicalData, holidayData, pantheon, calendarData};

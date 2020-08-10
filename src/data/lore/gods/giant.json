@@ -1,0 +1,70 @@
+{
+  
+  "The-Molten-King": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Molten King",
+    "nickname": "The Molten King",
+    "trueName": "Surtur",
+    "portfolio": [
+      "Fire",
+      "Strength",
+      "Volcanoes"
+    ],
+    "alignment": "Neutral Evil",
+    "gender": "Masculine",
+    "titles": [
+        "The Lord in Flame",
+        "Heart of the Mountain"
+    ],
+    "worshipers": [
+        "Giants",
+        "Bheurs",
+        "Druids",
+        "Inhabitants of volcanic regions"
+    ],
+    "symbol": "Flaming sword",
+    "linkingWords": [],
+    "type": "Giant Deity",
+    "tags": ["Giant Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Biting-Frost": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Biting Frost",
+    "nickname": "The Biting Frost",
+    "trueName": "Jotnoral",
+    "portfolio": [
+      "Winter",
+      "War"
+    ],
+    "alignment": "Neutral Evil",
+    "gender": "Masculine",
+    "titles": [
+        "The Giant King",
+        "Winter's Chill"
+    ],
+    "worshipers": [
+        "Giants",
+        "Bheurs",
+        "Druids",
+        "Inhabitants of cold climates"
+    ],
+    "symbol": "Six-pointed snowflake",
+    "linkingWords": ["the Biting Frost","the Giant King","Winter's Chill"],
+    "type": "Giant Deity",
+    "tags": ["Giant Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  }
+}

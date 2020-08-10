@@ -30,7 +30,7 @@
     "majorTemples": [
         "Sacellum of the Guardian"
     ],
-    "shrineImg": ["shrine-guardian.png"],
+    "shrineImg": ["shrine-guardian"],
     "tags": ["Greater Deity","dragons","lawful good","life","justice","protection","knight","paladin"],
     "description": [
         "@+The Guardian+@, Bahamut, is the God-King of all good dragons and the protector of mortals. Bahamut is one of the the most renowned gods among mortal races of Centhris, and is said to command a deep respect within the Pantheon, even from those who would view him as an enemy. The Guardian and his worshipers value life, and do not harm other creatures needlessly. In battle, his servants follow a strict code of martial conduct, and generally are unwilling to harm an opponent that is unable to defend itself.",
@@ -92,7 +92,7 @@
         "Peasants"
     ],
     "symbol": "Sunrise over a hill",
-    "shrineImg": ["shrine-eternal.png"],
+    "shrineImg": ["shrine-eternal"],
     "linkingWords": ["the Eternal","Sun God","Anethos"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","neutral good","Life","Light","Rebirth","Glory"],
@@ -127,7 +127,7 @@
         "Miners"
     ],
     "symbol": "Crown over an anvil ",
-    "shrineImg": ["shrine-maker.png"],
+    "shrineImg": ["shrine-maker"],
     "linkingWords": ["the Maker","World Smith","Usterral"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful good","Forge","Valor","War","Knowledge"],
@@ -165,7 +165,7 @@
         "the downtrodden"
     ],
     "symbol": "White longsword",
-    "shrineImg": ["shrine-champion.png"],
+    "shrineImg": ["shrine-champion"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","neutral good","Courage","War","Life","knight","paladin"],
     "description": [
@@ -218,7 +218,7 @@
         "artisans"
     ],
     "symbol": "Scales, Gavel",
-    "shrineImg": ["shrine-arbiter.png"],
+    "shrineImg": ["shrine-arbiter"],
     "linkingWords": ["the Arbiter","Law Giver","Kezolet"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful neutral","Knowledge","Civilization","Law"],
@@ -259,7 +259,7 @@
       "night watchmen"
     ],
     "symbol": "",
-    "shrineImg": ["shrine-maiden.png"],
+    "shrineImg": ["shrine-maiden"],
     "linkingWords": ["Yelensa","the Maiden","the Maiden's Oculus"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic good","chaos","moons","nature","arcana","magic","light"],
@@ -295,7 +295,7 @@
       "smugglers"
     ],
     "symbol": "",
-    "shrineImg": ["shrine-wanderer.png"],
+    "shrineImg": ["shrine-wanderer"],
     "linkingWords": ["Dhynir","the Wanderer"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","true neutral","money","rider","traveler"],
@@ -332,7 +332,7 @@
         "charlatans"
     ],
     "symbol": "Masquerade mask",
-    "shrineImg": ["shrine-harlequin.png"],
+    "shrineImg": ["shrine-harlequin"],
     "linkingWords": ["Jandivar","God of Many Faces","the Harlequin"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic neutral","chaos","bards","music","jester","masquerade"],
@@ -387,7 +387,7 @@
         "Lord of Storms",
         "The Brawler"
     ],
-    "shrineImg": ["shrine-tempest.png"],
+    "shrineImg": ["shrine-tempest"],
     "worshipers": [
         "sailors",
         "adventurers",
@@ -453,7 +453,7 @@
       "students"
     ],
     "symbol": "Outline of a face with three eyes",
-    "shrineImg": ["shrine-philosopher.png"],
+    "shrineImg": ["shrine-philosopher"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful neutral","magic","knowledge","arcana"],
     "description": [
@@ -486,36 +486,10 @@
       "sylvan"
     ],
     "symbol": "Green wreath with red berries",
-    "shrineImg": ["shrine-sage.png"],
+    "shrineImg": ["shrine-sage"],
     "linkingWords": ["the Sage"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","true neutral","nature","forests","rivers"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Gravekeeper": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Gravekeeper",
-    "nickname": "Neshaya, the Gravekeeper",
-    "trueName": "Neshaya",
-    "portfolio": [
-      "Grave",
-      "Death"
-    ],
-    "alignment": "True Neutral",
-    "gender": "Feminine",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "shrineImg": ["shrine-gravekeeper.png"],
-    "linkingWords": ["the Gravekeeper","Neshaya"],
-    "type": "Lesser Deity",
-    "tags": ["Lesser Deity","true neutral","death","graveyards"],
     "description": [
 
     ],
@@ -546,7 +520,7 @@
     ],
     "symbol": "",
     "linkingWords": ["Ozrus","the Night Stalker","Shadefingers","the King of Thieves"],
-    "shrineImg": ["shrine-shadow.png"],
+    "shrineImg": ["shrine-shadow"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic neutral","chaos","thieves","night","darkness"],
     "description": [
@@ -582,13 +556,16 @@
     ],
     "worshipers": [],
     "symbol": "",
-    "shrineImg": ["shrine-conqueror.png"],
+    "shrineImg": ["shrine-conqueror"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful evil","war","death","strength","battle"],
     "description": [
-      "Aegeroth, @+the Conqueror+@, is often depicted as a tall humanoid wearing red, heavy armor. The Conqueror is often depicted having dull, ashy, gray skin and hair, and dons a golden laurel wreath. It is said tha the god of war has a pleasant, even jovial, demanor and is second, only to Jandivar, among the gods to partake in jest. It is said that he enjoys all that life has to offer, and encourages his followers to do so as well, for those that live by the sword die just as quickly by it.",
+      "Aegeroth, @+the Conqueror+@, is often depicted having dull, ashy, gray skin and hair, and dons a golden laurel wreath and red armor. It is said tha the god of war has a pleasant, even jovial, demanor and is second, only to Jandivar, among the gods to partake in jest. It is said that he enjoys all that life has to offer, and encourages his followers to do so as well, for those that live by the sword die by it just as quickly.",
+
       "Aegoroth's personal weapons are @+Jor`umoth+@, @*the Blazing Spear*@, a flaming longspear made of black iron, and @+Olmoraz+@, @*the Blade of Torment*@, a serrated broad sword made from the bones of Obscalyx, the great sea serpent, whom the Iron General slew in the ancient era of the First Convergence.",
+
       "As the embodiment of war, conflict and strife, the Conqueror is the patron of warlords, dictators and any who seek honor or status through marshal means. He is often worshiped alongside other deities, and the faithful see him as a figure of protection, albeit a harsh one. Military commanders and marshals of knightly orders will often invoke his name before the start of a battle in the hope he will bless their side of the conflict. Those who would \"do what needs to be done for the greater good\" falls under the Conqueror's mantle. Many of his clerical servants follow Aegeroth under the belief that it takes strong will and courage to make the world a better place even if the methods are grim.",
+
       "Some are naturally called to his service, but many of the followers of the Conqueror come follow him after the youthful idealism of the Guardian or the Champion fail them. It is then, when the harsh reality of a dangerous world sets in, that the Cult of the Conqueror may have a point."
     ],
     "articles": {
@@ -618,7 +595,7 @@
 
     ],
     "symbol": "",
-    "shrineImg": ["shrine-wyrm.png"],
+    "shrineImg": ["shrine-wyrm"],
     "linkingWords": ["the Wyrm","Tiamat"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic evil","chaos","dragons"],
@@ -645,7 +622,7 @@
     "titles": [],
     "worshipers": [],
     "symbol": "",
-    "shrineImg": ["shrine-leviathan.png"],
+    "shrineImg": ["shrine-leviathan"],
     "linkingWords": ["the Leviathan","Veluria"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic evil","chaos","sea","ocean","sailors","nature","storms"],
@@ -682,7 +659,7 @@
       "gnolls"      
     ],
     "symbol": "Horned skull",
-    "shrineImg": ["shrine-fiend.png"],
+    "shrineImg": ["shrine-fiend"],
     "linkingWords": ["the Fiend","the Lord of All Chaos"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic evil","chaos","demons"],
@@ -722,7 +699,7 @@
     ],
     "worshipers": [],
     "symbol": "Black ram's head",
-    "shrineImg": ["shrine-master.png"],
+    "shrineImg": ["shrine-master"],
     "linkingWords": ["Asmodeus","the Master"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful evil","devils","contracts","ruler","overlord","hell"],
@@ -757,610 +734,10 @@
       "evil spellcasters"
     ],
     "symbol": "",
-    "shrineImg": ["shrine-stygian.png"],
+    "shrineImg": ["shrine-stygian"],
     "linkingWords": ["the Stygian","the Stygian King"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","neutral evil","magic","wizards","mages","lich"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Reveler": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Reveler",
-    "nickname": "The Reveler",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [
-
-    ],
-    "worshipers": [
-      "tavern keepers",
-      "hedonists",
-      "revelers"
-    ],
-    "symbol": "Grape vine on a tray",
-    "linkingWords": [],
-    "type": "Lesser Deity",
-    "tags": ["Lesser Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Smiling-Lady": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Smiling Lady",
-    "nickname": "The Smiling Lady",
-    "trueName": "",
-    "portfolio": ["Beauty","Luck","Love"],
-    "alignment": "Chaotic Good",
-    "gender": "Feminine",
-    "titles": [
-      "The Mistress of Love",
-      "Lady Passion",
-      "Lady Luck"
-    ],
-    "worshipers": [
-      "romantics",
-      "gamblers",
-      "hedonists",
-      "adventurers"
-    ],
-    "symbol": "",
-    "linkingWords": [""],
-    "type": "Lesser Deity",
-    "tags": ["Lesser Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Ember-Soul": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Ember Soul",
-    "nickname": "The Ember Soul",
-    "trueName": "Glist",
-    "portfolio": [],
-    "alignment": "Lawful Good",
-    "gender": "Feminine",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": ["the Ember Soul","Dragon Consort"],
-    "type": "Lesser Deity",
-    "tags": ["Lesser Deity","dragons","Dragon Consort"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Wild-Hart": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Wild Hart",
-    "nickname": "The Wild Hart",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": [""],
-    "type": "Elven Deity",
-    "tags": ["Elven Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Emerald-Mist": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Emerald Mist",
-    "nickname": "The Emerald Mist",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": [""],
-    "type": "Elven Deity",
-    "tags": ["Elven Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Shimmering-Sky": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Shimmering Sky",
-    "nickname": "The Shimmering Sky",
-    "trueName": "Auroros",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": ["the Shimmering Sky", "Shimmering Sky", "the Aurora Owl", "Father Owl"],
-    "type": "Elven Deity",
-    "tags": ["Elven Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Stellar-Wolf": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Stellar Wolf",
-    "nickname": "The Stellar Wolf",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": ["the Stellar Wolf","the Stellar Hound"],
-    "type": "Elven Deity",
-    "tags": ["Elven Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Grove-Keeper": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Grove Keeper",
-    "nickname": "The Grove Keeper",
-    "trueName": "Tythar",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": [""],
-    "type": "Elven Deity",
-    "tags": ["Elven Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Stonemother": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Stonemother",
-    "nickname": "The Stonemother",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": [""],
-    "type": "Dwarven Deity",
-    "tags": ["Lesser Deity","dwarves","dwarf"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Banner-Lord": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Banner Lord",
-    "nickname": "The Banner Lord",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": [""],
-    "type": "Dwarven Deity",
-    "tags": ["Lesser Deity","dwarves","dwarf"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Forge-Lord": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Forge Lord",
-    "nickname": "The Forge Lord",
-    "linkingWords": ["Forgelord"],
-    "trueName": "Eshtânïl",
-    "portfolio": [
-      "Forge",
-      "Knowledge"
-    ],
-    "alignment": "Neutral Good",
-    "gender": "Masculine",
-    "titles": [
-      "Deep King",
-      "Runegiver",
-      "Horned Dwarf"
-    ],
-    "worshipers": [
-      "dwarf smiths",
-      "architects",
-      "engineers"
-    ],
-    "symbol": "horned dwarf face",
-    "linkingWords": ["Eshtânïl","the Forgelord","Runegiver"],
-    "type": "Dwarven Deity",
-    "tags": ["Lesser Deity","dwarves","dwarf"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Brewmaster": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Brewmaster",
-    "nickname": "The Brewmaster",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": [""],
-    "type": "Dwarven Deity",
-    "tags": ["Lesser Deity","dwarves","dwarf"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Molten-King": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Molten King",
-    "nickname": "The Molten King",
-    "trueName": "Surtur",
-    "portfolio": [
-      "Fire",
-      "Strength",
-      "Volcanoes"
-    ],
-    "alignment": "Neutral Evil",
-    "gender": "Masculine",
-    "titles": [
-        "The Lord in Flame",
-        "Heart of the Mountain"
-    ],
-    "worshipers": [
-        "Giants",
-        "Bheurs",
-        "Druids",
-        "Inhabitants of volcanic regions"
-    ],
-    "symbol": "Flaming sword",
-    "linkingWords": [],
-    "type": "Giant Deity",
-    "tags": ["Giant Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Biting-Frost": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Biting Frost",
-    "nickname": "The Biting Frost",
-    "trueName": "Jotnoral",
-    "portfolio": [
-      "Winter",
-      "War"
-    ],
-    "alignment": "Neutral Evil",
-    "gender": "Masculine",
-    "titles": [
-        "The Giant King",
-        "Winter's Chill"
-    ],
-    "worshipers": [
-        "Giants",
-        "Bheurs",
-        "Druids",
-        "Inhabitants of cold climates"
-    ],
-    "symbol": "Six-pointed snowflake",
-    "linkingWords": ["the Biting Frost","the Giant King","Winter's Chill"],
-    "type": "Giant Deity",
-    "tags": ["Giant Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Frayed": {
-    "playerKnown": false,
-    "path": "lore",
-    "name": "The Frayed",
-    "nickname": "The Frayed One",
-    "linkingWords": ["Shattered Mind"],
-    "trueName": "Xedris",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": [""],
-    "type": "Lesser Deity",
-    "tags": ["Lesser Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Soul-Thief": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Soul Thief",
-    "nickname": "The Soul Thief",
-    "trueName": "Doella",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": [""],
-    "type": "Lesser Deity",
-    "tags": ["Lesser Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Hidden-Blade": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Hidden Blade",
-    "nickname": "The Hidden Blade",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": [""],
-    "type": "Lesser Deity",
-    "tags": ["Lesser Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Dark-Queen": {
-    "playerKnown": false,
-    "path": "lore",
-    "name": "The Dark Queen",
-    "nickname": "The Dark Queen",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": [""],
-    "type": "Lesser Deity",
-    "tags": ["Lesser Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Gold-Prince": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Gold Prince",
-    "nickname": "The Gold Prince",
-    "trueName": "Radagio",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": [""],
-    "type": "Lesser Deity",
-    "tags": ["Lesser Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Temptress": {
-    "playerKnown": false,
-    "path": "lore",
-    "name": "The Temptress",
-    "nickname": "The Temptress",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "A goblet pouring wine",
-    "linkingWords": [""],
-    "type": "Lesser Deity",
-    "tags": ["Lesser Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Endless-Hunger": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Endless Hunger",
-    "nickname": "The Endless Hunger",
-    "trueName": "Malkir",
-    "portfolio": [
-      "Feasts",
-      "Death",
-      "War"
-    ],
-    "alignment": "Chaotic Evil",
-    "gender": "Male",
-    "titles": [
-      "Devourer",
-      "Corpulent One"
-    ],
-    "worshipers": [
-      "bugbears",
-      "goblins",
-      "hobgoblins"
-    ],
-    "symbol": "black chalice",
-    "linkingWords": [""],
-    "type": "Goblinoid Deity",
-    "tags": ["Goblinoid Deity"],
-    "description": [
-      "Malkir, the @+Unending Hunger+@, is the goblinoid deity of feasts and cannibalism. He are most often depicted as a horned, pale-skinned, corpulent goblinoid seated upon a throne. Often, in more elaborate depictions, he is seated in front of a long table covered with all manner of food and drink."
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Warmaster": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Warmaster",
-    "nickname": "The Warmaster",
-    "trueName": "Phyreus",
-    "portfolio": [
-      "Death",
-      "War"
-    ],
-    "alignment": "Chaotic Evil",
-    "gender": "Agender",
-    "titles": [
-      "Demon General",
-      "Living Flame"
-    ],
-    "worshipers": [
-      "bugbears",
-      "goblins",
-      "hobgoblins"
-    ],
-    "symbol": "flaming maw",
-    "linkingWords": [""],
-    "type": "Goblinoid Deity",
-    "tags": ["Goblinoid Deity"],
-    "description": [
-      "Phyreus, the @+Warmaster+@, is the goblinoid deity of war and death. They are most often depicted as a huge, fiery, three-eyed goblinoid, usually surrounded by the bodies of their slain foes."
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Masked-Lady": {
-    "playerKnown": false,
-    "path": "lore",
-    "name": "The Masked Lady",
-    "nickname": "The Masked Lady",
-    "trueName": "Retra",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": [""],
-    "type": "Lesser Deity",
-    "tags": ["Lesser Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Silver-Blade": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Silver Blade",
-    "nickname": "The Silver Blade",
-    "trueName": "Retra",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": [""],
-    "type": "Elven Deity",
-    "tags": ["Elven Deity"],
     "description": [
 
     ],
