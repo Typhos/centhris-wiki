@@ -30,7 +30,7 @@ class Cosmos extends Component {
     const numberOfArticles = Object.keys(this.state.planes).length;
 
     return (
-      <Page.Default>
+      <Page.Article>
         <TitleComponent title={`The Cosmos - Centhris Wiki`} />
         <Back/>
 
@@ -56,7 +56,7 @@ class Cosmos extends Component {
             {this.getPlanes(this.state.planes)}
           </ul>
         </div>
-      </Page.Default>
+      </Page.Article>
     );
   }
 

@@ -5,14 +5,14 @@ import Page from 'components/page';
 import Back from 'components/back';
 import { TitleComponent } from 'components/titleComponent.js';
 
-import banner      from "img/lore/banners/runesmithing-banner.png";
+import banner from "img/lore/banners/runesmithing-banner.png";
 
-import runesArticle     from 'data/runes/info';
-import allRunes         from 'data/runes/allRunes';
+import runesArticle from 'data/runes/info';
+import allRunes from 'data/runes/allRunes';
 
-import weaponRune       from 'img/runes/6.svg';
-import armorRune        from 'img/runes/2.svg';
-import talismanRune     from 'img/runes/41.svg';
+import weaponRune from 'img/runes/6.svg';
+import armorRune from 'img/runes/2.svg';
+import talismanRune from 'img/runes/41.svg';
 
 import "styles/runes.scss"
 
@@ -23,15 +23,13 @@ class Runes extends Component {
   constructor (props) {
     super(props);
 
-    const dmView = localStorage.getItem('dmView') === 'true';
-
     this.state = {
       activeRuneType: "rules",
       activeRuneList: null,
       runeGroups: Object.keys(allRunes),
       itemRunes: [],
       cost: 0,
-      dmView: dmView
+      dmView: localStorage.getItem('dmView') === 'true'
     };
 
     // this.getRuneList = this.getRuneList.bind(this);
@@ -77,22 +75,26 @@ class Runes extends Component {
       </section>
 
     return (
-      <Page.Default>
+      <Page.Article>
         <TitleComponent title="Runes - Centhris Wiki" />
-        <article className="dwarfRunes lore" >
+
+        <article className="dwarfRunes article" >
           <Back/>
-          <h2 className="fullName">Dwarven Runes</h2>
-          <div className="pageBanner" style={{
+
+          <h1 className="article__heading">Dwarven Runes</h1>
+
+          <div className="article__banner" style={{
             backgroundImage:`url(${banner})`,
             backgroundPosition: "center bottom"
           }}></div>
 
           <div className="mainContent">
             {
-              WikiUtils.linkContent(runesArticle.entry, WikiUtils.textFormatting(runesArticle.entry.description) )
+              WikiUtils.linkContent(runesArticle.entry, WikiUtils.textFormatting(runesArticle.entry.description), {"paragraphName":"article__paragraph", "linkName": "article__link"} )
             }
             
-            <h3 className="subjectArea">The Types of Runes</h3>
+            <h2 className="article__subheading">The Types of Runes</h2>
+
             <div className="linksGroup">
               <Link className="runeGroupLink" to={`/rune-list?type=weapon-runes`}>
                 <img className="runeImg" src={weaponRune} alt=""/>
@@ -108,7 +110,7 @@ class Runes extends Component {
               </Link>
             </div>
 
-            <h3 className="subjectArea">The Rules of Runesmithing</h3>
+            <h3 className="article__subheading">The Rules of Runesmithing</h3>
 
             <section id="ruleSection">
               <ul className="ruleList">
@@ -150,7 +152,7 @@ class Runes extends Component {
             </section>
           </div>
         </article>
-      </Page.Default>
+      </Page.Article>
     );
   }
 

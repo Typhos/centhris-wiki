@@ -8,8 +8,6 @@ import ListItem from 'components/categories/listItem';
 import DataLoader from 'components/utils/dataLoader';
 import jsonData from 'data/curated';
 
-import 'styles/categories.scss';
-
 // TODO: Add analytics tracking and dynamically build topical articles section based on player activity.
 
 class Curated extends Component {
@@ -28,36 +26,34 @@ class Curated extends Component {
     const data = this.compileData(jsonData);
 
     return (
-      <Page.Default>
+      <Page.Category>
         <TitleComponent title={`Curated Links - Centhris Wiki`} />
         <Back/>        
 
-        <h2 className="sectionGroup">Curated Campaign Artilces</h2>
-        <section id="categories" className="columns">
-          {
-            Object.keys(data).map( key => {
-              return (
-                <div className="category" key={key}>
-                  <h2 className="sectionTitle">{key}</h2>
-                  <ul className="sectionList">
-                    {
-                      data[key].map( entry => {
-                        if ( (entry && entry.playerKnown ) || (entry && this.state.dmView) )  {
-                          return (
-                            <ListItem key={DataLoader.all[entry.name].name} entry={DataLoader.all[entry.name]} imgStyle="landscape" />
-                          )
-                        }
+        <h1 className="category__heading">Curated Campaign Artilces</h1>
+        {
+          Object.keys(data).map( key => {
+            return (
+              <section className="category__group" key={key}>
+                <h2 className="category__subheading">{key}</h2>
+                <ul className="sectionList">
+                  {
+                    data[key].map( entry => {
+                      if ( (entry && entry.playerKnown ) || (entry && this.state.dmView) )  {
+                        return (
+                          <ListItem key={DataLoader.all[entry.name].name} entry={DataLoader.all[entry.name]} imgStyle="landscape" />
+                        )
+                      }
 
-                        return false;
-                      })
-                    }
-                  </ul>
-                </div>
-              )
-            })
-          }
-        </section>
-      </Page.Default>
+                      return false;
+                    })
+                  }
+                </ul>
+              </section>
+            )
+          })
+        }
+      </Page.Category>
     );
   }
 

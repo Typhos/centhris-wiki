@@ -1,6 +1,7 @@
 {
     "Bind-Fate": {
       "playerKnown": true,
+      "path": "spell",
       "concentration": true,
       "ritual": true,
       "name": "Bind Fate",
@@ -13,7 +14,7 @@
       "duration": "Concentration, up to 1 hour",
       "school": "Necromancy",
       "attackOrSave": "WIS save",
-      "damageEffect": "",
+      "damageEffect": "N/A",
       "materialComponent": "a small, humanoid-shaped doll",
       "classes": ["Sorcerer","Warlock","Wizard"],
       "description": [

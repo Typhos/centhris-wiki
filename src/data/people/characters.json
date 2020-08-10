@@ -13,27 +13,25 @@
     "subclass": "Circle of the Land",
     "background": "Folk Hero",
     "player": "Ryan",
-    "affiliations": ["Lemuria","Bluefield Farms"],
-    "level": 6,
-    "hp": 36,
-    "stats": {
-      "STR": 12, 
-      "DEX": 14, 
-      "CON": 14, 
-      "INT": 8, 
-      "WIS": 18, 
-      "CHA": 14
-    },
+    "affiliations": ["Blattfelt","Realm of Lemuria"],
     "description": [
-      "A simple farmer from Lemuria.",
-      "Erlinder shows care to his appearance regardless of his simple cloths.  He wears a blue tunic that may have been a much darker color but is now faded from the sun.  His pack is almost over loaded with all manner of traveling gear and cookware.",  
-      "His blue Tunic is covered in leather armor that seems to have been made for a larger person, but modified to fit his much smaller frame.  The blue almost matches the paint on his wooden shield which is decorated with a intricate knotted pattern using geometric vines.  He keeps his beard as well trimmed as he can and peaking barley noticeable from his long dirty blond hair are his pointed ears.  His light blue eyes betray a kindness hidden in his determined expression.",
-      "Having learned of his newfound powers while at his home, Bluefield Farm in Lemuria, Erlinder was told of a great destiny awaiting him and was sent off into the world to find it. He traveled from his home to the village of Rythlon, Navolin where he would become one of the founding members of the Lost Shields."
+      "@+Erlinder Bluefield+@ was once a simple farmer from Battfelt, Lemuria. While hunting in a forest near his home, he encountered a strange stag which spoke to him, informing Erlinder that he possessed unique abilities.",
+      
+      "Having learned of his newfound powers, the other villagers told Erlinder that a great destiny must await him in the world beyond.After a gathering of the local families for a small farewell, he set out into the wider world. From his home, Erlinder traveled down the Svinge river to the nearby city of Postek where he booked passage upon a merchant ship heading north. He traveled north through Isdrage Bay, the Korin Gulf and the Bay of Claws, heading towards Navolin. Eventually, he reached the village of Rythlon, where he became a founding member of the adventuring group known as the Lost Shields.",
+
+      "Erlinder shows care to his appearance regardless of his simple cloths. He wears a blue tunic that may have once been a much darker color, but is now faded from the sun.  His pack is almost over loaded with all manner of traveling gear and cookware.",
+
+      "His blue Tunic is covered in leather armor that seems to have been made for a larger person, but modified to fit his much smaller frame.  The blue almost matches the paint on his wooden shield which is decorated with a intricate knotted pattern using geometric vines.  He keeps his beard as well trimmed as he can and peaking barley noticeable from his long dirty blond hair are his pointed ears.  His light blue eyes betray a kindness hidden in his determined expression."
     ],
     "articles": {
       "Family": [
-        "Immediate Family: Hilga (Wife), Siggy (Daughter), Trosten (Son), Froya (Daughter), Ubbe (Son), Bjorn (Son).",
-        "Extended Family: Hosvir (Uncle)"
+        "Erlinder is from a small farming community and is a family man above all other things. He has a large nuclear family, along with numerous extended relatives. He is a member of Clan Arnbjorg, though he does not use the family surname. Later he would go on to learn (unbeknownst to him) that his surname, Bluefield, was given to him by his father due to his status as a bastard in the clan, meaning he was not legally allowed to bare the clan name under clan law.",
+
+        "Erlinder's family includes the following:",
+
+        "@+Immediate Family+@: Hilga (Wife), Siggy (Daughter), Trosten (Son), Froya (Daughter), Ubbe (Son), Bjorn (Son)",
+
+        "@+Extended Family+@: Hosvir (Uncle)"
       ]
     }
   },
@@ -47,21 +45,11 @@
     "race": "Human",
     "age": "32",
     "gender": "Male",
-    "class": "Warlock 5 / Fighter 1",
-    "subclass": "Hexblade",
+    "class": "Warlock / Fighter",
+    "subclass": "Hexblade / Cavalier",
     "background": "Soldier",
     "player": "Zi",
     "affiliations": ["Kingdom of Sennhoff"],
-    "level": 6,
-    "hp": 42,
-    "stats": {
-      "STR": 12, 
-      "DEX": 16, 
-      "CON": 14, 
-      "INT": 8, 
-      "WIS": 10, 
-      "CHA": 20
-    },
     "description": [
       "Evan-Jakob Reinhold was a soldier from the Kingdom of Sennhoff. After an incident during the siege of a castle he was stationed at, he found himself mysteriously transported to the Blighted Mire. There, he met Murat and Zorrakir and traveled to the village of Rythlon, Navolin where he would go on to be a founding member of the Lost Shields."
     ]
@@ -81,16 +69,6 @@
     "background": "Soldier",
     "player": "Sean",
     "affiliations": ["Auburn Castle"],
-    "level": 6,
-    "hp": 40,
-    "stats": {
-      "STR": 18, 
-      "DEX": 14, 
-      "CON": 14, 
-      "INT": 13, 
-      "WIS": 11, 
-      "CHA": 12
-    },
     "description": [
       "Filibert Montajay was a young soldier who lived with his family in Auburn Castle. After being banished from the manor by his lord, Baron Janik Malmor, the young halfling traveled around the Kelishan Highlands looking for a new master to serve. When he was unable to find anyone willing to take on his service, the fighter returned to the village of Rythlon, Navolin where he would go on to be a founding member of the Lost Shields."
     ]
@@ -107,19 +85,9 @@
     "gender": "Male",
     "class": "Monk",
     "subclass": "Drunken Master",
-    "occupation": "Urchin",
+    "background": "Urchin",
     "player": "Andrew",
     "affiliations": ["City of Zurast"],
-    "level": 6,
-    "hp": 41,
-    "stats": {
-      "STR": 13, 
-      "DEX": 18, 
-      "CON": 16, 
-      "INT": 11, 
-      "WIS": 16, 
-      "CHA": 13
-    },
     "description": [
       "A young, half-orc Monk from the City of Zurast, Murat met his master Zorrakir and persuaded the old tiefling to take him on as an apprentice. Traveling with the old monk, Murat began to train in the martial arts. While venturing through the Blighted Mire, he met Evan-Jakob Reinhold. Together, they traveled to Rythlon, Navolin and would go on to become founding members of the Lost Shields."
     ]
@@ -137,18 +105,9 @@
     "class": "Bard",
     "subclass": "College of Lore",
     "occupation": "Performer",
+    "background": "Entertainer",
     "player": "Andy",
     "affiliations": ["Korasov"],
-    "level": 6,
-    "hp": 32,
-    "stats": {
-      "STR": 10, 
-      "DEX": 18, 
-      "CON": 12, 
-      "INT": 18, 
-      "WIS": 12, 
-      "CHA": 18
-    },
     "description": [
       "@+Matthias+@ is an aspiring bard from the city of Korasov. Well known in the former kingdom of Azond, now Navolin, under the stage name \"Mate\", he has penned numerous well known songs and poems, such as \"The Last King of Azond\" and \"The Lady of Korasov\".",
       "Looking to expand his renown, Mate began traveling around the Barrier Coast looking for inspiration for his work. He decided on a whim to travel to the pirate haven of Duskreef, hoping to write a fantastic ballad about star-crossed, pirate lovers. Finding passage on the Elusive Revenge, under the command of Captain Terrowin Drynn, he traveled to @~Duskreef~@, where he spent several weeks in town listening to pirate stories and playing in the local pubs.",

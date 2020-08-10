@@ -35,9 +35,9 @@ class Header extends Component {
     return (
       <header className="appHeader">
         <div className="headerBox" style={style}>
-          <h1>
+          <div className="wikiLogo">
             <Link className="home" to="/">The World of Centhris</Link>
-          </h1>
+          </div>
         </div>
 
         <div className="mobileSearch">

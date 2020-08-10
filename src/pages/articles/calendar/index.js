@@ -6,8 +6,6 @@ import Page from 'components/page';
 import getImgPath from "components/utils/getImgPath.js";
 import { TitleComponent } from 'components/titleComponent.js';
 
-import "styles/loreArticle.scss";
-
 class VesdarianCalendar extends Component {
 
   constructor(props) {
@@ -55,7 +53,7 @@ class VesdarianCalendar extends Component {
     const dmEntries = this.getArticles(lore.articles, "DM");
 
     return (
-      <Page.Default>
+      <Page.Article>
         <TitleComponent title={`${lore.name} - Centhris Wiki`} />
         <section id="lore" className="article" >
           <article className="lore" id={lore.name.replace(/\s/g,"-")}>
@@ -252,7 +250,7 @@ class VesdarianCalendar extends Component {
 
           </article>
         </section>
-      </Page.Default>
+      </Page.Article>
     )
   }
 

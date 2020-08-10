@@ -1,33 +1,27 @@
-export default class getImgPath {
+export default function getImgPath (fileName, fullDataEntry, { styles } = {}) {
 
-  constructor (id, entry, style) {
-    this.id = id;
-    this.entry = entry;
-    this.style = style;
-  }
+  fileName = fileName.replace(/\s/g, "-");
 
-  get src () {
-    return this.imgSrc();
-  }
+  return imgSrc();
 
-  imgSrc () {
+  function imgSrc () {
     const images = require.context('img/', true);
     const foldersToAvoid = ["maps/","crests/","currency/"];
 
     let imgPath = undefined;
 
-    if ( this.entry && this.entry.forceImg ) {
-      this.id = this.entry.forceImg;
+    if ( fullDataEntry && fullDataEntry.forceImg ) {
+      fileName = fullDataEntry.forceImg;
     }
 
-    let imgExists = images.keys().some( x => x.includes( this.id ) );
+    let imgExists = images.keys().some( x => x.includes( fileName ) );
 
     if ( imgExists) {
-      const len = images.keys().filter( x => x.includes( this.id ) ).length;
-      let pathArray = images.keys().filter( x => x.includes( this.id ) );
+      const len = images.keys().filter( x => x.includes( fileName ) ).length;
+      let pathArray = images.keys().filter( x => x.includes( fileName ) );
 
       // remove entries in the folders to avoid, such as maps, coins or crests.
-      if ( this.entry ) {
+      if ( fullDataEntry ) {
         pathArray = pathArray.filter( path => ( foldersToAvoid.some( folder => path.includes(folder)) ) ? false : path );
       }
      
@@ -52,7 +46,7 @@ export default class getImgPath {
           const diff = (diffMe, diffBy) => diffMe.split(diffBy).join('');
 
           const strLen = str.length;
-          const compareLen = diff(str, this.id).length;
+          const compareLen = diff(str, fileName).length;
 
           if ( (strLen - compareLen) / strLen * 100 > matchPercent ) {
             matchPercent = (strLen - compareLen) / strLen * 100;
@@ -67,7 +61,7 @@ export default class getImgPath {
     }
 
     if ( !imgPath ) {
-      imgPath = (this.style === "portrait") ? './portraits/unknown.jpg' : './placeholder.png';
+      imgPath = (styles === "portrait") ? './portraits/unknown.jpg' : './placeholder.png';
     }
 
     return images(imgPath);

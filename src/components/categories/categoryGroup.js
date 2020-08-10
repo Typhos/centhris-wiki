@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ListItem from 'components/categories/listItem';
 
-import "styles/categories.scss";
+// import "styles/categories.scss";
 
 class categoryGroup extends Component {
 
@@ -14,27 +14,26 @@ class categoryGroup extends Component {
   }
 
   render () {
-    const data = this.props.pageData;
-    const category = this.props.category;
+    const {pageData, category, heading, articles, imgStyle, fullWidth} = this.props
 
     const customHeading = () => {
-      if ( this.props.heading !== undefined) {
-        return <React.Fragment>{this.props.heading}</React.Fragment>
+      if ( heading !== undefined) {
+        return <React.Fragment>{heading}</React.Fragment>
       } else {
         return <React.Fragment>{category}s</React.Fragment>
       }
     }
 
     return (
-      <div className={`category ${category.replace(/\s/g,"-")}`}>
-        <h2 className="sectionTitle">
+      <div className={`${ fullWidth ? "category__fullWidth" : "category__group"} ${category.replace(/\s/g,"-")}`}>
+        <h2 className="category__subheading">
           { customHeading() }
         </h2>
 
-        <ul className="sectionList">
-          { this.props.articles.map( entry => {
-              if (data[entry].type === category) {
-                return <ListItem key={data[entry].name} entry={data[entry]} imgStyle={`landscape ${this.props.imgStyle}`} />
+        <ul className="category__list">
+          { articles.map( entry => {
+              if (pageData[entry].type === category) {
+                return <ListItem key={pageData[entry].name} entry={pageData[entry]} imgStyle={`landscape ${imgStyle}`} />
               }
               return undefined;
             })

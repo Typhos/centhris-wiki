@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import styles from "./backLink.module.scss";
 
 export default class Back extends Component {
   
@@ -11,8 +11,8 @@ export default class Back extends Component {
 
   render() {
     return (
-      <div id="backLink">
-        <p onClick={this.goBack}>&laquo; Back</p>
+      <div className={styles.backLink}>
+        <button className={styles.btn} onClick={this.goBack}>&laquo; Back</button>
       </div>
     )
   }

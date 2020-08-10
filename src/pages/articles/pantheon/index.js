@@ -47,22 +47,22 @@ class Pantheon extends Component {
     const pantheonLore = DataLoader.lore["Centhrian-Pantheon"];
 
     return (
-      <Page.Default>
+      <Page.CategoryArticle>
         <TitleComponent title={`Centhrian Pantheon - Centhris Wiki`} />
         <Back/>        
 
-        <h2 className="fullName">The Centhrian Pantheon</h2>
-        <div className="pageBanner" style={{
+        <h1 className="article__heading">The Centhrian Pantheon</h1>
+        <div className="article__banner" style={{
           backgroundImage:`url(${banner})`,
           backgroundPosition: "center 20%"
 
         }}></div>
 
-        <div id="categories" >
-          <article className="lore" id="pantheon">
-            {WikiUtils.linkContent( {...DataLoader.gods, ...pantheonLore}, WikiUtils.textFormatting( pantheonLore.description ) )}
-          </article>
-          <Filter handleFilter={ this.handleFilter } data={this.state.pageData}/>
+        <article id="pantheon" className="article">
+          {WikiUtils.linkContent( {...DataLoader.gods, ...pantheonLore}, WikiUtils.textFormatting( pantheonLore.description ), {"paragraphName":"article__paragraph", "linkName": "article__link"} )}
+        </article>
+        
+        <div className="category" >
           {
             this.state.categories.map( category => {
               const heading = () => {
@@ -73,11 +73,11 @@ class Pantheon extends Component {
                 }
               }
 
-              return <CategoryGroup key={category} articles={this.state.articles} category={category} heading={heading()} imgStyle={"portrait"} pageData={this.state.pageData} />
+              return <CategoryGroup key={category} fullWidth={true} articles={this.state.articles} category={category} heading={heading()} imgStyle={"portrait"} pageData={this.state.pageData} />
             })
           }
         </div>
-      </Page.Default>
+      </Page.CategoryArticle>
     )
   }
 

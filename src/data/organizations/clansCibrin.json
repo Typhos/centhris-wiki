@@ -1,0 +1,32 @@
+{  
+  "Clan-Godak": {
+    "playerKnown": false,
+    "path": "organization",
+    "name": "Clan Godak",
+    "nickname": "Clan Godak",
+    "tags": ["Cibrin","ulfwyst","clan"],
+    "type": "Cibrinian Clan",
+    "location": "Realm of Cibrin",
+    "leaders": [
+      "Han Dagra Crogosh"
+    ],
+    "description": [
+    ],
+    "articles": {
+    }
+  },
+  "Lesser-Clans-of-Cibrin": {
+    "playerKnown": false,
+    "path": "organization",
+    "name": "Lesser Clans of Cibrin",
+    "nickname": "Lesser Clans of Cibrin",
+    "tags": ["Realm of Cibrin","ulfwyst","clan"],
+    "type": "Cibrinian Clan",
+    "location": "Realm of Cibrin",
+    "description": [
+      "The @+Lesser Clans of Cibrin+@ are clans that lack in economic, military or political influence compared to the more powerful clans of the Realm of Cibrin. In order to claim independent clan status in the realm a tribe must have at least 100 members, and control a fortress of some kind, most commonly a simple hill fort. Rarely do new clans form without outside incentive, as doing so means that a group must leave the safety and privileges of belonging to a larger clan. When a group does choose to break away and form an new, lesser clan, most often it is either due to internal clan strife or from an incentive from the elite clans to control and civilize more ares of the Torick-Vir Valley. Such a breakaway group will either seek out an abandoned hill fort to reclaim or attempt to construct a new fortress."
+    ],
+    "articles": {
+    }
+  }
+}

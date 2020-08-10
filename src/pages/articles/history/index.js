@@ -6,7 +6,6 @@ import { TitleComponent } from 'components/titleComponent.js';
 
 import Page from 'components/page';
 
-import "styles/loreArticle.scss";
 
 class History extends Component {
 
@@ -38,32 +37,39 @@ class History extends Component {
   }
 
   render () {
-    const dates = this.state.dates;
-    console.log(dates)
-    const descriptionEntries = this.getArticles(dates.articles);
+    const { dates } = this.state;
 
     return (
-      <Page.Default>
+      <Page.Article>
         <TitleComponent title={`${dates.name} - Centhris Wiki`} />
-        <section id="lore" className="article" >
-          <article className="lore" id={dates.name.replace(/\s/g,"-")}>
+          <article className="article" id={dates.name.replace(/\s/g,"-")}>
             <Back/>
-            <h2 className="fullName">{dates.nickname}</h2>
-            <div className="mainContent">
-              { (dates.quote) ? <i className="quote">{dates.quote}</i> : ""}
 
-              {descriptionEntries}
-            </div>
+            <h1 className="article__heading">{dates.nickname}</h1>
 
+            { (dates.quote) ? <em className="article__quote">{dates.quote}</em> : ""}
+
+            {
+              this.getArticles(dates.articles)
+            }
+            
           </article>
-        </section>
-      </Page.Default>
+      </Page.Article>
     )
   }
 
   getArticles(articles) {
-    const dates = this.state.dates;
-    let content = [WikiUtils.linkContent(dates, WikiUtils.textFormatting( dates.description) )];
+    const {dates} = this.state;
+    let content = [ 
+      WikiUtils.linkContent(
+        dates, 
+        WikiUtils.textFormatting( dates.description),
+        {
+          "paragraphName": "article__paragraph",
+          "linkName": "article__link"
+        }
+      ) 
+    ];
 
     if ( dates.name === "The Vesdarian Calendar" ) {
       content.push( this.vesdarianCalendar() );
@@ -73,8 +79,10 @@ class History extends Component {
       for ( let [heading, array] of Object.entries(articles) ) {
         content.push(
           <React.Fragment key={heading}>
-            <h3 className="subjectArea">{heading}</h3>
-            {WikiUtils.linkContent(dates,  WikiUtils.textFormatting( array) )}
+            <h2 className="article__headline">{ heading }</h2>
+            {
+              WikiUtils.linkContent( dates,  WikiUtils.textFormatting( array), { "paragraphName": "article__paragraph", "linkName": "article__link"} )
+            }
           </React.Fragment>
         );
       }
@@ -85,8 +93,10 @@ class History extends Component {
       for ( let [heading, array] of Object.entries(dates.dmArticles) ) {
         content.push(
           <React.Fragment key={heading}>
-            <h3 className="subjectArea">{heading}</h3>
-            {WikiUtils.linkContent(dates,  WikiUtils.textFormatting( array) )}
+            <h2 className="article__headline">{ heading }</h2>
+            {
+              WikiUtils.linkContent( dates,  WikiUtils.textFormatting( array), { "paragraphName": "article__paragraph", "linkName": "article__link"} )
+            }
           </React.Fragment>
         );
       }

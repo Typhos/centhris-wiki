@@ -1,6 +1,7 @@
 {
   "Tree-Meld": {
     "playerKnown": true,
+    "path": "spell",
     "ritual": false,
     "concentration": true,
     "name": "Tree Meld",
@@ -13,7 +14,7 @@
     "duration": "Concentration, up to 1 hour",
     "school": "Transmutation",
     "attackOrSave": "",
-    "damageEffect": "",
+    "damageEffect": "N/A",
     "materialComponent": "",
     "classes": ["Druid","Ranger","Nature Domain","Oath of the Ancients"],
     "description": [

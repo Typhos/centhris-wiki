@@ -1,0 +1,29 @@
+@import "../../styles/mixins";
+
+.stub {
+  display: block;
+  padding: 0.5em 2em;
+}
+
+.heading {
+  display: inline-block;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 0;
+  font-family: $serifText;
+  font-size: 1.25em;
+  border-bottom: 1px solid $grayText;
+}
+
+.text {
+  display: block;
+  letter-spacing: 0.75px;
+  font-family: $sansText;
+  font-size: 0.9em;
+  margin: 1em 0 0;
+}
+
+@media screen and ( max-width: $breakpoint-mobile ) {
+  
+}

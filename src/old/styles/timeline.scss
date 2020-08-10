@@ -1,0 +1,126 @@
+@import './mixins', "./articlesCommon";
+
+ul#datesLine {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url('../img/verti-line.png');
+  background-repeat: repeat-y;
+  background-position: center;
+  max-width: 75%;
+
+  li.date {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: auto;
+    max-width: 40%;
+
+    h4.heading {
+      font-family: $monoSpace;
+      font-size: 1.15em;
+      margin-bottom: 0em;
+    }
+
+    &:nth-child(odd) {
+      position: relative;
+      right: 22%;
+    }
+
+    &:nth-child(even) {
+      position: relative;
+      left: 22%;
+    }
+
+    span.currentYear {
+      display: block;
+      color: $susiePurple;
+      font-size: 0.75em;
+      line-height: 2.25em;
+    }
+
+    p,
+    small {
+      font-family: $monoSpace;
+      display: block;
+      margin-bottom: 1em;
+      background-color: white;
+      line-height: 1.5em;
+      font-size: 0.9em;
+    }
+
+    p {
+      &:before {
+        content: "🔺";
+        color: $susiePurple;
+        padding-right: 0.5em;
+        font-size: 1.33em;
+      }
+    }
+
+    .age {
+      p:before {
+        content: "⏳";
+        color: $blue;
+      }
+    }
+
+    .gov {
+      p:before {
+        content: "👑";
+        color: $blue;
+      }
+    }
+
+    .epoch {
+      p:before {
+        content: "🌐";
+        color: $blue;
+      }
+    }
+
+    .war {
+      p:before {
+        content: "⚔️";
+        color: $blue;
+      }
+    }
+
+    .minor {
+      p:before {
+        content: "🔹";
+        color: $blue;
+      }
+    }
+
+    .pcs {
+      p:before {
+        content: "♟️";
+        color: $blue;
+      }
+    }
+  }
+}
+
+@media all and (max-width: $breakpoint-mobile) {
+  ul#datesLine {
+  
+    li.date {
+      max-width: 65%;
+
+      &:nth-child(odd) {
+        position: relative;
+        right: 37%;
+      }
+
+      &:nth-child(even) {
+        position: relative;
+        left: 37%;
+      }
+
+    }
+
+  }
+}

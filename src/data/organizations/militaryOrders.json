@@ -1,0 +1,347 @@
+{
+  "Purple-Guard": {
+    "playerKnown": false,
+    "path": "organization",
+    "name": "Purple Guard",
+    "nickname": "Purple Guard of Abbasyr",
+    "linkingWords": [],
+    "tags": ["Abbasyr","ulfwyst","royal guard"],
+    "type": "Military Order",
+    "location": "Abbasyr",
+    "memberNumber": "1,000",
+    "leaders": [
+    ],
+    "description": [
+      "The @+Purple Guard of Abbasyr+@ are the royal guard of the Kingdom of Abbasyr, under the direct command of the Sultana."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    }
+  },
+  "Knights-of-Relos": {
+    "playerKnown": false,
+    "path": "organization",
+    "name": "Knights of Relos",
+    "nickname": "Knights of Relos",
+    "linkingWords": [],
+    "tags": ["Navolin","ulfwyst","royal guard"],
+    "type": "Military Order",
+    "location": "Navolin",
+    "memberNumber": "200",
+    "leaders": [
+      "Lord Bertalan Tóth"
+    ],
+    "description": [
+      "The @+Knights of Relos+@ are the royal guard of the Kingdom of Navolin, under the direct command of the king."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+    }
+  },
+  "Navolinian-Hussars": {
+    "playerKnown": true,
+    "path": "organization",
+    "name": "Navolinian Hussars",
+    "nickname": "Navolinian Hussars",
+    "linkingWords": [],
+    "tags": ["winged riders","owl knights","frecyra","ulfwyst"],
+    "type": "Military Order",
+    "location": "Navolin",
+    "memberNumber": "~600",
+    "leaders": [
+    ],
+    "members": [
+      "Jeskin Sebroski"
+    ],
+    "description": [
+      "The @+Navolinian Hussars+@ are a knightly order of heavy cavalry who count among their ranks many members of the noble military class of the kingdom."
+    ],
+    "articles": {
+    },
+    "dmArticles": {
+      "Ranks": [
+        "The hussars, like most military organizations, have a highly structured, tiered series of ranks for their members. These ranks are usually granted based on noble status. A recent reform movement in the order, which suggests the use of merit based promotions and honors, is seen as highly controversial among the order's elite. These proposed changes, which would be based on a combination of time served, martial skill and noble status, are seen by senior members as a direct challenge to their birthright rule."
+      ]
+    }
+  },
+  "Knights-of-the-Righteous-Soul": {
+    "playerKnown": false,
+    "path": "organization",
+    "name": "Knights of the Righteous Soul",
+    "nickname": "Knights of the Righteous Soul",
+    "linkingWords": ["Tovani Interrogators"],
+    "tags": ["tovanis","ulfwyst"],
+    "type": "Military Order",
+    "location": "Realm of Tovanis",
+    "memberNumber": "300",
+    "leaders": [
+      "Didac Jorda"
+    ],
+    "description": [
+    ],
+    "articles": {
+    },
+    "dmArtilces": {
+    }
+  },
+  "Knights-of-the-Sacred-Dawn": {
+    "playerKnown": true,
+    "path": "organization",
+    "name": "Knights of the Sacred Dawn",
+    "nickname": "Holy Order of the Sacred Dawn",
+    "tags": ["holy order","knights","Tovanis","ulfwyst"],
+    "type": "Military Order",
+    "location": "Tovanis",
+    "memberNumber": "~300",
+    "leaders": [
+      "Gergely Vastagh"
+    ],
+    "description": [
+      "The @+Knights of the Sacred Dawn+@ are a militant, holy order that have pledged their lives in the service of the Eternal. The knights' most famous achievement was the invasion of Istagen and the defeat of Shulxaa, the Withered King. Though comprised mainly of humans, the knights have no racial, social or political requirements, so long as their members pledge to live their lives in the service of others, and evangelize Anethos as the savior of mortals.",
+
+      "After the founding of the Theocracy of Tovanis, the knights split into two different factions. The more militant members of the order choosing to remain as questing paladins and retained the order's name. The knights more concerned with the restoration and governing of the new state formed the Atrium Fidelium."
+    ],
+    "articles": {
+    }
+  },
+  "Order-of-the-Blackened-Sun": {
+    "playerKnown": false,
+    "path": "organization",
+    "name": "Order of the Blackened Sun",
+    "nickname": "Order of the Blackened Sun",
+    "tags": ["holy order","knights","desolate wastes","ulfwyst"],
+    "type": "Military Order",
+    "location": "Desolate Wastes",
+    "memberNumber": "~80",
+    "leaders": [
+      "Hirloc the Black"
+    ],
+    "description": [
+      "An order of black knights who believe that one day the sun will be swallowed by the Endless Night, a dark god they worship. They seek to increase their god's power by slaughtering others in his name."
+    ],
+    "articles": {
+    }
+  },
+  "Immortal-Legions": {
+    "playerKnown": true,
+    "path": "organization",
+    "name": "Immortal Legions",
+    "nickname": "Immortal Legions",
+    "linkingWords": ["Syrothian legions", "Syrothian legion"],
+    "tags": ["army","syrothian empire","ulfwyst"],
+    "type": "Military Order",
+    "location": "Syrothian Empire",
+    "description": [
+      "The @+Immortal Legions+@ make up the majority of the military forces of the Syrothian Empire. The legions are comprised primarily of hobgoblins who are organized into units of highly disciplined, heavy infantry. All legions have auxiliary units of goblins, which are used as scouts, ranged skirmishers and messengers."
+    ],
+    "articles": {
+      "Legionnaires": [
+        "The Immortal Legions are comprised "
+      ],
+      "The Blackfire Dragoon": [
+        "The most elite soldiers of the Immortal Legions are the @*Blackfire Dragoon*@. These heavy cavalry"
+      ],
+      "Goblin Auxiliaries": [
+        "Every Syrothian legion maintains an auxiliary force of goblins which are held in reserve during engagements. These goblins serve in non-combat roles, generally as scouts & messengers. Their true purpose, however, is to act as reinforcements for fallen hobgoblin legionaries, thanks to the unique goblinoid genetic trait known as Khün Mönnas, colloquially known as @*Cannibal Rebirth*@."
+      ]
+    }
+  },
+  "Ithron-Dagnir": {
+    "playerKnown": false,
+    "path": "organization",
+    "name": "Ithron Dagnir",
+    "nickname": "Kaeldrin Mage Hunters",
+    "linkingWords": ["Wizard Slayers","Mage Slayers","Halthîr"],
+    "tags": ["army","syrothian empire","ulfwyst"],
+    "type": "Secret Society",
+    "leaders": ["Bronze Scorpion","Jade Demon","Swift Dream"],
+    "location": "Kaeldrin Sanctum",
+    "memberNumber": "80",
+    "description": [
+      "The @+Ithron Dagnir+@, colloquially known as the @*Kaeldrin Mage Hunters*@ or @*Wizard Slayers*@, are a clandestine order of bounter hunters and assassins sanctioned by the lords of the Kaeldrin Sanctum to hunt down renegade magic users. Individual members of the order after generally referred to as \"@*Dagnir*@\", which means hunter in the elven tongue. Members of the order are highly trained, and vetted for their ability to use both mundane and magical means of tracking, and detaining or eliminating powerful arcane threats.",
+      "Most members of the Ithron Dagnir are fighters, monks or rogues, though the order does have several rangers, bards and warlocks. Every member of the order has the ability to control magic, a basic requirement when dealing with renegade mages."
+    ],
+    "articles": {
+      "Sworn to Secrecy": [
+        "Members of the Mage Hunters all obey a common rule. From the moment they enter the training halls for the initiates' trial until the day they retire, no member of the order is to be seen without a full face mask, known as a Halthîr. Each member is allowed to choose a mask of their own liking, and change to a new mask if they so wish. All of this is done so that each member maintains a degree of anonymity, allowing them to do what is needed in their profession without risking their personal lives. It also prevents any traitorous members or renegade mages who might wish to launch a preemptive strike against the order from being able to find its members.",
+        "In addition to the masks, members are given a pseudonym by which they are referred. The names are granted by the high ranking members of the order when an initiate has completed their training. Most often these names are based on something related to the @*Dagnir's*@ fighting style, mask or demeanor."
+      ],
+      "Types of Ithron Dagnir": [
+        "The most common fighting techniques of the order are those of the Eldritch Knight,  and the Arcane Trickster. Each of these specialties provide different tools for the order.",
+        "@#Eldritch Knights#@",
+        "Magic-wielding fighters are generally used when brute force and raw power are required for a task, such as detaining a mage attempting dangerous experiments. These warriors most often learn spells directly related to shutting down magical defenses and negating arcane attacks, such as @?Absorb Elements|https://www.dnd-spells.com/spell/absorb-elements?@, @?Shield|https://www.dnd-spells.com/spell/shield?@, @?Counterspell|https://www.dnd-spells.com/spell/counterspell?@, @?Dispel Magic|https://www.dnd-spells.com/spell/dispel-magic?@, and @?Nondetection|https://www.dnd-spells.com/spell/nondetection?@.",
+        "@#Arcane Tricksters#@",
+        "When subtlety, deference and guile are required for a task, the order relies on its rogues to handle the job. Often these missions are ones such as the infiltration of a suspected renegade's residence, or clandestinely removing a dangerous magical artifact from someone's possession. These arcane rogue most often learn spells which aid them in going unnoticed, such as @?Charm Person|https://www.dnd-spells.com/spell/charm-person?@, @?Disguise Self|https://www.dnd-spells.com/spell/disguise-self?@, @?Invisibility|https://www.dnd-spells.com/spell/invisibility?@, @?Shadow Blade|https://www.dnd-spells.com/spell/shadow-blade?@, @?Suggestion|https://www.dnd-spells.com/spell/suggestion?@, @?Major Image|https://www.dnd-spells.com/spell/major-image?@, and @?Greater Invisibility|https://www.dnd-spells.com/spell/greater-invisibility?@.",
+        "@#Shadowdancers#@",
+        "When stealth and speed are required, the Ithron Dagnir call upon the Shadowdancers. These masters of the martial arts use their expert ability to manipulate and control the shadows around them. These monks are especially effective as assassins due to their ability to break a wizard's concentration during spell casting. They are also able to get into places others cannot, as they generally appear to be unarmed civilians when they are not wearing their Halthîr."
+      ],
+      "Tools of the Trade": [
+        "With the exception of their Halthîr, each member of the order is expected to procure their own equipment for tasks they are given. Many members spend their time after their initiation as members of adventuring groups, honing their skills and seeking out magical artifacts that can increase their effectiveness in their true profession.",
+        "@#The Halthîr#@",
+        "@&Halthîr|The Halthîr warn by the Mage Hunter known as \"Pale Sorrow\".&@ Designed by one of the first members of the order, known to archival records only as the Bronze Basilisk, the unique masks of the Ithron Dagnir are highly prized, powerful magical items. Every mask is unique, but all are given the same enchantments.",
+        "Each mask is enchanted with magical properties that enhance the wearer's anonymity. The Halthîr hides the wearer's eyes in complete darkness, changes the wearer's voice to a neutral tone of the appropriate gender, and provides protection from magic which would effect the wearer's mind, such as charm effects and telepathic intrusion. The mask also allows the users to cast a limited amount of spells from the mask without needing to have learned the spell personally.",
+        "In terms of game mechanics, a Halthîr provides the following:",
+        "• Resistance on saving throws against charm effects and spells or spell-like abilities to telepathically probe the wearer's mind.",
+        "• The mask has 3 charges. While wearing it, you can use an action and expend one charge to cast @?Silence|https://www.dnd-spells.com/spell/silence-ritual?@, or two charges to cast @?Dispel Magic|https://www.dnd-spells.com/spell/dispel-magic?@ (Intelligence spellcasting ability modifier) from it. The Halthîr regains 1d3 expended charges daily at dawn."
+      ]
+    }
+  },
+  "Empyrean-Rangers": {
+    "playerKnown": true,
+    "path": "organization",
+    "name": "Empyrean Rangers",
+    "nickname": "Kaeldrin Empyrean Rangers",
+    "linkingWords": [],
+    "tags": ["air cavalry","kaeldrin sanctum","military","ulfwyst"],
+    "type": "Military Order",
+    "leaders": [
+      "Brigadier Tarkreg Stonebranch"
+    ],
+    "location": "Kaeldrin Sanctum",
+    "memberNumber": "2,000",
+    "description": [
+      "The @+Kaeldrin Empyrean Rangers+@ are a branch of the professional military of the Kaeldrin Sanctum. These elite troops are responsible for patrolling and defending the skies above the sanctum from airborne threats both mundane and magical. Like all divisions of the Kaeldrin military, the Empyrean Rangers have an unusually high number of magic users among their ranks, most commonly in the form of Eldritch Knights.",
+      "Ranger units are generally deployed in 50-person detachments called @*Eskades*@ which are lead by a Ranger-Captain. Each Eskade is usually comprised of 5 squads made up of 10 soldiers each. Each squad is assigned to a magically-assisted flying platform known as a Skyrig. These balloon-airship hybrids are able to house, feed and arm the squad for extended deployments in the air. Skyrigs are held aloft by large balloons which are maintained by elemental servants summoned by the ship's navigator, usually a wizard who has specialized in conjuration magic.",
+      "When engaging a threat, rangers will attach themselves to their skyrig via long tethers before diving off the platform. As a safety precaution, all rangers are issued enchanted armor, known as an Empyrean Harness, which is designed to prevent a ranger from falling to their death, should their tether be severed."
+    ],
+    "articles": {
+      
+    },
+    "statBlock": {
+      "show": false,
+      "alignment": "Neutral Good",
+      "creatureType": "Medium Humanoid",
+      "stats": [
+        {"name": "STR", "val": 15},
+        {"name": "DEX", "val": 14},
+        {"name": "CON", "val": 14},
+        {"name": "INT", "val": 16},
+        {"name": "WIS", "val": 12},
+        {"name": "CHA", "val": 11}
+      ],
+      "savingThrows": "Str +6, Con +7",
+      "conditionImmunities": "",
+      "skills": "Athletics +7, Insight +4, Perception +4",
+      "passiveWisdom": 14,
+      "armor": "15 (Chain shirt)",
+      "hitPoint": 46,
+      "hitDie": "7d8+14",
+      "speed": "30 ft.",
+      "senses": "",
+      "languages": "Humanoid",
+      "challenge": 1,
+      "abilities": [
+        {
+          "name": "Dragoon.",
+          "text": "All rangers are trained to be proficient in aerial combat. When making an attack while diving at the target, the ranger makes their any attack with advantage."
+        },
+        {
+          "name": "Empyrean Harness",
+          "text": "Once per day, the ranger can use this magical harness to cast @?Fly?@ on themself. If the ranger gets within 200 feet of the ground, the harness automatically casts @?Slow Fall?@ upon the wearer."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Greatsword.",
+          "text": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage."
+        },
+        {
+          "name": "Arcane Bolt.",
+          "text": "Ranged Weapon Attack: +5 to hit, range 100 ft., one target. Hit: 9 (2d8) force damage."
+        }
+      ]
+    }
+  },
+  "Lemurian-Einherjar": {
+    "playerKnown": true,
+    "path": "organization",
+    "name": "Lemurian Einherjar",
+    "nickname": "Einherjar",
+    "linkingWords": [],
+    "tags": ["Lemuria","military","royal guard","ulfwyst"],
+    "type": "Military Order",
+    "leaders": ["Wulfgar of Ozeresk"],
+    "location": "Realm of Lemuria",
+    "memberNumber": "30",
+    "description": [
+      "The @+Lemurian Einherjar+@ are the royal guard of the Realm of Lemuria under direct authority of the High King or Queen. The einherjar are commanded by the Första Vakten, the monarch's personal bodyguard. As the personal guard of the monarch, the einherjar must renounce all loyalties to their own clan. "
+    ],
+    "articles": {
+      
+    },
+    "statBlock": {
+      "show": false,
+      "alignment": "Lawful Neutral",
+      "creatureType": "Medium Humanoid",
+      "stats": [
+        {"name": "STR", "val": 16},
+        {"name": "DEX", "val": 14},
+        {"name": "CON", "val": 18},
+        {"name": "INT", "val": 12},
+        {"name": "WIS", "val": 14},
+        {"name": "CHA", "val": 12}
+      ],
+      "savingThrows": "Str +6, Con +7",
+      "conditionImmunities": "",
+      "skills": "Athletics +7, Insight +4, Perception +4",
+      "passiveWisdom": 14,
+      "armor": "16 (Scale mail)",
+      "hitPoint": 85,
+      "hitDie": "10d8 + 20",
+      "speed": "30 ft.",
+      "senses": "",
+      "languages": "Humanoid",
+      "challenge": 3,
+      "abilities": [
+        {
+          "name": "Brave.",
+          "text": "The Guard has advantage on saving throws against being frightened."
+        },
+        {
+          "name": "Resilience.",
+          "text": "The einherjar has advantage on resisting getting pushed or getting pulled."
+        },
+        {
+          "name": "Pack Tactics.",
+          "text": "The royal guard has advantage on an attack roll against a creature if at least one of the royal guard's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack.",
+          "text": "The einherjar makes two attacks with its glaive."
+        },
+        {
+          "name": "Glaive.",
+          "text": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 3) slashing damage."
+        }
+      ],
+      "reactions": [
+        {
+          "name": "Parry.",
+          "text": "The Guard adds 3 to its AC against one melee attack that would hit it, OR add 3 to an ally's AC against one melee attack that would hit it. To do so, the Guard must see the attacker and be wielding a melee weapon."
+        }
+      ]
+    }
+  },
+  "Pellion-Hoplites": {
+    "playerKnown": false,
+    "path": "organization",
+    "name": "Pellion Hoplites",
+    "nickname": "Pellion Hoplites",
+    "linkingWords": [],
+    "tags": ["infantry","Pellios","military","entos"],
+    "type": "Military Order",
+    "leaders": [],
+    "location": "Kingdom of Pellios",
+    "memberNumber": "50,000",
+    "description": [
+      
+    ],
+    "articles": {
+      
+    }
+  }
+}

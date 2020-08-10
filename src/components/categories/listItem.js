@@ -14,20 +14,21 @@ class ListItem extends Component {
   }
 
   render () {
-    const entry = this.props.entry;
+    const { entry, type, imgStyle } = this.props;
+    const { dmView } = this.state;
     const id = entry.name.replace(/\s/g,"-");
-
+    
     return (
-      <li component-name="listItemComponent" key={entry.name.replace(/\s/g,"-")} className="person entry" id={entry.name.replace(/\s/g,"-")}>
-        <Link className="personLink" to={ { pathname:`/${entry.path}/${id}`, state: "update" }}>
+      <li component-name="listItemComponent" key={entry.name.replace(/\s/g,"-")} className="category__entry" id={entry.name.replace(/\s/g,"-")}>
+        <Link className="category__link" to={ { pathname:`/${entry.path}/${id}`, state: "update" }}>
           
           <img 
-            className={`${this.props.imgStyle || "landscape"} ${this.checkEmptyEntry(entry)}`} 
+            className={`category__img ${imgStyle || "landscape"} ${this.checkEmptyEntry(entry)}`} 
             alt="" 
-            src={ new getImgPath(id, entry, this.props.imgStyle).src }
+            src={ getImgPath(id, entry, {"styles": imgStyle} ) }
           />
 
-          <p className={`name ${(this.state.dmView && !entry.playerKnown) ? "hidden": ""}`}>{ entry.name }</p>
+          <p className={`category__text ${(dmView && !entry.playerKnown) ? "hidden": ""}`}>{ entry.name }</p>
         </Link>
       </li>
     )
@@ -37,11 +38,8 @@ class ListItem extends Component {
     if (this.state.dmView && WikiUtils.stubCheck(entry) ) {
       return "empty";
     }
-
     return "";
   }
-
-
 }
 
 export default ListItem;

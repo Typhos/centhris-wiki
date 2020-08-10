@@ -197,7 +197,7 @@
     "hideOnCat": true,
     "name": "Abyss",
     "nickname": "the Abyss",
-    "linkingWords": [],
+    "linkingWords": ["Burning Abyss"],
     "tags": ["mythic locale","plane"],
     "type": "Plane",
     "alignment": "Chaotic Evil",
