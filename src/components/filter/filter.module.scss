@@ -1,0 +1,40 @@
+@import "../../styles/mixins";
+
+.filtering {
+  display: inline-block;
+}
+
+.filterBox {
+  height: auto;
+  padding: 1em 3em 0.6em 0.6em;
+  margin: 0 0 0.75em;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  transition: width .5s;
+  font-size: 0.8em;
+
+  ::placeholder {
+    font-style: italic;
+  }
+}
+
+.clearFilter {
+  right: 1em;
+  position: relative;
+  background-color: white;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.infoBox {
+  position: relative;
+  top: 0.33em;
+  width: 1.25em;
+  height: 1.25em;
+  margin-right: 0.5em;
+  display: inline-block;
+  background-image: url("../../img/info.png");
+  background-size: cover;
+  border-radius: 100%;
+  cursor: help;
+}

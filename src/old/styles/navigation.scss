@@ -1,0 +1,373 @@
+@import "./mixins";
+
+.overlay {
+  display: none;
+}
+
+// DESKTOP
+@media all and (min-width: $breakpoint-mobile) {
+  nav {
+    width: 100%;
+    border-bottom: 1px solid $charcoal;
+
+    .mobileNav {
+      display: none;
+    }
+
+    .alignmentShell {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0.66rem 1%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .menuHousing {
+      position: relative;
+      display: flex;
+    }
+
+    input.menuTrigger {
+      display: block;
+      width: 60px;
+      height: 32px;
+      position: absolute;
+      top: 6px;
+      left: -5px;
+      
+      cursor: pointer;
+      
+      opacity: 0; /* hide this */
+      z-index: 2; /* and place it over the menu */
+
+      -webkit-touch-callout: none;
+
+      &:hover ~ button.menuButton {
+        color: $tagLink;
+      }
+
+      &:checked ~ .overlay {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba($charcoal, 0.8);
+        z-index: 1000;
+
+        .navHeading {
+          position: relative;
+          display: inline-block;
+          z-index: 20;
+          line-height: 2em;
+          padding: 0.5em 0.5em;
+          padding-left: 30px;
+          font-family: $headingText;
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          background-color: $charcoal;
+          color: $moodGreen;
+          font-weight: 400;
+          margin-left: 1px;
+          margin-top: 0;
+          width: 192px;
+        }
+
+        .closeMenu {
+          position: absolute;
+          top: 2px;
+          left: 240px;
+          color: white;
+          font-size: 2.5em;
+          width: 100%;
+          z-index: 100;
+          padding-left: 20px;
+
+          span {
+            cursor: pointer;
+          }
+        }
+
+        .navigationList {
+          transform: none;
+          position: fixed;
+          display: block;
+          margin: 0 auto;
+          padding-top: 3em;
+          padding-left: 2rem;
+          top: 0;
+          left: 0;
+          border: 1px solid $charcoal;
+
+          li.navigationListItem {
+            font-size: 1em;
+            line-height: 1.5em;
+            margin: 1.5em 0;
+            padding: 0;
+
+            &.active {
+              border-bottom: 0;
+
+              a {
+                color: $dndRed;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    button.menuButton {
+      background: none;
+      border: 0;
+      margin: 0;
+      padding: 0;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      img.icon {
+        display: inline-block;
+        width: 24px;
+      }
+
+      span {
+        margin-left: 0.33em;
+        font-size: 18px;
+      }
+    }
+
+    .navigationList {
+      display: none;
+      list-style-type: none;
+      padding-bottom: 0;
+      background-color: $white;
+      position: absolute;
+      height: 100vh;
+      width: 200px;
+      z-index: 10;
+      background-color: $white;
+      text-transform: uppercase;
+
+      hr {
+        width: 90%;
+        position: relative;
+        left: -10%;
+        border: 0;
+        border-top: 1px solid $charcoal;
+      }
+    }
+  }
+}
+
+// MOBILE
+@media all and (max-width: $breakpoint-mobile) {
+
+  nav {
+    padding-bottom: 1em;
+    position: fixed;
+    top: 0em;
+    z-index: 10;
+
+    .desktopNav {
+      display: none;
+    }
+
+    .navigationList {
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #fff;
+      padding: 1rem 0;
+      background-color: #282c34;
+      margin: 0;
+      font-family: $sansText;
+
+      hr {
+        width: 60%;
+      }
+
+      .navigationListItem {
+        padding-bottom: 0.25em;
+        font-variant: small-caps;
+
+        &.active {
+          border-bottom: 1px solid tomato;
+        }
+      }
+
+      a {
+        color: $lightText;
+        letter-spacing: 0.075em;
+        text-decoration: none;
+
+        &:hover {
+          color: $tagLink;
+        }
+      }
+    }
+
+    input {
+      display: none;
+    }
+
+    .navigationList {
+      display: none;
+      list-style-type: none;
+      padding-bottom: 0;
+      background-color: $white;
+      position: absolute;
+
+      .navigationListItem {
+        font-size: 0.55em;
+        text-align: center;
+        line-height: 1em;
+        margin: 0 0 1.5em;
+        padding: 0 0 0.5em 0;
+      }
+    }
+
+
+    #menuToggle {
+      display: block;
+      position: relative;
+      top: 1.15em;
+      left: 1em;
+      
+      z-index: 1;
+      
+      -webkit-user-select: none;
+      user-select: none;
+
+      a {
+        text-decoration: none;
+        color: $charcoal;
+        
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: tomato;
+        }
+
+      }
+
+      input.menuTrigger {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        
+        cursor: pointer;
+        
+        opacity: 0; /* hide this */
+        z-index: 2; /* and place it over the hamburger */
+        
+        -webkit-touch-callout: none;
+
+        &:checked ~ span {
+          border: 0;
+          opacity: 1;
+          transform: rotate(45deg) translate(-2px, -1px);
+          background: $charcoal;
+
+          &:nth-last-child(2) {
+            transform: rotate(-45deg) translate(0, -1px);
+          }
+
+          &:nth-last-child(3) {
+            opacity: 0;
+            transform: rotate(0deg) scale(0.2, 0.2);
+          }
+        }
+      }
+
+      span {
+        display: block;
+        width: 24px;
+        height: 3px;
+        margin-bottom: 3px;
+        position: relative;
+        
+        background: $blueDark;
+        border: 1px solid $white;
+        // border-radius: 3px;
+        
+        z-index: 1;
+        
+        transform-origin: 4px 0px;
+        
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                    opacity 0.55s ease;
+
+        &:first-child {
+          transform-origin: 0% 0%;
+        }
+
+        &:nth-last-child(2) {
+          transform-origin: 0% 100%;
+        }
+      }
+    }
+
+    #menu {
+      position: absolute;
+      width: 300px;
+      margin: -100px 0 0 -50px;
+      padding: 50px;
+      padding-top: 125px;
+      
+      background: #ededed;
+      list-style-type: none;
+      -webkit-font-smoothing: antialiased;
+      /* to stop flickering of text in safari */
+      
+      transform-origin: 0% 0%;
+      transform: translate(-100%, 0);
+      
+      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+      li {
+        padding: 10px 0;
+        font-size: 22px;
+      }
+    }
+
+    #menuToggle input:checked ~ .navigationList {
+      transform: none;
+      position: fixed;
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      margin: 0 auto;
+      padding-top: 3em;
+      top: 0;
+      left: 0;
+      border: 1px solid $charcoal;
+
+      li.navigationListItem {
+        font-size: 1em;
+        line-height: 1.5em;
+        margin: 1.5em 0;
+        padding: 0;
+
+        &.active {
+          border-bottom: 0;
+
+          a {
+            color: $dndRed;
+          }
+        }
+      }
+    }
+  }
+}

@@ -29,7 +29,7 @@
 
     input.menuTrigger {
       display: block;
-      width: 60px;
+      width: 100px;
       height: 32px;
       position: absolute;
       top: 6px;
@@ -63,7 +63,7 @@
           line-height: 2em;
           padding: 0.5em 0.5em;
           padding-left: 30px;
-          font-family: $headingText;
+          font-family: $sansText;
           text-transform: uppercase;
           letter-spacing: 0.1em;
           background-color: $charcoal;
@@ -80,6 +80,7 @@
           left: 240px;
           color: white;
           font-size: 2.5em;
+          font-family: $sansText;
           width: 100%;
           z-index: 100;
           padding-left: 20px;
@@ -96,6 +97,7 @@
           margin: 0 auto;
           padding-top: 3em;
           padding-left: 2rem;
+          font-family: $sansText;
           top: 0;
           left: 0;
           border: 1px solid $charcoal;
@@ -228,7 +230,7 @@
       .navigationListItem {
         font-size: 0.55em;
         text-align: center;
-        line-height: 1em;
+        line-height: 1rem;
         margin: 0 0 1.5em;
         padding: 0 0 0.5em 0;
       }
@@ -348,16 +350,14 @@
       display: block;
       width: 100vw;
       height: 100vh;
-      margin: 0 auto;
-      padding-top: 3em;
+      margin: 0 auto 0;
+      padding-top: 5em;
       top: 0;
       left: 0;
-      border: 1px solid $charcoal;
 
       li.navigationListItem {
-        font-size: 1em;
-        line-height: 1.5em;
-        margin: 1.5em 0;
+        font-size: 1.15em;
+        line-height: 1.5;
         padding: 0;
 
         &.active {

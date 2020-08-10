@@ -1,6 +1,7 @@
 {
   "Sheet-of-Ice": {
     "playerKnown": true,
+    "path": "spell",
     "concentration": false,
     "ritual": false,
     "name": "Sheet of Ice",

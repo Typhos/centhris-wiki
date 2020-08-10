@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
+import Stub from "components/stub";
 import DataLoader from 'components/utils/dataLoader';
 import getImgPath from "components/utils/getImgPath.js";
 
@@ -73,7 +74,7 @@ export default class WikiUtils {
           } else if ( /^#(.*?)#$/.test(substr) ) {
             
             substr = substr.replace(/#/g, "");
-            substr = <h4 className="subheading" key={substr+j}>{substr}</h4>;
+            substr = <h4 className="article__subheading" key={substr+j}>{substr}</h4>;
           
           } else if ( /^---$/.test(substr) ) {
             
@@ -106,14 +107,14 @@ export default class WikiUtils {
             const path = substr.split(/\|/)[0];
             const caption = substr.split(/\|/)[1];
             const position = substr.split(/\|/)[2];
-            const imgSrc = new getImgPath(path).src;
+            const imgSrc = getImgPath(path);
 
             substr = 
-              <figure className={`articleImgBox ${ (position) ? position : ""}`} key={substr+j}>
+              <figure className={`figureBox ${ (position) ? position : ""}`} key={substr+j}>
                 <a href={imgSrc} target="_blank" rel="noopener noreferrer">
-                  <img src={ imgSrc } className="articleImg" alt={caption} onClick={this.expandedImageModal} />
+                  <img src={ imgSrc } className="figureBox__img" alt={caption} onClick={this.expandedImageModal} />
                 </a>
-                <figcaption className="imgCaption">{caption}</figcaption>
+                <figcaption className="figureBox__caption">{caption}</figcaption>
               </figure>;
 
           }
@@ -130,7 +131,7 @@ export default class WikiUtils {
     // TODO: MAKE MODAL POPUP FOR IMAGES
   }
 
-  static linkContent(target, descriptionArray) {
+  static linkContent(target, descriptionArray, { paragraphName, linkName } = {}) {
 
     if ( !Array.isArray(descriptionArray) ) descriptionArray = [descriptionArray];
 
@@ -178,7 +179,8 @@ export default class WikiUtils {
             linkingWords.forEach( (string, j) => {
               if (string !== undefined && string !== "") {
                 const arrayCheck = this.arrayCheck(target, Object.keys(namesObj), linkingWords );
-                let link = <Link key={`key-${j}-${string}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}`, state: "update"}}>{string}</Link>; 
+                
+                let link = <Link className={linkName} key={`key-${j}-${string}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}`, state: "update"}}>{string}</Link>; 
 
                 if ( idLinks && idLinks.includes(string) ) link = <Link smooth key={`key-${j}-${string}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}#${obj.idLinks[string]}`, state: "update"}}>{string}</Link>;
                 if ( obj.subcatLink ) link = <Link key={`key-${j}-${string}`} to={ {pathname: `/${obj.subcatLink}`, state: "update"}}>{string}</Link>;
@@ -197,7 +199,7 @@ export default class WikiUtils {
       if ( paragraph[0] && (paragraph[0].type === "h3" || paragraph[0].type === "h4" ) ) {
         return paragraph;
       } else {
-        return <p className="linkedContent" key={target+index}>{paragraph}</p>;
+        return <p className={ paragraphName ? paragraphName : "linkedContent" } key={target+index}>{paragraph}</p>;
       }
     
     });
@@ -303,10 +305,7 @@ export default class WikiUtils {
 
     if ( quote.length + description.length + articleStr.length <= 750 ) {
       return (
-        <div className="stub">
-          <h3>This article is a stub</h3>
-          <span>If you feel it requires an update to help with your understanding of the world, please let the GM know.</span>
-        </div>
+        <Stub/>
       );
     } else {
       return false;

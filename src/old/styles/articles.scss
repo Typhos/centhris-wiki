@@ -1,0 +1,34 @@
+@import "./mixins";
+
+// article.article {
+//   display: block;
+//   direction: ltr;
+//   margin: 0 auto 4em;
+//   padding: 0;
+
+//   div.mainContent {
+//     width: auto;
+//     word-break: break-word;
+
+//     p, i.quote {
+//       display: block;
+//       line-height: 1.8em;
+//       margin: 0 0 1em;
+//       padding: 0;
+//     }
+
+//     i.quote {
+//       font-family: $serifText;
+//       padding-left: 2vw;
+//       line-height: 1.6em;
+//       font-size: 0.9em;
+//       margin-bottom: 2.5em;
+//     }
+//   }
+
+//   div.clear {
+//     clear:both; 
+//     margin: 0; 
+//     padding: 0;
+//   }
+// }

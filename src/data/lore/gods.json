@@ -39,12 +39,12 @@
     "articles": {
         "Dogma": [
           "The Guardian's dogma was based on justice, nobility, protection, and honor. His church teaches its followers to always uphold the highest ideals of honor and justice; to be constantly vigilant against evil and to oppose it from all fronts; and to protect the weak, liberate the oppressed, and defend just order. The Guardian is said to advocate a 'greater justice' that includes fighting against evil and toppling oppressive regimes. The church also is keen to reward strength of purpose and character in his followers.",
-          "The Church of the Guardian holds a strong central structure and canon which includes the Leges Aequitatis. Each church of the Celestial Dragon contains a central pillar, shrine or statue of the Dragon King which displays the church's code. Every follower of the church of the Guardian, and most people with a passing knowledge of religious rites are able to recite it. The major tenants of the Leges Aequitatis are:",
-          "Justice, virtue and good above all.",
-          "Honor and fealty to just lords.",
-          "Honor and protect the righteous innocence.",
-          "Seek out and correct the enemies of justice and good.",
-          "Honor and forbearance for oneself."
+          "The Church of the Guardian holds a strong central structure and canon which includes the @*Leges Aequitatis*@. Each church of the Celestial Dragon contains a central pillar, shrine or statue of the Dragon King which displays the church's code. Every follower of the church of the Guardian, and most people with a passing knowledge of religious rites are able to recite it. The major tenants of the Leges Aequitatis are:",
+          "@*Justice, virtue and good above all.*@",
+          "@*Honor and fealty to just lords.*@",
+          "@*Honor and protect the righteous innocence.*@",
+          "@*Seek out and correct the enemies of justice and good.*@",
+          "@*Honor and forbearance for oneself.*@"
         ],
         "Righteous Dignity": [
           "The canon law of the Guardian expressly disapproves of zealotry. The Church of the Guardian holds itself to the ideals of its patron, but does not seek to actively spread or force its beliefs upon others. Instead, the church seeks to hold itself up as an ideal that others might strive to meet.",
@@ -181,13 +181,13 @@
         "Holy Champions": [
             "Clerics and Paladins of Isilena favor heavy armor, shields and disciplined fighting, usually in formation. Followers of the Goddess of Valor believe that a failure to plan will undoubtedly result in a journey into Neshaya's Garden. Most members of the Cult of Isilena carry with them the Codex of Vigilence, a treatise on the arts of valor, warfare, battle tactics and campaign strategy written by the legendary dwarf general Khorohr of Thellodur. The Codex is considered one of the greatest works of dwarven poetry ever written and in its original Dwarven can be sung as a battle hymn. Sadly, it loses this quality when translated."
         ],
+        "Dogma": [
+            "Without a formal church, there is almost no formal dogma for the Champion. Though her cult lacks tenets, her followers tend to adhere to the same general ideals which are generally shared through stories and ballads. The Goddess of Valor is seen a selfless servant of others. Her followers trust their intuition, often to the dismay of allies who adhere to a more strict code, be it order or chaos."
+        ],
         "Relations with other Faiths": [
             "The Cult of the Champion lacks any kind of formal organized structure, making any kind of formal relationship difficult to establish with other cults. Followers of the Champion can find an open welcome almost any place they go, given their reputation for self sacrifice, heroism and valor.",
             "The Church of the Eternal and the Seers of the Tempest are welcome of allies of the cult of the Champion. Both cults find the ideals of the White Lady regularly align with their altruistic world views. Seers and wardens of the Tempest can occasionally stray into glory hunting, which followers of the Champion find difficult to understand.",
             "The churches of the Arbiter and the Maker generally views followers of the Champion as welcome idealists, though their unwillingness to adhere to laws that they find unfair often cause them to clash. Likewise, the "
-        ],
-        "Dogma": [
-            "Without a formal church, there is almost no formal dogma for the Champion. Though her cult lacks tenets, her followers tend to adhere to the same general ideals which are generally shared through stories and ballads. The Goddess of Valor is seen a selfless servant of others. Her followers trust their intuition, often to the dismay of allies who adhere to a more strict code, be it order or chaos."
         ]
     }
   },

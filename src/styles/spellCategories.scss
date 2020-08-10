@@ -1,13 +1,13 @@
 @import "./mixins";
 
-.subNav.spells {
-  margin-top: 1em;
+// .subNav.spells {
+//   margin-top: 1em;
 
-  label {
-    margin-right: 1em;
-  }
+//   label {
+//     margin-right: 1em;
+//   }
 
-  button.sortButton {
+  .sortButton {
     background-color: none;
     border: 0;
     font-size: 1em;
@@ -18,44 +18,43 @@
       border-bottom: 1px dashed $dndGreen;
     }
   }
-}
+// }
 
-#categories.spells {
+// #categories.spells {
 
-  li.entry {
-    min-width: 0;
-    max-width: none;
-    width: 12.5%;
-    line-height: 1.5em;
-  }
+//   li.entry {
+//     min-width: 0;
+//     max-width: none;
+//     width: 12.5%;
+//     line-height: 1.5em;
+//   }
 
-  figure.imgBox {
-    margin: 0;
-    padding: 0;
+ .imgBox {
+  margin: 0;
+  padding: 0;
 
-    img.spellSchool {
-      width: 3em;
-      height: auto;
-    }
-  }
-}
-
-
-@media all and (max-width: $breakpoint-mobile) {
-  .subNav.spells {
-    button.sortButton {
-      display: block;
-      margin: 1em 0;
-    }  
-  }
-
-  #categories.spells {
-    li.entry {
-      min-width: 0;
-      max-width: none;
-      width: 20%;
-      line-height: 1.5em;
-      font-size: 0.9em;
-    }
+  .spellSchool {
+    width: 3em;
+    height: auto;
   }
 }
+
+
+// @media all and (max-width: $breakpoint-mobile) {
+//   .subNav.spells {
+//     button.sortButton {
+//       display: block;
+//       margin: 1em 0;
+//     }  
+//   }
+
+//   #categories.spells {
+//     li.entry {
+//       min-width: 0;
+//       max-width: none;
+//       width: 20%;
+//       line-height: 1.5em;
+//       font-size: 0.9em;
+//     }
+//   }
+// }

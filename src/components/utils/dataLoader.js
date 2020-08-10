@@ -9,7 +9,7 @@ import allPeople         from "data/people/allPeople";
 import allMonsters       from "data/monsters/allMonsters";
 
 // ==== ORGANIZATION DATA IMPORTS
-import allGroups         from "data/groups/allGroups";
+import allGroups         from "data/organizations/allGroups";
 
 // ==== ALL DATA IMPORTS FOR LOCATIONS
 import allPlaces         from "data/places/allPlaces";

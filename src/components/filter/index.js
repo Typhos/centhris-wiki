@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import WikiUtils from "components/utils/wikiUtils.js";
 import { withRouter } from 'react-router-dom';
 
-import 'styles/search.scss'
+import styles from './filter.module.scss';
 
 class Filter extends Component {
 
@@ -72,11 +72,16 @@ class Filter extends Component {
   }
 
   render() {
+    const {searchString} = this.state;
+    
     return (
-      <form id="filtering">
-        <div className="infoBox" title="You can filter for identifying characteristics; ie. names, places, races, or other relevant identifiers."></div>
-        <input className="filterBox" placeholder="filter content" value={this.state.searchString} onChange={ this.handleFilter }/>
-        <span className="clearFilter" onClick={this.clearFilter}>x</span>
+      <form className={styles.filtering}>
+
+        <div className={styles.infoBox} title="You can filter for identifying characteristics; ie. names, places, races, or other relevant identifiers."></div>
+
+        <input className={styles.filterBox} placeholder="filter content" value={searchString} onChange={ this.handleFilter }/>
+        
+        <span className={styles.clearFilter} onClick={this.clearFilter}>x</span>
 
       </form>
     )

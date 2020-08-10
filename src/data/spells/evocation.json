@@ -1,6 +1,7 @@
 { 
   "Biting-Hoarfrost": {
     "playerKnown": true,
+    "path": "spell",
     "concentration": false,
     "ritual": false,
     "name": "Biting Hoarfrost",
@@ -25,6 +26,7 @@
   },
   "Forked-Lightning": {
     "playerKnown": true,
+    "path": "spell",
     "concentration": false,
     "ritual": false,
     "name": "Forked Lightning",
@@ -47,6 +49,7 @@
   },
   "Storm-Hammer": {
     "playerKnown": true,
+    "path": "spell",
     "concentration": false,
     "ritual": false,
     "name": "Storm Hammer",
