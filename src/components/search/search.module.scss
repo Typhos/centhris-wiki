@@ -1,0 +1,163 @@
+@import "../../styles/mixins";
+
+.search {
+  max-width: 100%;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 1%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.searchForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28rem;
+  margin: 0.5em 0;
+}
+
+.searchBox {
+  height: auto;
+  width: 80%;
+  padding: 1em 3em 0.6em 0.6em;
+  // border: 0;
+  border: 1px solid #ccc;
+  transition: width .5s;
+  font-size: 0.8em;
+  font-variant: small-caps;
+  letter-spacing: 0.066em;
+
+  &:focus {
+    outline: 2px solid $moodGreen;
+  }
+}
+
+.clearSearch {
+  right: 1em;
+  position: relative;
+  background-color: white;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.searchButton {
+  width: 3em;
+  height: 100%;
+  padding: 0;
+  cursor: pointer;
+  background-color: $moodGreen;
+  background-image: url("../../img/magnifying-glass.png");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 0;
+  border-radius: 0 0.33em 0.33em 0;
+
+  &:hover {
+    background-color: rgba($moodGreen,0.33);
+  }
+}
+
+.searchResults {
+  position: absolute;
+  z-index: 100;
+  background-color: $white;
+  border: 1px solid black;
+  width: 28rem;
+
+  .results {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 0.25em;
+    padding: 0.5em 1em;
+
+    .listItem {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 0.5em 0;
+      font-family: $sansText;
+
+      .crop {
+        overflow: hidden;
+        height: 3em;
+        width: 5em;
+        // border: 1px solid $lightText;
+        clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+      }
+      
+      .searchImg {
+        display: inline-block;
+        height: auto;
+        width: 5em;
+      }
+
+      .noImg {
+        height: 3em;
+        width: 5em;
+        // border: 1px solid $lightText;
+        background-image: linear-gradient(135deg, rgba($susiePurple, 0.1) 0%, rgba($susiePurple, 0.4) 100%);
+        clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+      }
+
+      .textLink {
+        display: inline-block;
+        margin: 0;
+        margin-left: 1em;
+        padding: 0
+      }
+    }
+  }
+}
+
+// MOBILE
+@media all and (max-width: $breakpoint-mobile) {
+  .search {
+    position: fixed;
+    top: 9vh;
+    display: block;
+    width: 100vw;
+    height: 2vh;
+    z-index: 10;
+    border-bottom: 1px solid $lightText;
+    background-color: $white;
+  }
+  
+  .container {
+    width: 98%;
+    background-color: $white;
+    border-bottom: 1px solid $lightText;
+  }
+
+  .searchForm {
+    z-index: 110;
+  }
+
+  .searchForm {
+    width: 100%;
+  }
+
+  .searchResults {
+    // display: none;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    top: 16vh;
+    border: 0;
+    background-color: $white;
+  }
+}
+
+// DESKTOP
+@media all and (min-width: $breakpoint-mobile) {
+  // form#filtering {
+  //   input.filterBox {
+  //     width: 12em;
+  //   }
+  // }
+}

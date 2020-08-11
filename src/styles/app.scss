@@ -27,6 +27,11 @@ a {
   margin: 0.5em auto 0;
 }
 
+.hRule {
+  border: 0;
+  border-bottom: 1px solid $charcoal;
+}
+
 #dmFlag {
   width: 100%;
   display: flex;
@@ -53,6 +58,6 @@ a {
     width: 90vw;
     margin: 0 auto;
     position: relative;
-    top: 15.5vh;
+    top: 14.5vh;
   }
 }

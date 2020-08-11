@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import { withRouter } from 'react-router-dom';
 
-import 'styles/search.scss'
+import styles from './search.module.scss';
 import SearchLogic from "components/search/searchLogic";
 import dataLoader from "components/utils/dataLoader";
 
@@ -55,16 +55,17 @@ class Search extends Component {
     const images = require.context('img/', true);
 
     return (
-      <div id="search">
-        <div className="container">
-          <form className="searchForm" onSubmit={this.handleSearch} onKeyUp={this.handleSearch}>
-            <input className="searchBox" placeholder="search" value={this.state.searchString} onChange={ this.updateSearchString }/>
-            <button className="searchButton"></button>
+      <div className={styles.search}>
+        <div className={styles.container}>
+          <form className={styles.searchForm} onSubmit={this.handleSearch} onKeyUp={this.handleSearch}>
+            <input className={styles.searchBox} placeholder="search" value={this.state.searchString} onChange={ this.updateSearchString }/>
+            <button className={styles.searchButton}></button>
           </form>
         </div>
+        
         { searchResults.length > 0 && 
-          <div id="searchResults">
-            <ul className="results">
+          <div className={styles.searchResults}>
+            <ul className={styles.results}>
               {
                 searchResults.map( res => {
                   let path = images.keys().filter( path => path.includes( res.name )).filter( path => !path.includes("maps"))[0];
@@ -72,16 +73,16 @@ class Search extends Component {
 
                   if ( res.playerKnown || this.state.dmView ) {
                     return (
-                      <li key={res.name}>
+                      <li key={res.name} className={styles.listItem}>
                        { res.path && path !== undefined &&
                         <Link to={`/${res.path}/${res.name}`} className="crop" onClick={this.clearSearch} >
-                          <img className="searchImg" alt="" src={ images(path) }/>
+                          <img className={styles.searchImg} alt="" src={ images(path) }/>
                         </Link>
                        }
                        { ( !res.path || !path ) &&
-                        <div className="noImg"></div>
+                        <div className={styles.noImg}></div>
                        }
-                        <Link className="textLink" to={`/${res.path}/${res.name}`} onClick={this.clearSearch} >{res.displayName}</Link>
+                        <Link className={styles.textLink} to={`/${res.path}/${res.name}`} onClick={this.clearSearch} >{res.displayName}</Link>
                       </li>
                     )
                   }

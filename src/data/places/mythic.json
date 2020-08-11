@@ -19,13 +19,17 @@
 
     }
   },
-  "The-Halls-of-Tanrilar": {
+  "Halls-of-Tanrilar": {
     "playerKnown": false,
     "path": "location",
     "hideOnCat": false,
-    "name": "The Halls of Tanrilar",
-    "nickname": "Halls of Tanrilar",
-    "linkingWords": ["Grand Hall of the Gods"],
+    "name": "Halls of Tanrilar",
+    "nickname": "Tanrilar",
+    "linkingWords": [
+      "Grand Hall of the Gods",
+      "hall of the gods",
+      "divine realm"
+    ],
     "tags": ["mythic locale","gods","hall"],
     "location": "Astra Sea",
     "type": "Mythic Locale",
