@@ -127,6 +127,8 @@
 // MOBILE
 @media all and (max-width: $breakpoint-mobile) {
   .infoCard {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
   }
 }

@@ -84,7 +84,7 @@
     "name": "Ziril'udor",
     "nickname": "Ziril'udór",
     "commonNames": ["Dwarves"],
-    "linkingWords": ["Ziril'udórian"],
+    "linkingWords": ["Ziril'udórian","Ziril'udorian"],
     "type": "Race",
     "tags": ["race","dwarves","dwarf"],
     "locations": ["Pillars of Amud","Torick Peaks","Vir Mountains","Zavalev Mountains","Jordonis Mountains"],

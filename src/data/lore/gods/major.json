@@ -80,10 +80,11 @@
     "alignment": "Neutral Good",
     "gender": "Masculine",
     "titles": [
-        "Dawnfather",
-        "Sky Rider",
-        "Summer Sun",
-        "Lord of Inspiration"
+      "King of the Gods",
+      "Dawnfather",
+      "Sky Rider",
+      "Summer Sun",
+      "Lord of Inspiration"
     ],
     "worshipers": [
         "Artists",
@@ -97,10 +98,24 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","neutral good","Life","Light","Rebirth","Glory"],
     "description": [
+      "Anethos, the @+Eternal+@, is one of the most significant deities in the Centhrian Pantheon. Though he goes by many names and epithets across cultures, his primary role is always as the god of the sun, and most often he rules the pantheon as king of the gods.",
 
+      "The Eternal is generally depicted as a tall humanoid in golden armor wearing a crown of sunbeams. In some cultures the crown is replaced by a golden mask which radiates sunlight. Anethos is frequently depicted by artists in one of two poses: standing upon a single wheeled chariot pulled by four Aaghoda, celestial horses with flaming manes, or seated in majesty.",
+
+      "Anethos is the child of the elder titans Zaman, the lord of time, and Shatana, the matron of reality.  In most traditions he is married to Nevondria, the Philosopher, by whom he is said to have fathered Aegeroth, Herathī, Isilena and Yelensa."
     ],
     "articles": {
-
+      "Epithets": [
+        "Aside from local epithets that simply designated the deity as doing something random at some particular place, the epithets or titles applied to Anethos emphasized different aspects of his wide-ranging authority:",
+        
+        "• @+Anethos Suveran+@: Anethos as king of the gods and patron of kings.",
+        "• @+Anethos Jurama+@: Anethos as keeper of oaths. In some cultures exposed liars are made to dedicate a votive statue to Anethos, generally at a local temple to the sun god.", 
+        "• @+Anethos Eteret+@: Anethos as the sky rider and lord of the heavens, often associated with astrological and meteorological events.",
+        "• @+Anethos Inochos+@: Anethos the lord of charioteers, horsemen and carriage drivers. In many cultures that favor a tradition of riding or chariot racing, he is invoked before a race."
+      ],
+      "Dogma": [],
+      "Relations with other Faiths": [],
+      "Divine Realm": []
     }
   },
   "The-Maker": {
@@ -226,11 +241,33 @@
     "tags": ["Greater Deity","lawful neutral","Knowledge","Civilization","Law"],
     "description": [
       "Kezolet, @+the Arbiter+@, is depicted as a graceful, otherworldly figure clad in robes and ornamental jewelry. The Arbiter is generally portrayed as having an inhuman form, possibly with multiple sets of arms, a face devoid of features or a featureless mask obscuring their visage. They are depicted with as a tranquil god, serene and detached; not allowing outside forces effect sway their judgments. They embody the ideals of civilized order, including law, order, construction, roads and the crafting of items used in everyday life, such as glassware, pottery, leather work, and jewelry.",
-      "The Church of the Arbiter is often associated with legal systems, civil infrastructure and fortifications. Many clerics of the Arbiter are skilled engineers or legal scholars. Many temples to the Lord of Order double as court houses, town halls or other civic buildings.",
-      "Shrines to the god of order most often come in the form of tall, square pillars. Most often the outside of the shrine is covered in the legal code for the area, or is used as a prominent place to display edicts or decrees."
+
+      "Along side their connection to civilization and construction, believe and adherence to the teachings of Kezolet often fall into the ethical sphere. The word @*kezolar*@ is a common noun meaning \"contract, covenant or treaty\". Thus, the Arbiter is the god of agreements between people. Breaking such agreements is said to be subject to severe punishment whether the agreement was made between individuals or sociopolitical entities. In this capacity he is said to intervene on behalf of those faithful to treaties by subjecting oathbreakers to panic and defeat."
     ],
     "articles": {
+      "Origins": [
+        "Unlike much of the Centhrian pantheon, the Arbiter is not a direct relation to the Eternal, the Philosopher or the Maker. Some believe, much like with the Guardian and the Dragon Below, the cult of Kezolet was integrated from older, forgotten faiths.",
+        "Some mages and cosmic scholars have argued that the Arbiter is not a traditional god at all, but instead one of the last remaining Titans from the Mornaug Ragoth. If this is indeed the case, it raises questions as to why the other gods did not destroy Kezolet along with the other primordials, titans and aberrations during the Cosmic Sundering."
+      ],
+      "Dogma": [
+        
+      ],
+      "Cult, Temples and Shrines": [
+        "The Cult of the Arbiter is one of the most wide-spread across Centhris, due both to the god's patronage of civilization itself, but also due to the practical matter of the need for laws in organized society. In more chaotic societies, such as tribes of orcs or bands of savage giants, the role of the Arbiter is often supplanted by the worship of the Tempest. Their cult is often associated with legal systems, civil infrastructure and fortifications. Many clerics of the Arbiter are skilled engineers or legal scholars. ",
 
+        "Temples to the Lord of Order double as court houses, town halls or other civic buildings. Shrines most often come in the form of tall, square pillars. Most often the outside of the shrine is covered in the legal code for the area, or is used as a prominent place to display edicts or decrees."
+      ],
+      "Relations with other Faiths": [
+        "The Cult of the Arbiter is widely accepted across the civilized world. Most organized societies have need for legal systems, judges and lawyers. This reliance on codified laws and systems means the cult often finds itself central to governing and people of sociopolitical importance. The followers of the Arbiter tend to view the world as a chaotic place in need of systems to control it. This makes the cult well regarded among peoples with natural proclivity towards order, such as dragonborn, dwarves, humans, and tieflings. In more chaotic societies, be it those who value strength or individual freedom, the cult is often viewed as a nuisance, seeking to impose rules where none are required.",
+
+        "The strongest bond is between the cults of the Arbiter and the Philosopher, who share common ideological and moral standing. While the cult of the Arbiter takes a strong interest in the physical world, the followers of Nevondria spend their time trying to order the chaotic madness of magic. In this way, the two cults divide up elements of the world which they find entropic.",
+
+        "The Cult of the Arbiter is can often be seen working closely with other cults of lawful deities, with whom they share many similarities. Together these cults form an organized theology of order. This does not, however, mean that they agree in all matters. In large scale issues, these cults often align, however in minor, inconsequential issues, they often find reasons to disagree on minor, mostly unimportant minutia.",
+        
+        "Followers of Kezolet often find followers of Bahamut too zealous in their desire to push moral teachings, and the faithful of Usterral too dedicated to personal improvement and crafting to the detriment of those around them. Though they are willing to work with followers of the Master, followers of the Arbiter often find Nessites too ambitious and self-serving to make long-standing partnerships work.",
+
+        "The cult finds its greatest opponents in the cults of the Tempest, the Shadow and the Fiend. These cults all follow dogma which advances ideals of personal freedom, strength and power at the cost of order and social unity. These aims directly conflict with and damage the Arbiter's philosophy of social structure. Generally, the cults do not come into physical conflict, with the followers of Kezolet preferring to undermine their opponents through legal and social means."
+      ]
     },
     "dmArticles": {
 
@@ -489,7 +526,7 @@
     ],
     "symbol": "Green wreath with red berries",
     "shrineImg": ["shrine-sage"],
-    "linkingWords": ["the Sage"],
+    "linkingWords": ["the Sage", "Herathī", "Herathi", "Herathi, the Sage"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","true neutral","nature","forests","rivers"],
     "description": [
@@ -509,7 +546,7 @@
       "Trickery",
       "Ambition"
     ],
-    "alignment": "",
+    "alignment": "Chatoic Neutral",
     "gender": "Masculine",
     "titles": [
       "The Night Stalker",
@@ -572,7 +609,7 @@
       
       "It is said tha the god of war has a pleasant, even jovial, demanor and is second, only to Jandivar, among the gods to partake in jest. It is said that he enjoys all that life has to offer, and encourages his followers to do so as well, for those that live by the sword die by it just as quickly.",
 
-      "Aegoroth's personal weapons are @+Jor`umoth+@, @*the Blazing Spear*@, a flaming longspear made of black iron, and @+Olmoraz+@, @*the Blade of Torment*@, a serrated broad sword made from the bones of Obscalyx, the great sea serpent, whom the Iron General slew in the ancient era of the First Convergence.",
+      "Aegoroth's personal weapons are @+Jor`umoth+@, @*the Blazing Spear*@, a flaming longspear made of black iron, and @+Olmoraz+@, @*the Blade of Torment*@, a serrated broad sword made from the bones of Obscalyx, the great sea serpent, whom the Iron General slew in the ancient era of the Mornaug Ragoth.",
 
       "As the embodiment of war, conflict and strife, the Conqueror is the patron of warlords, dictators and any who seek honor or status through marshal means. He is often worshiped alongside other deities, and the faithful see him as a figure of protection, albeit a harsh one. Military commanders and marshals of knightly orders will often invoke his name before the start of a battle in the hope he will bless their side of the conflict. Those who would \"do what needs to be done for the greater good\" falls under the Conqueror's mantle. Many of his clerical servants follow Aegeroth under the belief that it takes strong will and courage to make the world a better place even if the methods are grim.",
 
@@ -712,7 +749,11 @@
     "worshipers": [],
     "symbol": "Black ram's head",
     "shrineImg": ["shrine-master"],
-    "linkingWords": ["Asmodeus","the Master"],
+    "linkingWords": [
+      "Asmodeus",
+      "the Master",
+      "Nessites"
+    ],
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful evil","devils","contracts","ruler","overlord","hell"],
     "description": [

@@ -65,6 +65,46 @@
       "The @+Rise of the Withered King+@ was a centuries long series of events which lead to the Kingdom of Istagen falling under the inflence of the lich lord Shulxaa. Though manipulation, coercion, assassination and decades of planning, Shulxaa weakened the political elite of the kingdom, until the kingdom was no longer able to properly function without his influence. The lich operated for quite some time from the shadows as a puppet ruler before tossing away the ruse in 2C 1993, declaring himself the immortal king of Istagen."
     ]
   },
+  "Cosmic-Sundering": {
+    "playerKnown": false,
+    "path": "lore",
+    "name": "Cosmic Sundering",
+    "nickname": "Creation Myth",
+    "linkingWords": [
+      "sundering of reality",
+      "war in heaven"
+    ],
+    "dates": "unknown",
+    "type": "Epoch",
+    "tags": ["epoch","creation myth","planes","planar","war of the gods"],
+    "description": [
+      "The @+Cosmic Sundering+@, is the most widely accepted cosmic creation myth across the various cultures of Centhris. The earliest known account of the myth can be found in the Ziril'udórian tome of legends, known as the Darsam Thîkut."
+    ],
+    "articles": {
+      "Creation Myth": [
+        "According to the account in the @*Darsam Thîkut*@, the universe was initially a infinite, chaotic void known as Kisatnïr. In this void there dwelled an endless number of primordial entities known as the Angzak'ekur (referred to in @*Common*@ as the Obyrith). There then appeared a blinding spark, and after it the gods. The gods used the roiling, chaos of Kisatnïr to form the first realm of existence, known as Utharàm.",
+
+        "In this place, the gods built the divine city, the stronghold known as Tanrilar. The gods each then set upon adding elements of their own design to Utharàm:",
+
+        "From Anethos, the sun and sky.",
+        "From Nevondria, wisdom, thought and magic.",
+        "From Yelensa, the moons and stars.",
+        "From Ukrom, the clouds, sea and storms.",
+        "From Usterral, the earth, mountains and the deep places of the world.",
+        "From Herathī, the plants, animals and the first mortals.",
+
+        "@#The Sundering of Utharàm#@",
+
+        "However, the Angzak'ekur did not take kindly to the invasion of their realm by the gods and set their creations, the demons, upon Utharàm with great fury. The greatest of the demons, the Fiend, sundered the gods' creation, scattering it across the universe. As they separated, each piece of Utharàm formed its own realm of existence, completely cut off from the others.",
+        
+        "The gods, enraged by the destruction of their creation, engaged the primordials and their demonic servants in battle across the cosmos. For untold eons the sides remained locked in battle with no side gaining the upper hand. That is, until the arrival of the dragon twins, Bahamut and Tiamat. The gods, along with their new draconic allies,set upon the demonic hordes, driving them back to the mouth of the Burning Abyss, the twisting heart of all chaos in the cosmos. However, the gods and their servants, the deva, could not enter into the Abyss.",
+
+        "It was then that Asmodeus and Kezolet arrived in the Halls of Tanrilar. The two new gods offered a plan to reorganize the cosmos and contain the Angzak'ekur. @~Asmodeus~@ offered to build a new realm known as Gedor'Shash, the Nine Hells. He offered to stand guard against the eternal demonic threat, so long as he would be given command of an army with which to guard the Abyss. The gods agreed, offering him the souls of wicked or corrupt mortals to use in this fight.",
+        
+        "The Arbiter offered a plan to reorder the cosmos and connect the scattered realms of existence once again. Thus, the cosmos was arranged, though it could never be rejoined completely. At the center of this was the smallest shard of Utharàm, mortal realm, known as Centhris. It's reflections, the Feywild and the Shadowfell, would be moved close"
+      ]
+    }
+  },
   "Mornaug-Ragoth": {
     "playerKnown": true,
     "path": "lore",
@@ -75,7 +115,7 @@
     "type": "Epoch",
     "tags": ["Epoch","elementals","planes","planar"],
     "description": [
-      "The @+Mornaug Ragoth+@, more commonly referred to as the Age of Titans, was the first known epoch in the history of the world of Centhris. This ancient, mythical era was a time when the great primordials, titans and colossal beasts roamed across the world. The gods, still  ."
+      "The @+Mornaug Ragoth+@, more commonly referred to as the Age of Titans, was the first known epoch in the history of the world of Centhris. This ancient, mythical era was a time when great primordials, titans and colossal beasts still roamed across the world."
     ]
   },
   "The-First-Convergence": {

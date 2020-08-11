@@ -46,7 +46,7 @@ export default class WikiUtils {
     if ( Array.isArray(entryData) ) {
 
       entryData = entryData.map( (string, i) => {
-
+        
         // split the string by the @ marker to ensure proper replacements
         return string.split(/@(.*?)@/).map( (substr, j) => {
 
@@ -54,7 +54,7 @@ export default class WikiUtils {
           if ( /^\*(.*?)\*$/.test(substr) ) {
 
             substr = substr.replace(/\*/g,"");
-            substr = <i key={substr+j}>{substr}</i>;
+            substr = <em key={substr+j}>{substr}</em>;
 
           } else if ( /^~(.*?)~$/.test(substr) ) {
 
@@ -183,7 +183,7 @@ export default class WikiUtils {
                 let link = <Link className={linkName} key={`key-${j}-${string}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}`, state: "update"}}>{string}</Link>; 
 
                 if ( idLinks && idLinks.includes(string) ) link = <Link smooth key={`key-${j}-${string}`} to={ {pathname: `/${path}/${obj.name.replace(/\s/g,"-")}#${obj.idLinks[string]}`, state: "update"}}>{string}</Link>;
-                if ( obj.subcatLink ) link = <Link key={`key-${j}-${string}`} to={ {pathname: `/${obj.subcatLink}`, state: "update"}}>{string}</Link>;
+                if ( obj.subcatLink ) link = <Link className={linkName} key={`key-${j}-${string}`} to={ {pathname: `/${obj.subcatLink}`, state: "update"}}>{string}</Link>;
 
                 if ( !arrayCheck ) {
                   tempArray = this.replaceNestedValue(tempArray, string, link);
