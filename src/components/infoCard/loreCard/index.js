@@ -26,30 +26,63 @@ export default class LoreCard extends Component {
           <p className="infoCard__values">{entry.type}</p>
         </div>
         }
+
         { entry.alignment && 
           <div className="infoCard__row">
             <p className="infoCard__key">Alignment</p>
             <p className="infoCard__values">{entry.alignment}</p>
           </div>
         }
+
         { entry.trueName && 
           <div className="infoCard__row">
             <p className="infoCard__key">True Name</p>
             <p className="infoCard__values">{entry.trueName}</p>
           </div>
         }
+
+        { entry.parents && 
+          <div className="infoCard__row">
+            <p className="infoCard__key">Parents</p>
+            <p className="infoCard__values">{WikiUtils.linkContent(entry, entry.parents, {"paragraphName":"infoCard__entry", "linkName": "infoCard__link"}) }</p>
+          </div>
+        }
+
+        { entry.siblings && 
+          <div className="infoCard__row">
+            <p className="infoCard__key">Siblings</p>
+            <p className="infoCard__values">{WikiUtils.linkContent(entry, entry.siblings, {"paragraphName":"infoCard__entry", "linkName": "infoCard__link"}) }</p>
+          </div>
+        }
+
+        { entry.consorts && 
+          <div className="infoCard__row">
+            <p className="infoCard__key">Consorts</p>
+            <p className="infoCard__values">{WikiUtils.linkContent(entry, entry.consorts, {"paragraphName":"infoCard__entry", "linkName": "infoCard__link"}) }</p>
+          </div>
+        }
+
+        { entry.children && 
+          <div className="infoCard__row">
+            <p className="infoCard__key">Children</p>
+            <p className="infoCard__values">{WikiUtils.linkContent(entry, entry.children, {"paragraphName":"infoCard__entry", "linkName": "infoCard__link"}) }</p>
+          </div>
+        }
+
         { entry.gender && 
           <div className="infoCard__row">
             <p className="infoCard__key">Gender</p>
             <p className="infoCard__values">{entry.gender}</p>
           </div>
         }
+
         { entry.symbol && 
           <div className="infoCard__row">
             <p className="infoCard__key">Symbol(s)</p>
             <p className="infoCard__values">{entry.symbol}</p>
           </div>
         }
+
         { entry.portfolio && 
           <div className="infoCard__row">
             <p className="infoCard__key">Portfolio</p>
@@ -80,13 +113,16 @@ export default class LoreCard extends Component {
             </ul>
           </div>
         }
-        { entry.type !== "Ship" && entry.class &&
-          <div className="infoCard__row">
-            <p className="infoCard__key">Class</p>
-            <div className="infoCard__values">
-              {WikiUtils.linkContent(entry, entry.class, {"paragraphName":"infoCard__entry", "linkName": "infoCard__link"}) }
-            </div>
-          </div>
+
+        { entry.shrineImg && 
+          entry.shrineImg.map( src => {
+            return (
+              <div key={entry.name} className="infoCard__altImg">
+                <p className="infoCard__key">Shrine</p>
+                <img alt="" className="infoCard__bonusImg" src={ getImgPath(src, entry) }/>
+              </div>
+            )
+          })
         }
 
         {/* WEAPON RELATED */}
@@ -132,6 +168,15 @@ export default class LoreCard extends Component {
             <div className="infoCard__values">entry.speed</div>
           </div>
         }
+        
+        { entry.type !== "Ship" && entry.class &&
+          <div className="infoCard__row">
+            <p className="infoCard__key">Class</p>
+            <div className="infoCard__values">
+              {WikiUtils.linkContent(entry, entry.class, {"paragraphName":"infoCard__entry", "linkName": "infoCard__link"}) }
+            </div>
+          </div>
+        }
 
         {/* CALENDAR EVENTS & RELATED */}
 
@@ -154,16 +199,6 @@ export default class LoreCard extends Component {
               { WikiUtils.linkContent(entry, entry.associations, {"paragraphName":"infoCard__entry", "linkName": "infoCard__link"}) }
             </div>
           </div>
-        }
-        { entry.shrineImg && 
-          entry.shrineImg.map( src => {
-            return (
-              <div key={entry.name} className="infoCard__altImg">
-                <p className="infoCard__key">Shrine</p>
-                <img alt="" className="infoCard__bonusImg" src={ getImgPath(src, entry) }/>
-              </div>
-            )
-          })
         }
       </React.Fragment>
     )

@@ -14,10 +14,20 @@ class Cosmos extends Component {
   constructor (props) {
     super(props);
 
-    const planes = Object.keys(DataLoader.places).filter( place => DataLoader.places[place].type === "Plane" );
+    const dmView = localStorage.getItem('dmView') === 'true';
+
+    const planes = Object.keys(DataLoader.places).filter( place => {
+      const placeData = DataLoader.places[place];
+      if (placeData.type === "Plane") {
+        if ( dmView || placeData.playerKnown === true ) {
+          return true;
+        }
+      }
+      return false;
+    });
 
     this.state = {
-      dmView: localStorage.getItem('dmView') === 'true',
+      dmView: dmView,
       planes: planes,
       articleContent: DataLoader.all["Cosmos"]
     }
@@ -30,11 +40,11 @@ class Cosmos extends Component {
     const numberOfArticles = Object.keys(this.state.planes).length;
 
     return (
-      <Page.Article>
+      <Page.CategoryArticle>
         <TitleComponent title={`The Cosmos - Centhris Wiki`} />
         <Back/>
 
-        <h2 className="fullName">The Cosmos</h2>
+        <h1 className="article__heading">The Cosmos</h1>
         <div style={{
           display: "block",
           height:"100px",
@@ -46,24 +56,28 @@ class Cosmos extends Component {
 
         }}></div>
         
-        { 
-          WikiUtils.linkContent(this.state.articleContent, WikiUtils.textFormatting( this.state.articleContent.description) )
-        }
+        <article className="article">
+          <section className="article__content">
+            { 
+              WikiUtils.linkContent(this.state.articleContent, WikiUtils.textFormatting( this.state.articleContent.description), {"paragraphName": "article__paragraph", "linkName": "article__link"} )
+            }
+          </section>
+        </article>
         
-        <div id="categories" className="columns" style={{marginTop: "3em"}}>
-          <h2 className="sectionTitle">The Known Planes <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
-          <ul className="sectionList">
+        <div className="category" style={{marginTop: "3em"}}>
+          <h2 className="category__subheading">The Known Planes <small>({numberOfArticles} { (numberOfArticles > 1 || numberOfArticles === 0) ? "Entries" : "Entry"})</small></h2>
+          <ul className="category__list">
             {this.getPlanes(this.state.planes)}
           </ul>
         </div>
-      </Page.Article>
+      </Page.CategoryArticle>
     );
   }
 
   getPlanes (planes) {
     return planes.sort().map( plane => {     
       return (
-        <ListItem key={DataLoader.places[plane].name} entry={ DataLoader.places[plane] } imgStyle="portrait" />
+        <ListItem key={DataLoader.places[plane].name} entry={ DataLoader.places[plane] } imgStyle="" />
       )
     });
   }

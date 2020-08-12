@@ -97,7 +97,7 @@
     "path": "player-character",
     "tags": ["adventurer","half-elf","bard","player","the Lost Shields"],
     "name": "Matthias",
-    "nickname": "Mate",
+    "nickname": "Matthias",
     "party": "Lost Shields",
     "race": "Half-Elf",
     "age": "34",
@@ -109,7 +109,7 @@
     "player": "Andy",
     "affiliations": ["Korasov"],
     "description": [
-      "@+Matthias+@ is an aspiring bard from the city of Korasov. Well known in the former kingdom of Azond, now Navolin, under the stage name \"Mate\", he has penned numerous well known songs and poems, such as \"The Last King of Azond\" and \"The Lady of Korasov\".",
+      "@+Matthias+@, known to his friends as @*Mate*@, is an aspiring bard from the city of Korasov. Well known in the former kingdom of Azond, now Navolin, under the stage name \"Mate\", he has penned numerous well known songs and poems, such as \"The Last King of Azond\" and \"The Lady of Korasov\".",
       "Looking to expand his renown, Mate began traveling around the Barrier Coast looking for inspiration for his work. He decided on a whim to travel to the pirate haven of Duskreef, hoping to write a fantastic ballad about star-crossed, pirate lovers. Finding passage on the Elusive Revenge, under the command of Captain Terrowin Drynn, he traveled to @~Duskreef~@, where he spent several weeks in town listening to pirate stories and playing in the local pubs.",
       "After some time, Mate decided it was time to return to the mainland and find more inspiration. While waiting for the Elusive Revenge to set off, a new set of passengers arrived, looking to head back as well. After a discussion with the Lost Shields, he offered to join their group as a way to tell their story and improve their renown as adventurers."
     ]

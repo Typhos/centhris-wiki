@@ -4,6 +4,7 @@
   display: none;
 }
 
+
 // DESKTOP
 @media all and (min-width: $breakpoint-mobile) {
   nav {
@@ -164,7 +165,21 @@
       }
     }
   }
+
   
+  .darkMode {
+    .desktopNav {
+      border-top: 1px solid $moodGreen;
+      border-bottom: 1px solid $moodGreen;
+      color: $lightText;
+      background-color: rgba($white, 0.1);
+
+      .menuButton {
+        color: inherit;
+      }
+    }
+  }
+    
   .mobileSearch {
     display: none;
   }

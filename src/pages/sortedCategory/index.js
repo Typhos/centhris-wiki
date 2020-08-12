@@ -3,7 +3,6 @@ import { TitleComponent } from 'components/titleComponent.js';
 
 import Page from 'components/page';
 import Back from 'components/back';
-import Filter from 'components/filter';
 import ListItem from 'components/categories/listItem';
 import DataLoader from 'components/utils/dataLoader';
 

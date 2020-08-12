@@ -5,6 +5,11 @@
     "name": "The Guardian",
     "nickname": "Bahamut, the Guardian",
     "trueName": "Bahamut",
+    "parents": "",
+    "siblings": "",
+    "consorts": "",
+    "children": "",
+    "epithets": [],
     "portfolio": [
       "Life",
       "Order",
@@ -37,33 +42,41 @@
         "The Guardian is said to be proud beyond reproach. His canon states that pride is necessary for any creature to be magnanimous; one has to believe in standards for themselves, and strive to surpass them, before standards can be applied to others. Many followers adhere to this ideal, often resulting other viewing his church as haughty and aloof."
     ],
     "articles": {
-        "Dogma": [
-          "The Guardian's dogma was based on justice, nobility, protection, and honor. His church teaches its followers to always uphold the highest ideals of honor and justice; to be constantly vigilant against evil and to oppose it from all fronts; and to protect the weak, liberate the oppressed, and defend just order. The Guardian is said to advocate a 'greater justice' that includes fighting against evil and toppling oppressive regimes. The church also is keen to reward strength of purpose and character in his followers.",
-          "The Church of the Guardian holds a strong central structure and canon which includes the @*Leges Aequitatis*@. Each church of the Celestial Dragon contains a central pillar, shrine or statue of the Dragon King which displays the church's code. Every follower of the church of the Guardian, and most people with a passing knowledge of religious rites are able to recite it. The major tenants of the Leges Aequitatis are:",
-          "@*Justice, virtue and good above all.*@",
-          "@*Honor and fealty to just lords.*@",
-          "@*Honor and protect the righteous innocence.*@",
-          "@*Seek out and correct the enemies of justice and good.*@",
-          "@*Honor and forbearance for oneself.*@"
-        ],
-        "Righteous Dignity": [
-          "The canon law of the Guardian expressly disapproves of zealotry. The Church of the Guardian holds itself to the ideals of its patron, but does not seek to actively spread or force its beliefs upon others. Instead, the church seeks to hold itself up as an ideal that others might strive to meet.",
-          "While the followers of the Guardian do not overtly proselytize or attempt to convert followers, many have been swayed to the Celestial Dragon's church through his followers' selfless acts and example."
-        ],
-        "Valiant Knights": [
-          "The Church of the Guardian teaches its followers that the truest communion with their god is through active expressions of bravery, heroism and self sacrifice. Young men and women called to his service often travel Centhris seeking to do good in his name. These Paladins and Clerics are collectively known as Valiant Knights or Valiants. Many of these followers actively seek to root out evil and defend those who cannot defend themselves, and many are willing to make the ultimate sacrifice in the name of their patron.",
-          "The Valiant Knights are generally revered by the common folk of Centhris. They are seen as protectors, champions and paragons of good. Questing knights and clerics of the Guardian are regularly welcomed into peasant homes, and provided with food and a place to rest. Occasionally, charlatans will masquerade as Valiants, duping a desperate or ignorant populace. Such acts are regarded as an affront to the the Platinum Dragon and his true servants are charged with seeking out and dispensing justice to any who would sully their gods name.",
-          "The Valiants also have earned a reputation for being dragon slayers, or dragon knights. The church actively opposes the activities of chromatic dragons on Centhris and his followers are keenly aware that if they do not remain vigilant, the powerful servants of the Wyrm could bring ruin upon the Prime Materium."
-        ],
-        "Relations with other Faiths": [
-          "While the Church of the Guardian and its followers are revered by the common folk, followers of other gods and those of station tend to find the church cumbersome. The ideals of the Celestial Dragon are lofty, they do not match the reality of the world around them. The followers of the Guardian tend to view the world in black and white, while most others understand that the world is, in fact, a wide spectrum of morally gray choices.",
-          "The followers and churches of some other deities maintain good relations with the Church of the Guardian. The churches of the Maker, the Arbiter and the Tempest have varying degrees of interaction with the followers of the Guardian. Though none of these followers see completely eye to eye, they all understand that they stand as a common bloc against others that might threaten the safety, order and dignity of the societies their patrons guard. The church and the Cult of the Champion often overlap in times of war, as soldiers venerate the Champion while also embracing the protection of the Guardian. Faithful of the Guardian find those who follow Isilena to be keen allies, but often differ on what motivates their actions, as the followers of Bahamut wish to instill order, while heroes of the Champion focus on doing good regardless of its effect on the order of the world.",
+      "Epithets": [
+        "Aside from local epithets that simply designated the deity as doing something at some particular place, the epithets or titles applied to Bahamut emphasized different aspects of his authority:",
 
-          "The Church of the Guardian canon demands the seeking and directly opposition of the acts of, though not the existence of, the churches of the Wyrm, the Stygian and the Fiend. Other evil gods and their cults are viewed with suspicion, but their aims only occasionally require direct intervention from the Valiants, and the champions of the Guardian do not actively seek out their members."
-        ],
-        "Divine Realm": [
-          "The Guardian's Hall is said to be a sight to behold. High atop the heavens, it stands as a massive palace, the exterior plated with platinum, reflecting the light of heaven like a impossibly bright lighthouse. Inside of the marble halls of dragon god's home, many exotic materials can be found: precious metals, astral ivory and gemstones of incredible size decorate windows and mithral walls. This is not just for vanity: the Celestial Dragon's gigantic palace is said to serve as remind the other gods of the Guardian's might, and on a more basic level, it also serves as his hoard. It is here, atop the Divine Lighthouse that he holds court, deals with other deities and beings of near similar power, and passes judgment on the wicked."
-        ]
+        "• @+Bahamut Praestes+@: Bahamut the defender of mortals.",
+        "• @+Bahamut Viritualis+@: Bahamut the virtuous, paragon of the chivalric code. Patron of errant knights and holy champions.",
+        "• @+Bahamut Taslionus+@: Bahamut as the god-king of metallic dragons. Patron to his children.",
+        "• @+Bahamut Honoratus+@: Bahamut the honorable. He who is without reproach."
+      ],
+      "Dogma": [
+        "The Church of the Guardian's dogma is based on justice, nobility, protection, and honor. His church teaches its followers to always uphold the highest ideals of honor and justice; to be constantly vigilant against evil and to oppose it from all fronts; and to protect the weak, liberate the oppressed, and defend just order. The Guardian is said to advocate a 'greater justice' that includes fighting against evil and toppling oppressive regimes. The church also is keen to reward strength of purpose and character in his followers.",
+        "The Church of the Guardian holds a strong central structure and canon which includes the @*Leges Aequitatis*@. Each church of the Celestial Dragon contains a central pillar, shrine or statue of the Dragon King which displays the church's code. Every follower of the church of the Guardian, and most people with a passing knowledge of religious rites are able to recite it. The major tenants of the Leges Aequitatis are:",
+        "@*Justice, virtue and good above all.*@",
+        "@*Honor and fealty to just lords.*@",
+        "@*Honor and protect the righteous innocence.*@",
+        "@*Seek out and correct the enemies of justice and good.*@",
+        "@*Honor and forbearance for oneself.*@"
+      ],
+      "Righteous Dignity": [
+        "The canon law of the Guardian expressly disapproves of zealotry. The Church of the Guardian holds itself to the ideals of its patron, but does not seek to actively spread or force its beliefs upon others. Instead, the church seeks to hold itself up as an ideal that others might strive to meet.",
+        "While the followers of the Guardian do not overtly proselytize or attempt to convert followers, many have been swayed to the Celestial Dragon's church through his followers' selfless acts and example."
+      ],
+      "Valiant Knights": [
+        "The Church of the Guardian teaches its followers that the truest communion with their god is through active expressions of bravery, heroism and self sacrifice. Young men and women called to his service often travel Centhris seeking to do good in his name. These Paladins and Clerics are collectively known as Valiant Knights or Valiants. Many of these followers actively seek to root out evil and defend those who cannot defend themselves, and many are willing to make the ultimate sacrifice in the name of their patron.",
+        "The Valiant Knights are generally revered by the common folk of Centhris. They are seen as protectors, champions and paragons of good. Questing knights and clerics of the Guardian are regularly welcomed into peasant homes, and provided with food and a place to rest. Occasionally, charlatans will masquerade as Valiants, duping a desperate or ignorant populace. Such acts are regarded as an affront to the the Platinum Dragon and his true servants are charged with seeking out and dispensing justice to any who would sully their gods name.",
+        "The Valiants also have earned a reputation for being dragon slayers, or dragon knights. The church actively opposes the activities of chromatic dragons on Centhris and his followers are keenly aware that if they do not remain vigilant, the powerful servants of the Wyrm could bring ruin upon the Prime Materium."
+      ],
+      "Relations with other Faiths": [
+        "While the Church of the Guardian and its followers are revered by the common folk, followers of other gods and those of station tend to find the church cumbersome. The ideals of the Celestial Dragon are lofty, they do not match the reality of the world around them. The followers of the Guardian tend to view the world in black and white, while most others understand that the world is, in fact, a wide spectrum of morally gray choices.",
+        "The followers and churches of some other deities maintain good relations with the Church of the Guardian. The churches of the Maker, the Arbiter and the Tempest have varying degrees of interaction with the followers of the Guardian. Though none of these followers see completely eye to eye, they all understand that they stand as a common bloc against others that might threaten the safety, order and dignity of the societies their patrons guard. The church and the Cult of the Champion often overlap in times of war, as soldiers venerate the Champion while also embracing the protection of the Guardian. Faithful of the Guardian find those who follow Isilena to be keen allies, but often differ on what motivates their actions, as the followers of Bahamut wish to instill order, while heroes of the Champion focus on doing good regardless of its effect on the order of the world.",
+
+        "The Church of the Guardian canon demands the seeking and directly opposition of the acts of, though not the existence of, the churches of the Wyrm, the Stygian and the Fiend. Other evil gods and their cults are viewed with suspicion, but their aims only occasionally require direct intervention from the Valiants, and the champions of the Guardian do not actively seek out their members."
+      ],
+      "Divine Realm": [
+        "The Guardian's Hall is said to be a sight to behold. High atop the heavens, it stands as a massive palace, the exterior plated with platinum, reflecting the light of heaven like a impossibly bright lighthouse. Inside of the marble halls of dragon god's home, many exotic materials can be found: precious metals, astral ivory and gemstones of incredible size decorate windows and mithral walls. This is not just for vanity: the Celestial Dragon's gigantic palace is said to serve as remind the other gods of the Guardian's might, and on a more basic level, it also serves as his hoard. It is here, atop the Divine Lighthouse that he holds court, deals with other deities and beings of near similar power, and passes judgment on the wicked."
+      ]
     }
   },
   "The-Eternal": {
@@ -72,6 +85,11 @@
     "name": "The Eternal",
     "nickname": "Anethos, the Eternal",
     "trueName": "Anethos",
+    "parents": "",
+    "siblings": "",
+    "consorts": "",
+    "children": "",
+    "epithets": [],
     "portfolio": [
       "Life",
       "Light",
@@ -98,11 +116,11 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","neutral good","Life","Light","Rebirth","Glory"],
     "description": [
-      "Anethos, the @+Eternal+@, is one of the most significant deities in the Centhrian Pantheon. Though he goes by many names and epithets across cultures, his primary role is always as the god of the sun, and most often he rules the pantheon as king of the gods.",
+      "Anethos, the @+Eternal+@, is one of the most significant deities in the Centhrian Pantheon. @~Though he goes by many names and epithets across cultures, his primary role is always as the god of the sun. In most cultural interpretations of the pantheon he is also placed in the role of patriarch and king of the gods.~@",
 
-      "The Eternal is generally depicted as a tall humanoid in golden armor wearing a crown of sunbeams. In some cultures the crown is replaced by a golden mask which radiates sunlight. Anethos is frequently depicted by artists in one of two poses: standing upon a single wheeled chariot pulled by four Aaghoda, celestial horses with flaming manes, or seated in majesty.",
+      "The Eternal is generally depicted as a tall humanoid in golden armor wearing a crown of sunbeams. In some cults the crown is replaced by a golden mask which radiates sunlight. Anethos is frequently depicted by artists in one of two poses: standing upon a single wheeled chariot pulled by seven Aaghoda, celestial horses with flaming manes, or seated in majesty.",
 
-      "Anethos is the child of the elder titans Zaman, the lord of time, and Shatana, the matron of reality.  In most traditions he is married to Nevondria, the Philosopher, by whom he is said to have fathered Aegeroth, Herathī, Isilena and Yelensa."
+      "Anethos is the child of the elder titans Zaman, the lord of time, and Shatana, the matron of reality.  In most traditions he is married to Nevondria, by whom he is said to have fathered Aegeroth, Herathī, Isilena and Yelensa."
     ],
     "articles": {
       "Epithets": [
@@ -113,6 +131,14 @@
         "• @+Anethos Eteret+@: Anethos as the sky rider and lord of the heavens, often associated with astrological and meteorological events.",
         "• @+Anethos Inochos+@: Anethos the lord of charioteers, horsemen and carriage drivers. In many cultures that favor a tradition of riding or chariot racing, he is invoked before a race."
       ],
+      "Cults of the Eternal": [
+        "As one of the most important deities across all of Centhris, the Eternal has the largest number, and widest variety of cults which venerate him. Most often cults which include Anethos do so as part of their worship of the Centhrian pantheon as a whole, or specific subsets of the gods.",
+
+        "@#Monotheism#@",        
+        "In a strange deviation from the standard worship of the gods, there are some places in the world which view Anethos as not a member of a pantheon, but instead as a single, monotheistic deity whose might manifests in numerous consubstantial persons, or hypostasis. These monotheists argue as part of their faith that the power of the sun god is nearly infinite, and the mortal mind are incapable of comprehending the supreme cosmic power of this singular deity, referred to as @+Anethos Solum+@."
+      ]
+    },
+    "dmArticles": {
       "Dogma": [],
       "Relations with other Faiths": [],
       "Divine Realm": []
@@ -124,6 +150,11 @@
     "name": "The Maker",
     "nickname": "Usterral, the Maker",
     "trueName": "Usterral",
+    "parents": "",
+    "siblings": "",
+    "consorts": "",
+    "children": "",
+    "epithets": [],
     "portfolio": [
       "Forge",
       "Order",
@@ -160,6 +191,11 @@
     "nickname": "Isilena, the Champion",
     "linkingWords": ["Isilena","the Champion"],
     "trueName": "Isilena",
+    "parents": "Anethos and Nevondria",
+    "siblings": "Aegeroth, Herathi, Malendra, Ukrom",
+    "consorts": "",
+    "children": "",
+    "epithets": [],
     "portfolio": [
       "Strength",
       "War",
@@ -214,6 +250,16 @@
     "name": "The Arbiter",
     "nickname": "Kezolet, the Arbiter",
     "trueName": "Kezolet",
+    "parents": "",
+    "siblings": "",
+    "consorts": "",
+    "children": "",
+    "epithets": [
+      "Kezolet Nomikos",
+      "Kezolet Dekastis",
+      "Kezolet Tekniker",
+      "Kezolet Igemonas"
+    ],
     "portfolio": [
       "Order",
       "Knowledge",
@@ -240,17 +286,32 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful neutral","Knowledge","Civilization","Law"],
     "description": [
-      "Kezolet, @+the Arbiter+@, is depicted as a graceful, otherworldly figure clad in robes and ornamental jewelry. The Arbiter is generally portrayed as having an inhuman form, possibly with multiple sets of arms, a face devoid of features or a featureless mask obscuring their visage. They are depicted with as a tranquil god, serene and detached; not allowing outside forces effect sway their judgments. They embody the ideals of civilized order, including law, order, construction, roads and the crafting of items used in everyday life, such as glassware, pottery, leather work, and jewelry.",
+      "Kezolet, @+the Arbiter+@, is depicted as a graceful, otherworldly figure clad in robes and ornamental jewelry. The Arbiter is generally portrayed as having an inhuman form, possibly with multiple sets of arms, a face devoid of features or a featureless mask obscuring their visage. They are depicted with as a tranquil god, serene and detached; not allowing outside forces effect sway their judgments. They embody the ideals of civilization, including law, order, construction, roads and the crafting of items used in everyday life, such as glassware, pottery, leather work, and jewelry.",
 
-      "Along side their connection to civilization and construction, believe and adherence to the teachings of Kezolet often fall into the ethical sphere. The word @*kezolar*@ is a common noun meaning \"contract, covenant or treaty\". Thus, the Arbiter is the god of agreements between people. Breaking such agreements is said to be subject to severe punishment whether the agreement was made between individuals or sociopolitical entities. In this capacity he is said to intervene on behalf of those faithful to treaties by subjecting oathbreakers to panic and defeat."
+      "Along side their connection to civilization and construction, believe and adherence to the teachings of Kezolet often fall into the ethical sphere. The word @*kezolar*@ is a common noun meaning \"contract, covenant or treaty\". Thus, the Arbiter is the god of agreements between people. Breaking such agreements is said to be subject to severe punishment whether the agreement was made between individuals or sociopolitical entities. In this capacity they are said to intervene on behalf of those faithful to treaties by subjecting oathbreakers to panic and defeat."
     ],
     "articles": {
       "Origins": [
         "Unlike much of the Centhrian pantheon, the Arbiter is not a direct relation to the Eternal, the Philosopher or the Maker. Some believe, much like with the Guardian and the Dragon Below, the cult of Kezolet was integrated from older, forgotten faiths.",
         "Some mages and cosmic scholars have argued that the Arbiter is not a traditional god at all, but instead one of the last remaining Titans from the Mornaug Ragoth. If this is indeed the case, it raises questions as to why the other gods did not destroy Kezolet along with the other primordials, titans and aberrations during the Cosmic Sundering."
       ],
+      "Epithets": [
+        "Aside from local epithets that simply designated the deity as doing something at some particular place, the epithets or titles applied to Kezolet emphasized different aspects of their authority:",
+
+        "• @+Kezolet Nomikos+@: Kezolet the divine advocate and patron of lawyers.",
+        "• @+Kezolet Dekastis+@: Kezolet as the supreme judge and arbiter of divine and mortal disputes.",
+        "• @+Kezolet Tekniker+@: Kezolet as the architect of the cosmos and patron of engineers.",
+        "• @+Kezolet Igemonas+@: Kezolet as the patron of sovereign nations and governments."
+      ],
       "Dogma": [
+        "The dogma of the Cult of the Arbiter is based on what its followers consider universal concepts of knowledge, order and justice without the trappings of moral bindings. To those who follow Kezolet, the endless search for order and justice means one must do away with false concepts like \"good\" and \"evil\". True justice is not about revenge, nor mercy. It is punishment, redemption or repayment for sins committed. True knowledge means learning all that can be known, regardless of wether it @*might*@ be used for good or evil intentions in the future.",
+
+        "As expected of a cult following a supreme being of order, the faithful of the Arbiter maintain a rigid canon of laws. These laws are always relative to the civilization in which each cult presides. A codex on the walls of a court in Sennhoff would display wildly different laws than those posted on a minister's manor in Daotian. The universals across all cults are as follows:",
         
+        "@*Without civilization and social order, there is only chaos.*@",
+        "@*Laws are to be followed regardless of your moral impression of them.*@",
+        "@*If a law is unjust, it can be changed, but never ignored.*@",
+        "@*A society that does not know its laws cannot follow them. Teach the law so others can adhere to it.*@"
       ],
       "Cult, Temples and Shrines": [
         "The Cult of the Arbiter is one of the most wide-spread across Centhris, due both to the god's patronage of civilization itself, but also due to the practical matter of the need for laws in organized society. In more chaotic societies, such as tribes of orcs or bands of savage giants, the role of the Arbiter is often supplanted by the worship of the Tempest. Their cult is often associated with legal systems, civil infrastructure and fortifications. Many clerics of the Arbiter are skilled engineers or legal scholars. ",
@@ -264,9 +325,13 @@
 
         "The Cult of the Arbiter is can often be seen working closely with other cults of lawful deities, with whom they share many similarities. Together these cults form an organized theology of order. This does not, however, mean that they agree in all matters. In large scale issues, these cults often align, however in minor, inconsequential issues, they often find reasons to disagree on minor, mostly unimportant minutia.",
         
-        "Followers of Kezolet often find followers of Bahamut too zealous in their desire to push moral teachings, and the faithful of Usterral too dedicated to personal improvement and crafting to the detriment of those around them. Though they are willing to work with followers of the Master, followers of the Arbiter often find Nessites too ambitious and self-serving to make long-standing partnerships work.",
+        "Followers of Kezolet often find followers of Bahamut too eager to place moral judgments, and the faithful of Usterral too dedicated to personal improvement and crafting to the detriment of those around them. Though they are willing to work with followers of the Master, the cultists of the Arbiter often find Nessites too ambitious and self-serving to make long-standing partnerships work.",
 
         "The cult finds its greatest opponents in the cults of the Tempest, the Shadow and the Fiend. These cults all follow dogma which advances ideals of personal freedom, strength and power at the cost of order and social unity. These aims directly conflict with and damage the Arbiter's philosophy of social structure. Generally, the cults do not come into physical conflict, with the followers of Kezolet preferring to undermine their opponents through legal and social means."
+      ],
+      "Divine Realm": [
+        "The Arbiter is believed to reside in a hallowed courthouse known as the @*Meharun Aangan*@ in the realm of Mechanus. The great courthouse is said to resemble an impossibly ornate complex of white marble decorated with obsidian ornamentation. From here, the Arbiter's divine servants, devas and strange beings known as modrons keep record of all events in the cosmos, great and small.",
+        "When called upon by their divine counterparts, Kezolet travels to Tanrilar to act in the role of divine mediator and judge."
       ]
     },
     "dmArticles": {
@@ -279,6 +344,11 @@
     "name": "The Maiden",
     "nickname": "Yelensa, the Maiden",
     "trueName": "Yelensa",
+    "parents": "Herathi and Ukrom",
+    "siblings": "Dhynir, Jandivar, Veluria",
+    "consorts": "",
+    "children": "",
+    "epithets": [],
     "portfolio": [
       "Light",
       "Nature",
@@ -287,9 +357,9 @@
     "alignment": "Chaotic Good",
     "gender": "Feminine",
     "titles": [
-      "The Dreamweaver",
+      "Dreamweaver",
       "Mother of the Three",
-      "The Night Maiden"
+      "Night Sky"
     ],
     "worshipers": [
       "female spellcasters",
@@ -303,11 +373,34 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic good","chaos","moons","nature","arcana","magic","light"],
     "description": [
-      "@+The Maiden+@, Yelensa, is most often depicted as a young, pale, beautiful woman with dark hair. Every culture tends to depict Yelensa slightly differently, depending on their own interpretation of how a young woman should dress and act. She is the patron of the mariners and night watchmen. Many female spellcasters, good and neutral lycanthropes also worship her as their patron deity. She is the keeper of the Three Sisters and is referred to as the Mother of the Three. She is said to appear to lost or weary souls on nights when Idrothea, the Amber Moon, is full, offering guidance and comfort. As the patron of the moons of Centhris, the Maiden is associated with the tides of the oceans of the world, as well as with the night sky. She is seen as the keeper of other celestial gods, such as the Stellar Wolf and the Shimmering Sky.",
-      "Clerics of the Dreamweaver are dedicated to shedding light in dark places. In towns and cities, temples to the Maiden are often lighthouses or watchtowers that are lit as beacons. In the wilderness, disciples of Yelensa will establish watchtowers or outposts to act as safe places to rest for the evening and guard against dangerous creatures. In some parts of the world, lycanthropy is considerd the goddess' blessing and some radical sects will spread lycanthropy among their members, or seek out less vicious forms of lycanthropy to prove their dedication to the goddess."
+      "@+The Maiden+@, Yelensa, is the goddess of the moons, nature and wild magic, in addition to her role as a greater deity. She is the daughter of Herathi and Ukrom and the sister to Dhynir, Jandivar, and Veluria. She is the patron of the mariners and night watchmen. Many female spellcasters, good and neutral lycanthropes also worship her as their patron deity.",
+      
+      "She is the keeper of the Three Sisters and is referred to as the Mother of the Three. She is said to appear to lost or weary souls on nights when Idrothea, the Amber Moon, is full, offering guidance and comfort. As the patron of the moons of Centhris, the Maiden is associated with the tides of the oceans of the world, as well as with the night sky. She is seen as the keeper of other celestial entities, such as the Stellar Wolf and the Shimmering Sky.",
+      
+      "She is most often depicted as a young, beautiful woman with long hair. In many cultures she is depicted as having pale skin, much like that of the amber moon, and hair as dark as the night sky. Every culture tends to depict Yelensa slightly differently, depending on their own interpretation of how a young woman should dress and act."
     ],
     "articles": {
+      "Epithets": [
+        "Aside from local epithets that simply designated the deity as doing something at some particular place, the epithets or titles applied to Yelensa emphasized different aspects of her divine portfolio:",
+        
+        "• @+Yelensa Arcindos+@: Yelensa as font of untamed magic, patron of chaotic spellcasters, bards, paladins and sorcerers.",
+        "• @+Yelensa Fáros+@: Yelensa as the torcher bearer, patron of watchmen and those who guard against threats in dark places.",
+        "• @+Yelensa Trenária+@: Yelensa as the mother of the three moons. Those inflicted with the curse of lycanthropy often call upon her for aid in their plight."
+      ],
+      "Cults of the Maiden": [
+        "Yelensa is a popular goddess among common folk due to her cults' active interest in watching over people in dangerous places. She is also reguarly in the thoughts of anyone who looks upon the moons in the night sky, for they serve as a constant reminder of the goddess' presence, as well as her cults' message of safe passage, light and safety.",
 
+        "@#Cult of the Night Sky#@",
+        "The Cult of the Night Sky is a widespread cult dedicated to shedding light in dark places. In towns and cities, temples to the Maiden are often lighthouses or watchtowers that are lit as beacons. In the wilderness, disciples of Yelensa will establish watchtowers or outposts to act as safe places to rest for the evening and guard against dangerous creatures. In some parts of the world, lycanthropy is considerd the goddess' blessing and some radical sects will spread lycanthropy among their members, or seek out less vicious forms of lycanthropy to prove their dedication to the goddess."
+      ]
+    },
+    "dmArticles": {
+      "Icons, Shrines and Temples": [
+      ],
+      "Dogma": [
+      ],
+      "Relations with other Faiths": [
+      ]
     }
   },
   "The-Wanderer": {
@@ -316,6 +409,11 @@
     "name": "The Wanderer",
     "nickname": "Dhynir, the Wanderer",
     "trueName": "Dhynir",
+    "parents": "Ukrom and Herathi",
+    "siblings": "Jandivar, Veluria, Yelensa",
+    "consorts": "",
+    "children": "",
+    "epithets": [],
     "portfolio": [
       "Trickery",
       "Ambition"
@@ -325,7 +423,7 @@
     "titles": [
       "Cloaked Companion",
       "Merchant's Friend",
-      "the Cloaked Rider"
+      "Pale Rider"
     ],
     "worshipers": [
       "merchants",
@@ -339,7 +437,7 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","true neutral","money","rider","traveler"],
     "description": [
-
+      "@+The Wanderer+@, Dhynir, is a patron deity of travelers, merchants, pilgrims and smugglers."
     ],
     "articles": {
 
@@ -351,6 +449,12 @@
     "name": "The Harlequin",
     "nickname": "Jandivar, the Harlequin",
     "trueName": "Jandivar",
+    "linkingWords": ["Jandivar","God of Many Faces","the Harlequin"],
+    "parents": "Ukrom and Ethysha",
+    "siblings": "Dhynir, Veluria, Yelensa",
+    "consorts": "",
+    "children": "",
+    "epithets": [],
     "portfolio": [
       "Trickery",
       "Knowledge"
@@ -372,7 +476,6 @@
     ],
     "symbol": "Masquerade mask",
     "shrineImg": ["shrine-harlequin"],
-    "linkingWords": ["Jandivar","God of Many Faces","the Harlequin"],
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic neutral","chaos","bards","music","jester","masquerade"],
     "description": [
@@ -382,6 +485,14 @@
     "articles": {
       "Many Faces of the Harlequin": [
         "It is said that the Harlequin has as many masks as there are roles to be played. Each of the aspects of the god are said to have their own mask and the mercurial god switches between mask as it suits them. The masquerade mask for subtle deception, the theater masks of comedy and tragedy, the expressionless, stoic mask for keeping secrets and the grim skull mask for ill tidings are but a few of the numerous expressions the Harlequin wears."
+      ],
+      "Epithets": [
+        "Aside from local epithets that simply designated the deity as doing something at some particular place, the epithets or titles applied to Jandivar emphasized different aspects of his divine portfolio:",
+
+        "• @+Jandivar Olidar+@: Jandivar as the divine muse and patron of minstrels, bards and skalds.",
+        "• @+Jandivar Atorska+@: Jandivar as the master of theater and opera, patron of actors and playwrights.",
+        "• @+Jandivar Dyplomaj+@: Jandivar as messenger and diplomat between the gods. This epithet is often invoked before summits and diplomatic meetings between sociopolitical entities.",
+        "• @+Jandivar Szusta+@: Jandivar as the master of deception and lies."
       ],
       "Icons, Shrines and Temples": [
         "Holy shrines of the Harlequin can be found in locales of import to the followers of the God of Many Faces. The most common place someone seeking the blessing of the Harlequin can go is the nearest theater or music hall where a shrine can be found. In grander structures, such as operas and royal theaters, the entryway of the building is often decorated with grand motifs of cultural scenes, landscapes and statues, all interspersed with subtle mask iconography. The Royal Opera House in Frecyra, Navolin, the Königlichen Staatoper in Merenheim, Sennhoff and the Masrah Alhul in Khezrabad, Abbasyr all contain opulent designs dedicated to the deity.",
@@ -393,12 +504,12 @@
       ],
       "The Cults of the Harlequin": [
         "The Cult of Jandivar is divided into smaller sects, based mostly on what aspect of the Trickster that the sect requires. Most sects take their name from the mask of the Harlequin they revere. Each sect worships the god in their own manner, with different rituals, prays and rites. Some of the known cults of the Harlequin include:",
-        "Cult of the Jester",
-        "The Brotherhood of Masks",
-        "Children of Mirth",
-        "The Court of the Masquerade",
-        "Cult of the Troubadour",
-        "Order of the Red Mask"
+        "• Cult of the Jester",
+        "• The Brotherhood of Masks",
+        "• Children of Mirth",
+        "• The Court of the Masquerade",
+        "• Cult of the Troubadour",
+        "• Order of the Red Mask"
       ],
       "Relations with other Faiths": [
         "Among the cults of other gods, the followers of the Harlequin is viewed with neither disdain nor admiration. The most commonly recognized followers, actors and bards, generally give followers of the God of Many Faces a good name, but the worshipers of the Harlequin generally do not take sides in the conflicts of cosmic morality. At most, a specific cult of the Harlequin may take sides in local issues, as artists often do, but this comes from the individuals of the group choosing a side personally and not due to their faith.",
@@ -413,6 +524,11 @@
     "name": "The Tempest",
     "nickname": "Ukrom, the Tempest",
     "trueName": "Ukrom",
+    "parents": "",
+    "siblings": "Aegeroth, Herathi, Isilena, Malendra",
+    "consorts": "",
+    "children": "",
+    "epithets": [],
     "portfolio": [
       "Tempest",
       "Strength",
@@ -474,6 +590,10 @@
       "the Philosopher",
       "Nevondria Libras"
     ],
+    "parents": "",
+    "siblings": "",
+    "consorts": "",
+    "children": "",
     "epithets": [
       "Nevondria Libras"
     ],
@@ -508,6 +628,11 @@
     "name": "The Sage",
     "nickname": "Herathī, the Sage",
     "trueName": "Herathī",
+    "parents": "Anethos and Nevondria",
+    "siblings": "Aegeroth, Isilena, Malendra, Ukrom",
+    "consorts": "Ukrom",
+    "children": "Dhynir, Veluria, Yelensa",
+    "epithets": [],
     "portfolio": [
       "Nature",
       "Life"
@@ -536,45 +661,17 @@
 
     }
   },
-  "The-Shadow": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Shadow",
-    "nickname": "Ozrus, the Shadow",
-    "trueName": "Ozrus",
-    "portfolio": [
-      "Trickery",
-      "Ambition"
-    ],
-    "alignment": "Chatoic Neutral",
-    "gender": "Masculine",
-    "titles": [
-      "The Night Stalker",
-      "Shadefingers",
-      "King of Thieves"
-    ],
-    "worshipers": [
-      "thieves",
-      "spies"
-    ],
-    "symbol": "",
-    "linkingWords": ["Ozrus","the Night Stalker","Shadefingers","the King of Thieves"],
-    "shrineImg": ["shrine-shadow"],
-    "type": "Greater Deity",
-    "tags": ["Greater Deity","chaotic neutral","chaos","thieves","night","darkness"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
   "The-Conqueror": {
     "playerKnown": true,
     "path": "lore",
     "name": "The Conqueror",
     "nickname": "Aegeroth, the Conqueror",
     "trueName": "Aegeroth",
+    "parents": "Anethos and Nevondria",
+    "siblings": "Herathī, Isilena, Malendra, Yelensa",
+    "consorts": "Neshaya",
+    "children": "Akmenos, Grymera, Nytus, Xedris",
+    "epithets": [],
     "linkingWords": [
       "the Conqueror",
       "the Lord of War",
@@ -627,6 +724,11 @@
     "name": "The Dragon Below",
     "nickname": "Tiamat, The Dragon Below",
     "trueName": "Tiamat",
+    "parents": "",
+    "siblings": "",
+    "consorts": "",
+    "children": "",
+    "epithets": [],
     "portfolio": [
       "Death",
       "Greed",
@@ -662,6 +764,10 @@
     "name": "The Leviathan",
     "nickname": "Veluria, the Leviathan",
     "trueName": "Veluria",
+    "parents": "",
+    "siblings": "",
+    "consorts": "",
+    "children": "",
     "portfolio": [
       "Tempest",
       "Nature"
@@ -688,6 +794,10 @@
     "name": "The Fiend",
     "nickname": "The Fiend",
     "trueName": "",
+    "parents": "",
+    "siblings": "",
+    "consorts": "",
+    "children": "",
     "portfolio": [
       "Blood",
       "War"
@@ -733,9 +843,13 @@
     "name": "The Master",
     "nickname": "Asmodeus, the Master",
     "trueName": "Asmodeus",
+    "parents": "",
+    "siblings": "",
+    "consorts": "Malendra",
+    "children": "Ethysha, Neshaya, Ozrus, Temyric, Retria",
+    "epithets": [],
     "portfolio": [
       "Ambition",
-      "Darkness",
       "Knowledge",     
       "Law"
     ],
@@ -746,7 +860,11 @@
       "Lord of Nessus",
       "Master of the Nine Hells"
     ],
-    "worshipers": [],
+    "worshipers": [
+      "despotic rulers",
+      "lawyers",
+      "those wanting to impose their will upon others"
+    ],
     "symbol": "Black ram's head",
     "shrineImg": ["shrine-master"],
     "linkingWords": [
@@ -757,7 +875,66 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","lawful evil","devils","contracts","ruler","overlord","hell"],
     "description": [
+      "Asmodeus, @+the Master+@, is the god of ambition, knowledge and law, in addition to his role as a lawful evil greater deity. He is not a familial member of the Tanrilian gods, having arrived in the @~hall of the gods~@ from parts unknown during the Cosmic Sundering. After striking a bargain with the gods, Asmodeus created the Nine Hells and established himself as the supreme ruler and master of the hells. He is said to have taken Malendra, the Dark Queen, as a consort and fathered Ozrus, Temyric and Retria by her. In addition, the goddesses Ethysha and Neshaya are said to be his children as well, though it is unknown if these goddesses have a mother, or were created by Asmodeus in some other manner.",
 
+      "As the lord of the hells and the damned, Asmodeus is a fearsome figure to those still living. Mortals are reluctant to swear oaths in his name, and avert their faces when making sacrifices to him. Though feared and loathed, Asmodeus is not a treacherous god; he is simply seen as stern, cruel, and unpitying, yet still just. He is said to be extremely pleasant to those he bargains with, for he has much to offer for those willing to enter into infernal dealings.",
+      
+      "He is most often depcited as a dark skinned man clad in purple and seated in a contemplative pose. He is almost universally depicted with large, curved horns, though cultural interpretations vary on whether these horns are part of his head, or belong to a ram-bone mask with which he is often associated. Due to his association with darkness and rams, the most sacrifice to the Lord of Nessus are black animals, most commonly sheep.",
+      
+      "As the ruler of all devils, Asmodeus reigns over the hells from Malsheem, the black fortress, in the lowest layer of the hells, Nessus. From here, he commands the infernal armies, which protect the cosmos from the eternal threat of the Burning Abyss and its demonic hordes."
+    ],
+    "articles": {
+      "Epithets": [
+        "@+Asmodeus Anótas+@: Asmodeus as the prosecutor of sinners, often under the auspices of dragging the condemned into the hells.",
+        "@+Asmodeus Feralis+@: Asmodeus as the cruel overlord, patron of slavers and unscrupulous contracts.",
+        "@+Asmodeus Nessator+@: Asmodeus as supreme ruler of the Nine Hells and lord of Nessus.",
+        "@+Asmodeus Nóstis+@: Asmodeus as the keeper of hidden or illicit knowledge."        
+      ],
+      "Cult of the Master": [
+        "Those who dedicate themselves fully to the veneration of Asmodeus are referred to as @+Nessites+@."
+      ]
+    }
+  },
+  "The-Dark-Queen": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Dark Queen",
+    "nickname": "Malendra, the Dark Queen",
+    "linkingWords": [
+      "Malendra", 
+      "Dark Queen",
+      "Dark Lady",
+      "Nightsong",
+      "Lady of Loss"
+    ],
+    "trueName": "Malendra",
+    "parents": "Anethos and Nevondria",
+    "siblings": "Aegeroth, Herathi, Isilena, Ukrom",
+    "consorts": "Asmodeus",
+    "children": "Ozrus, Temyric, Retria",
+    "epithets": [],
+    "portfolio": [
+      "Death",
+      "Trickery"
+    ],
+    "alignment": "Neutral Evil",
+    "gender": "Feminine",
+    "titles": [
+      "Dark Lady",
+      "Nightsong",
+      "Lady of Loss"
+    ],
+    "worshipers": [
+      "conspirators",
+      "",
+      "those seeking to forget"
+    ],
+    "symbol": "solar eclipse",
+    "shrineImg": ["shrine-darkness"],
+    "type": "Greater Deity",
+    "tags": ["Greater Deity","neutral evil","death","night","trickery"],
+    "description": [
+      "Malendra, @+the Dark Queen+@, is the goddess of night, darkness, trickery, and loss. She is the youngest child of Anethos and Nevondria, as well as a neutral evil greater deity. As the personification of night it is said that the Lady of Loss can see anything and everything that happens in the dark."
     ],
     "articles": {
 
@@ -769,6 +946,11 @@
     "name": "The Stygian",
     "nickname": "Erèdin, the Stygian",
     "trueName": "Erèdin",
+    "parents": "",
+    "siblings": "",
+    "consorts": "",
+    "children": "",
+    "epithets": [],
     "portfolio": [
       "Grave",
       "Death",
@@ -798,6 +980,4 @@
 
     }
   }
-  
-    
 }

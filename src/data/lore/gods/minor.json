@@ -4,7 +4,12 @@
     "path": "lore",
     "name": "The Gravekeeper",
     "nickname": "Neshaya, the Gravekeeper",
+    "linkingWords": ["the Gravekeeper","Neshaya"],
     "trueName": "Neshaya",
+    "parents": "Asmodeus",
+    "siblings": "Ethysha",
+    "consorts": "Aegeroth",
+    "children": "Akmenos, Grymera, Nytus, Xedris",
     "portfolio": [
       "Grave",
       "Death"
@@ -15,7 +20,6 @@
     "worshipers": [],
     "symbol": "",
     "shrineImg": ["shrine-gravekeeper.png"],
-    "linkingWords": ["the Gravekeeper","Neshaya"],
     "type": "Lesser Deity",
     "tags": ["Lesser Deity","true neutral","death","graveyards"],
     "description": [
@@ -30,7 +34,7 @@
     "path": "lore",
     "name": "The Reveler",
     "nickname": "The Reveler",
-    "trueName": "",
+    "trueName": "Zalvia",
     "portfolio": [],
     "alignment": "",
     "gender": "",
@@ -58,7 +62,7 @@
     "path": "lore",
     "name": "The Smiling Lady",
     "nickname": "The Smiling Lady",
-    "trueName": "",
+    "trueName": "Phimyna",
     "portfolio": ["Beauty","Luck","Love"],
     "alignment": "Chaotic Good",
     "gender": "Feminine",
@@ -111,16 +115,19 @@
     "playerKnown": false,
     "path": "lore",
     "name": "The Frayed",
-    "nickname": "The Frayed One",
-    "linkingWords": ["Shattered Mind"],
+    "nickname": "Xedris, the Frayed One",
+    "linkingWords": ["Frayed One", "the Frayed", "Xedris"],
     "trueName": "Xedris",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
+    "portfolio": [
+      "Madness"
+    ],
+    "alignment": "Chaotic Neutral",
+    "gender": "Agender",
+    "titles": [
+      "Lord of Madness",
+      "the Shattered Mind"
+    ],
     "symbol": "",
-    "linkingWords": [""],
     "type": "Lesser Deity",
     "tags": ["Lesser Deity"],
     "description": [
@@ -134,15 +141,15 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Soul Thief",
-    "nickname": "The Soul Thief",
+    "nickname": "Doella, the Soul Thief",
+    "linkingWords": ["Doella"],
     "trueName": "Doella",
     "portfolio": [],
-    "alignment": "",
-    "gender": "",
+    "alignment": "Neutral Evil",
+    "gender": "Female",
     "titles": [],
     "worshipers": [],
     "symbol": "",
-    "linkingWords": [""],
     "type": "Lesser Deity",
     "tags": ["Lesser Deity"],
     "description": [
@@ -156,15 +163,15 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Hidden Blade",
-    "nickname": "The Hidden Blade",
-    "trueName": "",
+    "nickname": "Akmenos, the Hidden Blade",
+    "linkingWords": ["Akmenos"],
+    "trueName": "Akmenos",
     "portfolio": [],
     "alignment": "",
     "gender": "",
     "titles": [],
     "worshipers": [],
     "symbol": "",
-    "linkingWords": [""],
     "type": "Lesser Deity",
     "tags": ["Lesser Deity"],
     "description": [
@@ -174,21 +181,37 @@
 
     }
   },
-  "The-Dark-Queen": {
-    "playerKnown": false,
+  "The-Shadow": {
+    "playerKnown": true,
     "path": "lore",
-    "name": "The Dark Queen",
-    "nickname": "The Dark Queen",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
+    "name": "The Shadow",
+    "nickname": "Ozrus, the Shadow",
+    "trueName": "Ozrus",
+    "parents": "Anethos and Nevondria",
+    "siblings": "Retria, Temyric",
+    "consorts": "",
+    "children": "",
+    "epithets": [],
+    "portfolio": [
+      "Trickery",
+      "Ambition"
+    ],
+    "alignment": "Chatoic Neutral",
+    "gender": "Masculine",
+    "titles": [
+      "The Night Stalker",
+      "Shadefingers",
+      "King of Thieves"
+    ],
+    "worshipers": [
+      "thieves",
+      "spies"
+    ],
     "symbol": "",
-    "linkingWords": [""],
+    "linkingWords": ["Ozrus","the Night Stalker","Shadefingers","the King of Thieves"],
+    "shrineImg": [],
     "type": "Lesser Deity",
-    "tags": ["Lesser Deity"],
+    "tags": ["Lesser Deity","chaotic neutral","chaos","thieves","night","darkness"],
     "description": [
 
     ],
@@ -200,15 +223,17 @@
     "playerKnown": true,
     "path": "lore",
     "name": "The Gold Prince",
-    "nickname": "The Gold Prince",
-    "trueName": "Radagio",
+    "nickname": "Temyric, the Gold Prince",
+    "linkingWords": [
+      "Temyric"
+    ],
+    "trueName": "Temyric",
     "portfolio": [],
     "alignment": "",
     "gender": "",
     "titles": [],
     "worshipers": [],
     "symbol": "",
-    "linkingWords": [""],
     "type": "Lesser Deity",
     "tags": ["Lesser Deity"],
     "description": [
@@ -222,19 +247,32 @@
     "playerKnown": false,
     "path": "lore",
     "name": "The Temptress",
-    "nickname": "The Temptress",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
+    "nickname": "Ethysha, the Temptress",
+    "linkingWords": ["Ethysha"],
+    "trueName": "Ethysha",
+    "parents": "Asmodeus",
+    "siblings": "Neshaya",
+    "children": "Jandivar",
+    "portfolio": [
+      "Desire",
+      "Betrayal",
+      "Love"
+    ],
+    "alignment": "Chaotic Evil",
+    "gender": "Female",
+    "titles": [
+      "Queen of Succubi"
+    ],
+    "worshipers": [
+      "unfaithful spouses",
+      "concubines",
+      "prostitutes"
+    ],
     "symbol": "A goblet pouring wine",
-    "linkingWords": [""],
     "type": "Lesser Deity",
     "tags": ["Lesser Deity"],
     "description": [
-
+      "Ethysha, the Temptress, is a minor deity, or possibly a demi-god, in the Centhrian pantheon. She is the daughter of Asmodeus and the mistress of "
     ],
     "articles": {
 
@@ -244,15 +282,113 @@
     "playerKnown": false,
     "path": "lore",
     "name": "The Masked Lady",
-    "nickname": "The Masked Lady",
-    "trueName": "Retra",
+    "nickname": "Retria, the Masked Lady",
+    "linkingWords": ["Retria"],
+    "trueName": "Retria",
     "portfolio": [],
     "alignment": "",
     "gender": "",
     "titles": [],
     "worshipers": [],
     "symbol": "",
-    "linkingWords": [""],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Unknown": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Unknown",
+    "nickname": "Nytus, the Unknown",
+    "linkingWords": ["Nytus"],
+    "trueName": "Nytus",
+    "parents": "Aegeroth and Neshaya",
+    "siblings": "Grymera",
+    "portfolio": [
+      "Fear"
+    ],
+    "alignment": "Neutral Evil",
+    "gender": "Male",
+    "titles": [
+      "Looming Doom"
+    ],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+      "Nytus, The Unknown, is deified personification of fear and dread. He is the son of Aegeroth and Neshaya. He is said to accompany his father and mother when they walk the mortal world."
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Lingering-Voice": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Lingering Voice",
+    "nickname": "Grymera, the Lingering Voice",
+    "linkingWords": ["Grymera"],
+    "trueName": "Grymera",
+    "parents": "Aegeroth and Neshaya",
+    "siblings": "Nytus",
+    "portfolio": [
+      "Doubt"
+    ],
+    "alignment": "Chaotic Evil",
+    "gender": "Female",
+    "titles": [
+      "the Hesitancy One",
+      "the Skeptic"      
+    ],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+      "Grymera, the Lingering Voice, is deified personification of doubt. She is the daughter of Aegeroth and Neshaya."
+    ],
+    "articles": {
+
+    }
+  },
+  
+  "The-Shimmering-Sky": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Shimmering Sky",
+    "nickname": "The Shimmering Sky",
+    "trueName": "Auroros",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": ["the Shimmering Sky", "Shimmering Sky", "the Aurora Owl", "Father Owl"],
+    "type": "Lesser Deity",
+    "tags": ["Lesser Deity"],
+    "description": [
+
+    ],
+    "articles": {
+
+    }
+  },
+  "The-Stellar-Wolf": {
+    "playerKnown": true,
+    "path": "lore",
+    "name": "The Stellar Wolf",
+    "nickname": "The Stellar Wolf",
+    "trueName": "",
+    "portfolio": [],
+    "alignment": "",
+    "gender": "",
+    "titles": [],
+    "worshipers": [],
+    "symbol": "",
+    "linkingWords": ["the Stellar Wolf","the Stellar Hound"],
     "type": "Lesser Deity",
     "tags": ["Lesser Deity"],
     "description": [

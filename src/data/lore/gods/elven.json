@@ -43,50 +43,6 @@
 
     }
   },
-  "The-Shimmering-Sky": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Shimmering Sky",
-    "nickname": "The Shimmering Sky",
-    "trueName": "Auroros",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": ["the Shimmering Sky", "Shimmering Sky", "the Aurora Owl", "Father Owl"],
-    "type": "Elven Deity",
-    "tags": ["Elven Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
-  "The-Stellar-Wolf": {
-    "playerKnown": true,
-    "path": "lore",
-    "name": "The Stellar Wolf",
-    "nickname": "The Stellar Wolf",
-    "trueName": "",
-    "portfolio": [],
-    "alignment": "",
-    "gender": "",
-    "titles": [],
-    "worshipers": [],
-    "symbol": "",
-    "linkingWords": ["the Stellar Wolf","the Stellar Hound"],
-    "type": "Elven Deity",
-    "tags": ["Elven Deity"],
-    "description": [
-
-    ],
-    "articles": {
-
-    }
-  },
   "The-Grove-Keeper": {
     "playerKnown": true,
     "path": "lore",
