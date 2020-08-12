@@ -121,6 +121,16 @@
       background-color: $offWhite;
     }
   }
+
+  .darkMode & {
+    border: 1px solid $white;
+    background-color: $grayText;
+    color: $lightText;
+
+    &__row {
+      border-color: $white;
+    }
+  }
 }
 
 

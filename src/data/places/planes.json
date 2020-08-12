@@ -91,7 +91,7 @@
   },
 
   "Celestia": {
-    "playerKnown": true,
+    "playerKnown": false,
     "path": "location",
     "hideOnCat": true,
     "name": "Celestia",
@@ -111,7 +111,7 @@
     }
   },
   "Mechanus": {
-    "playerKnown": true,
+    "playerKnown": false,
     "path": "location",
     "hideOnCat": true,
     "name": "Mechanus",
@@ -152,7 +152,7 @@
   },
   
   "Pandemonium": {
-    "playerKnown": true,
+    "playerKnown": false,
     "path": "location",
     "hideOnCat": true,
     "name": "Pandemonium",
@@ -172,7 +172,7 @@
     }
   },
   "Vorganund": {
-    "playerKnown": true,
+    "playerKnown": false,
     "path": "location",
     "hideOnCat": true,
     "name": "Vorganund",
@@ -211,28 +211,8 @@
 
     }
   },
-  "Elysium": {
-    "playerKnown": true,
-    "path": "location",
-    "hideOnCat": true,
-    "name": "Elysium",
-    "nickname": "Elysium",
-    "linkingWords": [],
-    "tags": ["mythic locale","plane"],
-    "type": "Plane",
-    "alignment": "Neutral Good",
-    "description": [
-      "The plane of @+Elysium+@ is the ."
-    ],
-    "articles": {
-
-    },
-    "dmArticles": {
-
-    }
-  },
   "Arcadia": {
-    "playerKnown": true,
+    "playerKnown": false,
     "path": "location",
     "hideOnCat": true,
     "name": "Arcadia",
@@ -252,7 +232,7 @@
     }
   },
   "Elysium": {
-    "playerKnown": true,
+    "playerKnown": false,
     "path": "location",
     "hideOnCat": true,
     "name": "Elysium",

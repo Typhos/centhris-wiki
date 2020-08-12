@@ -4,6 +4,7 @@
   padding: 0;
   margin: 1em auto 0;
   list-style-type: none;
+  width: 96%;
 
   &.columns {
     display: flex;
@@ -83,6 +84,23 @@
       height: 8em;
       max-width: 14em;
       width: auto;
+    }
+
+    &.empty + p {
+      &:after {
+        content: "✍🏼";
+        display: block;
+        color: $susiePurple;
+      }
+      
+
+      &.hidden {
+        &:after {
+          content: "👁️ ✍🏼";
+          display: block;
+          color: $susiePurple;
+        }
+      }
     }
   }
 

@@ -92,13 +92,12 @@
       "Once a wizard had accepted the terms of his dark bargain, Shulxaa would create for them a phylactery in which the mage would transfer their life force, becoming a lich. However, the secret of the creation of such objects, as well as their individual hiding places, were never shared with his servants, as a means of control by the Lich Lord. Thus, the council members, even if they might be tempted, would never overly act against their master. Shulxaa also went to great lengths over the course of his reign over Istagen to ensure that the knowledge of how to create a phylactery was never available to his servants, as a further way to ensure their loyalty."
     ],
     "articles": {
-      
-    },
-    "dmArticles": {
       "The Council Dispersed": [
         "Though many members of the Council of the Withered King were kill, only some of their phylacteries were discovered and destroyed during the liberation of Istagen. Many members of the council, whose soul vessels were dispersed to ensure their survival, went into hiding in order to avoid the Knights of the Sacred Dawn. Though there were whispers of strange wizards among the peasants, the banishment of arcane practitioners from Tovanis forced the mages to flee out of the kingdom in order to avoid easy detection, should they use large-scale magic.",
         "Though some of the knights wished to hunt down and destroy the remaining liches, the decision was made to instead focus on rebuilding the realm and help the former subjects of the lich lord instead of chasing shadows. Thus, the council vanished into the wilds of Ulfwyst, only to be remembered in historical records, and the long memory of those driven to enact revenge against their reign of terror."
-      ],
+      ]
+    },
+    "dmArticles": {
       "Lesser Liches": [
         "Mechanically, each member of the Council of the Withered King is considered a Lesser Lich. None of the mages who make up the council were ever powerful, nor resourceful, enough to become full-blown liches. Instead, their undeath was bestowed upon them by Shulxaa during his reign."
       ]

@@ -12,7 +12,7 @@
   }
 
   &__link {
-    margin: 0 0.25em;
+    margin: 0 0.1em;
   }
 
   &__heading {
@@ -106,6 +106,30 @@
     line-height: 1.75;
   }
 
+}
+
+.darkMode {
+  .article {
+    color: $lightText;
+
+    &__heading {
+      color: inherit;
+      border-bottom-color: $lightText;
+    }
+
+    &__headline {
+      border-bottom-color: $lightText;
+    }
+
+    &__subheading {
+      color: inherit;
+      border-bottom-color: $lightText;
+    }
+
+    &__link {
+      color: $moodGreen;
+    }
+  }
 }
 
 // MOBILE

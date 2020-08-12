@@ -23,6 +23,9 @@ export default class NavList extends Component {
         <li className={`navigationListItem ${ (loc === '/characters') ? "active" : "" }`} navid="characters">
           <Link to="/characters" onClick={this.props.onClick}>Characters</Link>
         </li>
+        <li className={`navigationListItem ${ (loc === '/cosmos') ? "active" : "" }`} navid="cosmos">
+          <Link to="/cosmos" onClick={this.props.onClick}>Cosmos</Link>
+        </li>
         <li className={`navigationListItem ${ (loc === '/pantheon') ? "active" : "" }`} navid="gods">
           <Link to="/pantheon" onClick={this.props.onClick}>Gods</Link>
         </li>

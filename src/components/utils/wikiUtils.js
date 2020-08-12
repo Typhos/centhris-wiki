@@ -218,9 +218,9 @@ export default class WikiUtils {
       if ( typeof dataset[i] === 'string' ) {
 
         const test = name.concat( "[.,;!?'\":()/\\s-]" );
-        const matcher = new RegExp(test,"gm");
+        const punctuationMatcher = new RegExp(test,"gm");
 
-        if ( matcher.test(dataset[i]) || dataset[i] === name ) {
+        if ( punctuationMatcher.test(dataset[i]) || dataset[i].includes(name) ) {
           let strReplace = dataset[i].replace(name, `|${name}|`).split("|").map( str => ( str === name ) ? link : str);
 
           dataset[i] = strReplace;
