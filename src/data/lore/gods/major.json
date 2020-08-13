@@ -373,7 +373,7 @@
     "type": "Greater Deity",
     "tags": ["Greater Deity","chaotic good","chaos","moons","nature","arcana","magic","light"],
     "description": [
-      "@+The Maiden+@, Yelensa, is the goddess of the moons, nature and wild magic, in addition to her role as a greater deity. She is the daughter of Herathi and Ukrom and the sister to Dhynir, Jandivar, and Veluria. She is the patron of the mariners and night watchmen. Many female spellcasters, good and neutral lycanthropes also worship her as their patron deity.",
+      "@+The Maiden+@, Yelensa, is the goddess of the moons, nature and wild magic, in addition to her role as a greater deity. She is the daughter of Herathi and Ukrom, the sister to Dhynir and Veluria, and the half-sister of Jandivar. She is the patron of the mariners and night watchmen. Many female spellcasters, good and neutral lycanthropes also worship her as their patron deity.",
       
       "She is the keeper of the Three Sisters and is referred to as the Mother of the Three. She is said to appear to lost or weary souls on nights when Idrothea, the Amber Moon, is full, offering guidance and comfort. As the patron of the moons of Centhris, the Maiden is associated with the tides of the oceans of the world, as well as with the night sky. She is seen as the keeper of other celestial entities, such as the Stellar Wolf and the Shimmering Sky.",
       
@@ -408,6 +408,7 @@
     "path": "lore",
     "name": "The Wanderer",
     "nickname": "Dhynir, the Wanderer",
+    "linkingWords": ["Dhynir","the Wanderer", "Dhynites"],
     "trueName": "Dhynir",
     "parents": "Ukrom and Herathi",
     "siblings": "Jandivar, Veluria, Yelensa",
@@ -415,10 +416,12 @@
     "children": "",
     "epithets": [],
     "portfolio": [
-      "Trickery",
-      "Ambition"
+      "Change",
+      "Freedom",
+      "Trade",
+      "Travel"
     ],
-    "alignment": "True Neutral",
+    "alignment": "Chaotic Neutral",
     "gender": "Masculine",
     "titles": [
       "Cloaked Companion",
@@ -431,16 +434,24 @@
       "pilgrims",
       "smugglers"
     ],
-    "symbol": "",
+    "symbol": "forked roadway",
     "shrineImg": ["shrine-wanderer"],
-    "linkingWords": ["Dhynir","the Wanderer"],
     "type": "Greater Deity",
-    "tags": ["Greater Deity","true neutral","money","rider","traveler"],
+    "tags": ["Greater Deity","chaotic neutral","money","rider","traveler"],
     "description": [
-      "@+The Wanderer+@, Dhynir, is a patron deity of travelers, merchants, pilgrims and smugglers."
+      "@+The Wanderer+@, Dhynir, is the god of change, freedom, trade and travel, as well as a chaotic neutral greater deity. He is the son of Ukrom and Herathi, the brother of Veluria and Yelensa, and the half-brother of Jandivar. As the god of travel, he is the protector of nomads, pilgrims and travelers. He is also venerated by merchants of all kinds, from lowly peddlers to the wealthy owners of trading companies, investors, accountants, entrepreneurs, caravan guides, philanthropists, and moneylenders. Dhynir is also the god of illicit trade and the patron of many smugglers, fences, black marketeers, and racketeers. Collectively, his worshipers are known as @*Dhynites*@.",
+
+      "Dhynir is most commonly depicted as a coaked, hooded figure riding a gray or black mare. He is rarely depicted with discernable facial features. Cults of the Wanderer tend to explains that these vague depictions are because the Wanderer could be anyone or anything traveling the world. He could be visiting the hall of the gods, or seated across from a cleric in his service at a caravan's cooking fire. This mystery regarding who and where the Wanderer might be is most often seen as a way to ensure pilgrims and travelers are treated as guests instead of potential targets, lest the would-be knave find themselves facing the wrath of a deity in disguise.",
+
+      "His cult has few temples in civilized lands, but his wayside shrines appear throughout the world. "
     ],
     "articles": {
-
+      "Dogma": [
+        "@#Commandments#@",
+        "The wanderer is the ultimate champion of personal freedom. His cult believes in the ability of every individual to influence their own destiny though action and deed. His commandments are few adn reflect this mindset:",
+        
+        "• @*Change is inevitable, but those of conviction can ensure that change favors their interests*@."
+      ]
     }
   },
   "The-Harlequin": {
@@ -524,10 +535,10 @@
     "name": "The Tempest",
     "nickname": "Ukrom, the Tempest",
     "trueName": "Ukrom",
-    "parents": "",
+    "parents": "Anethos and Nevondria",
     "siblings": "Aegeroth, Herathi, Isilena, Malendra",
-    "consorts": "",
-    "children": "",
+    "consorts": "Herathi, Ethysha",
+    "children": "Dhynir, Jandivar, Veluria, Yelensa",
     "epithets": [],
     "portfolio": [
       "Tempest",
@@ -637,7 +648,7 @@
       "Nature",
       "Life"
     ],
-    "alignment": "True Neutral",
+    "alignment": "Unaligned",
     "gender": "Feminine",
     "titles": [
       "Green Mother",
@@ -653,7 +664,7 @@
     "shrineImg": ["shrine-sage"],
     "linkingWords": ["the Sage", "Herathī", "Herathi", "Herathi, the Sage"],
     "type": "Greater Deity",
-    "tags": ["Greater Deity","true neutral","nature","forests","rivers"],
+    "tags": ["Greater Deity","true neutral", "unaligned","nature","forests","rivers"],
     "description": [
 
     ],
