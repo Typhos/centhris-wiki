@@ -7,7 +7,7 @@ const { resolvers } = require("./resolvers");
 
 require("dotenv").config();
 const config = require("./config");
-const port = config.server_port || 8081;
+const port = process.env.PORT || config.server_port || 8081;
 
 const startServer = async () => {
   app = express();
@@ -19,10 +19,14 @@ const startServer = async () => {
 
   server.applyMiddleware({ app });
 
-  await mongoose.connect(config.db.mongodb_uri, {
+  await mongoose.connect(process.env.MONGODB_URI || config.db.mongodb_uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
+
+  if (process.env.NODE_ENV === "production") {
+    app.use(express.static("./client/build"));
+  }
 
   app.listen({ port: port }, () =>
     console.log(

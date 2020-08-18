@@ -1,17 +1,17 @@
 {
-  "name": "temp",
-  "version": "1.0.0",
-  "description": "",
+  "name": "centhris-wiki",
+  "version": "3.0.1",
+  "description": "A wiki for the world of Centhris in the Dungeons and Dragons multiverse.",
   "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "clientDev": "npm run dev --prefix client",
     "clientProd": "npm run start --prefix client",
-    "server": "nodemon server/index.js",
-    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run clientDev\"",
-    "prod": "concurrently --kill-others-on-fail \"npm run server\" \"npm run clientProd\"",
+    "serverDev": "npm run dev --prefix server",
+    "serverProd": "npm run start --prefix server",
+    "dev": "concurrently --kill-others-on-fail \"npm run serverDev\" \"npm run clientDev\"",
+    "prod": "concurrently --kill-others-on-fail \"npm run serverProd\" \"npm run clientProd\"",
     "start": "node server/index.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +26,10 @@
     "mongoose": "^5.10.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
     "concurrently": "^5.3.0",
     "nodemon": "^2.0.4"
   }
