@@ -4,12 +4,9 @@
   "description": "A wiki for the world of Centhris in the Dungeons and Dragons multiverse.",
   "main": "server.js",
   "scripts": {
-    "clientDev": "npm run dev --prefix client",
-    "clientProd": "npm run start --prefix client",
-    "serverDev": "npm run dev --prefix server",
-    "serverProd": "npm run start --prefix server",
-    "dev": "concurrently --kill-others-on-fail \"npm run serverDev\" \"npm run clientDev\"",
-    "prod": "concurrently --kill-others-on-fail \"npm run serverProd\" \"npm run clientProd\"",
+    "client": "npm run dev --prefix client",
+    "server": "nodemon -r esm server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
     "start": "node -r esm server.js",
     "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
   },
