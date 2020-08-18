@@ -19,7 +19,7 @@ const startServer = async () => {
 
   server.applyMiddleware({ app });
 
-  await mongoose.connect(process.env.MONGODB_URI || config.db.mongodb_uri, {
+  await mongoose.connect(config.db.mongodb_uri || process.env.MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });

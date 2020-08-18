@@ -2,7 +2,7 @@
   "name": "centhris-wiki",
   "version": "3.0.1",
   "description": "A wiki for the world of Centhris in the Dungeons and Dragons multiverse.",
-  "main": "server/index.js",
+  "main": "server.js",
   "scripts": {
     "clientDev": "npm run dev --prefix client",
     "clientProd": "npm run start --prefix client",
@@ -10,7 +10,7 @@
     "serverProd": "npm run start --prefix server",
     "dev": "concurrently --kill-others-on-fail \"npm run serverDev\" \"npm run clientDev\"",
     "prod": "concurrently --kill-others-on-fail \"npm run serverProd\" \"npm run clientProd\"",
-    "start": "node server/index.js",
+    "start": "node -r esm server.js",
     "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
@@ -20,16 +20,13 @@
   "dependencies": {
     "apollo-server-express": "^2.16.1",
     "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
     "express": "^4.17.1",
     "express-graphql": "^0.11.0",
     "graphql": "^15.3.0",
     "mongoose": "^5.10.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.11.1",
-    "@babel/node": "^7.10.5",
-    "@babel/preset-env": "^7.11.0",
     "concurrently": "^5.3.0",
     "nodemon": "^2.0.4"
   }
