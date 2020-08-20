@@ -1,21 +1,26 @@
 // model must be defined as a mongoose model to access find functionality.
-const { Person } = require("./models/Person");
-const { God } = require("./models/God");
-const { Lore } = require("./models/Lore");
-const { Item } = require("./models/Item");
+import { Person } from "./models/Person";
+import { God } from "./models/god";
+import { Lore } from "./models/Lore";
+import { Item } from "./models/Item";
+import { Location } from "./models/Location";
 
-module.exports.resolvers = {
+export const resolvers = {
   Query: {
-    person: () => Person.find(),
-    god: () => God.find(),
-    lore: () => Lore.find(),
-    item: () => Item.find(),
+    people: () => Person.find(),
+    gods: () => God.find(),
+    lores: () => Lore.find(),
+    items: () => Item.find(),
+    locations: () => Location.find(),
 
-    personByName: (_, args) => Person.find({ name: args.name }),
-    personByRace: (_, args) => Person.find({ race: args.race }),
+    person: (_, args) => Person.find(args),
+    personById: (_, { id }) => Person.findById(id),
 
-    godByName: (_, args) => God.find({ name: args.name }),
-    godByAlignment: (_, args) => God.find({ alignment: args.alignment }),
+    god: (_, args) => God.find(args),
+    godById: async (_, { id }) => God.findById(id),
+
+    lore: (_, args) => Lore.find(args),
+    loreById: async (_, { id }) => Lore.findById(id),
   },
 
   Mutation: {

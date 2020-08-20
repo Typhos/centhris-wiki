@@ -14,6 +14,10 @@ const startServer = async () => {
   const server = new ApolloServer({
     typeDefs,
     resolvers,
+    introspection: true,
+    tracing: true,
+    cors: true,
+    playground: process.env.NODE_ENV === "production" ? false : true,
   });
 
   server.applyMiddleware({ app });

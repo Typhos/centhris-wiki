@@ -3,11 +3,11 @@ module.exports.God = `
     id: ID!
     name: String!
     nickname: String!
-    type: String!
+    playerKnown: Boolean!
     linkingWords: [String]
+    type: String!
     tags: [String]
     path: String
-    playerKnown: Boolean!
 
     trueName: String
     gender: String

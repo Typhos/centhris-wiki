@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 
-module.exports.Lore = mongoose.model("Lore", {
-  _id: String,
+const model = {
   name: String,
   nickname: String,
   playerKnown: Boolean,
@@ -14,4 +13,8 @@ module.exports.Lore = mongoose.model("Lore", {
   description: Array,
   articles: Object,
   dmArticles: Object,
-});
+};
+
+// model creation params: name of the model, the model object, name of the remote collection.
+// if no remote collection is provided, it will default to the plural of the model name
+module.exports.Lore = mongoose.model("lore", model, "lore");

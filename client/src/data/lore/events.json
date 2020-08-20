@@ -1,13 +1,14 @@
 {
   "The-Ruination-of-Centhris": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "lore",
     "name": "The Ruination of Centhris",
     "nickname": "the Ruination of Centhris",
     "linkingWords": ["the Ruination"],
     "dates": ["2C 837"],
     "type": "Historical Event",
-    "tags": ["event","cataclysm","utharian empire"],
+    "tags": ["event", "cataclysm", "utharian empire"],
     "description": [
       "@+The Ruination of Centhris+@ was a major world event which marked the end of the Utharian Empire and the descent of Centhris into a long, violent dark age. The epicenter of the event was the lost continent of Thyra, which was located where the Toridosa Archipelago exists today."
     ],
@@ -26,114 +27,110 @@
   },
   "Night-of-the-Shattered-Sky": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "lore",
     "name": "Night of the Shattered Sky",
     "nickname": "the Night of the Shattered Sky",
     "linkingWords": [],
     "type": "Historical Event",
-    "tags": ["event","zurast","starfall"],
+    "tags": ["event", "zurast", "starfall"],
     "description": [
       "@+The Descent of the Shattered God+@ was a historical event that took place in Zalany Marsh, now known as the Blighted Mire in 2C 2537."
     ],
     "dmArticles": {
-      "": [
-      ]
+      "": []
     }
   },
   "The-Great-Betrayal": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "lore",
     "name": "The Great Betrayal",
     "nickname": "Ascension of the Betrayer",
     "linkingWords": ["the Great Betrayal"],
     "dates": ["2C 837"],
     "type": "Historical Event",
-    "tags": ["event","stygian","utharian empire","god"],
+    "tags": ["event", "stygian", "utharian empire", "god"],
     "description": [
       "@+The Great Betrayal+@ was ascendancy of Erèdin Esk Zarlaya to godhood as the Stygian. The ascension was the inciting event in the Ruination of Centhris."
     ]
   },
   "Rise-of-the-Withered-King": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "lore",
     "name": "Rise of the Withered King",
     "nickname": "The Rise of the Withered King",
     "dates": ["2C 1900"],
     "type": "Historical Event",
-    "tags": ["event","Istagen","Shulxaa"],
+    "tags": ["event", "Istagen", "Shulxaa"],
     "description": [
       "The @+Rise of the Withered King+@ was a centuries long series of events which lead to the Kingdom of Istagen falling under the inflence of the lich lord Shulxaa. Though manipulation, coercion, assassination and decades of planning, Shulxaa weakened the political elite of the kingdom, until the kingdom was no longer able to properly function without his influence. The lich operated for quite some time from the shadows as a puppet ruler before tossing away the ruse in 2C 1993, declaring himself the immortal king of Istagen."
     ]
   },
   "Creation-Myth": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "lore",
     "name": "Creation Myth",
     "nickname": "the Cosmic Sundering",
-    "linkingWords": [
-      "sundering of reality",
-      "war in heaven"
-    ],
+    "linkingWords": ["sundering of reality", "war in heaven"],
     "type": "Myth",
-    "tags": ["creation myth","planes","planar","war of the gods"],
+    "tags": ["creation myth", "planes", "planar", "war of the gods"],
     "description": [
       "The @+Cosmic Sundering+@, is the most widely accepted cosmic creation myth across the various cultures of Centhris. The earliest known account of the myth can be found in the Ziril'udórian tome of legends, known as the Darsam Thîkut."
     ],
     "articles": {
       "Creation Myth": [
         "According to the account in the @*Darsam Thîkut*@, the universe was initially a infinite, chaotic void known as Kisatnïr. In this void there dwelled an endless number of primordial entities known as the Angzak'ekur (referred to in @*Common*@ as the Obyrith). There then appeared a blinding spark, and after it the gods. The @~gods~@ used the roiling, chaos of Kisatnïr to form the first realm of existence, known as Utharàm.",
-
         "In this place, the @~gods~@ built the divine city, the stronghold known as Tanrilar. The @~gods~@ each then set upon adding elements of their own design to Utharàm, and for a time this new realm flourished.",
-
         "However, the Angzak'ekur did not take kindly to the invasion of their reality by the @~gods~@ and set their creations, the demons, upon Utharàm with great fury. The greatest of the demons, the Fiend, sundered the @~gods~@' creation, scattering it across the universe. As they separated, each piece of Utharàm formed its own realm of existence, completely cut off from the others.",
-        
         "The @~gods~@, enraged by the destruction of their creation, engaged the primordials and their demonic servants in battle across the cosmos. For untold eons the sides remained locked in battle with no side gaining the upper hand. That is, until the arrival of the dragon twins, Bahamut and Tiamat. The @~gods~@, along with their new draconic allies,set upon the demonic hordes, driving them back to the mouth of the Burning Abyss, the twisting heart of all chaos in the cosmos. However, the @~gods~@ and their servants, the deva, could not enter into the Abyss.",
-
         "While the @~gods~@ debated what to do regarding the Abyss, an otherworldly, celestial being stepped foot into the halls of the divine city. This strange, alien presence referred to itself as Kezolet, the Arbiter, and announced that during the battle it had safeguarded and hidden away a tiny fragment of Utharàm which has been left to float freely through time and space. Filled with mortal life, @~the Arbiter~@ referred to this material plane as Centhris.",
-        
         "Intrigued, the @~gods~@ gazed upon this small shard of Utharàm with interest and found the planet filled with all manner of life: giants, humanoids, monstrosities and, unexpectedly, elementals which entered the realm as it drifted through the Elemental Chaos.",
-
         "It was then that another unknown, divine entity calling himself Asmodeus arrived in the celestial hall. The new god offered a plan to contain the Angzak'ekur. @~Asmodeus~@ offered to build a new realm known as Gedor'Shash, the Nine Hells. He offered to stand guard against the eternal demonic threat, so long as he would be given command of an army with which to guard the Abyss. The gods agreed, offering him the newly discovered souls of wicked or corrupt mortals to use in this fight and granted upon him the title of Master of the @~Nine Hells~@.",
-
         "The demonic threat seeming dealt with, at least temporarily, the @~gods~@ turned their attention once again to the surviving piece of their grand creation. The more passive gods simply watched from afar, while those with a more inquisitive or intrusive nature offered guidance to their creations."
       ]
     }
   },
   "Mornaug-Ragoth": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "lore",
     "name": "Mornaug Ragoth",
     "nickname": "Age of Titans",
     "linkingWords": [],
     "dates": "unknown",
     "type": "Epoch",
-    "tags": ["Epoch","elementals","planes","planar"],
+    "tags": ["Epoch", "elementals", "planes", "planar"],
     "description": [
       "The @+Mornaug Ragoth+@, more commonly referred to as the Age of Titans, was the first known epoch in the history of the world of Centhris. This ancient, mythical era was a time when great primordials, titans and colossal beasts still roamed across the world."
     ]
   },
   "The-First-Convergence": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "lore",
     "name": "The First Convergence",
     "nickname": "The First Convergence",
     "linkingWords": ["First Convergence"],
     "dates": "unknown",
     "type": "Epoch",
-    "tags": ["Epoch","elementals","planes","planar"],
+    "tags": ["Epoch", "elementals", "planes", "planar"],
     "description": [
       "The @+First Convergence+@ was a historical epoch in the history of the world of Centhris."
     ]
   },
   "The-Second-Convergence": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "lore",
     "name": "The Second Convergence",
     "nickname": "The Second Convergence",
     "linkingWords": ["Second Convergence"],
-    "dates": ["2C 1","2C 12"],
+    "dates": ["2C 1", "2C 12"],
     "type": "Epoch",
-    "tags": ["epoch","feywild","planes","planar"],
+    "tags": ["epoch", "feywild", "planes", "planar"],
     "description": [
       "The @+Second Convergence+@ was an astrological and planar event which marked the beginning of the third epoch of @*Centhrisian*@ history. It was proceeded by the epochs of the First Convergence and the Mornaug Ragoth @~(the Age of Titans)~@. The term \"@*Second Convergence*@\" applies to both the specific event, the planar cross-over of the Feywild with the Prime Material Plane, and the age of history which followed the planar event. The convergence marked a major shift in the power dynamics between the mortal peoples of @~Centhris~@ and the earlier dominant species of the world, specifically elementals, extra-planar beings, dragons, and giants.",
       "The Second Convergence lasted for 11 years, starting in 2C 1 and ending in 2C 12. @~During decade-long period, the barriers between the material plane and the Feywild were nearly non-existent, with numerous rifts between the planes opening for years at a time. Mortals from both Centhris and the feywild were able to cross between the planes freely. Though some peoples from the material plane did cross into the Feywild, the dangers of the wild realm quickly proved too dangerous for extensive exploration or settlement. Residents of the Feywild, however, did migrate in large numbers from the Feywild to Centhris~@. Fey creatures, such as pixies, hags, sprites, centaurs, satyrs, trolls, dryads and all manner of other fey beings entered the material world for the first time. Mortal peoples, too, migrated into the world, including gnomes and eladrin, who would become known as the Avar."
@@ -162,26 +159,28 @@
   },
   "Primulus-Tempus-Draconis": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "lore",
     "name": "Primulus Tempus Draconis",
     "nickname": "Primulus Tempus Draconis",
     "linkingWords": ["First Age of Dragons"],
-    "dates": ["1C 7400","2C 110"],
+    "dates": ["1C 7400", "2C 110"],
     "type": "Age",
-    "tags": ["era","era of dragons"],
+    "tags": ["era", "era of dragons"],
     "description": [
       "Primulus Tempus Draconis was a historical era in the history of the world of Centhris."
     ]
   },
   "Cordus-Tempus-Draconis": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "lore",
     "name": "Cordus Tempus Draconis",
     "nickname": "Cordus Tempus Draconis",
     "linkingWords": ["Second Age of Dragons"],
-    "dates": ["2C 860","2C 2100"],
+    "dates": ["2C 860", "2C 2100"],
     "type": "Age",
-    "tags": ["era","era of dragons"],
+    "tags": ["era", "era of dragons"],
     "description": [
       "Cordus Tempus Draconis was a historical age in the history of the world of Centhris. It was proceeded by the Ruination of Centhris and was followed by the Age of Rediscovery.",
       "The dragons, who had once controlled much of Centhris during the Primulus Tempus Draconis, reemerged after the fall of the great empires of the pre-ruination age, known as the Age of Arcane Empires. With most of the world's arcane spellcasters killed and infrastructure in ruins, little stood to stop the great wyrms from establishing their dominance. The chromatic dragon lords were the first to reemerge from hiding, and within thirty years many of the great imperial cities had become lairs for these new, draconic overlords. Even the metallic dragons, though benevolent compared to their chromatic kin, relish in the opportunity to reassert themselves. While the chromatic dragon lords ruled large domains out of fear, coercion and manipulation, the metallic dragon lords became shepherds to their flocks, offering protection to mortals in exchange for veneration."
@@ -189,28 +188,26 @@
   },
   "Age-of-Arcane-Empires": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "lore",
     "name": "Age of Arcane Empires",
     "nickname": "Age of Arcane Empires",
     "linkingWords": [],
-    "dates": ["2C 1","2C 837"],
+    "dates": ["2C 1", "2C 837"],
     "type": "Age",
-    "tags": ["era","era of empires"],
-    "description": [
-      ""
-    ]
+    "tags": ["era", "era of empires"],
+    "description": [""]
   },
   "Age-of-Rediscovery": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "lore",
     "name": "Age of Rediscovery",
     "nickname": "Age of Rediscovery",
     "linkingWords": [],
-    "dates": ["2C 2100","Present"],
+    "dates": ["2C 2100", "Present"],
     "type": "Age",
-    "tags": ["era","era of rediscovery"],
-    "description": [
-      ""
-    ]
+    "tags": ["era", "era of rediscovery"],
+    "description": [""]
   }
 }

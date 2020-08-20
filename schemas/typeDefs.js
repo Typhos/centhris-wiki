@@ -5,25 +5,52 @@ const { God } = require("./god");
 const { Person } = require("./person");
 const { Lore } = require("./lore");
 const { Item } = require("./item");
+const { Location } = require("./location");
 
 module.exports.typeDefs = gql`
   type Query {
-    person: [Person!]!
-    god: [God!]!
-    lore: [Lore!]!
-    item: [Item!]!
+    people: [Person!]!
+    gods: [God!]!
+    lores: [Lore!]!
+    items: [Item!]!
+    locations: [Location!]!
 
-    personByName(name: String!): [Person]
-    personByRace(race: String!): [Person]
+    person(
+      name: String
+      race: String
+      class: String
+      playerKnown: Boolean
+      gender: String
+      affiliations: String
+    ): [Person]
+    personById(id: ID!): Person
 
-    godByName(name: String!): [God]
-    godByAlignment(alignment: String!): [God]
+    god(
+      name: String
+      nickname: String
+      playerKnown: Boolean
+      alignment: String
+      portfolio: String
+      trueName: String
+      gender: String
+    ): [God]
+    godById(id: ID!): God
+
+    lore(
+      name: String
+      nickname: String
+      playerKnown: Boolean
+      hideOnCat: Boolean
+      type: String
+    ): [Lore]
+    loreById(id: ID!): Lore
   }
 
   ${God}
   ${Person}
   ${Lore}
   ${Item}
+  ${Location}
 
   type Mutation {
     createPerson(name: String!): Person!

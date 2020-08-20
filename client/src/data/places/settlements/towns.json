@@ -2,13 +2,21 @@
   "Duskreef": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["town","Nakali Isles","port","ulfwyst","Mare Concordis"],
+    "tags": ["town", "Nakali Isles", "port", "ulfwyst", "Mare Concordis"],
     "name": "Duskreef",
     "nickname": "Duskreef",
-    "linkingWords": ["Port of Duskreef","Duskreef Prison"],
+    "linkingWords": ["Port of Duskreef", "Duskreef Prison"],
     "type": "Town",
     "population": "1,200",
-    "races": ["human","halfling","half-orc","tiefling","hobgoblin","tortle","chromatic dragonborn"],
+    "races": [
+      "human",
+      "halfling",
+      "half-orc",
+      "tiefling",
+      "hobgoblin",
+      "tortle",
+      "chromatic dragonborn"
+    ],
     "government": "Lawless",
     "location": "Nakali Iles",
     "leaders": ["Jöndr Mistwalker"],
@@ -16,7 +24,7 @@
       "The port of @+Duskreef+@ was once a prison fortress located on the Nakali Isles off the eastern coast of Ulfwyst. In 2C 2546, a massive riot, which turned into a full scale prison break, occurred at Duskreef Citadel. After the riot, the prisoners took control of the island, and turned the surrounding village into a pirate haven.",
       "The notorious pirate outpost now welcomes all kinds to its murky shores, assuming they follow the unspoken pirate code that rules the place."
     ],
-    "articles":{
+    "articles": {
       "Pirate Code": [
         "Officially, the port of Duskreef is a lawless place, perfect for the chaotic sort that the port attracts. Anyone in the town is expected, however, to abide by the pirate code. Those who break the code face mob justice at the hands of the violent citizenry. The code includes the following provisions:",
         "• \"@*None shall make use of hostile magicks while within city limits. Any found doing so will be banished. Any soul who does so in an action which results in the injury or death of another man shall suffer death.*@\"",
@@ -51,13 +59,13 @@
   "Zabrosk": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["town","Lemuria","ulfwyst","Telarion Elentiir"],
+    "tags": ["town", "Lemuria", "ulfwyst", "Telarion Elentiir"],
     "name": "Zabrosk",
     "nickname": "Zabrosk",
     "linkingWords": [],
     "type": "Town",
     "population": "960",
-    "races": ["human","half-elf","elf","gnome","uklang"],
+    "races": ["human", "half-elf", "elf", "gnome", "uklang"],
     "government": "Council",
     "location": "Realm of Lemuria",
     "leaders": ["Chief Olaug Hjort"],
@@ -70,13 +78,13 @@
   "Wexin": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["town","Cibrin","ulfwyst"],
+    "tags": ["town", "Cibrin", "ulfwyst"],
     "name": "Wexin",
     "nickname": "Wexin",
     "linkingWords": [],
     "type": "Town",
     "population": "1,500",
-    "races": ["human","dwarf","uklang","half-orc","half-giant"],
+    "races": ["human", "dwarf", "uklang", "half-orc", "half-giant"],
     "government": "Clan Council",
     "location": "Realm of Cibrin",
     "leaders": ["Darga Nagrosh of Clan Thosh"],
@@ -87,13 +95,13 @@
   "Edremit": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["town","Lemuria","ulfwyst"],
+    "tags": ["town", "Lemuria", "ulfwyst"],
     "name": "Edremit",
     "nickname": "Edremit",
     "linkingWords": [],
     "type": "Town",
     "population": "850",
-    "races": ["human","dwarf","uklang","half-orc","half-giant"],
+    "races": ["human", "dwarf", "uklang", "half-orc", "half-giant"],
     "government": "Clan Council",
     "location": "Realm of Lemuria",
     "leaders": [""],
@@ -104,13 +112,21 @@
   "Murmont": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["town","Lemuria","ulfwyst"],
+    "tags": ["town", "Lemuria", "ulfwyst"],
     "name": "Murmont",
     "nickname": "Murmont",
     "linkingWords": [],
     "type": "Town",
     "population": "2,180",
-    "races": ["half-elf","human","elf","dwarf","uklang","half-orc","half-giant"],
+    "races": [
+      "half-elf",
+      "human",
+      "elf",
+      "dwarf",
+      "uklang",
+      "half-orc",
+      "half-giant"
+    ],
     "government": "Clan Council",
     "location": "Realm of Lemuria",
     "description": [
@@ -120,13 +136,21 @@
   "Solleron": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["town","Lemuria","ulfwyst"],
+    "tags": ["town", "Lemuria", "ulfwyst"],
     "name": "Solleron",
     "nickname": "Solleron",
     "linkingWords": [],
     "type": "Town",
     "population": "3,850",
-    "races": ["half-elf","human","elf","dwarf","uklang","half-orc","half-giant"],
+    "races": [
+      "half-elf",
+      "human",
+      "elf",
+      "dwarf",
+      "uklang",
+      "half-orc",
+      "half-giant"
+    ],
     "government": "Clan Council",
     "location": "Realm of Lemuria",
     "description": [
@@ -136,48 +160,60 @@
   "Thareska": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["city","Navolin","Azond","ulfwyst"],
+    "tags": ["city", "Navolin", "Azond", "ulfwyst"],
     "name": "Thareska",
     "nickname": "Thareska",
     "linkingWords": [],
     "type": "Town",
     "population": "3,700",
-    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "races": [
+      "human",
+      "elf",
+      "gnome",
+      "half-elf",
+      "half-orc",
+      "halfling",
+      "dwarf",
+      "tiefling"
+    ],
     "government": "Feudal Lord",
     "location": "Navolin",
     "leaders": ["Baroness Mila Dobrev"],
     "description": [
       "The walled town @+Thareska+@ is a hub for local vineyards, which grow the region's famous variety of wine, the Stoyanov. The town was originally built as a hill fort to protect the mysterious \"Moon Gate\", a large arch of pearlescent white stone, which ancient residents believed was a gift from Nevondria, the Philosopher."
     ],
-    "articles": {
-
-    }
+    "articles": {}
   },
   "Salmas": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["town","Abbasyr","ulfwyst"],
+    "tags": ["town", "Abbasyr", "ulfwyst"],
     "name": "Salmas",
     "nickname": "Salmas",
     "linkingWords": [],
     "type": "Town",
     "population": "3,340",
-    "races": ["human","anubari","serbonji","dragonborn","half-orc","tiefling"],
+    "races": [
+      "human",
+      "anubari",
+      "serbonji",
+      "dragonborn",
+      "half-orc",
+      "tiefling"
+    ],
     "location": "Abbasyr",
-    "description": [
-      "@+Salmas+@ is a town in the Kingdom of Abbasyr."
-    ]
+    "description": ["@+Salmas+@ is a town in the Kingdom of Abbasyr."]
   },
   "Reykrang": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["town","Dol Obok","ulfwyst"],
+    "tags": ["town", "Dol Obok", "ulfwyst"],
     "name": "Reykrang",
     "nickname": "Reykrang",
     "linkingWords": [],
     "type": "Town",
     "population": "1,280",
-    "races": ["dwarf","human","half-orc","gnome"],
+    "races": ["dwarf", "human", "half-orc", "gnome"],
     "location": "Iron Hills",
     "leaders": "Serthri Caskmantle",
     "description": [
@@ -187,17 +223,163 @@
   "Aurvangr": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["town","Dol Obok","ulfwyst"],
+    "tags": ["town", "Dol Obok", "ulfwyst"],
     "name": "Aurvangr",
     "nickname": "Aurvangr",
     "linkingWords": [],
     "type": "Town",
     "population": "960",
-    "races": ["dwarf","human","gnome","tiefling"],
+    "races": ["dwarf", "human", "gnome", "tiefling"],
     "location": "Damali Steppe",
     "leaders": "Ungri Steelhammer",
     "description": [
       "@+Aurvangr+@ is a town located in the western Damali Steppe, in the foothills of the Zavalev Mountains. The town is independent, but has close ties with the dwarves of Fûthmér."
+    ]
+  },
+  "Borgvik": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["town", "Lemuria", "ulfwyst"],
+    "name": "Borgvik",
+    "nickname": "Borgvik",
+    "linkingWords": [],
+    "type": "Town",
+    "population": "1,635",
+    "guards": 10,
+    "levy": 254,
+    "tradesfolk": {
+      "armorsmiths": 1,
+      "blacksmiths": 1,
+      "weaponsmiths": 1,
+      "bowyers": 1,
+      "jewelers": 3,
+      "tailors": 4,
+      "furriers": 4,
+      "cobbler": 6,
+      "hatters": 1,
+      "mercers": 1,
+      "apothecaries": 1,
+      "barbers": 3,
+      "pastry chefs": 3,
+      "masons": 2,
+      "carpenters": 2,
+      "weavers": 2,
+      "chandlers": 1,
+      "coopers": 2,
+      "bakers": 2,
+      "water carriers": 1,
+      "scabbard makers": 2,
+      "wine sellers": 1,
+      "saddlers": 1,
+      "bookbinders": 0,
+      "purse makers": 1,
+      "magic shops": 1,
+      "butchers": 1,
+      "fishmongers": 1,
+      "brewers": 0,
+      "spice merchants": 0,
+      "healers": 3,
+      "doctors": 1,
+      "locksmiths": 1,
+      "ropemakers": 1,
+      "tanners": 1,
+      "sculptors": 0,
+      "rugmakers": 0,
+      "culters": 0,
+      "woodcarvers": 1,
+      "booksellers": 0,
+      "glove makers": 0,
+      "roofers": 1,
+      "copyists": 1,
+      "painters": 0,
+      "lawyers": 2,
+      "clerics": 32,
+      "priests": 1,
+      "taverns": 3,
+      "inns": 1
+    },
+    "corruption": 0,
+    "temples": {
+      "Arbiter": 1,
+      "Conqueror": 1,
+      "Eternal": 1,
+      "Sage": 1
+    },
+    "shops": {
+      "blacksmiths": [
+        {
+          "name": "The Blue Anvil",
+          "owner": "Tevlin"
+        }
+      ],
+      "weaponsmiths": [
+        {
+          "name": "The Splendid Blade",
+          "owner": "Malgot"
+        }
+      ],
+      "jewelers": [
+        {
+          "name": "Elberta's Jewelers",
+          "owner": "Elberta"
+        }
+      ],
+      "tailors": [
+        {
+          "name": "The Royal Thimble",
+          "owner": "Anastasiya"
+        },
+        {
+          "name": "Rose Garments",
+          "owner": "Eklira"
+        },
+        {
+          "name": "Rai's Garments",
+          "owner": "Rai"
+        },
+        {
+          "name": "The Purple Spool",
+          "owner": "Silna"
+        }
+      ],
+      "hatters": [
+        {
+          "name": "The Wild Cap",
+          "owner": "Izel"
+        }
+      ],
+      "mercers": [
+        {
+          "name": "Lavish Vestments",
+          "owner": "Chamaka"
+        }
+      ],
+      "taverns": [
+        {
+          "name": "Brindwilde's Public House",
+          "owner": "Graff Brindwilde"
+        }
+      ],
+      "inns": [
+        {
+          "name": "The Lone Raven",
+          "owner": "Randolf"
+        }
+      ]
+    },
+    "races": [
+      "half-elf",
+      "human",
+      "elf",
+      "dwarf",
+      "uklang",
+      "half-orc",
+      "half-giant"
+    ],
+    "government": "Clan Council",
+    "location": "Realm of Lemuria",
+    "description": [
+      "@+Borgvik+@ is a quiet town on the Skoga river. The town has several watermills which are used by nearby villages to mill excess grain."
     ]
   }
 }

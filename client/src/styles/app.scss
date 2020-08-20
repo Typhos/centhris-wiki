@@ -46,7 +46,7 @@ a {
   background-color: $charcoal;
   border-bottom: 1px solid $moodGreen;
   color: $moodGreen;
-  
+
   position: fixed;
   bottom: 0;
   z-index: 1000;
@@ -57,7 +57,6 @@ a {
 }
 
 @media all and (max-width: $breakpoint-mobile) {
-
   main.content {
     width: 90vw;
     margin: 0 auto;
