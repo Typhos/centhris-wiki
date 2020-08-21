@@ -1,12 +1,12 @@
 {
-  
   "Council-of-Nine": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Council of Nine",
     "nickname": "Council of Nine",
     "linkingWords": ["Council of Kaeldrin"],
-    "tags": ["mages","kaeldrin sanctum","ulfwyst"],
+    "tags": ["mages", "kaeldrin sanctum", "ulfwyst"],
     "type": "Government",
     "location": "Kaeldrin Sanctum",
     "memberNumber": "9",
@@ -21,18 +21,17 @@
       "Magister Hushod",
       "Magister Zuvey"
     ],
-    "description": [
-    ],
-    "articles": {
-    }
+    "description": [],
+    "articles": {}
   },
   "Clan-Council-of-Lemuria": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Clan Council of Lemuria",
     "nickname": "Clan Council of Lemuria",
     "linkingWords": ["Clan Council"],
-    "tags": ["lemuria","ulfwyst","elective body"],
+    "tags": ["lemuria", "ulfwyst", "elective body"],
     "type": "Government",
     "location": "Realm of Lemuria",
     "members": [
@@ -45,13 +44,10 @@
       "Halder Falklyng",
       "Dagny Nygard",
       "Eydis Völsung"
-
     ],
     "memberNumber": "15",
     "forceImg": "Storsal-Helter",
-    "leaders": [
-      "High Queen Inga Villdyr"
-    ],
+    "leaders": ["High Queen Inga Villdyr"],
     "description": [
       "The @+Clan Council of Lemuria+@ is the main governmental body of the Realm of Lemuria. The council meets at the Storsal Helter in the city of Kilurus. The council is comprised of the leaders of the Clans of Lemuria."
     ],
@@ -66,15 +62,14 @@
   },
   "Council-of-the-Withered-King": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Council of the Withered King",
     "nickname": "Council of the Withered King",
-    "tags": ["Istagen","ulfwyst","wizards"],
+    "tags": ["Istagen", "ulfwyst", "wizards"],
     "type": "Magic Order",
     "location": "Kingdom of Istagen",
-    "leaders": [
-      "Shulxaa the Withered King"
-    ],
+    "leaders": ["Shulxaa the Withered King"],
     "members": [
       "Akrozad",
       "Ekar the Harvester",

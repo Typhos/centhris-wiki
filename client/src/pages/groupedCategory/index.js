@@ -8,31 +8,30 @@ import Back from "components/back";
 import getQueryByCategory from "components/categories/getQueryByCategory";
 import CategoryGroupUpdated from "components/categories/categoryGroupUpdated";
 
+import noData from "../../img/data-not-found.webp";
+
 class GroupedCategory extends Component {
   constructor(props) {
     super(props);
 
-    const pathArray = window.location.pathname
-      .split("/")
-      .filter((str) => str !== "/" && str !== "");
+    const pathArray = window.location.pathname.split("/").filter((str) => str !== "/" && str !== "");
     const type = pathArray[0].replace("Category", "");
 
     this.state = {
       articles: undefined,
       categories: undefined,
+      dmView: localStorage.getItem("dmView") === "true",
       loading: true,
       pageData: [],
-      dmView: localStorage.getItem("dmView") === "true",
+      requestError: false,
       type: type,
     };
 
     this.getData = this.getData.bind(this);
   }
 
-  static getDerivedStateFromProps(nextProps, prevState) {
-    const pathArray = window.location.pathname
-      .split("/")
-      .filter((str) => str !== "/" && str !== "");
+  static getDerivedStateFromProps(_, prevState) {
+    const pathArray = window.location.pathname.split("/").filter((str) => str !== "/" && str !== "");
 
     const type = pathArray[0].replace("Category", "");
 
@@ -42,6 +41,7 @@ class GroupedCategory extends Component {
         categories: undefined,
         loading: true,
         pageData: [],
+        requestError: false,
         type: type,
       };
     }
@@ -71,7 +71,7 @@ class GroupedCategory extends Component {
         throw Error(response.statusText);
       }
 
-      const data = response.data.data.lore.sort((a, b) => {
+      let data = Object.values(response.data.data)[0].sort((a, b) => {
         if (a.name < b.name) return -1;
         return 1;
       });
@@ -84,15 +84,13 @@ class GroupedCategory extends Component {
         pageData: data,
       });
     } catch (err) {
-      this.setState({ requestError: true });
+      this.setState({ requestError: true, loading: false });
       console.error(err);
     }
   }
 
-  getHeading(type, numberOfArticles) {
+  getHeading(type) {
     switch (type) {
-      case "places":
-        return "Regions and Locales";
       default:
         return type.substring(0, 1).toUpperCase() + type.substring(1);
     }
@@ -104,7 +102,7 @@ class GroupedCategory extends Component {
   }
 
   render() {
-    const { loading, type, categories, pageData, articles } = this.state;
+    const { loading, type, categories, pageData, articles, requestError } = this.state;
 
     const numberOfArticles = pageData.length;
 
@@ -113,19 +111,24 @@ class GroupedCategory extends Component {
         <TitleComponent title={`${type} - Centhris Wiki`} />
         <Back />
 
-        <h1 className='category__heading'>
-          {this.getHeading(type)}
-          <small className='category__entryNumber'>
-            ({numberOfArticles}{" "}
-            {numberOfArticles > 1 || numberOfArticles === 0
-              ? "Entries"
-              : "Entry"}
-            )
-          </small>
-        </h1>
-
         {loading && <Loading />}
 
+        {requestError && (
+          <div className='error'>
+            <h2 className='error__heading'>Sorry, this page is having problems</h2>
+            <p className='error__text'>There seems to have been an issue getting articles for the {type} category.</p>
+            <img src={noData} />
+          </div>
+        )}
+
+        {categories && (
+          <h1 className='category__heading'>
+            {this.getHeading(type)}
+            <small className='category__entryNumber'>
+              ({numberOfArticles} {numberOfArticles > 1 || numberOfArticles === 0 ? "Entries" : "Entry"})
+            </small>
+          </h1>
+        )}
         {categories && (
           <article className='category columns'>
             {categories.map((category) => {
@@ -140,13 +143,7 @@ class GroupedCategory extends Component {
               };
 
               return (
-                <CategoryGroupUpdated
-                  key={category}
-                  articles={articles}
-                  category={category}
-                  heading={heading()}
-                  pageData={pageData}
-                />
+                <CategoryGroupUpdated key={category} articles={articles} category={category} heading={heading()} pageData={pageData} />
               );
             })}
           </article>

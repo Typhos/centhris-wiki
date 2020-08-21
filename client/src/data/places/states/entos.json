@@ -3,67 +3,79 @@
     "name": "Pellios",
     "nickname": "Kingdom of Pellios",
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["kingdom","state","entos","dictatorship"],
+    "tags": ["kingdom", "state", "entos", "dictatorship"],
     "linkingWords": ["Pellion"],
     "type": "State",
     "currency": "",
     "capital": "",
     "population": "~3.82 million",
     "area": "64,851 sq. miles",
-    "races": ["human","elf","gnome","half-elf","half-orc","halfling","tiefling"],
+    "races": [
+      "human",
+      "elf",
+      "gnome",
+      "half-elf",
+      "half-orc",
+      "halfling",
+      "tiefling"
+    ],
     "government": "Military Dictatorship",
     "location": "Entos",
     "leaders": [],
     "regions": [],
-    "description": [
-    ]
+    "description": []
   },
   "Tor-Aragil": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["kingdom","state","entos","monarchy"],
+    "tags": ["kingdom", "state", "entos", "monarchy"],
     "forceImg": "Selan-Aserin",
 
     "name": "Tor Aragil",
     "nickname": "High Elf Kingdom of Tor Aragil",
-    "linkingWords": [
-      "Aragilian",
-      "Kingdom of Tor Aragil"
-    ],
-    
+    "linkingWords": ["Aragilian", "Kingdom of Tor Aragil"],
+
     "type": "State",
     "currency": "Silver Phoenix",
     "capital": "Selan Aserin",
     "population": "~24.48 million",
     "area": "218,458 sq. miles",
-    "races": ["elf","half-elf","human","gnome","tiefling","dragonborn"],
+    "races": ["elf", "half-elf", "human", "gnome", "tiefling", "dragonborn"],
     "government": "Elective Monarchy",
     "location": "Entos",
     "leaders": ["Virren Erthaeldel"],
     "regions": [],
-    "description": [
-    ]
+    "description": []
   },
   "Sennhoff": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["kingdom","state","entos","monarchy"],
+    "tags": ["kingdom", "state", "entos", "monarchy"],
 
     "name": "Sennhoff",
     "nickname": "Kingdom of Sennhoff",
     "linkingWords": ["Sennhoffer"],
-    
+
     "type": "State",
     "currency": "Gilded Moon",
     "capital": "Merenheim",
-    "cities": [
-      "Altenbach",
-      "Brannsgart"
-    ],
+    "cities": ["Altenbach", "Brannsgart"],
     "population": "~18.31 million",
     "area": "308,194 sq. miles",
-    "races": ["human","half-orc","dwarf","half-elf","elf","halfling","gnome","tiefling"],
+    "races": [
+      "human",
+      "half-orc",
+      "dwarf",
+      "half-elf",
+      "elf",
+      "halfling",
+      "gnome",
+      "tiefling"
+    ],
     "government": "Feudal Monarchy",
     "location": "Entos",
     "leaders": ["King Karl VIII"],

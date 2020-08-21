@@ -1,8 +1,9 @@
 {
   "Ur'shiid-Desert": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["desert","region","ulfwyst"],
+    "tags": ["desert", "region", "ulfwyst"],
     "name": "Ur'shiid Desert",
     "nickname": "Dunes of Ur'shiid",
     "type": "Desert",
@@ -13,8 +14,9 @@
   },
   "Dune-Sea-of-Manar": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["desert","region","ulfwyst"],
+    "tags": ["desert", "region", "ulfwyst"],
     "name": "Dune Sea of Manar",
     "nickname": "Manar Dunes",
     "type": "Desert",
@@ -25,8 +27,9 @@
   },
   "Akheva-Badlands": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["desert","region","idrothea"],
+    "tags": ["desert", "region", "idrothea"],
     "name": "Akheva Badlands",
     "nickname": "Akheva Badlands",
     "type": "Desert",
@@ -37,8 +40,9 @@
   },
   "Ghoros-Dunes": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["desert","region","idrothea"],
+    "tags": ["desert", "region", "idrothea"],
     "name": "Ghoros Dunes",
     "nickname": "Ghoros Dunes",
     "type": "Desert",
@@ -49,8 +53,9 @@
   },
   "Velgadin-Wastes": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["desert","region","idrothea"],
+    "tags": ["desert", "region", "idrothea"],
     "name": "Velgadin Wastes",
     "nickname": "Velgadin Wastes",
     "type": "Desert",
@@ -61,8 +66,9 @@
   },
   "Darastrix-Necropolis": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["desert","region","idrothea"],
+    "tags": ["desert", "region", "idrothea"],
     "name": "Darastrix Necropolis",
     "nickname": "Darastrix Necropolis",
     "type": "Desert",
@@ -73,8 +79,9 @@
   },
   "Desolate-Wastes": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["desert","region","ulfwyst"],
+    "tags": ["desert", "region", "ulfwyst"],
     "name": "Desolate Wastes",
     "nickname": "Desolate Wastes",
     "linkingWords": ["Lake Droknog"],

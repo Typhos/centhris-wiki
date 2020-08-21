@@ -1,6 +1,7 @@
 {
   "Duskreef": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
     "tags": ["town", "Nakali Isles", "port", "ulfwyst", "Mare Concordis"],
     "name": "Duskreef",
@@ -8,15 +9,7 @@
     "linkingWords": ["Port of Duskreef", "Duskreef Prison"],
     "type": "Town",
     "population": "1,200",
-    "races": [
-      "human",
-      "halfling",
-      "half-orc",
-      "tiefling",
-      "hobgoblin",
-      "tortle",
-      "chromatic dragonborn"
-    ],
+    "races": ["human", "halfling", "half-orc", "tiefling", "hobgoblin", "tortle", "chromatic dragonborn"],
     "government": "Lawless",
     "location": "Nakali Iles",
     "leaders": ["Jöndr Mistwalker"],
@@ -58,6 +51,7 @@
   },
   "Zabrosk": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
     "tags": ["town", "Lemuria", "ulfwyst", "Telarion Elentiir"],
     "name": "Zabrosk",
@@ -77,6 +71,7 @@
   },
   "Wexin": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
     "tags": ["town", "Cibrin", "ulfwyst"],
     "name": "Wexin",
@@ -88,12 +83,11 @@
     "government": "Clan Council",
     "location": "Realm of Cibrin",
     "leaders": ["Darga Nagrosh of Clan Thosh"],
-    "description": [
-      "@+Wexin+@ is a town near the border between Cibrin and the Theocracy of Tovanis."
-    ]
+    "description": ["@+Wexin+@ is a town near the border between Cibrin and the Theocracy of Tovanis."]
   },
   "Edremit": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
     "tags": ["town", "Lemuria", "ulfwyst"],
     "name": "Edremit",
@@ -105,12 +99,11 @@
     "government": "Clan Council",
     "location": "Realm of Lemuria",
     "leaders": [""],
-    "description": [
-      "@+Edremit+@ is a town near the border between Lemuria and the Archduchy of Zurast."
-    ]
+    "description": ["@+Edremit+@ is a town near the border between Lemuria and the Archduchy of Zurast."]
   },
   "Murmont": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
     "tags": ["town", "Lemuria", "ulfwyst"],
     "name": "Murmont",
@@ -118,15 +111,7 @@
     "linkingWords": [],
     "type": "Town",
     "population": "2,180",
-    "races": [
-      "half-elf",
-      "human",
-      "elf",
-      "dwarf",
-      "uklang",
-      "half-orc",
-      "half-giant"
-    ],
+    "races": ["half-elf", "human", "elf", "dwarf", "uklang", "half-orc", "half-giant"],
     "government": "Clan Council",
     "location": "Realm of Lemuria",
     "description": [
@@ -135,6 +120,7 @@
   },
   "Solleron": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
     "tags": ["town", "Lemuria", "ulfwyst"],
     "name": "Solleron",
@@ -142,15 +128,7 @@
     "linkingWords": [],
     "type": "Town",
     "population": "3,850",
-    "races": [
-      "half-elf",
-      "human",
-      "elf",
-      "dwarf",
-      "uklang",
-      "half-orc",
-      "half-giant"
-    ],
+    "races": ["half-elf", "human", "elf", "dwarf", "uklang", "half-orc", "half-giant"],
     "government": "Clan Council",
     "location": "Realm of Lemuria",
     "description": [
@@ -159,6 +137,7 @@
   },
   "Thareska": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
     "tags": ["city", "Navolin", "Azond", "ulfwyst"],
     "name": "Thareska",
@@ -166,16 +145,7 @@
     "linkingWords": [],
     "type": "Town",
     "population": "3,700",
-    "races": [
-      "human",
-      "elf",
-      "gnome",
-      "half-elf",
-      "half-orc",
-      "halfling",
-      "dwarf",
-      "tiefling"
-    ],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "halfling", "dwarf", "tiefling"],
     "government": "Feudal Lord",
     "location": "Navolin",
     "leaders": ["Baroness Mila Dobrev"],
@@ -186,6 +156,7 @@
   },
   "Salmas": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
     "tags": ["town", "Abbasyr", "ulfwyst"],
     "name": "Salmas",
@@ -193,19 +164,13 @@
     "linkingWords": [],
     "type": "Town",
     "population": "3,340",
-    "races": [
-      "human",
-      "anubari",
-      "serbonji",
-      "dragonborn",
-      "half-orc",
-      "tiefling"
-    ],
+    "races": ["human", "anubari", "serbonji", "dragonborn", "half-orc", "tiefling"],
     "location": "Abbasyr",
     "description": ["@+Salmas+@ is a town in the Kingdom of Abbasyr."]
   },
   "Reykrang": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
     "tags": ["town", "Dol Obok", "ulfwyst"],
     "name": "Reykrang",
@@ -216,12 +181,11 @@
     "races": ["dwarf", "human", "half-orc", "gnome"],
     "location": "Iron Hills",
     "leaders": "Serthri Caskmantle",
-    "description": [
-      "@+Reykrang+@ is a town in the Iron Hills which holds alliegance to the Kingdom of Dol Obok."
-    ]
+    "description": ["@+Reykrang+@ is a town in the Iron Hills which holds alliegance to the Kingdom of Dol Obok."]
   },
   "Aurvangr": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
     "tags": ["town", "Dol Obok", "ulfwyst"],
     "name": "Aurvangr",
@@ -238,6 +202,7 @@
   },
   "Borgvik": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
     "tags": ["town", "Lemuria", "ulfwyst"],
     "name": "Borgvik",
@@ -367,15 +332,7 @@
         }
       ]
     },
-    "races": [
-      "half-elf",
-      "human",
-      "elf",
-      "dwarf",
-      "uklang",
-      "half-orc",
-      "half-giant"
-    ],
+    "races": ["half-elf", "human", "elf", "dwarf", "uklang", "half-orc", "half-giant"],
     "government": "Clan Council",
     "location": "Realm of Lemuria",
     "description": [

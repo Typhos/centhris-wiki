@@ -1,42 +1,44 @@
 {
   "Volikgrad": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city-state","barrier coast","ulfwyst","port","monarchy"],
+    "tags": ["city-state", "barrier coast", "ulfwyst", "port", "monarchy"],
     "name": "Volikgrad",
     "nickname": "Free City of Volikgrad",
     "type": "City-State",
     "population": "~9,500",
-    "districts": ["the Planks","Windpoint","Stewards Row","the Foreign Quarter","the Oakyard"],
-    "races": ["human","elf","gnome","half-elf","halfling","dwarf"],
+    "districts": ["the Planks", "Windpoint", "Stewards Row", "the Foreign Quarter", "the Oakyard"],
+    "races": ["human", "elf", "gnome", "half-elf", "halfling", "dwarf"],
     "government": "Merchant Oligarchy",
     "currency": "Barrier Coast Hull",
     "location": "Barrier Coast",
     "description": [
       "The Free City of Volikgrad is a city-state in the Barrier Coast region of Ulfwyst. It is the southern-most city on the barrier coast and a major trade hub for merchants and travelers heading towards the southern regions of the Kingdom of Navolin or the Archduchy of Zurast.",
       "The primary attractions of the city are the Twin Arches Market, the Eikras Auction House, and the Moongate, a grand temple to the Maiden."
-    ]    
+    ]
   },
   "Rakenburg": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city-state","barrier coast","ulfwyst","port","capital","oligarchy"],
+    "tags": ["city-state", "barrier coast", "ulfwyst", "port", "capital", "oligarchy"],
     "name": "Rakenburg",
     "nickname": "Free City of Rakenburg",
     "type": "City-State",
     "population": "~26,000",
     "river": "Kamsby River",
-    "races": ["human","elf","gnome","half-elf","halfling","dwarf"],
+    "races": ["human", "elf", "gnome", "half-elf", "halfling", "dwarf"],
     "government": "Guild Oligarchy",
     "currency": "Barrier Coast Hull",
     "location": "Barrier Coast",
-    "districts": ["Embersky","Ghost Orchard","the Greenwood Quarter","Gullhollow","Murky Reach"],
+    "districts": ["Embersky", "Ghost Orchard", "the Greenwood Quarter", "Gullhollow", "Murky Reach"],
     "description": [
       "The Free City of Rakenburg is a city-state in the Barrier Coast region of Ulfwyst. It is the largest city in the region and the defacto capital of the city-state alliance. The city is a common point for merchants and travelers moving through the region to resupply, due to its central location. The city is surrounded on all sides by a large, stone wall which is 12 meters tall on the north side of the Kamsby river and 15 meters high south of the river. The citadel, Dawnguard Keep, is located on the western end of the city, just beyond the Ghost Orchard District.",
       "Rakenburg is a city built on top of several previous settlements, though the exact number of settlements that existed before is not widely known. Most of the city's current construction used existing building material and re-purposed it. It is not known exactly when the current incarnation of the city was founded, though scholars speculate that the upper city was resettled around 900 years ago.",
       "The ruins below the city proper are collectively known as the Twisting Warrens, or simply 'the Warrens'. There are three known entrances to the labyrinthine under-city which are all guarded and monitored at all hours. Entrance to the Warrens is tightly controlled, due to the dangers that lurk around every corner. The primary entrance to the under-city is located in the Dawnstar Fairgrounds, with smaller entrances in the Ghost Orchard and the Murky Reach."
     ],
-    "articles":{
+    "articles": {
       "History": [
         "In its early years, the city was ruled by a hereditary monarch, known as the Praeses. During the city's earliest years, when the guilds of Rakenburg were just coming into prominence, inter-guild conflicts were common as Legal Guilds fought over commercial rights, land and establishments. Eventually, these squabbles engulfed the entire city in widespread violence and civil revolt, now known as the First Guild War.",
         "The First Guild war ended with the overthrow of Praeses Dukran Varyniks and the establishment of the Guild Council of Rakenburg.",
@@ -51,48 +53,51 @@
   },
   "Braxinfurt": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city-state","barrier coast","ulfwyst","port","republic"],
+    "tags": ["city-state", "barrier coast", "ulfwyst", "port", "republic"],
     "name": "Braxinfurt",
     "nickname": "Free City of Braxinfurt",
     "type": "City-State",
     "population": "~11,500",
-    "races": ["human","dwarf","tiefling","gnome","halfling"],
+    "races": ["human", "dwarf", "tiefling", "gnome", "halfling"],
     "government": "Oligarchic Republic",
     "currency": "Barrier Coast Hull",
     "location": "Barrier Coast",
-    "districts": ["Rainbank","Sunhook","Bakerton","Comar's Ford"],
+    "districts": ["Rainbank", "Sunhook", "Bakerton", "Comar's Ford"],
     "description": [
       "Braxinfurt is one of the five major, allied cities that comprise the alliance of Barrier Coast city-states. A true merchant republic, the city is a strange experiment in governance in the eyes of other political entities in the region. The city has a long-standing alliance with the dwarven hold of Ezhekal, located to the west in the Jordonis mountains. The two cities have traded goods, resources and elements of their cultures for hundreds of years, creating a unique blend of art, music and legal practices."
     ]
   },
   "Korasov": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city-state","barrier coast","ulfwyst","port","monarchy"],
+    "tags": ["city-state", "barrier coast", "ulfwyst", "port", "monarchy"],
     "name": "Korasov",
     "nickname": "Free City of Korasov",
     "type": "City-State",
     "population": "~5000",
-    "races": ["human","tiefling","dwarf","dragonborn","tortle"],
+    "races": ["human", "tiefling", "dwarf", "dragonborn", "tortle"],
     "government": "Elective Monarchy",
     "leaders": ["Lord Mayor Mertien Sarstina"],
     "currency": "Barrier Coast Hull",
     "location": "Barrier Coast",
     "description": [
       "The Free City of Korasov is a city-state in the Barrier Coast region of Ulfwyst. It is the norther-most city on the barrier coast. At one time, the city was considered part of the Kingdom of Navolin. However, due to changing political climates and shrewd diplomacy, the Lord Mayor of Korasov was able to align himself with the Free Cities of the Barrier Coast. Thus, the city became independent from Navolin without a single casualty."
-    ]    
+    ]
   },
   "Venbrin": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city-state","barrier coast","ulfwyst","port","monarchy"],
+    "tags": ["city-state", "barrier coast", "ulfwyst", "port", "monarchy"],
     "name": "Venbrin",
     "nickname": "Free City of Venbrin",
     "type": "City-State",
     "population": "~4,500",
-    "districts": ["Darsnel Hill","Goldhawk","Hornsend","Tollis Quay"],
-    "races": ["human","gnome","elf","dwarf","dragonborn"],
+    "districts": ["Darsnel Hill", "Goldhawk", "Hornsend", "Tollis Quay"],
+    "races": ["human", "gnome", "elf", "dwarf", "dragonborn"],
     "government": "Hereditary Monarchy",
     "currency": "Barrier Coast Hull",
     "location": "Barrier Coast",
@@ -102,39 +107,37 @@
   },
   "Hubrynk": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city-state","barrier coast","ulfwyst","port"],
+    "tags": ["city-state", "barrier coast", "ulfwyst", "port"],
     "name": "Hubrynk",
     "nickname": "Free Town of Hubrynk",
     "type": "Town",
     "population": "~1000",
-    "races": ["human","tiefling","dwarf","dragonborn"],
+    "races": ["human", "tiefling", "dwarf", "dragonborn"],
     "government": "Oligarchy",
     "location": "Barrier Coast",
     "description": [
       "Free Town of Hubrynk is a city-state in the Barrier Coast region of Ulfwyst. It is located between the larger city-states of Korasov and Braxinfurt.",
       "Hubrynk was resettled centuries ago in the shadow of a huge castle ruin. The structure, referred to locally as the 'Titan', has no visible entrances. Townsfolk claim that when the town was founded some of the settlers attempted to scale the walls to explore the ruins. None of the initial explorers who ventured over the walls ever returned, and the settlers banned all attempts to do so in the future for fear of what might lurk within."
-    ]    
+    ]
   },
   "Tegren": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city-state","ulfwyst","port"],
+    "tags": ["city-state", "ulfwyst", "port"],
     "name": "Tegren",
     "nickname": "Tegren",
     "linkingWords": ["Free City of Tegren"],
-    "idLinks": {
-    },
+    "idLinks": {},
     "type": "City-State",
     "population": "7,300",
-    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "halfling", "dwarf", "tiefling"],
     "government": "",
     "location": "Adorra Sound",
     "leaders": [""],
-    "description": [
-      "Tegren is a city-state on the coast of the Adorra Sound in Ulfwyst."
-    ],
-    "articles": {
-    }
+    "description": ["Tegren is a city-state on the coast of the Adorra Sound in Ulfwyst."],
+    "articles": {}
   }
 }

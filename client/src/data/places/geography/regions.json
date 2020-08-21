@@ -1,12 +1,13 @@
-{ 
+{
   "Kelishan-Highlands": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","highlands","plains","navolin","ulfwyst"],
+    "tags": ["region", "highlands", "plains", "navolin", "ulfwyst"],
     "name": "Kelishan Highlands",
     "nickname": "Kelishan",
     "type": "Region",
-    "races": ["human","elf","gnome","half-elf","half-orc","halfling"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "halfling"],
     "nation": "Kingdom of Navolin",
     "location": "Ulfwyst",
     "description": [
@@ -14,26 +15,28 @@
       "A vast grassland of rolling hills dotted with the occasional forest, the highlands of Kelishan are considered an integral part of the Kingdom of Navolin. It is here that the kingdom produces most of its grain harvest. In addition, the highlands are excellent territory for herding a variety of livestock, including cattle, horses and sheep.",
       "Though rain is not plentiful, there is generally enough in a year to ensure a decent crop. The region offers few sources of metal or stone, and most settlements consist of wooden structures with thatched roofs. If a settlement is walled, it is generally surrounded by a palisade or an earthen mound.",
       "The largest river in the highlands is the Sulas, which collects water in the highlands and runs south to the Blighted Mire and on to the Bay of Claws."
-    ]    
+    ]
   },
   "Damali-Steppe": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","plains","steppe","navolin","ulfwyst"],
+    "tags": ["region", "plains", "steppe", "navolin", "ulfwyst"],
     "name": "Damali Steppe",
     "nickname": "Damali Basin",
     "type": "Region",
-    "races": ["human","elf","gnome","half-elf","half-orc","halfling"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "halfling"],
     "nation": "Kingdom of Navolin",
     "location": "Ulfwyst",
     "description": [
       "The Damali Steppe is a seemingly endless flat grassland that makes up a large area of east-central Ulfwyst. The steppe is considered the territorial barrier between the Kingdom of Navolin and the Kaeldrin Sanctum."
-    ]    
+    ]
   },
   "Syrothian-Plateau": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","plains","steppe","Syrothian Empire","ulfwyst"],
+    "tags": ["region", "plains", "steppe", "Syrothian Empire", "ulfwyst"],
     "name": "Syrothian Plateau",
     "nickname": "Syrothian Plateau",
     "type": "Region",
@@ -41,51 +44,55 @@
     "location": "Ulfwyst",
     "description": [
       "The @+Syrothian Plateau+@ a seemingly endless, rolling grassland that covers the nearly the entirety of central Ulfwyst. The plateau has been home to numerous tribes of nomadic peoples and various great plains creatures including horses, elk, boar, wolves, griffins, wyverns and even the occasional roc."
-    ]    
+    ]
   },
   "Barrier-Coast": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","coast","mountains","ulfwyst"],
+    "tags": ["region", "coast", "mountains", "ulfwyst"],
     "name": "Barrier Coast",
     "nickname": "Barrier Coast",
     "type": "Region",
-    "races": ["human","dwarf","gnome","half-orc","dragonborn","tiefling"],
+    "races": ["human", "dwarf", "gnome", "half-orc", "dragonborn", "tiefling"],
     "nation": "Barrier Coast City-States",
     "location": "Ulfwyst",
     "description": [
       "The Barrier Coast is a Region on the eastern coast of the continent of Ulfwyst. The region is a relatively dry, rocky coastline east of the Jordonis Mountains before ending at the Mare Concordis. Due to its length, the southern end of the region is temperate, while the northern end of the coast is sub-tropical.",
       "The major political elements in the region are the Free City-States of the Barrier Coast. These loosely affiliated city-states maintain their independence from each other, but share a common culture and a defensive alliance against outside aggression from other regional powers. The major city-states that comprise this alliance are Braxinfurt, Korasov, Rakenburg, Venbrin and Volikgrad."
-    ]    
+    ]
   },
   "Isle-of-Sunheim": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["island","barrier coast","region","ulfwyst"],
+    "tags": ["island", "barrier coast", "region", "ulfwyst"],
     "name": "Isle of Sunheim",
     "nickname": "Sunheim",
     "type": "Island",
     "location": "Mare Concordis",
     "description": [
       "The Isle of Sunheim is located off the eastern coast of the continent of Ulfwyst. Is is a sub-tropical island. The largest settlement on the island is the city of Venbrin."
-    ]    
+    ]
   },
   "Toridosa-Archipelago": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["island","archipelago","region","ulfwyst"],
+    "tags": ["island", "archipelago", "region", "ulfwyst"],
     "name": "Toridosa Archipelago",
     "nickname": "Toridosa",
     "type": "Island",
     "description": [
       "The Toridosa Archipelago is series of islands in the center of the Mare Concordis. Little is known about the islands, though their existence has been known for centuries. It was only within the last few years that the island chain has been successfully mapped.",
       "Explorers who have traveled to the archipelago speak of incredible, vast ruins and terrible dangers that await any who venture there."
-    ]    
+    ]
   },
   "Nakali-Islands": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["islands","region","ulfwyst"],
+    "tags": ["islands", "region", "ulfwyst"],
     "name": "Nakali Islands",
     "nickname": "Nakali Isles",
     "type": "Island",
@@ -98,46 +105,41 @@
         "The largest and southern-most island in the Nakali isles is known as Haryuma."
       ]
     },
-    "dmArticles": {
-
-    }
+    "dmArticles": {}
   },
   "Jayanti-Isles": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["islands","region","ulfwyst"],
+    "tags": ["islands", "region", "ulfwyst"],
     "name": "Jayanti Isles",
     "nickname": "Jayanti Islands",
     "type": "Island",
     "description": [
       "The @+Jayanti Islands+@ are an island chain off the northern coast of Ulfwyst. Volcanic in origin, the islands are covered in thick forests before rising up to the high, jagged peaks at their center. Several large port towns have been established on the islands in order to facilitate trade along the northern coast."
     ],
-    "articles": {
-    },
-    "dmArticles": {
-
-    }
+    "articles": {},
+    "dmArticles": {}
   },
   "Ursgal-Islands": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["islands","region","ulfwyst"],
+    "tags": ["islands", "region", "ulfwyst"],
     "name": "Ursgal Islands",
     "nickname": "Ursgal Islands",
     "type": "Island",
     "description": [
       "The @+Ursgal Islands+@ are an island chain which separate the southern Isdrage Bay and the Venngar Sea. The islands, which are a mix of icy, barren rocks and tree-capped cays, provide a natural sailing route between eastern and western Lemuria."
     ],
-    "articles": {
-    },
-    "dmArticles": {
-
-    }
+    "articles": {},
+    "dmArticles": {}
   },
   "Valley-of-Rud-Gilan": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["valley","Ur'shiid","region","ulfwyst","Abbasyr"],
+    "tags": ["valley", "Ur'shiid", "region", "ulfwyst", "Abbasyr"],
     "name": "Valley of Rud Gilan",
     "nickname": "the Valley of No Return",
     "type": "Region",
@@ -146,12 +148,20 @@
       "The Valley of Rud Gilan, also known as the Valley of No Return, is a dangerous sub-region of the Ur'shiid Desert. The valley is composed of rocky outcroppings and narrow, dry river beds. The area does receive occasional rainfall, during which the region floods for short periods of time before returning to its usual, arid state.",
       "The creatures that live in this region have evolved to survive in such a hostile climate. Voracious carnivores stalk the shards of jagged rock and the few herbivores that live in the area are stout beasts with various ways of conserving water between the infrequent periods of rain.",
       "Remnants of a long-dead civilization still dot the region. Many structures have long crumbled into ruin, though many great monuments, temples and public works can still be found throughout the area. Superstitious travelers steer well clear of the valley, and claim they have seen or hear tales of terrible, nightmarish creatures that wander the valley at night. Other claim they have seen huge, winged creatures circle the crags and ruins, openly displaying their power and ownership of the valley to anyone who might challenge their dominance."
-    ] 
+    ]
   },
   "Iron-Hills": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["hills","region","ulfwyst","forest","pillars of amud","dol obok"],
+    "tags": [
+      "hills",
+      "region",
+      "ulfwyst",
+      "forest",
+      "pillars of amud",
+      "dol obok"
+    ],
     "name": "Iron Hills",
     "nickname": "The Iron Hills",
     "type": "Region",
@@ -159,12 +169,13 @@
     "location": "Ulfwyst",
     "description": [
       "The @+Iron Hills+@ are a region of foothills south of the Pillars of Amud, in central Ulfwyst. Named for the region's extensive deposits of iron ore, primarily in the form of magnetite, the foothills have become a major source of raw material for the dwarven kingdom of Dol Obok."
-    ]    
+    ]
   },
   "Tiderack-Coast": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["coast","region","ulfwyst","Navolin"],
+    "tags": ["coast", "region", "ulfwyst", "Navolin"],
     "name": "Tiderack Coast",
     "nickname": "Tiderack Coast",
     "linkingWords": ["Tiderack"],
@@ -172,12 +183,13 @@
     "location": "Navolin",
     "description": [
       "The @+Tiderack Coast+@ is a tropical, coastal region of Ulfwyst located on the north east corner of the continent. The region encompasses the area north of the Barrier Coast and east of the Sea of Cassan. Historically, the coast was controlled by the Kingdom of Azond. With the conquest of Azond, the region is now under the control of the Kingdom of Navolin."
-    ]    
+    ]
   },
   "Vuradel-Coast": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["coast","region","ulfwyst","Lemuria"],
+    "tags": ["coast", "region", "ulfwyst", "Lemuria"],
     "name": "Vuradel Coast",
     "nickname": "Vuradel Coast",
     "linkingWords": [],
@@ -185,12 +197,13 @@
     "location": "Lemuria",
     "description": [
       "The @+Vuradel Coast+@ a temperate, coastal region of the Mare Concordis located along the south-east corner of Ulfwyst. The region encompasses the area south of the Barrier Coast and north of the Venngar Sea. Historically, the coast was controlled by the Realm of Lemuria, though following the War of Sellswords, the coastline is shared with the Archduchy of Zurast."
-    ]    
+    ]
   },
   "Lepkar-Peninsula": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["coast","region","ulfwyst","Archduchy of Zurast","Lemuria"],
+    "tags": ["coast", "region", "ulfwyst", "Archduchy of Zurast", "Lemuria"],
     "name": "Lepkar Peninsula",
     "nickname": "Lepkar Peninsula",
     "linkingWords": [],
@@ -198,12 +211,13 @@
     "location": "Archduchy of Zurast",
     "description": [
       "The @+Lepkar Peninsula+@ is a coast region along the Bay of Claws and the Korin Gulf. For most of history the region was controlled by the Realm of Lemuria. Following the War of Red Claws, the Archduchy of Zurast took control of the peninsula as part of its bid to establish itself as a regional power."
-    ]    
+    ]
   },
   "Rikedal-Lowlands": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["lowlands","ulfwyst","valley","Lemuria"],
+    "tags": ["lowlands", "ulfwyst", "valley", "Lemuria"],
     "name": "Rikedal Lowlands",
     "nickname": "Rikedal Lowlands",
     "linkingWords": [],
@@ -211,25 +225,27 @@
     "location": "Lemuria",
     "description": [
       "The @+Rikedal Lowlands+@ are a region in western Lemuria created by the Svinge and Ruunan rivers. The lowlands sit west of Isdrage Bay, east of the Greyleaf Pines and north of the Razark Timberlands. The region serves as one of the most fertile farming regions in the Realm of Lemuria. It, along with the Trädgård Plain, provide the vast majority of grain and produce for the kingdom. Many farming villages dot the lowlands, creating a patchwork of colorful fields as far as the eye can see."
-    ]    
+    ]
   },
   "Trädgård-Plain": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["lowlands","ulfwyst","valley","Lemuria"],
+    "tags": ["lowlands", "ulfwyst", "valley", "Lemuria"],
     "name": "Trädgård Plain",
     "nickname": "Trädgård Plains",
-    "linkingWords": ["Tradgard Plain","Tradgard Plains"],
+    "linkingWords": ["Tradgard Plain", "Tradgard Plains"],
     "type": "Region",
     "location": "Lemuria",
     "description": [
       "The @+Trädgård Plain+@ is a region in eastern Lemuria. The region is the most fertile farming region in the Realm of Lemuria. It, along with the Rikedal Lowlands, provide the vast majority of grain and produce for the kingdom. The heartland of this legion is dotted with numerous ponds, lakes and streams which provide the necessary water for the numerous farming villages that are spread across the landscape."
-    ]    
+    ]
   },
   "Barrowdowns": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["hills","ulfwyst","burial ground","Lemuria"],
+    "tags": ["hills", "ulfwyst", "burial ground", "Lemuria"],
     "name": "Barrowdowns",
     "nickname": "the Barrowdowns",
     "linkingWords": [],
@@ -238,27 +254,29 @@
     "description": [
       "The @+Barrowdowns+@ is a region of humanoid-made hills in the Rikedal Lowlands of the Kingdom of Lemuria. Until around 2C 2250 this region was where the lords of Clan Arnbjorg were buried, most famously Drelnor Arnbjorg. The great barrow mounds of the region are capped with great cairns and runestones to commemorate those who were buried here. The more cairns, runestones and other commemorative decorations were placed on a mound, the more important the tomb. Is is customary for a clan noble to receive a single runestone and cairn. Clan chiefs generally are marked with 2 cairns and a runestone, while chieftains are marked with 2 cairns and 2 runestones. Very few lords of Arnbjorg were ever granted any more prominent barrow caps, though Drelnor Arnbjorg's barrow mound was marked with 3 cairns and 2 runestones, proving that the practice is not unheard of.",
       "In the current era, Lemurians do not bury their dead, as the practice of cremating a body on a pyre is preferred to avoid the possibility of undeath. Only those who explicitly request a traditional burial (and can afford the cost of barrow or mausoleum construction) are entombed, and generally such locations are consecrated to avoid issues later."
-    ]    
+    ]
   },
   "Olgarrod-Wilds": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","ulfwyst","arctic forest"],
+    "tags": ["region", "ulfwyst", "arctic forest"],
     "name": "Olgarrod Wilds",
     "nickname": "Olgarrod Wilds",
     "type": "Region",
     "location": "Southern Ulfwyst",
     "description": [
       "The @+Olgarrod Wilds+@ are a huge region of alpine tundra in south-central Ulfwyst. The wilds are inhabited by dangerous wild beasts, monstrous creatures and tribes of giants. Few explorers from the civilized areas of the continent have attempted to explore the region. Those that have traveled to the wilds and lived to speak of it state that it is a land of stunning beauty and incredible danger."
-    ]    
+    ]
   },
   "Retirim-Valley": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","ulfwyst","valley","Tovanis"],
+    "tags": ["region", "ulfwyst", "valley", "Tovanis"],
     "name": "Retirim Valley",
     "nickname": "Retirim Valley",
-    "linkingWords": ["Retirim river","Retirim river valley"],
+    "linkingWords": ["Retirim river", "Retirim river valley"],
     "type": "Region",
     "location": "Tovanis",
     "description": [
@@ -274,8 +292,9 @@
   },
   "Torick-Vir-Valley": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","ulfwyst","valley","Tovanis"],
+    "tags": ["region", "ulfwyst", "valley", "Tovanis"],
     "name": "Torick-Vir Valley",
     "nickname": "Torick-Vir Valley",
     "type": "Region",

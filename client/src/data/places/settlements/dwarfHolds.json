@@ -1,43 +1,43 @@
 {
   "Ankor-Duraz": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
     "name": "Ankor Duraz",
     "nickname": "Dwarf City of Ankor Duraz",
     "linkingWords": ["Durazian"],
-    "tags": ["dwarf hold","torick peaks","ulfwyst"],
+    "tags": ["dwarf hold", "torick peaks", "ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Amuddurin",
     "population": "~18,200",
-    "races": ["dwarf","human","uklang","half-orc"],
+    "races": ["dwarf", "human", "uklang", "half-orc"],
     "government": "Hereditary Monarchy",
     "location": "Torick Peaks",
     "leaders": ["Thane Valbrand Grǫnhárr"],
     "description": [
-        "The city of @+Ankor Duraz+@ is located under Mount Certunsk in the Torick Peaks. The expansive mines under the city have made it one of the richest dwarven holds in Ulfwyst. This wealth, and the independent status of the city have put it at odds with both the Realm of Cibrin and the dwarven kingdom of Dol Obok. The city's refusal to ally with Cibrin has resulted in numerous sieges of Mount Certunsk, none of which have managed to breach the city's defenses.",
-        "The hold and the Kingdom of Dol Obok have extensive trade agreements. Merchants from each state can be found throughout the southern reaches of Ulfwyst, trading dwarven wares in most city markets. King Bramdur Thundershod wishes to bring the city into his realm due to common heritage, protection and proximity, but Thane Valbrand Grǫnhárr has publicly stated that his people have no need of outside protection, especially not at the loss of their autonomy. "
+      "The city of @+Ankor Duraz+@ is located under Mount Certunsk in the Torick Peaks. The expansive mines under the city have made it one of the richest dwarven holds in Ulfwyst. This wealth, and the independent status of the city have put it at odds with both the Realm of Cibrin and the dwarven kingdom of Dol Obok. The city's refusal to ally with Cibrin has resulted in numerous sieges of Mount Certunsk, none of which have managed to breach the city's defenses.",
+      "The hold and the Kingdom of Dol Obok have extensive trade agreements. Merchants from each state can be found throughout the southern reaches of Ulfwyst, trading dwarven wares in most city markets. King Bramdur Thundershod wishes to bring the city into his realm due to common heritage, protection and proximity, but Thane Valbrand Grǫnhárr has publicly stated that his people have no need of outside protection, especially not at the loss of their autonomy. "
     ],
-    "dmArticles": {
-    }
+    "dmArticles": {}
   },
   "Thellodur": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
     "name": "Thellodur",
     "nickname": "Dwarf Hold of Thellodur",
     "linkingWords": ["Thellodurian"],
-    "tags": ["dwarf hold","pillars of amud","ulfwyst","capital"],
+    "tags": ["dwarf hold", "pillars of amud", "ulfwyst", "capital"],
     "type": "Dwarf Hold",
     "currency": "Amuddurin",
     "population": "~22,400",
-    "races": ["dwarf","human","halfling"],
+    "races": ["dwarf", "human", "halfling"],
     "government": "Hereditary Monarchy",
     "location": "Pillars of Amud",
     "nation": "Dol Obok",
     "leaders": ["High King Bramdur Thundershod"],
     "districts": [],
-    "description": [
-    ],
+    "description": [],
     "dmArticles": {
       "History": [
         "The city of Thellodur is the capital of Dol Obok. The city is centrally located in the Pillars of Amud and is connected to the other great dwarven holds of the mountain range through a series of underground passageways that were carved millenia ago by the giants that used to rule the peaks. The dwarves of Thellodur have yet to discover or map all of the great tunnels and many delvers spend their entire careers exploring these roads."
@@ -46,77 +46,77 @@
   },
   "Felrast": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
     "name": "Felrast",
     "nickname": "Dwarf Hold of Felrast",
     "linkingWords": ["Felrastian"],
-    "tags": ["dwarf hold","pillars of amud","ulfwyst"],
+    "tags": ["dwarf hold", "pillars of amud", "ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Amuddurin",
     "population": "~7,800",
-    "races": ["dwarf","human","halfling"],
+    "races": ["dwarf", "human", "halfling"],
     "government": "Hereditary Monarchy",
     "location": "Pillars of Amud",
     "nation": "Dol Obok",
     "leaders": ["Thane Gimmyl Wyrmbreaker"],
     "districts": [],
     "description": [
-        "The city of Felrast is a dwarf hold under Mount Delovun in the Pillars of Amud. The city overlooks the vast Iron Hills that mark the southern edge of the Pillars of Amud."
+      "The city of Felrast is a dwarf hold under Mount Delovun in the Pillars of Amud. The city overlooks the vast Iron Hills that mark the southern edge of the Pillars of Amud."
     ],
     "articles": {
-        "City of the Smiths": [
-            "Felrast is the ancestral home of runesmithing in Dol Obok. The city has far more runesmiths per capita than any other city in Ulfwyst, and many dwarf artisans from across the continent are either natives of the city or apprenticed there in their youth. Such is the reputation of the city that nobles, knights and adventurers from across Ulfwyst will journey to Felrast to have one of the city's famous smiths forge them items inscribed with magic runes of power.",
-            "Some of the most well known smiths in Felrast include Ithi Ironjaw, Jum Flamescar and Strikmund Blackhelm."
-        ]
+      "City of the Smiths": [
+        "Felrast is the ancestral home of runesmithing in Dol Obok. The city has far more runesmiths per capita than any other city in Ulfwyst, and many dwarf artisans from across the continent are either natives of the city or apprenticed there in their youth. Such is the reputation of the city that nobles, knights and adventurers from across Ulfwyst will journey to Felrast to have one of the city's famous smiths forge them items inscribed with magic runes of power.",
+        "Some of the most well known smiths in Felrast include Ithi Ironjaw, Jum Flamescar and Strikmund Blackhelm."
+      ]
     },
     "dmArticles": {
-      "History": [
-        
-      ]
+      "History": []
     }
   },
   "Rul-Orodum": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
     "name": "Rul Orodum",
     "nickname": "Dwarf Hold of Rul Orodum",
     "linkingWords": ["Orodumin"],
-    "tags": ["dwarf hold","pillars of amud","ulfwyst"],
+    "tags": ["dwarf hold", "pillars of amud", "ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Amuddurin",
     "population": "~1,900",
-    "races": ["dwarf","human","halfling"],
+    "races": ["dwarf", "human", "halfling"],
     "government": "Hereditary Monarchy",
     "location": "Pillars of Amud",
     "nation": "Dol Obok",
     "leaders": ["Thane Jarvari Frostbeard"],
     "districts": [],
-    "description": ["@+Rul Orodum+@ is a dwarven keep located under Mount Kadrin high above the Desolate Wastes. The fortress serves as the gateway to the vast underground road networks of Dol Obok. Thanes from across the Pillars of Amud send young dwarf warriors to the fortress' famous ranger barracks, where they learn the arts of scouting, skirmishing and survival in harsh environments."
+    "description": [
+      "@+Rul Orodum+@ is a dwarven keep located under Mount Kadrin high above the Desolate Wastes. The fortress serves as the gateway to the vast underground road networks of Dol Obok. Thanes from across the Pillars of Amud send young dwarf warriors to the fortress' famous ranger barracks, where they learn the arts of scouting, skirmishing and survival in harsh environments."
     ],
     "dmArticles": {
-      "History": [
-        ""
-      ]
+      "History": [""]
     }
   },
   "Lanok-Duraz": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
     "name": "Lanok Duraz",
     "nickname": "Dwarf Hold of Lanok Duraz",
     "linkingWords": ["Lanok Durazian"],
-    "tags": ["dwarf hold","pillars of amud","ulfwyst"],
+    "tags": ["dwarf hold", "pillars of amud", "ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Amuddurin",
     "population": "~2,300",
-    "races": ["dwarf","human","halfling"],
+    "races": ["dwarf", "human", "halfling"],
     "government": "Hereditary Monarchy",
     "location": "Pillars of Amud",
     "nation": "Dol Obok",
     "leaders": ["Thane Recha Yewhammer"],
     "districts": [],
     "description": [
-        "Lanok Duraz is a dwarven hold located in the Pillars of Amud which spans between the twin peaks of Mount Gorzul and Mount Runthoz."
+      "Lanok Duraz is a dwarven hold located in the Pillars of Amud which spans between the twin peaks of Mount Gorzul and Mount Runthoz."
     ],
     "dmArticles": {
       "History": []
@@ -124,67 +124,67 @@
   },
   "Isidar-Hreth": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
     "name": "Isidar Hreth",
     "nickname": "Dwarf Hold of Isidar Hreth",
     "linkingWords": ["Hrethen"],
-    "tags": ["dwarf hold","pillars of amud","ulfwyst"],
+    "tags": ["dwarf hold", "pillars of amud", "ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Amuddurin",
     "population": "~3,900",
-    "races": ["dwarf","human","halfling"],
+    "races": ["dwarf", "human", "halfling"],
     "government": "Hereditary Monarchy",
     "location": "Pillars of Amud",
     "nation": "Dol Obok",
     "leaders": ["Thane Soksy Thundershod"],
     "districts": [],
     "description": [
-        "The dwarven hold of Isidar Hreth contains the largest library of dwarven tomes and histories in Ulfwyst. Every book regarding family lineage, smithing techniques, military tactics or slights against dwarf-kind is copied down and storied in its vaults."
+      "The dwarven hold of Isidar Hreth contains the largest library of dwarven tomes and histories in Ulfwyst. Every book regarding family lineage, smithing techniques, military tactics or slights against dwarf-kind is copied down and storied in its vaults."
     ],
-    "dmArticles": {
-    }
+    "dmArticles": {}
   },
   "Kazdan-Ord": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
     "name": "Kazdan Ord",
     "nickname": "Dwarf Hold of Kazdan Ord",
     "linkingWords": ["Ordian"],
-    "tags": ["dwarf hold","jordonis mountains","ulfwyst"],
+    "tags": ["dwarf hold", "jordonis mountains", "ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Barrier Coast Hull",
     "population": "~3,900",
-    "races": ["dwarf","human","halfling"],
+    "races": ["dwarf", "human", "halfling"],
     "government": "Hereditary Monarchy",
     "location": "Jordonis Mountains",
     "nation": "Independent",
     "leaders": ["Lord Tarmis Doomsong"],
     "districts": [],
     "description": [
-        "Kazdan Ord is an independent dwarven hold allied with the city-states of the Barrier Coast. Many of the greatest dwarven smiths of this age have studied the time-honored traditions of armor, weapon and rune smithing at its great forges. The city is carved into the side of Mount Mezum'dir, the highest peak in the southern Jordonis Mountains."
+      "Kazdan Ord is an independent dwarven hold allied with the city-states of the Barrier Coast. Many of the greatest dwarven smiths of this age have studied the time-honored traditions of armor, weapon and rune smithing at its great forges. The city is carved into the side of Mount Mezum'dir, the highest peak in the southern Jordonis Mountains."
     ],
-    "dmArticles": {
-      
-    }
+    "dmArticles": {}
   },
   "Izor-Kheluz": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
     "name": "Izor Kheluz",
     "nickname": "Dwarf Hold of Izor Kheluz",
     "linkingWords": ["Kheluzian"],
-    "tags": ["dwarf hold","jordonis mountains","ulfwyst"],
+    "tags": ["dwarf hold", "jordonis mountains", "ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Barrier Coast Hull",
     "population": "~4850",
-    "races": ["dwarf","human","halfling"],
+    "races": ["dwarf", "human", "halfling"],
     "government": "Hereditary Monarchy",
     "location": "Jordonis Mountains",
     "nation": "Independent",
     "leaders": ["Lady Lalliss Stormrock"],
     "districts": [],
     "description": [
-        "Izor Kheluz is a relatively new hold by dwarven standards, having been founded only 300 years ago. The hold was build in and around the natural caverns under Mount Korlan, giving it a design unlike any other hold in Ulfwyst."
+      "Izor Kheluz is a relatively new hold by dwarven standards, having been founded only 300 years ago. The hold was build in and around the natural caverns under Mount Korlan, giving it a design unlike any other hold in Ulfwyst."
     ],
     "dmArticles": {
       "Renowned Brewers": [
@@ -195,39 +195,38 @@
   },
   "Ezhekal": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
     "name": "Ezhekal",
     "nickname": "Dwarf Hold of Izor Kheluz",
     "linkingWords": ["Ezhekaler"],
-    "tags": ["dwarf hold","jordonis mountains","ulfwyst"],
+    "tags": ["dwarf hold", "jordonis mountains", "ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Barrier Coast Hull",
     "population": "~1,600",
-    "races": ["dwarf","human","halfling"],
+    "races": ["dwarf", "human", "halfling"],
     "government": "Hereditary Monarchy",
     "location": "Jordonis Mountains",
     "nation": "Independent",
     "leaders": ["Lord Ugreth Starkheart"],
     "districts": [],
-    "description": [
-    ],
+    "description": [],
     "dmArticles": {
-      "History": [
-        "The town of Ezhekal is a dwarf hold at the foot of Mount XYZZ in the Jordonis Mountains."
-      ]
+      "History": ["The town of Ezhekal is a dwarf hold at the foot of Mount XYZZ in the Jordonis Mountains."]
     }
   },
   "Rul-Undrak": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
     "name": "Rul Undrak",
     "nickname": "Dwarf Hold of Rul Undrak",
     "linkingWords": ["Undrakon"],
-    "tags": ["dwarf hold","kazgrim mountains","ulfwyst"],
+    "tags": ["dwarf hold", "kazgrim mountains", "ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Zurastan Helm",
     "population": "~560",
-    "races": ["dwarf","human","halfling","gnome"],
+    "races": ["dwarf", "human", "halfling", "gnome"],
     "government": "Hereditary Monarchy",
     "location": "Kazgrim Mountains",
     "nation": "Independent",
@@ -255,62 +254,60 @@
         "In 2C 2573, Rul Undrak and Zurast have a formal defensive alliance. Should either the archduchy or the dwarven hold come under attack, the other has agreed to come to its aid."
       ]
     },
-    "dmArticles": {
-    }
+    "dmArticles": {}
   },
   "Thuryn-Zul": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
     "name": "Thuryn Zul",
     "nickname": "Dwarf Hold of Thuryn Zul",
     "linkingWords": ["Thurynian"],
-    "tags": ["dwarf hold","zavalev mountains","ulfwyst"],
+    "tags": ["dwarf hold", "zavalev mountains", "ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Kaeldrin Eye",
     "population": "~900",
-    "races": ["dwarf","human","elf","gnome"],
+    "races": ["dwarf", "human", "elf", "gnome"],
     "government": "Hereditary Monarchy",
     "location": "Zavalev Mountains",
     "nation": "Independent",
     "leaders": ["Lord Brokki Snowspire"],
     "districts": [],
-    "description": [
-    ],
+    "description": [],
     "dmArticles": {
-      "History": [
-        "The town of Thuryn Zul is a dwarf hold under Mount XYZ in the Zavalev Mountains."
-      ]
+      "History": ["The town of Thuryn Zul is a dwarf hold under Mount XYZ in the Zavalev Mountains."]
     }
   },
   "Futhmer": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
     "name": "Futhmer",
     "nickname": "Dwarf Hold of Fûthmér",
-    "linkingWords": ["Futhmeran","Fûthmér"],
-    "tags": ["dwarf hold","zavalev mountains","ulfwyst"],
+    "linkingWords": ["Futhmeran", "Fûthmér"],
+    "tags": ["dwarf hold", "zavalev mountains", "ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Kaeldrin Eye",
     "population": "~4,300",
-    "races": ["dwarf","human","elf","gnome"],
+    "races": ["dwarf", "human", "elf", "gnome"],
     "government": "Hereditary Monarchy",
     "location": "Zavalev Mountains",
     "nation": "Independent",
     "leaders": ["Lady Ynga Nightiron"],
     "districts": [],
     "description": [
-        "The dwarf city of Fûthmér is located atop Mount Karulam, the highest mountain in the Zavalev range. From this vantage point, the gryphon riders of Fûthmér are able to take flight and patrol the dangerous mountain passes and the wild Damali Steppe."
+      "The dwarf city of Fûthmér is located atop Mount Karulam, the highest mountain in the Zavalev range. From this vantage point, the gryphon riders of Fûthmér are able to take flight and patrol the dangerous mountain passes and the wild Damali Steppe."
     ],
-    "dmArticles": {
-    }
+    "dmArticles": {}
   },
   "Vol-Volund": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
     "name": "Vol Volund",
     "nickname": "Dwarf Hold of Vol Volund",
     "linkingWords": ["Futhmeran"],
-    "tags": ["dwarf hold","vir mountains","ulfwyst"],
+    "tags": ["dwarf hold", "vir mountains", "ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Cibrinian Vale",
     "population": "~900",
@@ -319,60 +316,60 @@
     "location": "Vir Mountains",
     "leaders": ["Lord Nezul Graybeard"],
     "description": [
-        "Vol Volund is a independent dwarven town founded as a home for dwarves who have been banished, or left other holds in disgrace. These reculsive dwarves rarely allow outsiders beyond the Gate of Rundgral."
+      "Vol Volund is a independent dwarven town founded as a home for dwarves who have been banished, or left other holds in disgrace. These reculsive dwarves rarely allow outsiders beyond the Gate of Rundgral."
     ],
-    "dmArticles": {
-    }
+    "dmArticles": {}
   },
   "Kadren-Zul": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
     "name": "Kadren Zul",
     "nickname": "Dwarf Hold of Kadren Zul",
     "linkingWords": ["Kadrenin"],
-    "tags": ["dwarf hold","vir mountains","ulfwyst"],
+    "tags": ["dwarf hold", "vir mountains", "ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Cibrinian Vale",
     "population": "~7,300",
-    "races": ["dwarf","human","elf","gnome"],
+    "races": ["dwarf", "human", "elf", "gnome"],
     "government": "Hereditary Monarchy",
     "location": "Vir Mountains",
     "leaders": ["Lord Erikoc Opalcloak"],
     "description": [
-        "Kadren Zul is an independent dwarf hold allied with the Realm of Cibrin. The dwarf lords of the city have extensive trade agreements with the clans of Cibrin, for whom they supply a large amount of weapons and armor."
+      "Kadren Zul is an independent dwarf hold allied with the Realm of Cibrin. The dwarf lords of the city have extensive trade agreements with the clans of Cibrin, for whom they supply a large amount of weapons and armor."
     ],
-    "dmArticles": {
-    }
+    "dmArticles": {}
   },
   "Maraz-Drul": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
     "name": "Maraz Drul",
     "nickname": "Dwarf Hold of Maraz Drul",
     "linkingWords": ["Marazian"],
-    "tags": ["dwarf hold","jordonis mountains","ulfwyst"],
+    "tags": ["dwarf hold", "jordonis mountains", "ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Barrier Coast Hull",
     "population": "~720",
-    "races": ["dwarf","gnome","human"],
+    "races": ["dwarf", "gnome", "human"],
     "government": "Hereditary Monarchy",
     "location": "Jordonis Mountains",
     "nation": "Independent",
     "leaders": ["Thane Daenva Broadmane"],
     "districts": [],
     "description": [
-        "Maraz Drul guards the Bricza Pass, one of the few safe passageways through the Jordonis Mountains. The dwarves of the hold have come into armed conflict with the peoples of Navolin, due to the high toll the dwarves place on the use of the pass."
+      "Maraz Drul guards the Bricza Pass, one of the few safe passageways through the Jordonis Mountains. The dwarves of the hold have come into armed conflict with the peoples of Navolin, due to the high toll the dwarves place on the use of the pass."
     ],
-    "dmArticles": {
-    }    
+    "dmArticles": {}
   },
   "Barak-Azgal": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
     "name": "Barak Azgal",
     "nickname": "Lost Dwarf Hold of Barak Azgal",
     "linkingWords": ["Azgalian"],
-    "tags": ["dwarf hold","pillars of amud","ulfwyst"],
+    "tags": ["dwarf hold", "pillars of amud", "ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Amuddurin",
     "population": "unknown",
@@ -380,30 +377,29 @@
     "location": "Pillars of Amud",
     "districts": [],
     "description": [
-        "The lost dwarf hold of Barak Azgal is considered a place of legend among the dwarves of Dol Obok. The city was lost centuries ago. Before its fall to invaders from the Underdark, the city was renowned for its vast gold deposits and architectural marvels."
+      "The lost dwarf hold of Barak Azgal is considered a place of legend among the dwarves of Dol Obok. The city was lost centuries ago. Before its fall to invaders from the Underdark, the city was renowned for its vast gold deposits and architectural marvels."
     ],
-    "dmArticles": {
-    }    
+    "dmArticles": {}
   },
   "Zul-Baraz": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
     "name": "Zul Baraz",
     "nickname": "Dwarf Hold of Zul Baraz",
     "linkingWords": ["Barazian"],
-    "tags": ["dwarf hold","pillars of amud","ulfwyst"],
+    "tags": ["dwarf hold", "pillars of amud", "ulfwyst"],
     "type": "Dwarf Hold",
     "currency": "Amuddurin",
     "population": "~1,350",
-    "races": ["dwarf","human","halfling"],
+    "races": ["dwarf", "human", "halfling"],
     "government": "Hereditary Monarchy",
     "location": "Pillars of Amud",
     "nation": "Dol Obok",
     "leaders": ["Thane Jorstaal Bazgryn"],
     "description": [
-        "The dwarven fortress of Zul Baraz guards the Sámgar Skála, known in common as Black Dragon Pass, one of the few natural passages into the Pillars of Amud. "
+      "The dwarven fortress of Zul Baraz guards the Sámgar Skála, known in common as Black Dragon Pass, one of the few natural passages into the Pillars of Amud. "
     ],
-    "dmArticles": {
-    }
+    "dmArticles": {}
   }
 }

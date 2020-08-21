@@ -1,24 +1,21 @@
 const mongoose = require("mongoose");
-const { isObjectType } = require("graphql");
 
 const model = {
   name: String,
   nickname: String,
+  playerKnown: Boolean,
+  hideOnCat: Boolean,
   linkingWords: Array,
   tags: Array,
   path: String,
-  playerKnown: Boolean,
-
-  hideOnCat: Boolean,
   type: String,
-  leaders: Array,
   forceImg: String,
 
   description: Array,
-  articles: mongoose.Schema.Types.Mixed,
-  dmArticles: Array,
+  articles: Object,
+  dmArticles: Object,
 };
 
 // model creation params: name of the model, the model object, name of the remote collection.
 // if no remote collection is provided, it will default to the plural of the model name
-module.exports.Location = mongoose.model("location", model);
+module.exports.Organization = mongoose.model("organization", model);

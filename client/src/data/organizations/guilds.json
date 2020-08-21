@@ -1,75 +1,64 @@
 {
-
   "Ruby-Drifters-Mercenary-Company": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Ruby Drifters Mercenary Company",
     "nickname": "Ruby Drifters",
-    "tags": ["adventuring group","ulfwyst"],
+    "tags": ["adventuring group", "ulfwyst"],
     "type": "Adventuring Group",
     "location": "Ulfwyst",
     "memberNumber": "7",
-    "members": [
-      "Belthren Ogni",
-      "Zecele of Belorus"
-    ],
+    "members": ["Belthren Ogni", "Zecele of Belorus"],
     "description": [
       "The Ruby Drifters were a mercenary company and adventuring group that operated in eastern Ulfwyst between 2C 2535 and 2C 2542. The group earned widespread notoriety for their exploits, helped by the songs and stories of the group's bard, Zecele of Belorus."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "The-Iron-Fangs": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "organization",
     "name": "The Iron Fangs",
     "nickname": "Iron Fangs",
-    "tags": ["adventuring group","ulfwyst"],
+    "tags": ["adventuring group", "ulfwyst"],
     "type": "Adventuring Group",
     "location": "Ulfwyst",
     "memberNumber": "6",
-    "members": [
-
-    ],
+    "members": [],
     "description": [
       "The Iron Fangs are an adventuring group that was active at some time in the Kelishan Highlands of Navolin. They were responsible for killing two of the Coven of the Withered Eye."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Ruby-Phoenix": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Ruby Phoenix",
     "nickname": "Ruby Phoenix Adventuring Guild",
-    "tags": ["guild","rakenburg","ulfwyst","adventuring"],
+    "tags": ["guild", "rakenburg", "ulfwyst", "adventuring"],
     "type": "Rakenburg Guild",
     "location": "Rakenburg",
     "memberNumber": "~20",
-    "leaders": [
-      "Belthren Ogni",
-      "Rendis Moon",
-      "Khazar Thul"
-    ],
+    "leaders": ["Belthren Ogni", "Rendis Moon", "Khazar Thul"],
     "description": [
       "The Ruby Phoenix adventuring guild is an organization created by Belthren Ogni following the dissolution of the legendary Ruby Drifters mercenary group."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Specula-Arcanum": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Specula Arcanum",
     "nickname": "Specs",
-    "tags": ["guild","rakenburg","ulfwyst","guards"],
+    "tags": ["guild", "rakenburg", "ulfwyst", "guards"],
     "type": "Rakenburg Guild",
     "location": "Rakenburg",
     "memberNumber": "~200",
     "additionalImages": ["specs.png"],
-    "leaders": [
-      "Adalyn Delia"
-    ],
+    "leaders": ["Adalyn Delia"],
     "description": [
       "Specular Arcanum is one of the 8 Major Guilds of the city-state of Rakenburg. The guild's primary role in the city is to act as city watch, militia and judiciary."
     ],
@@ -81,116 +70,114 @@
   },
   "Jasper-Circle": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Jasper Circle",
     "nickname": "Jasper Circle",
-    "tags": ["guild","rakenburg","ulfwyst","adventures"],
+    "tags": ["guild", "rakenburg", "ulfwyst", "adventures"],
     "type": "Rakenburg Guild",
     "location": "Rakenburg",
     "memberNumber": "~50",
-    "leaders": [
-      "Marcelo Raja Oberon"
-    ],
+    "leaders": ["Marcelo Raja Oberon"],
     "description": [
       "The Jasper Circle is one of the 8 Major Guilds of the city-state of Rakenburg. The guild's primary source of income is the collection and sale of arcane components. The guild also specializes in the acquisition and rearing of magical beasts."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Garrick's-Delvers": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Garrick's Delvers",
     "nickname": "Garrick's Delvers",
-    "tags": ["guild","rakenburg","ulfwyst","adventures","dwarf","mercenaries"],
+    "tags": [
+      "guild",
+      "rakenburg",
+      "ulfwyst",
+      "adventures",
+      "dwarf",
+      "mercenaries"
+    ],
     "type": "Rakenburg Guild",
     "location": "Rakenburg",
     "memberNumber": "~430",
-    "leaders": [
-      "Serd Garricksen",
-      "Beris Krakhammer"
-    ],
+    "leaders": ["Serd Garricksen", "Beris Krakhammer"],
     "description": [
       "Garrick's Delvers is one of the 8 Major Guilds of the city-state of Rakenburg. Composed primarily of dwarves, the guild is well known for its expertise in underground exploration and rescue operations. The guild also is known to operate as mercenaries if the coin is right.",
       "The successful survival of the dwarf hold of Zul Undrak in the Kazgrim Mountains can partly be put down to the influence of Garrick's Delvers. The leader of the expedition, when beset by a clan of Fire Giants several years into the establishment of the fortress, called upon the guild for aid and a share of the fortress' profits for several years if it survived the siege. The delvers intervened and the siege was broken."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "The-Freeman's-League": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "The Freeman's League",
     "nickname": "Freeman's League",
-    "tags": ["guild","rakenburg","ulfwyst","naval","mercenaries"],
+    "tags": ["guild", "rakenburg", "ulfwyst", "naval", "mercenaries"],
     "type": "Rakenburg Guild",
     "location": "Rakenburg",
     "memberNumber": "~750",
-    "leaders": [
-      "Dineo Meljok"
-    ],
+    "leaders": ["Dineo Meljok"],
     "description": [
       "The Freeman's League is one of the 8 Major Guilds of the city-state of Rakenburg. The guild primarily operates in the real of guarding trade vessels and shipping valuable cargo. The guild operates as a federated order of ship captains, with each captain being given license to operate generally as he pleases, as long as it falls within guild protocols. This can result in less morally strict captains of the guild taking work as privateers, or blockading ports when hired to do so as part of trade wars."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Twilight-Elysium": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Twilight Elysium",
     "nickname": "Twilight Elysium Guild",
-    "tags": ["guild","rakenburg","ulfwyst","adventures","mages"],
+    "tags": ["guild", "rakenburg", "ulfwyst", "adventures", "mages"],
     "type": "Rakenburg Guild",
     "location": "Rakenburg",
     "memberNumber": "~130",
-    "leaders": [
-      "Malthor of Draca"
-    ],
+    "leaders": ["Malthor of Draca"],
     "description": [
       "Twilight Elysium is one of the 8 Major Guilds of the city-state of Rakenburg. The guild is comprised primarily of mages or arcane scholars. The guild provides magical services and protection to those who can afford the rather high cost of services. Though the guild follows the Interguild Dispute Interdiction Treaty while inside Rakenburg, it has been known to violate the terms of the treaty if a job requires such an action. This morally gray approach extends to other areas of their operations, as the guild leaders turn a blind eye to dangerous magical practices, such as necromancy, the summoning and interaction with extra-dimensional beings and forbidden spells."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Venngar-Trade-Company": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Venngar Trade Company",
     "nickname": "Venngar Trade Company",
-    "tags": ["guild","rakenburg","ulfwyst","naval","trade"],
+    "tags": ["guild", "rakenburg", "ulfwyst", "naval", "trade"],
     "type": "Rakenburg Guild",
     "location": "Rakenburg",
     "memberNumber": "~500",
-    "leaders": [
-      "Sven Brokkisson",
-      "Ylnga of Dundag"
-    ],
+    "leaders": ["Sven Brokkisson", "Ylnga of Dundag"],
     "description": [
       "The Venngar Trade Company is one of the 8 Major Guilds of the city-state of Rakenburg. The guild's primary line of business is the transportation of goods and people through the waters of the Venngar Sea. The guild employs many sailors of all backgrounds, but the majority of the members of the guild are Lemurian.",
       "During the winter months, the guild not only transports goods, but also operates in the Korin Gulf as icebreakers, helping break up and navigate the floating chunks of ice that drift around the inland sea."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Red-Moon-Order": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Red Moon Order",
     "nickname": "Order of the Red Moon",
-    "tags": ["guild","rakenburg","ulfwyst","assassins","thieves","mercenaries"],
+    "tags": [
+      "guild",
+      "rakenburg",
+      "ulfwyst",
+      "assassins",
+      "thieves",
+      "mercenaries"
+    ],
     "type": "Rakenburg Guild",
     "location": "Rakenburg",
     "memberNumber": "~150",
-    "leaders": [
-      "Calder Gray",
-      "Victor Quivias",
-      "Nadia Vernon"
-    ],
+    "leaders": ["Calder Gray", "Victor Quivias", "Nadia Vernon"],
     "description": [
       "The Red Moon Order is one of the 8 Major Guilds of the city-state of Rakenburg. The Order is the most clandestine of the guilds of Rakenburg and only through the regular oversight of the 7 other Major Guilds does the order provide insight into its operations. Specializing in espionage, theft and even assassination, the guild's status is often under debate by the minor guilds, hoping that the guild's expulsion would open up a seat on the Guild Council of Rakenburg. The calls have fallen on deaf ears up to this point, as the Red Moon Order has never violated the Interguild Dispute Interdiction Treaty upon which grounds for dismissal from the council could be levied."
     ],
-    "articles": {
-    }
+    "articles": {}
   }
 }

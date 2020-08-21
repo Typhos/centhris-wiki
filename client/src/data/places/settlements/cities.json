@@ -1,72 +1,69 @@
 {
   "Qabakh": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Abbasyr","port","ulfwyst","adorra sound"],
+    "tags": ["city", "Abbasyr", "port", "ulfwyst", "adorra sound"],
     "name": "Qabakh",
     "nickname": "Qabakh",
     "type": "City",
     "population": "8,500",
-    "races": ["dragonborn","human","half-orc","tiefling"],
+    "races": ["dragonborn", "human", "half-orc", "tiefling"],
     "government": "Viceroyalty",
     "location": "Abbasyr",
     "leaders": ["Emira Ghaliya Najjar"],
-    "description": [
-      "Qabakh is a major port city of the Kingdom of Abbasyr and is nicknamed \"the Jewel of the Adorra Coast\"."
-    ]
+    "description": ["Qabakh is a major port city of the Kingdom of Abbasyr and is nicknamed \"the Jewel of the Adorra Coast\"."]
   },
   "Majandir": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Abbasyr","ulfwyst"],
+    "tags": ["city", "Abbasyr", "ulfwyst"],
     "name": "Majandir",
     "nickname": "Majandir",
     "type": "City",
     "population": "3,600",
-    "races": ["dragonborn","human","half-orc","tiefling","anubari"],
+    "races": ["dragonborn", "human", "half-orc", "tiefling", "anubari"],
     "government": "Viceroyalty",
     "location": "Abbasyr",
     "leaders": [],
-    "description": [
-      "Majandir, also known as \"the Hidden City\" is a city of the Kingdom of Abbasyr."
-    ]
+    "description": ["Majandir, also known as \"the Hidden City\" is a city of the Kingdom of Abbasyr."]
   },
   "Al-Saham": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Abbasyr","port","ulfwyst"],
+    "tags": ["city", "Abbasyr", "port", "ulfwyst"],
     "name": "Al Saham",
     "nickname": "Al Saham",
     "type": "City",
     "population": "38,000",
-    "races": ["dragonborn","human","half-orc","tiefling","anubari"],
+    "races": ["dragonborn", "human", "half-orc", "tiefling", "anubari"],
     "government": "Viceroyalty",
     "location": "Abbasyr",
     "leaders": [],
-    "description": [
-      "@+Al Saham+@, also known as \"the Grand Bazar\" is a city of the Kingdom of Abbasyr."
-    ]
+    "description": ["@+Al Saham+@, also known as \"the Grand Bazar\" is a city of the Kingdom of Abbasyr."]
   },
   "Badra-Gassan": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Abbasyr","port","ulfwyst"],
+    "tags": ["city", "Abbasyr", "port", "ulfwyst"],
     "name": "Badra Gassan",
     "nickname": "Badra Gassan",
     "type": "City",
     "population": "23,000",
-    "races": ["dragonborn","human","half-orc","tiefling","anubari"],
+    "races": ["dragonborn", "human", "half-orc", "tiefling", "anubari"],
     "government": "Viceroyalty",
     "location": "Abbasyr",
     "leaders": [],
-    "description": [
-      "@+Badra Gassan+@, also known as \"the City of White Spires\" is a city of the Kingdom of Abbasyr."
-    ]
+    "description": ["@+Badra Gassan+@, also known as \"the City of White Spires\" is a city of the Kingdom of Abbasyr."]
   },
   "Zelmar": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Abbasyr","port","ulfwyst","adorra sound"],
+    "tags": ["city", "Abbasyr", "port", "ulfwyst", "adorra sound"],
     "name": "Zelmar",
     "nickname": "Zelmar",
     "linkingWords": [],
@@ -76,13 +73,11 @@
     },
     "type": "City",
     "population": "6,500",
-    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "halfling", "dwarf", "tiefling"],
     "government": "Oligarchy",
     "location": "Navolin",
     "leaders": ["Baroness Kasandra Gorecki"],
-    "description": [
-      "Zelmar is a major city in the Kingdom of Navolin and is nicknamed \"the Iron Crown\"."
-    ],
+    "description": ["Zelmar is a major city in the Kingdom of Navolin and is nicknamed \"the Iron Crown\"."],
     "articles": {
       "Zelmar City Law": [
         "Zelmar Law is a system of city government first instituted by the city in 2C 2047. It provides that a city should be governed by a Rada (council) of 20 Członek (council members). These members are not elected by the citizens, instead appointing a new member on their own from the city's nobility. The period of office is, in principle, 2 years, but the Rada can request a Członek to stay in office, which is almost always accepted, so that the election is effectively for life. The \"first członek\", usually the eldest of the Rada, acts as a @*primus inter pares*@ (first among equals) and is effectively the head of the Rada, running Rada meetings and other official business.",
@@ -93,62 +88,55 @@
   },
   "Grovstok": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Abbasyr","port","ulfwyst","adorra sound"],
+    "tags": ["city", "Abbasyr", "port", "ulfwyst", "adorra sound"],
     "name": "Grovstok",
     "nickname": "Grovstok",
     "linkingWords": [],
-    "idLinks": {
-    },
+    "idLinks": {},
     "type": "City",
     "population": "7,300",
-    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "halfling", "dwarf", "tiefling"],
     "government": "Oligarchy",
     "location": "Navolin",
     "leaders": ["Baron Alvar Kasprzak"],
-    "description": [
-      "Grovstok is a major city in the Kingdom of Navolin and is nicknamed \"the Red Rose\"."
-    ],
+    "description": ["Grovstok is a major city in the Kingdom of Navolin and is nicknamed \"the Red Rose\"."],
     "articles": {
-      "Former Capital of Azond": [
-        ""
-      ]
+      "Former Capital of Azond": [""]
     }
   },
   "Tarona": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Navolin","port","ulfwyst"],
+    "tags": ["city", "Navolin", "port", "ulfwyst"],
     "name": "Tarona",
     "nickname": "Tarona",
     "linkingWords": [],
-    "idLinks": {
-    },
+    "idLinks": {},
     "type": "City",
     "population": "7,300",
-    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "halfling", "dwarf", "tiefling"],
     "government": "Oligarchy",
     "location": "Navolin",
     "leaders": ["Baron Sebestyén Jugovac"],
-    "description": [
-      "Tarona is a major city in the Kingdom of Navolin and is nicknamed \"Old Ivy\"."
-    ],
+    "description": ["Tarona is a major city in the Kingdom of Navolin and is nicknamed \"Old Ivy\"."],
     "articles": {
-      "Former Capital of Malstein": [
-        ""
-      ]
+      "Former Capital of Malstein": [""]
     }
   },
   "Govstok": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Navolin","Azond","port","ulfwyst"],
+    "tags": ["city", "Navolin", "Azond", "port", "ulfwyst"],
     "name": "Govstok",
     "nickname": "Govstok",
     "linkingWords": [],
     "type": "City",
     "population": "11,310",
-    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "halfling", "dwarf", "tiefling"],
     "government": "Feudal Lord",
     "location": "Navolin",
     "leaders": ["Baron Vasko Hadzhiev"],
@@ -156,206 +144,190 @@
       "The Navolinian city of Govstok, previously the capital of the Kingdom of Azond, is a port city on the Tiderack Coast. The city is known for its fine textiles, exotic seafood and vast sugarcane fields."
     ],
     "articles": {
-      "Former Capital of Azond": [
-        ""
-      ]
+      "Former Capital of Azond": [""]
     }
   },
   "Ozeresk": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Lemuria","port","ulfwyst"],
+    "tags": ["city", "Lemuria", "port", "ulfwyst"],
     "name": "Ozeresk",
     "nickname": "Ozeresk",
     "linkingWords": [],
-    "idLinks": {
-    },
+    "idLinks": {},
     "type": "City",
     "population": "3,700",
-    "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "marus", "uklang"],
     "government": "Clan Chief",
     "location": "Lemuria",
     "leaders": ["Clan Chief Wuldren Tordenfødt"],
-    "description": [
-      "Ozeresk is a major city in the Realm of Lemuria."
-    ],
-    "articles": {
-    }
+    "description": ["Ozeresk is a major city in the Realm of Lemuria."],
+    "articles": {}
   },
   "Postek": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Lemuria","ulfwyst"],
+    "tags": ["city", "Lemuria", "ulfwyst"],
     "name": "Postek",
     "nickname": "Postek",
     "linkingWords": [],
-    "idLinks": {
-    },
+    "idLinks": {},
     "type": "City",
     "population": "7,100",
-    "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "marus", "uklang"],
     "location": "Lemuria",
     "leaders": ["Clan Chief Ulfrica Arnbjorg"],
     "description": [
-      "@+Postek+@ is a major city in the Realm of Lemuria located on the Svinge river. Once a relatively small, provincial city, Postek has undergone a major transformation after the Great Clan War. With the transfer of Kilurus from a holding of Clan Arnbjorg to the capital city of the Realm of Lemuria under the High King or Queen, Postek became the most important holding of @~Clan Arnbjorg~@. The clan chieftains invested heavily in public works projects, infrastructure and city fortifications to transform the town into a settlement they could proudly call home. The majority of the city's residents are either members of the clan, or members of a vassal clan.", 
+      "@+Postek+@ is a major city in the Realm of Lemuria located on the Svinge river. Once a relatively small, provincial city, Postek has undergone a major transformation after the Great Clan War. With the transfer of Kilurus from a holding of Clan Arnbjorg to the capital city of the Realm of Lemuria under the High King or Queen, Postek became the most important holding of @~Clan Arnbjorg~@. The clan chieftains invested heavily in public works projects, infrastructure and city fortifications to transform the town into a settlement they could proudly call home. The majority of the city's residents are either members of the clan, or members of a vassal clan.",
       "The city has a prime location along the Svinge, downriver from numerous farming communities, and roughly a day's walk north from the Razark Timberlands. However, the land around the city is mostly lowland swamps which make construction nearly impossible. After numerous attempts to drain the land for expansion, the lords of Arnbjorg chose to expand the city out onto the river itself. Using advanced engineering techniques, large supports were constructed in the water, allowing structures to be built without fear of them sinking into the bog."
     ],
     "articles": {
-        "History": [
-            "Postek was first founded by humans and half-elves who migrated to the area from the north. It is thought that it was founded as a fortified ferry berth for nobles needing to cross the Svinge in order to travel north, after communications between clans became commonplace. As it expanded, the early town became a central marketplace for farmers of the Rikedal Lowlands and herring fisheries near Isdrage Bay.",
-            "By 2C 1830, Postek had come under the control of Clan Arnbjorg, treated primarly by clan nobles as a summer home when not in Kilurus. The town's walls were constructed during a major fortification effort in the 2C 1940s after giants from the Razark Timberlands did widespread damage to the town. As part of this effort, the citadel of Träskhåll, a small stone keep located on the south side of the town, was constructed.",
-            "At the height of the Great Clan War, around 2C 2090, the town had grown to roughly 2,800 residents. Many of these new arrivals were refugees seeking the safety of the walled settlement during the ongoing clan feud. With the conclusion of the war in 2C 2103, and the arrival of the many noble members of Clan Arnbjorg from Kilurus, the population swiftly increased, reaching over 5,000 residents within thirty years. This growth would continue as the clan chief and his family used clan funds to make the city a home they could be proud of.",
-            "Over the next four centuries, as the Realm of Lemuria began to centralize and noble houses returned to Kilurus, investment in Postek stagnated. Several large public works, including a bathhouse and a clock tower remained incomplete, due to a lack of funding. Many prominent life-long residents bemoan the lack of investment and open resentments has continued to grow towards noble members of the clan with their prolonged absence from their \"home city\"."
-        ],
-        "Important Places": [
-            "With investment from the clan nobles, Postek has several well known locales which visitors seek out during their travels.",
-            "@#Landmarks#@",
-            "@+Träskhåll.+@ The citadel of Postek is located along the wall on the southern end of the city. The castle is comprised of a low, outer wall standing roundly 10ft tall, and a three-story inner keep. The barracks of the city watch and the residence of the constable of Postek are located within the castle walls.",
-            "@+Syltmarknad+@. Located in Fiskarplatsen, this large market is located under a large, timber pavilion which allows it to function year-round regardless of weather. A mundane magical enchantment keeps the roof clear of the heavy ice and snow which blanket the city during the winter months.",
-            "@+Stjärnor Clocktower+@. Located on the northern end of Fiskarplatsen, this stone clocktower was first designed in 2C 2480 by Arnbjorg engineers. Standing 4 stories tall, the tower was to be capped by a bronze spire and adorned with statues of former clan chieftains. Though the superstructure was completely 20 years ago, the clock and decorations have not been added due to a lack of funds.",
-            "@+Brokki Arnbjorg Bathhouse+@. Another incomplete public work, this large wooden building sits on stilts in the Svinge river. The building itself is complete, however the necessary plumbing and enchantments to heat the baths has not been obtained. This has lead to a unique bit of local slang: @*\"to build a Brokki\"*@ is to start a project you never intend to complete.",
-            "@#Shops#@",
-            "@+Frozen Bear Inn.+@ This two-story, wooden inn is located just off of the Fiskarplatsen. The inn has been around for over 130 years and is currently being run by Streka Morningdove, a middle aged half-elf. The establishment is well known in the city for its enchanted bandstand, which has been playing the same 5 songs every night since it was first enchanted by the tavern's founder, a retired bard adventurer.",
-            "@+Last Drink of the Wight.+@ This dingy, cramped tavern is a know location for smugglers, mercenaries and other, less savory elements of Postek's underbelly. The tavern is dimly lit with cramped, dark booths. The bartender, an old sailor named Oklin, and his assistant, an Uklang named Tebalu, are happy to completely ignore their patrons' activities, so long as it doesn't turn violent.",
-            "@+The Primal Owlbear.+@ A small, rustic tavern known for its ales, the bar is decorated with numerous tapestries and murals, almost all of which are owlbear themed. The tavern is owned by Ygran Calauth, a friendly elf tavernkeeper who tends to avoid discussions of politics by referring to anyone in question as a \"proud and noble Lemurian\".",
-            "@+Flokki's Fine Goods.+@ A well-known jewelry and clothing store run by the half-elf Flokki Brightmoon. The store sells higher end clothes to the more wealthy members of the community. Flokki also is known for buying strange items from adventurers and enchanters, including jewelry. Most of the items are simply nice to look at, but occasionally the half-elf manages to come across a magic item or two."
-        ]
+      "History": [
+        "Postek was first founded by humans and half-elves who migrated to the area from the north. It is thought that it was founded as a fortified ferry berth for nobles needing to cross the Svinge in order to travel north, after communications between clans became commonplace. As it expanded, the early town became a central marketplace for farmers of the Rikedal Lowlands and herring fisheries near Isdrage Bay.",
+        "By 2C 1830, Postek had come under the control of Clan Arnbjorg, treated primarly by clan nobles as a summer home when not in Kilurus. The town's walls were constructed during a major fortification effort in the 2C 1940s after giants from the Razark Timberlands did widespread damage to the town. As part of this effort, the citadel of Träskhåll, a small stone keep located on the south side of the town, was constructed.",
+        "At the height of the Great Clan War, around 2C 2090, the town had grown to roughly 2,800 residents. Many of these new arrivals were refugees seeking the safety of the walled settlement during the ongoing clan feud. With the conclusion of the war in 2C 2103, and the arrival of the many noble members of Clan Arnbjorg from Kilurus, the population swiftly increased, reaching over 5,000 residents within thirty years. This growth would continue as the clan chief and his family used clan funds to make the city a home they could be proud of.",
+        "Over the next four centuries, as the Realm of Lemuria began to centralize and noble houses returned to Kilurus, investment in Postek stagnated. Several large public works, including a bathhouse and a clock tower remained incomplete, due to a lack of funding. Many prominent life-long residents bemoan the lack of investment and open resentments has continued to grow towards noble members of the clan with their prolonged absence from their \"home city\"."
+      ],
+      "Important Places": [
+        "With investment from the clan nobles, Postek has several well known locales which visitors seek out during their travels.",
+        "@#Landmarks#@",
+        "@+Träskhåll.+@ The citadel of Postek is located along the wall on the southern end of the city. The castle is comprised of a low, outer wall standing roundly 10ft tall, and a three-story inner keep. The barracks of the city watch and the residence of the constable of Postek are located within the castle walls.",
+        "@+Syltmarknad+@. Located in Fiskarplatsen, this large market is located under a large, timber pavilion which allows it to function year-round regardless of weather. A mundane magical enchantment keeps the roof clear of the heavy ice and snow which blanket the city during the winter months.",
+        "@+Stjärnor Clocktower+@. Located on the northern end of Fiskarplatsen, this stone clocktower was first designed in 2C 2480 by Arnbjorg engineers. Standing 4 stories tall, the tower was to be capped by a bronze spire and adorned with statues of former clan chieftains. Though the superstructure was completely 20 years ago, the clock and decorations have not been added due to a lack of funds.",
+        "@+Brokki Arnbjorg Bathhouse+@. Another incomplete public work, this large wooden building sits on stilts in the Svinge river. The building itself is complete, however the necessary plumbing and enchantments to heat the baths has not been obtained. This has lead to a unique bit of local slang: @*\"to build a Brokki\"*@ is to start a project you never intend to complete.",
+        "@#Shops#@",
+        "@+Frozen Bear Inn.+@ This two-story, wooden inn is located just off of the Fiskarplatsen. The inn has been around for over 130 years and is currently being run by Streka Morningdove, a middle aged half-elf. The establishment is well known in the city for its enchanted bandstand, which has been playing the same 5 songs every night since it was first enchanted by the tavern's founder, a retired bard adventurer.",
+        "@+Last Drink of the Wight.+@ This dingy, cramped tavern is a know location for smugglers, mercenaries and other, less savory elements of Postek's underbelly. The tavern is dimly lit with cramped, dark booths. The bartender, an old sailor named Oklin, and his assistant, an Uklang named Tebalu, are happy to completely ignore their patrons' activities, so long as it doesn't turn violent.",
+        "@+The Primal Owlbear.+@ A small, rustic tavern known for its ales, the bar is decorated with numerous tapestries and murals, almost all of which are owlbear themed. The tavern is owned by Ygran Calauth, a friendly elf tavernkeeper who tends to avoid discussions of politics by referring to anyone in question as a \"proud and noble Lemurian\".",
+        "@+Flokki's Fine Goods.+@ A well-known jewelry and clothing store run by the half-elf Flokki Brightmoon. The store sells higher end clothes to the more wealthy members of the community. Flokki also is known for buying strange items from adventurers and enchanters, including jewelry. Most of the items are simply nice to look at, but occasionally the half-elf manages to come across a magic item or two."
+      ]
     }
   },
   "Ketrizyn": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Lemuria","ulfwyst"],
+    "tags": ["city", "Lemuria", "ulfwyst"],
     "name": "Ketrizyn",
     "nickname": "Ketrizyn",
     "linkingWords": [],
-    "idLinks": {
-    },
+    "idLinks": {},
     "type": "City",
     "population": "3,400",
-    "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "marus", "uklang"],
     "government": "Clan Chief",
     "location": "Lemuria",
     "leaders": ["Clan Chief Torild Sjomann"],
-    "description": [
-      "Ketrizyn is a major city in the Realm of Lemuria."
-    ],
-    "articles": {
-    }
+    "description": ["Ketrizyn is a major city in the Realm of Lemuria."],
+    "articles": {}
   },
   "Dunndag": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Lemuria","ulfwyst"],
+    "tags": ["city", "Lemuria", "ulfwyst"],
     "name": "Dunndag",
     "nickname": "Dunndag",
     "linkingWords": [],
-    "idLinks": {
-    },
+    "idLinks": {},
     "type": "City",
     "population": "2,900",
-    "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "marus", "uklang"],
     "government": "Clan Chief",
     "location": "Lemuria",
     "leaders": ["High Queen Inga Villdyr"],
-    "description": [
-      "Dunndag is a minor city in the Realm of Lemuria."
-    ],
-    "articles": {
-    }
+    "description": ["Dunndag is a minor city in the Realm of Lemuria."],
+    "articles": {}
   },
   "Eldskog": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Lemuria","ulfwyst"],
+    "tags": ["city", "Lemuria", "ulfwyst"],
     "name": "Eldskog",
     "nickname": "Eldskog",
     "linkingWords": [],
-    "idLinks": {
-    },
+    "idLinks": {},
     "type": "City",
     "population": "2,250",
-    "races": ["human","elf","gnome","half-elf","half-orc"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc"],
     "government": "Clan Chief",
     "location": "Lemuria",
     "leaders": ["Clan Chief Viljar Bjørsel"],
     "description": [
       "Eldskog is a minor city in the Realm of Lemuria. The city is located on Eldskog Isle in the Korin Gulf, just west of the Amber Grove."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Damisul": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Syrothian Empire","ulfwyst"],
+    "tags": ["city", "Syrothian Empire", "ulfwyst"],
     "name": "Damisul",
     "nickname": "Damisul",
     "linkingWords": [],
-    "idLinks": {
-    },
+    "idLinks": {},
     "type": "City",
     "population": "4,600",
-    "races": ["human","half-orc","half-elf","hobgoblin","goblin"],
+    "races": ["human", "half-orc", "half-elf", "hobgoblin", "goblin"],
     "government": "",
     "location": "Syrothian Empire",
     "leaders": [""],
-    "description": [
-      "Damisul is a major city in Syrothian Empire."
-    ],
-    "articles": {
-    }
+    "description": ["Damisul is a major city in Syrothian Empire."],
+    "articles": {}
   },
   "Luzzara": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Theocracy of Tovanis","ulfwyst"],
+    "tags": ["city", "Theocracy of Tovanis", "ulfwyst"],
     "name": "Luzzara",
     "nickname": "Luzzara",
     "linkingWords": [],
-    "idLinks": {
-    },
+    "idLinks": {},
     "type": "City",
     "population": "7,250",
-    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "halfling", "dwarf", "tiefling"],
     "government": "Bishopric",
     "location": "Theocracy of Tovanis",
     "leaders": [""],
     "description": [
       "@+Luzzara+@ was the historic capital of Istagen. Before the fall of the Lich Lord of Istagen the city was one of the largest in central Ulfwyst, having a population of nearly 25,000 people. It is now a shadow of its former self, having lost nearly 2/3 of its residents. Much of the city still lies in ruin following the siege of the city, and the Battle of Calfarn. The people who remain are often haunted by its dark past."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Avalo": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Kaeldrin Sanctum","ulfwyst"],
+    "tags": ["city", "Kaeldrin Sanctum", "ulfwyst"],
     "name": "Avalo",
     "nickname": "Avalo",
     "linkingWords": [],
-    "idLinks": {
-    },
+    "idLinks": {},
     "type": "City",
     "population": "15,600",
-    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "halfling", "dwarf", "tiefling"],
     "government": "",
     "location": "Kaeldrin Sanctum",
     "leaders": [""],
     "description": [
       "Avalo is the second largest city in the Kaeldrin Sanctum. The city is located on the western end of the Bay of Osum, and is the largest trading port in the magocracy. Located only 100 miles east of Thuryn Zul, the city has a large population of dwarves from the Zavalev Mountains, along with sizable enclaves of elves and gnomes. This mixture of peoples has created a unique, cosmopolitan culture and driven the city into an exciting era of artistic and magical creativity."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "City-of-Brass": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["elemental","plane of fire","efreet","metal"],
+    "tags": ["elemental", "plane of fire", "efreet", "metal"],
     "name": "City of Brass",
     "nickname": "the City of Brass",
     "type": "City",
-    "races": ["efreet","salamander","azer"],
+    "races": ["efreet", "salamander", "azer"],
     "government": "Absolute Monarchy",
     "location": "Plane of Fire",
     "leaders": ["Marrake al-Sidan al-Hariq ben Lazan"],
@@ -379,35 +351,34 @@
   },
   "Gloomwrought": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["mythic","shadowfell","lords of the fell"],
+    "tags": ["mythic", "shadowfell", "lords of the fell"],
     "name": "Gloomwrought",
     "nickname": "Gloomwrought",
     "type": "City",
-    "races": ["human","shadar kai","sentient undead"],
+    "races": ["human", "shadar kai", "sentient undead"],
     "government": "Lords of the Fell",
     "location": "Shadowfell",
     "leaders": [],
     "quote": "\"I think back to my days in the muddy streets of Frecyra. How quickly I would wish again to be surrounded by its pigeons. I only realize now how much I preferred them to the colonies of bats.\" -Anders Góralski",
     "description": [
-      "One of the few cities of the Shadowfell, @+Gloomwrought+@ is the defacto capital of the realm of nightmares. Those who call this dark, twisted city home are either native creatures of the fell, or those who find themselves trapped here, unable to escape back to the safety of the Prime Materium. Gloomwrought is the only place in the @~Shadowfell~@ where the Lords of the Fell are able to interact, as it does not belong to any individual dark power." 
+      "One of the few cities of the Shadowfell, @+Gloomwrought+@ is the defacto capital of the realm of nightmares. Those who call this dark, twisted city home are either native creatures of the fell, or those who find themselves trapped here, unable to escape back to the safety of the Prime Materium. Gloomwrought is the only place in the @~Shadowfell~@ where the Lords of the Fell are able to interact, as it does not belong to any individual dark power."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Huangchen": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Daotian","capital"],
+    "tags": ["city", "Daotian", "capital"],
     "name": "Huangchen",
     "nickname": "Huangchen",
     "type": "City",
     "population": "45,000",
-    "races": ["Human","Daxiong","Zhuren","Tiefling","Half-Elf","Serbonji"],
+    "races": ["Human", "Daxiong", "Zhuren", "Tiefling", "Half-Elf", "Serbonji"],
     "government": "Imperial Bureaucratic",
     "location": "Daotian Kingdom",
-    "description": [
-      ""
-    ]
+    "description": [""]
   }
 }

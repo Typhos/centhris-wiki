@@ -1,19 +1,27 @@
 {
   "Greyleaf-Pines": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","ulfwyst","forest","Torick Peaks"],
+    "tags": ["region", "ulfwyst", "forest", "Torick Peaks"],
     "name": "Greyleaf Pines",
     "nickname": "Greyleaf Pines",
     "type": "Forest",
     "location": "Lemuria",
-    "description": [
-    ]    
+    "description": []
   },
   "Thornroot-Thicket": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","forest","rythlon","kelishan highlands","ulfwyst","Sylvan Conclave"],
+    "tags": [
+      "region",
+      "forest",
+      "rythlon",
+      "kelishan highlands",
+      "ulfwyst",
+      "Sylvan Conclave"
+    ],
     "name": "Thornroot Thicket",
     "nickname": "Thornroot Forest",
     "type": "Forest",
@@ -21,24 +29,26 @@
     "description": [
       "An ancient forest located in the Kelishan Highlands, Thornroot Thicket is a dark and twisted place, full of hostile creatures, both natural and monstrous.",
       "The Adventurers ventured into Thornroot twice. Once to find and kill the Lady of the Wood, a hag who lived in the forest and the group felt needed to be killed in order to save the town of Rythlon. The second time the group traveled into the dark woods, it was at the request of Erlinder Bluefield, who wished to return to the Shrine of the Agrestal Cycle in order commune with nature and find out more about his new abilities."
-    ]  
+    ]
   },
   "Drakenwald": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","forest","zurast","ulfwyst"],
+    "tags": ["region", "forest", "zurast", "ulfwyst"],
     "name": "Drakenwald",
     "nickname": "Drakenwald Forest",
     "type": "Forest",
     "location": "Archduchy of Zurast",
     "description": [
       "A relatively young forest compared to the rest of those in Ulfwyst, the Drakenwald is a dark, foreboding sea of green in the shadow of the Kazgrim Mountains. The forest has expanded quickly due to the rich volcanic soil that makes up the earth beneath it."
-    ]  
+    ]
   },
   "Vel'dorin-Wood": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","forest","zurast","ulfwyst"],
+    "tags": ["region", "forest", "zurast", "ulfwyst"],
     "name": "Vel'dorin Wood",
     "nickname": "Vel'dorin Forest",
     "type": "Forest",
@@ -49,8 +59,9 @@
   },
   "The-Wraithwood": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","forest","Navolin","ulfwyst"],
+    "tags": ["region", "forest", "Navolin", "ulfwyst"],
     "name": "The Wraithwood",
     "nickname": "the Wraithwood",
     "type": "Forest",
@@ -61,8 +72,9 @@
   },
   "Razark-Timberland": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","forest","Lemuria","ulfwyst"],
+    "tags": ["region", "forest", "Lemuria", "ulfwyst"],
     "name": "Razark Timberland",
     "nickname": "Razark Timberland",
     "linkingWords": ["Razark Timberlands"],
@@ -74,8 +86,9 @@
   },
   "Everfrost-Woods": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","forest","Lemuria","ulfwyst"],
+    "tags": ["region", "forest", "Lemuria", "ulfwyst"],
     "name": "Everfrost Woods",
     "nickname": "Everfrost Woods",
     "linkingWords": ["Everfrost Wood"],
@@ -87,8 +100,9 @@
   },
   "Greater-Tsaga-Forests": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","forest","Syrothia","ulfwyst"],
+    "tags": ["region", "forest", "Syrothia", "ulfwyst"],
     "name": "Greater Tsaga Forests",
     "nickname": "Tsaga Forests",
     "type": "Forest",
@@ -99,8 +113,9 @@
   },
   "Khagarsan-Forests": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","forest","Syrothia","ulfwyst"],
+    "tags": ["region", "forest", "Syrothia", "ulfwyst"],
     "name": "Khagarsan Forests",
     "nickname": "Khagarsan Forests",
     "type": "Forest",
@@ -111,11 +126,17 @@
   },
   "Gorcien-Forests": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","forest","Navolin","ulfwyst"],
+    "tags": ["region", "forest", "Navolin", "ulfwyst"],
     "name": "Gorcien Forests",
     "nickname": "Gorcien Forests",
-    "linkingWords": ["Dabrusk Forest","Growling Wood","Barbed Weald","Shambling Woods"],
+    "linkingWords": [
+      "Dabrusk Forest",
+      "Growling Wood",
+      "Barbed Weald",
+      "Shambling Woods"
+    ],
     "type": "Forest",
     "location": "Navolin",
     "description": [
@@ -129,8 +150,9 @@
   },
   "Xiangmu-Forest": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","forest","Navolin","ulfwyst"],
+    "tags": ["region", "forest", "Navolin", "ulfwyst"],
     "name": "Xiangmu Forest",
     "nickname": "Xiangmu Forest",
     "linkingWords": [],
@@ -139,7 +161,6 @@
     "description": [
       "The @+Xiangmu Forest+@ is a supernatural forest, located in the Crimson Mist Mountains, in Western Koraxon."
     ],
-    "articles": {
-    }
+    "articles": {}
   }
 }

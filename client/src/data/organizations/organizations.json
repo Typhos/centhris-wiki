@@ -1,10 +1,11 @@
 {
   "The-Lost-Shields": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "The Lost Shields",
     "nickname": "the Lost Shields",
-    "tags": ["adventuring","players"],
+    "tags": ["adventuring", "players"],
     "type": "Adventuring Group",
     "memberNumber": "4",
     "members": [
@@ -17,16 +18,16 @@
     "description": [
       "The Lost Shields are an adventuring group which formed (informally) in the village of Rythlon in Sirngor of 2C 2573. After traveling for quite some time together, and shortly before joining the Ruby Phoenix guild in Rakenburg, the group decided upon their name. Though originally formed as an alliance of convenience in order to make some quick gold, the events in Rython, and then in the Molten Halls seemed to bind the group's fate to each other, as well as that of Uster, Shiavalae and Khazar."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Nost-Ezel’nár": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Nost Ezel’nár",
     "nickname": "Lodge of the Emerald Flame",
     "linkingWords": ["Nost Ezel’nár"],
-    "tags": ["mages","frecyra","ulfwyst"],
+    "tags": ["mages", "frecyra", "ulfwyst"],
     "type": "Magic Order",
     "memberNumber": "~60",
     "leaders": [
@@ -37,73 +38,70 @@
       "Ernestas Dubanow",
       "Izolda of Olesko"
     ],
-    "members": [
-      "Vythica Floshin"
-    ],
+    "members": ["Vythica Floshin"],
     "location": "Frecyra, Navolin ",
     "description": [
       "An ancient order of mages, Nost Ezel’nár was established at the Tower of Stantorr around 2C 1350 by the Archmage Xarrut Vandilid."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Cult-of-the-Dread-King": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Cult of the Dread King",
     "nickname": "Cult of the Dread King",
     "linkingWords": ["Dark Cult"],
-    "tags": ["demon cult","chaotic evil","Ulfwyst"],
+    "tags": ["demon cult", "chaotic evil", "Ulfwyst"],
     "type": "Secret Society",
     "location": "Ulfwyst",
     "leaders": [],
     "description": [
       "The @+Cult of the Dread King+@ is a secret religious order which operates in many nations across Ulfwyst. Its members exist at all levels of society, drawing them from the ranks of the selfish, malicious and depraved."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Order-of-the-Endless-Sky": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Order of the Endless Sky",
     "nickname": "Order of the Endless Sky",
-    "tags": ["Kongir","monks","Ulfwyst"],
+    "tags": ["Kongir", "monks", "Ulfwyst"],
     "type": "Monastic Order",
     "location": "Nakali Isles",
     "leaders": ["the Myrd'draal"],
     "description": [
       "The @+Order of the Endless Sky+@ is a monastic order dedicated to the veneration of an ancient, eldritch god known as Axoth'Zun. Kongir Temple, located on the Nakali Island of Haryuma, is the primary temple of the order. The monks also maintain other, smaller temples throughout eastern Ulfwyst."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Monks-of-the-Emerald-Wind": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Monks of the Emerald Wind",
     "nickname": "Order of the Emerald Wind",
-    "tags": ["Koraxxon","monks"],
+    "tags": ["Koraxxon", "monks"],
     "type": "Monastic Order",
     "location": "Western Koraxxon",
     "description": [
       "The @+Order of the Emerald Wind+@ is an order of monks who maintain a series of hidden monasteries in the Crimson Mist Mountains and defend the region from outside influences."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Order-of-the-Radiant-Eye": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Order of the Radiant Eye",
     "nickname": "the Radiant Eye",
-    "tags": ["Ulfwyst","monks"],
+    "tags": ["Ulfwyst", "monks"],
     "type": "Monastic Order",
     "location": "Ulfwyst",
     "description": [
       "The @+Order of the Radiant Eye+@ is a monastic order who follow the teachings of the Philosopher. The order is dedicated to finding, organizing and preserving knowledge in all forms."
     ],
-    "articles": {
-    }
+    "articles": {}
   }
 }

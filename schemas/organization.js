@@ -1,5 +1,5 @@
-module.exports.Location = `
-  type Location {
+module.exports.Organization = `
+  type Organization {
     id: ID!,
     name: String!
     nickname: String!
@@ -10,8 +10,6 @@ module.exports.Location = `
     path: String,
     type: String,
     forceImg: String,
-
-    leaders: [String],
 
     description: [String],
     articles: [String],

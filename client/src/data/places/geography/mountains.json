@@ -1,8 +1,9 @@
 {
   "the-Rostamas": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["mountains","region","ulfwyst"],
+    "tags": ["mountains", "region", "ulfwyst"],
     "name": "the Rostamas",
     "nickname": "Rostamas",
     "type": "Mountain Range",
@@ -13,20 +14,22 @@
   },
   "Crimson-Mist-Mountains": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["mountains","forest","region","Western Koraxon"],
+    "tags": ["mountains", "forest", "region", "Western Koraxon"],
     "name": "Crimson Mist Mountains",
     "nickname": "Crimson Mist Mountains",
     "type": "Mountain Range",
     "location": "Western Koraxon",
     "description": [
       "The Crimson Mist Mountains is a mountain range in the south-west region of the continent of Western Koraxon. The region is renown for its verdant and lush, crimson forests. High spires dot the region and its coastal areas, and the flora is diverse, relative to the elevation. The mountain spires are capped with the crimson leaves of the huge trees that make up the Xiangmu Forest. At the base of the steep cliffs sits a lush bamboo forest teeming with wildlife."
-    ] 
-  },  
+    ]
+  },
   "Jordonis-Mountains": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["mountains","region","ulfwyst"],
+    "tags": ["mountains", "region", "ulfwyst"],
     "name": "Jordonis Mountains",
     "nickname": "Jordonis Mountains",
     "type": "Mountain Range",
@@ -37,8 +40,9 @@
   },
   "Kazgrim-Mountains": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["mountains","region","ulfwyst"],
+    "tags": ["mountains", "region", "ulfwyst"],
     "name": "Kazgrim Mountains",
     "nickname": "Kazgrim Moutains",
     "linkingWords": ["Kazgrims"],
@@ -51,8 +55,9 @@
   },
   "Zavalev-Mountains": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["mountains","region","ulfwyst"],
+    "tags": ["mountains", "region", "ulfwyst"],
     "name": "Zavalev Mountains",
     "nickname": "Zavalev Mountains",
     "linkingWords": ["Zavalevs"],
@@ -64,8 +69,9 @@
   },
   "Pillars-of-Amud": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["mountains","region","ulfwyst"],
+    "tags": ["mountains", "region", "ulfwyst"],
     "name": "Pillars of Amud",
     "nickname": "Spires of Amud",
     "type": "Mountain Range",
@@ -76,8 +82,9 @@
   },
   "Torick-Peaks": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["mountains","region","ulfwyst"],
+    "tags": ["mountains", "region", "ulfwyst"],
     "name": "Torick Peaks",
     "nickname": "Torick Peaks",
     "type": "Mountain Range",
@@ -88,8 +95,9 @@
   },
   "Vir-Mountains": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["mountains","region","ulfwyst"],
+    "tags": ["mountains", "region", "ulfwyst"],
     "name": "Vir Mountains",
     "nickname": "Vir Mountains",
     "type": "Mountain Range",
@@ -100,8 +108,9 @@
   },
   "Vesanas-Mountains": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["mountains","region","entos"],
+    "tags": ["mountains", "region", "entos"],
     "name": "Vesanas Mountains",
     "nickname": "Vesanas Mountains",
     "linkingWords": ["the Vesanas"],
@@ -113,8 +122,9 @@
   },
   "Duskspear-Peaks": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["mountains","region","entos"],
+    "tags": ["mountains", "region", "entos"],
     "name": "Duskspear Peaks",
     "nickname": "Tathlok Skirrom",
     "linkingWords": ["the Vesanas"],
@@ -126,62 +136,67 @@
   },
   "Shards-of-Elysium": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["mythic","region","ulfwyst","spires","Torisoda Archipelago"],
+    "tags": ["mythic", "region", "ulfwyst", "spires", "Torisoda Archipelago"],
     "name": "Shards of Elysium",
     "nickname": "Shards of Elysium",
     "type": "Mountain Range",
     "location": "Isle of Mizera, Torisoda Archipelago",
     "description": [
       "The Shards of Elysium are a mysterious geographic feature of the the Isle of Mizera in the Torisoda Archipelago. The spires are enormous, brilliant shards of white stone which extend from rocky bases of sculpted earth. The spires themselves are comprised of a strange, luminous material which is innately magical and defies the laws of the material realm. Some of the spires no longer have earthen bases, or have been shattered, but instead of falling to the ground, they now float in the sky, piercing the clouds above."
-    ]    
+    ]
   },
   "Eye-of-Vel'dorin": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","volcano","moutain","ulfwyst"],
+    "tags": ["region", "volcano", "moutain", "ulfwyst"],
     "name": "Eye of Vel'dorin",
     "nickname": "Vel'dorin's Eye",
     "type": "Mountain Range",
     "location": "Ulfwyst",
     "description": [
       "An active volcano located east of the Desolate Wastes and west of the Kelishan Highlands, the Eye of Vel'dorin billows dark smoke endlessly into the sky. An old saying in the region portents that should the mountain ever cease to smolder, all of Ulfwyst should fear Vel'dorin's wrath."
-    ]    
+    ]
   },
   "Tashvir-Mountains": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","volcano","moutain","ulfwyst"],
+    "tags": ["region", "volcano", "moutain", "ulfwyst"],
     "name": "Tashvir Mountains",
     "nickname": "Tashvir Mountains",
     "type": "Mountain Range",
     "location": "Ulfwyst",
     "description": [
       "One of the longest mountain ranges on Centhris, the @+Tashvir Mountains+@ are nearly 1,200 miles long, starting on the coast of the Adorra Sound in the north and running south all the way to the dangerous Skala Itam Gorge in the south."
-    ]    
+    ]
   },
   "Dakshava-Heights": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","volcano","moutain","ulfwyst"],
+    "tags": ["region", "volcano", "moutain", "ulfwyst"],
     "name": "Dakshava Heights",
     "nickname": "Dakshava Heights",
     "type": "Mountain Range",
     "location": "Ulfwyst",
     "description": [
       "The @+Dakshava Heights+@ are a series of small to mid-sized mountains that run along the south western edge of the continent of Ulfwyst."
-    ]    
+    ]
   },
   "Paludak-Highlands": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","volcano","moutain","ulfwyst"],
+    "tags": ["region", "volcano", "moutain", "ulfwyst"],
     "name": "Paludak Highlands",
     "nickname": "Paludak Highlands",
     "type": "Mountain Range",
     "location": "Ulfwyst",
     "description": [
       "The @+Paludak Highlands+@ are a region of arid mountains in the western hemisphere of Idrothea. The region has an abnormally high amount of vegetation compared to other parts of the moon, making it more densely populated than other regions."
-    ]    
+    ]
   }
 }

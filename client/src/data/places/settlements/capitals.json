@@ -1,14 +1,15 @@
 {
   "City-of-Zurast": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["ulfwyst","capital","city"],
+    "tags": ["ulfwyst", "capital", "city"],
     "name": "City of Zurast",
     "nickname": "City of Zurast",
     "linkingWords": ["city of Zurast"],
     "type": "Capital City",
     "population": "23,630",
-    "races": ["human","elf","gnome","half-elf","half-orc","halfling"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "halfling"],
     "government": "Hereditary Monarchy",
     "leaders": ["Archduke Nicolai Valken"],
     "location": "Archduchy of Zurast",
@@ -19,9 +20,7 @@
       "Location": [
         "@~Zurast~@ is situated on the Sulas river, which flows south from the Kelishan Highlands into the Bay of Claws. Located roughly 8 miles from upriver from the Bay of Claws, the city is one of the most important ports in southern Ulfwyst. Even before expanding into a regional power, the city-state served as a major hub of trade and culture in the region, linking the states of Navolin, Istagen, Cibrin, Lemuria and Sedobia."
       ],
-      "Legal Code": [
-        "The city uses a fairly standard legal code, similar to others used by cities in Eastern Ulfwyst. "
-      ]
+      "Legal Code": ["The city uses a fairly standard legal code, similar to others used by cities in Eastern Ulfwyst. "]
     },
     "dmArticles": {
       "Factions": [
@@ -37,16 +36,28 @@
   },
   "Frecyra": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["navolin","ulfwyst","capital","city"],
+    "tags": ["navolin", "ulfwyst", "capital", "city"],
     "name": "Frecyra",
     "nickname": "Frecyra",
     "type": "Capital City",
     "population": "55,145",
-    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "halfling", "dwarf", "tiefling"],
     "government": "Hereditary Monarchy",
     "location": "Navolin",
-    "districts": ["Coldwall","Edgewater","Cwynburn","Timberrun","Belloton","Holford","Potter's Reach","The Crowns","Hartwood Row","Drakeperch"],
+    "districts": [
+      "Coldwall",
+      "Edgewater",
+      "Cwynburn",
+      "Timberrun",
+      "Belloton",
+      "Holford",
+      "Potter's Reach",
+      "The Crowns",
+      "Hartwood Row",
+      "Drakeperch"
+    ],
     "description": [
       "@+Frecyra+@ is the capital and most populous city in the Kingdom of Navolin, and one of the largest cities in Ulfwyst. Straddling the banks of the Elsir river, the city has several nicknames including: \"the City of Kings\", and \"the City of Statues\". The city was first mentioned in historical records of the Nelinym Archives in 2C 1732 as a village located in the shadow of the Tower of Stantorr. As the formal political state of @~Navolin~@ developed around the ruling Czak family in the 22rd century, the city swelled in size with surrounding farmland rapidly being replaced with markets, housing and temples.",
       "With the conclusion of the War of Five Crowns in 2C 2245, the city was forced to transition from its position as a city of modest, regional importance, into a major political, economic, military and artistic center."
@@ -54,14 +65,15 @@
   },
   "Axuros": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["Tovanis","ulfwyst","capital","city"],
+    "tags": ["Tovanis", "ulfwyst", "capital", "city"],
     "name": "Axuros",
     "nickname": "Axuros",
-    "linkingWords": ["Dawn's Light","Island of Hope"],
+    "linkingWords": ["Dawn's Light", "Island of Hope"],
     "type": "Capital City",
     "population": "29,440",
-    "races": ["human","elf","gnome","half-elf","half-orc","halfling","dwarf","tiefling"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "halfling", "dwarf", "tiefling"],
     "government": "Elective Theocracy",
     "location": "Tovanis",
     "districts": [],
@@ -69,9 +81,7 @@
       " @+Axuros+@ is the capital of the Theocracy of Tovanis and home to many major religious institutions in eastern Ulfwyst. Founded in 2C 2463, two years after the defeat of the Lich Lord of Istagen, the city is nicknamed \"Dawn's Light\" and the \"Island of Hope\". When the Knights of the Sacred Dawn found  Luzzara, the historic capital of @~Istagen~@, in a horrid state, they chose to move the capital instead of trying to rebuild. The order determined that the best place to build the new capital was in a more central location, settling on the islands of Gambra and Sorsina in the Retirim river.",
       "The city was build using traditional construction techniques, shunning the use of arcane magic to speed the building process along. Some of the construction costs were paid for with what remained of the Istagen treasury, but large sums of gold and silver were provided by religious institutions from around Ulfwyst, notably the churches of the Arbiter, the Eternal, the Guardian, and the Maker. The knights, as part of the agreement with the churches for their aid, built four cathedrals, one for each church, in key places around the city. This has, in part, been a key reason why the city has become an important religious center, a beacon of rebirth, and a bastion of religious freedom."
     ],
-    "articles": {
-
-    },
+    "articles": {},
     "dmArticles": {
       "Real World Parallel": [
         "Tovanis is a parallel to the Papal state during the high Middle Ages. The country is in the process of rebuilding after a devastating fall, much like the invasions of the Huns and Goths in Western Rome."
@@ -80,15 +90,16 @@
   },
   "Kilurus": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["lemuria","ulfwyst","capital","city"],
+    "tags": ["lemuria", "ulfwyst", "capital", "city"],
     "name": "Kilurus",
     "nickname": "Kilurus",
     "type": "Capital City",
     "population": "30,900",
-    "races": ["human","elf","gnome","half-elf","half-orc","marus","uklang"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "marus", "uklang"],
     "government": "Clan Council",
-    "districts": ["Ravencall","The Boatyard","Spirit Grove","Kingsbloom","Korin Gate"],
+    "districts": ["Ravencall", "The Boatyard", "Spirit Grove", "Kingsbloom", "Korin Gate"],
     "location": "Lemuria",
     "map": "City-of-Kilurus.png",
     "description": [
@@ -129,13 +140,14 @@
   },
   "Irulek": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["kaeldrin sanctum","kaeldrin sanctum","capital","city"],
+    "tags": ["kaeldrin sanctum", "kaeldrin sanctum", "capital", "city"],
     "name": "Irulek",
     "nickname": "Irulek",
     "type": "Capital City",
     "population": "61,620",
-    "races": ["human","elf","dwarf","gnome","half-elf","half-orc","tiefling","dragonborn"],
+    "races": ["human", "elf", "dwarf", "gnome", "half-elf", "half-orc", "tiefling", "dragonborn"],
     "government": "Mage Council",
     "location": "Kaeldrin Sanctum",
     "description": [
@@ -145,29 +157,29 @@
   },
   "Lyrannore": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Ildroun Vale","capital","ulfwyst"],
+    "tags": ["city", "Ildroun Vale", "capital", "ulfwyst"],
     "name": "Lyrannore",
     "nickname": "Lyrannore",
     "type": "Capital City",
     "population": "6,500",
-    "races": ["elf","gnome","human","half-elf"],
+    "races": ["elf", "gnome", "human", "half-elf"],
     "government": "Hereditary Monarchy",
     "location": "Ildroun Vale",
-    "leaders": ["Nantar Izorin Sarentus","Ernil Thabos"],
-    "description": [
-      "Lyrannore is the capital city of the Ildroun Vale."
-    ]
+    "leaders": ["Nantar Izorin Sarentus", "Ernil Thabos"],
+    "description": ["Lyrannore is the capital city of the Ildroun Vale."]
   },
   "Enira": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Ildroun Vale","capital","ulfwyst"],
+    "tags": ["city", "Ildroun Vale", "capital", "ulfwyst"],
     "name": "Enira",
     "nickname": "Enira",
     "type": "Capital City",
     "population": "14,530",
-    "races": ["human","dwarf","uklang","half-orc","half-giant"],
+    "races": ["human", "dwarf", "uklang", "half-orc", "half-giant"],
     "government": "Clan Chieftain",
     "location": "Realm of Cibrin",
     "leaders": ["Han Darga Crogosh of Clan Godak"],
@@ -177,19 +189,18 @@
   },
   "Lashkar": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","syrothian empire","capital","ulfwyst"],
+    "tags": ["city", "syrothian empire", "capital", "ulfwyst"],
     "name": "Lashkar",
     "nickname": "Lashkar",
     "type": "Capital City",
     "population": "72,650",
-    "races": ["hobgoblin","goblin","human","bugbear","half-elf","half-orc","dwarf","elf","gnome","half-giant"],
+    "races": ["hobgoblin", "goblin", "human", "bugbear", "half-elf", "half-orc", "dwarf", "elf", "gnome", "half-giant"],
     "government": "Divine Military Dictatorship",
     "location": "Syrothian Empire",
     "leaders": ["Droknac the Immortal"],
-    "description": [
-      "@+Lashkar+@ is sprawling capital of the Syrothian Empire."
-    ],
+    "description": ["@+Lashkar+@ is sprawling capital of the Syrothian Empire."],
     "art": {
       "artist": "Munkhjin Otgonbayar",
       "link": "https://www.artstation.com/artwork/VKo4N"
@@ -197,30 +208,30 @@
   },
   "Khezrabad": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Abbasyr","capital","ulfwyst"],
+    "tags": ["city", "Abbasyr", "capital", "ulfwyst"],
     "name": "Khezrabad",
     "nickname": "Khezrabad",
     "linkingWords": ["Khezrabadi"],
     "type": "Capital City",
     "population": "39,680",
-    "races": ["human","tiefling","dragonborn","half-elf","elf","half-orc","dwarf"],
+    "races": ["human", "tiefling", "dragonborn", "half-elf", "elf", "half-orc", "dwarf"],
     "government": "Hereditary Monarchy",
     "location": "Abbasyr",
     "leaders": ["Sultana Safa Abbasyr"],
-    "description": [
-      "@+Khezrabad+@ is the capital city of the Kingdom of Abbasyr."
-    ]
+    "description": ["@+Khezrabad+@ is the capital city of the Kingdom of Abbasyr."]
   },
   "Utharis": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Utharian","capital","Theyra"],
+    "tags": ["city", "Utharian", "capital", "Theyra"],
     "name": "Utharis",
     "nickname": "Utharis",
     "type": "Capital City",
     "population": "190,000",
-    "races": ["tiefling","human","elf","dwarf","halfling","gnome","half-elf"],
+    "races": ["tiefling", "human", "elf", "dwarf", "halfling", "gnome", "half-elf"],
     "government": "Magocracy",
     "location": "Utharian Empire",
     "description": [
@@ -230,77 +241,72 @@
   },
   "Xanthir": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Solician League","capital"],
+    "tags": ["city", "Solician League", "capital"],
     "name": "Xanthir",
     "nickname": "Xanthir",
     "type": "Capital City",
     "population": "30,180",
-    "races": ["human","dwaf","half-elf","halfling","elf","gnome","serbonji"],
+    "races": ["human", "dwaf", "half-elf", "halfling", "elf", "gnome", "serbonji"],
     "government": "Merchant Princes",
     "location": "Solician League",
-    "description": [
-      "The city of @+Xanthir+@ is the capital of the Solician League."
-    ]
+    "description": ["The city of @+Xanthir+@ is the capital of the Solician League."]
   },
   "Hankadin": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Nemetia","capital"],
+    "tags": ["city", "Nemetia", "capital"],
     "name": "Hankadin",
     "nickname": "Hankadin",
     "type": "Capital City",
     "population": "35,000",
-    "races": ["human","dwaf","half-elf","halfling","elf","gnome","serbonji"],
+    "races": ["human", "dwaf", "half-elf", "halfling", "elf", "gnome", "serbonji"],
     "government": "Imperial Bureaucracy",
     "location": "Kingdom of Nemetia",
-    "description": [
-      "The city of @+Hankadin+@ (Han-ka-din) is the capital of Kingdom of Nemetia."
-    ]
+    "description": ["The city of @+Hankadin+@ (Han-ka-din) is the capital of Kingdom of Nemetia."]
   },
   "Shangxia": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Daotian","capital","Western Koraxon"],
+    "tags": ["city", "Daotian", "capital", "Western Koraxon"],
     "name": "Shangxia",
     "nickname": "Shangxia",
     "type": "Capital City",
     "population": "170,000",
-    "races": ["Human","Daxiong","Zhuren","Tiefling","Half-Elf","Serbonji"],
+    "races": ["Human", "Daxiong", "Zhuren", "Tiefling", "Half-Elf", "Serbonji"],
     "government": "Imperial Bureaucracy",
     "location": "Daotian Kingdom",
-    "description": [
-      "The city of @+Shangxia+@ is the capital of Kingdom of Daotian."
-    ]
+    "description": ["The city of @+Shangxia+@ is the capital of Kingdom of Daotian."]
   },
   "Selan-Aserin": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Tor Aragil","capital","Entos"],
+    "tags": ["city", "Tor Aragil", "capital", "Entos"],
     "name": "Selan Aserin",
     "nickname": "Selan Aserin",
     "type": "Capital City",
     "population": "69,260",
-    "races": ["elf","half-elf","human","gnome","tiefling","dragonborn"],
+    "races": ["elf", "half-elf", "human", "gnome", "tiefling", "dragonborn"],
     "government": "Elective Monarchy",
     "location": "Tor Aragil",
-    "description": [
-      "The city of @+Selan Aserin+@ is the capital of High Elf Kingdom of Tor Aragil."
-    ]
+    "description": ["The city of @+Selan Aserin+@ is the capital of High Elf Kingdom of Tor Aragil."]
   },
   "Merenheim": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["city","Sennhoff","capital","Entos"],
+    "tags": ["city", "Sennhoff", "capital", "Entos"],
     "name": "Merenheim",
     "nickname": "Merenheim",
     "type": "Capital City",
     "population": "44,843",
-    "races": ["human","half-orc","dwarf","half-elf","elf","halfling","gnome","tiefling"],
+    "races": ["human", "half-orc", "dwarf", "half-elf", "elf", "halfling", "gnome", "tiefling"],
     "government": "Feudal Monarchy",
     "location": "Kingdom of Sennhoff",
-    "description": [
-      "The city of @+Merenheim+@ is the capital of the Kingdom of Sennhoff."
-    ]
+    "description": ["The city of @+Merenheim+@ is the capital of the Kingdom of Sennhoff."]
   }
 }

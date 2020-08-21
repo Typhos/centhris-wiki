@@ -55,7 +55,7 @@ const createRoutes = () => (
         <Route path='/items' component={GroupedCategory} />
         <Route path='/loreCategory' component={GroupedCategory} />
         <Route path='/organizationsCategory' component={GroupedCategory} />
-        <Route path='/placesCategory' component={GroupedCategory} />
+        <Route path='/locationsCategory' component={GroupedCategory} />
         <Route path='/creaturesCategory' component={GroupedCategory} />
 
         <Route path='/cosmos/' component={Cosmos} />

@@ -1,65 +1,57 @@
 {
   "Purple-Guard": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Purple Guard",
     "nickname": "Purple Guard of Abbasyr",
     "linkingWords": [],
-    "tags": ["Abbasyr","ulfwyst","royal guard"],
+    "tags": ["Abbasyr", "ulfwyst", "royal guard"],
     "type": "Military Order",
     "location": "Abbasyr",
     "memberNumber": "1,000",
-    "leaders": [
-    ],
+    "leaders": [],
     "description": [
       "The @+Purple Guard of Abbasyr+@ are the royal guard of the Kingdom of Abbasyr, under the direct command of the Sultana."
     ],
-    "articles": {
-    },
-    "dmArticles": {
-    }
+    "articles": {},
+    "dmArticles": {}
   },
   "Knights-of-Relos": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Knights of Relos",
     "nickname": "Knights of Relos",
     "linkingWords": [],
-    "tags": ["Navolin","ulfwyst","royal guard"],
+    "tags": ["Navolin", "ulfwyst", "royal guard"],
     "type": "Military Order",
     "location": "Navolin",
     "memberNumber": "200",
-    "leaders": [
-      "Lord Bertalan Tóth"
-    ],
+    "leaders": ["Lord Bertalan Tóth"],
     "description": [
       "The @+Knights of Relos+@ are the royal guard of the Kingdom of Navolin, under the direct command of the king."
     ],
-    "articles": {
-    },
-    "dmArticles": {
-    }
+    "articles": {},
+    "dmArticles": {}
   },
   "Navolinian-Hussars": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Navolinian Hussars",
     "nickname": "Navolinian Hussars",
     "linkingWords": [],
-    "tags": ["winged riders","owl knights","frecyra","ulfwyst"],
+    "tags": ["winged riders", "owl knights", "frecyra", "ulfwyst"],
     "type": "Military Order",
     "location": "Navolin",
     "memberNumber": "~600",
-    "leaders": [
-    ],
-    "members": [
-      "Jeskin Sebroski"
-    ],
+    "leaders": [],
+    "members": ["Jeskin Sebroski"],
     "description": [
       "The @+Navolinian Hussars+@ are a knightly order of heavy cavalry who count among their ranks many members of the noble military class of the kingdom."
     ],
-    "articles": {
-    },
+    "articles": {},
     "dmArticles": {
       "Ranks": [
         "The hussars, like most military organizations, have a highly structured, tiered series of ranks for their members. These ranks are usually granted based on noble status. A recent reform movement in the order, which suggests the use of merit based promotions and honors, is seen as highly controversial among the order's elite. These proposed changes, which would be based on a combination of time served, martial skill and noble status, are seen by senior members as a direct challenge to their birthright rule."
@@ -68,78 +60,69 @@
   },
   "Knights-of-the-Righteous-Soul": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Knights of the Righteous Soul",
     "nickname": "Knights of the Righteous Soul",
     "linkingWords": ["Tovani Interrogators"],
-    "tags": ["tovanis","ulfwyst"],
+    "tags": ["tovanis", "ulfwyst"],
     "type": "Military Order",
     "location": "Realm of Tovanis",
     "memberNumber": "300",
-    "leaders": [
-      "Didac Jorda"
-    ],
-    "description": [
-    ],
-    "articles": {
-    },
-    "dmArtilces": {
-    }
+    "leaders": ["Didac Jorda"],
+    "description": [],
+    "articles": {},
+    "dmArtilces": {}
   },
   "Knights-of-the-Sacred-Dawn": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Knights of the Sacred Dawn",
     "nickname": "Holy Order of the Sacred Dawn",
-    "tags": ["holy order","knights","Tovanis","ulfwyst"],
+    "tags": ["holy order", "knights", "Tovanis", "ulfwyst"],
     "type": "Military Order",
     "location": "Tovanis",
     "memberNumber": "~300",
-    "leaders": [
-      "Gergely Vastagh"
-    ],
+    "leaders": ["Gergely Vastagh"],
     "description": [
       "The @+Knights of the Sacred Dawn+@ are a militant, holy order that have pledged their lives in the service of the Eternal. The knights' most famous achievement was the invasion of Istagen and the defeat of Shulxaa, the Withered King. Though comprised mainly of humans, the knights have no racial, social or political requirements, so long as their members pledge to live their lives in the service of others, and evangelize Anethos as the savior of mortals.",
 
       "After the founding of the Theocracy of Tovanis, the knights split into two different factions. The more militant members of the order choosing to remain as questing paladins and retained the order's name. The knights more concerned with the restoration and governing of the new state formed the Atrium Fidelium."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Order-of-the-Blackened-Sun": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Order of the Blackened Sun",
     "nickname": "Order of the Blackened Sun",
-    "tags": ["holy order","knights","desolate wastes","ulfwyst"],
+    "tags": ["holy order", "knights", "desolate wastes", "ulfwyst"],
     "type": "Military Order",
     "location": "Desolate Wastes",
     "memberNumber": "~80",
-    "leaders": [
-      "Hirloc the Black"
-    ],
+    "leaders": ["Hirloc the Black"],
     "description": [
       "An order of black knights who believe that one day the sun will be swallowed by the Endless Night, a dark god they worship. They seek to increase their god's power by slaughtering others in his name."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Immortal-Legions": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Immortal Legions",
     "nickname": "Immortal Legions",
     "linkingWords": ["Syrothian legions", "Syrothian legion"],
-    "tags": ["army","syrothian empire","ulfwyst"],
+    "tags": ["army", "syrothian empire", "ulfwyst"],
     "type": "Military Order",
     "location": "Syrothian Empire",
     "description": [
       "The @+Immortal Legions+@ make up the majority of the military forces of the Syrothian Empire. The legions are comprised primarily of hobgoblins who are organized into units of highly disciplined, heavy infantry. All legions have auxiliary units of goblins, which are used as scouts, ranged skirmishers and messengers."
     ],
     "articles": {
-      "Legionnaires": [
-        "The Immortal Legions are comprised "
-      ],
+      "Legionnaires": ["The Immortal Legions are comprised "],
       "The Blackfire Dragoon": [
         "The most elite soldiers of the Immortal Legions are the @*Blackfire Dragoon*@. These heavy cavalry"
       ],
@@ -150,13 +133,14 @@
   },
   "Ithron-Dagnir": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Ithron Dagnir",
     "nickname": "Kaeldrin Mage Hunters",
-    "linkingWords": ["Wizard Slayers","Mage Slayers","Halthîr"],
-    "tags": ["army","syrothian empire","ulfwyst"],
+    "linkingWords": ["Wizard Slayers", "Mage Slayers", "Halthîr"],
+    "tags": ["army", "syrothian empire", "ulfwyst"],
     "type": "Secret Society",
-    "leaders": ["Bronze Scorpion","Jade Demon","Swift Dream"],
+    "leaders": ["Bronze Scorpion", "Jade Demon", "Swift Dream"],
     "location": "Kaeldrin Sanctum",
     "memberNumber": "80",
     "description": [
@@ -190,15 +174,14 @@
   },
   "Empyrean-Rangers": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Empyrean Rangers",
     "nickname": "Kaeldrin Empyrean Rangers",
     "linkingWords": [],
-    "tags": ["air cavalry","kaeldrin sanctum","military","ulfwyst"],
+    "tags": ["air cavalry", "kaeldrin sanctum", "military", "ulfwyst"],
     "type": "Military Order",
-    "leaders": [
-      "Brigadier Tarkreg Stonebranch"
-    ],
+    "leaders": ["Brigadier Tarkreg Stonebranch"],
     "location": "Kaeldrin Sanctum",
     "memberNumber": "2,000",
     "description": [
@@ -206,20 +189,18 @@
       "Ranger units are generally deployed in 50-person detachments called @*Eskades*@ which are lead by a Ranger-Captain. Each Eskade is usually comprised of 5 squads made up of 10 soldiers each. Each squad is assigned to a magically-assisted flying platform known as a Skyrig. These balloon-airship hybrids are able to house, feed and arm the squad for extended deployments in the air. Skyrigs are held aloft by large balloons which are maintained by elemental servants summoned by the ship's navigator, usually a wizard who has specialized in conjuration magic.",
       "When engaging a threat, rangers will attach themselves to their skyrig via long tethers before diving off the platform. As a safety precaution, all rangers are issued enchanted armor, known as an Empyrean Harness, which is designed to prevent a ranger from falling to their death, should their tether be severed."
     ],
-    "articles": {
-      
-    },
+    "articles": {},
     "statBlock": {
       "show": false,
       "alignment": "Neutral Good",
       "creatureType": "Medium Humanoid",
       "stats": [
-        {"name": "STR", "val": 15},
-        {"name": "DEX", "val": 14},
-        {"name": "CON", "val": 14},
-        {"name": "INT", "val": 16},
-        {"name": "WIS", "val": 12},
-        {"name": "CHA", "val": 11}
+        { "name": "STR", "val": 15 },
+        { "name": "DEX", "val": 14 },
+        { "name": "CON", "val": 14 },
+        { "name": "INT", "val": 16 },
+        { "name": "WIS", "val": 12 },
+        { "name": "CHA", "val": 11 }
       ],
       "savingThrows": "Str +6, Con +7",
       "conditionImmunities": "",
@@ -256,11 +237,12 @@
   },
   "Lemurian-Einherjar": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Lemurian Einherjar",
     "nickname": "Einherjar",
     "linkingWords": [],
-    "tags": ["Lemuria","military","royal guard","ulfwyst"],
+    "tags": ["Lemuria", "military", "royal guard", "ulfwyst"],
     "type": "Military Order",
     "leaders": ["Wulfgar of Ozeresk"],
     "location": "Realm of Lemuria",
@@ -268,20 +250,18 @@
     "description": [
       "The @+Lemurian Einherjar+@ are the royal guard of the Realm of Lemuria under direct authority of the High King or Queen. The einherjar are commanded by the Första Vakten, the monarch's personal bodyguard. As the personal guard of the monarch, the einherjar must renounce all loyalties to their own clan. "
     ],
-    "articles": {
-      
-    },
+    "articles": {},
     "statBlock": {
       "show": false,
       "alignment": "Lawful Neutral",
       "creatureType": "Medium Humanoid",
       "stats": [
-        {"name": "STR", "val": 16},
-        {"name": "DEX", "val": 14},
-        {"name": "CON", "val": 18},
-        {"name": "INT", "val": 12},
-        {"name": "WIS", "val": 14},
-        {"name": "CHA", "val": 12}
+        { "name": "STR", "val": 16 },
+        { "name": "DEX", "val": 14 },
+        { "name": "CON", "val": 18 },
+        { "name": "INT", "val": 12 },
+        { "name": "WIS", "val": 14 },
+        { "name": "CHA", "val": 12 }
       ],
       "savingThrows": "Str +6, Con +7",
       "conditionImmunities": "",
@@ -328,20 +308,17 @@
   },
   "Pellion-Hoplites": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "organization",
     "name": "Pellion Hoplites",
     "nickname": "Pellion Hoplites",
     "linkingWords": [],
-    "tags": ["infantry","Pellios","military","entos"],
+    "tags": ["infantry", "Pellios", "military", "entos"],
     "type": "Military Order",
     "leaders": [],
     "location": "Kingdom of Pellios",
     "memberNumber": "50,000",
-    "description": [
-      
-    ],
-    "articles": {
-      
-    }
+    "description": [],
+    "articles": {}
   }
 }

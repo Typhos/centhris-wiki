@@ -1,56 +1,61 @@
 {
   "Mare-Concordis": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","ocean","Centhris"],
+    "tags": ["region", "ocean", "Centhris"],
     "name": "Mare Concordis",
     "nickname": "Mare Concordis",
     "type": "Ocean",
     "location": "Centhris",
     "description": [
       "The Mare Concordis is the largest ocean on Centhris, spanning from the eastern coast of Ulfwyst to the western coast of Cuncascus and the southern coast of Eastern Koraxon."
-    ]    
+    ]
   },
   "Mare-Umbra": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","ocean","Centhris"],
+    "tags": ["region", "ocean", "Centhris"],
     "name": "Mare Umbra",
     "nickname": "Mare Umbra",
     "type": "Ocean",
     "location": "Centhris",
     "description": [
       "The Mare Umbra is an ocean on Centhris, spanning from the eastern coast of Koraxon to the western coasts of Cuncascus and Entos."
-    ]    
+    ]
   },
   "Mare-Dyskira": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","ocean","Centhris"],
+    "tags": ["region", "ocean", "Centhris"],
     "name": "Mare Dyskira",
     "nickname": "Mare Dyskira",
     "type": "Ocean",
     "location": "Centhris",
     "description": [
       "The Mare Dyskira is an ocean on Centhris, spanning from the wester coasts of Ulfwyst to the southern coast of Cuncascus."
-    ]    
+    ]
   },
   "Mare-Amnatis": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["region","ocean","Centhris"],
+    "tags": ["region", "ocean", "Centhris"],
     "name": "Mare Amnatis",
     "nickname": "Sea of Lost Souls",
     "type": "Ocean",
     "location": "Centhris",
     "description": [
       "The Mare Amnatis, better known by its common name, the Sea of Lost Souls, is an ocean on Centhris, spanning from the wester coasts of Ulfwyst and Koraxon to the eastern coasts of Cuncascus."
-    ]    
+    ]
   },
   "Makorian-Sea": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["sea","region","ulfwyst"],
+    "tags": ["sea", "region", "ulfwyst"],
     "name": "Makorian Sea",
     "nickname": "Makorian Sea",
     "type": "Sea",
@@ -61,8 +66,9 @@
   },
   "North-Lesdys-Sea": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["sea","region","ulfwyst"],
+    "tags": ["sea", "region", "ulfwyst"],
     "name": "North Lesdys Sea",
     "nickname": "North Lesdys Sea",
     "type": "Sea",
@@ -73,8 +79,9 @@
   },
   "Jade-Depths": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["sea","region","ulfwyst"],
+    "tags": ["sea", "region", "ulfwyst"],
     "name": "Jade Depths",
     "nickname": "Jade Depths",
     "type": "Sea",
@@ -85,8 +92,9 @@
   },
   "Venngar-Sea": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["sea","region","ulfwyst"],
+    "tags": ["sea", "region", "ulfwyst"],
     "name": "Venngar Sea",
     "nickname": "Venngar Sea",
     "type": "Sea",
@@ -97,8 +105,9 @@
   },
   "Isdrage-Bay": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["sea","region","ulfwyst"],
+    "tags": ["sea", "region", "ulfwyst"],
     "name": "Isdrage Bay",
     "nickname": "Isdrage Bay",
     "type": "Sea",
@@ -109,8 +118,9 @@
   },
   "Korin-Gulf": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["sea","region","ulfwyst"],
+    "tags": ["sea", "region", "ulfwyst"],
     "name": "Korin Gulf",
     "nickname": "Korin Gulf",
     "type": "Sea",
@@ -121,8 +131,9 @@
   },
   "Bay-of-Claws": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["sea","region","ulfwyst"],
+    "tags": ["sea", "region", "ulfwyst"],
     "name": "Bay of Claws",
     "nickname": "Bay of Claws",
     "type": "Sea",
@@ -138,8 +149,9 @@
   },
   "Adorra-Sound": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["sea","region","ulfwyst"],
+    "tags": ["sea", "region", "ulfwyst"],
     "name": "Adorra Sound",
     "nickname": "Adorra Sea",
     "type": "Sea",
@@ -147,13 +159,13 @@
     "description": [
       "The Adorra Sound is a large sea north of the continent of Ulfwyst, which is a sub-region of the Mare Concordis. The sound runs along most of the northern coast of Ulfwyst and connects the states of Abbasyr, the Syrothian Empire, and the Kaeldrin Sanctum."
     ],
-    "articles": {
-    }
+    "articles": {}
   },
   "Strait-of-Krigere": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["sea","region","ulfwyst"],
+    "tags": ["sea", "region", "ulfwyst"],
     "name": "Strait of Krigere",
     "nickname": "Strait of Krigere",
     "type": "Sea",
@@ -164,8 +176,9 @@
   },
   "Bay-of-Osum": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["bay","region","ulfwyst"],
+    "tags": ["bay", "region", "ulfwyst"],
     "name": "Bay of Osum",
     "nickname": "Bay of Osum",
     "type": "Sea",
@@ -176,8 +189,9 @@
   },
   "Sea-of-Cassan": {
     "playerKnown": true,
+    "hideOnCat": false,
     "path": "location",
-    "tags": ["sea","region","ulfwyst"],
+    "tags": ["sea", "region", "ulfwyst"],
     "name": "Sea of Cassan",
     "nickname": "Sea of Cassan",
     "type": "Sea",

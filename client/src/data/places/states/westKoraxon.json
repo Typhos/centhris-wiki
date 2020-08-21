@@ -1,15 +1,16 @@
 {
   "Daotian": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
     "name": "Daotian",
     "nickname": "Kingdom of Daotian",
-    "tags": ["kingdom","western koraxon"],
+    "tags": ["kingdom", "western koraxon"],
     "type": "State",
     "capital": "Shangxia",
     "currency": "Daotian Fen",
     "population": "14,000,000",
-    "races": ["Human","Daxiong","Zhuren","Tiefling","Half-Elf","Serbonji"],
+    "races": ["Human", "Daxiong", "Zhuren", "Tiefling", "Half-Elf", "Serbonji"],
     "government": "Bureaucratic Monarchy",
     "location": "Western Koraxon",
     "leaders": ["Emperor Zhi"],
@@ -17,8 +18,7 @@
       "The largest state in Western Koraxon, the @+Kingdom of Daotian+@ is feudal society located northwest of the Crimson Mist Mountains, east of the Aoi Yoru Archipelago and north of the Three Kingdoms of Namjeon.",
       "The Liao family founded the Xiong dynasty in 2C 2191, coming to power after a quarter century of instability following the fall of the Jing dynasty."
     ],
-    "articles": {
-    },
+    "articles": {},
     "dmArticles": {
       "Real World Parallels": [
         "Daotian is the fantasy parallel to the @?Tang Dynasty|https://en.wikipedia.org/wiki/Tang_dynasty?@ of China. Historians generally regard the Tang as a high point in Chinese civilization, and a golden age of cosmopolitan culture. Tang territory, acquired through the military campaigns of its early rulers, rivaled that of the Han dynasty. The Tang capital at Chang'an was the most populous city in the world in its day."
@@ -27,16 +27,25 @@
   },
   "Three-Kingdoms-of-Namjeon": {
     "playerKnown": false,
+    "hideOnCat": false,
     "path": "location",
     "name": "Three Kingdoms of Namjeon",
     "nickname": "Three Kingdoms of Namjeon",
     "linkingWords": ["Namjeon"],
-    "tags": ["kingdom","western koraxon"],
+    "tags": ["kingdom", "western koraxon"],
     "type": "State",
-    "cities": ["Chongdi","Haengwon","Bokryong"],
+    "cities": ["Chongdi", "Haengwon", "Bokryong"],
     "currency": "Namjeon Don",
     "population": "3,500,000",
-    "races": ["Human","Daxiong","Zhuren","Tiefling","Half-Elf","Gnome","Serbonji"],
+    "races": [
+      "Human",
+      "Daxiong",
+      "Zhuren",
+      "Tiefling",
+      "Half-Elf",
+      "Gnome",
+      "Serbonji"
+    ],
     "government": "Hereditary Monarchy",
     "location": "Western Koraxon",
     "leaders": ["King Hyun"],
@@ -44,8 +53,7 @@
       "The Namjeon Peninsula of Western Koraxon is home to several rival kingdoms, collectively known as the @+Three Kingdoms of Namjeon+@. All three states are feudal monarchies with similar architecture, culture, language, law, politics, governance, and religious practices. Located south of the Kingdom of Daotian, west of the Gulf of Sargin, and east of the Mare Dyskira, these rival states have been fighting a centuries-long cold war for control of the entire peninsula. The three ruling dynasties of Namjeon are the Baeshu, Jung and Hyoba families.",
       "The peninsula was previously ruled by the Muntae dynasty, which controlled a unified kingdom from 2C 1412 to 2C 2467. It is said that the Muntae first arrived from beyond the sea and conquered the whole of the Namjeon Peninsula in less than 3 years, unifying the fractious, petty kingdoms which controlled the region before. However, the dynasty became decadent and after several peasant revolts, the political elite of the kingdom took action before anger against the ruling family cost them their own positions."
     ],
-    "articles": {
-    },
+    "articles": {},
     "dmArticles": {
       "Real World Parallels": [
         "The Kingdom of Namjeon is a real world parallel to the @?Goryeo|https://en.wikipedia.org/wiki/Goryeo?@ dynasty of Korea, which was responsible for truly unifying the peninsula for the first time."

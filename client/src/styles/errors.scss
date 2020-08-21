@@ -1,0 +1,21 @@
+@import "./mixins";
+
+.error {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 66%;
+
+  &__heading {
+    color: $dndRed;
+    font-size: 1.8em;
+    letter-spacing: 0.1em;
+    font-family: $headingText;
+  }
+
+  &__text {
+    font-size: 1.2em;
+    font-family: $sansText;
+    font-weight: 700;
+  }
+}
