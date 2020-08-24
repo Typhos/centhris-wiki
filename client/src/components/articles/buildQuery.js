@@ -10,6 +10,18 @@ export default function buildQuery(type, entry) {
             path
             type
             
+            capital
+            location
+            area
+            population
+            demonyms
+            government
+            emblem
+            currency
+            leaders
+            races
+            regions
+            
             description
             articles
           }

@@ -17,20 +17,59 @@ module.exports.typeDefs = gql`
     organizations: [Organization!]!
     locations: [Location!]!
 
-    person(name: String, race: String, class: String, playerKnown: Boolean, gender: String, affiliations: String): [Person]
+    person(
+      name: String
+      race: String
+      class: String
+      playerKnown: Boolean
+      gender: String
+      affiliations: String
+    ): [Person]
     personById(id: ID!): Person
 
-    god(name: String, nickname: String, playerKnown: Boolean, alignment: String, portfolio: String, trueName: String, gender: String): [God]
+    god(
+      name: String
+      nickname: String
+      playerKnown: Boolean
+      alignment: String
+      portfolio: String
+      trueName: String
+      gender: String
+    ): [God]
     godById(id: ID!): God
 
-    lore(name: String, nickname: String, playerKnown: Boolean, hideOnCat: Boolean, type: String): [Lore]
+    lore(
+      name: String
+      nickname: String
+      playerKnown: Boolean
+      hideOnCat: Boolean
+      type: String
+    ): [Lore]
     loreById(id: ID!): Lore
 
-    organization(name: String, nickname: String, playerKnown: Boolean, hideOnCat: Boolean, type: String): [Organization]
+    organization(
+      name: String
+      nickname: String
+      playerKnown: Boolean
+      hideOnCat: Boolean
+      type: String
+    ): [Organization]
     organizationById(id: ID!): Organization
 
-    location(name: String, nickname: String, playerKnown: Boolean, hideOnCat: Boolean, type: String): [Location]
-    locationArticle(name: String, nickname: String, playerKnown: Boolean, hideOnCat: Boolean, type: String): Location
+    location(
+      name: String
+      nickname: String
+      playerKnown: Boolean
+      hideOnCat: Boolean
+      type: String
+    ): [Location]
+    locationArticle(
+      name: String
+      nickname: String
+      playerKnown: Boolean
+      hideOnCat: Boolean
+      type: String
+    ): Location
     locationById(id: ID!): Location
   }
 

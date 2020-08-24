@@ -9,7 +9,15 @@
     "linkingWords": ["Port of Duskreef", "Duskreef Prison"],
     "type": "Town",
     "population": "1,200",
-    "races": ["human", "halfling", "half-orc", "tiefling", "hobgoblin", "tortle", "chromatic dragonborn"],
+    "races": [
+      "human",
+      "halfling",
+      "half-orc",
+      "tiefling",
+      "hobgoblin",
+      "tortle",
+      "chromatic dragonborn"
+    ],
     "government": "Lawless",
     "location": "Nakali Iles",
     "leaders": ["Jöndr Mistwalker"],
@@ -83,7 +91,9 @@
     "government": "Clan Council",
     "location": "Realm of Cibrin",
     "leaders": ["Darga Nagrosh of Clan Thosh"],
-    "description": ["@+Wexin+@ is a town near the border between Cibrin and the Theocracy of Tovanis."]
+    "description": [
+      "@+Wexin+@ is a town near the border between Cibrin and the Theocracy of Tovanis."
+    ]
   },
   "Edremit": {
     "playerKnown": true,
@@ -99,7 +109,9 @@
     "government": "Clan Council",
     "location": "Realm of Lemuria",
     "leaders": [""],
-    "description": ["@+Edremit+@ is a town near the border between Lemuria and the Archduchy of Zurast."]
+    "description": [
+      "@+Edremit+@ is a town near the border between Lemuria and the Archduchy of Zurast."
+    ]
   },
   "Murmont": {
     "playerKnown": true,
@@ -181,7 +193,9 @@
     "races": ["dwarf", "human", "half-orc", "gnome"],
     "location": "Iron Hills",
     "leaders": "Serthri Caskmantle",
-    "description": ["@+Reykrang+@ is a town in the Iron Hills which holds alliegance to the Kingdom of Dol Obok."]
+    "description": [
+      "@+Reykrang+@ is a town in the Iron Hills which holds alliegance to the Kingdom of Dol Obok."
+    ]
   },
   "Aurvangr": {
     "playerKnown": true,
@@ -210,6 +224,7 @@
     "linkingWords": [],
     "type": "Town",
     "population": "1,635",
+    "leaders": ["Lord Njall Völsung"],
     "guards": 10,
     "levy": 254,
     "tradesfolk": {

@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const { isObjectType } = require("graphql");
 
 const model = {
   name: String,
@@ -11,12 +10,33 @@ const model = {
 
   hideOnCat: Boolean,
   type: String,
-  leaders: Array,
   forceImg: String,
 
+  capital: String,
+  location: String,
+  area: String,
+  population: String,
+  demonyms: Array,
+  government: String,
+  emblem: String,
+  currency: String,
+  leaders: Array,
+  races: Array,
+  regions: Array,
+
   description: Array,
-  articles: mongoose.Schema.Types.Mixed,
-  dmArticles: Array,
+  articles: [
+    {
+      heading: String,
+      article: Array,
+    },
+  ],
+  dmArticles: [
+    {
+      heading: String,
+      article: Array,
+    },
+  ],
 };
 
 // model creation params: name of the model, the model object, name of the remote collection.

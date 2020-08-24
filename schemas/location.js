@@ -1,4 +1,9 @@
 module.exports.Location = `
+  type Article {
+    heading: String,
+    article: [String]
+  }
+
   type Location {
     id: ID!,
     name: String!
@@ -10,11 +15,20 @@ module.exports.Location = `
     path: String,
     type: String,
     forceImg: String,
-
+    
+    capital: String,
+    location: String,
+    area: String,
+    population: String,
+    demonyms: [String],
+    government: String,
+    emblem: String,
+    currency: String,
     leaders: [String],
+    races: [String],
+    regions: [String],
 
     description: [String],
-    articles: [String],
-    dmArticles: [String],
+    articles: Article
   }
 `;
