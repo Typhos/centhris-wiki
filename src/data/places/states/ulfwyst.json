@@ -4,7 +4,7 @@
     "path": "location",
     "name": "Navolin",
     "nickname": "Kingdom of Navolin",
-    "linkingWords": ["Navolinian","Navolinians"],
+    "linkingWords": ["Navolinian", "Navolinians"],
     "idLinks": {
       "Navolinian History": "History",
       "Navolinian history": "History",
@@ -20,7 +20,7 @@
       "religion in Navolin": "Religion",
       "religious practices of Navolin": "Religion"
     },
-    "tags": ["kingdom","navolin","state","ulfwyst","monarchy"],
+    "tags": ["kingdom", "navolin", "state", "ulfwyst", "monarchy"],
     "type": "State",
     "emblem": "/crests/Navolin",
     "currency": "Navolinian Talon",
@@ -28,29 +28,29 @@
     "population": "~13.5 million",
     "demonyms": "Navolinian",
     "area": "190,681 mi²",
-    "races": ["human","elf","gnome","half-elf","halfling"],
+    "races": ["human", "elf", "gnome", "half-elf", "halfling"],
     "government": "Hereditary Monarchy",
     "location": "Ulfwyst",
     "leaders": ["King Kzesimir III"],
-    "regions": ["Kelishan Highlands","Galren Moor","Damali Steppe","Tiderack Coast"],
+    "regions": ["Kelishan Highlands", "Galren Moor", "Damali Steppe", "Tiderack Coast"],
     "description": [
       "The largest state in eastern Ulfwyst, the @+Kingdom of Navolin+@ (@?/ˈnəˌvoʊˌliːn/|https://en.wikipedia.org/wiki/Help:IPA/English?@) is feudal society that stretches across the vast highlands between the Jordonis Mountains and the natural barriers to the west. Navolin is a land of vast plains, verdant forests and soggy marshland. The villages and towns that dot the land along the Sulas and Zalkow rivers provide large quantities of staple crops that feed the kingdom and beyond.",
       "Navolin is an ancient land, with many great nations having coming before the current political structure that rules the region. Great ruins, eerie forests and stagnant bogs lie just beyond the walls of the various towns and castles. Abandoned castles, farms, windmills and even entire towns can be found along the ancient, dirt roads.",
       "The people of Navolin, due to the constant monstrous threats that test their walls and stalk the wild lands, are deeply superstitious. Many Navolinian folk tales involve all manner of terrifying monsters, including witches, lycanthropes, devils and dragons, all trying to destroy the kingdom and its people from within."
     ],
     "articles": {
-      "History":[
+      "History": [
         "The foundation for the modern state of Navolin began to take shape roughly 1,600 years ago, following the great upheaval of the Ruination. As the devastated populace of the world desperately attempted to survive the natural and unnatural threats that resulted from the cataclysm, the people of the Kelishan Highlands and the Galren Moor migrated to the safest locations possible. These safe havens, mostly well-fortified settlements or castles located at strategic locations, became the new home of small tribes of survivors.",
         "@#Highland Tribes and Resurgence#@",
         "In the years that followed the calamity, there was a massive resurgence of monstrous races, dragons and other magical creatures, which battled for supremacy in the void left by the lack of humanoid control. The remaining people of the region hid behind their walls, attempting to survive as best they could. Many of these settlements were not able to withstand the onslaught, and the few that did only managed to survive due to the strength of the fortification, or the might of the heroes that defended them.",
         "For generations the only thought of the people of the region was survival, with most of their time and resources spent on the expanded of food sources and maintenance of arms. Eventually, as the echoes of the disaster dissipated, the strongest of these enclaves began to expand their influence. Various petty kingdoms took shape, with leaders looking to assert control. The largest of these resulting kingdoms were Azond, Dunfeld, Malstein, Navolin, Sedobia, and Vacelin, with numerous smaller vassal states including Borov, Camunburg, Grekhov, Khor, Kobryn, Lezna, Orud, Razdol, Tarona, Vucin and Zelmar.",
 
         "@#Confederation and Conquest#@",
-        
+
         "Following the fall of Kerathax, the Lord of Ash, the Congress of Adendorf (convened in 2C 2143) founded the Malstein Confederation, a loose league of 11 sovereign states. The appointment of King Spiridon Jugovac of Malstein as the permanent @*Princeps*@ of the Confederation reflected the Congress's failure to accept Navolin's rising influence in the region, and acerbated the long-standing competition between the Czak and Jugovac family interests. Disagreement within the courts of several of the confederation members led to skirmishes between roving bands of renegade soldiers and landed knights loyal to prominent noble lines.",
-        
+
         "@&Velibor-I-of-Navolin|Royal portrait of King Velibor I of Navolin|small&@ The failure of the Malstein Confederation to effectively handle the outbreak of an epidemic of lycanthropy, known as the @*Savage Contagion*@, in 2C 2209 would only further strain relations between the member states. With tensions rising due to the perceived ineffectiveness of the confederation, King Velibor I of Navolin declared the dissolution of the confederation unilaterally, which was soundly rejected by the Kingdom of Malstein and its allies.",
-        
+
         "In 2C 2211, after several years of bickering and border disputes due to the failures of the Malstein Confederation, Navolin invaded the neighboring kingdom of Dunfeld, an ally of the Kingdom of Malstein. The Jugovac dynasty, unwilling to be seen as timorous, came to the aid of Dunfeld, resulting in the War of Five Crowns. The war left the entire region devastated, with casualties of nearly 2.5 million people across all the region over the course of 34 years. With the conclusion of the war in 2C 2245, King Velibor I of Navolin was declared the sovereign of Dunfeld, officially annexing the territory, as well as claiming the Principality of Khor as a vassal-state.",
 
         "@&Political-Map-of-Ulfwyst-2C-2450|A political map of eastern Ulfwyst ca. 2C 2450|right&@ Over the next two centuries a series of conflicts, know as the Wars of Dominion, would continue to scar the region. Many distant powers, previously uninvolved in regional conflicts, including Lemuria, Kaeldrin and Istagen, would become embroiled in this cascading series of wars as the ramifications of a consolidated power in Kelishan, Galren and Tiderack became a growing concern within other nation-states. These kingdoms had formed an unspoken understanding of non-intervention in the constant infighting of the smaller states prior to the War of Five Crowns. The squabbles of the kingdoms and duchies of the region tangentially ensured their own stability, as the more powerful states in the region did not turn their eyes to external conquest.",
@@ -73,11 +73,11 @@
         "Land in the kingdom is divided among these three estates, and the crown. Land owned directly by the king or his family is referred to as @*crownland*@. Under the laws of the kingdom, any land which is not directly controlled by one of the estates is considered part of the crown's holdings. This often means the amount of estate-held territory fluctuates considerably, and thus their influence over the ruler.",
         "As of 2C 2570, the breakdown of land controlled by the estates was estimated to be as follows: @+37% crownland+@, @+24% nobility+@, @+21% clergy+@, @+13% burgher+@ and @+5% mages+@."
       ],
-      "Economy":[
+      "Economy": [
         "Navolin is, relative to its neighbors, an economically poor country. Though rich with natural resources, much of its economic attention has been placed on the maintenance of its vast territorial holding and the defense of its borders. Roughly half of all economic activity in the kingdom revolves around the growing of food to feed the populace, with another quarter of its production going directly towards the military and noble classes. The remaining production is spread among the mercantile, artisan and freemen classes. The outlying element of the country's economic power are those of magical talent and adventuring mercenaries, however neither can be relied upon for sustained economic generation on a consistent basis, year over year.",
         "In terms of natural resources, the kingdom's territory is comprised of vast woodlands and several fertile river valleys suitable for agriculture. Significant natural resources include iron ore, copper, tin, potash, timber, salt, and a wide variety of magical and mundane wildlife."
       ],
-      "Culture":[
+      "Culture": [
         "Due to its central geographic location in eastern Ulfwyst, Navolinian cities are cosmopolitan by most standards. All manner of races and trade skills coalesce in these hubs of commerce, learning and protection. No peoples are barred from entry, however Navolinians are naturally superstitious people and they tend to regard “otherworldly” races with distrust. Tieflings, Genasi, Aasimar, and Tritons are viewed with mild hostility until they can prove they are not dangerous individuals.",
         "@#Masters of the Saddle#@",
         "Due to large amount of open grassland in Navolin, a long tradition of equestrianism exists in the kingdom. Much of the noble class of Navolin takes great pride the skill of breeding, raising, riding and going to war on horseback. So prominent is the practice of husbandry in among the landed elite that some nobles have turned down positions at court due to the fact that it would require them to leave their personal stables in the hands of their retainers.",
@@ -88,7 +88,7 @@
         "• @*My treasures do not glitter; They gleam in the sun and neigh in the night.*@",
         "• @*The man who does not love a horse cannot love a woman.*@",
         "• @*A horse in Navolin is a lord in Lemuria.*@",
-        "• @*Misfortunes come on horseback and depart on foot.*@"        
+        "• @*Misfortunes come on horseback and depart on foot.*@"
       ],
       "Religion": [
         "Religion in Navolin is not heavily regulated, however there are a limited number of commonly worshiped deities, with the some of the other common gods being considered dangerous or heretical. Veneration of deities deemed heretical is punishable with a variety of penalties, usually left up to the whim of the local authority. The following is a list of standard deities, as well as a list of banned deities and punishments for worship of outlawed gods.",
@@ -136,29 +136,28 @@
         "This aspect of the law is intentionally dangerous, as it prevents lords from simply expanding their territory by hiring mercenary soldiers with no personal risk. It is widely known that this aspect of the law has resulted in a claimant being kill, or forced out of a reclaimed citadel, with a different title holder taking charge the castle. Few noble lords tend to be willing to risk their own safety, or that of their kin to do so, as the ancient dangers that reside within do not give up such bastions easily and even after clearing out a keep, they might find themselves waking up to a dagger in the back."
       ]
     },
-    "dmArticles": {
-    }
+    "dmArticles": {}
   },
   "Zurast": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["archduchy","state","ulfwyst","monarchy"],
+    "tags": ["archduchy", "state", "ulfwyst", "monarchy"],
     "name": "Zurast",
     "nickname": "Archduchy of Zurast",
     "linkingWords": ["Zurastan"],
     "type": "State",
     "population": "~2.1 million",
     "area": "36,362 mi²",
-    "races": ["human","elf","gnome","half-elf","halfling"],
+    "races": ["human", "elf", "gnome", "half-elf", "halfling"],
     "government": "Hereditary Monarchy",
     "currency": "Zurastan Helm",
     "capital": "City of Zurast",
     "location": "Ulfwyst",
     "leaders": ["Archduke Nicolai Valken"],
-    "regions": ["Blighted Mire","Drakenwald","Lepkar Peninsula","Kazgrim Mountains"],
+    "regions": ["Blighted Mire", "Drakenwald", "Lepkar Peninsula", "Kazgrim Mountains"],
     "description": [
       "The @+Archduchy of Zurast+@ is a growing regional power in eastern Ulfwyst. Several hundred years ago, the City of Zurast was an ordinary city-state located on the southern Sulas river near the Bay of Claws. Only within the last 60 years, through military expansion and shrewd political maneuvering, have the archdukes of Zurast successfully expanded and maintained their position as a respected regional power. As Zurast does not have a large standing military of its own, this expansion was mostly possible with the mass recruitment of foreign mercenaries.",
-        "Since it's founding as a city-state on the Sulas river, the City of Zurast has remained independent. Whether this is due to the dangers of marching an army through the region, the city's well built defenses, or the well-established trade networks in the region is hard to say. The few times that the city has been put under siege, its high, gray stone walls have never been breeched."
+      "Since it's founding as a city-state on the Sulas river, the City of Zurast has remained independent. Whether this is due to the dangers of marching an army through the region, the city's well built defenses, or the well-established trade networks in the region is hard to say. The few times that the city has been put under siege, its high, gray stone walls have never been breeched."
     ],
     "articles": {
       "Location": [
@@ -178,26 +177,41 @@
   "Lemuria": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["kingdom","state","ulfwyst","monarchy"],
+    "tags": ["kingdom", "state", "ulfwyst", "monarchy"],
     "name": "Lemuria",
     "nickname": "Realm of Lemuria",
-    "linkingWords": ["Lemuria","Lemurian","Lemurians"],
+    "linkingWords": ["Lemuria", "Lemurian", "Lemurians"],
     "type": "State",
     "currency": "Lemurian Pike",
     "capital": "Kilurus",
     "population": "~7.6 million",
     "area": "174,747 mi²",
-    "races": ["human","elf","gnome","half-elf","half-orc","half-giant","marus"],
+    "races": ["human", "elf", "gnome", "half-elf", "half-orc", "half-giant", "marus"],
     "government": "Elective Clan Monarchy",
     "location": "Ulfwyst",
-    "leaders": ["High Queen Inga Villdyr"],
-    "regions": ["Korin Gulf","Strait of Krigere","Amber Grove","Torick Peaks","Mösöngol Tundra","Ursgal Islands","Venngar Sea","Mare Concordis"],
+    "leaders": [
+      "High Queen Inga Villdyr",
+      "Ulfrica Arnbjorg",
+      "Torild Sjomann",
+      "Wuldren Tordenfødt",
+      "Viljar Bjørsel"
+    ],
+    "regions": [
+      "Korin Gulf",
+      "Strait of Krigere",
+      "Amber Grove",
+      "Torick Peaks",
+      "Mösöngol Tundra",
+      "Ursgal Islands",
+      "Venngar Sea",
+      "Mare Concordis"
+    ],
     "description": [
       "One of the largest states in eastern Ulfwyst, the clans of Lemuria control the frigid lands that surround the tempestuous Korin Gulf. Lemuria is a harsh and dangerous land, full of savage beasts, perilous terrain and volatile weather. The people who live here are large, willful, and daring. Over the millennia amongst the crags, glaciers, ice flows and howling woods, the people have developed an understanding with the land they inhabit.",
 
       "Lemuria is governed by an elective clan monarchy, controlled by the Clans of Lemuria. These clans are led by the five Great Clans — Arnbjorg, Bjørsel, Sjomann, Tordenfødt and Villdyr."
     ],
-    "articles":{
+    "articles": {
       "Society": [
         "@#People of the Land#@",
         "Due to the vast amount of natural wilderness that exists in this remote region of Ulfwyst, there is an innate connection in Lemuria with the Feywild. Many people claim to see fey spirits roaming the hills or dancing in the ancient forests.",
@@ -209,14 +223,14 @@
         "The military of Lemuria is comprised of levied soldiers from the various Clans of Lemuria. Each clan is expected to provide an adequate levy of warriors based on their status in the Clan Council. How a clan provides its forces is up to the clan leadership. Most clans choose to followed a model of mixed recruitment, with professional, noble born soldiers at the ready if they are required, and a larger, conscripted body of militia soldiers pulled from the karls and unlanded peasantry.",
         "Common practice among the clans is to have their forces reviewed by their respective clan chiefs on a regular basis in order to ensure they are able to meet their levy quota. Failing to provide a proper levy during wartime is a great stain upon the offending clan."
       ],
-      "Settlements":[
+      "Settlements": [
         "The Realm of Lemuria is vast and its people live in a wide variety of communities often dependent on local pressures, climate and proximity to clan resources and fortifications.",
 
         "The majority of Lemurians live in small farming communities spread throughout the realm's two large, arable regions: the Rikedal Lowlands and the Trädgård Plain. Many of these communities are not fortified, due to their central location and distance from obvious external threats. When called upon to defense themselves, most villages can muster a sizable levy.",
 
         "Lemurians who live in isolated locations, such as the the frozen forest and tundra of the far south live in fortified villages or towns located at defensible positions in the landscape. Frotified hill-towns, sea-side ports located on the sides of cliffs and walled villages located deep in forests are typical fare for the people who live in the harshest regions of Lemuria."
       ],
-      "Religion":[
+      "Religion": [
         "Lemuria is an ancient and mystical land, full of haunted woods, deadly mires and frozen peaks. The people have mixed the traditional gods of Ulfwyst and their own, more ancient traditions.",
         "Almost every village and town in the kingdom has a temple dedicated to the gods, and also a sacred grove dedicated to the spirits of the land. This animist practice honors the spirits of the forest, rocks, river, mountains and sea with which the people of this place share a sacred bond. The people of Lemuria believe that though the gods hold supreme power over the world, their day to day lives are more influenced by the natural spirits all around them.",
         "To the people of Lemuria, it is as important to honor the local spirits as it is the Gods. Throughout the year, various rites, festivals and holidays mark the occasions important to the animist practices. When the spring crops are sown, a village will hold a festival to honor the spirits of the fields, the orchards and the streams. When a lamb is born or an old beast of burden dies, its spirit is honored in ancient rites at a family's ritual altar.",
@@ -228,20 +242,20 @@
   "Cibrin": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["kingdom","state","ulfwyst"],
+    "tags": ["kingdom", "state", "ulfwyst"],
     "name": "Cibrin",
     "nickname": "Realm of Cibrin",
-    "linkingWords": ["Cibrinian","Cibrinians"],
+    "linkingWords": ["Cibrinian", "Cibrinians"],
     "type": "State",
     "currency": "Cibrinian Zul",
     "capital": "Enira",
     "population": "~1.1 million",
     "area": "54,860 mi²",
-    "races": ["human","half-orc","dwarf","half-giant","uklang"],
+    "races": ["human", "half-orc", "dwarf", "half-giant", "uklang"],
     "government": "Clan Monarchy",
     "location": "Ulfwyst",
     "leaders": ["Han Darga Crogosh of Clan Godak"],
-    "regions": ["Ossin River","Torick-Vir Valley","Torick Peaks","Vir Mountains","Venngar Sea"],
+    "regions": ["Ossin River", "Torick-Vir Valley", "Torick Peaks", "Vir Mountains", "Venngar Sea"],
     "description": [
       "A mid-sized state in southern Ulfwyst, the @+Realm of Cibrin+@ is a harsh land sitting between the Torick Peaks and Vir Mountain ranges, south of the Theocracy of Tovanis. Most of the kingdom is comprised of dangerous, untamed forest and craggy hills.",
       "Cibrin is an ancient land, and its people still remember the old ways. The harsh environments that make up the territory have caused the various fractured groups of peoples that live in the country to put aside their difference in order to survive. All are welcome under the banner of the chiefs, so long as they abide by the rules of the clan they live under.",
@@ -252,12 +266,13 @@
         "Each clan is within its rights to set its own laws and codes, so long as they do not come into conflict with the overarching tenants of the Clan system.",
         "@#Customs of the Clans#@",
         "@+Provide for the Clan and the Clan Provides+@: All members of a clan are expected to provide half of what they earn or create as tribute to their community. The chief and their people then provide equitable goods based on need from clan stores. None are to go without, and none should have more than they need.",
-        "@+Honor Above All+@: The highest honor one can achieve in their lifetime in their clan is a Totem of Honor. One's honor is worth more than gold. If someone dishonors themselves in the eyes of the clan, be it in battle, business or socially, they are exiled and their name is stripped from all records.","The harshest offenses carry a two-fold punishment. The clan seer first conducts the magical Rite of Cleansing, which permanently removes someone from the minds of all members of the clan, save the executioner. The clan member is then executed, knowing they have been almost completely forgotten.",
+        "@+Honor Above All+@: The highest honor one can achieve in their lifetime in their clan is a Totem of Honor. One's honor is worth more than gold. If someone dishonors themselves in the eyes of the clan, be it in battle, business or socially, they are exiled and their name is stripped from all records.",
+        "The harshest offenses carry a two-fold punishment. The clan seer first conducts the magical Rite of Cleansing, which permanently removes someone from the minds of all members of the clan, save the executioner. The clan member is then executed, knowing they have been almost completely forgotten.",
         "@+Heed the Call+@: All are expected to be fit to fight and defend their homeland. Martial prowess is valued as much as business acumen or scholarly knowledge. Even the village potter and tailor are expected to hone their craft alongside their martial skill.",
         "@+Embrace the Storm+@: The weather of Cibrin is a near constant battering of ocean storms, blizzards, and cutting winds. The people of this land worship many gods, but chief among them is The Thunder King. The clans honor Ukrom in a variety of ways, but many of them embrace the Tempest Karsoz, the Aspect of Glory."
       ]
     },
-    "dmArticles":{
+    "dmArticles": {
       "Only the Strong": [
         "Most of the inhabitants of Cibrin live in hillforts, subsisting as hunter-gatherers, or in coastal castle-towns from which they conduct maritime activities in the Venngar Sea. Due to it's geography and climate, the realm's population is comprised of hardier races, such as humans, dwarves, and Uklang, or yakfolk. It also has a high percentage of half-breeds, specifically half-orcs, and half-giants, as well as the very rare Marus, or walrus-people."
       ]
@@ -266,32 +281,46 @@
   "Tovanis": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["state","ulfwyst","theocracy"],
+    "tags": ["state", "ulfwyst", "theocracy"],
     "name": "Tovanis",
     "nickname": "Theocracy of Tovanis",
-    "linkingWords": ["Tovani","Realm of Tovanis","Kingdom of Istagen","Istagen","Realm of Shulxaa"],
+    "linkingWords": [
+      "Tovani",
+      "Realm of Tovanis",
+      "Kingdom of Istagen",
+      "Istagen",
+      "Realm of Shulxaa"
+    ],
     "type": "State",
     "currency": "Tovani Blade",
     "capital": "Axuros",
     "population": "~4.3 million",
     "area": "42,330 mi²",
-    "races": ["human","aasimar","dwarf","halfling","half-orc","tiefling"],
+    "races": ["human", "aasimar", "dwarf", "halfling", "half-orc", "tiefling"],
     "government": "Elective Theocracy",
     "location": "Ulfwyst",
     "leaders": [
       "Tsongar Barath",
+      "Ignac Lazar",
+      "Szofi Diana",
       "Didac Jorda",
       "Mozes Kovacs",
       "Karola Piroska Szilágyi",
       "Tomi Dobos",
-      "Ignac Lazar",
       "Viola Pasztor"
     ],
-    "regions": ["Bay of Claws","Blighted Mire","Lake Droknog","Pillars of Amud","Retirim Valley","Torick Peaks"],
+    "regions": [
+      "Bay of Claws",
+      "Blighted Mire",
+      "Lake Droknog",
+      "Pillars of Amud",
+      "Retirim Valley",
+      "Torick Peaks"
+    ],
     "description": [
       "The @+Theocracy of Tovanis+@ (@?/ˈtoʊˌvənˌɪs/|https://en.wikipedia.org/wiki/Help:IPA/English?@) is a young state, having come into existence roughly 110 years ago. It is a centralized state ruled by the Church of the Eternal from the capital of Axuros. The rulers of Tovanis are notoriously hostile to practitioners of the arcane arts, having expelled all mages from the country on its founding. Any arcane magic user wishing to travel through, or live in Tovanis does so at great risk."
     ],
-    "dmArticles":{
+    "dmArticles": {
       "Dark Times": [
         "120 years ago, Tovanis did not exist as a state. Instead, it was a realm ruled by the lich known as Shulxaa, the Withered King. The wizard had achieved lichdom several hundred years prior, but rose to power around 2C 1900. Over roughly a hundred years, the prior kingdom located in the region, known as Istagen, had been twisted into a puppet state by the lich.",
         "The Realm of Shulxaa was a nightmarish state of enslaved peoples, thralls and undead monstrosities. The lich, having only contempt for the 'lesser beings' in owner his dominion would regularly purge entire villages if the inhabitants committed even the slightest infractions. In this way, through fear and sheer force, the lich suppressed all but the bravest from rising against him."
@@ -313,24 +342,42 @@
   "Syrothian-Empire": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["empire","state","ulfwyst","hobgoblins","monarchy"],
+    "tags": ["empire", "state", "ulfwyst", "hobgoblins", "monarchy"],
     "name": "Syrothian Empire",
     "nickname": "Syrothia",
-    "linkingWords": ["Syrothian Empire","Syrothian"],
+    "linkingWords": ["Syrothian Empire", "Syrothian"],
     "type": "State",
     "currency": "Syrothian Drake",
     "capital": "Lashkar",
     "population": "~21.3 million",
     "area": "515,442 mi²",
-    "races": ["hobgoblin","goblin","bugbear","human","tiefling","half-orc","half-giant","uklang"],
+    "races": [
+      "hobgoblin",
+      "goblin",
+      "bugbear",
+      "human",
+      "tiefling",
+      "half-orc",
+      "half-giant",
+      "uklang"
+    ],
     "government": "Dictatorship",
     "location": "Ulfwyst",
     "leaders": ["Droknac the Immortal"],
-    "regions": ["Syrothian Plateau","Pillars of Amud","Rostamas","Wychwood Forest","Ur'shiid Desert","Lake Urisyr","Twilight Sea","Adorra Sound"],
+    "regions": [
+      "Syrothian Plateau",
+      "Pillars of Amud",
+      "Rostamas",
+      "Wychwood Forest",
+      "Ur'shiid Desert",
+      "Lake Urisyr",
+      "Twilight Sea",
+      "Adorra Sound"
+    ],
     "description": [
       "The Syrothian Empire is a rising power in central Ulfwyst. Forged from disparate tribes of goblins and hobgoblins, they all now serve under the banner of Droknac the Immortal, a hobgoblin warlord who has forged his vast empire over the course of the last several hundred years. Under his command, hobgoblin armies march forth to claim new lands and capture slaves to serve their dark gods. "
     ],
-    "dmArticles":{
+    "dmArticles": {
       "Immortal Legions": [
         "Due to the strange nature of the goblinoid races, the armies of Syrothia are rarely, if ever, truly defeated. If a legion is defeated or completely annihilated, the hobgoblins that fell in battle may yet return. After a battle, any nearby goblins, either those kept in reserve by the empire, or natural inhabitants of an area, will swarms the battlefield, consuming the corpses of their fallen kin.",
         "Though the arms and armor of the legion may be broken or lost, over following month, as the goblins grow and gain the memories of those they consumed, the fallen legion returns. It is for this reason that the armies of Syrothia terrify their enemies. Entire legions will, if tactics require, throw themselves at a stronghold or into a lost cause. For the goblinoids are fully aware that while any casualties they inflict upon the enemy is permanent, the damage suffered on their end is only temporary.",
@@ -346,24 +393,21 @@
     "path": "location",
     "name": "Abbasyr",
     "nickname": "Kingdom of Abbasyr",
-    "linkingWords": ["Abbasyr","Abbasyri"],
-    "tags": ["kingdom","Abbasyr","state","ulfwyst","monarchy"],
+    "linkingWords": ["Abbasyr", "Abbasyri"],
+    "tags": ["kingdom", "Abbasyr", "state", "ulfwyst", "monarchy"],
     "type": "State",
     "capital": "Khezrabad",
     "currency": "Abbasyri Sphinx",
     "population": "~7.9 million",
     "area": "156,154 mi²",
-    "races": ["tiefling","human","anubari","dragonborn","half-orc","gnome","half-elf","elf"],
+    "races": ["tiefling", "human", "anubari", "dragonborn", "half-orc", "gnome", "half-elf", "elf"],
     "government": "Hereditary Monarchy",
     "location": "Ulfwyst",
     "leaders": ["Sultana Safa Abbasyr"],
-    "regions": ["Ur'shiid Desert","Adorra Sound","Tashvir Mountains","the Rostamas"],
-    "description": [
-    ],
+    "regions": ["Ur'shiid Desert", "Adorra Sound", "Tashvir Mountains", "the Rostamas"],
+    "description": [],
     "dmArticles": {
-      "History": [
-        "The Kingdom of Abbasyr is a large, feudal state located in Western Ulfwyst. "
-      ]
+      "History": ["The Kingdom of Abbasyr is a large, feudal state located in Western Ulfwyst. "]
     }
   },
   "Kaeldrin-Sanctum": {
@@ -371,41 +415,71 @@
     "path": "location",
     "name": "Kaeldrin Sanctum",
     "nickname": "Kaeldrin",
-    "linkingWords": ["the Sanctum","the Mage Sanctum"],
-    "tags": ["state","ulfwyst","magocracy"],
+    "linkingWords": ["the Sanctum", "the Mage Sanctum"],
+    "tags": ["state", "ulfwyst", "magocracy"],
     "type": "State",
     "capital": "Irulek",
     "currency": "Kaeldrin Eye",
     "population": "~5.6 million",
-    "races": ["elf","human","tiefling","half-elf","gnome","halfling","dragonborn","half-orc","serbonji"],
+    "races": [
+      "elf",
+      "human",
+      "tiefling",
+      "half-elf",
+      "gnome",
+      "halfling",
+      "dragonborn",
+      "half-orc",
+      "serbonji"
+    ],
     "government": "Oligarchic Magocracy",
     "location": "Ulfwyst",
     "leaders": ["Council of Nine"],
-    "regions": ["Zavalev Mountains","Sullen Fen","Jayanti Isles","Adorra Sound","Zorebrak Peninsula"],
+    "regions": [
+      "Zavalev Mountains",
+      "Sullen Fen",
+      "Jayanti Isles",
+      "Adorra Sound",
+      "Zorebrak Peninsula"
+    ],
     "description": [
       "The Kaeldrin Sanctum is a large state located in north-central Ulfwyst. The state is famous for being ruled by a class of mages who act as a council, and do not select a single permanent leader."
     ],
-    "dmArticles": {
-    }
+    "dmArticles": {}
   },
   "Ildroun-Vale": {
     "playerKnown": false,
     "path": "location",
     "name": "Ildroun Vale",
     "nickname": "Elven Kingdom of Ildroun",
-    "linkingWords": ["the Vale","the Elfin Vale"],
-    "tags": ["state","ulfwyst","hereditary monarchy","kingdom"],
+    "linkingWords": ["the Vale", "the Elfin Vale"],
+    "tags": ["state", "ulfwyst", "hereditary monarchy", "kingdom"],
     "type": "State",
     "capital": "Irulek",
     "currency": "Ildroun Beetle",
     "population": "340,000",
-    "races": ["elf","human","tiefling","half-elf","gnome","halfling","dragonborn","half-orc","serbonji"],
+    "races": [
+      "elf",
+      "human",
+      "tiefling",
+      "half-elf",
+      "gnome",
+      "halfling",
+      "dragonborn",
+      "half-orc",
+      "serbonji"
+    ],
     "government": "Hereditary Monarchy",
     "location": "Ulfwyst",
-    "leaders": ["Nantar Izorin Sarentus","Prince Thabos the Warrior"],
-    "regions": ["Zavalev Mountains","Crimson Loch","Tormented Forest","Veldrin Wood","Malthor Forest"],
-    "description": [
+    "leaders": ["Nantar Izorin Sarentus", "Prince Thabos the Warrior"],
+    "regions": [
+      "Zavalev Mountains",
+      "Crimson Loch",
+      "Tormented Forest",
+      "Veldrin Wood",
+      "Malthor Forest"
     ],
+    "description": [],
     "dmArticles": {
       "History": [
         "The Ildroun Vale is a small state located in north-central Ulfwyst. The kingdom sits in the shadow of the Zavalev mountains, north of the Crimson Loch. The kingdom is the only elven state in Ulfwyst."
@@ -417,18 +491,26 @@
     "path": "location",
     "name": "Dol Obok",
     "nickname": "Dwarf Kingdom of Dol Obok",
-    "linkingWords": ["Amudian","Kingdom of Dol Obok"],
-    "tags": ["kingdom","dwarf","state","ulfwyst","monarchy"],
+    "linkingWords": ["Amudian", "Kingdom of Dol Obok"],
+    "tags": ["kingdom", "dwarf", "state", "ulfwyst", "monarchy"],
     "type": "State",
     "capital": "Thellodur",
     "currency": "Amuddurin",
     "population": "~1.1 million",
-    "races": ["dwaf","human","halfling","gnome","half-elf","uklang"],
+    "races": ["dwaf", "human", "halfling", "gnome", "half-elf", "uklang"],
     "government": "Hereditary Monarchy",
     "location": "Ulfwyst",
-    "regions": ["Iron Hills","Pillars of Amud"],
+    "regions": ["Iron Hills", "Pillars of Amud"],
     "leaders": ["King Bramdur Thundershod"],
-    "cities": ["Thellodur","Felrast","Isidar Hreth","Lanok Duraz","Rul Orodum","Vol Volund","Kadren Zul"],
+    "cities": [
+      "Thellodur",
+      "Felrast",
+      "Isidar Hreth",
+      "Lanok Duraz",
+      "Rul Orodum",
+      "Vol Volund",
+      "Kadren Zul"
+    ],
     "description": [
       "The Dwarf Kingdom of Dol Obok is the largest dwarven civilization in Ulfwyst. Controlling the span of the Pillars of Amud, the dwarves of the kingdom are known for their neutrality. Instead of worrying about the politics, infighting and squabbles of outsiders, the Ziril'udór focus on the exploration of the under-mountains, the crafting of great works and the edification of the art of Runeforging.",
       "The symbol of Dol Obok is a pyramid-cut emerald in a bronze setting. Many of important places in a dwarven settlement, such as at the great hall, grand market and throne room will have prominently placed gemstones to dedicate the location. Sometimes, instead of a true emerald, green glass is used if the settlement lacks the wealth for the true gemstone or if, due to the size of the heraldry, the use of a true gemstone is not possible."
@@ -438,8 +520,7 @@
         "The dwarven kingdom of Dol Obok is comprised of numerous cities, fortresses and towns throughout the Pillars of Amud. Other dwarven holds in Ulfwyst have close ties or are direct offshoots of the kingdom, as many dwarven clans set out from their ancestral homeland to seek new places to enrich their kin. Most of these new fortresses and cities choose to remain independent, not bowing to the High King, however they still acknowledge a common ancestry and kinship."
       ]
     },
-    "dmArticles": {
-    }
+    "dmArticles": {}
   },
   "Nemetia": {
     "playerKnown": true,
@@ -447,12 +528,12 @@
     "name": "Nemetia",
     "nickname": "Kingdom of Nemetia",
     "linkingWords": ["Nemetia"],
-    "tags": ["kingdom","human","state","ulfwyst","monarchy"],
+    "tags": ["kingdom", "human", "state", "ulfwyst", "monarchy"],
     "type": "State",
     "capital": "Hankadin",
     "currency": "Nemeti Blossom",
     "population": "~2.2 million",
-    "races": ["human","dwaf","half-elf","halfling","elf","gnome","serbonji"],
+    "races": ["human", "dwaf", "half-elf", "halfling", "elf", "gnome", "serbonji"],
     "government": "Hereditary Monarchy",
     "location": "Ulfwyst",
     "regions": [],
@@ -461,28 +542,22 @@
     "description": [
       "The @+Kingdom of Nemetia+@ is a nation-state on the north-western coast of Ulfwyst. The kingdom is located north of the Tashvir Mountains and north of the Kayula Woods. The majority of the country is covered by the lush, tropical rainforests of the Hutan Cala Jungle."
     ],
-    "articles": {
-    },
-    "dmArticles": {
-    }
+    "articles": {},
+    "dmArticles": {}
   },
   "Solician-League": {
     "playerKnown": true,
     "path": "location",
     "name": "Solician League",
     "nickname": "Solician League",
-    "linkingWords": [
-      "Solician",
-      "Solicia",
-      "League of Solician States"
-    ],
-    "tags": ["league","human","state","ulfwyst","monarchy"],
+    "linkingWords": ["Solician", "Solicia", "League of Solician States"],
+    "tags": ["league", "human", "state", "ulfwyst", "monarchy"],
     "type": "State",
     "capital": "Xanthir",
     "currency": "Solician Ram",
     "population": "~2.8 million",
     "area": "39,396 mi²",
-    "races": ["human","dwaf","half-elf","halfling","elf","gnome","serbonji"],
+    "races": ["human", "dwaf", "half-elf", "halfling", "elf", "gnome", "serbonji"],
     "government": "Merchant Princes",
     "location": "Ulfwyst",
     "regions": [],
@@ -494,12 +569,8 @@
       "Enómos Emilios Spyros"
     ],
     "cities": [],
-    "description": [
-      "The @+Solician League+@ is a nation-state on the north coast of Ulfwyst."
-    ],
-    "articles": {
-    },
-    "dmArticles": {
-    }
+    "description": ["The @+Solician League+@ is a nation-state on the north coast of Ulfwyst."],
+    "articles": {},
+    "dmArticles": {}
   }
 }

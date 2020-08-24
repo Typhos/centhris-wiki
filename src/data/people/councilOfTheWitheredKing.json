@@ -5,42 +5,41 @@
     "hideOnCat": false,
     "name": "Akrozad",
     "nickname": "Akrozad",
-    "tags": ["lich","Council of the Withered King"],
+    "tags": ["lich", "Council of the Withered King"],
     "gender": "Male",
     "race": "Undead (Human)",
     "titles": [],
     "occupation": ["Lich Councilor"],
-    "affiliations": ["Kingdom of Istagen","Council of the Withered King"],
+    "affiliations": ["Kingdom of Istagen", "Council of the Withered King"],
     "description": [
       "@+Akrozad+@ was a lich and a councilor to Shulxaa during his reign over the Kingdom of Istagen."
     ],
-    "articles": {
-    },
+    "articles": {},
     "dmArticles": {
+      "Soron'malkor": [
+        "The bastion of Akrozad is known located high in the Torick Peaks. This dark citadel is home to monstrous creatures, and malicious undead that the lich has raised in his service. The citadel was once a frost giant fortress guarding a pass deeper into the range, but it was abandoned nearly 1800 years ago. Akrozad rediscovered the keep while looking for a secret route across the Cibrinian border, hoping to use it as an invasion option should Istagen decide to expand south into Cibrin.",
+        "The keep current is being used as a prison for Cornelia Katalin and Wulfgar of Ozeresk so that the lich can produce simulacrum of the two nobles should more be required."
+      ]
     }
   },
-  "Mexura-Nithtari":{
+  "Mexura-Nithtari": {
     "playerKnown": true,
     "path": "person",
     "hideOnCat": false,
     "name": "Mexura Nithtari",
     "nickname": "Mexura Nithtari",
-    "linkingWords": [
-      "Mexura"
-    ],
-    "tags": ["lich","Council of the Withered King"],
+    "linkingWords": ["Mexura"],
+    "tags": ["lich", "Council of the Withered King"],
     "gender": "Male",
     "race": "Undead (Tiefling)",
     "titles": [],
     "occupation": ["Lich Councilor"],
-    "affiliations": ["Kingdom of Istagen","Council of the Withered King"],
+    "affiliations": ["Kingdom of Istagen", "Council of the Withered King"],
     "description": [
       "@+Mexura+@ was a lich and a councilor to Shulxaa during his reign over the Kingdom of Istagen. "
     ],
-    "articles": {
-    },
-    "dmArticles": {
-    }
+    "articles": {},
+    "dmArticles": {}
   },
   "Ozudrem": {
     "playerKnown": true,
@@ -48,19 +47,17 @@
     "hideOnCat": false,
     "name": "Ozudrem",
     "nickname": "Ozudrem Frostbeard",
-    "tags": ["lich","Council of the Withered King"],
+    "tags": ["lich", "Council of the Withered King"],
     "gender": "Male",
     "race": "Undead (Dwarf)",
     "titles": [],
     "occupation": ["Lich Councilor"],
-    "affiliations": ["Kingdom of Istagen","Council of the Withered King"],
+    "affiliations": ["Kingdom of Istagen", "Council of the Withered King"],
     "description": [
       "@+Ozudrem Frostbeard+@ was a rare, dwarven lich and a councilor to Shulxaa during his reign over the Kingdom of Istagen. "
     ],
-    "articles": {
-    },
-    "dmArticles": {
-    }
+    "articles": {},
+    "dmArticles": {}
   },
   "Rubrum-Magnus": {
     "playerKnown": true,
@@ -68,19 +65,17 @@
     "hideOnCat": false,
     "name": "Rubrum Magnus",
     "nickname": "Rubrum Magnus",
-    "tags": ["lich","Council of the Withered King"],
+    "tags": ["lich", "Council of the Withered King"],
     "gender": "Male",
     "race": "Undead (Tiefling)",
     "titles": [],
     "occupation": ["Lich Councilor"],
-    "affiliations": ["Kingdom of Istagen","Council of the Withered King"],
+    "affiliations": ["Kingdom of Istagen", "Council of the Withered King"],
     "description": [
       "@+Rubrum Magnus+@ was a lich and the prime councilor to Shulxaa during his reign over the Kingdom of Istagen. Though the lich lord has many advisors, Rubrum stood above all others as his favorite."
     ],
-    "articles": {
-    },
-    "dmArticles": {
-    }
+    "articles": {},
+    "dmArticles": {}
   },
   "Zoltheraz": {
     "playerKnown": true,
@@ -88,18 +83,16 @@
     "hideOnCat": false,
     "name": "Zoltheraz",
     "nickname": "Zoltheraz the Ghoul King",
-    "tags": ["lich","Council of the Withered King"],
+    "tags": ["lich", "Council of the Withered King"],
     "gender": "Male",
     "race": "Undead (Human)",
     "titles": ["the Ghoul King"],
     "occupation": ["Lich Councilor"],
-    "affiliations": ["Kingdom of Istagen","Council of the Withered King"],
+    "affiliations": ["Kingdom of Istagen", "Council of the Withered King"],
     "description": [
       "@+Zoltheraz+@, better known in historical archives as @*the Ghoul King*@, was a lich and councilor to Shulxaa during his reign over the Kingdom of Istagen. Born Ivak of Dardon, the lich would spend nearly 50 years as a renowned eldritch knight and defender of the borderlands along the Desolate Wastes."
     ],
-    "articles": {
-      
-    },
+    "articles": {},
     "dmArticles": {
       "Rise to Lichdom": [
         "In 2C 2082, Ivak came across a strange old man wandering the roads north of Luzzara who immediately recognized the knight's talent for the arcane. The old man challenged the knight to a duel, which Ivak immediately dismissed. The proud knight had no intention of dueling an old, feeble man along the road. To this response, the old man simply laughed and called the cavalier a coward, and declared himself the victor by forfeit. Ivak, unwilling to withstand the bitter barbs, agreed and announced he would put the old man in his place.",
@@ -114,18 +107,16 @@
     "hideOnCat": false,
     "name": "Istivos",
     "nickname": "Istivos",
-    "tags": ["lich","Council of the Withered King"],
+    "tags": ["lich", "Council of the Withered King"],
     "gender": "Male",
     "race": "Undead (Human)",
     "titles": [""],
     "occupation": ["Lich Councilor"],
-    "affiliations": ["Kingdom of Istagen","Council of the Withered King"],
+    "affiliations": ["Kingdom of Istagen", "Council of the Withered King"],
     "description": [
       "@+Istivos+@, better known in historical archives as @*the Dark Hierophant*@, was a lich and councilor to Shulxaa during his reign over the Kingdom of Istagen. "
     ],
-    "articles": {
-    },
-    "dmArticles": {
-    }
+    "articles": {},
+    "dmArticles": {}
   }
 }

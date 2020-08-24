@@ -1,0 +1,148 @@
+{
+  "High-Queen-Inga-Villdyr": {
+    "playerKnown": true,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "High Queen Inga Villdyr",
+    "nickname": "High Queen Inga Villdyr",
+    "linkingWords": [
+      "Queen Inga Villdyr",
+      "Inga Villdyr",
+      "Queen Inga",
+      "High Queen Inga",
+      "Inga Villdyr",
+      "High Queen of Lemuria"
+    ],
+    "tags": ["human", "noble", "Realm of Lemuria", "Kingdom of Lemuria"],
+    "age": "33",
+    "gender": "Female",
+    "race": "Human",
+    "occupation": "High Queen of the Clans of Lemuria",
+    "affiliations": ["Realm of Lemuria"],
+    "description": [
+      "@+High Queen Inga Villdyr+@ is the leader of the Realm of Lemuria and the head of Clan Villdyr. She was became the head of @;Clan Villdyr;@ at the age of twenty two, and was elected to the position of High Queen by the Clan Council of Lemuria when she was twenty nine."
+    ]
+  },
+  "Torild-Sjomann": {
+    "playerKnown": true,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Torild Sjomann",
+    "nickname": "Clan Chief Torild Sjomann",
+    "linkingWords": ["Chief Sjomann"],
+    "tags": ["human", "noble", "Realm of Lemuria"],
+    "age": "47",
+    "gender": "Male",
+    "race": "Human",
+    "occupation": "Chief of Clan Sjomann",
+    "affiliations": ["Realm of Lemuria"],
+    "description": [
+      "@+Clan Chief Torild Sjomann+@ is the leader of Clan Sjomann and one of the ruling members of the Clan Council of Lemuria.",
+      "Torild is the most accomplished military commander in Lemuria, having been responsible for defending coastal settlements from Cibrinian raids, driving off incursions of hill giants from the Kazgrim Mountains, and commanding numerous engagements with bands of goblins in the Razark Timberland. Though a brilliant military mind, he lacks the inspiring presence and oratory skills of more charismatic members of the Clan Council, partly due to his speech impediment, a lisp related to a birth defect."
+    ],
+    "dmArticles": {
+      "Current Activities": [
+        "Brave to the point of brazen, Torild argued, from the moment soldiers were found dead on the border, that the kingdom should flex its military muscle. The clan chieftain is well versed in the history between Lemuria and its northern neighbors. He does not wish for his homeland to suffer another loss like the War of Red Claws. The loss of Lepkar is an embarrassment that many Lemurians wish to forget, but Torild seems to view it as a cautionary tale which might repeat itself, should he not defend his homeland from its more aggressive foreign neighbors.",
+        "Torild has a blunt, pragmatic personality. Though an effective tactician, he has never had a stomach for the skullduggery of politics. If accused of possible misdeeds, he simply laughs off the very the idea of his involvement in any plots. If pressed, he open offers to let investigators interview his men and check his military records for signs of misdeeds, illicit spending by his quartermasters or improper use of messengers.",
+        "The general does bemoan the apparent interception of communications and the difficulty it has caused in supplying his troops. He notes, however, that his spies across the border have reported similar acts of sabotage occurring to the Tovani forces. He has no explanation for this, as he has not ordered his scouts, spies or any other forces to take action beyond the front lines.",
+        "(@*In reality, the sabotage on both sides is being committed by agents loyal to the*@ Council of the Withered King)"
+      ]
+    }
+  },
+  "Wuldren-Tordenfødt": {
+    "playerKnown": true,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Wuldren Tordenfødt",
+    "nickname": "Clan Chief Wuldren Tordenfødt",
+    "linkingWords": [
+      "Chieftain Tordenfødt",
+      "Chieftain Viljar Tordenfødt",
+      "Chieftain Tordenfodt",
+      "Wuldren Tordenfodt"
+    ],
+    "tags": ["tiefling", "noble", "Realm of Lemuria"],
+    "age": "38",
+    "gender": "Male",
+    "race": "Tiefling",
+    "occupation": "Chief of Clan Tordenfødt",
+    "affiliations": ["Realm of Lemuria"],
+    "description": [
+      "@+Clan Chief Wuldren Tordenfødt+@ is the leader of Clan Tordenfødt and one of the ruling members of the Clan Council of Lemuria.",
+      "Wuldren is a devout believer in the ancient spiritual practice of Lemuria. One of the most generous patrons of the temples of the Maker, the Tempest, and the Wanderer, he is also well versed in the ancient, animistic beliefs of his people. He regularly attends services in the Spirit Grove in Kilurus, as well as runestone dedications and spirit festivals in Ozeresk."
+    ],
+    "dmArticles": {
+      "Current Activities": [
+        "During the recent hostilities with the Realm of Tovanis, he has been one of the voices of restrain in the Clan Council, arguing for a more tempered approach to the conflict. Torild Sjomann and Ulfrica Arnbjorg both condemned Wuldren as weak willed; content to spend his time in prayer to the gods rather than protecting Lemuria from foreign aggression.",
+        "Wuldren, always extremely even keeled and somber, did not budge from his position even when the council voted in favor of military action."
+      ]
+    }
+  },
+  "Viljar-Bjørsel": {
+    "playerKnown": true,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Viljar Bjørsel",
+    "nickname": "Clan Chief Viljar Bjørsel",
+    "linkingWords": [
+      "Chieftain Bjørsel",
+      "Chieftain Viljar Bjørsel",
+      "Chieftain Bjorsel",
+      "Viljar Bjorsel"
+    ],
+    "tags": ["tiefling", "noble", "Realm of Lemuria"],
+    "age": "42",
+    "gender": "Male",
+    "race": "Human",
+    "occupation": "Chief of Clan Bjørsel",
+    "affiliations": ["Realm of Lemuria"],
+    "description": [
+      "@+Clan Chief Viljar Bjørsel+@ is the leader of Clan Bjørsel and one of the ruling members of the Clan Council of Lemuria.",
+      "During the recent border hostilities between Lemuria and Tovanis, Bjørsel has often been absent from council meetings, remaining in the city of Eldskog to deal with clan matters. The chieftain has chosen to keep the reason for such actions private, a right afforded to clans when dealing with internal matters. His continued absence has started to cause friction among the other members of the council, with some chieftains calling for his seat to filled by a clan more available to the duty of governing. These statements tend to be made by minor clan leaders jockeying to take his place, though Ulfrica Arnbjorg has come out in favor of replacing Viljar."
+    ],
+    "dmArticles": {
+      "Current Activities": [
+        "Clan Bjørsel, which has many devout followers of the Dreamweaver, has a known practice of gifting its champions the boon of lycanthropy, specifically the curse of the werebear. This strain of the curse was purposefully chosen because werebears can temper themselves and reject their hysterical bloodlust. These champions, once chosen and cursed, leave the clan and enter the Eldskog forest, guarding the ancient temples that lie within.",
+        "Viljar has been dealing with a large outbreak of unwanted lycanthropy on @*Eldskog Isle*@. It seems a renegade champion has begun to spread the curse of the werebear among clan members against the ancient tradition of the clan. Viljar has opted to keep the reason for his return to Eldskog a secret, not wanting to raise concerns about his clan's ability to deal with its internal problems. If the clan's ancient practice of intentionally cursing its warriors with lycanthropy to guard its lands were to become well known, it could lead to a loss of their position on the Clan Council of Lemuria."
+      ]
+    }
+  },
+  "Hafr-Sjomann": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Hafr Sjomann",
+    "nickname": "Huskarl Hafr Sjomann",
+    "linkingWords": [],
+    "tags": ["half-elf", "noble", "Realm of Lemuria", "Clan Sjomann"],
+    "age": "72",
+    "birthYear": "2C 2501",
+    "gender": "Male",
+    "race": "Half-Elf",
+    "occupation": "",
+    "affiliations": ["Realm of Lemuria", "Clan Arnbjorg", "Clan Sjomann"],
+    "description": [
+      "Huskarl @+Hafr Sjomann+@ is a member of Clan Sjomann of Lemuria, the husband of Ulfrica Arnbjorg and the cousin of Torild Sjomann. The couple have one son, Sigird Arnbjorg. He is one of the huskarls, the personal retinue, of the Sjomann Clan Chieftain and a highly accomplished soldier. His marriage to Ulfrica was an arranged, political matter rather than a romantic relationship. The riddersman was born and raised in the port town of Sønnborg in the eastern half of the kingdom.",
+      "Hafr is rarely at his wife's side in Kilurus, preferring to reside either in Postek, or with the noble-born riddersman that accompany the kingdom's levied armies. He is popular among the levied, peasant soldiers for his light-hearted demeanor and willingness to join the common soldiers at their fires in camp. He is commonly referred to by the nickname \"Huggorm\" (@*adder*@) due to his distinctive fighting style."
+    ],
+    "dmArticles": {}
+  },
+  "Njall-Volsung": {
+    "playerKnown": true,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Njall Volsung",
+    "nickname": "Lord Njall Volsung",
+    "linkingWords": [],
+    "tags": ["human", "Borgvik", "Realm of Lemuria"],
+    "race": "Human",
+    "occupation": "Lord Mayor",
+    "gender": "Male",
+    "age": 39,
+    "affiliations": ["Realm of Lemuria"],
+    "description": [
+      "@+Lord Njall Volsung+@ is the Lord Mayor of the town of Borgvik on the Lemuria-Tovanis border."
+    ],
+    "articles": {}
+  }
+}

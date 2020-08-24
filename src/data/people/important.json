@@ -3,7 +3,7 @@
     "playerKnown": true,
     "path": "person",
     "hideOnCat": false,
-    "tags": ["bard","halfling","trickster","sovereign","rythlon"],
+    "tags": ["bard", "halfling", "trickster", "sovereign", "rythlon"],
     "name": "Reanold Duplechin",
     "nickname": "Reanold",
     "race": "Halfling",
@@ -11,7 +11,7 @@
     "gender": "Male",
     "class": "Bard",
     "occupation": "Traveling Merchant and Fortuneteller",
-    "affiliations": ["Rythlon","Maison du Corbeau"],
+    "affiliations": ["Rythlon", "Maison du Corbeau"],
     "quote": "\"Les gar make yourselves at home! Sit yourself down at my table. Have a seat, kick up your feet. I'll tell your future if I am able...\"",
     "description": [
       "Reanold Duplechin is a wandering merchant who arrived in Rythlon during the Lost Shields' altercations with Teliril Wasanathi.",
@@ -24,7 +24,7 @@
     "playerKnown": true,
     "path": "person",
     "hideOnCat": true,
-    "tags": ["smith","dwarf","felrast","runesmith"],
+    "tags": ["smith", "dwarf", "felrast", "runesmith"],
     "name": "Ithi Ironjaw",
     "nickname": "Master Ironjaw",
     "race": "Dwarf",
@@ -47,7 +47,7 @@
     "playerKnown": false,
     "path": "person",
     "hideOnCat": false,
-    "tags": ["smith","dwarf","Kazdan Ord","runesmith"],
+    "tags": ["smith", "dwarf", "Kazdan Ord", "runesmith"],
     "name": "Vagnur Mountainhall",
     "nickname": "Master Mountainhall",
     "race": "Dwarf",
@@ -64,7 +64,7 @@
     "playerKnown": true,
     "path": "person",
     "hideOnCat": false,
-    "tags": ["druid","elf","Sylvan Conclave","grove"],
+    "tags": ["druid", "elf", "Sylvan Conclave", "grove"],
     "name": "Vyslos",
     "nickname": "Vyslos",
     "race": "Elf",
@@ -82,7 +82,7 @@
     "playerKnown": true,
     "path": "person",
     "hideOnCat": false,
-    "tags": ["druid","human","Sylvan Conclave","grove"],
+    "tags": ["druid", "human", "Sylvan Conclave", "grove"],
     "name": "Cahina",
     "nickname": "Cahina",
     "race": "Human",
@@ -99,7 +99,7 @@
     "playerKnown": true,
     "path": "person",
     "hideOnCat": false,
-    "tags": ["druid","Sylvan Conclave","grove"],
+    "tags": ["druid", "Sylvan Conclave", "grove"],
     "name": "Tekas Woadsinger",
     "nickname": "Tekas",
     "race": "unknown",
@@ -116,7 +116,7 @@
     "playerKnown": true,
     "path": "person",
     "hideOnCat": false,
-    "tags": ["noble","lord","Venbrin","barrier coast","argentate"],
+    "tags": ["noble", "lord", "Venbrin", "barrier coast", "argentate"],
     "name": "Baqrin Calosh",
     "nickname": "Lord Baqrin",
     "linkingWords": ["Lord Baqrin Calosh", "Lord Calosh"],
@@ -124,7 +124,7 @@
     "age": "40",
     "gender": "Male",
     "occupation": "7th Lord of Venbrin",
-    "affiliations": ["Venbrin","The Argentate"],
+    "affiliations": ["Venbrin", "The Argentate"],
     "description": [
       "Lord Baqrin Calosh is a noble lord and ruler of the city-state of Venbrin. He has a long list of titles, which include the 7th Lord of Venbrin, Master of the Argentate & Protector of the Commercia Concordis. A middle aged human man, he has mid-length silvery, platinum blond hair and a goatee comprised of a thin mustache and chin-beard. Lord Baqrin does not seem to take his titles too seriously, and can be found wandering the city of Venbrin without escort. He is good natured, with a broad smile and a welcoming presence. He tends to dress in fine clothing, but carries himself more like a swashbuckling duelist than the noble lord of a city-state.",
       "Lord Baqrin keeps his home at the Argentate, a walled palace in the north east of the city. He frequently leaves Venbrin aboard his personal flagship, the Shining Dawn, to patrol the waters around Venbrin for threats to his city and the merchant trade in the region."
@@ -139,17 +139,15 @@
     "playerKnown": false,
     "path": "person",
     "hideOnCat": false,
-    "tags": ["dragon","Venbrin","barrier coast","argentate"],
+    "tags": ["dragon", "Venbrin", "barrier coast", "argentate"],
     "name": "Zaldegarion",
     "nickname": "Zaldegarion",
     "linkingWords": [""],
     "race": "Bronze Dragon",
     "gender": "Male",
     "occupation": "7th Lord of Venbrin",
-    "affiliations": ["Venbrin","The Argentate"],
-    "description": [
-      "An adult bronze dragon who resides somewhere in the Barrier Coast."
-    ],
+    "affiliations": ["Venbrin", "The Argentate"],
+    "description": ["An adult bronze dragon who resides somewhere in the Barrier Coast."],
     "dmArticles": {
       "False Form": [
         "Lord Calosh is the humaoid form of Zaldegarion, the adult bronze dragon, the true lord of Venbrin."
@@ -162,9 +160,9 @@
     "hideOnCat": false,
     "name": "Yabtaeid",
     "nickname": "Yabtaeid the Daring",
-    "tags": ["djinn","genie","venbrin"],
+    "tags": ["djinn", "genie", "venbrin"],
     "race": "Djinn",
-    "affiliations": ["Venbrin","The Argentate"],
+    "affiliations": ["Venbrin", "The Argentate"],
     "description": [
       "According to Akad the Magnificent during his brief interaction with the Lost Shields in the Molten Halls, Yabtaeid is a djinn who currently resides in the Free City of Venbrin."
     ],
@@ -181,11 +179,11 @@
     "name": "Cazner Yasir",
     "nickname": "Vizier Cazner Yasir",
     "linkingWords": ["Royal Vizier Cazner Yasir"],
-    "tags": ["half-elf","vizier","venbrin"],
+    "tags": ["half-elf", "vizier", "venbrin"],
     "race": "Half-Elf",
     "occupation": "Vizier",
     "gender": "Male",
-    "affiliations": ["Venbrin","The Argentate"],
+    "affiliations": ["Venbrin", "The Argentate"],
     "description": [
       "Cazner Yasir is the esteemed vizier of Vebrin. A half-elf with purple skin, dark hair and yellow eyes, Cazner cuts a striking figure in the Argentate with his flamboyant dress. Around his wrists are two large, silver bracers wrapped in silver chains. When he is not seemingly sulking about something, he can be a jovial and talkative man who enjoys fine wine and well-prepared foods. He seems to find his master, Lord Baqrin Calosh, rather tiresome, though the Lord of Venbrin does not seem to pay this attitude any mind."
     ],
@@ -195,24 +193,6 @@
       ]
     }
   },
-  "Didac-Jorda": {
-    "playerKnown": false,
-    "path": "person",
-    "hideOnCat": false,
-    "name": "Didac Jorda",
-    "nickname": "Sir Didac Jorda",
-    "linkingWords": [],
-    "tags": ["human","Axuros","Realm of Tovanis"],
-    "race": "Human",
-    "occupation": "Grand Master",
-    "gender": "Male",
-    "affiliations": ["Knights of the Righteous Soul"],
-    "description": [
-      "@+Sir Didac Jorda+@ is the Grand Master of the Knights of the Righteous Soul, the clandestine order of mage hunters dedicated to keeping the Realm of Tovanis safe from the unchecked scourge of arcane magic."
-    ],
-    "articles": {
-    }
-  },
   "Bertalan-Tóth": {
     "playerKnown": false,
     "path": "person",
@@ -220,7 +200,7 @@
     "name": "Bertalan Tóth",
     "nickname": "Lord Bertalan Tóth",
     "linkingWords": [],
-    "tags": ["human","Frecyra","Kingdom of Navolin"],
+    "tags": ["human", "Frecyra", "Kingdom of Navolin"],
     "race": "Human",
     "occupation": "Lord Marshal",
     "gender": "Male",
@@ -228,7 +208,6 @@
     "description": [
       "@+Lord Bertalan Tóth+@ is the Lord Marshal of the Knights of Relos, the royal guard of King Kzesimir III of Navolin."
     ],
-    "articles": {
-    }
+    "articles": {}
   }
 }
