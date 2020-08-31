@@ -2,15 +2,23 @@
   "Akrozad": {
     "playerKnown": true,
     "path": "person",
-    "hideOnCat": false,
+    "hideOnCat": true,
     "name": "Akrozad",
     "nickname": "Akrozad",
-    "tags": ["lich", "Council of the Withered King"],
+    "tags": [
+      "lich",
+      "Council of the Withered King"
+    ],
     "gender": "Male",
     "race": "Undead (Human)",
     "titles": [],
-    "occupation": ["Lich Councilor"],
-    "affiliations": ["Kingdom of Istagen", "Council of the Withered King"],
+    "occupation": [
+      "Lich Councilor"
+    ],
+    "affiliations": [
+      "Kingdom of Istagen",
+      "Council of the Withered King"
+    ],
     "description": [
       "@+Akrozad+@ was a lich and a councilor to Shulxaa during his reign over the Kingdom of Istagen."
     ],
@@ -25,16 +33,26 @@
   "Mexura-Nithtari": {
     "playerKnown": true,
     "path": "person",
-    "hideOnCat": false,
+    "hideOnCat": true,
     "name": "Mexura Nithtari",
     "nickname": "Mexura Nithtari",
-    "linkingWords": ["Mexura"],
-    "tags": ["lich", "Council of the Withered King"],
+    "linkingWords": [
+      "Mexura"
+    ],
+    "tags": [
+      "lich",
+      "Council of the Withered King"
+    ],
     "gender": "Male",
     "race": "Undead (Tiefling)",
     "titles": [],
-    "occupation": ["Lich Councilor"],
-    "affiliations": ["Kingdom of Istagen", "Council of the Withered King"],
+    "occupation": [
+      "Lich Councilor"
+    ],
+    "affiliations": [
+      "Kingdom of Istagen",
+      "Council of the Withered King"
+    ],
     "description": [
       "@+Mexura+@ was a lich and a councilor to Shulxaa during his reign over the Kingdom of Istagen. "
     ],
@@ -44,15 +62,23 @@
   "Ozudrem": {
     "playerKnown": true,
     "path": "person",
-    "hideOnCat": false,
+    "hideOnCat": true,
     "name": "Ozudrem",
     "nickname": "Ozudrem Frostbeard",
-    "tags": ["lich", "Council of the Withered King"],
+    "tags": [
+      "lich",
+      "Council of the Withered King"
+    ],
     "gender": "Male",
     "race": "Undead (Dwarf)",
     "titles": [],
-    "occupation": ["Lich Councilor"],
-    "affiliations": ["Kingdom of Istagen", "Council of the Withered King"],
+    "occupation": [
+      "Lich Councilor"
+    ],
+    "affiliations": [
+      "Kingdom of Istagen",
+      "Council of the Withered King"
+    ],
     "description": [
       "@+Ozudrem Frostbeard+@ was a rare, dwarven lich and a councilor to Shulxaa during his reign over the Kingdom of Istagen. "
     ],
@@ -62,15 +88,23 @@
   "Rubrum-Magnus": {
     "playerKnown": true,
     "path": "person",
-    "hideOnCat": false,
+    "hideOnCat": true,
     "name": "Rubrum Magnus",
     "nickname": "Rubrum Magnus",
-    "tags": ["lich", "Council of the Withered King"],
+    "tags": [
+      "lich",
+      "Council of the Withered King"
+    ],
     "gender": "Male",
     "race": "Undead (Tiefling)",
     "titles": [],
-    "occupation": ["Lich Councilor"],
-    "affiliations": ["Kingdom of Istagen", "Council of the Withered King"],
+    "occupation": [
+      "Lich Councilor"
+    ],
+    "affiliations": [
+      "Kingdom of Istagen",
+      "Council of the Withered King"
+    ],
     "description": [
       "@+Rubrum Magnus+@ was a lich and the prime councilor to Shulxaa during his reign over the Kingdom of Istagen. Though the lich lord has many advisors, Rubrum stood above all others as his favorite."
     ],
@@ -83,12 +117,22 @@
     "hideOnCat": false,
     "name": "Zoltheraz",
     "nickname": "Zoltheraz the Ghoul King",
-    "tags": ["lich", "Council of the Withered King"],
+    "tags": [
+      "lich",
+      "Council of the Withered King"
+    ],
     "gender": "Male",
     "race": "Undead (Human)",
-    "titles": ["the Ghoul King"],
-    "occupation": ["Lich Councilor"],
-    "affiliations": ["Kingdom of Istagen", "Council of the Withered King"],
+    "titles": [
+      "the Ghoul King"
+    ],
+    "occupation": [
+      "Lich Councilor"
+    ],
+    "affiliations": [
+      "Kingdom of Istagen",
+      "Council of the Withered King"
+    ],
     "description": [
       "@+Zoltheraz+@, better known in historical archives as @*the Ghoul King*@, was a lich and councilor to Shulxaa during his reign over the Kingdom of Istagen. Born Ivak of Dardon, the lich would spend nearly 50 years as a renowned eldritch knight and defender of the borderlands along the Desolate Wastes."
     ],
@@ -102,21 +146,64 @@
     }
   },
   "Istivos": {
-    "playerKnown": true,
+    "playerKnown": false,
     "path": "person",
     "hideOnCat": false,
     "name": "Istivos",
     "nickname": "Istivos",
-    "tags": ["lich", "Council of the Withered King"],
+    "tags": [
+      "lich",
+      "Council of the Withered King"
+    ],
     "gender": "Male",
     "race": "Undead (Human)",
-    "titles": [""],
-    "occupation": ["Lich Councilor"],
-    "affiliations": ["Kingdom of Istagen", "Council of the Withered King"],
+    "titles": [
+      ""
+    ],
+    "occupation": [
+      "Lich Councilor"
+    ],
+    "affiliations": [
+      "Kingdom of Istagen",
+      "Council of the Withered King"
+    ],
     "description": [
       "@+Istivos+@, better known in historical archives as @*the Dark Hierophant*@, was a lich and councilor to Shulxaa during his reign over the Kingdom of Istagen. "
     ],
     "articles": {},
     "dmArticles": {}
+  },
+  "Golzahraan": {
+    "playerKnown": false,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Golzahraan",
+    "nickname": "Golzahraan, the Terror of Hevár",
+    "tags": [
+      "dragon",
+      "dracolich",
+      "Council of the Withered King"
+    ],
+    "gender": "Female",
+    "race": "Undead (Dragon)",
+    "titles": [
+      "Terror of Hevár"
+    ],
+    "occupation": [
+      "Dracolich Councilor"
+    ],
+    "affiliations": [
+      "Kingdom of Istagen",
+      "Council of the Withered King"
+    ],
+    "description": [
+      "@+Golzahraan+@, better known in historical archives as @*the Terror of Hevár*@, was a dracolich and councilor to Shulxaa during his reign over the Kingdom of Istagen. She was counted as the only non-humanoid on the Council of the Withered King and is regarded, alongside Rubrum Magnus, as the most likely successor to the rule of Shulxaa, should Istagen be reborn under a lich lord. After the fall of Shulxaa, Golzahraan disappeared to whereabouts unknown. Some claim the dracolich has taken up residence once again in her old lair in the Blighted Mire, while others claim such a presence would not go unnoticed and instead postulate that the dragon fled north into the Desolate Wastes."
+    ],
+    "articles": {},
+    "dmArticles": {
+      "Ascension": [
+        "Once a powerful, black dragon living in the Blighted Mire, Golzahraan attempted to establish herself as the ruler of southern Sedobia and eastern Istagen around 2C 2030. The dragon announced her intention by razing the town of Hevár, once located on the shore of the Bay of Claws, after the town defied her demand for tribute. After several years of failed attempts to slay the wyrm through agents, Shulxaa personally intervened, not wishing to find his realm divided between those who favored the rule of a dragon over that of a lich. The two battled in the sky above the great swamp, with the lich claiming victory. However, instead of killing Golzahraan, Shulxaa offered her a position on his undead council. The dragon, though proud, knew she had been bested and accepted his offer."
+      ]
+    }
   }
 }

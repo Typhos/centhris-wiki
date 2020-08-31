@@ -1,12 +1,17 @@
 {
-  
   "Council-of-Nine": {
     "playerKnown": false,
     "path": "organization",
     "name": "Council of Nine",
     "nickname": "Council of Nine",
-    "linkingWords": ["Council of Kaeldrin"],
-    "tags": ["mages","kaeldrin sanctum","ulfwyst"],
+    "linkingWords": [
+      "Council of Kaeldrin"
+    ],
+    "tags": [
+      "mages",
+      "kaeldrin sanctum",
+      "ulfwyst"
+    ],
     "type": "Government",
     "location": "Kaeldrin Sanctum",
     "memberNumber": "9",
@@ -21,18 +26,22 @@
       "Magister Hushod",
       "Magister Zuvey"
     ],
-    "description": [
-    ],
-    "articles": {
-    }
+    "description": [],
+    "articles": {}
   },
   "Clan-Council-of-Lemuria": {
     "playerKnown": true,
     "path": "organization",
     "name": "Clan Council of Lemuria",
     "nickname": "Clan Council of Lemuria",
-    "linkingWords": ["Clan Council"],
-    "tags": ["lemuria","ulfwyst","elective body"],
+    "linkingWords": [
+      "Clan Council"
+    ],
+    "tags": [
+      "lemuria",
+      "ulfwyst",
+      "elective body"
+    ],
     "type": "Government",
     "location": "Realm of Lemuria",
     "members": [
@@ -45,7 +54,6 @@
       "Halder Falklyng",
       "Dagny Nygard",
       "Eydis Völsung"
-
     ],
     "memberNumber": "15",
     "forceImg": "Storsal-Helter",
@@ -69,7 +77,11 @@
     "path": "organization",
     "name": "Council of the Withered King",
     "nickname": "Council of the Withered King",
-    "tags": ["Istagen","ulfwyst","wizards"],
+    "tags": [
+      "Istagen",
+      "ulfwyst",
+      "wizards"
+    ],
     "type": "Magic Order",
     "location": "Kingdom of Istagen",
     "leaders": [
@@ -78,6 +90,7 @@
     "members": [
       "Akrozad",
       "Ekar the Harvester",
+      "Golzahraan",
       "Istivos",
       "Mexura",
       "Ozudrem",
