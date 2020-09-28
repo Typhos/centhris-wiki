@@ -3,7 +3,7 @@
     "playerKnown": true,
     "path": "person",
     "hideOnCat": true,
-    "tags": ["noble","human","count","navolin","Frenkel","Ahburn Castle"],
+    "tags": ["noble", "human", "count", "navolin", "Frenkel", "Ahburn Castle"],
     "name": "Janik Malmor",
     "nickname": "Baron Janik Malmor",
     "race": "human",
@@ -22,7 +22,7 @@
     "playerKnown": false,
     "path": "person",
     "hideOnCat": false,
-    "tags": ["noble","human","archduke","City of Zurast"],
+    "tags": ["noble", "human", "archduke", "City of Zurast"],
     "name": "Archduke Nicolai Valken",
     "nickname": "Nicolai Valken",
     "race": "human",
@@ -30,17 +30,15 @@
     "gender": "Male",
     "titles": ["Archduke"],
     "occupation": "Monarch",
-    "affiliations": ["City of Zurast","the Sevenspire"],
-    "description": [
-      "Archduke Nicolai Valken is the current ruler of the Archduchy of Zurast."
-    ]
+    "affiliations": ["City of Zurast", "the Sevenspire"],
+    "description": ["Archduke Nicolai Valken is the current ruler of the Archduchy of Zurast."]
   },
   "Jeskin-Sebroski": {
     "playerKnown": true,
     "path": "person",
     "hideOnCat": false,
     "name": "Jeskin Sebroski",
-    "tags": ["noble","human","count","navolin","hussar","rythlon","castle grinsted"],
+    "tags": ["noble", "human", "count", "navolin", "hussar", "rythlon", "castle grinsted"],
     "nickname": "Count Jeskin Sebroski",
     "titles": ["Count of Szary", "Navolinian Hussar"],
     "race": "Human",
@@ -48,7 +46,7 @@
     "gender": "Male",
     "class": "Fighter",
     "occupation": "Noble, Soldier",
-    "affiliations": ["Castle Grinsted","County of Szary","Kingdom of Navolin"],
+    "affiliations": ["Castle Grinsted", "County of Szary", "Kingdom of Navolin"],
     "description": [
       "As the Count of Szary, Jeskin Sebroski is both the local lord, administrator, and commander of a feudal county bordering the state of Tovanis. The count takes his role as the ruler of a border province very seriously, knowing that he is the first line of defense against incursions from foreign states, and monstrous creatures from beyond his borders.",
       "A man of noble birth, Count Sebroski was tutored from a young age in the arts of riding, warfare, court life and hunting.",
@@ -62,13 +60,20 @@
     "hideOnCat": false,
     "name": "King Kzesimir III of House Czak",
     "nickname": "King Kzesimir III Czak",
-    "linkingWords": ["Kzesimir III of House Czak","King Kzesimir III","Kzesimir III","King Kzesimir Czak","King Kzesimir","Kzesimir Czak"],
-    "tags": ["king","noble","Frecyra","Navolin"],
+    "linkingWords": [
+      "Kzesimir III of House Czak",
+      "King Kzesimir III",
+      "Kzesimir III",
+      "King Kzesimir Czak",
+      "King Kzesimir",
+      "Kzesimir Czak"
+    ],
+    "tags": ["king", "noble", "Frecyra", "Navolin"],
     "race": "Human",
     "age": "57",
     "gender": "Male",
     "occupation": "King",
-    "affiliations": ["Navolin","Frecyra","Palace of the Western Wind"],
+    "affiliations": ["Navolin", "Frecyra", "Palace of the Western Wind"],
     "description": [
       "King Kzesimir III is the monarch of Navolin and head of the noble Czak House. His court is held in Frecyra at the Palace of the Western Wind."
     ]
@@ -79,13 +84,13 @@
     "hideOnCat": false,
     "name": "Nantar Izorin Sarentus",
     "nickname": "Izorin Sarentus",
-    "linkingWords": ["Nantar Izorin","Nantar Sarentus"],
-    "tags": ["king","noble","Ildroun Vale","elf"],
+    "linkingWords": ["Nantar Izorin", "Nantar Sarentus"],
+    "tags": ["king", "noble", "Ildroun Vale", "elf"],
     "race": "Glân'avar",
     "age": "481",
     "gender": "Male",
     "occupation": "Ruler",
-    "affiliations": ["Ildroun Vale","Lyrannore"],
+    "affiliations": ["Ildroun Vale", "Lyrannore"],
     "description": [
       "@+Izorin Sarentus+@ is the Nantar, or @*Woodland King*@ in Elvish, of the peoples of the Ildroun Vale."
     ]
@@ -97,12 +102,12 @@
     "name": "Elrîs Melhira Sarentus",
     "nickname": "Melhira Sarentus",
     "linkingWords": ["Queen Melhira"],
-    "tags": ["queen","noble","Ildroun Vale","elf","eldarin"],
+    "tags": ["queen", "noble", "Ildroun Vale", "elf", "eldarin"],
     "race": "Cúron'avar",
     "age": "390",
     "gender": "Female",
     "occupation": "Queen-Consort",
-    "affiliations": ["Ildroun Vale","Lyrannore"],
+    "affiliations": ["Ildroun Vale", "Lyrannore"],
     "description": [
       "@+Melhira Sarentus+@ is the Elrîs, or @*Queen of the Stars*@ in Elvish, of the peoples of the Ildroun Vale.  She is the queen-consort of Nantar Izorin Sarentus."
     ]
@@ -113,13 +118,13 @@
     "hideOnCat": false,
     "name": "Ernil Thabos",
     "nickname": "Prince Thabos",
-    "linkingWords": ["Prince Thabos","Thabos the Warrior"],
-    "tags": ["king","noble","Ildroun Vale","elf"],
+    "linkingWords": ["Prince Thabos", "Thabos the Warrior"],
+    "tags": ["king", "noble", "Ildroun Vale", "elf"],
     "race": "Glân'avar",
     "age": "460",
     "gender": "Male",
     "occupation": "General",
-    "affiliations": ["Ildroun Vale","Lyrannore"],
+    "affiliations": ["Ildroun Vale", "Lyrannore"],
     "description": [
       "@+Thabos+@ is an Ernil, or @*Prince*@ in Elvish, of the peoples of the Ildroun Vale. He is the Lord General of the armies of the Ildroun Vale and the younger brother of Nantar Izorin Sarentus. Nicknamed @*Thabos the Warrior*@, he is among the greatest living warriors in the Vale. A master horseman, swordsman and archer, he is the defacto heir to the throne."
     ]
@@ -131,7 +136,7 @@
     "name": "Prince Ardashir",
     "nickname": "Ardashir ab Shahreen",
     "linkingWords": ["Prince Ardashir ab Shahreen"],
-    "tags": ["human","noble","Abbasyr"],
+    "tags": ["human", "noble", "Abbasyr"],
     "age": "deceased",
     "gender": "Male",
     "race": "Human",
@@ -147,16 +152,14 @@
     "hideOnCat": false,
     "name": "King Bramdur Thundershod",
     "nickname": "King Bramdur Thundershod",
-    "linkingWords": ["Bramdur Thundershod","King Bramdur Thundershod","King Bramdur"],
-    "tags": ["dwarf","noble","Dol Obok","high king"],
+    "linkingWords": ["Bramdur Thundershod", "King Bramdur Thundershod", "King Bramdur"],
+    "tags": ["dwarf", "noble", "Dol Obok", "high king"],
     "age": "239",
     "gender": "Male",
     "race": "Dwarf",
     "occupation": "King",
     "affiliations": ["Dol Obok"],
-    "description": [
-      
-    ]
+    "description": []
   },
   "High-Queen-Inga-Villdyr": {
     "playerKnown": true,
@@ -164,8 +167,15 @@
     "hideOnCat": false,
     "name": "High Queen Inga Villdyr",
     "nickname": "High Queen Inga Villdyr",
-    "linkingWords": ["Queen Inga Villdyr","Inga Villdyr","Queen Inga","High Queen Inga","Inga Villdyr","High Queen of Lemuria"],
-    "tags": ["human","noble","Realm of Lemuria","Kingdom of Lemuria"],
+    "linkingWords": [
+      "Queen Inga Villdyr",
+      "Inga Villdyr",
+      "Queen Inga",
+      "High Queen Inga",
+      "Inga Villdyr",
+      "High Queen of Lemuria"
+    ],
+    "tags": ["human", "noble", "Realm of Lemuria", "Kingdom of Lemuria"],
     "age": "33",
     "gender": "Female",
     "race": "Human",
@@ -182,7 +192,7 @@
     "name": "Torild Sjomann",
     "nickname": "Clan Chief Torild Sjomann",
     "linkingWords": ["Chief Sjomann"],
-    "tags": ["human","noble","Realm of Lemuria"],
+    "tags": ["human", "noble", "Realm of Lemuria"],
     "age": "47",
     "gender": "Male",
     "race": "Human",
@@ -207,8 +217,13 @@
     "hideOnCat": false,
     "name": "Wuldren Tordenfødt",
     "nickname": "Clan Chief Wuldren Tordenfødt",
-    "linkingWords": ["Chieftain Tordenfødt","Chieftain Viljar Tordenfødt","Chieftain Tordenfodt","Wuldren Tordenfodt"],
-    "tags": ["tiefling","noble","Realm of Lemuria"],
+    "linkingWords": [
+      "Chieftain Tordenfødt",
+      "Chieftain Viljar Tordenfødt",
+      "Chieftain Tordenfodt",
+      "Wuldren Tordenfodt"
+    ],
+    "tags": ["tiefling", "noble", "Realm of Lemuria"],
     "age": "38",
     "gender": "Male",
     "race": "Tiefling",
@@ -231,8 +246,13 @@
     "hideOnCat": false,
     "name": "Viljar Bjørsel",
     "nickname": "Clan Chief Viljar Bjørsel",
-    "linkingWords": ["Chieftain Bjørsel","Chieftain Viljar Bjørsel","Chieftain Bjorsel","Viljar Bjorsel"],
-    "tags": ["tiefling","noble","Realm of Lemuria"],
+    "linkingWords": [
+      "Chieftain Bjørsel",
+      "Chieftain Viljar Bjørsel",
+      "Chieftain Bjorsel",
+      "Viljar Bjorsel"
+    ],
+    "tags": ["tiefling", "noble", "Realm of Lemuria"],
     "age": "42",
     "gender": "Male",
     "race": "Human",
@@ -256,19 +276,18 @@
     "name": "Hafr Sjomann",
     "nickname": "Huskarl Hafr Sjomann",
     "linkingWords": [],
-    "tags": ["half-elf","noble","Realm of Lemuria","Clan Sjomann"],
+    "tags": ["half-elf", "noble", "Realm of Lemuria", "Clan Sjomann"],
     "age": "72",
     "birthYear": "2C 2501",
     "gender": "Male",
     "race": "Half-Elf",
     "occupation": "",
-    "affiliations": ["Realm of Lemuria","Clan Arnbjorg","Clan Sjomann"],
+    "affiliations": ["Realm of Lemuria", "Clan Arnbjorg", "Clan Sjomann"],
     "description": [
       "Huskarl @+Hafr Sjomann+@ is a member of Clan Sjomann of Lemuria, the husband of Ulfrica Arnbjorg and the cousin of Torild Sjomann. The couple have one son, Sigird Arnbjorg. He is one of the huskarls, the personal retinue, of the Sjomann Clan Chieftain and a highly accomplished soldier. His marriage to Ulfrica was an arranged, political matter rather than a romantic relationship. The riddersman was born and raised in the port town of Sønnborg in the eastern half of the kingdom.",
       "Hafr is rarely at his wife's side in Kilurus, preferring to reside either in Postek, or with the noble-born riddersman that accompany the kingdom's levied armies. He is popular among the levied, peasant soldiers for his light-hearted demeanor and willingness to join the common soldiers at their fires in camp. He is commonly referred to by the nickname \"Huggorm\" (@*adder*@) due to his distinctive fighting style."
     ],
-    "dmArticles": {
-    }
+    "dmArticles": {}
   },
   "Han-Darga-Crogosh": {
     "playerKnown": true,
@@ -277,7 +296,7 @@
     "name": "Han Darga Crogosh",
     "nickname": "Han Darga Crogosh",
     "linkingWords": ["Han Darga Crogosh of Clan Godak"],
-    "tags": ["half-orc","king","noble","Realm of Cibrin"],
+    "tags": ["half-orc", "king", "noble", "Realm of Cibrin"],
     "age": "37",
     "gender": "Male",
     "race": "Half-Orc",
@@ -293,19 +312,18 @@
     "hideOnCat": true,
     "name": "Sigird Arnbjorg",
     "nickname": "Sigird Arnbjorg",
-    "tags": ["half-elf","noble","Realm of Lemuria"],
+    "tags": ["half-elf", "noble", "Realm of Lemuria"],
     "age": "28",
     "birthYear": "2C 2545",
     "gender": "Male",
     "race": "Half-Elf",
     "titles": ["Tanist"],
-    "affiliations": ["Realm of Lemuria","Clan Arnbjorg"],
+    "affiliations": ["Realm of Lemuria", "Clan Arnbjorg"],
     "description": [
       "@+Sigird Arnbjorg+@ is the Tanist, or heir-apparent, to the title of Chieftain of Clan Arnbjorg. He is the only child of Ulfrica Arnbjorg and Hafr Sjomann. Like his mother, Sigird is a powerful sorcerer. From a young age, both due to his innate magical abilities and his social class, Sigird has been tutored in the arts of etiquette, statecraft, and magic by some of the finest minds in the realm. Among the political elite of the kingdom, he is seen as the most eligible bachelor in Lemuria, and is regularly spoken of as a possible future High King.",
       "He has personally studied under Telarion Elentiir for 7 years, regularly traveling with the court mage to delegations with foreign officials and to Kvenvik Tower. Sigird ended his apprenticeship 2 years ago of his own accord, choosing to study under other mages to expand his arcane knowledge."
     ],
-    "articles": {
-    },
+    "articles": {},
     "dmArticles": {
       "Personality": [
         "Due to his mother's influence, Sigird believes he is destined to rule Lemuria as High King. He has been explicitly been left in the dark about what is going on by his mother, and prefers to spend his time as a socialite and playboy."
@@ -328,15 +346,13 @@
     "name": "Mertien Sarstina",
     "nickname": "Lord Mayor Mertien Sarstina",
     "linkingWords": [],
-    "tags": ["human","lord mayor","noble","Free City of Korasov"],
+    "tags": ["human", "lord mayor", "noble", "Free City of Korasov"],
     "age": "33",
     "gender": "Male",
     "race": "Human",
     "occupation": "Lord Mayor",
     "affiliations": ["Korasov"],
-    "description": [
-      "@+Mertien Sarstina+@ is the lord mayor of the free city-state of Korasov."
-    ]
+    "description": ["@+Mertien Sarstina+@ is the lord mayor of the free city-state of Korasov."]
   },
   "Queen-Kasattri": {
     "playerKnown": false,
@@ -345,14 +361,63 @@
     "name": "Queen Kasattri",
     "nickname": "Queen Kasattri",
     "linkingWords": [],
-    "tags": ["human","queen","noble","Nemetia"],
+    "tags": ["human", "queen", "noble", "Nemetia"],
     "age": "40",
     "gender": "Female",
     "race": "Human",
     "occupation": "Monarch",
     "affiliations": ["Nemetia"],
+    "description": ["@+Queen Terana-Sezim+@ is the feudal monarch of the Kingdom of Nemetia."]
+  },
+  "Duke-Konstantin-Kaluza": {
+    "playerKnown": true,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Duke Konstantin Kaluza",
+    "nickname": "Konstantin Kaluza",
+    "linkingWords": [],
+    "tags": ["human", "duke", "noble", "Navolin", "Temesz"],
+    "age": "38",
+    "gender": "Male",
+    "race": "Human",
+    "occupation": "Noble",
+    "affiliations": ["Navolin", "Temesz"],
     "description": [
-      "@+Queen Terana-Sezim+@ is the feudal monarch of the Kingdom of Nemetia."
+      "@+Duke Konstantin Kaluza+@ is the feudal ruler of the Duchy of Temesz in the Kingdom of Navolin."
+    ]
+  },
+  "Count-Bronislaw-Kaluza": {
+    "playerKnown": true,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Count Bronislaw Kaluza",
+    "nickname": "Bronislaw Kaluza",
+    "linkingWords": [],
+    "tags": ["human", "count", "noble", "Navolin", "Temesz", "Mezőske"],
+    "age": "53",
+    "gender": "Male",
+    "race": "Human",
+    "occupation": "Noble",
+    "affiliations": ["Navolin", "Temesz", "Mezőske"],
+    "description": [
+      "@+Count Bronislaw Kaluza+@ is the feudal ruler of the County of Mezőske in the Kingdom of Navolin. He is the uncle of Duke Konstantin Kaluza."
+    ]
+  },
+  "Terek-Stonebrook": {
+    "playerKnown": true,
+    "path": "person",
+    "hideOnCat": false,
+    "name": "Terek Stonebrook",
+    "nickname": "Terek Stonebrook",
+    "linkingWords": [],
+    "tags": ["halfling", "village elder", "Navolin", "Dathvár"],
+    "age": "106",
+    "gender": "Male",
+    "race": "Halfling",
+    "occupation": "Noble",
+    "affiliations": ["Dathvár", "County of Mezőske"],
+    "description": [
+      "@+Terek Stonebrook+@ is the village elder of Dathvár. As the local authority figure in the village, Terek handles local matters under the authority of Count Bronislaw Kaluza, the liege lord of the demnse."
     ]
   }
 }

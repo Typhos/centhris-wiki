@@ -2,14 +2,16 @@
   "Rythlon": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["village","navolin","szary","ulfwyst"],
+    "tags": ["village", "navolin", "szary", "ulfwyst"],
     "name": "Rythlon",
     "nickname": "Rythlon on Sulas",
     "type": "Village",
     "population": "~400",
-    "races": ["human","elf","halfling","gnome","half-elf","half-orc"],
+    "guards": "2",
+    "levy": "68",
+    "races": ["human", "elf", "halfling", "gnome", "half-elf", "half-orc"],
     "government": "Appointed Steward",
-    "leaders": ["Imizael Clathara","Selif Koric (former)"],
+    "leaders": ["Imizael Clathara", "Selif Koric (former)"],
     "nation": "Kingdom of Navolin",
     "location": "Kelishan Highlands",
     "description": [
@@ -19,12 +21,14 @@
   "Blackmoor": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["village","navolin","szary","ulfwyst"],
+    "tags": ["village", "navolin", "szary", "ulfwyst"],
     "name": "Blackmoor",
     "nickname": "Blackmoor",
     "type": "Village",
     "population": "248",
-    "races": ["human","halfing","half-elf","gnome","dwarf"],
+    "guards": "0",
+    "levy": "46",
+    "races": ["human", "halfing", "half-elf", "gnome", "dwarf"],
     "government": "Baron Regent",
     "leaders": ["Lady Alicia de Campos (Regent)", "Baron Radomil Bosko"],
     "nation": "Kingdom of Navolin",
@@ -37,14 +41,16 @@
   "Blåttfelt": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["village","","ulfwyst"],
+    "tags": ["village", "", "ulfwyst"],
     "name": "Blåttfelt",
     "nickname": "Blattfelt",
     "type": "Village",
     "population": "185",
-    "races": ["half-elf","human","elf","gnome"],
+    "guards": "0",
+    "levy": "35",
+    "races": ["half-elf", "human", "elf", "gnome"],
     "government": "Council",
-    "leaders": ["Hilga Bluefield","Erlinder Bluefield (absent)"],
+    "leaders": ["Hilga Bluefield", "Erlinder Bluefield (absent)"],
     "nation": "Realm of Lemuria",
     "location": "Razark Timberland",
     "description": [
@@ -52,28 +58,53 @@
       "The Svinge, which flows from the hills in the west into the Isdrage Bay in the east, allows the village easy access to other parts of Lemuria for trade, military service or clan councils."
     ],
     "articles": {
-        "Farming Village": [
-            "Blåttfelt is a village of peasant farmers, with almost no centralized infrastructure to speak of. Many families own their homesteads, a common occurrence in the kingdom, giving the village a large number of Karls, a low level, land-owning noble in the Lemurian system.",
-            "The village rarely has visitors or travelers who pass through, as it is not located on any major trade routes or roads. The few travelers that might pass through are generally adventurers heading towards the Barrowdowns, located to the northwest, hoping to delve into an ancient dungeon, or dispatch a dangerous monster in return for a reward from nobility in Postek."
-        ],
-        "Erlinder's Return Home": [
-            "On the 8th of Ebosk, 2C 2573, Erlinder returned home after 3 months away from the village. He found his family in good health and his children in high spirits. Erlinder's wife, Hilga, informed him that recently there have been disappearances in the village. The Thrainsson, Egilsson & Æskilssons families have gone missing. The home of each family has become wrapped in briars, either as part of, or after the disappearance.",
-            "Upon further investigation, it seemed that all 3 families have gone missing. Each estate seems to have been engulfed in briars and all signed pointed to the thorny vines having come from the Barrowdowns in the northwest. It was noted that all three families seem to be bloodline relations to Clan Arnbjorg, instead of vassal members. Erlinder engaged in a brief conversation with Guthrum Hallvardsson, who was not a blood relative of the Arnbjorgs. It was determined that the vines had chosen not to attack the Hallvardsson estate, even though they were in the path of a briar vine."
-        ],
-        "Families of Blåttfelt": [
-            "Blåttfelt is spread across a large area, with each homestead settled away from other farms, instead of a centralized, defensible village. The following are some of the nearly 40 families that reside in the village:",
-            "Folkmar Æskilssons, family of 3 (@*missing*@).",
-            "Erlinder Bluefield, family of 6.",
-            "Asvard Egilsson, family of 5 (@*missing*@).",
-            "Guthrum Hallvardsson, family of 5.",
-            "Iric Thrainsson, family of 4 (@*missing*@).",
-            "Kveldulf Wengosson, family of 6."
-        ]
+      "Farming Village": [
+        "Blåttfelt is a village of peasant farmers, with almost no centralized infrastructure to speak of. Many families own their homesteads, a common occurrence in the kingdom, giving the village a large number of Karls, a low level, land-owning noble in the Lemurian system.",
+        "The village rarely has visitors or travelers who pass through, as it is not located on any major trade routes or roads. The few travelers that might pass through are generally adventurers heading towards the Barrowdowns, located to the northwest, hoping to delve into an ancient dungeon, or dispatch a dangerous monster in return for a reward from nobility in Postek."
+      ],
+      "Erlinder's Return Home": [
+        "On the 8th of Ebosk, 2C 2573, Erlinder returned home after 3 months away from the village. He found his family in good health and his children in high spirits. Erlinder's wife, Hilga, informed him that recently there have been disappearances in the village. The Thrainsson, Egilsson & Æskilssons families have gone missing. The home of each family has become wrapped in briars, either as part of, or after the disappearance.",
+        "Upon further investigation, it seemed that all 3 families have gone missing. Each estate seems to have been engulfed in briars and all signed pointed to the thorny vines having come from the Barrowdowns in the northwest. It was noted that all three families seem to be bloodline relations to Clan Arnbjorg, instead of vassal members. Erlinder engaged in a brief conversation with Guthrum Hallvardsson, who was not a blood relative of the Arnbjorgs. It was determined that the vines had chosen not to attack the Hallvardsson estate, even though they were in the path of a briar vine."
+      ],
+      "Families of Blåttfelt": [
+        "Blåttfelt is spread across a large area, with each homestead settled away from other farms, instead of a centralized, defensible village. The following are some of the nearly 40 families that reside in the village:",
+        "Folkmar Æskilssons, family of 3 (@*missing*@).",
+        "Erlinder Bluefield, family of 6.",
+        "Asvard Egilsson, family of 5 (@*missing*@).",
+        "Guthrum Hallvardsson, family of 5.",
+        "Iric Thrainsson, family of 4 (@*missing*@).",
+        "Kveldulf Wengosson, family of 6."
+      ]
     },
     "dmArticles": {
-        "Cause of the Disappearances": [
-            "The disappearances in Blåttfelt, which were shared with Erlinder upon his return to the village, are due to the awakening of the King of Thorns in the Barrowdowns. The king has awoken after his tomb was sacked and the Moonshadow Crown was taken by his Great Great Granddaughter, Ulfrica Arnbjorg and her lieutenant, clan chief Balder Arnbjorg."
-        ]
+      "Cause of the Disappearances": [
+        "The disappearances in Blåttfelt, which were shared with Erlinder upon his return to the village, are due to the awakening of the King of Thorns in the Barrowdowns. The king has awoken after his tomb was sacked and the Moonshadow Crown was taken by his Great Great Granddaughter, Ulfrica Arnbjorg and her lieutenant, clan chief Balder Arnbjorg."
+      ]
     }
+  },
+  "Dathvár": {
+    "playerKnown": true,
+    "path": "location",
+    "tags": ["village", "navolin", "szary", "ulfwyst"],
+    "name": "Dathvár",
+    "nickname": "Dathvár",
+    "linkingWords": ["Dathvar"],
+    "type": "Village",
+    "population": "~130",
+    "guards": "0",
+    "levy": "19",
+    "races": ["halfling", "human", "dwarf", "half-elf", "gnome", "half-orc"],
+    "government": "Village Elder",
+    "leaders": ["Terek Stonebrook"],
+    "nation": ["Kingdom of Navolin", "former Kingdom of Sedobia"],
+    "location": "Kelishan Highlands",
+    "river": "Boroy creek",
+    "description": [
+      "The village of @+Dathvár+@ is small, farming village founded by halfling settlers around 2C 2050. The village is located along the Boroy creek in the Kelishan Highlands. The population of Dathvár is mostly halfling and human peasants. The majority of the peasantry work in farming, logging or herding. The village's economy is relatively weak, having been sacked roughly 20 years ago during the Siege of Rezavá, though it is beginning to recover and expand once again.",
+
+      "The village is located in the shadow of the ruined Castle Rezavá, which once served as a stronghold for footmen of the Kingdom of Sedobia before the War of Black Fields. The castle was heavily damaged in a 3-month siege in 2C 2553, and the lord-baron, Arvid Blažek, was killed during the final assault on the fortress. After the war, the county of Mezőske was granted to House Kaluza for their efforts in the conflict, and the newly established count of Mezőske, Bronislaw, decided the cost of reconstruction was too great given the low economic value of the region.",
+
+      "Currently, the village is under the direct rule of Bronislaw Kaluza, the count of Mezőske. The County of Mezőske is a de jure part of the Duchy of Temesz, ruled by Duke Konstantin Kaluza. Count Bronislaw does not oversee the village directly, leaving the day to day affairs of the village to be overseen by the village elder, Terek Stonebrook."
+    ]
   }
 }

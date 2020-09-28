@@ -1,8 +1,33 @@
-{  
+{
+  "Castle-Rezavá": {
+    "playerKnown": false,
+    "path": "location",
+    "tags": ["castle", "Navolin", "ulfwyst"],
+    "name": "Castle Rezavá",
+    "nickname": "Castle Rezavá",
+    "type": "Fortification",
+    "location": "Kelishan Highlands",
+    "leaders": ["Baron Arvid Blažek (deceased)"],
+    "garrison": "0 (previously 104)",
+    "description": [
+      "@+Castle Rezavá+@ once served as a stronghold for footmen of the Kingdom of Sedobia before the War of Black Fields. The castle was heavily damaged in a 3-month siege in 2C 2553, and the lord-baron, Arvid Blažek, was killed during the final assault on the fortress. After the war, the county of Mezőske was granted to House Kaluza for their efforts in the conflict, and the newly established count of Mezőske, Bronislaw, decided the cost of reconstruction was too great given the low economic value of the region.",
+
+      "The castle was originally constructed around 2C 2130 to protect the local region from raiders descending from the Desolate Wastes, or the various petty kingdoms of the Kelishan Highlands to the east. With the consolidation of the Kingdom of Sedobia, the castle became a prominent location for training men-at-arms."
+    ],
+    "artilces": {
+      "Ruins": ["The castle is currently "]
+    },
+    "dmArticles": {
+      "Hidden Dangers": [
+        "Though locals believe the castle was originally built by local humans and halflings, the original structure is much older, dating back to around 2C 1972. The keeps original construction was to serve as a eastern staging point for the forces of Shulxaa under the command of Ozudrem Frostbeard. The keep was eventually abandoned, and the teleportation sigil covered in several feet of mud and rock to hide its presence.",
+        "The lichs' planned, should they require it, to use this keep as a surprise invasion staging ground for eastward expansion."
+      ]
+    }
+  },
   "Castle-Romont": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","kaeldrin sanctum","ulfwyst"],
+    "tags": ["castle", "kaeldrin sanctum", "ulfwyst"],
     "name": "Castle Romont",
     "nickname": "Romont",
     "type": "Fortification",
@@ -10,12 +35,12 @@
     "leaders": [],
     "description": [
       "Castle Romont guards the western edge of the Sullen Fen. The castle was originally a single tower, constructed by an archmage long ago, but after her death the tower was fortified and turned into a proper defensive structure."
-    ]    
+    ]
   },
   "Castle-Grinsted": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["castle","navolin","rythlon","ulfwyst"],
+    "tags": ["castle", "navolin", "rythlon", "ulfwyst"],
     "name": "Castle Grinsted",
     "nickname": "Grinsted",
     "type": "Fortification",
@@ -23,12 +48,12 @@
     "leaders": ["Count Jeskin Sebroksi"],
     "description": [
       "Castle Grinsted is the home castle and seat of Count Jeskin Sebroksi. It is located along the Sulas river in southern Navolin and is the capital of the County of Szary. The castle is roughly two day's travel from the village of Rythlon."
-    ]    
+    ]
   },
   "Castle-Adendorf": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","navolin","ulfwyst"],
+    "tags": ["castle", "navolin", "ulfwyst"],
     "name": "Castle Adendorf",
     "nickname": "Castle Adendorf",
     "type": "Fortification",
@@ -36,12 +61,12 @@
     "leaders": ["Duchess Gertruda Czak"],
     "description": [
       "Castle Adendorf is the seat of the Duchy of Kezmarok, ruled by Duchess Gertruda Czak."
-    ]    
+    ]
   },
   "Castle-Bricza": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","navolin","ulfwyst"],
+    "tags": ["castle", "navolin", "ulfwyst"],
     "name": "Castle Bricza",
     "nickname": "Castle Bricza",
     "type": "Fortification",
@@ -49,12 +74,12 @@
     "leaders": ["Duchess Gertruda Czak"],
     "description": [
       "Castle Bricza guards the eastern border between Navolin and the Barrier Coast. The castle was almost completely destroyed several centuries ago by Kerathax, the Lord of Ash."
-    ]    
+    ]
   },
   "Castle-Westerholt": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","navolin","ulfwyst"],
+    "tags": ["castle", "navolin", "ulfwyst"],
     "name": "Castle Westerholt",
     "nickname": "Castle Westerholt",
     "type": "Fortification",
@@ -62,24 +87,24 @@
     "leaders": ["Baroness Tola Stolarz"],
     "description": [
       "Castle Westerholt is a border-keep near the Eye of Vel'dorin. It is the keep of Baroness Tola Stolarz and marks the western-most territory of Navolin."
-    ]    
+    ]
   },
   "Castle-Lęczyca": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","navolin","ulfwyst","abandoned"],
+    "tags": ["castle", "navolin", "ulfwyst", "abandoned"],
     "name": "Castle Lęczyca",
     "nickname": "Castle Lęczyca",
     "type": "Fortification",
     "location": "Gorcien Forests",
     "description": [
       "@+Castle Lęczyca+@ @*(Lec-zee-ca)*@ is an abandoned fortress in the Czinlas Weald of the Gorcien Forests. Peasants who live in other nearby villages say the castle has been abandoned for generations and claim it is haunted. None dare to venture near this dark place."
-    ]    
+    ]
   },
   "Castle-Roznów": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","navolin","ulfwyst","abandoned"],
+    "tags": ["castle", "navolin", "ulfwyst", "abandoned"],
     "name": "Castle Roznów",
     "nickname": "Castle Roznów",
     "type": "Fortification",
@@ -88,13 +113,12 @@
     "description": [
       "@+Castle Roznów+@ is an abandoned castle located on the edge of the Shambling Woods in north central Navolin. It was last occupied by Count Mathias Tykoncin, who ruled the area until 2C 2231, when the castle was sacked during the War of Five Crowns. After the castle's destruction, the ruins were never reclaimed, as the nearby woods seemed to creep ever closer to the keep. Those that attempted to explore the ruins looking for valuables rarely returned, and those that did claimed that strange beasts and moving trees guard the castle from intruders."
     ],
-    "dmArticles": {
-    }
+    "dmArticles": {}
   },
   "Castle-Tykocin": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","navolin","ulfwyst"],
+    "tags": ["castle", "navolin", "ulfwyst"],
     "name": "Castle Tykocin",
     "nickname": "Castle Tykocin",
     "type": "Fortification",
@@ -103,13 +127,12 @@
     "description": [
       "@+Castle Tykocin+@ overlooks the western roads of the Kingdom of Navolin leading into the Damali Steppe. It is the personal holding of Count Izdor Brzezick."
     ],
-    "dmArticles": {
-    }
+    "dmArticles": {}
   },
   "Castle-Wittmund": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","navolin","ulfwyst"],
+    "tags": ["castle", "navolin", "ulfwyst"],
     "name": "Castle Wittmund",
     "nickname": "Castle Wittmund",
     "type": "Fortification",
@@ -117,12 +140,12 @@
     "leaders": ["Countess Justina Ostrowski"],
     "description": [
       "@+Castle Wittmund+@ is a castle in the foothills of the Jordonis Mountains. It is the keep of Countess Justina Ostrowski guards against aggression from the creatures that live in the Gorcien Forests, or those that might descend from the mountains to the east."
-    ]    
+    ]
   },
   "Castle-Kollrung": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","navolin","ulfwyst"],
+    "tags": ["castle", "navolin", "ulfwyst"],
     "name": "Castle Kollrung",
     "nickname": "Castle Kollrung",
     "type": "Fortification",
@@ -130,12 +153,12 @@
     "leaders": ["Baroness Tola Stolarz"],
     "description": [
       "@+Castle Kollrung+@ is a castle in the heartland of the Kingdom of Navolin. It is the keep of Count Radomil Sokal, the count of Balwiec. At one time it marked the southern border of the kingdom before the wars of expansion that saw Navolin conquer the Kelishan Highlands."
-    ]    
+    ]
   },
   "Castle-Senmyr": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","navolin","ulfwyst"],
+    "tags": ["castle", "navolin", "ulfwyst"],
     "name": "Castle Senmyr",
     "nickname": "Castle Senmyr",
     "type": "Fortification",
@@ -143,12 +166,12 @@
     "leaders": ["Count Lucjan Kaluza"],
     "description": [
       "@+Castle Senmyr+@ is a castle located in the Duchy of Kezmarok in the Kingdom of Navolin. It is the keep of Count Lucjan Kaluza."
-    ]    
+    ]
   },
   "Castle-Erstfeld": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","kaeldrin scanctum","ulfwyst"],
+    "tags": ["castle", "kaeldrin scanctum", "ulfwyst"],
     "name": "Castle Erstfeld",
     "nickname": "Castle Erstfeld",
     "type": "Fortification",
@@ -156,12 +179,12 @@
     "leaders": [],
     "description": [
       "Guarding the southwest region of the Kaeldrin Sanctum, @+Castle Erstfeld+@ is an expansive fortress designed speficially to hold out against attacks from both the ground and sky. It is rumored the castle could withstand a siege for over 2 years without need for reinforcements."
-    ]    
+    ]
   },
   "Castle-Oltelmar": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","kaeldrin scanctum","ulfwyst"],
+    "tags": ["castle", "kaeldrin scanctum", "ulfwyst"],
     "name": "Castle Oltelmar",
     "nickname": "Castle Oltelmar",
     "type": "Fortification",
@@ -169,12 +192,12 @@
     "leaders": [],
     "description": [
       "Castle Oltelmar is a castle-town located centrally in the Zorebrak Peninsula. Though a functional keep, the primary purpose of the complex is to train battle-mages for the Kaeldrin military."
-    ]    
+    ]
   },
   "Castle-Ferden": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","kaeldrin scanctum","ulfwyst"],
+    "tags": ["castle", "kaeldrin scanctum", "ulfwyst"],
     "name": "Castle Ferden",
     "nickname": "Castle Ferden",
     "type": "Fortification",
@@ -182,12 +205,12 @@
     "leaders": [],
     "description": [
       "Built atop one of the few rocky hills in the Vorssav Marshlands, Castle Ferden provides a safe haven should hostile forces invade Kaeldrin from the northwest."
-    ]    
+    ]
   },
   "Castle-Thun": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","kaeldrin sanctum","ulfwyst"],
+    "tags": ["castle", "kaeldrin sanctum", "ulfwyst"],
     "name": "Castle Thun",
     "nickname": "Castle Thun",
     "type": "Fortification",
@@ -195,12 +218,12 @@
     "leaders": [],
     "description": [
       "A coastal fortress overlooking the Bay of Sathir, @+Castle Thun+@ stands atop a naturally jetty. Due to this imposing location and the ability to resupply the fortress from the sea, the castle has never been breached the few times it has been put under siege."
-    ]    
+    ]
   },
   "Castle-Zagórz": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","navolin","ulfwyst","abandoned","vampire"],
+    "tags": ["castle", "navolin", "ulfwyst", "abandoned", "vampire"],
     "name": "Castle Zagórz",
     "nickname": "Castle Zagórz",
     "type": "Fortification",
@@ -219,7 +242,7 @@
   "Auburn-Castle": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["castle","navolin","rythlon","ulfwyst"],
+    "tags": ["castle", "navolin", "rythlon", "ulfwyst"],
     "name": "Auburn Castle",
     "nickname": "Auburn Castle",
     "type": "Fortification",
@@ -233,7 +256,7 @@
   "Kaer-Valvik": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["castle","navolin","rythlon","ulfwyst"],
+    "tags": ["castle", "navolin", "rythlon", "ulfwyst"],
     "name": "Kaer Valvik",
     "nickname": "Kaer Valvik",
     "type": "Fortification",
@@ -246,7 +269,7 @@
   "Var-Zvolt": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["castle","Cibrin","Clan Godak","ulfwyst"],
+    "tags": ["castle", "Cibrin", "Clan Godak", "ulfwyst"],
     "name": "Var Zvolt",
     "nickname": "Var Zvolt",
     "type": "Fortification",
@@ -259,7 +282,7 @@
   "Var-Komarno": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","Cibrin","Clan Godak","ulfwyst"],
+    "tags": ["castle", "Cibrin", "Clan Godak", "ulfwyst"],
     "name": "Var Komarno",
     "nickname": "Var Komarno",
     "type": "Fortification",
@@ -272,33 +295,29 @@
   "Var-Rohoznik": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","Tovanis","ulfwyst"],
+    "tags": ["castle", "Tovanis", "ulfwyst"],
     "name": "Var Rohoznik",
     "nickname": "Var Rohoznik",
     "type": "Fortification",
     "location": "Tovanis",
     "leaders": [],
-    "description": [
-      "Var Rohoznik."
-    ]
+    "description": ["Var Rohoznik."]
   },
   "Var-Valoska": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","Tovanis","ulfwyst"],
+    "tags": ["castle", "Tovanis", "ulfwyst"],
     "name": "Var Valoska",
     "nickname": "Var Valoska",
     "type": "Fortification",
     "location": "Tovanis",
     "leaders": [],
-    "description": [
-      "Var Valoska."
-    ]
+    "description": ["Var Valoska."]
   },
   "Fesgart-Citadel": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","navolin","frecyra","ulfwyst"],
+    "tags": ["castle", "navolin", "frecyra", "ulfwyst"],
     "name": "Fesgart Citadel",
     "nickname": "Fesgart Citadel ",
     "type": "Fortification",
@@ -311,7 +330,7 @@
   "Dawnguard-Keep": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["castle","rakenburg","barrier coast","ulfwyst"],
+    "tags": ["castle", "rakenburg", "barrier coast", "ulfwyst"],
     "name": "Dawnguard Keep",
     "nickname": "Dawnguard Keep",
     "type": "Fortification",
@@ -324,7 +343,7 @@
   "Kaer-Alfjall": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","lemuria","ulfwyst"],
+    "tags": ["castle", "lemuria", "ulfwyst"],
     "name": "Kaer Alfjall",
     "nickname": "Kaer Alfjall",
     "type": "Fortification",
@@ -337,33 +356,29 @@
   "Kaer-Sundsvall": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","lemuria","ulfwyst"],
+    "tags": ["castle", "lemuria", "ulfwyst"],
     "name": "Kaer Sundsvall",
     "nickname": "Kaer Sundsvall",
     "type": "Fortification",
     "location": "Lemuria",
     "leaders": [],
-    "description": [
-      "Kaer Sundsvall."
-    ]
+    "description": ["Kaer Sundsvall."]
   },
   "Kaer-Uldrog": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","lemuria","ulfwyst"],
+    "tags": ["castle", "lemuria", "ulfwyst"],
     "name": "Kaer Uldrog",
     "nickname": "Kaer Uldrog",
     "type": "Fortification",
     "location": "Lemuria",
     "leaders": [],
-    "description": [
-      "Kaer Uldrog."
-    ]
+    "description": ["Kaer Uldrog."]
   },
   "Kaer-Undvik": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","lemuria","ulfwyst"],
+    "tags": ["castle", "lemuria", "ulfwyst"],
     "name": "Kaer Undvik",
     "nickname": "Kaer Undvik",
     "type": "Fortification",
@@ -376,33 +391,29 @@
   "Kaer-Ingskar": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","lemuria","ulfwyst"],
+    "tags": ["castle", "lemuria", "ulfwyst"],
     "name": "Kaer Ingskar",
     "nickname": "Kaer Ingskar",
     "type": "Fortification",
     "location": "Lemuria",
     "leaders": [],
-    "description": [
-      "Kaer Ingskar."
-    ]
+    "description": ["Kaer Ingskar."]
   },
   "Kaer-Ramvik": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","lemuria","ulfwyst"],
+    "tags": ["castle", "lemuria", "ulfwyst"],
     "name": "Kaer Ramvik",
     "nickname": "Kaer Ramvik",
     "type": "Fortification",
     "location": "Lemuria",
     "leaders": [],
-    "description": [
-      "Kaer Ramvik."
-    ]
+    "description": ["Kaer Ramvik."]
   },
   "Kaer-Edsken": {
     "playerKnown": true,
     "path": "location",
-    "tags": ["castle","lemuria","ulfwyst"],
+    "tags": ["castle", "lemuria", "ulfwyst"],
     "name": "Kaer Edsken",
     "nickname": "Kaer Edsken",
     "type": "Fortification",
@@ -420,7 +431,7 @@
   "Kaer-Soderhan": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","lemuria","ulfwyst"],
+    "tags": ["castle", "lemuria", "ulfwyst"],
     "name": "Kaer Soderhan",
     "nickname": "Kaer Soderhan",
     "type": "Fortification",
@@ -433,7 +444,7 @@
   "Castle-Mignollard": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","kaeldrin","ulfwyst"],
+    "tags": ["castle", "kaeldrin", "ulfwyst"],
     "name": "Castle Mignollard",
     "nickname": "Castle Mignollard",
     "type": "Fortification",
@@ -446,7 +457,7 @@
   "Var-Lozorn": {
     "playerKnown": false,
     "path": "location",
-    "tags": ["castle","realm of tovanis","ulfwyst"],
+    "tags": ["castle", "realm of tovanis", "ulfwyst"],
     "name": "Var Lozorn",
     "nickname": "Var Lozorn",
     "type": "Fortification",

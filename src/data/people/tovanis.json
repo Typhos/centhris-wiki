@@ -1,18 +1,24 @@
 {
-  "Didac-Jorda": {
+  "Didier-Jorda": {
     "playerKnown": false,
     "path": "person",
     "hideOnCat": false,
-    "name": "Didac Jorda",
-    "nickname": "Sir Didac Jorda",
+    "name": "Didier Jorda",
+    "nickname": "Sir Didier Jorda",
     "linkingWords": [],
-    "tags": ["human", "Axuros", "Realm of Tovanis"],
+    "tags": [
+      "human",
+      "Axuros",
+      "Realm of Tovanis"
+    ],
     "race": "Human",
     "occupation": "Grand Master",
     "gender": "Male",
-    "affiliations": ["Knights of the Righteous Soul"],
+    "affiliations": [
+      "Knights of the Righteous Soul"
+    ],
     "description": [
-      "@+Sir Didac Jorda+@ is the Grand Master of the Knights of the Righteous Soul, the clandestine order of mage hunters dedicated to keeping the Realm of Tovanis safe from the unchecked scourge of arcane magic."
+      "@+Sir Didier Jorda+@ is the Grand Master of the Knights of the Righteous Soul, the clandestine order of mage hunters dedicated to keeping the Realm of Tovanis safe from the unchecked scourge of arcane magic."
     ],
     "articles": {}
   },
@@ -23,12 +29,18 @@
     "name": "Ignac Lazar",
     "nickname": "Provost Vicarium Ignac Lazar",
     "linkingWords": [],
-    "tags": ["human", "Axuros", "Realm of Tovanis"],
+    "tags": [
+      "human",
+      "Axuros",
+      "Realm of Tovanis"
+    ],
     "race": "Human",
     "occupation": "Deputy Minister",
     "gender": "Male",
     "age": 48,
-    "affiliations": ["Realm of Tovanis"],
+    "affiliations": [
+      "Realm of Tovanis"
+    ],
     "description": [
       "@+Ignac Lazar+@ is the Provost Vicarium of the Realm of Tovanis, and thus holder of its second-most senior office.. The Provost Vicarium is appointed directly by the Provost Supremina of Tovanis under the advice of the Atrium Fidelium."
     ],
@@ -41,12 +53,18 @@
     "name": "Szofi Diana",
     "nickname": "Lady Szofi Diana",
     "linkingWords": [],
-    "tags": ["human", "Axuros", "Realm of Tovanis"],
+    "tags": [
+      "human",
+      "Axuros",
+      "Realm of Tovanis"
+    ],
     "race": "Human",
     "occupation": "Minister of Foreign Affairs",
     "gender": "Female",
     "age": 44,
-    "affiliations": ["Realm of Tovanis"],
+    "affiliations": [
+      "Realm of Tovanis"
+    ],
     "description": [
       "@+Lady Szofi Diana+@ is the Minister of Foreign Affairs of the Realm of Tovanis."
     ],
@@ -59,12 +77,18 @@
     "name": "Mozes Kovacs",
     "nickname": "Lord Marshal Mozes Kovacs",
     "linkingWords": [],
-    "tags": ["human", "Axuros", "Realm of Tovanis"],
+    "tags": [
+      "human",
+      "Axuros",
+      "Realm of Tovanis"
+    ],
     "race": "Human",
     "occupation": "Lord Marshal",
     "gender": "Male",
     "age": 57,
-    "affiliations": ["Realm of Tovanis"],
+    "affiliations": [
+      "Realm of Tovanis"
+    ],
     "description": [
       "@+Mozes Kovacs+@ is the Lord Marshal and a former Provost Vicarium of the Realm of Tovanis. He is a decorated field commander and an accomplished fencer."
     ],
@@ -77,13 +101,21 @@
     "name": "Cornelia Katalin",
     "nickname": "Sister Cornelia Katalin",
     "linkingWords": [],
-    "tags": ["human", "Axuros", "Realm of Tovanis"],
+    "tags": [
+      "human",
+      "Axuros",
+      "Realm of Tovanis"
+    ],
     "race": "Human",
     "occupation": "Lord Marshal",
     "gender": "Male",
     "age": 57,
-    "affiliations": ["Realm of Tovanis"],
-    "description": ["@+Cornelia Katalin+@ is the Sister Superior of the Oracula Anethos Solum."],
+    "affiliations": [
+      "Realm of Tovanis"
+    ],
+    "description": [
+      "@+Cornelia Katalin+@ is the Sister Superior of the Oracula Anethos Solum."
+    ],
     "articles": {}
   }
 }
